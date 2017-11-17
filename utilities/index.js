@@ -1,5 +1,5 @@
 
-// EXPECTS INPUT FILE IN JSON FORMAT FROM REDCap v7.4.10
+// EXPECTS INPUT FILE IN JSON FORMAT FROM REDCap version 7.4.10
 // #!/bin/sh
 // DATA="token=ADD TOKEN HERE&content=metadata&format=json&returnFormat=json&forms[0]=ADD FORM NAME"
 // CURL=`which curl`
