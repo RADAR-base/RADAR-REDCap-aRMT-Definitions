@@ -9,9 +9,6 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "node utilities/index.js redcap_url redcap_token questionnaire_name github_oauth_token"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions.git"
