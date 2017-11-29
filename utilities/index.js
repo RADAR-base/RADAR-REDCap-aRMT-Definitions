@@ -63,10 +63,10 @@ function REDCapConvertor(redcap_json) {
                     //second variable
                     switch (checkboxOrRadio) {
                         case 'radio':
-                            logicToEvaluate += '.indexOf(' + value2 + ') != -1';
+                            logicToEvaluate += value2 + ' != 0';
                             break;
                         case 'checkbox':
-                            logicToEvaluate += '.indexOf(' + checkboxValue + ') != -1';
+                            logicToEvaluate += checkboxValue + ' != 0';
                             break;
                     }
                 } else if (key2 % 4 === 3) {
