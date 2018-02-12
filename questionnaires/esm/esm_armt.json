@@ -1775,7 +1775,7 @@
     "matrix_group_name": "esm5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['esm_social_interact'] != 0"
+    "evaluated_logic": "responses['esm_social_interact'] == 0"
   },
   {
     "field_name": "esm_social_others",
@@ -1829,7 +1829,7 @@
     "matrix_group_name": "esm5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['esm_social_interact'] != 0"
+    "evaluated_logic": "responses['esm_social_interact'] == 0"
   },
   {
     "field_name": "esm_social_choice",
@@ -1883,7 +1883,7 @@
     "matrix_group_name": "esm5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['esm_social_interact'] != 0"
+    "evaluated_logic": "responses['esm_social_interact'] == 0"
   },
   {
     "field_name": "esm_social_left_out",
