@@ -1,8 +1,8 @@
 [
  {
-     "field_name": "romberg_1",
-     "form_name": "romberg_test",
-     "section_header": "Romberg's Test",
+     "field_name": "tandem_walking_test_1",
+     "form_name": "tandem_walking_test",
+     "section_header": "Tandem Walking Test",
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
@@ -30,9 +30,9 @@
      "evaluated_logic": ""
  },
  {
-     "field_name": "romberg_2",
-     "form_name": "romberg_test",
-     "section_header": "Romberg's Test",
+     "field_name": "tandem_walking_test_2",
+     "form_name": "tandem_walking_test",
+     "section_header": "Tandem Walking Test",
      "field_type": "timed",
      "field_label": "Keep your eyes open",
      "select_choices_or_calculations": [],
@@ -58,9 +58,9 @@
      "evaluated_logic": ""
  },
  {
-     "field_name": "romberg_3",
-     "form_name": "romberg_test",
-     "section_header": "Romberg's Test",
+     "field_name": "tandem_walking_test_3",
+     "form_name": "tandem_walking_test",
+     "section_header": "Tandem Walking Test",
      "field_type": "timed",
      "field_label": "Close your eyes",
      "select_choices_or_calculations": [],
