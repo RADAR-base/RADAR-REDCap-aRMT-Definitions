@@ -6,13 +6,13 @@
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
-       "label" : "Make yourself comfortable, and in standing position. Your feet should be together and your hands by your side.",
+       "label" : "Make yourself comfortable, and get into a standing position. Your feet should be together and your hands by your side.",
        "code" : "Part 1"
      }, {
-       "label" : "Press the start button. A timer will count down the seconds.",
+       "label" : "Take 10 steps in a straight line with the front foot placed such that its heel touches the toe of the standing foot.",
        "code" : "Part 2"
      }, {
-       "label" : "After 10 seconds, a beep will alert you to continue the exercise with your eyes closed.",
+       "label" : "Click 'NEXT' to begin. After completion of the 10 steps, click 'NEXT' again to complete.",
        "code" : "Part 3"
      } ],
      "field_note": "",
@@ -30,12 +30,15 @@
      "evaluated_logic": ""
  },
  {
-     "field_name": "tandem_walking_test_2",
+     "field_name": "tandem_walking_test_1",
      "form_name": "tandem_walking_test",
      "section_header": "Tandem Walking Test",
-     "field_type": "timed",
-     "field_label": "Keep your eyes open",
-     "select_choices_or_calculations": [],
+     "field_type": "info",
+     "field_label": "",
+     "select_choices_or_calculations": [ {
+       "label" : "Click 'NEXT' once the 10 steps have been completed.",
+       "code" : "Info"
+     }],
      "field_note": "",
      "text_validation_type_or_show_slider_number": "",
      "text_validation_min": "",
@@ -47,42 +50,7 @@
      "question_number": "",
      "matrix_group_name": "romberg",
      "matrix_ranking": "",
-     "field_annotation": {
-       "image" : "assets/imgs/eyesopen.png",
-       "timer" : {
-         "start": 20,
-         "end": 11
-       },
-       "unit" : "sec"
-     },
+     "field_annotation": "",
      "evaluated_logic": ""
  },
- {
-     "field_name": "tandem_walking_test_3",
-     "form_name": "tandem_walking_test",
-     "section_header": "Tandem Walking Test",
-     "field_type": "timed",
-     "field_label": "Close your eyes",
-     "select_choices_or_calculations": [],
-     "field_note": "",
-     "text_validation_type_or_show_slider_number": "",
-     "text_validation_min": "",
-     "text_validation_max": "",
-     "identifier": "",
-     "branching_logic": "",
-     "required_field": "",
-     "custom_alignment": "",
-     "question_number": "",
-     "matrix_group_name": "romberg",
-     "matrix_ranking": "",
-     "field_annotation": {
-       "image" : "assets/imgs/eyesclosed.png",
-       "timer" : {
-         "start": 10,
-         "end": 0
-       },
-       "unit" : "sec"
-     },
-     "evaluated_logic": ""
- }
 ]

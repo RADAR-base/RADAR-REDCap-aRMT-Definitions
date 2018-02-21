@@ -6,15 +6,19 @@
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
-       "label" : "Make yourself comfortable, and in standing position. Your feet should be together and your hands by your side.",
+       "label" : "Identify a 10 meter distance that you can easily walk back and forth.",
        "code" : "Part 1"
      }, {
-       "label" : "Press the start button. A timer will count down the seconds.",
+       "label" : "While wearing your chest harness, walk back and forth along the distance for 2 minutes until your phone signals you to stop.",
        "code" : "Part 2"
      }, {
-       "label" : "After 10 seconds, a beep will alert you to continue the exercise with your eyes closed.",
+       "label" : "Feel free to stop walking when you need a rest.",
        "code" : "Part 3"
-     } ],
+     },
+     {
+       "label" : "Press 'NEXT' to begin.",
+       "code" : "Part 4"
+     }],
      "field_note": "",
      "text_validation_type_or_show_slider_number": "",
      "text_validation_min": "",
@@ -24,7 +28,7 @@
      "required_field": "",
      "custom_alignment": "",
      "question_number": "",
-     "matrix_group_name": "romberg",
+     "matrix_group_name": "2MW",
      "matrix_ranking": "",
      "field_annotation": "",
      "evaluated_logic": ""
@@ -45,7 +49,7 @@
      "required_field": "",
      "custom_alignment": "",
      "question_number": "",
-     "matrix_group_name": "romberg",
+     "matrix_group_name": "2MW",
      "matrix_ranking": "",
      "field_annotation": {
        "image" : "assets/imgs/2MWT_walking.png",
