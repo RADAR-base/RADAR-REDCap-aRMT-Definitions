@@ -1432,26 +1432,30 @@
       },
       {
         "code": "2",
-        "label": "Residents"
+        "label": "Relatives living with you"
       },
       {
         "code": "3",
-        "label": "Family non-residents"
+        "label": "Relatives not living with you"
       },
       {
         "code": "4",
-        "label": "Friends"
+        "label": "House/roomates"
       },
       {
         "code": "5",
-        "label": "Classmates/colleagues"
+        "label": "Friends"
       },
       {
         "code": "6",
-        "label": "Caregiver"
+        "label": "Classmates/colleagues"
       },
       {
         "code": "7",
+        "label": "Caregiver"
+      },
+      {
+        "code": "8",
         "label": "Strangers/others"
       }
     ],
