@@ -111,7 +111,7 @@ function postToGitHub (github_token, redcap_form_name, filename, file_content) {
   })
 
   var github_details = {
-      owner: 'RADAR-CNS',
+      owner: 'RADAR-base',
       repo: 'RADAR-REDCap-aRMT-Definitions',
       path: 'questionnaires/'+ filename
   };
@@ -148,12 +148,12 @@ function postRADARJSON(redcap_url, redcap_token, redcap_form_name, github_token,
         forms: [redcap_form_name]
     };
 
-    request.post({url:redcap_url, form: post_form}, function(err,httpResponse,body){ 
-      var redcap_json = JSON.parse(body); 
+    request.post({url:redcap_url, form: post_form}, function(err,httpResponse,body){
+      var redcap_json = JSON.parse(body);
       var armt_json = REDCapConvertor(redcap_json);
       switch(type) {
           case 'redcap':
-             postToGitHub(github_token,redcap_form_name,redcap_form_name + "/"+ redcap_form_name + "_redcap.json", JSON.stringify(redcap_json,null,4));   
+             postToGitHub(github_token,redcap_form_name,redcap_form_name + "/"+ redcap_form_name + "_redcap.json", JSON.stringify(redcap_json,null,4));
           break;
           default:
             postToGitHub(github_token,redcap_form_name,redcap_form_name + "/"+ redcap_form_name + "_armt.json", JSON.stringify(armt_json,null,4));

@@ -1,0 +1,56 @@
+[
+ {
+     "field_name": "tandem_walking_test_1",
+     "form_name": "tandem_walking_test",
+     "section_header": "Tandem Walking Test",
+     "field_type": "info",
+     "field_label": "",
+     "select_choices_or_calculations": [ {
+       "label" : "Si metta in piedi. Unisca i piedi e distenda le braccia lungo i fianchi.",
+       "code" : "Parte 1"
+     }, {
+       "label" : "Compia 10 passi in linea retta. Ad ogni passo posizioni il piede modo tale che il tallone tocchi la punta del piede che sta dietro. (Come se camminasse su una fune).",
+       "code" : "Parte 2"
+     }, {
+       "label" : "Clicchi ‘Successivo’ per iniziare, una volta completati i 10 passi, clicchi nuovamente ‘Successivo’ per terminare il test.",
+       "code" : "Parte 3"
+     } ],
+     "field_note": "",
+     "text_validation_type_or_show_slider_number": "",
+     "text_validation_min": "",
+     "text_validation_max": "",
+     "identifier": "",
+     "branching_logic": "",
+     "required_field": "",
+     "custom_alignment": "",
+     "question_number": "",
+     "matrix_group_name": "tandem_walking_test",
+     "matrix_ranking": "",
+     "field_annotation": "",
+     "evaluated_logic": ""
+ },
+ {
+     "field_name": "tandem_walking_test_2",
+     "form_name": "tandem_walking_test",
+     "section_header": "Tandem Walking Test",
+     "field_type": "info",
+     "field_label": "",
+     "select_choices_or_calculations": [ {
+       "label" : "Clicchi ‘Successivo’ una volta effettuati i 10 passi.",
+       "code" : "Part 1"
+     } ],
+     "field_note": "",
+     "text_validation_type_or_show_slider_number": "",
+     "text_validation_min": "",
+     "text_validation_max": "",
+     "identifier": "",
+     "branching_logic": "",
+     "required_field": "",
+     "custom_alignment": "",
+     "question_number": "",
+     "matrix_group_name": "tandem_walking_test",
+     "matrix_ranking": "",
+     "field_annotation": "",
+     "evaluated_logic": ""
+ }
+]
