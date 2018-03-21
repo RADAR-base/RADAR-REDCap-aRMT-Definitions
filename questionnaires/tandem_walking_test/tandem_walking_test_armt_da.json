@@ -2,18 +2,18 @@
  {
      "field_name": "tandem_walking_test_1",
      "form_name": "tandem_walking_test",
-     "section_header": "Tandem Walking Test",
+     "section_header": "Linjegang (Tandem Walking)",
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
-       "label" : "Si metta in piedi. Unisca i piedi e distenda le braccia lungo i fianchi.",
-       "code" : "Parte 1"
+       "label" : "Gør dig komfortabel i en stående stilling. Dine fødder skal være samlet og dine arme og hænder skal hænge afslappet ned langs siden",
+       "code" : "Del 1"
      }, {
-       "label" : "Compia 10 passi in linea retta. Ad ogni passo posizioni il piede modo tale che il tallone tocchi la punta del piede che sta dietro. (Come se camminasse su una fune).",
-       "code" : "Parte 2"
+       "label" : "Tag 10 skridt, som skulle du gå på line. Du placerer en fod foran den anden, så din hæl rører tæerne på den stående fod.",
+       "code" : "Del 2"
      }, {
-       "label" : "Clicchi ‘Successivo’ per iniziare, una volta completati i 10 passi, clicchi nuovamente ‘Successivo’ per terminare il test.",
-       "code" : "Parte 3"
+       "label" : "Tryk “Næste” for at starte. Efter du har gået de 10 skridt, tryk “Næste” igen for at afslutte testen.",
+       "code" : "Del 3"
      } ],
      "field_note": "",
      "text_validation_type_or_show_slider_number": "",
@@ -32,12 +32,12 @@
  {
      "field_name": "tandem_walking_test_2",
      "form_name": "tandem_walking_test",
-     "section_header": "Tandem Walking Test",
+     "section_header": "Linjegang (Tandem Walking)",
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
-       "label" : "Clicchi ‘Successivo’ una volta effettuati i 10 passi.",
-       "code" : "Parte 1"
+       "label" : "Tryk “Næste” når de 10 skridt er udført.",
+       "code" : "Del 1"
      } ],
      "field_note": "",
      "text_validation_type_or_show_slider_number": "",
