@@ -28,10 +28,6 @@
         "field_label": "I slept well",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -81,10 +77,6 @@
         "field_type": "radio",
         "field_label": "Right now, I feel cheerful",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -136,10 +128,6 @@
         "field_label": "Right now, I feel down",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -189,10 +177,6 @@
         "field_type": "radio",
         "field_label": "Right now, I feel anxious",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -244,10 +228,6 @@
         "field_label": "Right now, I feel relaxed",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -297,10 +277,6 @@
         "field_type": "radio",
         "field_label": "Right now, I feel irritated",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -352,10 +328,6 @@
         "field_label": "Right now, I feel stressed",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -405,10 +377,6 @@
         "field_type": "radio",
         "field_label": "Right now, I feel content",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -460,10 +428,6 @@
         "field_label": "Right now, I feel insecure",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -513,10 +477,6 @@
         "field_type": "radio",
         "field_label": "Right now, I feel hopeful",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -568,10 +528,6 @@
         "field_label": "Right now, I feel lonely",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -621,10 +577,6 @@
         "field_type": "radio",
         "field_label": "I am satisfied with myself",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -676,10 +628,6 @@
         "field_label": "I feel self-confident",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -729,10 +677,6 @@
         "field_type": "radio",
         "field_label": "Globally, I feel well",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -784,10 +728,6 @@
         "field_label": "I am ruminating",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -837,10 +777,6 @@
         "field_type": "radio",
         "field_label": "I am able to concentrate well",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -962,10 +898,6 @@
         "field_label": "I can do this well",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1015,10 +947,6 @@
         "field_type": "radio",
         "field_label": "I would rather do something else",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1070,10 +998,6 @@
         "field_label": "This activity requires effort",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1123,10 +1047,6 @@
         "field_type": "radio",
         "field_label": "Physically, I am active",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1178,10 +1098,6 @@
         "field_label": "Physically, I am tired",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1232,10 +1148,6 @@
         "field_label": "Physcially, I am in pain",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1285,10 +1197,6 @@
         "field_type": "radio",
         "field_label": "Physically, I do not feel well",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1482,10 +1390,6 @@
         "field_label": "We are doing something together",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1535,10 +1439,6 @@
         "field_type": "radio",
         "field_label": "I find the people I am with pleasant",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1590,10 +1490,6 @@
         "field_label": "I would prefer to be alone",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1643,10 +1539,6 @@
         "field_type": "radio",
         "field_label": "I feel connected to the people I am with",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1698,10 +1590,6 @@
         "field_label": "I feel fine being alone",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1751,10 +1639,6 @@
         "field_type": "radio",
         "field_label": "I would prefer to be with others",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1806,10 +1690,6 @@
         "field_label": "Being alone right now is my choice",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1859,10 +1739,6 @@
         "field_type": "radio",
         "field_label": "I feel left out",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -1944,10 +1820,6 @@
         "field_label": "I find this virtual interaction pleasant",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -1997,10 +1869,6 @@
         "field_type": "radio",
         "field_label": "Most people would find my current situation stressful",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
@@ -2202,10 +2070,6 @@
         "field_label": "This beep disturbed me",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all"
-            },
-            {
                 "code": "1",
                 "label": "1"
             },
@@ -2255,10 +2119,6 @@
         "field_type": "radio",
         "field_label": "Filling out the questionnaire has influenced my mood today",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all"
-            },
             {
                 "code": "1",
                 "label": "1"
