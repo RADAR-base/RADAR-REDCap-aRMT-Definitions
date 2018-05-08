@@ -1,17 +1,17 @@
 [
   {
       "field_name": "thinc_it_1",
-      "form_name": "thinic_it",
-      "section_header": "Time for Thinc-it",
+      "form_name": "thinc_it",
+      "section_header": "Time for THINC-it",
       "field_type": "info",
       "field_label": "",
       "select_choices_or_calculations": [
       {
-        "label" : "It's time to complete the Thin-it app.",
+        "label" : "It's time to complete the THINC-it app.",
         "code" : "Part 1"
       },
       {
-        "label" : "Press the home button and open the Thinc-it app",
+        "label" : "Press the home button and open the THINC-it app",
         "code" : "Part 2"
       }
       ],
@@ -24,7 +24,7 @@
       "required_field": "",
       "custom_alignment": "",
       "question_number": "",
-      "matrix_group_name": "thinic_it",
+      "matrix_group_name": "thinc_it",
       "matrix_ranking": "",
       "field_annotation": "",
       "evaluated_logic": ""
