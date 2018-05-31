@@ -101,7 +101,7 @@ function REDCapConvertor(redcap_json) {
 
 }
 
-function postToGitHub (github_token, redcap_form_name, filename, file_content) {
+function postToGitHub (github_token, filename, file_content) {
 
   var github = new GitHubApi()
 
@@ -136,7 +136,29 @@ function postToGitHub (github_token, redcap_form_name, filename, file_content) {
 
 }
 
-function postRADARJSON(redcap_url, redcap_token, redcap_form_name, github_token, type) {
+function splitIntoQuestionnaires(armt_json) {
+  questionnaires = {}
+  for(var i = 0; i < armt_json.length; i++) {
+    try {
+        questionnaires[armt_json[i]['form_name']].push(armt_json[i])
+
+    } catch(e) {
+      questionnaires[armt_json[i]['form_name']] = [armt_json[i]]
+    }
+  }
+  return questionnaires
+}
+
+function preparePostToGithub(form_name, form, lang, github_token) {
+  console.log(lang + ' ' + form_name)
+  postToGitHub(github_token,
+    form_name + "/"+ form_name + "_armt" + lang + ".json",
+    JSON.stringify(form,null,4)
+  );
+}
+
+function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvention) {
+    var lang = "_" + langConvention || '';
     var redcap_url = redcap_url || '';
     var redcap_token = redcap_token || '';
     var redcap_form_name = redcap_form_name || '';
@@ -151,15 +173,35 @@ function postRADARJSON(redcap_url, redcap_token, redcap_form_name, github_token,
     request.post({url:redcap_url, form: post_form}, function(err,httpResponse,body){
       var redcap_json = JSON.parse(body);
       var armt_json = REDCapConvertor(redcap_json);
-      switch(type) {
-          case 'redcap':
-             postToGitHub(github_token,redcap_form_name,redcap_form_name + "/"+ redcap_form_name + "_redcap.json", JSON.stringify(redcap_json,null,4));
+
+      var redcap_json_questionnaires = splitIntoQuestionnaires(redcap_json)
+      var armt_json_questionnaires = splitIntoQuestionnaires(armt_json)
+
+      form_names = Object.keys(armt_json_questionnaires)
+      setInterval(function() {
+        form_name = form_names[globalItter]
+        form_armt = armt_json_questionnaires[form_name]
+        form_redcap = redcap_json_questionnaires[form_name]
+        switch(type) {
+          case 'redcap': preparePostToGithub(form_name, form_redcap, lang, github_token)
+
+          default: preparePostToGithub(form_name, form_armt, lang, github_token)
           break;
-          default:
-            postToGitHub(github_token,redcap_form_name,redcap_form_name + "/"+ redcap_form_name + "_armt.json", JSON.stringify(armt_json,null,4));
-      }
+        }
+        globalItter += 1
+        if (globalItter == form_names.length) {
+          process.exit()
+        }
+      }, 2000)
+      /*for(var form_idx in form_names) {
+        var form_name = form_names[form_idx]
+        console.log(form_name)
+        var form = armt_json_questionnaires[form_name]
+        setTimeout(function(form_name, form, lang, github_token) {preparePostToGithub(form_name, form, lang, github_token)}, (form_name, form, lang, github_token), 1000*form_idx)
+      }*/
     });
 }
 
+var globalItter = 0
 var args = process.argv.slice(2);
 postRADARJSON(args[0], args[1], args[2], args[3], args[4]);
