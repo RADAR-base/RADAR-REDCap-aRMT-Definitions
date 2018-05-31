@@ -1,0 +1,212 @@
+[
+    {
+        "field_name": "pdq_1",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "Hoe vaak heeft u in de afgelopen 7 dagen:",
+        "field_type": "radio",
+        "field_label": "Problemen gehad om dagelijkse dingen te organiseren?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nooit in de afgelopen 7 dagen"
+            },
+            {
+                "code": "\r1",
+                "label": "Zelden (1 of 2 keer)"
+            },
+            {
+                "code": "\r2",
+                "label": "Soms (3-5 keer)"
+            },
+            {
+                "code": "\r3",
+                "label": "Vaak (ongeveer 1 keer per dag)"
+            },
+            {
+                "code": "\r4",
+                "label": "Zeer vaak (meer dan eens per dag)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_2",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Problemen gehad om zich te concentreren op wat u leest?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nooit in de afgelopen 7 dagen"
+            },
+            {
+                "code": "1",
+                "label": "Zelden (1 of 2 keer)"
+            },
+            {
+                "code": "2",
+                "label": "Soms (3-5 keer)"
+            },
+            {
+                "code": "3",
+                "label": "Vaak (ongeveer 1 keer per dag)"
+            },
+            {
+                "code": "4",
+                "label": "Zeer vaak (meer dan eens per dag)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_3",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Problemen gehad de datum te herinneren zonder dit te moeten nakijken?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nooit in de afgelopen 7 dagen"
+            },
+            {
+                "code": "1",
+                "label": "Zelden (1 of 2 keer)"
+            },
+            {
+                "code": "2",
+                "label": "Soms (3-5 keer)"
+            },
+            {
+                "code": "3",
+                "label": "Vaak (ongeveer 1 keer per dag)"
+            },
+            {
+                "code": "4",
+                "label": "Zeer vaak (meer dan eens per dag)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_4",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Problemen gehad om na een telefoongesprek te herinneren waarover het gesprek ging?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nooit in de afgelopen 7 dagen"
+            },
+            {
+                "code": "1",
+                "label": "Zelden (1 of 2 keer)"
+            },
+            {
+                "code": "2",
+                "label": "Soms (3-5 keer)"
+            },
+            {
+                "code": "3",
+                "label": "Vaak (ongeveer 1 keer per dag)"
+            },
+            {
+                "code": "4",
+                "label": "Zeer vaak (meer dan eens per dag)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_5",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Het gevoel gehad zich plotseling aan niets meer te herinneren?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nooit in de afgelopen 7 dagen"
+            },
+            {
+                "code": "1",
+                "label": "Zelden (1 of 2 keer)"
+            },
+            {
+                "code": "2",
+                "label": "Soms (3-5 keer)"
+            },
+            {
+                "code": "3",
+                "label": "Vaak (ongeveer 1 keer per dag)"
+            },
+            {
+                "code": "4",
+                "label": "Zeer vaak (meer dan eens per dag)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
