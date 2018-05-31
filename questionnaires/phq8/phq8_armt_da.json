@@ -2,25 +2,25 @@
     {
         "field_name": "phq8_1",
         "form_name": "phq8",
-        "section_header": "Hoe vaak hebt u in de afgelopen 2 weken last gehad van één of meer van de volgende problemen?",
+        "section_header": "Inden for de seneste 2 uger, hvor ofte har du været generet af følgende problemer?",
         "field_type": "radio",
-        "field_label": "1. Weinig interesse of plezier in activiteiten",
+        "field_label": "1. Lille interesse i eller glæde ved at gøre ting?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -42,23 +42,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "2. Zich neerslachtig, depressief of hopeloos voelen",
+        "field_label": "2. Følt dig nedtrykt, håbløs eller været deprimeret?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -80,23 +80,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "3. Moeilijk inslapen, moeilijk doorslapen of te veel slapen",
+        "field_label": "3. Problemer med at falde i søvn eller sove, eller med at sove for meget?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -118,23 +118,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "4. Zich moe voelen of gebrek aan energie hebben",
+        "field_label": "4. Følt dig træt eller har kun haft lidt energi?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -156,23 +156,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "5. Weinig eetlust of overmatig eten",
+        "field_label": "5. Ringe appetit eller spist for meget",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -194,23 +194,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "6. Een slecht gevoel hebben over uzelf - of het gevoel hebben dat u een mislukkeling bent of het gevoel dat u zichzelf of uw familie teleurgesteld hebt.",
+        "field_label": "6. Haft det dårligt med dig selv - eller følt, at du er en fiasko eller har skuffet dig selv eller din familie?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -232,23 +232,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "7. Problemen om u te concentreren, bijvoorbeeld om de krant te lezen of om tv te kijken",
+        "field_label": "7. Problemer med at koncentrere dig om ting, såsom at læse avisen eller se TV?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
@@ -270,23 +270,23 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "8. Zo traag bewegen of zo langzaam spreken dat andere mensen dit opgemerkt kunnen hebben? Of het tegenovergestelde, zo zenuwachtig of rusteloos zijn dat u veel meer bewoog dan gebruikelijk",
+        "field_label": "8. Har bevæget dig eller talt så langsomt, at andre kunne have bemærket det? Eller det modsatte - været så rastløs eller hvileløs, at du har bevæget dig mere omkring end sædvanligt?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Helemaal niet "
+                "label": " Slet ikke "
             },
             {
                 "code": " 1",
-                "label": " Verscheidene dagen "
+                "label": " Flere dage "
             },
             {
                 "code": " 2",
-                "label": " Meer dan de helft van de dagen "
+                "label": " Mere end halvdelen af dagene "
             },
             {
                 "code": " 3",
-                "label": " Bijna elke dag"
+                "label": " Næsten hver dag"
             }
         ],
         "field_note": "",
