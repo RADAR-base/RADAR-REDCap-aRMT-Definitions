@@ -25,11 +25,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik heb goed geslapen",
+        "field_label": "Jeg har sovet godt",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -57,7 +57,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -79,11 +79,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me opgewekt",
+        "field_label": "Lige nu føler jeg mig glad",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -111,7 +111,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -133,11 +133,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me somber",
+        "field_label": "Lige nu føler jeg mig trist ",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -165,7 +165,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -187,11 +187,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me angstig",
+        "field_label": "Lige nu føler jeg mig ængstelig",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -219,7 +219,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -241,11 +241,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me ontspannen",
+        "field_label": "Lige nu føler jeg mig afslappet",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -273,7 +273,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -295,11 +295,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me geirriteerd",
+        "field_label": "Lige nu føler jeg mig irritabel",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -327,7 +327,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -349,11 +349,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me gestressed",
+        "field_label": "Lige nu føler jeg mig stresset",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -381,7 +381,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -403,11 +403,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me tevreden",
+        "field_label": "Lige nu føler jeg mig veltilfreds",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -435,7 +435,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -457,11 +457,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me onzeker",
+        "field_label": "Lige nu føler jeg mig usikker",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -489,7 +489,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -511,11 +511,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me hoopvol",
+        "field_label": "Lige nu føler jeg mig håbefuld",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -543,7 +543,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -565,11 +565,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Op dit moment voel ik me eenzaam",
+        "field_label": "Lige nu føler jeg mig ensom",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -597,7 +597,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -619,11 +619,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik ben tevreden met mijzelf ",
+        "field_label": "Lige nu er jeg tilfreds med mig selv",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -651,7 +651,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -673,11 +673,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik voel me rusteloos",
+        "field_label": "Jeg føler mig rastløs",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -705,7 +705,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -727,11 +727,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik voel me zelfverzekerd",
+        "field_label": "Lige nu føler jeg mig selvsikker",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -759,7 +759,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -781,11 +781,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Globaal gezien voel ik me nu goed",
+        "field_label": "Alt i alt har jeg det godt",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -813,7 +813,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -835,11 +835,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik ben aan het piekeren",
+        "field_label": "Jeg tænker meget over tingene",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -867,7 +867,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -889,11 +889,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik kan me goed concentreren",
+        "field_label": "Jeg er god til at koncentrere mig",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -921,7 +921,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -943,55 +943,55 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Wat ben ik aan het doen (voor de piep)?",
+        "field_label": "Hvad laver jeg  (lige før bippet)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Niets "
+                "label": " Ingenting "
             },
             {
                 "code": " 1",
-                "label": " Rusten "
+                "label": " Hviler "
             },
             {
                 "code": " 2",
-                "label": " Eten/drinken "
+                "label": " Spiser/Drikker "
             },
             {
                 "code": " 3",
-                "label": " Passieve vrijetijdsbesteding (TV"
+                "label": " Passiv underholdning (tv"
             },
             {
                 "code": " 4",
-                "label": " Actieve vrije tijdsbesteding (wandelen"
+                "label": " Aktiv underholdning (Gå ture"
             },
             {
                 "code": " 5",
-                "label": " Reizen "
+                "label": " Rejser "
             },
             {
                 "code": " 6",
-                "label": " Huishouden/boodschappen "
+                "label": " Husholdning/indkøb "
             },
             {
                 "code": " 7",
-                "label": " Werk/studie "
+                "label": " Arbejder/studerer "
             },
             {
                 "code": " 8",
-                "label": " Zelfverzorging "
+                "label": " Plejer mig selv "
             },
             {
                 "code": " 9",
-                "label": " Interactie/gesprek "
+                "label": " Er sammen med andre/Taler med andre "
             },
             {
                 "code": " 10",
-                "label": " Mobiele telefoon/sociale media "
+                "label": " Mobil tlelfon / Sociale medier "
             },
             {
                 "code": " 11",
-                "label": " Iets anders"
+                "label": " Andet"
             }
         ],
         "field_note": "",
@@ -1013,11 +1013,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Dit kan ik goed ",
+        "field_label": "Jeg kan udføre dette uden problemer",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1045,7 +1045,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1067,11 +1067,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik zou liever iets anders doen",
+        "field_label": "Jeg ville hellere lave noget andet",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1099,7 +1099,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1121,11 +1121,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Deze activiteit is een uitdaging",
+        "field_label": "Denne aktivitet kræver en del kræfter",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1153,7 +1153,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1175,11 +1175,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik ben fysiek actief",
+        "field_label": "Fysisk er jeg aktiv",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1207,7 +1207,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1229,11 +1229,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik ben moe",
+        "field_label": "Jeg er fysisk træt",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1261,7 +1261,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1283,11 +1283,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik heb pijn",
+        "field_label": "Jeg har fysiske smerter",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1315,7 +1315,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1337,11 +1337,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik voel me fysiek niet goed",
+        "field_label": "Jeg har det fysisk dårligt",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1369,7 +1369,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1391,35 +1391,35 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Waar ben ik?",
+        "field_label": "Hvor er jeg henne?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Thuis"
+                "label": " Hjemme "
             },
             {
                 "code": " 1",
-                "label": " Bij familie of vrienden "
+                "label": " Hos familie eller venner "
             },
             {
                 "code": " 2",
-                "label": " Op het werk of op school "
+                "label": " På arbejde eller i skole "
             },
             {
                 "code": " 3",
-                "label": " Onderweg "
+                "label": " Transport "
             },
             {
                 "code": " 4",
-                "label": " Gezondheidszorginstelling "
+                "label": " Sundhedsvæsnet "
             },
             {
                 "code": " 5",
-                "label": " Ergens anders in een gebouw "
+                "label": " Andet sted indendøre "
             },
             {
                 "code": " 6",
-                "label": " Ergens anders buiten"
+                "label": " Andet sted udendøre"
             }
         ],
         "field_note": "",
@@ -1441,11 +1441,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Met wie ben ik?",
+        "field_label": "Hvem er jeg sammen med?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Alleen "
+                "label": " Alene "
             },
             {
                 "code": " 1",
@@ -1453,31 +1453,31 @@
             },
             {
                 "code": " 2",
-                "label": " Inwonende familie "
+                "label": " Familie - samboende "
             },
             {
                 "code": " 3",
-                "label": " Niet-inwonende familie "
+                "label": " Familie - ikke samboende "
             },
             {
                 "code": " 4",
-                "label": " Huisgenoten "
+                "label": " Bofæller "
             },
             {
                 "code": " 5",
-                "label": " Vrienden "
+                "label": " Venner "
             },
             {
                 "code": " 6",
-                "label": " Klasgenoten/collega's "
+                "label": " Klassekammerater/kolleger "
             },
             {
                 "code": " 7",
-                "label": " Verzorgers "
+                "label": " Sundhedspersonale "
             },
             {
                 "code": " 8",
-                "label": " Onbekenden/anderen"
+                "label": " Fremmede/Andre"
             }
         ],
         "field_note": "",
@@ -1499,7 +1499,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Bij hoeveel mensen ben ik?",
+        "field_label": "Hvor mange mennesker er jeg sammen med?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1515,7 +1515,7 @@
             },
             {
                 "code": "4",
-                "label": "meer dan 10"
+                "label": "over 10"
             }
         ],
         "field_note": "",
@@ -1537,11 +1537,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "We zijn samen iets aan het doen",
+        "field_label": "Vi laver noget sammen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1569,7 +1569,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1591,11 +1591,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik vind dit gezelschap aangenaam",
+        "field_label": "De mennesker jeg er sammen med er rare at være sammen med",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1623,7 +1623,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1645,11 +1645,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik zou liever alleen zijn",
+        "field_label": "Jeg ville have foretrukket at være alene",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1677,7 +1677,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1699,11 +1699,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik voel me verbonden met de mensen waar ik bij ben",
+        "field_label": "Jeg føler mig knyttet til de mennesker jeg er sammen med.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1731,7 +1731,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1753,11 +1753,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Het voelt ok om alleen te zijn",
+        "field_label": "Jeg har det fint med at være alene",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1785,7 +1785,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1807,11 +1807,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik zou liever bij anderen zijn",
+        "field_label": "Jeg ville foretrække at være sammen med andre",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1839,7 +1839,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1861,11 +1861,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Het is mijn keuze om alleen te zijn op dit moment",
+        "field_label": "Jeg har selv valgt at være alene lige nu",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1893,7 +1893,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1915,11 +1915,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik voel me buitengesloten",
+        "field_label": "Jeg føler mig udenfor",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -1947,7 +1947,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -1969,11 +1969,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik heb online contact met anderen op dit moment",
+        "field_label": "Jeg er virituelt interaktiv ",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Neen"
+                "label": "Nej"
             },
             {
                 "code": "1",
@@ -1999,11 +1999,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ik vind deze online interactie aangenaam",
+        "field_label": "Jeg kan godt lide at være virituelt aktiv",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -2031,7 +2031,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -2053,11 +2053,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "De meeste mensen zouden mijn huidige situatie stresvol vinden",
+        "field_label": "Andre ville nok finde min situation stressfuld",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -2085,7 +2085,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -2107,11 +2107,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Wat was  voor jou de belangrijkste gebeurtenis sinds de laatste piep?",
+        "field_label": "Tænk på den vigtigste hændelse der er sket siden sidste bip. Denne hændelse var:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Zeer onplezierig"
+                "label": "-3 Meget ubehagelig"
             },
             {
                 "code": "-2",
@@ -2135,7 +2135,7 @@
             },
             {
                 "code": "3",
-                "label": "3 Zeer plezierig"
+                "label": "3 Meget behagelig"
             }
         ],
         "field_note": "",
@@ -2157,11 +2157,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Deze gebeurtenis was:",
+        "field_label": "Denne hændelse var:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Onbelangrijk"
+                "label": "-3 Ikke vigtig"
             },
             {
                 "code": "-2",
@@ -2185,7 +2185,7 @@
             },
             {
                 "code": "3",
-                "label": "3 Belangrijk"
+                "label": "3 Meget vigtig"
             }
         ],
         "field_note": "",
@@ -2207,35 +2207,35 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Sinds de vorige piep gebruikte ik",
+        "field_label": "Siden sidste bip har jeg indtaget:",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Voedsel"
+                "label": "Mad"
             },
             {
-                "code": "\r1",
-                "label": "Koffie"
+                "code": "1",
+                "label": "Koffein"
             },
             {
-                "code": "\r2",
-                "label": "Nicotine"
+                "code": "2",
+                "label": "Nikotin"
             },
             {
-                "code": "\r3",
-                "label": "Alcohol"
+                "code": "3",
+                "label": "Alkohol"
             },
             {
-                "code": "\r4",
-                "label": "Medicatie"
+                "code": "4",
+                "label": "Medicin"
             },
             {
-                "code": "\r5",
-                "label": "Drugs"
+                "code": "5",
+                "label": "Andre substanser"
             },
             {
-                "code": "\r6",
-                "label": "Niets"
+                "code": "6",
+                "label": "Ingenting"
             }
         ],
         "field_note": "",
@@ -2257,11 +2257,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Deze piep stoorde mij",
+        "field_label": "Dette bip forstyrrede mig",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -2289,7 +2289,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
@@ -2311,11 +2311,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Het invullen van de vragenlijst heeft vandaag mijn stemming beïnvloed",
+        "field_label": "At udfylde dette spørgeskema har påvirket mit humør i dag.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Niet"
+                "label": "0 Slet ikke"
             },
             {
                 "code": "1",
@@ -2343,7 +2343,7 @@
             },
             {
                 "code": "7",
-                "label": "7 Zeer"
+                "label": "7 Rigtig meget"
             }
         ],
         "field_note": "",
