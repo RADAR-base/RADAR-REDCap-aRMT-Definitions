@@ -1530,7 +1530,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_doing",
@@ -1584,7 +1584,7 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_pleasant",
@@ -1638,7 +1638,7 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_alone",
@@ -1692,7 +1692,7 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_connected",
@@ -1746,7 +1746,7 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_ok_alone",
