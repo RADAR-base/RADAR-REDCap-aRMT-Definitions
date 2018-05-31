@@ -1,0 +1,212 @@
+[
+    {
+        "field_name": "pdq_1",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "Durante los últimos 7 días, con qué frecuencia usted:",
+        "field_type": "radio",
+        "field_label": "¿Ha tenido problemas en organizar cosas?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca en los últimos 7 días"
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o dos veces)"
+            },
+            {
+                "code": "2",
+                "label": "A veces (3-5 veces)"
+            },
+            {
+                "code": "3",
+                "label": "Frecuentemente (una vez al día)"
+            },
+            {
+                "code": "4",
+                "label": "Muy frecuentemente (más de una vez al día)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_2",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Ha tenido problemas para concentrarse en lo que estaba leyendo?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca en los últimos 7 días"
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o dos veces)"
+            },
+            {
+                "code": "2",
+                "label": "A veces (3-5 veces)"
+            },
+            {
+                "code": "3",
+                "label": "Frecuentemente (una vez al día)"
+            },
+            {
+                "code": "4",
+                "label": "Muy frecuentemente (más de una vez al día)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_3",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Olvidar la fecha a no ser que la mirara?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca en los últimos 7 días"
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o dos veces)"
+            },
+            {
+                "code": "2",
+                "label": "A veces (3-5 veces)"
+            },
+            {
+                "code": "3",
+                "label": "Frecuentemente (una vez al día)"
+            },
+            {
+                "code": "4",
+                "label": "Muy frecuentemente (más de una vez al día)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_4",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Olvidar sobre lo que ha hablado después de una conversación telefónica?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca en los últimos 7 días"
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o dos veces)"
+            },
+            {
+                "code": "2",
+                "label": "A veces (3-5 veces)"
+            },
+            {
+                "code": "3",
+                "label": "Frecuentemente (una vez al día)"
+            },
+            {
+                "code": "4",
+                "label": "Muy frecuentemente (más de una vez al día)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_5",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Sentir que su mente está totalmente en blanco?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca en los últimos 7 días"
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o dos veces)"
+            },
+            {
+                "code": "2",
+                "label": "A veces (3-5 veces)"
+            },
+            {
+                "code": "3",
+                "label": "Frecuentemente (una vez al día)"
+            },
+            {
+                "code": "4",
+                "label": "Muy frecuentemente (más de una vez al día)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
