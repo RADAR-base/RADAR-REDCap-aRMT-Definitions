@@ -1,0 +1,306 @@
+[
+    {
+        "field_name": "phq8_1",
+        "form_name": "phq8",
+        "section_header": "Wie oft hat Sie während der letzten zwei Wochen eines der folgenden Probleme gestört",
+        "field_type": "radio",
+        "field_label": "1. Wenig Interesse oder Gefallen daran etwas zu tun?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_2",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "2. Sich niedergeschlagen, deprimiert oder hoffnungslos gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_3",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "3. Probleme einzuschlafen, durchgängig zu schlafen oder zu viel zu schlafen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_4",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "4. Sich müde oder Energielos zu fühlen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_5",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "5. Wenig oder zu viel Appetit?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_6",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "6. Sich über sich selbst schlecht fühlen, oder dass Sie eine Versagerin / ein Versager sind oder sich selbst oder ihre Familie enttäuscht haben?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_7",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "7. Probleme sich auf Dinge zu konzentrieren, wie z.B. Zeitung lesen oder Fernsehn schauen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_8",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "8. Sich so langsam zu bewegen und zu sprechen dass es anderen Leuten auffällt. Oder das Gegenteil - so ruhelos und zappelig zu sein dass Sie sich mehr als sonst bewegen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": " Überhaupt nicht "
+            },
+            {
+                "code": " 1",
+                "label": " Einige Tage "
+            },
+            {
+                "code": " 2",
+                "label": " Mehr als die Hälfte der Tage "
+            },
+            {
+                "code": " 3",
+                "label": " Fast alle Tage"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
