@@ -17,8 +17,8 @@ function REDCapConvertor(redcap_json) {
 
                 _.each(rawContent[key].select_choices_or_calculations, function(value2, key2) {
                     arrayOfObjectsAndCodes.push({
-                        code: value2.split(",")[0],
-                        label: value2.split(",")[1]
+                        code: this.removeFirstWhiteSpace(value2.split(",")[0]),
+                        label: this.removeFirstWhiteSpace(value2.split(",")[1])
                     });
                 })
 
@@ -94,6 +94,14 @@ function REDCapConvertor(redcap_json) {
 
     this.parseRedCap = function(redcap_json) {
         return self.parseLogic(self.splitChoices(redcap_json));
+    };
+
+
+    this.removeFirstWhiteSpace = function(val) {
+      if(val.substr(0,1) === ' '){
+        return val.substr(1)
+      }
+      return val
     };
 
 
@@ -178,6 +186,7 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
       var armt_json_questionnaires = splitIntoQuestionnaires(armt_json)
 
       form_names = Object.keys(armt_json_questionnaires)
+
       setInterval(function() {
         form_name = form_names[globalItter]
         form_armt = armt_json_questionnaires[form_name]
@@ -193,12 +202,6 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
           process.exit()
         }
       }, 2000)
-      /*for(var form_idx in form_names) {
-        var form_name = form_names[form_idx]
-        console.log(form_name)
-        var form = armt_json_questionnaires[form_name]
-        setTimeout(function(form_name, form, lang, github_token) {preparePostToGithub(form_name, form, lang, github_token)}, (form_name, form, lang, github_token), 1000*form_idx)
-      }*/
     });
 }
 
