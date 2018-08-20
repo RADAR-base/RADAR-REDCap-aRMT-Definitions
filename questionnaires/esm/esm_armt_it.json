@@ -1,117 +1,42 @@
 [
     {
-        "field_name": "record_id",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Record ID",
-        "select_choices_or_calculations": "",
-        "field_note": "ID Redcap (autogenerato da Radcap)",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_sleep_well",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Ho dormito bene",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Per nulla "
-            },
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7  Moltissimo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "esm1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "esm_cheerful",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento allegro",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me opgewekt",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -132,40 +57,40 @@
         "field_name": "esm_down",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento giù",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me somber",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -186,40 +111,40 @@
         "field_name": "esm_anxious",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento sono in ansia",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me angstig",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -240,40 +165,40 @@
         "field_name": "esm_relaxed",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento sono rilassato",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me ontspannen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -294,40 +219,40 @@
         "field_name": "esm_irritated",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento sono irritato",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me geirriteerd",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -348,40 +273,40 @@
         "field_name": "esm_stressed",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento sono stressato",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me gestressed",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -402,40 +327,40 @@
         "field_name": "esm_content",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento soddisfatto",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me tevreden",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -456,40 +381,40 @@
         "field_name": "esm_insecure",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento insicuro",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me onzeker",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -510,40 +435,40 @@
         "field_name": "esm_hopeful",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento speranzoso",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me hoopvol",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -564,40 +489,40 @@
         "field_name": "esm_lonely",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In questo momento mi sento solo",
+        "field_type": "range",
+        "field_label": "Op dit moment voel ik me eenzaam",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -618,40 +543,40 @@
         "field_name": "esm_statisfied",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sono soddisfatto di me stesso",
+        "field_type": "range",
+        "field_label": "Ik ben tevreden met mijzelf ",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -672,40 +597,40 @@
         "field_name": "esm_restless",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Mi sento irrequieto",
+        "field_type": "range",
+        "field_label": "Ik voel me rusteloos",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -726,40 +651,40 @@
         "field_name": "esm_confident",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Mi sento sicuro di me",
+        "field_type": "range",
+        "field_label": "Ik voel me zelfverzekerd",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -780,40 +705,40 @@
         "field_name": "esm_qol",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "In generale mi sento bene",
+        "field_type": "range",
+        "field_label": "Globaal gezien voel ik me nu goed",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -834,40 +759,40 @@
         "field_name": "esm_ruminating",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sto rimuginando",
+        "field_type": "range",
+        "field_label": "Ik ben aan het piekeren",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -888,40 +813,40 @@
         "field_name": "esm_concentrate",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sono in grado di concentrarmi bene",
+        "field_type": "range",
+        "field_label": "Ik kan me goed concentreren",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -943,55 +868,55 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Cosa sto facendo (appena prima di questo bip)?",
+        "field_label": "Wat ben ik aan het doen (voor de piep)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Niente "
+                "label": " Niets "
             },
             {
-                "code": "1",
-                "label": "Riposando "
+                "code": " 1",
+                "label": " Rusten "
             },
             {
-                "code": "2",
-                "label": "Mangiando/Bevendo "
+                "code": " 2",
+                "label": " Eten/drinken "
             },
             {
-                "code": "3",
-                "label": "Tempo libero"
+                "code": " 3",
+                "label": " Passieve vrijetijdsbesteding (TV"
             },
             {
-                "code": "4",
-                "label": "Tempo libero"
+                "code": " 4",
+                "label": " Actieve vrije tijdsbesteding (wandelen"
             },
             {
-                "code": "5",
-                "label": "In viaggio "
+                "code": " 5",
+                "label": " Reizen "
             },
             {
-                "code": "6",
-                "label": "Lavori domestici/Acquisti "
+                "code": " 6",
+                "label": " Huishouden/boodschappen "
             },
             {
-                "code": "7",
-                "label": "Lavoro/Studio "
+                "code": " 7",
+                "label": " Werk/studie "
             },
             {
-                "code": "8",
-                "label": "Cura di sé "
+                "code": " 8",
+                "label": " Zelfverzorging "
             },
             {
-                "code": "9",
-                "label": "Interagisco con altri/faccio conversazione "
+                "code": " 9",
+                "label": " Interactie/gesprek "
             },
             {
-                "code": "10",
-                "label": "Sono al cellulare/Sui social media "
+                "code": " 10",
+                "label": " Mobiele telefoon/sociale media "
             },
             {
-                "code": "11",
-                "label": "Altro"
+                "code": " 11",
+                "label": " Iets anders"
             }
         ],
         "field_note": "",
@@ -1012,40 +937,40 @@
         "field_name": "esm_activity_well",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Riesco a farlo bene",
+        "field_type": "range",
+        "field_label": "Dit kan ik goed ",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1066,40 +991,40 @@
         "field_name": "esm_activity_else",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Preferirei fare altro",
+        "field_type": "range",
+        "field_label": "Ik zou liever iets anders doen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1120,40 +1045,40 @@
         "field_name": "esm_activity_effort",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Questa attività richiede dello sforzo",
+        "field_type": "range",
+        "field_label": "Deze activiteit is een uitdaging",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1174,40 +1099,40 @@
         "field_name": "esm_physical_active",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sono fisicamente attivo",
+        "field_type": "range",
+        "field_label": "Ik ben fysiek actief",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1228,40 +1153,40 @@
         "field_name": "esm_physical_tired",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sono fisicamente stanco",
+        "field_type": "range",
+        "field_label": "Ik ben moe",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1282,40 +1207,40 @@
         "field_name": "esm_physical_pain",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Provo del dolore fisico",
+        "field_type": "range",
+        "field_label": "Ik heb pijn",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1336,40 +1261,40 @@
         "field_name": "esm_physical_well",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Non mi sento bene fisicamente",
+        "field_type": "range",
+        "field_label": "Ik voel me fysiek niet goed",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1391,35 +1316,35 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Dove sono?",
+        "field_label": "Waar ben ik?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "A casa "
+                "label": " Thuis"
             },
             {
-                "code": "1",
-                "label": "A casa di famigliari o amici "
+                "code": " 1",
+                "label": " Bij familie of vrienden "
             },
             {
-                "code": "2",
-                "label": "Al lavoro o a scuola "
+                "code": " 2",
+                "label": " Op het werk of op school "
             },
             {
-                "code": "3",
-                "label": "Su un mezzo di trasporto "
+                "code": " 3",
+                "label": " Onderweg "
             },
             {
-                "code": "4",
-                "label": "Dal medico/Struttura sanitaria "
+                "code": " 4",
+                "label": " Gezondheidszorginstelling "
             },
             {
-                "code": "5",
-                "label": "Altro"
+                "code": " 5",
+                "label": " Ergens anders in een gebouw "
             },
             {
-                "code": "6",
-                "label": "Altro"
+                "code": " 6",
+                "label": " Ergens anders buiten"
             }
         ],
         "field_note": "",
@@ -1441,43 +1366,43 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Con chi mi trovo?",
+        "field_label": "Met wie ben ik?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Da solo "
+                "label": " Alleen "
             },
             {
-                "code": "1",
-                "label": "Con il compagno/a "
+                "code": " 1",
+                "label": " Partner "
             },
             {
-                "code": "2",
-                "label": "Degenti "
+                "code": " 2",
+                "label": " Inwonende familie "
             },
             {
-                "code": "3",
-                "label": "Famigliari"
+                "code": " 3",
+                "label": " Niet-inwonende familie "
             },
             {
-                "code": "4",
-                "label": "Coinquilini "
+                "code": " 4",
+                "label": " Huisgenoten "
             },
             {
-                "code": "5",
-                "label": "Amici "
+                "code": " 5",
+                "label": " Vrienden "
             },
             {
-                "code": "6",
-                "label": "Compagni di classe/Colleghi "
+                "code": " 6",
+                "label": " Klasgenoten/collega's "
             },
             {
-                "code": "7",
-                "label": " Badante/Accompagnatore "
+                "code": " 7",
+                "label": " Verzorgers "
             },
             {
-                "code": "8",
-                "label": "Sconosciuti/Altri"
+                "code": " 8",
+                "label": " Onbekenden/anderen"
             }
         ],
         "field_note": "",
@@ -1499,11 +1424,11 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Con quante persone mi trovo?",
+        "field_label": "Bij hoeveel mensen ben ik?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
@@ -1511,11 +1436,11 @@
             },
             {
                 "code": "3",
-                "label": "3-10 "
+                "label": "3-10"
             },
             {
                 "code": "4",
-                "label": "più di 10"
+                "label": "meer dan 10"
             }
         ],
         "field_note": "",
@@ -1530,46 +1455,46 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_doing",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Stiamo facendo qualcosa assieme",
+        "field_type": "range",
+        "field_label": "We zijn samen iets aan het doen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1584,46 +1509,46 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_pleasant",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Penso che le persone con cui mi trovo siano piacevoli",
+        "field_type": "range",
+        "field_label": "Ik vind dit gezelschap aangenaam",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1638,46 +1563,46 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_alone",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Preferirei essere solo",
+        "field_type": "range",
+        "field_label": "Ik zou liever alleen zijn",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1692,46 +1617,46 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_connected",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Mi sento connesso con le persone con cui mi trovo",
+        "field_type": "range",
+        "field_label": "Ik voel me verbonden met de mensen waar ik bij ben",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1746,46 +1671,46 @@
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']1 != 0 || responses['esm_social_interact']2 != 0 || responses['esm_social_interact']3 != 0 || responses['esm_social_interact']4 != 0 || responses['esm_social_interact']5 != 0 || responses['esm_social_interact']6 != 0 || responses['esm_social_interact']7 != 0 || responses['esm_social_interact']8 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_ok_alone",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Sto bene da solo",
+        "field_type": "range",
+        "field_label": "Het voelt ok om alleen te zijn",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1800,46 +1725,46 @@
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']0 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_others",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Preferirei essere con altre persone",
+        "field_type": "range",
+        "field_label": "Ik zou liever bij anderen zijn",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1854,46 +1779,46 @@
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']0 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_choice",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Essere da solo in questo momento è una mia scelta",
+        "field_type": "range",
+        "field_label": "Het is mijn keuze om alleen te zijn op dit moment",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1908,46 +1833,46 @@
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']0 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_left_out",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Mi sento tagliato fuori",
+        "field_type": "range",
+        "field_label": "Ik voel me buitengesloten",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -1962,22 +1887,22 @@
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact']0 != 0"
+        "evaluated_logic": "responses['esm_social_interact'] != 0"
     },
     {
         "field_name": "esm_social_virt_interact",
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Sto interagendo in maniera virtuale",
+        "field_label": "Ik heb online contact met anderen op dit moment",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No "
+                "label": "Neen"
             },
             {
                 "code": "1",
-                "label": "Si"
+                "label": "Ja"
             }
         ],
         "field_note": "",
@@ -1998,40 +1923,40 @@
         "field_name": "esm_social_virt_pleasant",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Penso che questa interazione virtuale sia piacevole",
+        "field_type": "range",
+        "field_label": "Ik vind deze online interactie aangenaam",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -2046,46 +1971,46 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_virt_interact']\"1\" != 0"
+        "evaluated_logic": "responses['esm_social_virt_interact'] != 0"
     },
     {
         "field_name": "esm_stress_situation",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "La maggior parte delle persone considererebbe stressante la mia situazione attuale",
+        "field_type": "range",
+        "field_label": "De meeste mensen zouden mijn huidige situatie stresvol vinden",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -2106,12 +2031,12 @@
         "field_name": "esm_stress",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Pensa all'evento più importante che ti è successo dall'ultimo bip. Questo evento è stato:",
+        "field_type": "range",
+        "field_label": "Wat was  voor jou de belangrijkste gebeurtenis sinds de laatste piep?",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Molto spiacevole "
+                "label": "-3 Zeer onplezierig"
             },
             {
                 "code": "-2",
@@ -2135,7 +2060,7 @@
             },
             {
                 "code": "3",
-                "label": "3 Molto piacevole"
+                "label": "3 Zeer plezierig"
             }
         ],
         "field_note": "",
@@ -2156,12 +2081,12 @@
         "field_name": "esm_event",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Questo evento è stato:",
+        "field_type": "range",
+        "field_label": "Deze gebeurtenis was:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Irrilevante "
+                "label": "-3 Onbelangrijk"
             },
             {
                 "code": "-2",
@@ -2185,7 +2110,7 @@
             },
             {
                 "code": "3",
-                "label": "3 Importante"
+                "label": "3 Belangrijk"
             }
         ],
         "field_note": "",
@@ -2207,35 +2132,35 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Dall'ultimo bip ho assunto/mangiato/bevuto",
+        "field_label": "Sinds de vorige piep gebruikte ik",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Cibo "
+                "label": "Voedsel"
             },
             {
-                "code": "1",
-                "label": "Caffeina "
+                "code": "\r1",
+                "label": "Koffie"
             },
             {
-                "code": "2",
-                "label": "Nicotina "
+                "code": "\r2",
+                "label": "Nicotine"
             },
             {
-                "code": "3",
-                "label": "Alcohol "
+                "code": "\r3",
+                "label": "Alcohol"
             },
             {
-                "code": "4",
-                "label": "Farmaci "
+                "code": "\r4",
+                "label": "Medicatie"
             },
             {
-                "code": "5",
-                "label": "Sostanze "
+                "code": "\r5",
+                "label": "Drugs"
             },
             {
-                "code": "6",
-                "label": "Nulla"
+                "code": "\r6",
+                "label": "Niets"
             }
         ],
         "field_note": "",
@@ -2256,40 +2181,40 @@
         "field_name": "esm_beep",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Questo bip mi ha disturbato",
+        "field_type": "range",
+        "field_label": "Deze piep stoorde mij",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
@@ -2310,40 +2235,40 @@
         "field_name": "esm_questionnaire",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Compilare il questionario ha influenzato il mio umore oggi",
+        "field_type": "range",
+        "field_label": "Het invullen van de vragenlijst heeft vandaag mijn stemming beïnvloed",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Per nulla "
+                "label": "0 Niet"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "5 "
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": "6 "
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": "7  Moltissimo"
+                "label": "7 Zeer"
             }
         ],
         "field_note": "",
