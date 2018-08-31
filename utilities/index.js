@@ -120,7 +120,7 @@ function postToGitHub (github_token, filename, file_content) {
   })
 
   var github_details = {
-      owner: 'afolarin',
+      owner: 'RADAR-base',
       repo: 'RADAR-REDCap-aRMT-Definitions',
       path: 'questionnaires/'+ filename
   };
@@ -208,7 +208,7 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
           // Wait further 2000ms for asynchronous tasks to be completed
           new Promise(resolve => setTimeout(resolve, 2000)).then(() => { process.exit()});
         }
-      }, 3000)
+      }, 2000)
     });
 }
 
