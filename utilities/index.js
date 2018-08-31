@@ -113,6 +113,7 @@ function postToGitHub (github_token, filename, file_content) {
 
   var github = new GitHubApi()
 
+ try{
   github.authenticate({
     type: 'oauth',
     token: github_token
@@ -134,13 +135,18 @@ function postToGitHub (github_token, filename, file_content) {
     path: github_details.path
   }, function(status,data){
     if(data !== undefined){
+        console.log('Updating existing file on Github: ' + filename)
         post_details.sha = data.data.sha;
         github.repos.updateFile(post_details);
     } else {
+        console.log('Creating new file on Github: ' + filename)
         github.repos.createFile(post_details);
     }
 
   });
+} catch(error) {
+  console.error(error);
+}
 
 }
 
@@ -179,7 +185,7 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
     };
 
     request.post({url:redcap_url, form: post_form}, function(err,httpResponse,body){
-      var redcap_json = JSON.parse(body);
+      var redcap_json = JSON.parse(body.replace(/(\r?\n|\r)/gm, "\n"));
       var armt_json = REDCapConvertor(redcap_json);
 
       var redcap_json_questionnaires = splitIntoQuestionnaires(redcap_json)
@@ -199,7 +205,8 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
         }
         globalItter += 1
         if (globalItter == form_names.length) {
-          process.exit()
+          // Wait further 2000ms for asynchronous tasks to be completed
+          new Promise(resolve => setTimeout(resolve, 2000)).then(() => { process.exit()});
         }
       }, 2000)
     });
