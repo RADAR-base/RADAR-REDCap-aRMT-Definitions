@@ -1,0 +1,56 @@
+[
+    {
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Hvilken kategori beskriver din gang-situation bedst?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "<B>Normal:</B> Jeg kan have nogle milde symptomer"
+            },
+            {
+                "code": "1",
+                "label": "<B>Mildt handicap:</B> Jeg bemærker nogle symptomer fra min MS"
+            },
+            {
+                "code": "2",
+                "label": "<B>Moderat handicap:</B> Jeg har ikke nogen begrænsninger i min gangfunktion. Jeg har dog signifikante problemer grundet MS"
+            },
+            {
+                "code": "4",
+                "label": "<B>Ensidig lejlighedsvis støtte:</B>Jeg bruger en stok eller en enkelt krykke"
+            },
+            {
+                "code": "5",
+                "label": "<B>Ensidig konstant støtte:</B> For at kunne gå 7.5 meter må jeg have en stok"
+            },
+            {
+                "code": "6",
+                "label": "<B>Bilateral støtte:</B> For at kunne gå 7.5 meter skal jeg bruge 2 stokke eller krykker eller en rollator. Jeg kan bruge en scooter eller kørestol for længere afstande."
+            },
+            {
+                "code": "7",
+                "label": "<B>Kørestol/ Scooter:</B> Min primære form for forflytning er en kørestol. Jeg kan stå og/eller tage et eller to skridt"
+            },
+            {
+                "code": "8",
+                "label": "<B>Sengebunden:</B> Jeg kan ikke sidde i en kørestol i mere end en time."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "Instruktioner: Læs venligst de opstillede valgmuligheder for neden og vælg den som bedst beskriver din egen situation. Denne skala fokuserer primært på din gangfunktion. Du finder mulighvis ikke en beskrivelse som beskriver din situation præcist, men marker venligst den valgmulighed som beskriver din situation bedst.",
+        "evaluated_logic": ""
+    }
+]
