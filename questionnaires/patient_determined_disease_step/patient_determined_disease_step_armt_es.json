@@ -1,0 +1,60 @@
+[
+    {
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Which category describes your walking situation closest?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "<B>Normal:</B> I may have some mild symptoms"
+            },
+            {
+                "code": "\r1",
+                "label": "<B>Mild Disability:</B> I have some noticeable symptoms from my MS but they are minor and have only a small effect on my lifestyle."
+            },
+            {
+                "code": "\r2",
+                "label": "<B>Moderate Disability:</B> I do not have any limitations in my walking ability. However"
+            },
+            {
+                "code": "\r3",
+                "label": "<B>Gait Disability:</B> MS does interfere with my activities"
+            },
+            {
+                "code": "\r4",
+                "label": "<B>Early Cane:</B> I use a cane or a single crutch or some other form of support (such as touching a wall or leaning on someones arm) for walking all the time or part of the time"
+            },
+            {
+                "code": "\r5",
+                "label": "<B>Late Cane:</B> To be able to walk 25 feet"
+            },
+            {
+                "code": "\r6",
+                "label": "<B>Bilateral Support:</B> To be able to walk as far as 25 feet I must have 2 canes or crutches or a walker. I may use a scooter or wheelchair for longer distances."
+            },
+            {
+                "code": "\r7",
+                "label": "<B>Wheelchair / Scooter:</B> My main form of mobility is a wheelchair. I may be able to stand and/or take one or two steps"
+            },
+            {
+                "code": "\r8",
+                "label": "<B>Bedridden:</B> Unable to sit in a wheelchair for more than one"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "Instructions: Please read the choices listed below and choose the one that best describes your own situation.\nThis scale focuses mainly on how well you walk. You might not find a description that reflects\nyour condition exactly, but please mark the one category that describes your situation the closest.",
+        "evaluated_logic": ""
+    }
+]
