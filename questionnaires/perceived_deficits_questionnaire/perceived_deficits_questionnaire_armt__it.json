@@ -1,0 +1,212 @@
+[
+    {
+        "field_name": "pdq_1",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "Negli ultimi 7 giorni, quanto spesso hai:",
+        "field_type": "radio",
+        "field_label": "Ha problemi ad organizzare le cose?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai negli ultimi 7 giorni "
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o due volte) "
+            },
+            {
+                "code": "2",
+                "label": "A volte (3-5) "
+            },
+            {
+                "code": "3",
+                "label": "Spesso (circa una volta al giorno "
+            },
+            {
+                "code": "4",
+                "label": "Molto spesso (più di una volta al giorno)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_2",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ha problemi nel concentrarsi nella lettura?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai negli ultimi 7 giorni "
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o due volte) "
+            },
+            {
+                "code": "2",
+                "label": "A volte (3-5) "
+            },
+            {
+                "code": "3",
+                "label": "Spesso (circa una volta al giorno "
+            },
+            {
+                "code": "4",
+                "label": "Molto spesso (più di una volta al giorno)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_3",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dimentica la data a meno che non la abbia guardata?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai negli ultimi 7 giorni "
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o due volte) "
+            },
+            {
+                "code": "2",
+                "label": "A volte (3-5) "
+            },
+            {
+                "code": "3",
+                "label": "Spesso (circa una volta al giorno "
+            },
+            {
+                "code": "4",
+                "label": "Molto spesso (più di una volta al giorno)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_4",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dimentica quello di cui ha parlato dopo una conversazione telefonica?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai negli ultimi 7 giorni "
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o due volte) "
+            },
+            {
+                "code": "2",
+                "label": "A volte (3-5) "
+            },
+            {
+                "code": "3",
+                "label": "Spesso (circa una volta al giorno "
+            },
+            {
+                "code": "4",
+                "label": "Molto spesso (più di una volta al giorno)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pdq_5",
+        "form_name": "perceived_deficits_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Si sente come se la Sua mente fosse completamente vuota?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai negli ultimi 7 giorni "
+            },
+            {
+                "code": "1",
+                "label": "Raramente (una o due volte) "
+            },
+            {
+                "code": "2",
+                "label": "A volte (3-5) "
+            },
+            {
+                "code": "3",
+                "label": "Spesso (circa una volta al giorno "
+            },
+            {
+                "code": "4",
+                "label": "Molto spesso (più di una volta al giorno)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "pdq",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
