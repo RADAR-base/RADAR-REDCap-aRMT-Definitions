@@ -1,0 +1,56 @@
+[
+    {
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step",
+        "section_header": "Leggendo le seguenti descrizioni, scelga quella che descrive meglio la sua condizione.\nCon questa scala vogliamo capire la sua capacità di camminare\nPotrebbe, quindi, non trovare una descrizione che rifletta esattamente la sua condizione; in questo caso scelga la categoria che più si avvicina alla sua situazione.",
+        "field_type": "radio",
+        "field_label": "Quale cateogoria descrive meglio La sua situazione?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "<B> Nessuna disabilità: </B>A volte mi capita di avere qualche sintomo legato alla Sclerosi Multipla"
+            },
+            {
+                "code": "2",
+                "label": "<B> Disabilità moderata: </B> Non ho nessuna limitazione nel camminare; tuttavia"
+            },
+            {
+                "code": "3",
+                "label": "<B> Disabilità nel cammianre: </B> La Sclerosi Multipla limita la mia vita quotidiana"
+            },
+            {
+                "code": "4",
+                "label": "<B> Singolo appoggio in fase iniziale: </B>Uso un bastone o una sola stampella o altre forme di appoggio (ad esempio mi appoggio al muro o al braccio di qualcuno) per camminare tutto il tempo o la maggior parte del tempo"
+            },
+            {
+                "code": "5",
+                "label": "<B> Singolo appoggio in fase avanzata: </B> Per camminare 7.5 metri devo avere o un bastone"
+            },
+            {
+                "code": "6",
+                "label": "<B> Doppio appoggio: </B> Per camminare 7.5 metri devo avere o due bastoni"
+            },
+            {
+                "code": "7",
+                "label": "<B> Sedia a rotelle/sedia a rotelle motorizzata: </B> La mia principale modalità di spostamento è la sedia a rotelle. Sono capace di alzarmi e fare uno o due passi ma non posso camminare per 7.5 metri anche con le stampelle o il deambulatore. "
+            },
+            {
+                "code": "8",
+                "label": "<B> Costretto a letto: </B> Incapace di stare sulla sedia a rotelle per più di un'ora."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "Istruzioni: Per favore, Legga le scelte indicate di seguito e scelga quella che meglio descrive la Sua situazione. Questa scala si concentra su come Lei cammina. Lei potrebbe non trovare una descrizione che rifletta esattamente la sua condizione, per cui per favore segni la categoria che descrive la Sua situazione il meglio possibile",
+        "evaluated_logic": ""
+    }
+]
