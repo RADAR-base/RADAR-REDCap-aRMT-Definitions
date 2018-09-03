@@ -1,0 +1,60 @@
+[
+    {
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Welche Kategorie beschriebt Ihre Laufsituation am ehesten?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "<B>Normal:</B> Ich habe einige milde Symptome"
+            },
+            {
+                "code": "1",
+                "label": "<B>Leichte Behinderung:</B> Ich habe einige deutliche Symptome durch meine MS aber sie sind unwesentlich und haben nur geringen Einfluss auf meinen Lebensstil. "
+            },
+            {
+                "code": "2",
+                "label": "<B>Moderate Behinderung:</B> Ich habe keine Einschränkung meiner Lauffähigkeit. Allerdings habe ich signifikante Probleme durch die MS die meine täglichen Aktivitäten anders einschränken. "
+            },
+            {
+                "code": "3",
+                "label": "<B>Laufbehinderung:</B> MS stört mich in meiner Aktivität"
+            },
+            {
+                "code": "4",
+                "label": "<B>Anfängliche Gehhilfe:</B> Ich benutze zum Laufen einen Gehstock"
+            },
+            {
+                "code": "5",
+                "label": "<B>Fortgeschrittene Gehhilfe:</B> Um 10 Meter zu laufen brauche ich immer einen Gehstock"
+            },
+            {
+                "code": "6",
+                "label": "<B>Beidseitige Unterstützung:</B> Um bis zu 10 Meter zu laufen brauche Ich zwei Gehhilfen oder einen Rollator. Für längere Strecken benötige ich unter Umständen eine Rollstuhl o.ä. "
+            },
+            {
+                "code": "7",
+                "label": "<B>Rollstuhl o.ä.:</B> Meine Haupt-Fortbewegungsart ist der Rollstuhl. Ich kann vielleicht stehen und/oder ein bis zwei Schritte gehen"
+            },
+            {
+                "code": "8",
+                "label": "<B>Bettlegrig:</B> Ich kann nicht für mehr als eine  in einem Rollstuhl sitzen."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "Instructions: Please read the choices listed below and choose the one that best describes your own situation.\nThis scale focuses mainly on how well you walk. You might not find a description that reflects\nyour condition exactly, but please mark the one category that describes your situation the closest.",
+        "evaluated_logic": ""
+    }
+]
