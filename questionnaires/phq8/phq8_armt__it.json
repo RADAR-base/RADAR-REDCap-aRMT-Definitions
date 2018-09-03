@@ -1,0 +1,306 @@
+[
+    {
+        "field_name": "phq8_1",
+        "form_name": "phq8",
+        "section_header": "Nelle ultime due settimane, quanto spesso sei stato disturbato da uno dei seguenti problemi",
+        "field_type": "radio",
+        "field_label": "1. Scarso interesse o piacere nel fare le cose.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_2",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "2. Sentirsi giù, triste o disperato/a.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_3",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "3. Problemi ad addormentarsi o a dormire tutta la notte senza svegliarsi, o a dormire troppo.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_4",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "4. Sentirsi stanco/a o avere poca energia. ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_5",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "5. Scarso appetito o mangiare troppo.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_6",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "6. Avere una scarsa opinione di sé, o sentirsi un/una fallito/a o aver deluso se stesso/a o i propri familiari.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_7",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "7. Difficoltà a concentrarsi su qualcosa, per esempio leggere il giornale o guardare la televisione.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq8_8",
+        "form_name": "phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "8. Muoversi o parlare così lentamente da poter essere notato/a da altre persone. O, al contrario, essere così irrequieto/a da muoversi molto più del solito.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mai "
+            },
+            {
+                "code": "1",
+                "label": "Alcuni giorni "
+            },
+            {
+                "code": "2",
+                "label": "Per più della metà dei giorni "
+            },
+            {
+                "code": "3",
+                "label": "Quasi tutti i giorni"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq8",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
