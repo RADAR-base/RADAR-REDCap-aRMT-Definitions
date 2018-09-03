@@ -109,7 +109,7 @@ function REDCapConvertor(redcap_json) {
 
 }
 
-function postToGitHub (github_token, filename, file_content) {
+function postToGitHub (github_token, filename, file_content, github_repo_owner, github_repo_name, github_repo_dir) {
 
   var github = new GitHubApi()
 
@@ -120,9 +120,9 @@ function postToGitHub (github_token, filename, file_content) {
   })
 
   var github_details = {
-      owner: 'RADAR-base',
-      repo: 'RADAR-REDCap-aRMT-Definitions',
-      path: 'questionnaires/'+ filename
+      owner: github_repo_owner,
+      repo: github_repo_name,
+      path: github_repo_dir + '/' + filename
   };
 
   var post_details = {
@@ -163,16 +163,16 @@ function splitIntoQuestionnaires(armt_json) {
   return questionnaires
 }
 
-function preparePostToGithub(form_name, form, lang, github_token) {
+function preparePostToGithub(form_name, form, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir) {
   console.log(lang + ' ' + form_name)
   postToGitHub(github_token,
     form_name + "/"+ form_name + "_armt" + lang + ".json",
-    JSON.stringify(form,null,4)
+    JSON.stringify(form,null,4), github_repo_owner, github_repo_name, github_repo_dir
   );
 }
 
-function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvention) {
-    var lang = "_" + langConvention || '';
+function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvention, github_repo_owner, github_repo_name, github_repo_dir) {
+    var lang = langConvention || '';
     var redcap_url = redcap_url || '';
     var redcap_token = redcap_token || '';
     var redcap_form_name = redcap_form_name || '';
@@ -198,20 +198,20 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
         form_armt = armt_json_questionnaires[form_name]
         form_redcap = redcap_json_questionnaires[form_name]
         switch(type) {
-          case 'redcap': preparePostToGithub(form_name, form_redcap, lang, github_token)
+          case 'redcap': preparePostToGithub(form_name, form_redcap, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir)
 
-          default: preparePostToGithub(form_name, form_armt, lang, github_token)
+          default: preparePostToGithub(form_name, form_armt, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir)
           break;
         }
         globalItter += 1
         if (globalItter == form_names.length) {
           // Wait further 2000ms for asynchronous tasks to be completed
-          new Promise(resolve => setTimeout(resolve, 2000)).then(() => { process.exit()});
+          new Promise(resolve => setTimeout(resolve, 1500)).then(() => { process.exit()});
         }
-      }, 2000)
+      }, 3000)
     });
 }
 
 var globalItter = 0
 var args = process.argv.slice(2);
-postRADARJSON(args[0], args[1], args[2], args[3], args[4]);
+postRADARJSON(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]);
