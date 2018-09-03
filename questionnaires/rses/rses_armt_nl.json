@@ -1,0 +1,382 @@
+[
+    {
+        "field_name": "rses_1",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "1. Over het algemeen ben ik tevreden met mezelf",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_2",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "2. Bij momenten denk ik dat ik helemaal niet deug",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_3",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "3. Ik heb het gevoel dat ik een aantal goede kwaliteiten heb",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_4",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "4. Ik ben in staat dingen even goed te doen als de meeste andere mensen",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_5",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "5. Ik heb het gevoel dat ik niet veel heb om trots op te zijn",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_6",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "6. Het is ongetwijfeld zo dat ik me bij momenten nutteloos voel",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_7",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "7. Ik heb het gevoel dat ik een waardevol iemand ben, minstens evenwaardig aan anderen",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_8",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "8. Ik wou dat ik meer respect voor mezelf kon opbrengen",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_9",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "9. Al bij al ben ik geneigd mezelf een mislukkeling te voelen",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rses_10",
+        "form_name": "rses",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "10. Ik neem een positieve houding aan ten opzichte van mezelf",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Zeer niet mee eens "
+            },
+            {
+                "code": "1",
+                "label": "Niet mee eens "
+            },
+            {
+                "code": "2",
+                "label": "Mee eens "
+            },
+            {
+                "code": "3",
+                "label": "Zeer mee eens"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rses",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
