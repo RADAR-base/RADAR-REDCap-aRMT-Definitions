@@ -1,43 +1,5 @@
 [
     {
-        "field_name": "rses_1",
-        "form_name": "rses",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "1. Im Ganzen bin ich mit mir zufrieden",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Stimme überhaupt nicht zu "
-            },
-            {
-                "code": "1",
-                "label": "Stimme nicht zu "
-            },
-            {
-                "code": "2",
-                "label": "Stimme zu "
-            },
-            {
-                "code": "3",
-                "label": "Stimme sehr zu"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "rses",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "rses_2",
         "form_name": "rses",
         "section_header": "",
