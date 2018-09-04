@@ -109,7 +109,8 @@ function REDCapConvertor(redcap_json) {
 
 }
 
-function postToGitHub (github_token, filename, file_content, github_repo_owner, github_repo_name, github_repo_dir) {
+function postToGitHub (github_token, filename, file_content, github_repo_owner,
+   github_repo_name, github_repo_dir, github_repo_branch) {
 
   var github = new GitHubApi()
 
@@ -126,20 +127,22 @@ function postToGitHub (github_token, filename, file_content, github_repo_owner, 
   };
 
   var post_details = {
-    owner: github_details.owner, repo:github_details.repo, path:github_details.path , message:'Update Questionnaire ' + filename, content: new Buffer(file_content).toString('base64')
+    owner: github_details.owner, repo:github_details.repo, path:github_details.path , message:'Update Questionnaire ' + filename,
+     content: new Buffer(file_content).toString('base64'), branch: github_repo_branch
   }
 
   github.repos.getContent({
     owner: github_details.owner,
     repo: github_details.repo,
-    path: github_details.path
+    path: github_details.path,
+    branch: github_repo_branch
   }, function(status,data){
     if(data !== undefined){
-        console.log('Updating existing file on Github: ' + filename)
+        console.log('Updating existing file on Github: ' + filename + ' on Branch: ' + github_repo_branch)
         post_details.sha = data.data.sha;
         github.repos.updateFile(post_details);
     } else {
-        console.log('Creating new file on Github: ' + filename)
+        console.log('Creating new file on Github: ' + filename + ' on Branch: ' + github_repo_branch)
         github.repos.createFile(post_details);
     }
 
@@ -163,15 +166,17 @@ function splitIntoQuestionnaires(armt_json) {
   return questionnaires
 }
 
-function preparePostToGithub(form_name, form, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir) {
+function preparePostToGithub(form_name, form, lang, github_token, github_repo_owner,
+   github_repo_name, github_repo_dir, github_repo_branch) {
   console.log(lang + ' ' + form_name)
   postToGitHub(github_token,
     form_name + "/"+ form_name + "_armt" + lang + ".json",
-    JSON.stringify(form,null,4), github_repo_owner, github_repo_name, github_repo_dir
+    JSON.stringify(form,null,4), github_repo_owner, github_repo_name, github_repo_dir, github_repo_branch
   );
 }
 
-function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvention, github_repo_owner, github_repo_name, github_repo_dir) {
+function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvention,
+   github_repo_owner, github_repo_name, github_repo_dir, github_repo_branch) {
     var lang = langConvention || '';
     var redcap_url = redcap_url || '';
     var redcap_token = redcap_token || '';
@@ -198,9 +203,11 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
         form_armt = armt_json_questionnaires[form_name]
         form_redcap = redcap_json_questionnaires[form_name]
         switch(type) {
-          case 'redcap': preparePostToGithub(form_name, form_redcap, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir)
+          case 'redcap': preparePostToGithub(form_name, form_redcap, lang, github_token,
+             github_repo_owner, github_repo_name, github_repo_dir, github_repo_branch)
 
-          default: preparePostToGithub(form_name, form_armt, lang, github_token, github_repo_owner, github_repo_name, github_repo_dir)
+          default: preparePostToGithub(form_name, form_armt, lang, github_token,
+             github_repo_owner, github_repo_name, github_repo_dir, github_repo_branch)
           break;
         }
         globalItter += 1
@@ -214,4 +221,4 @@ function postRADARJSON(redcap_url, redcap_token, github_token, type, langConvent
 
 var globalItter = 0
 var args = process.argv.slice(2);
-postRADARJSON(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]);
+postRADARJSON(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8]);
