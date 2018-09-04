@@ -1,47 +1,5 @@
 [
     {
-        "field_name": "pdq_1",
-        "form_name": "perceived_deficits_questionnaire",
-        "section_header": "During the past 7-days, how often did you:",
-        "field_type": "radio",
-        "field_label": "Have trouble getting things organised?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
-            },
-            {
-                "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
-            },
-            {
-                "code": "2",
-                "label": "Sommetider (3-5 gange)"
-            },
-            {
-                "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
-            },
-            {
-                "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "pdq",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "pdq_2",
         "form_name": "perceived_deficits_questionnaire",
         "section_header": "",
