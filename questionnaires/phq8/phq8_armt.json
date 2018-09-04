@@ -1,43 +1,5 @@
 [
     {
-        "field_name": "phq8_1",
-        "form_name": "phq8",
-        "section_header": "Over the past two weeks, how often have you been bothered by any of the following problems ",
-        "field_type": "radio",
-        "field_label": "1. Little interest or pleasure in doing things?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Not at all "
-            },
-            {
-                "code": "1",
-                "label": "Several days "
-            },
-            {
-                "code": "2",
-                "label": "More than half the days "
-            },
-            {
-                "code": "3",
-                "label": "Nearly every day"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "phq8",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "phq8_2",
         "form_name": "phq8",
         "section_header": "",
