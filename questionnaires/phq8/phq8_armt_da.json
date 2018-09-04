@@ -1,43 +1,5 @@
 [
     {
-        "field_name": "phq8_1",
-        "form_name": "phq8",
-        "section_header": "Inden for de seneste 2 uger, hvor ofte har du været generet af følgende problemer?",
-        "field_type": "radio",
-        "field_label": "1. Lille interesse i eller glæde ved at gøre ting?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Slet ikke "
-            },
-            {
-                "code": "1",
-                "label": "Flere dage "
-            },
-            {
-                "code": "2",
-                "label": "Mere end halvdelen af dagene "
-            },
-            {
-                "code": "3",
-                "label": "Næsten hver dag"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "phq8",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "phq8_2",
         "form_name": "phq8",
         "section_header": "",
