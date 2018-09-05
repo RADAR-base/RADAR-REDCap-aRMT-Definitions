@@ -30,7 +30,6 @@ function REDCapConvertor(redcap_json) {
                         label: this.removeFirstWhiteSpace(finalLabel)
                     });
                 })
-                console.log(arrayOfObjectsAndCodes)
                 rawContent[key].select_choices_or_calculations = arrayOfObjectsAndCodes;
             }
         });
@@ -60,7 +59,11 @@ function REDCapConvertor(redcap_json) {
 
         if (branchingLogicArray && branchingLogicArray.length > 0) {
             _.each(branchingLogicArray, function(value2, key2) {
+              // Eg- If the branching logic is - "[esm_social_interact(1)] = "1" or [esm_social_interact(2)] = "0"
+              //console.log('value : ' + value2 + 'key : ' + key2)
                 if (key2 % 4 === 0) {
+                  // This mod will select the values like esm_social_interact(1), esm_social_interact(2)
+                  // from the above example
                     if (value2.indexOf('(') === -1) {
                         checkboxOrRadio = 'radio';
                     } else {
@@ -70,12 +73,25 @@ function REDCapConvertor(redcap_json) {
                     logicToEvaluate += "responses['" + value2.split('(')[0] + "']";
                 } else if (key2 % 4 === 2) {
                     //second variable
+                    // This mod will select the "1", "0" vaules from the above example
                     switch (checkboxOrRadio) {
+                      // question[i] = 1 in RedCap maps to question = i in aRMT
                         case 'radio':
-                            logicToEvaluate += value2 + ' != 0';
+                            if (value2.includes("0")) {
+                              logicToEvaluate += ' != ' + value2; //+ ' != 0';
+                            } else if (value2.includes("1")) {
+                              logicToEvaluate += ' == ' + value2;
+                            }
+                            break;
+                        case 'range':
+                            // check the field annotation to check if to display as radio or range
                             break;
                         case 'checkbox':
-                            logicToEvaluate += checkboxValue + ' != 0';
+                            if (value2.includes("1")) {
+                              logicToEvaluate += ' == ' + checkboxValue // + ' != 0';
+                            } else if(value2.includes("0")) {
+                              logicToEvaluate += ' != ' + checkboxValue
+                            }
                             break;
                     }
                 } else if (key2 % 4 === 3) {
@@ -195,7 +211,7 @@ function postRADARJSON(redcap_url, redcap_token, type, langConvention) {
     };
 
     request.post({url:redcap_url, form: post_form}, function(err,httpResponse,body){
-      var redcap_json = JSON.parse(body.replace(/(\r?\n|\r)/gm, "\n"));
+      var redcap_json = JSON.parse(body.replace(/(\r?\n|\r)/gm, '\n'));
       var armt_json = REDCapConvertor(redcap_json);
 
       var redcap_json_questionnaires = splitIntoQuestionnaires(redcap_json)
@@ -217,7 +233,7 @@ function postRADARJSON(redcap_url, redcap_token, type, langConvention) {
         switch(type) {
           case 'redcap': preparePostToGithub(form_name, form_redcap, lang)
 
-          default: //preparePostToGithub(form_name, form_armt, lang)
+          default: preparePostToGithub(form_name, form_armt, lang)
           break;
         }
         globalItter += 1
