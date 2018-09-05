@@ -17,12 +17,20 @@ function REDCapConvertor(redcap_json) {
                 rawContent[key].select_choices_or_calculations = rawContent[key].select_choices_or_calculations.split('|');
 
                 _.each(rawContent[key].select_choices_or_calculations, function(value2, key2) {
+                  var values = value2.split(",")
+                  var finalLabel = values[1]
+
+                  // If the label itself contains further `,` chars select the rest of the string after the first
+                  // occurence of `,`
+                  if(values.length > 2) {
+                    var finalLabel = value2.substring(value2.indexOf(",") + 1)
+                  }
                     arrayOfObjectsAndCodes.push({
-                        code: this.removeFirstWhiteSpace(value2.split(",")[0]),
-                        label: this.removeFirstWhiteSpace(value2.split(",")[1])
+                        code: this.removeFirstWhiteSpace(values[0]),
+                        label: this.removeFirstWhiteSpace(finalLabel)
                     });
                 })
-
+                console.log(arrayOfObjectsAndCodes)
                 rawContent[key].select_choices_or_calculations = arrayOfObjectsAndCodes;
             }
         });
@@ -209,7 +217,7 @@ function postRADARJSON(redcap_url, redcap_token, type, langConvention) {
         switch(type) {
           case 'redcap': preparePostToGithub(form_name, form_redcap, lang)
 
-          default: preparePostToGithub(form_name, form_armt, lang)
+          default: //preparePostToGithub(form_name, form_armt, lang)
           break;
         }
         globalItter += 1
