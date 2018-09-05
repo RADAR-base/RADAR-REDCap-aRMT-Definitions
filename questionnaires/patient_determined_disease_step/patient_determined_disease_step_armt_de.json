@@ -8,7 +8,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "<B>Normal:</B> Ich habe einige milde Symptome"
+                "label": "<B>Normal:</B> Ich habe einige milde Symptome, größtenteils sensorisch durch MS aber sie schränken meine Aktivität nicht ein. Wenn ich einen Anfall habe fühle ich mich danach wieder normal. "
             },
             {
                 "code": "1",
@@ -20,15 +20,15 @@
             },
             {
                 "code": "3",
-                "label": "<B>Laufbehinderung:</B> MS stört mich in meiner Aktivität"
+                "label": "<B>Laufbehinderung:</B> MS stört mich in meiner Aktivität, besonders beim laufen. Ich kann einen ganzen Tag arbeiten, aber athletische oder körperlich anstrengende Aktivitäten sind schwerer als sie es mal waren. Ich brauche normalerweise keinen Gehstock oder andere Hilfe beim laufen, aber während einem Anfall brauche ich eventuell Hilfe. "
             },
             {
                 "code": "4",
-                "label": "<B>Anfängliche Gehhilfe:</B> Ich benutze zum Laufen einen Gehstock"
+                "label": "<B>Anfängliche Gehhilfe:</B> Ich benutze zum Laufen einen Gehstock, eine einzelne Krücke oder eine andere Art der Unterstützung (z.B. an der Wand oder dem Arm eines anderen abstützen), immer oder nur Zeitweise, aber besonders wenn Ich draußen laufe. Ich denke ich kann 10 Meter in 20 Sekunden ohne Gehstock oder Krücke laufen. Ich brauche immer eine Gehhilfe (Gehstock oder Krücke) wenn ich bis zu drei Häuserblocks laufen will. "
             },
             {
                 "code": "5",
-                "label": "<B>Fortgeschrittene Gehhilfe:</B> Um 10 Meter zu laufen brauche ich immer einen Gehstock"
+                "label": "<B>Fortgeschrittene Gehhilfe:</B> Um 10 Meter zu laufen brauche ich immer einen Gehstock, eine Krücke oder jemand zum abstützen. Ich kann mich zu Hause oder in anderen Gebäuden durch festhalten an Möbeln oder der Wand fortbewegen. Ich brauche vielleicht einen Rollstuhl o.ä. wenn ich größere Strecken zurücklegen will. "
             },
             {
                 "code": "6",
@@ -36,7 +36,7 @@
             },
             {
                 "code": "7",
-                "label": "<B>Rollstuhl o.ä.:</B> Meine Haupt-Fortbewegungsart ist der Rollstuhl. Ich kann vielleicht stehen und/oder ein bis zwei Schritte gehen"
+                "label": "<B>Rollstuhl o.ä.:</B> Meine Haupt-Fortbewegungsart ist der Rollstuhl. Ich kann vielleicht stehen und/oder ein bis zwei Schritte gehen, aber ich kann keine 10 Meter laufen, nicht mal mit Gehhilfen. "
             },
             {
                 "code": "8",
