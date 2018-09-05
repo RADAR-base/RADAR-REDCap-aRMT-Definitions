@@ -8,7 +8,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "<B>Normal:</B> I may have some mild symptoms"
+                "label": "<B>Normal:</B> I may have some mild symptoms, mostly sensory due to MS but they do not limit my activity. If I do have an attack, I return to normal when the attack has passed."
             },
             {
                 "code": "\r1",
@@ -16,19 +16,19 @@
             },
             {
                 "code": "\r2",
-                "label": "<B>Moderate Disability:</B> I do not have any limitations in my walking ability. However"
+                "label": "<B>Moderate Disability:</B> I do not have any limitations in my walking ability. However, I do have significant problems due to MS that limit daily activities in other ways."
             },
             {
                 "code": "\r3",
-                "label": "<B>Gait Disability:</B> MS does interfere with my activities"
+                "label": "<B>Gait Disability:</B> MS does interfere with my activities, especially my walking. I can work a full day, but athletic or physically demanding activities are more difficult than they used to be. I usually do not need a cane or other assistance to walk, but I might need some assistance during an attack."
             },
             {
                 "code": "\r4",
-                "label": "<B>Early Cane:</B> I use a cane or a single crutch or some other form of support (such as touching a wall or leaning on someones arm) for walking all the time or part of the time"
+                "label": "<B>Early Cane:</B> I use a cane or a single crutch or some other form of support (such as touching a wall or leaning on someones arm) for walking all the time or part of the time, especially when walking outside. I think I can walk 25 feet in 20 seconds without a cane or crutch. I always need some assistance (cane or crutch) if I want to walk as far as 3 blocks."
             },
             {
                 "code": "\r5",
-                "label": "<B>Late Cane:</B> To be able to walk 25 feet"
+                "label": "<B>Late Cane:</B> To be able to walk 25 feet, I have to have a cane, crutch or someone to hold onto. I can get around the house or other buildings by holding onto furniture or touching the walls\rfor support. I may use a scooter or wheelchair if I want to go greater distances."
             },
             {
                 "code": "\r6",
@@ -36,7 +36,7 @@
             },
             {
                 "code": "\r7",
-                "label": "<B>Wheelchair / Scooter:</B> My main form of mobility is a wheelchair. I may be able to stand and/or take one or two steps"
+                "label": "<B>Wheelchair / Scooter:</B> My main form of mobility is a wheelchair. I may be able to stand and/or take one or two steps, but I cannot walk 25 feet, even with crutches or a walker."
             },
             {
                 "code": "\r8",
