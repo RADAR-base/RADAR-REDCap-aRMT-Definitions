@@ -76,19 +76,17 @@ function REDCapConvertor(redcap_json) {
                     // This mod will select the "1", "0" vaules from the above example
                     switch (checkboxOrRadio) {
                       // question[i] = 1 in RedCap maps to question = i in aRMT
+                      // question[i] = 0 in RedCap maps to question != i in aRMT
                         case 'radio':
                             if (value2.includes("0")) {
-                              logicToEvaluate += ' != ' + value2; //+ ' != 0';
+                              logicToEvaluate += ' != ' + value2;
                             } else if (value2.includes("1")) {
                               logicToEvaluate += ' == ' + value2;
                             }
                             break;
-                        case 'range':
-                            // check the field annotation to check if to display as radio or range
-                            break;
                         case 'checkbox':
                             if (value2.includes("1")) {
-                              logicToEvaluate += ' == ' + checkboxValue // + ' != 0';
+                              logicToEvaluate += ' == ' + checkboxValue
                             } else if(value2.includes("0")) {
                               logicToEvaluate += ' != ' + checkboxValue
                             }
@@ -108,14 +106,30 @@ function REDCapConvertor(redcap_json) {
         return logicToEvaluate;
     };
 
+    // Change the radio to range if specified in the field_annotation in Redcap Metadata
+    // This changes the appearance of buttons on the UI in aRMT
+    this.parseRadioOrRange = function(rawContent){
+      _.each(rawContent, function(value, key) {
+        if(rawContent[key].field_type == 'radio') {
+          if(rawContent[key].field_annotation.includes('range-type')) {
+            rawContent[key].field_type = 'range'
+          }
+        }
+      });
+
+      return rawContent;
+    };
+
     this.parseLogic = function(rawContent) {
         _.each(rawContent, function(value, key) {
             rawContent[key].evaluated_logic =
                 self.parseItemLogic(self.reformatBranchingLogic(rawContent[key].branching_logic));
         });
-
+        rawContent = self.parseRadioOrRange(rawContent);
         return rawContent;
     };
+
+
 
     this.parseRedCap = function(redcap_json) {
         return self.parseLogic(self.splitChoices(redcap_json));
