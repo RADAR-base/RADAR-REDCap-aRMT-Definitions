@@ -3,7 +3,7 @@
         "field_name": "esm_sleep_well",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Ho dormito bene",
         "select_choices_or_calculations": [
             {
@@ -46,14 +46,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_cheerful",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento allegro",
         "select_choices_or_calculations": [
             {
@@ -96,14 +96,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_down",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento giù",
         "select_choices_or_calculations": [
             {
@@ -146,14 +146,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_anxious",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento sono in ansia",
         "select_choices_or_calculations": [
             {
@@ -196,14 +196,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_relaxed",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento sono rilassato",
         "select_choices_or_calculations": [
             {
@@ -246,14 +246,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_irritated",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento sono irritato",
         "select_choices_or_calculations": [
             {
@@ -296,14 +296,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_stressed",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento sono stressato",
         "select_choices_or_calculations": [
             {
@@ -346,14 +346,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_content",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento soddisfatto",
         "select_choices_or_calculations": [
             {
@@ -396,14 +396,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_insecure",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento insicuro",
         "select_choices_or_calculations": [
             {
@@ -446,14 +446,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_hopeful",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento speranzoso",
         "select_choices_or_calculations": [
             {
@@ -496,14 +496,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_lonely",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In questo momento mi sento solo",
         "select_choices_or_calculations": [
             {
@@ -546,14 +546,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_statisfied",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sono soddisfatto di me stesso",
         "select_choices_or_calculations": [
             {
@@ -596,14 +596,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_restless",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Mi sento irrequieto",
         "select_choices_or_calculations": [
             {
@@ -646,14 +646,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_confident",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Mi sento sicuro di me",
         "select_choices_or_calculations": [
             {
@@ -696,14 +696,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_qol",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "In generale mi sento bene",
         "select_choices_or_calculations": [
             {
@@ -746,14 +746,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_ruminating",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sto rimuginando",
         "select_choices_or_calculations": [
             {
@@ -796,14 +796,14 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_concentrate",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sono in grado di concentrarmi bene",
         "select_choices_or_calculations": [
             {
@@ -846,7 +846,7 @@
         "question_number": "",
         "matrix_group_name": "esm1",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
@@ -870,11 +870,11 @@
             },
             {
                 "code": "3",
-                "label": "Tempo libero, passivo (TV, computer, videogame, lettura) "
+                "label": "Tempo libero, passivo "
             },
             {
                 "code": "4",
-                "label": "Tempo libero, attivo (camminata, sport, giardinaggio, uscita) "
+                "label": "Tempo libero, attivo "
             },
             {
                 "code": "5",
@@ -923,7 +923,7 @@
         "field_name": "esm_activity_well",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Riesco a farlo bene",
         "select_choices_or_calculations": [
             {
@@ -966,14 +966,14 @@
         "question_number": "",
         "matrix_group_name": "esm2",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_activity_else",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Preferirei fare altro",
         "select_choices_or_calculations": [
             {
@@ -1016,14 +1016,14 @@
         "question_number": "",
         "matrix_group_name": "esm2",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_activity_effort",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Questa attività richiede dello sforzo",
         "select_choices_or_calculations": [
             {
@@ -1066,14 +1066,14 @@
         "question_number": "",
         "matrix_group_name": "esm2",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_physical_active",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sono fisicamente attivo",
         "select_choices_or_calculations": [
             {
@@ -1116,14 +1116,14 @@
         "question_number": "",
         "matrix_group_name": "esm3",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_physical_tired",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sono fisicamente stanco",
         "select_choices_or_calculations": [
             {
@@ -1166,14 +1166,14 @@
         "question_number": "",
         "matrix_group_name": "esm3",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_physical_pain",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Provo del dolore fisico",
         "select_choices_or_calculations": [
             {
@@ -1216,14 +1216,14 @@
         "question_number": "",
         "matrix_group_name": "esm3",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_physical_well",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Non mi sento bene fisicamente",
         "select_choices_or_calculations": [
             {
@@ -1266,7 +1266,7 @@
         "question_number": "",
         "matrix_group_name": "esm3",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
@@ -1419,7 +1419,7 @@
         "field_name": "esm_social_doing",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Stiamo facendo qualcosa assieme",
         "select_choices_or_calculations": [
             {
@@ -1462,14 +1462,14 @@
         "question_number": "",
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
     },
     {
         "field_name": "esm_social_pleasant",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Penso che le persone con cui mi trovo siano piacevoli",
         "select_choices_or_calculations": [
             {
@@ -1512,14 +1512,14 @@
         "question_number": "",
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
     },
     {
         "field_name": "esm_social_alone",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Preferirei essere solo",
         "select_choices_or_calculations": [
             {
@@ -1562,14 +1562,14 @@
         "question_number": "",
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
     },
     {
         "field_name": "esm_social_connected",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Mi sento connesso con le persone con cui mi trovo",
         "select_choices_or_calculations": [
             {
@@ -1612,14 +1612,14 @@
         "question_number": "",
         "matrix_group_name": "esm4",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
     },
     {
         "field_name": "esm_social_ok_alone",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Sto bene da solo",
         "select_choices_or_calculations": [
             {
@@ -1662,14 +1662,14 @@
         "question_number": "",
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_others",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Preferirei essere con altre persone",
         "select_choices_or_calculations": [
             {
@@ -1712,14 +1712,14 @@
         "question_number": "",
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_choice",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Essere da solo in questo momento è una mia scelta",
         "select_choices_or_calculations": [
             {
@@ -1762,14 +1762,14 @@
         "question_number": "",
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
         "field_name": "esm_social_left_out",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Mi sento tagliato fuori",
         "select_choices_or_calculations": [
             {
@@ -1812,7 +1812,7 @@
         "question_number": "",
         "matrix_group_name": "esm5",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_interact'] == 0"
     },
     {
@@ -1849,7 +1849,7 @@
         "field_name": "esm_social_virt_pleasant",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Penso che questa interazione virtuale sia piacevole",
         "select_choices_or_calculations": [
             {
@@ -1896,14 +1896,14 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": "responses['esm_social_virt_interact'] == \"1\""
     },
     {
         "field_name": "esm_stress_situation",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "La maggior parte delle persone considererebbe stressante la mia situazione attuale",
         "select_choices_or_calculations": [
             {
@@ -1950,7 +1950,7 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
@@ -2107,7 +2107,7 @@
         "field_name": "esm_beep",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Questo bip mi ha disturbato",
         "select_choices_or_calculations": [
             {
@@ -2150,14 +2150,14 @@
         "question_number": "",
         "matrix_group_name": "esm6",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "esm_questionnaire",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "Compilare il questionario ha influenzato il mio umore oggi",
         "select_choices_or_calculations": [
             {
@@ -2200,7 +2200,7 @@
         "question_number": "",
         "matrix_group_name": "esm6",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     }
 ]
