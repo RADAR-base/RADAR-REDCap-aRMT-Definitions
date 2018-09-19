@@ -21,3 +21,16 @@ To generate this for different languages -
 1. Copy the `utilities/_.env-template` to `./.env` and carefully fill in the values of the various variables specifically the Github Token and the branch.
 2. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 3. Run the `generateARMTs.sh` like `bash generateARMTs.sh`
+
+
+## Updating Process
+
+We want to version both the REDCap Data Dictionaries and the derived aRMT Definitions Files.
+
+The process should be:
+1. Update the Data Dictionaries(DD) either directly or in the REDCap Test Project. Verify that these changes are correct.
+2. Create a branch e.g. `dd-update-DATE` of Master in the relevant repository, add the new DDs overwriting the previous ones in `REDCap-DDs/` - you should strip the dates of the DD filenames or you'll end up with separate files, create a Pull Request
+3. Set someone as a reviewer, get this approved then merged. The DDs are now versioned.
+4. Update the production REDCap server projects with the new DDs, these changes are now ready to go live
+5. The `node utilties/index.js` script can now be run to convert the aRMT DDs into aRMT Definitions, these are loaded onto github
+6. A new protocol.json version number must now be incremented beforer the aRMT app will automatically pull the definintion changes them and start using them.
