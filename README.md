@@ -33,4 +33,4 @@ The process should be:
 3. Set someone as a reviewer, get this approved then merged. The DDs are now versioned.
 4. Update the production REDCap server projects with the new DDs, these changes are now ready to go live
 5. The `node utilties/index.js` script can now be run to convert the aRMT DDs into aRMT Definitions, these are loaded onto github
-6. A new protocol.json version number must now be incremented beforer the aRMT app will automatically pull the definintion changes them and start using them.
+6. A new protocol.json version number must now be incremented beforer the aRMT app will automatically pull the definintion changes them and start using them. Note however new registration/enrollments will automatically pickup latest configuration or configuration refresh can be triggered manually in the Questionnaire App settings https://radar-base.atlassian.net/browse/RSD-74
