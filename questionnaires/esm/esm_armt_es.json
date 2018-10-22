@@ -2057,35 +2057,35 @@
         "field_name": "esm_medication",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "checkbox",
         "field_label": "Desde el último pitido, he tomado",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Comida"
+                "label": "Comida "
             },
             {
-                "code": "\r1",
-                "label": "Cafeína"
+                "code": "1",
+                "label": "Cafeína "
             },
             {
-                "code": "\r2",
-                "label": "Nicotina"
+                "code": "2",
+                "label": "Nicotina "
             },
             {
-                "code": "\r3",
-                "label": "Alcohol"
+                "code": "3",
+                "label": "Alcohol "
             },
             {
-                "code": "\r4",
-                "label": "Medicación"
+                "code": "4",
+                "label": "Medicación "
             },
             {
-                "code": "\r5",
-                "label": "Sustancias"
+                "code": "5",
+                "label": "Sustancias "
             },
             {
-                "code": "\r6",
+                "code": "6",
                 "label": "Nada"
             }
         ],

@@ -2057,35 +2057,35 @@
         "field_name": "esm_medication",
         "form_name": "esm",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "checkbox",
         "field_label": "Sinds de vorige piep gebruikte ik",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Voedsel"
+                "label": "Voedsel "
             },
             {
-                "code": "\r1",
-                "label": "Koffie"
+                "code": "1",
+                "label": "Koffie "
             },
             {
-                "code": "\r2",
-                "label": "Nicotine"
+                "code": "2",
+                "label": "Nicotine "
             },
             {
-                "code": "\r3",
-                "label": "Alcohol"
+                "code": "3",
+                "label": "Alcohol "
             },
             {
-                "code": "\r4",
-                "label": "Medicatie"
+                "code": "4",
+                "label": "Medicatie "
             },
             {
-                "code": "\r5",
-                "label": "Drugs"
+                "code": "5",
+                "label": "Drugs "
             },
             {
-                "code": "\r6",
+                "code": "6",
                 "label": "Niets"
             }
         ],
