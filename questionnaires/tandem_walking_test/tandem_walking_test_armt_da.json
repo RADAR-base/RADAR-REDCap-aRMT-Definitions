@@ -12,7 +12,7 @@
        "label" : "Tag 10 skridt, som skulle du gå på line. Du placerer en fod foran den anden, så din hæl rører tæerne på den stående fod.",
        "code" : "Del 2"
      }, {
-       "label" : "Tryk “Næste” for at starte. Efter du har gået de 10 skridt, tryk “Næste” igen for at afslutte testen.",
+       "label" : "Tryk “Næste” for at starte. Efter du har gået de 10 skridt, tryk “Afslut” for at afslutte testen.",
        "code" : "Del 3"
      } ],
      "field_note": "",
@@ -36,7 +36,7 @@
      "field_type": "info",
      "field_label": "",
      "select_choices_or_calculations": [ {
-       "label" : "Tryk “Næste” når de 10 skridt er udført.",
+       "label" : "Tryk “Afslut” når de 10 skridt er udført.",
        "code" : "Del 1"
      } ],
      "field_note": "",
