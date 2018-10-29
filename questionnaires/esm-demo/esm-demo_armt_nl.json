@@ -7,12 +7,8 @@
         "field_label": "Op dit moment voel ik me tevreden",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Niet"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Niet"
             },
             {
                 "code": "2",
@@ -61,12 +57,8 @@
         "field_label": "Op dit moment voel ik me gestressed",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Niet"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Niet"
             },
             {
                 "code": "2",
@@ -115,12 +107,8 @@
         "field_label": "Ik ben fysiek actief",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Niet"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Niet"
             },
             {
                 "code": "2",
@@ -170,39 +158,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Alleen "
+                "label": "Alleen "
             },
             {
-                "code": " 1",
-                "label": " Partner "
+                "code": "1",
+                "label": "Partner "
             },
             {
-                "code": " 2",
-                "label": " Inwonende familie "
+                "code": "2",
+                "label": "Inwonende familie "
             },
             {
-                "code": " 3",
-                "label": " Niet-inwonende familie "
+                "code": "3",
+                "label": "Niet-inwonende familie "
             },
             {
-                "code": " 4",
-                "label": " Huisgenoten "
+                "code": "4",
+                "label": "Huisgenoten "
             },
             {
-                "code": " 5",
-                "label": " Vrienden "
+                "code": "5",
+                "label": "Vrienden "
             },
             {
-                "code": " 6",
-                "label": " Klasgenoten/collega's "
+                "code": "6",
+                "label": "Klasgenoten/collega's "
             },
             {
-                "code": " 7",
-                "label": " Verzorgers "
+                "code": "7",
+                "label": "Verzorgers "
             },
             {
-                "code": " 8",
-                "label": " Onbekenden/anderen"
+                "code": "8",
+                "label": "Onbekenden/anderen"
             }
         ],
         "field_note": "",

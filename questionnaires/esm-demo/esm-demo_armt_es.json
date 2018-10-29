@@ -7,12 +7,8 @@
         "field_label": "En este momento, me siento contento/a",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Nada"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Nada"
             },
             {
                 "code": "2",
@@ -61,12 +57,8 @@
         "field_label": "En este momento, me siento estresado/a",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Nada"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Nada"
             },
             {
                 "code": "2",
@@ -115,12 +107,8 @@
         "field_label": "Estoy físicamente activo/a",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Nada"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Nada"
             },
             {
                 "code": "2",
@@ -170,39 +158,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Solo/a "
+                "label": "Solo/a "
             },
             {
-                "code": " 1",
-                "label": " Pareja "
+                "code": "1",
+                "label": "Pareja "
             },
             {
-                "code": " 2",
-                "label": " Familiares con los que convivo "
+                "code": "2",
+                "label": "Familiares con los que convivo "
             },
             {
-                "code": " 3",
-                "label": " Familiares con los que no convivo "
+                "code": "3",
+                "label": "Familiares con los que no convivo "
             },
             {
-                "code": " 4",
-                "label": " Compañeros de piso/ o habitacón "
+                "code": "4",
+                "label": "Compañeros de piso/ o habitacón "
             },
             {
-                "code": " 5",
-                "label": " Amigos "
+                "code": "5",
+                "label": "Amigos "
             },
             {
-                "code": " 6",
-                "label": " Compañeros "
+                "code": "6",
+                "label": "Compañeros "
             },
             {
-                "code": " 7",
-                "label": " Personas que me cuidan "
+                "code": "7",
+                "label": "Personas que me cuidan "
             },
             {
-                "code": " 8",
-                "label": " Otros"
+                "code": "8",
+                "label": "Otros"
             }
         ],
         "field_note": "",

@@ -7,12 +7,8 @@
         "field_label": "Im Augenblick fühle ich mich zufrieden",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Gar nicht"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Gar nicht"
             },
             {
                 "code": "2",
@@ -61,12 +57,8 @@
         "field_label": "Im Augenblick fühle ich mich gestresst",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Gar nicht"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Gar nicht"
             },
             {
                 "code": "2",
@@ -115,12 +107,8 @@
         "field_label": "Ich bin körperlich aktiv",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Gar nicht"
-            },
-            {
                 "code": "1",
-                "label": "1"
+                "label": "1 Gar nicht"
             },
             {
                 "code": "2",
@@ -170,39 +158,39 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": " Alleine "
+                "label": "Alleine "
             },
             {
-                "code": " 1",
-                "label": " Partner "
+                "code": "1",
+                "label": "Partner "
             },
             {
-                "code": " 2",
-                "label": " Verwandte mit denen Ich zusammen wohne "
+                "code": "2",
+                "label": "Verwandte mit denen Ich zusammen wohne "
             },
             {
-                "code": " 3",
-                "label": " Verwandte mit denen ich nicht zusammen wohne "
+                "code": "3",
+                "label": "Verwandte mit denen ich nicht zusammen wohne "
             },
             {
-                "code": " 4",
-                "label": " Mitbewohner "
+                "code": "4",
+                "label": "Mitbewohner "
             },
             {
-                "code": " 5",
-                "label": " Freunde "
+                "code": "5",
+                "label": "Freunde "
             },
             {
-                "code": " 6",
-                "label": " Mitschüler/Kollegen "
+                "code": "6",
+                "label": "Mitschüler/Kollegen "
             },
             {
-                "code": " 7",
-                "label": " Pfleger "
+                "code": "7",
+                "label": "Pfleger "
             },
             {
-                "code": " 8",
-                "label": " Fremde/Andere"
+                "code": "8",
+                "label": "Fremde/Andere"
             }
         ],
         "field_note": "",
