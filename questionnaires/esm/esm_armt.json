@@ -1853,12 +1853,8 @@
         "field_label": "I find this virtual interaction pleasant",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all "
-            },
-            {
                 "code": "1",
-                "label": "1 "
+                "label": "1 Not at all "
             },
             {
                 "code": "2",
@@ -1907,12 +1903,8 @@
         "field_label": "Most people would find my current situation stressful",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all "
-            },
-            {
                 "code": "1",
-                "label": "1 "
+                "label": "1 Not at all "
             },
             {
                 "code": "2",
