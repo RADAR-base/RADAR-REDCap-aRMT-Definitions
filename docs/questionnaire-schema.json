@@ -1,0 +1,271 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://radar-base.org/armt/definitions/schema#",
+  "type": "array",
+  "title": "The Root Schema",
+  "description": "An explanation about the purpose of this instance.",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "description": "An explanation about the purpose of this instance.",
+    "required": [
+      "field_name",
+      "form_name",
+      "section_header",
+      "field_type",
+      "field_label",
+      "select_choices_or_calculations",
+      "field_note",
+      "text_validation_type_or_show_slider_number",
+      "text_validation_min",
+      "text_validation_max",
+      "identifier",
+      "branching_logic",
+      "required_field",
+      "custom_alignment",
+      "question_number",
+      "matrix_group_name",
+      "matrix_ranking",
+      "field_annotation",
+      "evaluated_logic"
+    ],
+    "properties": {
+      "field_name": {
+        "$id": "#/items/properties/field_name",
+        "type": "string",
+        "title": "The Field_name Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "esm_content"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "form_name": {
+        "$id": "#/items/properties/form_name",
+        "type": "string",
+        "title": "The Form_name Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "esm"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "section_header": {
+        "$id": "#/items/properties/section_header",
+        "type": "string",
+        "title": "The Section_header Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ]
+      },
+      "field_type": {
+        "$id": "#/items/properties/field_type",
+        "type": "string",
+        "title": "The Field_type Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "range"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "field_label": {
+        "$id": "#/items/properties/field_label",
+        "type": "string",
+        "title": "The Field_label Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Right now, I feel content"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "select_choices_or_calculations": {
+        "$id": "#/items/properties/select_choices_or_calculations",
+        "type": "array",
+        "title": "The Select_choices_or_calculations Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "items": {
+          "$id": "#/items/properties/select_choices_or_calculations/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "required": [
+            "code",
+            "label"
+          ],
+          "properties": {
+            "code": {
+              "$id": "#/items/properties/select_choices_or_calculations/items/properties/code",
+              "type": "string",
+              "title": "The Code Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "1"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "label": {
+              "$id": "#/items/properties/select_choices_or_calculations/items/properties/label",
+              "type": "string",
+              "title": "The Label Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "1 Not at all"
+              ],
+              "pattern": "^(.*)$"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "field_note": {
+        "$id": "#/items/properties/field_note",
+        "type": "string",
+        "title": "The Field_note Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "text_validation_type_or_show_slider_number": {
+        "$id": "#/items/properties/text_validation_type_or_show_slider_number",
+        "type": "string",
+        "title": "The Text_validation_type_or_show_slider_number Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "text_validation_min": {
+        "$id": "#/items/properties/text_validation_min",
+        "type": "string",
+        "title": "The Text_validation_min Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "text_validation_max": {
+        "$id": "#/items/properties/text_validation_max",
+        "type": "string",
+        "title": "The Text_validation_max Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "identifier": {
+        "$id": "#/items/properties/identifier",
+        "type": "string",
+        "title": "The Identifier Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "branching_logic": {
+        "$id": "#/items/properties/branching_logic",
+        "type": "string",
+        "title": "The Branching_logic Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "required_field": {
+        "$id": "#/items/properties/required_field",
+        "type": "string",
+        "title": "The Required_field Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "custom_alignment": {
+        "$id": "#/items/properties/custom_alignment",
+        "type": "string",
+        "title": "The Custom_alignment Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "question_number": {
+        "$id": "#/items/properties/question_number",
+        "type": "string",
+        "title": "The Question_number Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "matrix_group_name": {
+        "$id": "#/items/properties/matrix_group_name",
+        "type": "string",
+        "title": "The Matrix_group_name Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "esm1"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "matrix_ranking": {
+        "$id": "#/items/properties/matrix_ranking",
+        "type": "string",
+        "title": "The Matrix_ranking Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "field_annotation": {
+        "$id": "#/items/properties/field_annotation",
+        "title": "The Field_annotation Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": ""
+      },
+      "evaluated_logic": {
+        "$id": "#/items/properties/evaluated_logic",
+        "type": "string",
+        "title": "The Evaluated_logic Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "additionalProperties": false
+  }
+}

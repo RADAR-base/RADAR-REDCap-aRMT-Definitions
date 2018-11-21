@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -e
+AJV="$(npm bin)/ajv"
+if [ ! -e "$AJV" ]; then
+  npm install
+fi
+
+HAS_ERROR=false
+for p in $(find questionnaires -name \*.json ! -name \*_redcap.json); do
+  if ! "$AJV" -s docs/questionnaire-schema.json -d "$p"; then
+    HAS_ERROR=true
+  fi
+done
+
+if $HAS_ERROR; then
+  echo "Validation failed"
+  exit 1
+else
+  echo "Success"
+  exit 0
+fi
+
