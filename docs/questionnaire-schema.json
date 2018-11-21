@@ -83,8 +83,7 @@
         "default": "",
         "examples": [
           "Right now, I feel content"
-        ],
-        "pattern": "^(.*)$"
+        ]
       },
       "select_choices_or_calculations": {
         "$id": "#/items/properties/select_choices_or_calculations",
