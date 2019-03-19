@@ -1356,7 +1356,7 @@
             },
             {
                 "code": "7",
-                "label": " Badante/Accompagnatore "
+                "label": " Badante/Accompagnatore "
             },
             {
                 "code": "8",
@@ -1853,12 +1853,8 @@
         "field_label": "Penso che questa interazione virtuale sia piacevole",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Per nulla "
-            },
-            {
                 "code": "1",
-                "label": "1 "
+                "label": "1 Per nulla "
             },
             {
                 "code": "2",
@@ -1907,12 +1903,8 @@
         "field_label": "La maggior parte delle persone considererebbe stressante la mia situazione attuale",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Per nulla "
-            },
-            {
                 "code": "1",
-                "label": "1 "
+                "label": "1 Per nulla "
             },
             {
                 "code": "2",
