@@ -113,6 +113,8 @@ function REDCapConvertor(redcap_json) {
         if(rawContent[key].field_type == 'radio') {
           if(rawContent[key].field_annotation.includes('range-type')) {
             rawContent[key].field_type = 'range'
+          } else if(rawContent[key].field_annotation.includes('range-info-type')) {
+            rawContent[key].field_type = 'range-info'
           }
         }
       });
