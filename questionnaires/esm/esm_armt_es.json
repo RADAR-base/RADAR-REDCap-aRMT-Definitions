@@ -854,7 +854,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "¿Qué estoy haciendo? (justo antes de sonar el pitido) ",
+        "field_label": "¿Qué estoy haciendo? (justo antes de sonar el aviso)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -862,7 +862,7 @@
             },
             {
                 "code": "1",
-                "label": "Descandar "
+                "label": "Descansar "
             },
             {
                 "code": "2",
@@ -898,7 +898,7 @@
             },
             {
                 "code": "10",
-                "label": "Teléfono movíl/ redes sociales "
+                "label": "Teléfono móvil/ redes sociales "
             },
             {
                 "code": "11",
@@ -1344,7 +1344,7 @@
             },
             {
                 "code": "4",
-                "label": "Compañeros de piso/ o habitacón "
+                "label": "Compañeros de piso/ o habitación "
             },
             {
                 "code": "5",
@@ -1950,7 +1950,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Piensa en el acontecimiento más importante que te haya ocurrido desde:",
+        "field_label": "Piensa en el acontecimiento más importante que te haya ocurrido desde el último aviso. Este acontecimiento ha sido:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
@@ -2050,7 +2050,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Desde el último pitido, he tomado",
+        "field_label": "Desde el último aviso, he tomado:",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -2100,7 +2100,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Este pitido me molestó",
+        "field_label": "Este aviso me molestó",
         "select_choices_or_calculations": [
             {
                 "code": "1",
