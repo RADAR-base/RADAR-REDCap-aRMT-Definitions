@@ -2,13 +2,13 @@
   {
     "field_name": "audio_1",
     "form_name": "audio",
-    "section_header": "Speech test",
+    "section_header": "Speech Test",
     "field_type": "info",
     "field_label": "Read this carefully!",
     "select_choices_or_calculations": [
       {
         "label" : "Make yourself comfortable, and find a quiet space.",
-        "code" : "Step 1"
+        "code" : "Part 1"
       }, {
         "label" : "The next screen will show you a short paragraph to read aloud. The app will record your voice while you do so.",
         "code" : "Part 2"
@@ -34,21 +34,10 @@
   {
     "field_name": "audio_2",
     "form_name": "audio",
-    "section_header": "Speech test",
+    "section_header": "Could you please record your voice while reading the text below",
     "field_type": "audio",
-    "field_label":"",
-    "select_choices_or_calculations": [
-      {
-        "label" : "Go placidly amid the noise and haste, and remember what peace there may be in silence. As far as possible, without surrender, be on good terms with all persons. Speak your truth quietly and clearly; and listen to others, even to the dull and ignorant; they too have their story.",
-        "code" : "P1"
-      }, {
-        "label" : "Avoid loud and aggressive persons, they are vexations to the spirit. If you compare yourself with others, you may become vain and bitter, for always there will be greater and lesser persons than yourself. Enjoy your achievements as well as your plans.",
-        "code" : "P2"
-      }, {
-        "label" : "Keep interested in your own career, however humble; it is a real possession in the changing fortunes of time. Exercise caution in your business affairs, for the world is full of trickery. But let this not blind you to what virtue there is; many persons strive for high ideals, and everywhere life is full of heroism.",
-        "code" : "P3"
-      }
-    ],
+    "field_label": "\"The Wind blew so hard, the birds clung to the trees. The world was filled with dust and leaves\"",
+    "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
