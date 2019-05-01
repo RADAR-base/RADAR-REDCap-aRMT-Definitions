@@ -1,76 +1,52 @@
-[
-  {
-    "field_name": "audio_1",
-    "form_name": "audio",
-    "section_header": "Speech Test",
-    "field_type": "info",
-    "field_label": "Read this carefully!",
-    "select_choices_or_calculations": [
-      {
-        "label" : "Make yourself comfortable, and find a quiet space.",
-        "code" : "Part 1"
-      }, {
-        "label" : "The next screen will show you a short paragraph to read aloud. The app will record your voice while you do so.",
-        "code" : "Part 2"
-      }, {
-        "label" : "Click 'next' to get started",
-        "code" : "Part 3"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "audio",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
-  },
-  {
-    "field_name": "audio_2",
-    "form_name": "audio",
-    "section_header": "Could you please record your voice while reading the text below",
-    "field_type": "audio",
-    "field_label": "\"The Wind blew so hard, the birds clung to the trees. The world was filled with dust and leaves\"",
-    "select_choices_or_calculations": [],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "audio",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
-   },
-   {
-    "field_name": "audio_3",
-    "form_name": "audio",
-    "section_header": "Could you please record your voice while reading the text below",
-    "field_type": "audio",
-    "field_label": "\"The Wind blew so hard, the birds clung to the trees.\"",
-    "select_choices_or_calculations": [],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "audio",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
-   }
+[{
+        "field_name": "audio_1",
+        "form_name": "audio",
+        "section_header": "Speech Test",
+        "field_type": "info",
+        "field_label": "Read this carefully!",
+        "select_choices_or_calculations": [{
+            "label": "Make yourself comfortable, and find a quiet space.",
+            "code": "Part 1"
+        }, {
+            "label": "The next screen will show you a short paragraph to read aloud. The app will record your voice while you do so.",
+            "code": "Part 2"
+        }, {
+            "label": "Click 'next' to get started",
+            "code": "Part 3"
+        }],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "audio",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "audio_2",
+        "form_name": "audio",
+        "section_header": "Could you please record your voice while reading the text below",
+        "field_type": "audio",
+        "field_label": "\"The Wind blew so hard, the birds clung to the trees. The world was filled with dust and leaves\"",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "audio",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
 ]
