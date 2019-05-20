@@ -1,9 +1,9 @@
 [
     {
-        "field_name": "pdss",
+        "field_name": "pdds",
         "form_name": "patient_determined_disease_step",
-        "section_header": "Leggendo le seguenti descrizioni, scelga quella che descrive meglio la sua condizione.\nCon questa scala vogliamo capire la sua capacità di camminare\nPotrebbe, quindi, non trovare una descrizione che rifletta esattamente la sua condizione; in questo caso scelga la categoria che più si avvicina alla sua situazione.",
-        "field_type": "radio",
+        "section_header": "Istruzioni: Per favore, Legga le scelte indicate di seguito e scelga quella che meglio descrive la Sua situazione. Questa scala si concentra su come Lei cammina. Lei potrebbe non trovare una descrizione che rifletta esattamente la sua condizione, per cui per favore segni la categoria che descrive la Sua situazione il meglio possibile",
+        "field_type": "range-info",
         "field_label": "Quale cateogoria descrive meglio La sua situazione?",
         "select_choices_or_calculations": [
             {
@@ -48,9 +48,9 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "pdds",
         "matrix_ranking": "",
-        "field_annotation": "Istruzioni: Per favore, Legga le scelte indicate di seguito e scelga quella che meglio descrive la Sua situazione. Questa scala si concentra su come Lei cammina. Lei potrebbe non trovare una descrizione che rifletta esattamente la sua condizione, per cui per favore segni la categoria che descrive la Sua situazione il meglio possibile",
+        "field_annotation": "range-info-type",
         "evaluated_logic": ""
     }
 ]
