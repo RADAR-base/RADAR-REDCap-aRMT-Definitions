@@ -3,12 +3,12 @@
         "form_name": "audio",
         "section_header": "Speech Test Preparation",
         "field_type": "info",
-        "field_label": "In the following two tasks, we would like you to record yourself speaking.",
+        "field_label": "",
         "select_choices_or_calculations": [ {
-            "label": "To do this, first find a quiet space and make yourself comfortable. You can sit or stand while you record yourself.",
+            "label": "In the following two tasks, we would like you to record yourself speaking. To do this, first find a quiet space and make yourself comfortable.",
             "code": "Part 1"
         }, {
-            "label": "Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
+            "label": "You can sit or stand while you record yourself. Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
             "code": "Part 2"
         }, {
             "label": "You will have a chance to repeat the recordings, in case you are somehow interrupted.",
