@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "pdds",
-        "form_name": "patient_determined_disease_step",
-        "section_header": "Instrucciones: Por favor, lea las opciones que aparecen a continuación y seleccione la que mejor describa su propia situación. Esta escala se concentra principalmente en su capacidad para caminar. Puede que no encuentre una descripción que refleje su enfermedad en forma exacta, pero por favor, marque la (una) categoría que mejor describa su situación.",
-        "field_type": "range-info",
-        "field_label": "Por favor, lea las opciones que aparecen a continuación y seleccione la que mejor describa su capacidad para caminar.",
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step_original",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Por favor, lea las opciones que aparecen a continuación y seleccione la que <B>mejor</B> describa su capacidad para caminar.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -52,9 +52,9 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "pdds",
+        "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-info-type",
+        "field_annotation": "Instrucciones: Por favor, lea las opciones que aparecen a continuación y seleccione la que mejor describa su propia situación. Esta escala se concentra principalmente en su capacidad para caminar. Puede que no encuentre una descripción que refleje su enfermedad en forma exacta, pero por favor, marque la (una) categoría que mejor describa su situación.",
         "evaluated_logic": ""
     }
 ]
