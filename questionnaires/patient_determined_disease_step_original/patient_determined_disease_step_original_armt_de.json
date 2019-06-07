@@ -1,9 +1,9 @@
 [
     {
-        "field_name": "pdds",
-        "form_name": "patient_determined_disease_step",
-        "section_header": "Instructions: Please read the choices listed below and choose the one that best describes your own situation.\nThis scale focuses mainly on how well you walk. You might not find a description that reflects\nyour condition exactly, but please mark the one category that describes your situation the closest.",
-        "field_type": "range-info",
+        "field_name": "pdss",
+        "form_name": "patient_determined_disease_step_original",
+        "section_header": "",
+        "field_type": "radio",
         "field_label": "Welche Kategorie beschriebt Ihre Laufsituation am ehesten?",
         "select_choices_or_calculations": [
             {
@@ -52,9 +52,9 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "pdds",
+        "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-info-type",
+        "field_annotation": "Instructions: Please read the choices listed below and choose the one that best describes your own situation.\nThis scale focuses mainly on how well you walk. You might not find a description that reflects\nyour condition exactly, but please mark the one category that describes your situation the closest.",
         "evaluated_logic": ""
     }
 ]
