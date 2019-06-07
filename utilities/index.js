@@ -154,7 +154,7 @@ function postToGitHub (filename, file_content) {
 
   var github = new GitHubApi()
 
- try{
+ try {
   github.authenticate({
     type: 'oauth',
     token: defaultGithubConfig.GITHUB_TOKEN
@@ -163,26 +163,28 @@ function postToGitHub (filename, file_content) {
   var github_details = {
       owner: defaultGithubConfig.GITHUB_REPO_OWNER,
       repo: defaultGithubConfig.GITHUB_REPO_NAME,
-      path: defaultGithubConfig.GITHUB_REPO_DIR + '/' + filename
+      path: defaultGithubConfig.GITHUB_REPO_DIR + '/' + filename,
+      branch: defaultGithubConfig.GITHUB_REPO_BRANCH
   };
 
   var post_details = {
     owner: github_details.owner, repo:github_details.repo, path:github_details.path , message:'Update Questionnaire ' + filename,
-     content: new Buffer(file_content).toString('base64'), branch: defaultGithubConfig.GITHUB_REPO_BRANCH
+     content: new Buffer(file_content).toString('base64'), branch: github_details.branch
   }
 
   github.repos.getContent({
     owner: github_details.owner,
     repo: github_details.repo,
     path: github_details.path,
-    branch: defaultGithubConfig.GITHUB_REPO_BRANCH
+    ref: github_details.branch
   }, function(status,data){
+    console.log("Status: " + status + ", DATA: " + data + ", Path: ", github_details.path)
     if(data !== undefined){
-        console.log('Updating existing file on Github: ' + filename + ' on Branch: ' + defaultGithubConfig.GITHUB_REPO_BRANCH)
+        console.log('Updating existing file on Github: ' + filename + ' on Branch: ' + github_details.branch)
         post_details.sha = data.data.sha;
         github.repos.updateFile(post_details);
     } else {
-        console.log('Creating new file on Github: ' + filename + ' on Branch: ' + defaultGithubConfig.GITHUB_REPO_BRANCH)
+        console.log('Creating new file on Github: ' + filename + ' on Branch: ' + github_details.branch)
         github.repos.createFile(post_details);
     }
   });
