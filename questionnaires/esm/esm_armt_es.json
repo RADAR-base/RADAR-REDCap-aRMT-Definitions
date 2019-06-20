@@ -654,7 +654,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Me siento seguro/a de sí mismo/a",
+        "field_label": "Me siento seguro/a de mí mismo/a",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -870,11 +870,11 @@
             },
             {
                 "code": "3",
-                "label": "Ocio pasivo "
+                "label": "Ocio pasivo (TV, ordenador, videojuegos, lectura) "
             },
             {
                 "code": "4",
-                "label": "Ocio activo "
+                "label": "Ocio activo (caminar, deporte, jardinería, salir) "
             },
             {
                 "code": "5",
@@ -1950,7 +1950,7 @@
         "form_name": "esm",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Piensa en el acontecimiento más importante que te haya ocurrido desde el último pitido. Este acontecimiento ha sido:",
+        "field_label": "Piensa en el acontecimiento más importante que te haya ocurrido desde el último aviso. Este acontecimiento ha sido:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
