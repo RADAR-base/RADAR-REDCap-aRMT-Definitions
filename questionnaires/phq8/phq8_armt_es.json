@@ -2,9 +2,9 @@
     {
         "field_name": "phq8_1",
         "form_name": "phq8",
-        "section_header": "¿con qué frecuencia, en las últimas dos semanas, ha tenido cualquiera de los siguientes problemas?",
+        "section_header": "¿Con qué frecuencia, en las últimas dos semanas, ha tenido cualquiera de los siguientes problemas?",
         "field_type": "radio",
-        "field_label": "1. ¿Tener poco interés o disfrutar poco haciendo cosas?",
+        "field_label": "1. Tener poco interés o disfrutar poco haciendo cosas",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -42,7 +42,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "2. ¿Sentirse desanimado/a, deprimido/a o sin esperanza?",
+        "field_label": "2. Sentirse desanimado/a, deprimido/a o sin esperanza",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -80,7 +80,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "3. Tener problemas para dormir (coger el sueño o mantenerlo), o tener más sueño de la cuenta?",
+        "field_label": "3. Tener problemas para dormir (coger el sueño o mantenerlo), o tener más sueño de la cuenta",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -118,7 +118,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "4. ¿Sentirse cansado/a o con poca energía?",
+        "field_label": "4. Sentirse cansado/a o con poca energía",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -156,7 +156,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "5. ¿Tener poco apetito o comer demasiado?",
+        "field_label": "5. Tener poco apetito o comer demasiado",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -194,7 +194,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "6. ¿Sentirse mal consigo mismo/a o sentirse fracasado/a o decepcionado/a de sí mismo/a, o pensar que ha decepcionado a los que le rodean?",
+        "field_label": "6. Sentirse mal consigo mismo/a o sentirse fracasado/a o decepcionado/a de sí mismo/a, o pensar que ha decepcionado a los que le rodean",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -232,7 +232,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "7. ¿Tener problemas para concentrarse, como por ejemplo para leer el periódico o ver la televisión?",
+        "field_label": "7. Tener problemas para concentrarse, como por ejemplo para leer el periódico o ver la televisión",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -270,7 +270,7 @@
         "form_name": "phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "8. ¿Moverse o hablar tan lentamente que los demás lo han notado. O bien lo contrario, estar tan inquieto/a e intranquilo/a que ha estado moviéndose de arriba para abajo mucho más de lo habitual?",
+        "field_label": "8. Moverse o hablar tan lentamente que los demás lo han notado. O bien lo contrario, estar tan inquieto/a e intranquilo/a que ha estado moviéndose de arriba para abajo mucho más de lo habitual",
         "select_choices_or_calculations": [
             {
                 "code": "0",

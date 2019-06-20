@@ -2,29 +2,29 @@
     {
         "field_name": "pdq_1",
         "form_name": "perceived_deficits_questionnaire",
-        "section_header": "During the past 7-days, how often did you:",
+        "section_header": "I løbet af de seneste 7 dage, hvor ofte har du:",
         "field_type": "radio",
-        "field_label": "Have trouble getting things organised?",
+        "field_label": "Haft problemer med at organisere/planlægge?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
+                "label": "Aldrig de seneste 7 dage "
             },
             {
                 "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
+                "label": "Sjældent (1-2 gange) "
             },
             {
                 "code": "2",
-                "label": "Sommetider (3-5 gange)"
+                "label": "Nogle gange (3-5 gange) "
             },
             {
                 "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
+                "label": "Ofte (ca. 1 gang om dagen) "
             },
             {
                 "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
+                "label": "Meget ofte (mere end 1 gang om dagen)"
             }
         ],
         "field_note": "",
@@ -46,27 +46,27 @@
         "form_name": "perceived_deficits_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Have trouble concentrating on what you were reading?",
+        "field_label": "Haft svært ved at koncentrere dig  om at læse?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
+                "label": "Aldrig de seneste 7 dage "
             },
             {
                 "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
+                "label": "Sjældent (1-2 gange) "
             },
             {
                 "code": "2",
-                "label": "Sommetider (3-5 gange)"
+                "label": "Nogle gange (3-5 gange) "
             },
             {
                 "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
+                "label": "Ofte (ca. 1 gang om dagen) "
             },
             {
                 "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
+                "label": "Meget ofte (mere end 1 gang om dagen)"
             }
         ],
         "field_note": "",
@@ -88,27 +88,27 @@
         "form_name": "perceived_deficits_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Forget the date unless you looked it up?",
+        "field_label": "Glemt hvilken dato det var, hvis jeg ikke har tjekket det?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
+                "label": "Aldrig de seneste 7 dage "
             },
             {
                 "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
+                "label": "Sjældent (1-2 gange) "
             },
             {
                 "code": "2",
-                "label": "Sommetider (3-5 gange)"
+                "label": "Nogle gange (3-5 gange) "
             },
             {
                 "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
+                "label": "Ofte (ca. 1 gang om dagen) "
             },
             {
                 "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
+                "label": "Meget ofte (mere end 1 gang om dagen)"
             }
         ],
         "field_note": "",
@@ -130,27 +130,27 @@
         "form_name": "perceived_deficits_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Forget what you talked about after a telephone conversation?",
+        "field_label": "Glemt hvad du har snakket om lige efter en telefonsamtale?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
+                "label": "Aldrig de seneste 7 dage "
             },
             {
                 "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
+                "label": "Sjældent (1-2 gange) "
             },
             {
                 "code": "2",
-                "label": "Sommetider (3-5 gange)"
+                "label": "Nogle gange (3-5 gange) "
             },
             {
                 "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
+                "label": "Ofte (ca. 1 gang om dagen) "
             },
             {
                 "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
+                "label": "Meget ofte (mere end 1 gang om dagen)"
             }
         ],
         "field_note": "",
@@ -172,27 +172,27 @@
         "form_name": "perceived_deficits_questionnaire",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Feel like your mind went totally blank?",
+        "field_label": "Følt at dit sind blev helt tomt?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Aldrig i de seneste 7 dage"
+                "label": "Aldrig de seneste 7 dage "
             },
             {
                 "code": "1",
-                "label": "Sjældent (en eller 2 gange)"
+                "label": "Sjældent (1-2 gange) "
             },
             {
                 "code": "2",
-                "label": "Sommetider (3-5 gange)"
+                "label": "Nogle gange (3-5 gange) "
             },
             {
                 "code": "3",
-                "label": "Ofte (omkring en gang om dagen)"
+                "label": "Ofte (ca. 1 gang om dagen) "
             },
             {
                 "code": "4",
-                "label": "Meget ofte (mere end en gang om dagen)"
+                "label": "Meget ofte (mere end 1 gang om dagen)"
             }
         ],
         "field_note": "",
