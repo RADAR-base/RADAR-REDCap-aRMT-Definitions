@@ -2606,14 +2606,18 @@
             },
             {
                 "code": "9",
+                "label": "Social contact."
+            },            
+            {
+                "code": "10",
                 "label": "Something else."
             },
             {
-                "code": "10",
+                "code": "11",
                 "label": "Nothing."
             },
             {
-                "code": "11",
+                "code": "12",
                 "label": "Sleeping."
             }
         ],
@@ -2869,14 +2873,18 @@
             },
             {
                 "code": "9",
-                "label": "Something else."
+                "label": "Social contact."
             },
             {
                 "code": "10",
-                "label": "Nothing."
+                "label": "Something else."
             },
             {
                 "code": "11",
+                "label": "Nothing."
+            },
+            {
+                "code": "12",
                 "label": "Sleeping."
             }
         ],
