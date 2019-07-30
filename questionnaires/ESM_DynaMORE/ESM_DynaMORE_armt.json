@@ -854,7 +854,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I am in virtual contact with others.",
+        "field_label": "I am currently in virtual contact with others.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -2660,7 +2660,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_social",
+        "matrix_group_name": "ESM_DynaMORE_substanceUse",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -2977,7 +2977,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_suicidalIdeationItem1branchYes",
+        "matrix_group_name": "ESM_DynaMORE_suicidalIdeationBranchYes",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": "responses['ESM_DynaMORE_suicidalIdeationItem1'] == 1"
