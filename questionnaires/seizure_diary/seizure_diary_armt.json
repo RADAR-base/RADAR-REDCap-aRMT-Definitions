@@ -283,6 +283,6 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_trigger_detail']"
+        "evaluated_logic": "responses['diary_trigger_detail'] ==  '7'"
     }
 ]
