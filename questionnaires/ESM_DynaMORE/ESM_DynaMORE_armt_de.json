@@ -1,0 +1,3121 @@
+[
+    {
+        "field_name": "ESM_DynaMORE_moodItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin fröhlich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin gereizt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin besorgt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin zufrieden.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem5",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin verunsichert.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem6",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich einsam.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem7",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin entspannt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem8",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin traurig.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem9",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich kann ich selbst sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem10",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich gestresst.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem11",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin rastlos.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem12",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Im Allgemeinen geht es mir gut.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem13",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich habe Selbstzweifel.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem14",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich gelassen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem15",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin misstrauisch.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem16",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bekomme gewisse Gedanken nicht aus dem Kopf.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem17",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich kann mich gut konzentrieren.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich bin gerade in virtuellem Kontakt mit anderen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocial",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Mit wem bin ich zusammen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Partner"
+            },
+            {
+                "code": "2",
+                "label": "Eltern"
+            },
+            {
+                "code": "3",
+                "label": "Familienmitglieder aus Kernfamilie"
+            },
+            {
+                "code": "4",
+                "label": "Familienmitglieder außerhalb Kernfamilie"
+            },
+            {
+                "code": "5",
+                "label": "Freund(e)"
+            },
+            {
+                "code": "6",
+                "label": "Gleichaltrige/KommilitionInnen"
+            },
+            {
+                "code": "7",
+                "label": "Andere Bekannte"
+            },
+            {
+                "code": "8",
+                "label": "Unbekannte"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich mache etwas mit diesen Menschen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich mit diesen Menschen wohl.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich von diesen Menschen geschätzt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem5",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich gehöre zu diesen Menschen dazu.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem6",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich wäre lieber alleine.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich wäre gerne in Gesellschaft.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich habe es mir ausgesucht, nicht in Gesellschaft zu sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich ausgeschlossen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich stehe im Kontakt zu anderen, die physisch präsent sind.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_social",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Who am I with?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Partner"
+            },
+            {
+                "code": "2",
+                "label": "Eltern"
+            },
+            {
+                "code": "3",
+                "label": "Familienmitglied der Kernfamilie"
+            },
+            {
+                "code": "4",
+                "label": "Familienmitglied außerhalb Kernfamilie"
+            },
+            {
+                "code": "5",
+                "label": "Freund(e)"
+            },
+            {
+                "code": "6",
+                "label": "Gleichaltrige/KommilitionInnen"
+            },
+            {
+                "code": "7",
+                "label": "Bekannte"
+            },
+            {
+                "code": "8",
+                "label": "Unbekannte"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Wir machen etwas zusammen (reden, lernen, spielen, etc.).",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich wohl in dieser Gesellschaft.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich wertgeschätzt von diesen Menschen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem5",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich zugehörig",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem6",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich wäre lieber allein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich mag es, allein zu sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich will allein sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich ausgeschlossen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich wäre lieber mit anderen Menschen zusammen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Welche Tätigkeit führen Sie gerade aus?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Freizeit – aktiv (z.B. Spiele spielen, Ausgehen)"
+            },
+            {
+                "code": "2",
+                "label": "Freizeit – passiv (z.B. Fernsehen, Lesen)"
+            },
+            {
+                "code": "3",
+                "label": "Schule oder Arbeit"
+            },
+            {
+                "code": "4",
+                "label": "Haushaltspflichten"
+            },
+            {
+                "code": "5",
+                "label": "Unterwegs sein"
+            },
+            {
+                "code": "6",
+                "label": "Persönliche Pflege (z.B. Waschen, Ankleiden)"
+            },
+            {
+                "code": "7",
+                "label": "Körperliche Betätigung (Sport)"
+            },
+            {
+                "code": "8",
+                "label": "Essen/ Trinken"
+            },
+            {
+                "code": "9",
+                "label": "Soziale Kontakte"
+            },
+            {
+                "code": "10",
+                "label": "Etwas anderese"
+            },
+            {
+                "code": "11",
+                "label": "Nichts"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich mag diese Tätigkeit.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich würde lieber etwas anderes tun.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Dies ist eine Herausforderung für mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1(1) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(2) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(3) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(4) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(5) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(6) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(7) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(8) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(9) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(10) = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich kann dies sehr gut.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1(1) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(2) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(3) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(4) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(5) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(6) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(7) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(8) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(9) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(10) = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin mit dieser Tätigkeit aktiv beschäftigt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1(1) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(2) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(3) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(4) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(5) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(6) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(7) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(8) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(9) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(10) = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wo befinden Sie sich gerade?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "In der Schule"
+            },
+            {
+                "code": "1",
+                "label": "Zu Hause"
+            },
+            {
+                "code": "2",
+                "label": "Bei meinem Partner zu Hausee"
+            },
+            {
+                "code": "3",
+                "label": "Bei einem Freund zu Hause"
+            },
+            {
+                "code": "4",
+                "label": "Bei einem Familienmitglied zu Hause"
+            },
+            {
+                "code": "5",
+                "label": "Auf einem Fahrrad/ im Auto/ im Zug"
+            },
+                        {
+                "code": "6",
+                "label": "Woanders in einem Haus"
+            },
+            {
+                "code": "7",
+                "label": "Woanders draußen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_controlItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin müde.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_control",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_controlItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich bin hungrig.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_control",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_controlItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich fühle mich körperlich unwohl.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_control",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_controlItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich habe Schmerzen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_control",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_EventAppraisalInfo",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Bitte denken Sie jetzt an das wichtigste Ereignis für Sie seit dem letzten Klingeln.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+
+    },
+    {
+        "field_name": "ESM_DynaMORE_eventAppraisalItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Wie angenehm war das Ereignis?",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 sehr unangenehm"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 sehr angenehm"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+
+    {
+        "field_name": "ESM_DynaMORE_eventAppraisalItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Es war ein stressiges Ereignis.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_eventAppraisalItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Das Ereignis gehört in die Kategorie:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Freizeit – aktiv (z.B. Spiele spielen, Ausgehen)"
+            },
+            {
+                "code": "2",
+                "label": "Freizeit – passiv (z.B. Fernseh gucken, lesen)"
+            },
+            {
+                "code": "3",
+                "label": "Schule oder Arbeit"
+            },
+            {
+                "code": "4",
+                "label": "Haushaltspflichten"
+            },
+            {
+                "code": "5",
+                "label": "Reisen/unterwegs sein"
+            },
+            {
+                "code": "6",
+                "label": "Persönliche Hygiene (z.B. Waschen, Ankleiden)"
+            },
+            {
+                "code": "7",
+                "label": "Körperliche Betätigung (Sport)"
+            },
+            {
+                "code": "8",
+                "label": "Essen/Trinken"
+            },
+            {
+                "code": "9",
+                "label": "Soziale Kontakte"
+            },            
+            {
+                "code": "10",
+                "label": "Etwas anderes"
+            },
+            {
+                "code": "11",
+                "label": "Nichts"
+            },
+            {
+                "code": "12",
+                "label": "Schlafen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_substanceUseItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe seit dem letzten Klingeln eins (oder mehrere)der folgenden Sachen genutzt",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_substanceUse",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_substanceUseItem1branchYes",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Seit dem letzten Klingeln habe ich konsumiert:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Medikamente"
+            },
+            {
+                "code": "2",
+                "label": "Alkohol"
+            },
+            {
+                "code": "3",
+                "label": "Zigaretten"
+            },
+            {
+                "code": "4",
+                "label": "Cannabis"
+            },
+            {
+                "code": "5",
+                "label": "Andere Drogen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_substanceUseItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_substanceUseBranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_substanceUseItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureInfo",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Bitte denken Sie jetzt an das wichtigste Ereignis für Sie in den kommenden zwei Stunden.",
+            "code": ""         
+        }],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich freue mich schon sehr auf dieses Ereignis.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Mir graut es vor diesem Ereignis.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dieses Ereignis gehört in die Kategorie:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Freizeit – aktiv (z.B. Spiele spielen, Ausgehen)"
+            },
+            {
+                "code": "2",
+                "label": "Freizeit – passiv (z.B. Fernseh gucken, lesen)"
+            },
+            {
+                "code": "3",
+                "label": "Schule oder Arbeit"
+            },
+            {
+                "code": "4",
+                "label": "Haushaltspflichten"
+            },
+            {
+                "code": "5",
+                "label": "Reisen/Unterwegs sein"
+            },
+            {
+                "code": "6",
+                "label": "Persönliche Hygiene (z.B. Waschen, Ankleiden)"
+            },
+            {
+                "code": "7",
+                "label": "Körperliche Betätigung (Sport)"
+            },
+            {
+                "code": "8",
+                "label": "Essen/Trinken"
+            },
+            {
+                "code": "9",
+                "label": "Soziale Kontakte"
+            },
+            {
+                "code": "10",
+                "label": "Etwas anderes"
+            },
+            {
+                "code": "11",
+                "label": "Nichts"
+            },
+            {
+                "code": "12",
+                "label": "Schlafen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_suicidalIdeationItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Haben Sie seit dem letzten Klingeln daran gedacht, sich etwas anzutun?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_suicidalIdeation",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_suicidalIdeationItem1branchYesItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Wie stark war dabei Ihr Wunsch, Ihr Leben zu beenden?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_suicidalIdeationItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_suicidalIdeationBranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_suicidalIdeationItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_suicidalIdeationItem1BranchYesItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Haben Sie die Gedanken in die Tat umgesetzt durch Selbstschädigung, Verletzung oder Vergiftung? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_suicidalIdeationItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_suicidalIdeationBranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_suicidalIdeationItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_suicidalIdeationItem1BranchYesEmergencyServices",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Falls Sie jetzt im Moment selbstschädigende Gedanken haben, erinnern Sie sich, dass sie nicht allein sind. Zögern Sie nicht, sich bei der Telefonseelsorge anonym und kostenlos Hilfe zu holen (0800/111 0 111) und sich an die Mitarbeiter*innen unserer Studie wenden. Im Notfall rufen Sie bitte sofort die 112 an.",
+            "code": "Emergency services"         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_suicidalIdeationItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_suicidalIdeationBranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_suicidalIdeationItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_disturbItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Dieses Klingeln hat mich gestört.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_disturb",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_watchItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Haben Sie seit dem letzten Klingeln bewusst den Stressknopf auf Ihrer Smartwatch gedrückt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_watch",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
