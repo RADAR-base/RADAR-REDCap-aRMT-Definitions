@@ -291,7 +291,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q6",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most NEGATIVE event",
         "field_type": "range",
         "field_label": "How unpleasant was this event?",
         "select_choices_or_calculations": [
@@ -371,7 +371,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q7branchYes",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most NEGATIVE event",
         "field_type": "range",
         "field_label": "These person(s) responded with understanding",
         "select_choices_or_calculations": [
@@ -421,7 +421,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q7branchNo",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most NEGATIVE event",
         "field_type": "range",
         "field_label": "I would have liked to talk to someone about it",
         "select_choices_or_calculations": [
@@ -960,7 +960,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q17",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most POSITIVE event",
         "field_type": "range",
         "field_label": "How pleasant was this event?",
         "select_choices_or_calculations": [
@@ -1040,7 +1040,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q18branchYes",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most POSITIVE event",
         "field_type": "range",
         "field_label": "These person(s) responded positively",
         "select_choices_or_calculations": [
@@ -1090,7 +1090,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q18branchNo",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "most POSITIVE event",
         "field_type": "range",
         "field_label": "I would have liked to talk to someone about it",
         "select_choices_or_calculations": [
