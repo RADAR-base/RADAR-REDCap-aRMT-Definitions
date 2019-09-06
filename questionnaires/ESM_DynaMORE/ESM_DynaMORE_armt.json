@@ -2473,31 +2473,31 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "-3 very unpleasant"
+                "label": "3 very unpleasant"
             },
             {
                 "code": "2",
-                "label": "-2"
-            },
-            {
-                "code": "3",
-                "label": "-1"
-            },
-            {
-                "code": "4",
-                "label": "0"
-            },
-            {
-                "code": "5",
-                "label": "1"
-            },
-            {
-                "code": "6",
                 "label": "2"
             },
             {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
                 "code": "7",
-                "label": "3 very pleasant"
+                "label": "7 very pleasant"
             }
         ],
         "field_note": "",
