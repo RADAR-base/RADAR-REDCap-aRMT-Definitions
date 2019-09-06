@@ -2472,8 +2472,24 @@
         "field_label": "Hoe plezierig was deze gebeurtenis?",
         "select_choices_or_calculations": [
             {
+                "code": "-3",
+                "label": "-3 zeer onaangenaam"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
                 "code": "1",
-                "label": "1 zeer onaangenaam"
+                "label": "1"
             },
             {
                 "code": "2",
@@ -2481,23 +2497,7 @@
             },
             {
                 "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7 zeer aangenaam"
+                "label": "3 zeer aangenaam"
             }
         ],
         "field_note": "",
