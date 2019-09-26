@@ -1,0 +1,1390 @@
+[
+    {
+        "field_name": "ESM_EveningDynaMORE_Q1",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Heute war ein normaler Tag für mich",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q2",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Heute war ein schöner Tag",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_NegativeEventInfo",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Denke an das NEGATIVSTE Ereignis des Tages.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q3",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "radio",
+        "field_label": "Wann war das?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Morgen"
+            },
+            {
+                "code": "2",
+                "label": "Mittag"
+            },
+            {
+                "code": "3",
+                "label": "Nachmittag"
+            },
+            {
+                "code": "4",
+                "label": "Abend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q4",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "radio",
+        "field_label": "Wo war ich?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "In der Schule/auf der Arbeit"
+            },
+            {
+                "code": "2",
+                "label": "Zu Hause"
+            },
+            {
+                "code": "3",
+                "label": "Bei meinem/meiner Partner(in) zu Hause"
+            },
+            {
+                "code": "4",
+                "label": "Bei einem Freund / einer Freundin zu Hause"
+            },
+            {
+                "code": "5",
+                "label": "Zu Hause bei anderen Familienmitgliedern"
+            },
+            {
+                "code": "6",
+                "label": "Auf dem Fahrrad / im Auto / im öffentlichen Personennahverkehr"
+            },
+            {
+                "code": "7",
+                "label": "Woanders drinnen"
+            },
+            {
+                "code": "8",
+                "label": "Woanders draußen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "ESM_EveningDynaMORE_Q5",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "checkbox",
+        "field_label": "Mit wem war ich zusammen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Partner"
+            },
+            {
+                "code": "2",
+                "label": "Vater"
+            },
+            {
+                "code": "3",
+                "label": "Mutter"
+            },
+            {
+                "code": "4",
+                "label": "Anderes Mitglied meines engen Familienkreises"
+            },
+            {
+                "code": "5",
+                "label": "Anderes Mitglied meines erweiterten Familienkreises"
+            },
+            {
+                "code": "6",
+                "label": "Freund(e)"
+            },
+            {
+                "code": "7",
+                "label": "Andere Gleichaltrige"
+            },
+            {
+                "code": "8",
+                "label": "Kollege(n)"
+            },
+            {
+                "code": "9",
+                "label": "Lehrer"
+            },
+            {
+                "code": "10",
+                "label": "Andere bekannte Leute"
+            },
+            {
+                "code": "11",
+                "label": "Andere unbekannte Leute"
+            },
+            {
+                "code": "12",
+                "label": "Niemand"
+            }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q6",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Wie unangenehm war dieses Ereignis?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q7",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "radio",
+        "field_label": "Ich habe mit jemandem darüber gesprochen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },  
+    {
+        "field_name": "ESM_EveningDynaMORE_Q7branchYes",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Diese Person(en) haben mit Verständnis reagiert",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q7(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q7BranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q7'] == 1"
+    },    
+    {
+        "field_name": "ESM_EveningDynaMORE_Q7branchNo",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich hätte gern mit jemandem darüber gesprochen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q7(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q7branchNo",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q7'] == 0"
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q8",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe seitdem häufig darüber nachgedacht",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q9",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe meine Bewertung des Eregnisses verändert",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q10",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe es einfach passieren lassen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q11",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe meine Gefühle dazu ausgedrückt",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q12",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe versucht, es schnell zu vergessen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q13",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "field_type": "range",
+        "field_label": "Ich habe versucht, die Situation zu ändern",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_PositiveEventInfo",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Denke an das POSITIVSTE Ereignis des Tages",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q14",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "radio",
+        "field_label": "Wann war das?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Morgen"
+            },
+            {
+                "code": "2",
+                "label": "Mittag"
+            },
+            {
+                "code": "3",
+                "label": "Nachmittag"
+            },
+            {
+                "code": "4",
+                "label": "Abend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q15",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "radio",
+        "field_label": "Wo war ich?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "In der Schule/auf der Arbeit"
+            },
+            {
+                "code": "2",
+                "label": "Zu Hause"
+            },
+            {
+                "code": "3",
+                "label": "Bei meinem/meiner Partner(in) zu Hause"
+            },
+            {
+                "code": "4",
+                "label": "Bei einem Freund / einer Freundin zu Hause"
+            },
+            {
+                "code": "5",
+                "label": "Zu Hause bei anderen Familienmitgliedern"
+            },
+            {
+                "code": "6",
+                "label": "Auf dem Fahrrad / im Auto / im öffentlichen Personennahverkehr"
+            },
+            {
+                "code": "7",
+                "label": "Woanders drinnen"
+            },
+            {
+                "code": "8",
+                "label": "Woanders draußen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "ESM_EveningDynaMORE_Q16",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "checkbox",
+        "field_label": "Mit wem war ich zusammen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Partner"
+            },
+            {
+                "code": "2",
+                "label": "Vater"
+            },
+            {
+                "code": "3",
+                "label": "Mutter"
+            },
+            {
+                "code": "4",
+                "label": "Anderes Mitglied meines engen Familienkreises"
+            },
+            {
+                "code": "5",
+                "label": "Anderes Mitglied meines erweiterten Familienkreises"
+            },
+            {
+                "code": "6",
+                "label": "Freund(e)"
+            },
+            {
+                "code": "7",
+                "label": "Andere Gleichaltrige"
+            },
+            {
+                "code": "8",
+                "label": "Kollege(n)"
+            },
+            {
+                "code": "9",
+                "label": "Lehrer"
+            },
+            {
+                "code": "10",
+                "label": "Andere bekannte Leute"
+            },
+            {
+                "code": "11",
+                "label": "Andere unbekannte Leute"
+            },
+            {
+                "code": "12",
+                "label": "Niemand"
+            }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q17",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Wie angenehm war dieses Ereignis?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q18",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "radio",
+        "field_label": "Ich habe mit jemandem darüber gesprochen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },  
+    {
+        "field_name": "ESM_EveningDynaMORE_Q18branchYes",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Diese Person(en) hat positiv reagiert",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q18(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q18branchYes",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q18'] == 1"
+    },    
+    {
+        "field_name": "ESM_EveningDynaMORE_Q18branchNo",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ich hätte gern mit jemandem darüber gesprochen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q18(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q18branchNo",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q18'] == 0"
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q19",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "range",
+        "field_label": "Ich habe seitdem häufig darüber nachgedacht",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q20",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "range",
+        "field_label": "Ich habe meine Bewertung des Eregnisses verändert",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q21",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "range",
+        "field_label": "Ich habe es einfach passieren lassen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q22",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": "POSITIVSTE Ereignis des Tages",
+        "field_type": "range",
+        "field_label": "Ich habe meine Gefühle dazu ausgedrückt",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q23",
+        "form_name": "ESM_EveningDynaMORE",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Diese Fragebögen auszufüllen hat heute meine Stimmung beeinflusst",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Gar nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
