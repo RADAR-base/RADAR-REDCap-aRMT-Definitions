@@ -5,11 +5,11 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Ik voel me vrolijk.",
-        "range": [
+        "range": {
           "min": "0",
           "max": "100",
           "step": "1"
-        ],
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
