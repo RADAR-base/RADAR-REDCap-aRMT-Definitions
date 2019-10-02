@@ -116,6 +116,10 @@ function REDCapConvertor(redcap_json) {
           } else if(rawContent[key].field_annotation.includes('range-info-type')) {
             rawContent[key].field_type = 'range-info'
           }
+        } else if(rawContent[key].field_type == 'text') {
+            if(rawContent[key].field_annotation.includes('duration')) {
+              rawContent[key].text_validation_type_or_show_slider_number = 'duration'
+            }
         }
       });
 
