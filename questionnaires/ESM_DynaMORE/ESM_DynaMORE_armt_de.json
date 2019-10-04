@@ -1871,7 +1871,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "checkbox",
         "field_label": "Welche Tätigkeit führen Sie gerade aus?",
         "select_choices_or_calculations": [
             {
@@ -1884,7 +1884,7 @@
             },
             {
                 "code": "3",
-                "label": "Schule oder Arbeit"
+                "label": "Universität oder Arbeit"
             },
             {
                 "code": "4",
@@ -2192,7 +2192,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "In der Schule"
+                "label": "In der Universität"
             },
             {
                 "code": "1",
@@ -2582,7 +2582,7 @@
             },
             {
                 "code": "3",
-                "label": "Schule oder Arbeit"
+                "label": "Universität oder Arbeit"
             },
             {
                 "code": "4",
@@ -2849,7 +2849,7 @@
             },
             {
                 "code": "3",
-                "label": "Schule oder Arbeit"
+                "label": "Universität oder Arbeit"
             },
             {
                 "code": "4",
