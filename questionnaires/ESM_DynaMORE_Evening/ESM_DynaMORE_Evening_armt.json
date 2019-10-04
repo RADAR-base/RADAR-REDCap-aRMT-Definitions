@@ -3,38 +3,13 @@
         "field_name": "ESM_EveningDynaMORE_Q1",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "This was a normal day for me",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -53,38 +28,13 @@
         "field_name": "ESM_EveningDynaMORE_Q2",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "This was a nice day",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -292,38 +242,13 @@
         "field_name": "ESM_EveningDynaMORE_Q6",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "How unpleasant was this event?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -372,38 +297,13 @@
         "field_name": "ESM_EveningDynaMORE_Q7branchYes",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "These person(s) responded with understanding",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -422,38 +322,13 @@
         "field_name": "ESM_EveningDynaMORE_Q7branchNo",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I would have liked to talk to someone about it",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -472,38 +347,13 @@
         "field_name": "ESM_EveningDynaMORE_Q8",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I have since thought about it often",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -522,38 +372,13 @@
         "field_name": "ESM_EveningDynaMORE_Q9",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I have put it into perspective",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -572,38 +397,13 @@
         "field_name": "ESM_EveningDynaMORE_Q10",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I just let it happen",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -622,38 +422,13 @@
         "field_name": "ESM_EveningDynaMORE_Q11",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I expressed my emotions about this",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -672,38 +447,13 @@
         "field_name": "ESM_EveningDynaMORE_Q12",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I tried to quickly forget about it",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -722,38 +472,13 @@
         "field_name": "ESM_EveningDynaMORE_Q13",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most NEGATIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I tried to change the situation",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -961,38 +686,13 @@
         "field_name": "ESM_EveningDynaMORE_Q17",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "How pleasant was this event?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1041,38 +741,13 @@
         "field_name": "ESM_EveningDynaMORE_Q18branchYes",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "These person(s) responded positively",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1091,38 +766,13 @@
         "field_name": "ESM_EveningDynaMORE_Q18branchNo",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I would have liked to talk to someone about it",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1141,38 +791,13 @@
         "field_name": "ESM_EveningDynaMORE_Q19",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I have since thought about it often",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1191,38 +816,13 @@
         "field_name": "ESM_EveningDynaMORE_Q20",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I have put it into perspective",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1241,38 +841,13 @@
         "field_name": "ESM_EveningDynaMORE_Q21",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I just let it happen",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1291,38 +866,13 @@
         "field_name": "ESM_EveningDynaMORE_Q22",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "most POSITIVE event",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "I expressed my emotions about this",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1341,38 +891,13 @@
         "field_name": "ESM_EveningDynaMORE_Q23",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Filling out the questionnaires on this app influenced my mood today",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. Not at all"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. very much"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
