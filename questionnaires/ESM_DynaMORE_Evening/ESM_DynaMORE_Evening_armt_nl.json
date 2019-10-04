@@ -3,38 +3,13 @@
         "field_name": "ESM_EveningDynaMORE_Q1",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Dit was een normale dag voor mij",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -53,38 +28,13 @@
         "field_name": "ESM_EveningDynaMORE_Q2",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Dit was een fijne dag",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -292,38 +242,13 @@
         "field_name": "ESM_EveningDynaMORE_Q6",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Hoe onplezierig was deze gebeurtenis?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -372,38 +297,13 @@
         "field_name": "ESM_EveningDynaMORE_Q7branchYes",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Deze perso(o)n(en) reageerde(n) begripvol",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -422,38 +322,13 @@
         "field_name": "ESM_EveningDynaMORE_Q7branchNo",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik had er graag met iemand over gepraat.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -472,38 +347,13 @@
         "field_name": "ESM_EveningDynaMORE_Q8",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb er sindsdien veel aan gedacht",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -522,38 +372,13 @@
         "field_name": "ESM_EveningDynaMORE_Q9",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb het in perspectief geplaatst",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -572,38 +397,13 @@
         "field_name": "ESM_EveningDynaMORE_Q10",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb het gewoon laten gebeuren.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -622,38 +422,13 @@
         "field_name": "ESM_EveningDynaMORE_Q11",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb mijn emoties hierover geuit",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -672,38 +447,13 @@
         "field_name": "ESM_EveningDynaMORE_Q12",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb geprobeerd het snel te vergeten",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -722,38 +472,13 @@
         "field_name": "ESM_EveningDynaMORE_Q13",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "meest NEGATIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb geprobeerd de situatie te veranderen",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -961,38 +686,13 @@
         "field_name": "ESM_EveningDynaMORE_Q17",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Hoe plezierig was deze gebeurtenis?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1041,38 +741,13 @@
         "field_name": "ESM_EveningDynaMORE_Q18branchYes",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Deze perso(o)n(en) reageerden positief",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1091,38 +766,13 @@
         "field_name": "ESM_EveningDynaMORE_Q18branchNo",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik had er graag met iemand over gepraat.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1141,38 +791,13 @@
         "field_name": "ESM_EveningDynaMORE_Q19",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb er sindsdien veel aan gedacht",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1191,38 +816,13 @@
         "field_name": "ESM_EveningDynaMORE_Q20",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb het in perspectief geplaatst",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1241,38 +841,13 @@
         "field_name": "ESM_EveningDynaMORE_Q21",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik liet het gewoon gebeuren.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1291,38 +866,13 @@
         "field_name": "ESM_EveningDynaMORE_Q22",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "Meest POSITIEVE gebeurtenis",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Ik heb mijn emoties hierover geuit",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1341,38 +891,13 @@
         "field_name": "ESM_EveningDynaMORE_Q23",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Het beantwoorden van de vragenlijsten heeft vandaag een invloed gehad op mijn stemming",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. helemaal niet"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. heel erg"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
