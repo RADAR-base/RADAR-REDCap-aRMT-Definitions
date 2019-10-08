@@ -8,15 +8,15 @@
     "select_choices_or_calculations": [
       {
         "label": "In de volgende twee taken willen we graag dat u uw spraak opneemt. Om dit te doen, vragen we u een rustige ruimte op te zoeken en het uzelf comfortabel te maken.",
-        "code": "Step 1"
+        "code": "Stap 1"
       },
       {
         "label": "U kunt zitten of staan terwijl u zichzelf opneemt. Spreek op natuurlijke wijze tijdens beide taken. Probeer op geen enkele manier uw stem of de snelheid waarmee u spreekt te veranderen.",
-        "code": "Step 2"
+        "code": "Stap 2"
       },
       {
         "label": "U heeft de mogelijkheid om de opnames opnieuw te doen, als u onderbroken wordt tijdens de opname.",
-        "code": "Step 3"
+        "code": "Stap 3"
       }
     ],
     "field_note": "",
@@ -42,15 +42,15 @@
     "select_choices_or_calculations": [
       {
         "label": "Houd tijdens het opnemen uw telefoon stil en voor u, alsof u een videogesprek voert, bijvoorbeeld met Skype, WhatsApp of FaceTime.",
-        "code": "Step 1"
+        "code": "Stap 1"
       },
       {
         "label": "Houd uw arm in een natuurlijk houding, licht gebogen en ontspannen . Houd uw arm niet recht en houd uw telefoon niet te dicht bij uw gezicht.",
-        "code": "Step 2"
+        "code": "Stap 2"
       },
       {
         "label": "Zorg ervoor dat de microfoon van de telefoon niet wordt bedekt door uw hand of een ander object.",
-        "code": "Step 3"
+        "code": "Stap 3"
       }
     ],
     "field_note": "",
@@ -72,7 +72,7 @@
     "form_name": "audio",
     "section_header": "Hieronder staat een kort fragment uit ‘De noordenwind en de zon’, een van de fabels van Aesop. Druk op ‘Begin’, lees de tekst hardop voor en druk op ‘Stoppen’ als u klaar bent.",
     "field_type": "audio",
-    "field_label": "\"The North Wind and the Sun were disputing which was the stronger, when a traveller came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveller take his cloak off should be considered stronger than the other.\"",
+    "field_label": "\"De noordenwind en de zon hadden een discussie over de vraag wie van hun tweeën de sterkste was, toen er juist iemand voorbij kwam die een dikke, warme jas aanhad. Ze spraken af dat wie de voorbijganger ertoe zou krijgen zijn jas uit te trekken de sterkste zou zijn.\"",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
