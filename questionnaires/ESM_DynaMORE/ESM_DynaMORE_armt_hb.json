@@ -3,7 +3,7 @@
         "field_name": "ESM_DynaMORE_moodItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש שמח",
         "range": {
           "min": "0",
@@ -28,7 +28,7 @@
         "field_name": "ESM_DynaMORE_moodItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש עצבני",
         "range": {
           "min": "0",
@@ -53,7 +53,7 @@
         "field_name": "ESM_DynaMORE_moodItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש חרד",
         "range": {
           "min": "0",
@@ -78,7 +78,7 @@
         "field_name": "ESM_DynaMORE_moodItem4",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש שבע רצון",
         "range": {
           "min": "0",
@@ -103,7 +103,7 @@
         "field_name": "ESM_DynaMORE_moodItem5",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש לא בטוח",
         "range": {
           "min": "0",
@@ -128,7 +128,7 @@
         "field_name": "ESM_DynaMORE_moodItem6",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש בודד",
         "range": {
           "min": "0",
@@ -153,7 +153,7 @@
         "field_name": "ESM_DynaMORE_moodItem7",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש רגוע",
         "range": {
           "min": "0",
@@ -178,7 +178,7 @@
         "field_name": "ESM_DynaMORE_moodItem8",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש עצוב",
         "range": {
           "min": "0",
@@ -203,7 +203,7 @@
         "field_name": "ESM_DynaMORE_moodItem9",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש שאני יכול להיות עצמי",
         "range": {
           "min": "0",
@@ -228,7 +228,7 @@
         "field_name": "ESM_DynaMORE_moodItem10",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש לחוץ",
         "range": {
           "min": "0",
@@ -253,7 +253,7 @@
         "field_name": "ESM_DynaMORE_moodItem11",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש חסר מנוחה",
         "range": {
           "min": "0",
@@ -278,7 +278,7 @@
         "field_name": "ESM_DynaMORE_moodItem12",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "באופן כללי, אני מרגיש בסדר",
         "range": {
           "min": "0",
@@ -303,7 +303,7 @@
         "field_name": "ESM_DynaMORE_moodItem13",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מפקפק בעצמי",
         "range": {
           "min": "0",
@@ -328,7 +328,7 @@
         "field_name": "ESM_DynaMORE_moodItem14",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש בנוח",
         "range": {
           "min": "0",
@@ -353,7 +353,7 @@
         "field_name": "ESM_DynaMORE_moodItem15",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש חשדן",
         "range": {
           "min": "0",
@@ -378,7 +378,7 @@
         "field_name": "ESM_DynaMORE_moodItem16",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני לא יכול להוציא את המחשבות הללו מראשי",
         "range": {
           "min": "0",
@@ -403,7 +403,7 @@
         "field_name": "ESM_DynaMORE_moodItem17",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני יכול להתרכז היטב",
         "range": {
           "min": "0",
@@ -512,7 +512,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני עושה משהו ביחד עם האנשים הללו",
         "range": {
           "min": "0",
@@ -537,7 +537,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש בנוח עם האנשים הללו",
         "range": {
           "min": "0",
@@ -562,7 +562,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem4",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש מוערך על ידי האנשים הללו",
         "range": {
           "min": "0",
@@ -587,7 +587,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem5",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני שייך עם האנשים הללו",
         "range": {
           "min": "0",
@@ -612,7 +612,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem6",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "הייתי מעדיף להיות לבד",
         "range": {
           "min": "0",
@@ -637,7 +637,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "הייתי רוצה להיות בקשר וירטואלי עם אחרים.",
         "range": {
           "min": "0",
@@ -662,7 +662,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": ".אני בחרתי בעצמי לא להיות בקשר וירטואלי עם אחרים",
         "range": {
           "min": "0",
@@ -687,7 +687,7 @@
         "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש, מבחינה וירטואלית, בחוץ",
         "range": {
           "min": "0",
@@ -796,7 +796,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אנחנו עושים משהו ביחד (מדברים,לומדים,משחקים וכו')",
         "range": {
           "min": "0",
@@ -821,7 +821,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש בנוח בחברתם",
         "range": {
           "min": "0",
@@ -846,7 +846,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem4",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש מוערך על ידי חברה זו",
         "range": {
           "min": "0",
@@ -871,7 +871,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem5",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש שאני שייך",
         "range": {
           "min": "0",
@@ -896,7 +896,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem6",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "הייתי מעדיף להיות לבד",
         "range": {
           "min": "0",
@@ -921,7 +921,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchAloneItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני אוהב להיות לבד",
         "range": {
           "min": "0",
@@ -946,7 +946,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchAloneItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני רוצה להיות לבד",
         "range": {
           "min": "0",
@@ -971,7 +971,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchAloneItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מרגיש בחוץ",
         "range": {
           "min": "0",
@@ -996,7 +996,7 @@
         "field_name": "ESM_DynaMORE_socialItem1branchAloneItem4",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני הייתי מעדיף להיות עם אנשים אחרים",
         "range": {
           "min": "0",
@@ -1021,7 +1021,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "?מה אתה עושה",
         "select_choices_or_calculations": [
             {
@@ -1087,7 +1087,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני אוהב את זה",
         "range": {
           "min": "0",
@@ -1112,7 +1112,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": ".הייתי מעדיף לעשות משהו אחר",
         "range": {
           "min": "0",
@@ -1137,7 +1137,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "זה מאתגר עבורי",
         "range": {
           "min": "0",
@@ -1162,7 +1162,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני יכול לעשות זאת היטב",
         "range": {
           "min": "0",
@@ -1187,7 +1187,7 @@
         "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני פעיל ומעורב בפעילות זו",
         "range": {
           "min": "0",
@@ -1266,7 +1266,7 @@
         "field_name": "ESM_DynaMORE_controlItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני עייף",
         "range": {
           "min": "0",
@@ -1291,7 +1291,7 @@
         "field_name": "ESM_DynaMORE_controlItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני רעב",
         "range": {
           "min": "0",
@@ -1316,7 +1316,7 @@
         "field_name": "ESM_DynaMORE_controlItem3",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "פיזית, אני לא מרגיש טוב",
         "range": {
           "min": "0",
@@ -1341,7 +1341,7 @@
         "field_name": "ESM_DynaMORE_controlItem4",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "כואב לי",
         "range": {
           "min": "0",
@@ -1444,7 +1444,7 @@
         "field_name": "ESM_DynaMORE_eventAppraisalItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "זה היה אירוע מלחיץ",
         "range": {
           "min": "0",
@@ -1636,7 +1636,7 @@
         "field_name": "ESM_DynaMORE_anticipationOfPleasureItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מצפה לסיטואציה הזו",
         "range": {
           "min": "0",
@@ -1661,7 +1661,7 @@
         "field_name": "ESM_DynaMORE_anticipationOfPleasureItem2",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "אני מפחד מהסיטואציה הזו",
         "range": {
           "min": "0",
@@ -1786,7 +1786,7 @@
         "field_name": "ESM_DynaMORE_suicidalIdeationItem1branchYesItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "?באיזו מידה, במהלך המחשבות על פגיעה עצמית, היה לך רצון לשים סוף לחייך",
         "range": {
           "min": "0",
@@ -1845,7 +1845,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "אם אתה במצוקה כרגע, תזכור שאתה לא לבד.אם אתה רוצה לדבר בצורה אנונימית עם מישהו על רגשותייך, אתה יכול לעשות זאת בדרכים הבאות-עמותת ער"ן עזרה רפואית נפשית – בטלפון 1201. https://www.eran.org.il השירות הפסיכולוגי באוניברסיטת ת"א בטלפון: 03-6408505 clinic@tauex.tau.ac.il במקרה חירום, שבו אתה צריך עזרה רפואית מיידית, התקשר למוקד מד"א 101 באופן מיידי",
+            "label": "אם אתה במצוקה כרגע, תזכור שאתה לא לבד.אם אתה רוצה לדבר בצורה אנונימית עם מישהו על רגשותייך, אתה יכול לעשות זאת בדרכים הבאות-עמותת ערן עזרה רפואית נפשית – בטלפון 1201. https://www.eran.org.il השירות הפסיכולוגי באוניברסיטת תא בטלפון: 03-6408505 clinic@tauex.tau.ac.il במקרה חירום, שבו אתה צריך עזרה רפואית מיידית, התקשר למוקד מדא 101 באופן מיידי",
             "code": "Emergency services"         
             }
         ],
@@ -1867,7 +1867,7 @@
         "field_name": "ESM_DynaMORE_disturbItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "הצפצוף הזה הפריע לי",
         "range": {
           "min": "0",
