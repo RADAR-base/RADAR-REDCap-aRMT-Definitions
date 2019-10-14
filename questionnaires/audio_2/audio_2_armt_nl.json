@@ -2,21 +2,21 @@
   {
     "field_name": "audio_prep_1",
     "form_name": "audio",
-    "section_header": "Speech Test Preparation",
+    "section_header": "Voorbereiding voor de spraaktest",
     "field_type": "info",
     "field_label": "",
     "select_choices_or_calculations": [
       {
-        "label": "In the following two tasks, we would like you to record yourself speaking. To do this, first find a quiet space and make yourself comfortable.",
-        "code": "Step 1"
+        "label": "In de volgende twee taken willen we graag dat u uw spraak opneemt. Om dit te doen, vragen we u een rustige ruimte op te zoeken en het uzelf comfortabel te maken.",
+        "code": "Stap 1"
       },
       {
-        "label": "You can sit or stand while you record yourself. Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
-        "code": "Step 2"
+        "label": "U kunt zitten of staan terwijl u zichzelf opneemt. Spreek op natuurlijke wijze tijdens beide taken. Probeer op geen enkele manier uw stem of de snelheid waarmee u spreekt te veranderen.",
+        "code": "Stap 2"
       },
       {
-        "label": "You will have a chance to repeat the recordings, in case you are somehow interrupted.",
-        "code": "Step 3"
+        "label": "U heeft de mogelijkheid om de opnames opnieuw te doen, als u onderbroken wordt tijdens de opname.",
+        "code": "Stap 3"
       }
     ],
     "field_note": "",
@@ -36,21 +36,21 @@
   {
     "field_name": "audio_prep_2",
     "form_name": "audio",
-    "section_header": "Let's get started.",
+    "section_header": "Laten we beginnen.",
     "field_type": "info",
-    "field_label": "These three steps will help ensure a good recording.",
+    "field_label": "De volgende drie stappen zorgen voor een goede opname.",
     "select_choices_or_calculations": [
       {
-        "label": "While recording, hold your phone still and in front of you, as if you were making a video call, for example with Skype, Whatsapp or Facetime.",
-        "code": "Step 1"
+        "label": "Houd tijdens het opnemen uw telefoon stil en voor u, alsof u een videogesprek voert, bijvoorbeeld met Skype, WhatsApp of FaceTime.",
+        "code": "Stap 1"
       },
       {
-        "label": "Your arm should be naturally bent and relaxed. Avoid straightening your arm or holding your phone very close to your face.",
-        "code": "Step 2"
+        "label": "Houd uw arm in een natuurlijk houding, licht gebogen en ontspannen. Houd uw arm niet recht en houd uw telefoon niet te dicht bij uw gezicht.",
+        "code": "Stap 2"
       },
       {
-        "label": "Make sure the phone’s microphone is not covered by your hand or another object.",
-        "code": "Step 3"
+        "label": "Zorg ervoor dat de microfoon van de telefoon niet wordt bedekt door uw hand of een ander object.",
+        "code": "Stap 3"
       }
     ],
     "field_note": "",
@@ -68,11 +68,11 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "audio_scripted_3",
+    "field_name": "audio_scripted_2",
     "form_name": "audio",
-    "section_header": "Below is a short excerpt from The North Wind and The Sun, one of Aesop’s fables. Press ‘Start’, read out the text, then press ‘Stop’ when you have finished.",
+    "section_header": "Hieronder staat een kort fragment uit ‘De noordenwind en de zon’, een van de fabels van Aesop. Druk op ‘Begin’, lees de tekst hardop voor en druk op ‘Stoppen’ als u klaar bent.",
     "field_type": "audio",
-    "field_label": "\"Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.\"",
+    "field_label": "\"De noordenwind begon uit alle macht te blazen, maar hoe harder hij blies, des te dichter de voorbijganger zijn jas om zich heen trok. Tenslotte gaf de noordenwind het maar op.\"",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -91,9 +91,9 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "Next, we would like you to record yourself answering a question. You can answer the question however you want. If you would prefer to skip this task, please press ‘Finish’. This recording cannot be used to send any kind of message to the RADAR team. If you need help, please contact your local research team directly.",
+    "section_header": "Vervolgens willen we graag dat u een opname maakt terwijl u een vraag beantwoord. U kunt de vraag beantwoorden zoals u wilt. Als u deze taak liever overslaat, drukt u op ‘Voltooid’. Deze opname kan niet gebruikt worden om een bericht naar het RADAR-team te sturen. Als u hulp nodig hebt, neem dan rechtstreeks contact op met uw lokale onderzoeksteam.",
     "field_type": "audio",
-    "field_label": "Tell us about something you are looking forward to in the next seven days.",
+    "field_label": "Kunt u iets omschrijven waar u deze week naar uitziet?",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",

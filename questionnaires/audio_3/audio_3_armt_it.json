@@ -2,21 +2,21 @@
   {
     "field_name": "audio_prep_1",
     "form_name": "audio",
-    "section_header": "Speech Test Preparation",
+    "section_header": "Preparazione al test vocale",
     "field_type": "info",
     "field_label": "",
     "select_choices_or_calculations": [
       {
-        "label": "In the following two tasks, we would like you to record yourself speaking. To do this, first find a quiet space and make yourself comfortable.",
-        "code": "Step 1"
+        "label": "Con i seguenti due compiti, vorremmo guidarti nel registrare la tua voce mentre parli. Per fare ciò, trova prima un posto tranquillo e mettiti comodo.",
+        "code": "Passaggio 1"
       },
       {
-        "label": "You can sit or stand while you record yourself. Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
-        "code": "Step 2"
+        "label": "Puoi sederti o alzarti mentre stai registrando. Cerca di parlare in maniera naturale in entrambi i compiti. Non cercare in alcun modo di cambiare la tua voce o la velocità con cui parli.",
+        "code": "Passaggio 2"
       },
       {
-        "label": "You will have a chance to repeat the recordings, in case you are somehow interrupted.",
-        "code": "Step 3"
+        "label": "Avrai la possibilità di ripetere le registrazioni, nel caso in cui tu venga in qualche modo interrotto.",
+        "code": "Passaggio 3"
       }
     ],
     "field_note": "",
@@ -36,21 +36,21 @@
   {
     "field_name": "audio_prep_2",
     "form_name": "audio",
-    "section_header": "Let's get started.",
+    "section_header": "Iniziamo.",
     "field_type": "info",
-    "field_label": "These three steps will help ensure a good recording.",
+    "field_label": "Questi tre passaggi ti aiuteranno a garantire una buona registrazione.",
     "select_choices_or_calculations": [
       {
-        "label": "While recording, hold your phone still and in front of you, as if you were making a video call, for example with Skype, Whatsapp or Facetime.",
-        "code": "Step 1"
+        "label": "Durante la registrazione, tieni il telefono fermo e davanti a te, come se stessi facendo una videochiamata, ad esempio con Skype, Whatsapp o FaceTime.",
+        "code": "Passaggio 1"
       },
       {
-        "label": "Your arm should be naturally bent and relaxed. Avoid straightening your arm or holding your phone very close to your face.",
-        "code": "Step 2"
+        "label": "Il braccio dovrebbe essere naturalmente piegato e rilassato. Evita di raddrizzare il braccio o di tenere il telefono molto vicino al viso.",
+        "code": "Passaggio 2"
       },
       {
-        "label": "Make sure the phone’s microphone is not covered by your hand or another object.",
-        "code": "Step 3"
+        "label": "Assicurati che il microfono del telefono non sia coperto dalla mano o da un altro oggetto.",
+        "code": "Passaggio 3"
       }
     ],
     "field_note": "",
@@ -70,9 +70,9 @@
   {
     "field_name": "audio_scripted_3",
     "form_name": "audio",
-    "section_header": "Below is a short excerpt from The North Wind and The Sun, one of Aesop’s fables. Press ‘Start’, read out the text, then press ‘Stop’ when you have finished.",
+    "section_header": "Di seguito è riportato un breve passo tratto da “La Tramontana e il Sole”, una delle favole di Esopo. Premi 'Inizio', leggi il testo, quindi premi 'Fermare' al termine.",
     "field_type": "audio",
-    "field_label": "\"Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.\"",
+    "field_label": "\"Il Sole allora si mostrò nel cielo e poco dopo il viaggiatore che sentiva caldo si tolse il mantello, e la tramontana fu costretta cosi a riconoscere che il Sole era più forte di lei.\"",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -91,9 +91,9 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "Next, we would like you to record yourself answering a question. You can answer the question however you want. If you would prefer to skip this task, please press ‘Finish’. This recording cannot be used to send any kind of message to the RADAR team. If you need help, please contact your local research team directly.",
+    "section_header": "Successivamente, vorremmo che tu ti registrassi mentre rispondi a una domanda. Puoi rispondere alla domanda come preferisci. Se preferisci saltare questa attività, premi 'Fine'. Questo compito non può essere utilizzato per inviare alcun tipo di messaggio al team RADAR. Se hai bisogno di aiuto, contatta direttamente il tuo team di ricerca locale.",
     "field_type": "audio",
-    "field_label": "Tell us about something you are looking forward to in the next seven days.",
+    "field_label": "Parlaci di qualcosa che non vedi l'ora accada nei prossimi sette giorni.",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",

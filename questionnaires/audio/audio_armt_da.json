@@ -2,21 +2,21 @@
   {
     "field_name": "audio_prep_1",
     "form_name": "audio",
-    "section_header": "Speech Test Preparation",
+    "section_header": "Forberedelse af taletest",
     "field_type": "info",
     "field_label": "",
     "select_choices_or_calculations": [
       {
-        "label": "In the following two tasks, we would like you to record yourself speaking. To do this, first find a quiet space and make yourself comfortable.",
-        "code": "Step 1"
+        "label": "I de følgende to opgaver skal du optage din stemme imens du taler. Find et roligt sted hvor du kan slappe af.",
+        "code": "Punkt 1"
       },
       {
-        "label": "You can sit or stand while you record yourself. Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
-        "code": "Step 2"
+        "label": "Du kan sidde eller stå imens du optager. Snak som du normalt ville gøre i begge opgaver. Prøv ikke at ændre din stemme eller hastigheden i forhold til hvordan du normalt snakker.",
+        "code": "Punkt 2"
       },
       {
-        "label": "You will have a chance to repeat the recordings, in case you are somehow interrupted.",
-        "code": "Step 3"
+        "label": "Du vil få en mulighed for at gentage optagelserne, hvis du bliver forstyrret.",
+        "code": "Punkt 3"
       }
     ],
     "field_note": "",
@@ -36,21 +36,21 @@
   {
     "field_name": "audio_prep_2",
     "form_name": "audio",
-    "section_header": "Let's get started.",
+    "section_header": "Lad os komme I gang.",
     "field_type": "info",
-    "field_label": "These three steps will help ensure a good recording.",
+    "field_label": "Disse tre punkter vil sørge for en god optagelse.",
     "select_choices_or_calculations": [
       {
-        "label": "While recording, hold your phone still and in front of you, as if you were making a video call, for example with Skype, Whatsapp or Facetime.",
-        "code": "Step 1"
+        "label": "Imens du optager skal du holde din telefon stille foran dig, som om du var ved at lave et video-opkald, som man kender det fra Skype, Whatsapp eller Facetime.",
+        "code": "Punkt 1"
       },
       {
-        "label": "Your arm should be naturally bent and relaxed. Avoid straightening your arm or holding your phone very close to your face.",
-        "code": "Step 2"
+        "label": "Din arm skal være naturligt bøjet og afslappet. Undgå at strække din arm, eller holde din telefon meget tæt på dit ansigt.",
+        "code": "Punkt 2"
       },
       {
-        "label": "Make sure the phone’s microphone is not covered by your hand or another object.",
-        "code": "Step 3"
+        "label": "Sørg for at telefonens mikrofon ikke er dækket af din hånd, eller et andet objekt.",
+        "code": "Punkt 3"
       }
     ],
     "field_note": "",
@@ -68,11 +68,11 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "audio_scripted_3",
+    "field_name": "audio_scripted_1",
     "form_name": "audio",
-    "section_header": "Below is a short excerpt from The North Wind and The Sun, one of Aesop’s fables. Press ‘Start’, read out the text, then press ‘Stop’ when you have finished.",
+    "section_header": "Nedenfor står et kort uddrag af ’Solen og Nordenvinden’, en af Æsops fabler. Tryk ’Start’, læs teksten højt, og tryk herefter ‘Stop’, når du er færdig.",
     "field_type": "audio",
-    "field_label": "\"Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.\"",
+    "field_label": "\"Nordenvinden og solen kom engang i strid om hvem der var den stærkeste. Midt i det hele fik de øje på en mand der kom gående hen ad vejen med en varm frakke på, og blev enige om at den der først kunne få frakken af han skulle anses for den stærkeste.\"",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -91,9 +91,9 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "Next, we would like you to record yourself answering a question. You can answer the question however you want. If you would prefer to skip this task, please press ‘Finish’. This recording cannot be used to send any kind of message to the RADAR team. If you need help, please contact your local research team directly.",
+    "section_header": "Nu skal du optage dig selv imens du besvarer et spørgsmål. Hvad du svarer, bestemmer du selv. Hvis du foretrækker at springe denne opgave over, tryk da ”Færdig”. Du kan ikke kommunikere med RADAR-teamet på denne måde. Hvis du har brug for hjælp kan du kontakte dit lokale RADAR-team direkte.",
     "field_type": "audio",
-    "field_label": "Tell us about something you are looking forward to in the next seven days.",
+    "field_label": "Fortæl os om noget, der skal ske i løbet af de næste syv dage, og som du glæder dig til.",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
