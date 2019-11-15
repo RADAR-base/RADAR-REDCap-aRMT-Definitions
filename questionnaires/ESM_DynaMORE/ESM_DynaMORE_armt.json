@@ -492,6 +492,10 @@
             {
                 "code": "8",
                 "label": "Z obcymi osobami"
+            },
+            {
+                "code": "9",
+                "label": "Koledzy"
             }
         ],
         "field_note": "",
@@ -776,6 +780,10 @@
             {
                 "code": "8",
                 "label": "Z obcymi ludźmi"
+            },
+            {
+                "code": "9",
+                "label": "koledzy"
             }
         ],
         "field_note": "",
@@ -1393,38 +1401,13 @@
         "field_name": "ESM_DynaMORE_eventAppraisalItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Jakie było to zdarzenie? ",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 Bardzo nieprzyjemne"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 Bardzo przyjemne"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
