@@ -57,7 +57,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "Denke an das NEGATIVSTE Ereignis des Tages.",
+            "label": "Denken sie an das NEGATIVSTES Ereignis des Tages.",
             "code": ""         
             }
         ],
@@ -78,7 +78,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q3",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "radio",
         "field_label": "Wann war das?",
         "select_choices_or_calculations": [
@@ -116,7 +116,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q4",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "radio",
         "field_label": "Wo war ich?",
         "select_choices_or_calculations": [
@@ -170,7 +170,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q5",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "checkbox",
         "field_label": "Mit wem war ich zusammen?",
         "select_choices_or_calculations": [
@@ -266,7 +266,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q7",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "radio",
         "field_label": "Ich habe mit jemandem darüber gesprochen.",
         "select_choices_or_calculations": [
@@ -346,7 +346,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q8",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe seitdem häufig darüber nachgedacht",
         "range": {
@@ -371,7 +371,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q9",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe meine Bewertung des Eregnisses verändert",
         "range": {
@@ -396,7 +396,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q10",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe es einfach passieren lassen",
         "range": {
@@ -421,7 +421,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q11",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe meine Gefühle dazu ausgedrückt",
         "range": {
@@ -446,7 +446,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q12",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe versucht, es schnell zu vergessen",
         "range": {
@@ -471,7 +471,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q13",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "NEGATIVSTE Ereignis des Tages.",
+        "section_header": "NEGATIVSTES Ereignis des Tages.",
         "field_type": "slider",
         "field_label": "Ich habe versucht, die Situation zu ändern",
         "range": {
@@ -496,12 +496,12 @@
     {
         "field_name": "ESM_EveningDynaMORE_PositiveEventInfo",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "info",
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "Denke an das POSITIVSTE Ereignis des Tages",
+            "label": "Denken sie an das POSITIVSTES Ereignis des Tages",
             "code": ""         
             }
         ],
@@ -522,7 +522,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q14",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "radio",
         "field_label": "Wann war das?",
         "select_choices_or_calculations": [
@@ -560,7 +560,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q15",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "radio",
         "field_label": "Wo war ich?",
         "select_choices_or_calculations": [
@@ -614,7 +614,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q16",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "checkbox",
         "field_label": "Mit wem war ich zusammen?",
         "select_choices_or_calculations": [
@@ -710,7 +710,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q18",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "radio",
         "field_label": "Ich habe mit jemandem darüber gesprochen.",
         "select_choices_or_calculations": [
@@ -790,7 +790,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q19",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "slider",
         "field_label": "Ich habe seitdem häufig darüber nachgedacht",
         "range": {
@@ -815,9 +815,9 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q20",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "slider",
-        "field_label": "Ich habe meine Bewertung des Eregnisses verändert",
+        "field_label": "Ich habe meine Bewertung des Ereignisses verändert",
         "range": {
           "min": "0",
           "max": "100",
@@ -840,7 +840,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q21",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "slider",
         "field_label": "Ich habe es einfach passieren lassen",
         "range": {
@@ -865,7 +865,7 @@
     {
         "field_name": "ESM_EveningDynaMORE_Q22",
         "form_name": "ESM_EveningDynaMORE",
-        "section_header": "POSITIVSTE Ereignis des Tages",
+        "section_header": "POSITIVSTES Ereignis des Tages",
         "field_type": "slider",
         "field_label": "Ich habe meine Gefühle dazu ausgedrückt",
         "range": {
