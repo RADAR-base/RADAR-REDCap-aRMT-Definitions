@@ -459,7 +459,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Mit wem bin ich zusammen?",
+        "field_label": "Mit wem bin ich in virtuellem Kontakt?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -483,7 +483,7 @@
             },
             {
                 "code": "6",
-                "label": "Gleichaltrige/KommilitionInnen"
+                "label": "Gleichaltrige/ Kommilitonen"
             },
             {
                 "code": "7",
@@ -492,6 +492,10 @@
             {
                 "code": "8",
                 "label": "Unbekannte"
+            },
+            {
+                "code": "9",
+                "label": "Kolleginnen/Kollegen"
             }
         ],
         "field_note": "",
@@ -638,7 +642,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Ich wäre gerne in Gesellschaft.",
+        "field_label": "Ich wäre gerne in virtueller Gesellschaft.",
         "range": {
           "min": "0",
           "max": "100",
@@ -663,7 +667,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Ich habe es mir ausgesucht, nicht in Gesellschaft zu sein.",
+        "field_label": "Ich habe es mir ausgesucht, nicht in virtueller Gesellschaft zu sein.",
         "range": {
           "min": "0",
           "max": "100",
@@ -743,7 +747,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Wer ist bei mir?",
+        "field_label": "Who am I with?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -776,6 +780,10 @@
             {
                 "code": "8",
                 "label": "Unbekannte"
+            },
+            {
+                "code": "9",
+                "label": "Kolleginnen/Kollegen"
             }
         ],
         "field_note": "",
@@ -1062,7 +1070,7 @@
             },
             {
                 "code": "10",
-                "label": "Etwas anderese"
+                "label": "Etwas anderes"
             },
             {
                 "code": "11",
@@ -1163,7 +1171,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Ich kann dies sehr gut.",
+        "field_label": "Ich kann dies gut.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1217,7 +1225,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "In der Universität"
+                "label": "In der Universität / an der Arbeit"
             },
             {
                 "code": "1",
@@ -1225,7 +1233,7 @@
             },
             {
                 "code": "2",
-                "label": "Bei meinem Partner zu Hausee"
+                "label": "Bei meinem Partner zu Hause"
             },
             {
                 "code": "3",
@@ -1393,38 +1401,13 @@
         "field_name": "ESM_DynaMORE_eventAppraisalItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "Wie angenehm war das Ereignis?",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 sehr unangenehm"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 sehr angenehm"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1539,7 +1522,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ich habe seit dem letzten Klingeln eins (oder mehrere)der folgenden Sachen genutzt",
+        "field_label": "Ich habe seit dem letzten Klingeln eine (oder mehrere) der folgenden Substanzen konsumiert: Medikamente, Alkohol, Zigaretten, Cannabis, andere Drogen.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
