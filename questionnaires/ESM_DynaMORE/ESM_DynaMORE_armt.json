@@ -717,7 +717,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Jestemw tej chwili w kontakcie z innymi osobami w świecie rzeczywistym.",
+        "field_label": "Jestem w tej chwili w kontakcie z innymi osobami w świecie rzeczywistym.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -980,7 +980,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Czuję się wykluczony.",
+        "field_label": "Czuję się wykluczony(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -1196,7 +1196,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Jestem mocno zaangażowany(a) w tą aktywność.",
+        "field_label": "Jestem mocno zaangażowany(a) w tę aktywność.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1221,7 +1221,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Gdzie jesteś w tej cwhili?",
+        "field_label": "Gdzie jesteś w tej chwili?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1427,7 +1427,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "To było strasujące zdarzenie.",
+        "field_label": "To było stresujące zdarzenie.",
         "range": {
           "min": "0",
           "max": "100",
