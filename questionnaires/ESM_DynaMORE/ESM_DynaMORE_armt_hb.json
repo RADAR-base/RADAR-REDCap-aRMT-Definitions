@@ -492,6 +492,10 @@
             {
                 "code": "8",
                 "label": "אנשים לא מוכרים"
+            },
+            {
+                "code": "9",
+                "label": "עמיתים"
             }
         ],
         "field_note": "",
@@ -776,6 +780,10 @@
             {
                 "code": "8",
                 "label": "אנשים לא מוכרים"
+            },
+            {
+                "code": "9",
+                "label": "Kolleginnen/Kollegen"
             }
         ],
         "field_note": "",
@@ -1393,38 +1401,13 @@
         "field_name": "ESM_DynaMORE_eventAppraisalItem1",
         "form_name": "ESM_DynaMORE",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "slider",
         "field_label": "?כמה נעים היה אירוע זה",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 מאוד לא נעים"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 מאוד נעים"
-            }
-        ],
+        "range": {
+          "min": "0",
+          "max": "100",
+          "step": "1"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1439,7 +1422,6 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
-
     {
         "field_name": "ESM_DynaMORE_eventAppraisalItem2",
         "form_name": "ESM_DynaMORE",
@@ -1845,7 +1827,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "אם אתה במצוקה כרגע, תזכור שאתה לא לבד.אם אתה רוצה לדבר בצורה אנונימית עם מישהו על רגשותייך, אתה יכול לעשות זאת בדרכים הבאות-עמותת ערן עזרה רפואית נפשית – בטלפון 1201. https://www.eran.org.il השירות הפסיכולוגי באוניברסיטת תא בטלפון: 03-6408505 clinic@tauex.tau.ac.il במקרה חירום, שבו אתה צריך עזרה רפואית מיידית, התקשר למוקד מדא 101 באופן מיידי",
+            "label": "אם אתה במצוקה כרגע, תזכור שאתה לא לבד.אם אתה רוצה לדבר בצורה אנונימית עם מישהו על רגשותייך, אתה יכול לעשות זאת בדרכים הבאות-עמותת ער"ן עזרה רפואית נפשית – בטלפון 1201. https://www.eran.org.il השירות הפסיכולוגי באוניברסיטת ת"א בטלפון: 03-6408505 clinic@tauex.tau.ac.il במקרה חירום, שבו אתה צריך עזרה רפואית מיידית, התקשר למוקד מד"א 101 באופן מיידי",
             "code": "Emergency services"         
             }
         ],
