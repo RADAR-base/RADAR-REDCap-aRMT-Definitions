@@ -13,7 +13,6 @@ This folder contains:
 4. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 5. Run `node utilties/index.js [REDCAP API URL] [REDCAP API TOKEN] [type] [LANGUAGE]`
 
-
 ## aRMT
 
 This is to be used to generate Questionnaire Definitions for the RADAR-base Active Remote Monitoring Application at [RADAR-Questionnaire](https://github.com/RADAR-base/RADAR-Questionnaire).
@@ -21,7 +20,7 @@ To generate this for different languages -
 1. Copy the `utilities/_.env-template` to `./.env` and carefully fill in the values of the various variables specifically the Github Token and the branch.
 2. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 3. Run the `generateARMTs.sh` like `bash generateARMTs.sh`
-
+4. To update only a specific questionnaires or forms, run `bash generateARMTs.sh [FORM NAME]` or `bash generateARMTs.sh ["MULTIPLE FORMS"]`. For example: `bash generateARMTs.sh "esm phq8 pdq"` or `bash generateARMTs.sh esm`
 
 ## Updating Process
 
