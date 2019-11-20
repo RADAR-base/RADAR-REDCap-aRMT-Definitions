@@ -1,56 +1,6 @@
 [
     {
-        "field_name": "esm_cheerful_f8f786",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Right now, I feel cheerful",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Not at all "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_down_23daa7",
+        "field_name": "esm_down_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -94,13 +44,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_anxious_3f237b",
+        "field_name": "esm_anxious_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -144,13 +94,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_relaxed_8b02f9",
+        "field_name": "esm_relaxed_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -194,13 +144,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_irritated_5e82f6",
+        "field_name": "esm_irritated_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -244,13 +194,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_stressed_d1d2a5",
+        "field_name": "esm_stressed_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -294,13 +244,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_content_962c46",
+        "field_name": "esm_content_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -344,13 +294,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_insecure_643fc1",
+        "field_name": "esm_insecure_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -394,13 +344,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_hopeful_49362f",
+        "field_name": "esm_hopeful_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -444,13 +394,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_lonely_2b1754",
+        "field_name": "esm_lonely_2_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -494,17 +444,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_statisfied_a70759",
+        "field_name": "esm_statisfied_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "I am satisfied with myself",
+        "field_label": "I feel satisfied with myself",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -544,13 +494,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_restless_3f61e7",
+        "field_name": "esm_restless_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -594,13 +544,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_confident_8c43c8",
+        "field_name": "esm_confident_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -644,17 +594,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_qol_9d9ea6",
+        "field_name": "esm_qol_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Globally, I feel well",
+        "field_label": "Overall, I feel well",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -694,13 +644,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_ruminating_90cc95",
+        "field_name": "esm_ruminating_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -744,13 +694,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_concentrate_408335",
+        "field_name": "esm_concentrate_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -794,17 +744,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1_7c5c47",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_phys_activity_a6ed04",
+        "field_name": "esm_phys_activity_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "What am I doing (just before the beep)?",
+        "field_label": "What was I doing (just before this questionnaire)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -832,7 +782,7 @@
             },
             {
                 "code": "6",
-                "label": "Household/groceries "
+                "label": "Household chores "
             },
             {
                 "code": "7",
@@ -840,7 +790,7 @@
             },
             {
                 "code": "8",
-                "label": "Self-care "
+                "label": "Self-care/hygiene "
             },
             {
                 "code": "9",
@@ -870,11 +820,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_well_7af629",
+        "field_name": "esm_activity_well_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "I can do this well",
+        "field_label": "I felt content in doing this",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -914,17 +864,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2_a39a0d",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_else_78ebb9",
+        "field_name": "esm_activity_else_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "I would rather do something else",
+        "field_label": "I would rather have been doing something else",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -964,13 +914,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2_a39a0d",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_effort_b85fcf",
+        "field_name": "esm_activity_effort_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1014,17 +964,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2_a39a0d",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_active_42f58e",
+        "field_name": "esm_physical_active_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Physically, I am active",
+        "field_label": "I am active",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1064,17 +1014,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3_95fc84",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_tired_991a47",
+        "field_name": "esm_physical_tired_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Physically, I am tired",
+        "field_label": "I am tired",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1114,17 +1064,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3_95fc84",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_pain_232946",
+        "field_name": "esm_physical_pain_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Physically, I am in pain",
+        "field_label": "I am in pain",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1164,17 +1114,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3_95fc84",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_well_e8eb3b",
+        "field_name": "esm_physical_well_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Physically, I do not feel well",
+        "field_label": "I do not feel well",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1214,13 +1164,13 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3_95fc84",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_location_e88925",
+        "field_name": "esm_location_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
@@ -1236,7 +1186,7 @@
             },
             {
                 "code": "2",
-                "label": "At work or school "
+                "label": "At work/school/University "
             },
             {
                 "code": "3",
@@ -1270,15 +1220,15 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_interact_7f4676",
+        "field_name": "esm_social_interact_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Who am I with?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Alone "
+                "label": "On my own "
             },
             {
                 "code": "1",
@@ -1328,7 +1278,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_people_46f3a0",
+        "field_name": "esm_social_people_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
@@ -1336,15 +1286,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "1"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "2"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "3-10"
+                "label": "3-10 "
             },
             {
                 "code": "4",
@@ -1356,17 +1306,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_doing_7a5c14",
+        "field_name": "esm_social_doing_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1406,17 +1356,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4_b9eb4e",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_pleasant_b4326b",
+        "field_name": "esm_social_pleasant_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1456,21 +1406,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4_b9eb4e",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_alone_142464",
+        "field_name": "esm_social_alone_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "I would prefer to be alone",
+        "field_label": "I would prefer to be on my own",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1506,17 +1456,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4_b9eb4e",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_connected_418779",
+        "field_name": "esm_social_connected_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1556,21 +1506,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4_b9eb4e",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_ok_alone_447259",
+        "field_name": "esm_social_ok_alone_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "I feel fine being alone",
+        "field_label": "I feel fine being on my own",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1606,17 +1556,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5_db85ea",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_others_856c4c",
+        "field_name": "esm_social_others_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1656,17 +1606,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5_db85ea",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_choice_dba420",
+        "field_name": "esm_social_choice_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1706,17 +1656,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5_db85ea",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_left_out_8cd882",
+        "field_name": "esm_social_left_out_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -1756,17 +1706,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5_db85ea",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_virt_interact_e38ee7",
+        "field_name": "esm_social_virt_interact_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
@@ -1774,7 +1724,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "No "
             },
             {
                 "code": "1",
@@ -1796,19 +1746,15 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_virt_pleasant_3183e7",
+        "field_name": "esm_social_virt_pleasant_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "I find this virtual interaction pleasant",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "0 Not at all "
-            },
-            {
                 "code": "1",
-                "label": "1 "
+                "label": "1 Not at all "
             },
             {
                 "code": "2",
@@ -1840,225 +1786,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_virt_interact_e38ee7]=\"1\"",
+        "branching_logic": "[esm_social_virt_interact_epi_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_virt_interact_e38ee7'] == \"1\""
+        "evaluated_logic": "responses['esm_social_virt_interact_epi_v3'] ==  '1'"
     },
     {
-        "field_name": "esm_stress_situation_6a2895",
+        "field_name": "esm_stress_situation_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Most people would find my current situation stressful",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 Not at all "
-            },
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_stress_2c4b38",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Think of the most important event that happened since the last beep. This event was:",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 Very unpleasant"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 Very pleasant"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_event_f29728",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "This event was:",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 Unimportant"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 Important"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_medication_cd810c",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Since the last beep I had/taken",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Food "
-            },
-            {
-                "code": "1",
-                "label": "Caffeine "
-            },
-            {
-                "code": "2",
-                "label": "Nicotine "
-            },
-            {
-                "code": "3",
-                "label": "Alcohol "
-            },
-            {
-                "code": "4",
-                "label": "Medication "
-            },
-            {
-                "code": "5",
-                "label": "Substances "
-            },
-            {
-                "code": "6",
-                "label": "Nothing"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_beep_ea0207",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "This beep disturbed me",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -2098,13 +1840,217 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm6_6cc5d4",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_questionnaire_357bad",
+        "field_name": "esm_stress_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Think of the most important event that happened in the last hour. This event was:",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 Very unpleasant "
+            },
+            {
+                "code": "-2",
+                "label": "-2 "
+            },
+            {
+                "code": "-1",
+                "label": "-1 "
+            },
+            {
+                "code": "0",
+                "label": "0 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 Very pleasant"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_event_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "This event was:",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 Unimportant "
+            },
+            {
+                "code": "-2",
+                "label": "-2 "
+            },
+            {
+                "code": "-1",
+                "label": "-1 "
+            },
+            {
+                "code": "0",
+                "label": "0 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 Important"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_medication_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "In the last hour I had/taken",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Food "
+            },
+            {
+                "code": "1",
+                "label": "Caffeine "
+            },
+            {
+                "code": "2",
+                "label": "Nicotine "
+            },
+            {
+                "code": "3",
+                "label": "Alcohol "
+            },
+            {
+                "code": "4",
+                "label": "Medication "
+            },
+            {
+                "code": "5",
+                "label": "Other substances "
+            },
+            {
+                "code": "6",
+                "label": "Nothing "
+            },
+            {
+                "code": "7",
+                "label": "A nap"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_beep_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I found this questionnaire bothersome",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm6_epi_v3",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_questionnaire_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
@@ -2148,27 +2094,18 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm6_6cc5d4",
+        "matrix_group_name": "esm6_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_seizure_since_last_beep",
+        "field_name": "esm_seizure_since_last_beep_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "yesno",
         "field_label": "Have you had any seizure since the last beep?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Yes "
-            },
-            {
-                "code": "1",
-                "label": "No"
-            }
-        ],
+        "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
