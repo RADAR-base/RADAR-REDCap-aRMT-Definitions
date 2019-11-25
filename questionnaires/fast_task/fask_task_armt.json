@@ -1,0 +1,32 @@
+[
+  {
+    "field_name": "fast_task_1",
+    "form_name": "fast_task",
+    "section_header": "Time for the Fast task",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "It's time to complete the fast task.",
+        "code": "Part 1"
+      },
+      {
+        "label": "Complete this on your computer and press finish when done.",
+        "code": "Part 2"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fast_task",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
