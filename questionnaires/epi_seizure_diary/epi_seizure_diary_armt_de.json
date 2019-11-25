@@ -2,9 +2,9 @@
     {
         "field_name": "diary_start",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Timing",
         "field_type": "text",
-        "field_label": "At what time did the seizure start?",
+        "field_label": "Zu welchem Zeitpunkt fing der Anfall an?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "datetime_dmy",
@@ -23,9 +23,9 @@
     {
         "field_name": "diary_duration",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Timing",
         "field_type": "text",
-        "field_label": "How long did the seizure last?",
+        "field_label": "Wie lange dauerte der Anfall an?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "duration",
@@ -44,9 +44,9 @@
     {
         "field_name": "diary_unconscious",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Symptome",
         "field_type": "yesno",
-        "field_label": "Were you completely unconscious during the seizure?",
+        "field_label": "Waren Sie während des Anfalls vollständig bewusstlos?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -65,9 +65,9 @@
     {
         "field_name": "diary_awareness",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Symptome",
         "field_type": "yesno",
-        "field_label": "Were you confused or was your awareness affected during the seizure?",
+        "field_label": "Waren Sie während des Anfalls verwirrt oder war ihr Bewusstsein beeinträchtigt?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -86,21 +86,21 @@
     {
         "field_name": "diary_motor",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Symptome",
         "field_type": "radio",
-        "field_label": "Did you have motor symptoms?",
+        "field_label": "Hatten Sie motorische Symptome?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Yes "
+                "label": "Ja "
             },
             {
                 "code": "2",
-                "label": "No "
+                "label": "Nein "
             },
             {
                 "code": "3",
-                "label": "Don't Know"
+                "label": "Weiß nicht"
             }
         ],
         "field_note": "",
@@ -120,21 +120,21 @@
     {
         "field_name": "diary_nonmotor",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Symptome",
         "field_type": "radio",
-        "field_label": "Did you have non-motor symptoms?",
+        "field_label": "Hatten Sie nicht-motorische Symptome?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Yes "
+                "label": "Ja "
             },
             {
                 "code": "2",
-                "label": "No "
+                "label": "Nein "
             },
             {
                 "code": "3",
-                "label": "Don't Know"
+                "label": "Weiß nicht"
             }
         ],
         "field_note": "",
@@ -154,9 +154,9 @@
     {
         "field_name": "diary_confirmation",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Bestätigung",
         "field_type": "yesno",
-        "field_label": "Has someone taking care of you confirmed that you had a seizure?",
+        "field_label": "Hat jemand, der sich um Sie kümmert, bestätigt, dass Sie einen Anfall hatten?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -175,9 +175,9 @@
     {
         "field_name": "diary_wearable",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Bestätigung",
         "field_type": "yesno",
-        "field_label": "Were you wearing the wearable device during the seizure?",
+        "field_label": "Hatten Sie das tragbare Gerät (Wearable) während des Anfalls getragen?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -196,9 +196,9 @@
     {
         "field_name": "diary_trigger",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Auslöser",
         "field_type": "yesno",
-        "field_label": "Do you think that something triggered your seizure?",
+        "field_label": "Glauben Sie, dass etwas Ihren Anfall ausgelöst hat?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -217,37 +217,37 @@
     {
         "field_name": "diary_trigger_detail",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Auslöser",
         "field_type": "radio",
-        "field_label": "Select the trigger you think is most relevant.",
+        "field_label": "Wählen Sie den Auslöser aus, der Ihrer Meinung nach am relevantesten ist.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "lack of sleep "
+                "label": "Schlafmangel "
             },
             {
                 "code": "2",
-                "label": "stress event "
+                "label": "Stressereignis "
             },
             {
                 "code": "3",
-                "label": "tiredness "
+                "label": "Müdigkeit "
             },
             {
                 "code": "4",
-                "label": "flashing light "
+                "label": "blinkendes Licht "
             },
             {
                 "code": "5",
-                "label": "alcohol "
+                "label": "Alkohol "
             },
             {
                 "code": "6",
-                "label": "forgot to take medication "
+                "label": "Vergessen, Medikamente zu nehmen "
             },
             {
                 "code": "7",
-                "label": "other"
+                "label": "Sonstiges"
             }
         ],
         "field_note": "",
@@ -267,9 +267,9 @@
     {
         "field_name": "diary_trigger_other",
         "form_name": "seizure_diary",
-        "section_header": "",
+        "section_header": "Anfall-Auslöser",
         "field_type": "text",
-        "field_label": "Specify trigger \"other\"",
+        "field_label": "Geben Sie den Auslöser \"Sonstiges\" an",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
