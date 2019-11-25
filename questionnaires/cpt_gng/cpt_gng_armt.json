@@ -1,0 +1,32 @@
+[
+  {
+    "field_name": "cpt_gng_1",
+    "form_name": "cpt_gng",
+    "section_header": "Time for the Continuous Performance / Go No-Go Task",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "It's time to complete the Continuous Performance / Go No-Go task.",
+        "code": "Part 1"
+      },
+      {
+        "label": "Complete the task and press finish when done.",
+        "code": "Part 2"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "cpt_gng",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
