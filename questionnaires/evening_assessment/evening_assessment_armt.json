@@ -1,5 +1,39 @@
 [
     {
+        "field_name": "medications",
+        "form_name": "evening_assessment",
+        "section_header": "Medication Compliance",
+        "field_type": "radio",
+        "field_label": "Did you take your medications in the last 24 hours ?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Took all doses "
+            },
+            {
+                "code": "1",
+                "label": "Missed at least one dose "
+            },
+            {
+                "code": "2",
+                "label": "Missed all doses"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "alcoholuse",
         "form_name": "evening_assessment",
         "section_header": "Alcohol Use",
