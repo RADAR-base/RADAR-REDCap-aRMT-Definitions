@@ -1,5 +1,55 @@
 [
     {
+        "field_name": "esm_cheerful_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel cheerful",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_epi_v3",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "esm_down_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
