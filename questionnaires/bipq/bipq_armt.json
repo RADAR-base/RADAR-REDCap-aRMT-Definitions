@@ -1,5 +1,71 @@
 [
     {
+        "field_name": "bipq_1",
+        "form_name": "bipq",
+        "section_header": "For the following questions, please mark the number that best corresponds to your views: ",
+        "field_type": "range",
+        "field_label": "How much does your depression affect your life?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 No affect at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10  Severely affects my life"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "bipq_2",
         "form_name": "bipq",
         "section_header": "",
