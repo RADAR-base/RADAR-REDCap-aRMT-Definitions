@@ -11,7 +11,8 @@ This folder contains:
 2. Clone this repository
 3. Run `npm install`
 4. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
-5. Run `node utilties/index.js [REDCAP API URL] [REDCAP API TOKEN] [type] [LANGUAGE]`
+5. To parse all single REDCap project `node utilties/index.js [REDCAP_API_URL] [REDCAP_API_TOKEN] [type] [LANGUAGE]`
+6. To parse single form in a single REDCap project `node utilties/index.js [REDCAP_API_URL] [REDCAP_API_TOKEN] [type] [LANGUAGE] ["FORM-NAME FORM-NAME"]`
 
 ## aRMT
 
