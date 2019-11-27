@@ -21,8 +21,8 @@ To generate this for different languages -
 1. Copy the `utilities/_.env-template` to `./.env` and carefully fill in the values of the various variables specifically the Github Token and the branch.
 2. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 3. Run the `generateARMTs.sh` like `bash generateARMTs.sh`
-4. To update only a specific questionnaire or form, run `bash generateARMTs.sh [FORM NAME]`. For example: `bash generateARMTs.sh esm`
-5. To update multiple questionnaires or forms, separate them by spaces: `bash generateARMTs.sh [FORM1 FORM2]`. 
+4. To update only a specific questionnaire or form, run `bash generateARMTs.sh [FORM-NAME]`. For example: `bash generateARMTs.sh esm`
+5. To update multiple questionnaires or forms, separate them by spaces: `bash generateARMTs.sh [FORM-NAME FORM-NAME]`. 
 
 ## Updating Process
 
