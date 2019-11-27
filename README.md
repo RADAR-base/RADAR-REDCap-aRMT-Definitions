@@ -12,7 +12,7 @@ This folder contains:
 3. Run `npm install`
 4. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 5. To parse all single REDCap project `node utilties/index.js [REDCAP_API_URL] [REDCAP_API_TOKEN] [type] [LANGUAGE]`
-6. To parse single form in a single REDCap project `node utilties/index.js [REDCAP_API_URL] [REDCAP_API_TOKEN] [type] [LANGUAGE] ["FORM-NAME FORM-NAME"]`
+6. To parse single form in a single REDCap project `node utilties/index.js [REDCAP_API_URL] [REDCAP_API_TOKEN] [type] [LANGUAGE] [FORM-NAME FORM-NAME]`
 
 ## aRMT
 
@@ -21,7 +21,8 @@ To generate this for different languages -
 1. Copy the `utilities/_.env-template` to `./.env` and carefully fill in the values of the various variables specifically the Github Token and the branch.
 2. Edit the `utilities/defaultGithubConfig.js` to add your Github Configuration for posting the data.
 3. Run the `generateARMTs.sh` like `bash generateARMTs.sh`
-4. To update only a specific questionnaires or forms, run `bash generateARMTs.sh [FORM NAME]` or `bash generateARMTs.sh ["MULTIPLE FORMS"]`. For example: `bash generateARMTs.sh "esm phq8 pdq"` or `bash generateARMTs.sh esm`
+4. To update only a specific questionnaire or form, run `bash generateARMTs.sh [FORM NAME]`. For example: `bash generateARMTs.sh esm`
+5. To update multiple questionnaires or forms, separate them by spaces: `bash generateARMTs.sh [FORM1 FORM2]`. 
 
 ## Updating Process
 
