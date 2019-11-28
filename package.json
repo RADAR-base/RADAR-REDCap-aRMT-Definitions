@@ -5,7 +5,9 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "github": "^12.0.3",
-    "npm": "^6.4.1",
+    "https-proxy-agent": "^3.0.1",
+    "lodash": "^4.17.15",
+    "npm": "^6.13.1",
     "request": "^2.83.0",
     "underscore": "^1.8.3"
   },
