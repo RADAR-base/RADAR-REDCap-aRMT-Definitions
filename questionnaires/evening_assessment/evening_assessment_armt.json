@@ -663,7 +663,7 @@
         "field_name": "other",
         "form_name": "evening_assessment",
         "section_header": "",
-        "field_type": "notes",
+        "field_type": "text",
         "field_label": "If any other feeling, please specify",
         "select_choices_or_calculations": "",
         "field_note": "",
@@ -671,14 +671,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
+        "branching_logic": "[precipitan(4)] = '1'",
+        "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['precipitan'] == 4"
     },
     {
         "field_name": "seizure",
