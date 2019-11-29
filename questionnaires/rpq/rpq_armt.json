@@ -2,7 +2,7 @@
     {
         "field_name": "rpq_1",
         "form_name": "rpq",
-        "section_header": "Over the last 2 weeks, how often have you...",
+        "section_header": "There are times when most of us feel angry, or have done things we should not have done. Do not spend a lot of time thinking about the items-just give your first response. \n\nOver the last 2 weeks, how often have you...",
         "field_type": "radio",
         "field_label": "Yelled at others when they have annoyed you",
         "select_choices_or_calculations": [
@@ -28,7 +28,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "rpq",
+        "matrix_group_name": "rpq1",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
