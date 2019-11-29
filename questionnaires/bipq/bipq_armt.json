@@ -3,8 +3,8 @@
         "field_name": "bipq_1",
         "form_name": "bipq",
         "section_header": "For the following questions, please mark the number that best corresponds to your views: ",
-        "field_type": "range",
-        "field_label": "How much does your depression affect your life?",
+        "field_type": "radio",
+        "field_label": "How much does your epilepsy affect your life?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -62,15 +62,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_2",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How long do you think your depression will continue?",
+        "field_type": "radio",
+        "field_label": "How long do you think your epilepsy will continue?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -128,15 +128,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_3",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How much control do you feel you have over your depression?",
+        "field_type": "radio",
+        "field_label": "How much control do you feel you have over your epilepsy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -194,15 +194,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_4",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How much do you think your treatment can help your depression?",
+        "field_type": "radio",
+        "field_label": "How much do you think your treatment can help your epilepsy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -260,15 +260,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_5",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How much do you experience symptoms from your depression?",
+        "field_type": "radio",
+        "field_label": "How much do you experience symptoms from your epilepsy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -326,15 +326,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_6",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How concerned are you about your depression?",
+        "field_type": "radio",
+        "field_label": "How concerned are you about your epilepsy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -392,15 +392,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_7",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How well do you feel you understand your depression?",
+        "field_type": "radio",
+        "field_label": "How well do you feel you understand your epilepsy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -458,15 +458,15 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
         "field_name": "bipq_8",
         "form_name": "bipq",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "How much does your depression affect you emotionally? (e.g. does it make you angry, scared, upset or depressed?",
+        "field_type": "radio",
+        "field_label": "How much does your epilepsy affect you emotionally? (e.g. does it make you angry, scared, upset or depressed?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -524,7 +524,28 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipg_tot_score",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "BIPQ Total Score",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
         "evaluated_logic": ""
     }
 ]
