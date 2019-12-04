@@ -157,7 +157,7 @@
         "field_label": "How many hours did you sleep last night ?",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_type_or_show_slider_number": "duration",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -167,7 +167,7 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "duration",
         "evaluated_logic": ""
     },
     {
