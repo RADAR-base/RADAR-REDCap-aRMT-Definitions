@@ -7,15 +7,15 @@
     "field_label": "",
     "select_choices_or_calculations": [
       {
-        "label": "En las dos tareas siguientes, tendrá que gravarse a usted mismo hablando. Para hacerlo, encuentre un lugar tranquilo y silencioso y póngase cómodo.",
+        "label": "En las dos tareas siguientes, tendrá que grabarse a usted mismo hablando. Para hacerlo, encuentre un lugar tranquilo y silencioso y póngase cómodo.",
         "code": "Primer paso"
       },
       {
-        "label": "Mientras se grava, puede estar sentado o de pie. En ambas tareas, hable de forma natural. No intente cambiar su tono de voz o la velocidad de su habla habitual.",
+        "label": "Mientras se graba, puede estar sentado o de pie. En ambas tareas, hable de forma natural. No intente cambiar su tono de voz o la velocidad de su habla habitual.",
         "code": "Segundo paso"
       },
       {
-        "label": "En el caso de que la grabación sea interrumpida por la razón que sea, tendrá otra oportunidad per a volverla a repetir.",
+        "label": "En el caso de que la grabación sea interrumpida por la razón que sea, tendrá otra oportunidad para volverla a repetir.",
         "code": "Tercer paso"
       }
     ],
@@ -49,7 +49,7 @@
         "code": "Segundo paso"
       },
       {
-        "label": "Asegúrese que el micrófono del teléfono no está cubierto por su mano o por cualquier otro objeto.",
+        "label": "Asegúrese que el micrófono del teléfono no esté cubierto por su mano o por cualquier otro objeto.",
         "code": "Tercer paso"
       }
     ],
@@ -91,7 +91,7 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "Ahora tendrá que gravarse respondiendo a una pregunta. Puede contestar la pregunta de la manera que quiera. Si prefiere no realizar la tarea, pulse “Finalizar”. Esta grabación no puede ser utilizada para enviar mensajes al equipo de investigación del estudio RADAR. Si necesita ayuda, no dude en contactar con su equipo de referencia.",
+    "section_header": "Ahora tendrá que grabarse respondiendo a una pregunta. Puede contestar la pregunta de la manera que quiera. Si prefiere no realizar la tarea, pulse “Finalizar”. Esta grabación no puede ser utilizada para enviar mensajes al equipo de investigación del estudio RADAR. Si necesita ayuda, no dude en contactar con su equipo de referencia.",
     "field_type": "audio",
     "field_label": "Explíquenos alguna cosa que vaya a ocurrir la semana siguiente que esté esperando con ganas.",
     "select_choices_or_calculations": [],
