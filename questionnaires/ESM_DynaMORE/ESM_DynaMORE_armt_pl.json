@@ -4,7 +4,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel cheerful.",
+        "field_label": "Jest mi wesoło.",
         "range": {
           "min": "0",
           "max": "100",
@@ -29,7 +29,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel irritated",
+        "field_label": "Czuję się poirytowany(a)",
         "range": {
           "min": "0",
           "max": "100",
@@ -54,7 +54,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel anxious",
+        "field_label": "Jestem niespokojny(a)",
         "range": {
           "min": "0",
           "max": "100",
@@ -79,7 +79,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel satisfied.",
+        "field_label": "Jestem zadowolony(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -104,7 +104,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel insecure.",
+        "field_label": "Czuję się niepewnie.",
         "range": {
           "min": "0",
           "max": "100",
@@ -129,7 +129,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel lonely.",
+        "field_label": "Czuję się samotny(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -154,7 +154,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel relaxed.",
+        "field_label": "Jestem zrelaksowany(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -179,7 +179,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel sad.",
+        "field_label": "Jest mi smutno.",
         "range": {
           "min": "0",
           "max": "100",
@@ -204,7 +204,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I can be myself.",
+        "field_label": "Mogę być sobą.",
         "range": {
           "min": "0",
           "max": "100",
@@ -229,7 +229,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel stressed.",
+        "field_label": "Jestem zestresowany(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -254,7 +254,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel restless.",
+        "field_label": "Jestem podenerwowany(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -279,7 +279,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Generally speaking, I feel well.",
+        "field_label": "Ogólnie mówiąc, czuję się dobrze.",
         "range": {
           "min": "0",
           "max": "100",
@@ -304,7 +304,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I doubt myself.",
+        "field_label": "Wątpię w siebie.",
         "range": {
           "min": "0",
           "max": "100",
@@ -329,7 +329,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "My mind is at ease.",
+        "field_label": "Moje myśli są spokojne.",
         "range": {
           "min": "0",
           "max": "100",
@@ -354,7 +354,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel suspicious.",
+        "field_label": "Jestem podejrzliwy(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -379,7 +379,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I cannot get these thoughts out of my mind.",
+        "field_label": "Nie mogę pozbyć się z głowy myśli.",
         "range": {
           "min": "0",
           "max": "100",
@@ -404,7 +404,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I can concentrate well.",
+        "field_label": "Potrafię się skupić.",
         "range": {
           "min": "0",
           "max": "100",
@@ -429,15 +429,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I am currently in virtual contact with others.",
+        "field_label": "Jestem w tej chwili w kontakcie z innymi wirtualnie (w internecie).",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
@@ -459,43 +459,43 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Who am I with?",
+        "field_label": "Z kim?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Partner"
+                "label": "Z partnerem"
             },
             {
                 "code": "2",
-                "label": "Parents"
+                "label": "Z rodzicami"
             },
             {
                 "code": "3",
-                "label": "Other family (from nuclear family)"
+                "label": "Z kimś innym z najbliższej rodziny"
             },
             {
                 "code": "4",
-                "label": "Other family (outside of nuclear family)"
+                "label": "Z kimś spoza najbliższej rodziny"
             },
             {
                 "code": "5",
-                "label": "Friend(s)"
+                "label": "Z przyjacielem/przyjaciółmi"
             },
             {
                 "code": "6",
-                "label": "Other peers"
+                "label": "Z innymi rówieśnikami"
             },
             {
                 "code": "7",
-                "label": "Other (familiar) people"
+                "label": "Z innymi znajomymi"
             },
             {
                 "code": "8",
-                "label": "unfamiliar people"
+                "label": "Z obcymi osobami"
             },
             {
                 "code": "9",
-                "label": "Colleagues"
+                "label": "Koledzy"
             }
         ],
         "field_note": "",
@@ -517,7 +517,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am doing something together with these people.",
+        "field_label": "Wspólnie coś robimy.",
         "range": {
           "min": "0",
           "max": "100",
@@ -542,7 +542,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel at ease with these people.",
+        "field_label": "Czuję się swobodnie tymi osobami.",
         "range": {
           "min": "0",
           "max": "100",
@@ -567,7 +567,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel appreciated by these people.",
+        "field_label": "Czuję się doceniany(a) przez te osoby.",
         "range": {
           "min": "0",
           "max": "100",
@@ -592,7 +592,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I belong with these people.",
+        "field_label": "Jestem związany z tymi osobami.",
         "range": {
           "min": "0",
           "max": "100",
@@ -617,7 +617,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I would rather be alone.",
+        "field_label": "Wolałbym/wolałabym być sam(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -642,7 +642,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I would like to be in virtual contact with others.",
+        "field_label": "Chciałbym być w wirtualnym kontakcie z innymi.",
         "range": {
           "min": "0",
           "max": "100",
@@ -667,7 +667,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I chose myself not to be in virtual contact with others.",
+        "field_label": "Z własnej woli nie utrzymuję kontaktu z ludźmi.",
         "range": {
           "min": "0",
           "max": "100",
@@ -692,7 +692,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel, from a virtual perspective, excluded.",
+        "field_label": "Czuję się wykluczony z  kontaktów wirtualnych z innymi.",
         "range": {
           "min": "0",
           "max": "100",
@@ -717,15 +717,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I am in contact with others who are physically present.",
+        "field_label": "Jestem w tej chwili w kontakcie z innymi osobami w świecie rzeczywistym.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
@@ -747,43 +747,43 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Who am I with?",
+        "field_label": "Z kim?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Partner"
+                "label": "Z partnerem"
             },
             {
                 "code": "2",
-                "label": "Parents"
+                "label": "Z rodzicami"
             },
             {
                 "code": "3",
-                "label": "Other family (from nuclear family)"
+                "label": "Z kimś innym z najbliższej rodziny"
             },
             {
                 "code": "4",
-                "label": "Other family (outside of nuclear family)"
+                "label": "Z kimś spoza najbliższej rodziny"
             },
             {
                 "code": "5",
-                "label": "Friend(s)"
+                "label": "Z przyjacielem/przyjaciółmi"
             },
             {
                 "code": "6",
-                "label": "Other peers"
+                "label": "Z innymi rówieśnikami"
             },
             {
                 "code": "7",
-                "label": "Other (familiar) people"
+                "label": "Z innymi znajomymi"
             },
             {
                 "code": "8",
-                "label": "unfamiliar people"
+                "label": "Z obcymi ludźmi"
             },
             {
                 "code": "9",
-                "label": "Colleagues"
+                "label": "koledzy"
             }
         ],
         "field_note": "",
@@ -805,7 +805,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "We’re doing something together (talking, learning, gaming, etc.).",
+        "field_label": "Robimy coś razem (rozmawiamy, uczymy się, gramy itd.)",
         "range": {
           "min": "0",
           "max": "100",
@@ -830,7 +830,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel at ease in this company.",
+        "field_label": "Czuję się swobodnie z tymi osobami.",
         "range": {
           "min": "0",
           "max": "100",
@@ -855,7 +855,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel appreciated by this company.",
+        "field_label": "Czuję się doceniany(a) przez te osoby.",
         "range": {
           "min": "0",
           "max": "100",
@@ -880,7 +880,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel like I belong.",
+        "field_label": "Czuję, że jestem z nimi w kontakcie.",
         "range": {
           "min": "0",
           "max": "100",
@@ -905,7 +905,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I would rather be alone.",
+        "field_label": "Wolałbym/wolałabym być sam(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -930,7 +930,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I like to be alone.",
+        "field_label": "Lubię być sam(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -955,7 +955,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I want to be alone.",
+        "field_label": "Chcę być sam(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -980,7 +980,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I feel excluded.",
+        "field_label": "Czuję się wykluczony(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -1005,7 +1005,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I would rather be with other people.",
+        "field_label": "Wolałbym/wolałabym spędzać czas z innymi.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1030,51 +1030,51 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "What are you doing?",
+        "field_label": "Co robisz w tej chwili?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Leisure – active (e.g. sports, going out)"
+                "label": "Odpoczynek – aktywny (np. granie w gry, wyjścia/spotkania)"
             },
             {
                 "code": "2",
-                "label": "Leisure – passive (e.g. watching tv, reading)"
+                "label": "Odpoczynek – bierny (np. oglądanie TV, czytanie)"
             },
             {
                 "code": "3",
-                "label": "School or work"
+                "label": "Szkoła lub praca"
             },
             {
                 "code": "4",
-                "label": "Chores"
+                "label": "Obowiązki domowe"
             },
             {
                 "code": "5",
-                "label": "Travel"
+                "label": "Podróż"
             },
             {
                 "code": "6",
-                "label": "Personal care (e.g. washing, getting dressed)"
+                "label": "Higiena osobista (np. mycie się, ubieranie)"
             },
             {
                 "code": "7",
-                "label": "Physical exercise (sports)"
+                "label": "Wysiłek fizyczny (sport)"
             },
             {
                 "code": "8",
-                "label": "Eating/drinking"
+                "label": "Jedzenie/picie"
             },
             {
                 "code": "9",
-                "label": "Social contact"
+                "label": "Kontakt społeczny"
             },
             {
                 "code": "10",
-                "label": "Something else"
+                "label": "Coś innego"
             },
             {
                 "code": "11",
-                "label": "Nothing"
+                "label": "Nic"
             }
         ],
         "field_note": "",
@@ -1096,7 +1096,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I like doing this.",
+        "field_label": "Lubię to robić.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1121,7 +1121,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I would rather be doing something else.",
+        "field_label": "Wolałbym/wolałabym robić coś innego.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1146,7 +1146,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "This is a challenge for me.",
+        "field_label": "Sprawia mi to trudność.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1171,7 +1171,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I can do this well.",
+        "field_label": "Robię to dobrze.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1196,7 +1196,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am actively engaged in this activity.",
+        "field_label": "Jestem mocno zaangażowany(a) w tę aktywność.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1221,39 +1221,39 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Where are you?",
+        "field_label": "Gdzie jesteś w tej chwili?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "At school"
+                "label": "W szkole"
             },
             {
                 "code": "1",
-                "label": "At home"
+                "label": "W domu"
             },
             {
                 "code": "2",
-                "label": "At my partner's home"
+                "label": "W domu rodziców"
             },
             {
                 "code": "3",
-                "label": "At a friend's home"
+                "label": "W domu znajomego"
             },
             {
                 "code": "4",
-                "label": "At the home of family members"
+                "label": "W domu kogoś z rodziny"
             },
             {
                 "code": "5",
-                "label": "On a bike/in the car/on the train"
+                "label": "Na rowerze/w samochodzie/ w pociągu"
             },
                         {
                 "code": "6",
-                "label": "Somewhere else inside"
+                "label": "W innym pomieszczeniu"
             },
             {
                 "code": "7",
-                "label": "Somewhere else outside"
+                "label": "W innym miejscu na zewnątrz"
             }
         ],
         "field_note": "",
@@ -1275,7 +1275,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am tired.",
+        "field_label": "Jestem zmęczony(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -1300,7 +1300,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am hungry.",
+        "field_label": "Jestem głodny(a).",
         "range": {
           "min": "0",
           "max": "100",
@@ -1325,7 +1325,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "Physically, I do not feel well.",
+        "field_label": "Źle się czuję fizycznie.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1350,7 +1350,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am in pain.",
+        "field_label": "Odczuwam ból.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1378,7 +1378,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "Now, think about the most important event for you since the last beep.",
+            "label": "Pomyśl o najważniejszym zdarzeniu, które miało miejsce od poprzedniego alarmu.",
             "code": ""         
             }
         ],
@@ -1402,7 +1402,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "How pleasant was this event?",
+        "field_label": "Jakie było to zdarzenie? ",
         "range": {
           "min": "0",
           "max": "100",
@@ -1427,7 +1427,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "This was a stressful event.",
+        "field_label": "To było stresujące zdarzenie.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1452,55 +1452,55 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "This event belonged to the category:",
+        "field_label": "To zdarzenie było związane z następującą aktywnością:",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Leisure – active (e.g. sports, going out)."
+                "label": "Odpoczynek – aktywny (np. granie w gry, wyjścia/spotkania)."
             },
             {
                 "code": "2",
-                "label": "Leisure – passive (e.g. watching tv, reading)."
+                "label": "Odpoczynek – bierny (np. oglądanie TV, czytanie)."
             },
             {
                 "code": "3",
-                "label": "School or work."
+                "label": "Szkoła lub praca."
             },
             {
                 "code": "4",
-                "label": "Chores."
+                "label": "Obowiązki domowe."
             },
             {
                 "code": "5",
-                "label": "Travel."
+                "label": "Podróż."
             },
             {
                 "code": "6",
-                "label": "Personal care (e.g. washing, getting dressed)."
+                "label": "Higiena osobista (np. mycie się, ubieranie)."
             },
             {
                 "code": "7",
-                "label": "Physical exercise (sports)."
+                "label": "Wysiłek fizyczny (sport)."
             },
             {
                 "code": "8",
-                "label": "Eating/drinking."
+                "label": "Jedzenie/picie."
             },
             {
                 "code": "9",
-                "label": "Social contact."
+                "label": "Kontakt społeczny."
             },            
             {
                 "code": "10",
-                "label": "Something else."
+                "label": "Coś innego."
             },
             {
                 "code": "11",
-                "label": "Nothing."
+                "label": "Nic."
             },
             {
                 "code": "12",
-                "label": "Sleeping."
+                "label": "Sen."
             }
         ],
         "field_note": "",
@@ -1522,15 +1522,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Since the last beep, I have used one (or more) of the following: medication, alcohol, cigarettes, cannabis, other drugs",
+        "field_label": "Od ostatniego alarmu skorzystałem/łam raz (lub więcej) z następujących substancji: leki, alkohol, papierosy, marihuana, inne używki.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
@@ -1552,27 +1552,27 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Since the last beep, I have used:",
+        "field_label": "Od ostatniego alarmu skorzystałem/łam z:",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Medication"
+                "label": "Leków"
             },
             {
                 "code": "2",
-                "label": "Alcohol"
+                "label": "Alkoholu"
             },
             {
                 "code": "3",
-                "label": "Cigarettes"
+                "label": "Papierosów"
             },
             {
                 "code": "4",
-                "label": "Cannabis"
+                "label": "Marihuany"
             },
             {
                 "code": "5",
-                "label": "Other drugs"
+                "label": "Innych używek"
             }
         ],
         "field_note": "",
@@ -1597,7 +1597,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "Now, think about the most important situation for you in the next 2 hours.",
+            "label": "Teraz pomyśl o najważniejszym zdarzeniu, które czeka Cię w ciągu najbliższych dwóch godzin.",
             "code": ""         
         }],
         "field_note": "",
@@ -1619,7 +1619,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am looking forward to this situation.",
+        "field_label": "Nie mogę się doczekać tego zdarzenia.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1644,7 +1644,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "I am dreading this situation.",
+        "field_label": "Obawiam się tego zdarzenia.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1669,55 +1669,55 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "This situation belongs to the category:",
+        "field_label": "Zdarzenie to związane jest z następującą aktywnością:",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Leisure – active (e.g. sports, going out)."
+                "label": "Odpoczynek – aktywny (np. granie w gry, wyjścia/spotkania)."
             },
             {
                 "code": "2",
-                "label": "Leisure – passive (e.g. watching tv, reading)."
+                "label": "Odpoczynek – bierny (np. oglądanie TV, czytanie)."
             },
             {
                 "code": "3",
-                "label": "School or work."
+                "label": "Szkoła lub praca."
             },
             {
                 "code": "4",
-                "label": "Chores."
+                "label": "Obowiązki domowe."
             },
             {
                 "code": "5",
-                "label": "Travel."
+                "label": "Podróż."
             },
             {
                 "code": "6",
-                "label": "Personal care (e.g. washing, getting dressed)."
+                "label": "Higiena osobista (np. mycie się, ubieranie)."
             },
             {
                 "code": "7",
-                "label": "Physical exercise (sports)."
+                "label": "Wysiłek fizyczny (sport)."
             },
             {
                 "code": "8",
-                "label": "Eating/drinking."
+                "label": "Jedzenie/picie."
             },
             {
                 "code": "9",
-                "label": "Social contact."
+                "label": "Kontakt społeczny."
             },
             {
                 "code": "10",
-                "label": "Something else."
+                "label": "Coś innego."
             },
             {
                 "code": "11",
-                "label": "Nothing."
+                "label": "Nic."
             },
             {
                 "code": "12",
-                "label": "Sleeping."
+                "label": "Sen."
             }
         ],
         "field_note": "",
@@ -1739,15 +1739,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Have you, since the last beep, thought about harming yourself?",
+        "field_label": "Czy od ostatniego alarmu myślałeś/łaś o zrobieniu sobie krzywdy?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
@@ -1769,7 +1769,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "To what extent did you, during these thoughts of self-harm, have the wish to end your life?",
+        "field_label": "Do jakiego stopnia, myśląc o skrzywdzeniu się, miałeś/łaś ochotę skończyć swoje życie?",
         "range": {
           "min": "0",
           "max": "100",
@@ -1794,15 +1794,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Did you act on these thoughts by purposefully harming, hurting, or poisoning yourself?",
+        "field_label": "Czy podążając za tymi myślami celowo wyrządziłeś/łaś sobie krzywdę, okaleczyłeś/łaś lub otrułeś/łaś się?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
@@ -1827,7 +1827,7 @@
         "field_label": "",
         "select_choices_or_calculations": [
             {
-            "label": "If you are struggling at this moment. Remember that you are never alone. If you want to speak anonymously to someone about how you feel, you can do this at: Awel at 102, between 16u – 22u (https://www.awel.be); Tele-Onthaal at 106, 24 hours a day (www.tele-onthaal.be); Zelfmoordlijn, 1813, 24 hours a day (www.zelfmoord1813.be). In case of an emergency, in which you need immediate medical help, call 112 immediately.",
+            "label": "Jeśli w tym momencie cierpisz, pamiętaj że nie jesteś sam. Jeśli chcesz porozmawiać o tym, co czujesz, z zachowaniem anonimowości możesz to zrobić dzwoniąc na: ………. W nagłym przypadku, gdy potrzebujesz natychmiastowej pomocy medycznej, zadzwoń na 112 lub 999.",
             "code": "Emergency services"         
             }
         ],
@@ -1850,7 +1850,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "This beep disturbed me.",
+        "field_label": "Ten alarm przeszkodził mi.",
         "range": {
           "min": "0",
           "max": "100",
@@ -1875,15 +1875,15 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Have you, since the last beep, consciously pressed the stress button on your smartwatch?",
+        "field_label": "Czy od czasu ostatniego alarmu świadomie (celowo) wciskałeś/łaś ‘przycisk stresu’ na swoim smartwatchu?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "No"
+                "label": "Nie"
             },
             {
                 "code": "1",
-                "label": "Yes"
+                "label": "Tak"
             }
         ],
         "field_note": "",
