@@ -687,31 +687,31 @@
         "field_label": "Who am I with?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "1A",
                 "label": "Partner"
             },
             {
-                "code": "2",
+                "code": "2A",
                 "label": "Parents"
             },
             {
-                "code": "3",
+                "code": "3A",
                 "label": "Other family"
             },
             {
-                "code": "4",
+                "code": "4A",
                 "label": "Friend(s)"
             },
             {
-                "code": "5",
+                "code": "5A",
                 "label": "Other peers"
             },
             {
-                "code": "6",
+                "code": "6A",
                 "label": "Other (familiar) people"
             },
             {
-                "code": "7",
+                "code": "7A",
                 "label": "unfamiliar people"
             }
         ],
@@ -1067,31 +1067,31 @@
         "field_label": "Who am I with?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "1A",
                 "label": "Partner"
             },
             {
-                "code": "2",
+                "code": "2A",
                 "label": "Parents"
             },
             {
-                "code": "3",
+                "code": "3A",
                 "label": "Other family"
             },
             {
-                "code": "4",
+                "code": "4A",
                 "label": "Friend(s)"
             },
             {
-                "code": "5",
+                "code": "5A",
                 "label": "Other peers"
             },
             {
-                "code": "6",
+                "code": "6A",
                 "label": "Other (familiar) people"
             },
             {
-                "code": "7",
+                "code": "7A",
                 "label": "unfamiliar people"
             }
         ],
@@ -1417,47 +1417,47 @@
         "field_label": "What are you doing?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "1A",
                 "label": "Leisure – active (e.g. playing games, going out)"
             },
             {
-                "code": "2",
+                "code": "2A",
                 "label": "Leisure – passive (e.g. watching TV, reading)"
             },
             {
-                "code": "3",
+                "code": "3A",
                 "label": "School or work"
             },
             {
-                "code": "4",
+                "code": "4A",
                 "label": "Chores"
             },
             {
-                "code": "5",
+                "code": "5A",
                 "label": "Travel"
             },
             {
-                "code": "6",
+                "code": "6A",
                 "label": "Personal care (e.g. washing, getting dressed)"
             },
             {
-                "code": "7",
+                "code": "7A",
                 "label": "Physical exercise (sports)"
             },
             {
-                "code": "8",
+                "code": "8A",
                 "label": "Eating/drinking"
             },
             {
-                "code": "9",
+                "code": "9A",
                 "label": "Social contact"
             },
             {
-                "code": "10",
+                "code": "10A",
                 "label": "Something else"
             },
             {
-                "code": "11",
+                "code": "11A",
                 "label": "Nothing"
             }
         ],
@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Since the last beep, I have used one (or more) of the following: medication, alcohol, cigarettes, cannabis, other drugs",
+        "field_label": "Since the last beep, I have used one (or more) of the following: Caffeine, medication, alcohol, cigarettes, cannabis, other drugs",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1790,23 +1790,27 @@
         "field_label": "Since the last beep, I have used:",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "1A",
+                "label": "Caffeine"
+            },
+            {
+                "code": "2A",
                 "label": "Medication"
             },
             {
-                "code": "2",
+                "code": "3A",
                 "label": "Alcohol"
             },
             {
-                "code": "3",
+                "code": "4A",
                 "label": "Cigarettes"
             },
             {
-                "code": "4",
+                "code": "5A",
                 "label": "Cannabis"
             },
             {
-                "code": "5",
+                "code": "6A",
                 "label": "Other drugs"
             }
         ],
