@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "ESM_DynaMORE_moodItem1",
-        "form_name": "ESM_DynaMORE",
+        "field_name": "ESM_EveningDynaMORE_Q1",
+        "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Jest mi wesoło.",
+        "field_label": "To był zwykły/przeciętny dzień",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -44,17 +44,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_moodItem2",
-        "form_name": "ESM_DynaMORE",
+        "field_name": "ESM_EveningDynaMORE_Q2",
+        "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Czuję się poirytowany(a).",
+        "field_label": "To był miły dzień",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -94,49 +94,21 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_moodItem3",
-        "form_name": "ESM_DynaMORE",
+
+        "field_name": "ESM_EveningDynaMORE_Q3",
+        "form_name": "ESM_DynaMORE_Morning",
         "section_header": "",
-        "field_type": "range",
-        "field_label": "Jestem niespokojny(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
+        "field_type": "text",
+        "field_label": "Today I spent about … minutes exercising",
+        "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "duration",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -144,1549 +116,181 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem4",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jestem zadowolony(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem5",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Czuję się niepewnie.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem6",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jestem zrelaksowany(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem7",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jest mi smutno.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem8",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jestem zestresowany(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem9",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jestem podenerwowany(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem10",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "I feel tired.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem11",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Moje myśli są spokojne.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem12",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Nie mogę pozbyć się z głowy myśli.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_moodItem13",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Potrafię się skupić.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_mood",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Jestem w tej chwili w kontakcie z innymi wirtualnie (w internecie).",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Nie"
-            },
-            {
-                "code": "1",
-                "label": "Tak"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocial",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem1",
-        "form_name": "ESM_DynaMORE",
+        "field_name": "ESM_EveningDynaMORE_NegativeEventInfo",
+        "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Pomyśl o najbardziej NEGATYWNYM wydarzeniu dnia! (pytanie otwarte)",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q4",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "radio",
+        "field_label": "Kiedy miało miejsce?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Rano"
+            },
+            {
+                "code": "2",
+                "label": "Koło południa"
+            },
+            {
+                "code": "3",
+                "label": "Popołudniu"
+            },
+            {
+                "code": "4",
+                "label": "Wieczorem"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q5",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "radio",
+        "field_label": "Gdzie wtedy byłem/łam?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "W szkole/pracy"
+            },
+            {
+                "code": "2",
+                "label": "W domu"
+            },
+            {
+                "code": "3",
+                "label": "W domu partnera"
+            },
+            {
+                "code": "4",
+                "label": "W domu znajomego"
+            },
+            {
+                "code": "5",
+                "label": "W domu kogoś z rodziny"
+            },
+            {
+                "code": "6",
+                "label": "Na rowerze/w samochodzie/w komunikacji miejskiej"
+            },
+            {
+                "code": "7",
+                "label": "Gdzie indziej wewnątrz budynku"
+            },
+            {
+                "code": "8",
+                "label": "Gdzie indziej na zewnątrz"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "ESM_EveningDynaMORE_Q6",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
         "field_type": "checkbox",
-        "field_label": "Z kim?",
+        "field_label": "Z kim wtedy byłem/łam?",
         "select_choices_or_calculations": [
             {
                 "code": "1A",
-                "label": "Z partnerem"
+                "label": "Partnerem"
             },
             {
                 "code": "2A",
-                "label": "Z rodzicami"
+                "label": "Z tatą"
             },
             {
                 "code": "3A",
-                "label": "Other family"
+                "label": "Z mamą"
             },
             {
                 "code": "4A",
+                "label": "Z kimś z najbliższej rodziny"
+            },
+            {
+                "code": "5A",
+                "label": "Z kimś spoza najbliższej rodziny"
+            },
+            {
+                "code": "6A",
                 "label": "Z przyjacielem/przyjaciółmi"
             },
             {
-                "code": "5A",
+                "code": "7A",
                 "label": "Z innymi rówieśnikami"
-            },
-            {
-                "code": "6A",
-                "label": "Z innymi znajomymi"
-            },
-            {
-                "code": "7A",
-                "label": "Z obcymi osobami"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wspólnie coś robimy.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem3",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Czuję się swobodnie tymi osobami.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem4",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wolałbym/wolałabym być sam(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Chciałbym być w wirtualnym kontakcie z innymi.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Z własnej woli nie utrzymuję kontaktu z ludźmi.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem3",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Czuję się wykluczony z  kontaktów wirtualnych z innymi.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Jestem w tej chwili w kontakcie z innymi osobami w świecie rzeczywistym.",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Nie"
-            },
-            {
-                "code": "1",
-                "label": "Tak"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_social",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Z kim?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1A",
-                "label": "Z partnerem"
-            },
-            {
-                "code": "2A",
-                "label": "Z rodzicami"
-            },
-            {
-                "code": "3A",
-                "label": "Other family"
-            },
-            {
-                "code": "4A",
-                "label": "Z przyjacielem/przyjaciółmi"
-            },
-            {
-                "code": "5A",
-                "label": "Z innymi rówieśnikami"
-            },
-            {
-                "code": "6A",
-                "label": "Z innymi znajomymi"
-            },
-            {
-                "code": "7A",
-                "label": "Z obcymi ludźmi"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Robimy coś razem (rozmawiamy, uczymy się, gramy itd.)",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem3",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Czuję się swobodnie z tymi osobami.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem4",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wolałbym/wolałabym być sam(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Lubię być sam(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Czuję się wykluczony(a).",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem3",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wolałbym/wolałabym spędzać czas z innymi.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
-    },
-    {
-        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Co robisz w tej chwili?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1A",
-                "label": "Odpoczynek – aktywny (np. granie w gry, wyjścia/spotkania)"
-            },
-            {
-                "code": "2A",
-                "label": "Odpoczynek – bierny (np. oglądanie TV, czytanie)"
-            },
-            {
-                "code": "3A",
-                "label": "Szkoła lub praca"
-            },
-            {
-                "code": "4A",
-                "label": "Obowiązki domowe"
-            },
-            {
-                "code": "5A",
-                "label": "Podróż"
-            },
-            {
-                "code": "6A",
-                "label": "Higiena osobista (np. mycie się, ubieranie)"
-            },
-            {
-                "code": "7A",
-                "label": "Wysiłek fizyczny (sport)"
             },
             {
                 "code": "8A",
-                "label": "Jedzenie/picie"
+                "label": "Z kolegami z pracy"
             },
             {
                 "code": "9A",
-                "label": "Kontakt społeczny"
+                "label": "Ze znajomymi"
             },
             {
                 "code": "10A",
-                "label": "Coś innego"
+                "label": "Z obcymi ludźmi"
             },
             {
                 "code": "11A",
-                "label": "Nic"
+                "label": "Sam(a)"
             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Lubię to robić.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem3",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wolałbym/wolałabym robić coś innego.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Robię to dobrze.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1. wcale"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3"
-            },
-            {
-                "code": "4",
-                "label": "4"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7. bardzo"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1(1) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(2) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(3) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(4) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(5) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(6) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(7) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(8) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(9) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(10) = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
-    },
-    {
-        "field_name": "ESM_DynaMORE_EventAppraisalInfo",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Pomyśl o najważniejszym zdarzeniu, które miało miejsce od poprzedniego alarmu.",
-            "code": ""         
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
 
-    },
-    {
-        "field_name": "ESM_DynaMORE_eventAppraisalItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Jakie było to zdarzenie?",
-        "select_choices_or_calculations": [
-            {
-                "code": "-3",
-                "label": "-3 bardzo nieprzyjemne"
-            },
-            {
-                "code": "-2",
-                "label": "-2"
-            },
-            {
-                "code": "-1",
-                "label": "-1"
-            },
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3 bardzo przyjemne"
-            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -1697,17 +301,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_eventAppraisalItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
+        "field_name": "ESM_EveningDynaMORE_Q7",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
         "field_type": "range",
-        "field_label": "To było stresujące zdarzenie.",
+        "field_label": "Jak nieprzyjemne było to wydarzenie?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1747,17 +351,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_substanceUseItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
+        "field_name": "ESM_EveningDynaMORE_Q8",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
         "field_type": "radio",
-        "field_label": "Od ostatniego alarmu skorzystałem/łam raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, marihuana, inne używki",
+        "field_label": "Rozmawiałem/łam z kimś o tym, co się wydarzyło.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1777,41 +381,45 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_substanceUse",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },
+    },  
     {
-        "field_name": "ESM_DynaMORE_substanceUseItem1branchYes",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Od ostatniego alarmu skorzystałem/łam z:",
+        "field_name": "ESM_EveningDynaMORE_Q8branchYes",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Ta osoba/osoby okazały mi zrozumienie",
         "select_choices_or_calculations": [
             {
-                "code": "1A",
-                "label": "kofeina"
+                "code": "1",
+                "label": "1. wcale"
             },
             {
-                "code": "2A",
-                "label": "Leków"
+                "code": "2",
+                "label": "2"
             },
             {
-                "code": "3A",
-                "label": "Alkoholu"
+                "code": "3",
+                "label": "3"
             },
             {
-                "code": "4A",
-                "label": "Papierosów"
+                "code": "4",
+                "label": "4"
             },
             {
-                "code": "5A",
-                "label": "Marihuany"
+                "code": "5",
+                "label": "5"
             },
             {
-                "code": "6A",
-                "label": "Innych używek"
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
             }
         ],
         "field_note": "",
@@ -1819,46 +427,71 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_DynaMORE_substanceUseItem1(1)] = \"1\"",
+        "branching_logic": "[ESM_EveningDynaMORE_Q8(1)] = \"1\"",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_substanceUseBranchYes",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q8BranchYes",
         "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMORE_substanceUseItem1'] == 1"
-    },
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q8'] == 1"
+    },    
     {
-        "field_name": "ESM_DynaMORE_anticipationOfPleasureInfo",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
+        "field_name": "ESM_EveningDynaMORE_Q8branchNo",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Chciałbym/łabym z kimś porozmawiać o tym, co się wydarzyło",
         "select_choices_or_calculations": [
             {
-            "label": "Teraz pomyśl o najważniejszym zdarzeniu, które czeka Cię w ciągu najbliższych dwóch godzin",
-            "code": ""         
-        }],
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q8(0)] = \"1\"",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q8branchNo",
         "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q8'] == 0"
     },
     {
-        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
+        "field_name": "ESM_EveningDynaMORE_Q9",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
         "field_type": "range",
-        "field_label": "Nie mogę się doczekać tego zdarzenia.",
+        "field_label": "Często wracam myślami do tego, co się wydarzyło",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1898,17 +531,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem2",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
+        "field_name": "ESM_EveningDynaMORE_Q10",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
         "field_type": "range",
-        "field_label": "Obawiam się tego zdarzenia.",
+        "field_label": "Spojrzałem/łam na to wydarzenie z innej perspektywy",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1948,7 +581,1172 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q11",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Po prostu pozwoliłem/łam, żeby było co ma być",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q12",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Wyraziłem/łam moje uczucia związane z tym, co się wydarzyło",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q13",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Starałem/łam się szybko zapomnieć o tym co się wydarzyło",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q14",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej NEGATYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Próbowałem/łam coś zmienić w tej sytuacji",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q15",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Today, I avoided attending social activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q16",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Today, I failed to follow through with achievement-related goals",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q17",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Today, I avoided trying new activities in which I might have failed",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q18",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Today, I waited out tension in my relationships hoping that it will go away",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_PositiveEventInfo",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Pomyśl o najbardziej POZYTYWNYM wydarzeniu dnia!",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q19",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "radio",
+        "field_label": "Kiedy miało miejsce?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Rano"
+            },
+            {
+                "code": "2",
+                "label": "Koło południa"
+            },
+            {
+                "code": "3",
+                "label": "Popołudniu"
+            },
+            {
+                "code": "4",
+                "label": "Wieczorem"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q20",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "radio",
+        "field_label": "Gdzie wtedy byłem/łam?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "W szkole/pracy"
+            },
+            {
+                "code": "2",
+                "label": "W domu"
+            },
+            {
+                "code": "3",
+                "label": "W domu partnera"
+            },
+            {
+                "code": "4",
+                "label": "W domu znajomego"
+            },
+            {
+                "code": "5",
+                "label": "W domu kogoś z rodziny"
+            },
+            {
+                "code": "6",
+                "label": "Na rowerze/w samochodzie/w komunikacji miejskiej"
+            },
+            {
+                "code": "7",
+                "label": "Gdzie indziej wewnątrz budynku"
+            },
+            {
+                "code": "8",
+                "label": "Gdzie indziej na zewnątrz"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "ESM_EveningDynaMORE_Q21",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "checkbox",
+        "field_label": "Z kim wtedy byłem/łam?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "Z partnerem"
+            },
+            {
+                "code": "2A",
+                "label": "Z tatą"
+            },
+            {
+                "code": "3A",
+                "label": "Z mamą"
+            },
+            {
+                "code": "4A",
+                "label": "Z kimś z najbliższej rodziny"
+            },
+            {
+                "code": "5A",
+                "label": "Z kimś spoza najbliższej rodziny"
+            },
+            {
+                "code": "6A",
+                "label": "Z przyjacielem/przyjaciółmi"
+            },
+            {
+                "code": "7A",
+                "label": "Z innymi rówieśnikami"
+            },
+            {
+                "code": "8A",
+                "label": "Z kolegami z pracy"
+            },
+            {
+                "code": "9A",
+                "label": "Ze znajomymi"
+            },
+            {
+                "code": "10A",
+                "label": "Z obcymi ludźmi"
+            },
+            {
+                "code": "11A",
+                "label": "Sam(a)"
+            }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q22",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Jak przyjemne było to wydarzenie?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q23",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "radio",
+        "field_label": "Rozmawiałem/łam z kimś o tym, co się wydarzyło.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nie"
+            },
+            {
+                "code": "1",
+                "label": "Tak"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },  
+    {
+        "field_name": "ESM_EveningDynaMORE_Q23branchYes",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Ta osoba/osoby zareagowały pozytywnie",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q23(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q23branchYes",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q23'] == 1"
+    },    
+    {
+        "field_name": "ESM_EveningDynaMORE_Q23branchNo",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Chciałbym/łabym z kimś porozmawiać o tym, co się wydarzyło",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q23(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q23branchNo",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q23'] == 0"
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q24",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Często wracam myślami do tego, co się wydarzyło",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q25",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Spojrzałem/łam na to wydarzenie z innej perspektywy",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q26",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Po prostu pozwoliłem/łam, żeby było co ma być",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q27",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "najbardziej POZYTYWNE wydarzenie",
+        "field_type": "range",
+        "field_label": "Wyraziłem/łam moje uczucia związane z tym, co się wydarzyło",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q28",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "I expect tomorrow to be a stressful experience.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q29",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "I am confident I can cope with tomorrows challenges.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q30",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "I am worried about how tomorrow will turn out.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q31",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Wypełnianie tej ankiety wpłynęło na mój dzisiejszy nastrój",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. wcale"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. bardzo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
