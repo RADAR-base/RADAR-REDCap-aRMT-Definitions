@@ -152,7 +152,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי שלילי",
         "field_type": "radio",
-        "field_label": "?מתי הוא התרחש",
+        "field_label": "מתי הוא התרחש?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -190,7 +190,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי שלילי",
         "field_type": "radio",
-        "field_label": "?איפה אני הייתי",
+        "field_label": "איפה אני הייתי?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -244,7 +244,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי שלילי",
         "field_type": "checkbox",
-        "field_label": "?עם מי הייתי",
+        "field_label": "עם מי הייתי?",
         "select_choices_or_calculations": [
             {
                 "code": "1A",
@@ -311,7 +311,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי שלילי",
         "field_type": "range",
-        "field_label": "?עד כמה האירוע היה לא נעים",
+        "field_label": "עד כמה האירוע היה לא נעים?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1017,7 +1017,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "radio",
-        "field_label": "?מתי הוא התרחש",
+        "field_label": "מתי הוא התרחש?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1055,7 +1055,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "radio",
-        "field_label": "?איפה אני הייתי",
+        "field_label": "איפה אני הייתי?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1109,7 +1109,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "checkbox",
-        "field_label": "?עם מי הייתי",
+        "field_label": "עם מי הייתי?",
         "select_choices_or_calculations": [
             {
                 "code": "1A",
@@ -1176,7 +1176,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
-        "field_label": "?כמה נעים היה אירוע זה",
+        "field_label": "כמה נעים היה אירוע זה?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
