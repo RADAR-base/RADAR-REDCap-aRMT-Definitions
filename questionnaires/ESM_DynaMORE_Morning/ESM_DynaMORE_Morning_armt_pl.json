@@ -1,1 +1,146 @@
-placeholder
+[
+    {
+
+        "field_name": "ESM_morning_DynaMORE_Q1",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "O której godzinie zasnąłeś/zasnęłaś?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+
+        "field_name": "ESM_morning_DynaMORE_Q2",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "O której godzinie się obudziłeś/obudziłaś?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q3",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Dobrze spałem/spałam.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q4",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Jestem wypoczęty/wypoczęta.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
