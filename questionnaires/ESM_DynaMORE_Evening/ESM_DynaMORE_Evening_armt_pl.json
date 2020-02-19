@@ -105,7 +105,7 @@
         "form_name": "ESM_DynaMORE_Morning",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Today I spent about … minutes exercising",
+        "field_label": "Dziś spędziłem/spędziłam około … minut ćwicząc.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "duration",
@@ -791,7 +791,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "Today, I avoided attending social activities",
+        "field_label": "Dziś unikałem/unikałam angażowania się w aktywności z innymi ludźmi.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -841,7 +841,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "Today, I failed to follow through with achievement-related goals",
+        "field_label": "Dziś nie udało mi się osiągnąć zamierzonych celów.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -891,7 +891,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "Today, I avoided trying new activities in which I might have failed",
+        "field_label": "Dziś unikałem/unikałam nowych aktywności, które mogłyby zakończyć się porażką.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -941,7 +941,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "Today, I waited out tension in my relationships hoping that it will go away",
+        "field_label": "Dziś starałem/starałam się przeczekać napięcie w związkach z innymi ludźmi, mając nadzieję, że samo przeminie.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1556,7 +1556,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "I expect tomorrow to be a stressful experience.",
+        "field_label": "Spodziewam się, że jutrzejszy dzień będzie stresujący.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1606,7 +1606,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "I am confident I can cope with tomorrows challenges.",
+        "field_label": "Jestem pewny/pewna, że mogę poradzić sobie z jutrzejszymi wyzawaniami.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1656,7 +1656,7 @@
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
-        "field_label": "I am worried about how tomorrow will turn out.",
+        "field_label": "Martwię się o to, jak może potoczyć się jutrzejszy dzień.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
