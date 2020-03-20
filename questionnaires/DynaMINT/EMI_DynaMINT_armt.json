@@ -1,7 +1,7 @@
 [
     {
         "field_name": "EMI_DynaMINT_event_description",
-        "form_name": "ESM_DynaMINT",
+        "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Think about a pleasant event that is going to happen to you within the next few hours.",
@@ -31,7 +31,7 @@
     },
     {
         "field_name": "EMI_DynaMINT_event_description_inspiration",
-        "form_name": "ESM_DynaMINT",
+        "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "info",
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
@@ -57,7 +57,7 @@
     },
     {
         "field_name": "EMI_DynaMINT_event_description_text_entry",
-        "form_name": "ESM_DynaMINT",
+        "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "text",
         "field_label": "Type a brief description of your event, seeing it through your own eyes (eg. I will go for a walk with my dog, not: Going for a walk with a dog).",
@@ -77,7 +77,7 @@
     },
     {
         "field_name": "EMI_DynaMINT_mental_imagery_info",
-        "form_name": "ESM_DynaMINT",
+        "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "info",
         "field_label": "",
@@ -103,7 +103,7 @@
     },
     {
         "field_name": "EMI_DynaMINT_mental_imagery_text_entry",
-        "form_name": "ESM_DynaMINT",
+        "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "text",
         "field_label": "Now, type what you see, touch, and smell as you imagine.",
