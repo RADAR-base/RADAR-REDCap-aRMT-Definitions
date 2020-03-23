@@ -67,23 +67,23 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "large quantities of mucus "
+                "label": "Large quantities of mucus "
             },
             {
                 "code": "2",
-                "label": "none or small quantities of mucus "
+                "label": "None or small quantities of mucus "
             },
             {
                 "code": "3",
-                "label": "mucus is white "
+                "label": "Mucus is white "
             },
             {
                 "code": "4",
-                "label": "mucus is yellow "
+                "label": "Mucus is yellow "
             },
             {
                 "code": "5",
-                "label": "mucus is clear"
+                "label": "Mucus is clear"
             }
         ],
         "field_note": "",
@@ -854,13 +854,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[medications_intake] = '1'\nAND\n[covid_meds_dlist] = '3'",
+        "branching_logic": "[covid_meds_dlist] = '3'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['medications_intake'] ==  '1'\nAND\nresponses[' ==']"
+        "evaluated_logic": "responses['covid_meds_dlist']"
     }
 ]
