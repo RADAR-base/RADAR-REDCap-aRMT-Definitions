@@ -791,13 +791,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[changed] = '1' and [covid_meds_dlist(4)] = '1' and [medications_intake] = '1'",
+        "branching_logic": "[covid_meds_dlist(4)] = '1' and [medications_intake] = '1' and [changed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['changed'] ==  '1' && responses['covid_meds_dlist'] == 4 && responses['medications_intake'] ==  '1'"
+        "evaluated_logic": "responses['covid_meds_dlist'] == 4 && responses['medications_intake'] ==  '1' && responses['changed'] ==  '1'"
     }
 ]
