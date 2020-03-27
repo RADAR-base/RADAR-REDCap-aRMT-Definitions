@@ -1,5 +1,39 @@
 [
     {
+        "field_name": "intro_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "Introduction",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Thank you once again for your ongoing support of the RADAR trial. We really appreciate your continued participation, especially given the recent outbreak of COVID-19 (Coronavirus). Your valued contributions are now more important than ever to help us gain a better understanding and insight, into the lives of people living with major depressive disorder.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "We therefore ask you to continue to engage with RADAR as best you can during this period. We would also really appreciate if you took the time to answer the following additional questions, which specifically relate to your experiences of COVID-19 (Coronavirus).",
+          "code" : "Part 2"
+        },
+        {
+            "label" : "If you have any concerns or need any advice regarding COVID-19 (Coronavirus) we recommend visiting the following link for further information https://111.nhs.uk/service/COVID-19/",
+            "code" : "Part 2"
+          }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "symptoms_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
