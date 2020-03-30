@@ -1739,8 +1739,16 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
-            "label": "I will go to the cinema\\I will listen to music\\I will spend an evening with good friends",
-            "code": ""         
+            "label": "I will go to the cinema",
+            "code": "Example 1"         
+            },
+            {
+            "label": "I will listen to music",
+            "code": "Example 2"         
+            },
+            {
+            "label": "I will spend an evening with good friends",
+            "code": "Example 3"         
             }
         ],
         "field_note": "",
