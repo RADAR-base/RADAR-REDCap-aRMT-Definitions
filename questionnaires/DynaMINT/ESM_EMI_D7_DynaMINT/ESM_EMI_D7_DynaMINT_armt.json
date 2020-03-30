@@ -1739,8 +1739,16 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
-            "label": "I will rearrange the furniture in my house\\I will light candles\\I will watch my children play",
-            "code": ""         
+            "label": "I will rearrange the furniture in my house.",
+            "code": "Example 1"         
+            },
+            {
+            "label": "I will light candles.",
+            "code": "Example 2"         
+            },
+            {
+            "label": "I will watch my children play.",
+            "code": "Example 3"         
             }
         ],
         "field_note": "",
