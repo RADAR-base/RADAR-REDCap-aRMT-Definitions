@@ -37,7 +37,15 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
-            "label": "I will go to the cinema\\I will listen to music\\I will spend an evening with good friends",
+            "label": "I will go to the cinema",
+            "code": ""         
+            },
+            {
+            "label": "I will listen to music",
+            "code": ""         
+            },
+            {
+            "label": "I will spend an evening with good friends",
             "code": ""         
             }
         ],
@@ -106,7 +114,7 @@
         "form_name": "EMI_DynaMINT",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Now, type what you see, touch, and smell as you imagine.",
+        "field_label": "Now, type what you see, feel, and smell as you imagine.",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
