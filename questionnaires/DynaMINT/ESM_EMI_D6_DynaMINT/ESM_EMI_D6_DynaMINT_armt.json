@@ -1739,8 +1739,16 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
-            "label": "I will go to church, pray, practise religion\\I will walk on the riverfront\\I will go bowling",
-            "code": ""         
+            "label": "I will go to church, pray, practise religion.",
+            "code": "Example 1"         
+            },
+            {
+            "label": "I will walk on the riverfront.",
+            "code": "Example 2"         
+            },
+            {
+            "label": "I will go bowling.",
+            "code": "Example 3"         
             }
         ],
         "field_note": "",
