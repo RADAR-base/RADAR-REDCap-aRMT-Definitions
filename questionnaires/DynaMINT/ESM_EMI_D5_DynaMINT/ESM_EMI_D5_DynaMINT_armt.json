@@ -1739,8 +1739,16 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
-            "label": "I will go to a gym\\I will have an early morning coffee\\I will go to a party",
-            "code": ""         
+            "label": "I will go to a gym.",
+            "code": "Example 1"         
+            },
+            {
+            "label": "I will have an early morning coffee.",
+            "code": "Example 2"         
+            },
+            {
+            "label": "I will go to a party.",
+            "code": "Example 3"         
             }
         ],
         "field_note": "",
