@@ -125,14 +125,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[changed] = '1' and [sym_cough] = '1' and [sym_cough] = '2' and [sym_cough] = '3'",
+        "branching_logic": "[sym_cough] = '1' or [sym_cough] = '2' or [sym_cough] = '3'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['changed'] ==  '1' && responses['sym_cough'] ==  '1' && responses['sym_cough'] && responses['sym_cough']"
+        "evaluated_logic": "responses['sym_cough'] ==  '1' || responses['sym_cough'] || responses['sym_cough']"
     },
     {
         "field_name": "sym_breath",
