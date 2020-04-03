@@ -1,0 +1,690 @@
+[
+    {
+        "field_name": "intro_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Invoering",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Nogmaals bedankt voor uw deelname aan het RADAR-onderzoek. We stellen uw deelname zeer op prijs, vooral gezien de recente uitbraak van COVID-19. Uw gewaardeerde bijdrage is nu belangrijker dan ooit om ons te helpen een beter begrip en inzicht te krijgen in het leven van mensen met een depressieve stoornis. "
+            },
+            {
+                "code": "Part2",
+                "label": "We vragen u daarom om tijdens deze periode de RADAR vragenlijsten zo goed mogelijk te blijven invullen. We zouden het ook erg op prijs stellen als u de tijd neemt om de volgende aanvullende vragen te beantwoorden, die specifiek betrekking hebben op uw ervaringen met COVID- 19 (Coronavirus). "
+            },
+            {
+                "code": "Part3",
+                "label": "Als u zich zorgen maakt of advies nodig heeft over COVID-19, raden we u aan de website van het RIVM te raadplegen: https://www.rivm.nl/"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "symptoms_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Heeft u sinds de uitbraak van COVID-19 (coronavirus) een van de volgende symptomen gehad? (Meerdere antwoorden mogelijk)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Hoesten "
+            },
+            {
+                "code": "2",
+                "label": "Koorts (temperatuur > 38oC en/of koud voelen en rillen) "
+            },
+            {
+                "code": "3",
+                "label": "Kortademigheid/moeite met ademen "
+            },
+            {
+                "code": "0",
+                "label": "Geen van bovenstaande"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diag_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is er bij u COVID-19 (Coronavirus) vastgesteld?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hospitalised_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Bent u hiervoor in het ziekenhuis opgenomen geweest?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diag_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diag_cns'] ==  '1'"
+    },
+    {
+        "field_name": "alone_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Woont u alleen? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "symptoms_cns_fam",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Heeft iemand met wie u samenwoont u sinds de uitbraak van COVID-19 (coronavirus) een van de volgende symptomen gehad? (Meerdere antwoorden mogelijk)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Hoesten "
+            },
+            {
+                "code": "2",
+                "label": "Koorts (temperatuur > 38oC en/of koud voelen en rillen) "
+            },
+            {
+                "code": "3",
+                "label": "Kortademigheid/moeite met ademen "
+            },
+            {
+                "code": "0",
+                "label": "Geen van bovenstaande"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[alone_cns] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['alone_cns'] !=  '0'"
+    },
+    {
+        "field_name": "diag_fam_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is er bij iemand met wie u samenwoont COVID-19 (Coronavirus) vastgesteld?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[alone_cns] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['alone_cns'] !=  '0'"
+    },
+    {
+        "field_name": "hospitalised_fam_cns_2",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is hij/zij hiervoor in het ziekenhuis opgenomen geweest?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diag_fam_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diag_fam_cns'] ==  '1'"
+    },
+    {
+        "field_name": "friend_diag_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is er bij iemand uit uw familie of vriendenkring COVID-19 (Coronavirus) vastgesteld?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hospitalised_friend_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is hij/zij hiervoor in het ziekenhuis opgenomen geweest?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[friend_diag_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['friend_diag_cns'] ==  '1'"
+    },
+    {
+        "field_name": "isolation_cns",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Bent u in thuisquarantaine (thuisblijven zonder zelf symptomen te hebben) of thuisisolatie (thuisblijven i.v.m. het hebben van symptomen) geweest door COVID-19 (Coronavirus) sinds de uitbraak van het virus?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "quarantine_date_start",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Wanneer ben je begonnen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[isolation_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+    },
+    {
+        "field_name": "quarantine_date_end",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Wanneer ben je gestopt? Indien u nog steeds in thuisquarantaine of isolatie bent, vult u dan de huidige datum in als einddatum.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[isolation_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+    },
+    {
+        "field_name": "work_from_home",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak zijn op u van toepassing?",
+        "field_type": "radio",
+        "field_label": "Ik ben vanuit huis gaan werken",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nee "
+            },
+            {
+                "code": "0",
+                "label": "Niet van toepassing"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "childcare",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ik ben voor de kinderen thuis gebleven i.v.m. sluitingen scholen en kinderopvang",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nee "
+            },
+            {
+                "code": "0",
+                "label": "Niet van toepassing"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "care_ill",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ik ben voor een ziek familielid of vriend gaan zorgen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nee "
+            },
+            {
+                "code": "0",
+                "label": "Niet van toepassing"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "other_change",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ik heb andere dagelijkse activiteiten (hobby's, sociale contacten etc.) veranderd",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nee "
+            },
+            {
+                "code": "0",
+                "label": "Niet van toepassing"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "activities_changed",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Welke andere activiteiten heeft u veranderd en hoe?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_change] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_change'] ==  '1'"
+    },
+    {
+        "field_name": "activities_c_when",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sinds wanneer heeft u deze activiteiten veranderd? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_change] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_change'] ==  '1'"
+    },
+    {
+        "field_name": "work_from_home_date",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sinds wanneer werk je thuis?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[work_from_home] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['work_from_home'] ==  '1'"
+    },
+    {
+        "field_name": "childcare_date",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sinds wanneer ben je begonnen met de zorg voor kinderen vanwege schoolsluitingen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[childcare] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['childcare'] ==  '1'"
+    },
+    {
+        "field_name": "care_ill_date",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sinds wanneer ben je begonnen met de zorg voor een ziek familielid of vriend?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[care_ill] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['care_ill'] ==  '1'"
+    },
+    {
+        "field_name": "n_contacts",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Met hoeveel mensen van buiten uw eigen huishouden heeft u persoonlijk (face-to-face) contact gehad in de afgelopen 24 uur?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "preoccupied_outbreak",
+        "form_name": "covid19_radarcns_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In hoeverre bent u bezig geweest (bv. zorgen maken over, piekeren) met de COVID-19 (coronavirus) -uitbraak?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Helemaal niet mee bezig geweest "
+            },
+            {
+                "code": "1",
+                "label": "Enigszins mee bezig geweest "
+            },
+            {
+                "code": "2",
+                "label": "Erg mee bezig geweest"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
