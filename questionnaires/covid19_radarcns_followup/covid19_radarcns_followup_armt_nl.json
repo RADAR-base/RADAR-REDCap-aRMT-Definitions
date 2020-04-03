@@ -197,7 +197,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns_followup'] !=  '0'"
+        "evaluated_logic": "responses['alone_cns_followup'] ==  '0'"
     },
     {
         "field_name": "diag_fam_cns_followup",
@@ -227,7 +227,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns_followup'] !=  '0'"
+        "evaluated_logic": "responses['alone_cns_followup'] ==  '0'"
     },
     {
         "field_name": "hospitalised_fam_cns_2_followup",
