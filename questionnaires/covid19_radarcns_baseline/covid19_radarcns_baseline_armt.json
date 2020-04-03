@@ -75,9 +75,18 @@
         "field_name": "diag_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Have you been diagnosed with COVID-19 (Coronavirus)?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -96,9 +105,18 @@
         "field_name": "hospitalised_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Have you been hospitalised?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -117,9 +135,18 @@
         "field_name": "alone_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Do you live alone at the moment?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -176,9 +203,18 @@
         "field_name": "diag_fam_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Has anyone you live with been diagnosed with COVID-19 (Coronavirus)?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -197,9 +233,18 @@
         "field_name": "hospitalised_fam_cns_2",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Have they been hospitalised?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -218,9 +263,18 @@
         "field_name": "friend_diag_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Has a family member or friend been diagnosed with COVID-19 (Coronavirus)?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -239,9 +293,18 @@
         "field_name": "hospitalised_friend_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Have they been hospitalised?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -260,9 +323,18 @@
         "field_name": "isolation_cns",
         "form_name": "covid19_radarcns_baseline",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Have you been in self-isolation (staying at home with symptoms) or self-quarantine (staying at home no symptoms), due to COVID-19 (Coronavirus) since the outbreak?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
