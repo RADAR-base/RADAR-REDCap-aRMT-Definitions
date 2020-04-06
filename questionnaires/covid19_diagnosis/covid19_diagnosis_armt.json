@@ -42,6 +42,40 @@
         "evaluated_logic": "responses['diagnosis_test'] ==  '1'"
     },
     {
+        "field_name": "cv19_test_type",
+        "form_name": "covid19_diagnosis",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "What type of diagnostic test did you receive?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Antibody Test (for a previous infection) "
+            },
+            {
+                "code": "2",
+                "label": "Antigen Test (for current infection) "
+            },
+            {
+                "code": "3",
+                "label": "Nasal Swab"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diagnosis_test] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diagnosis_test'] ==  '1'"
+    },
+    {
         "field_name": "self_isolation",
         "form_name": "covid19_diagnosis",
         "section_header": "",
