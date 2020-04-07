@@ -1,14 +1,14 @@
 [
     {
         "field_name": "intro_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "info",
         "field_label": "Introducción",
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Gracias una vez más por su continuo apoyo en el estudio RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos comprender mejor la vida de las personas que viven con la depresión. "
+                "label": "Gracias una vez más por su continuo apoyo en el estudio RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos  a comprender mejor la vida de las personas que viven con la depresión. "
             },
             {
                 "code": "Part2",
@@ -35,7 +35,7 @@
     },
     {
         "field_name": "symptoms_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "checkbox",
         "field_label": "¿Ha tenido alguno de los siguientes síntomas desde que empezó el brote del COVID-19 (Coronavirus)? (Marque lo que corresponda)",
@@ -73,7 +73,7 @@
     },
     {
         "field_name": "diag_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Le han diagnosticado con COVID-19 (coronavirus)?",
@@ -103,7 +103,7 @@
     },
     {
         "field_name": "hospitalised_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha sido hospitalizado? ",
@@ -133,7 +133,7 @@
     },
     {
         "field_name": "alone_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Está viviendo solo actualmente? ",
@@ -163,7 +163,7 @@
     },
     {
         "field_name": "symptoms_cns_fam",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "checkbox",
         "field_label": "¿Alguien con quien vive ha tenido algunos de los siguientes síntomas desde que empezó el brote del COVID-19 (coronavirus)? (Marque lo que corresponda)",
@@ -201,7 +201,7 @@
     },
     {
         "field_name": "diag_fam_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Alguien con quien vive ha sido diagnosticado con COVID-19 (coronavirus)?",
@@ -231,7 +231,7 @@
     },
     {
         "field_name": "hospitalised_fam_cns_2",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Han sido hospitalizados? ",
@@ -261,7 +261,7 @@
     },
     {
         "field_name": "friend_diag_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Alguien de su familia o amigo ha sido diagnosticado con COVID-19 (coronavirus)?",
@@ -291,7 +291,7 @@
     },
     {
         "field_name": "hospitalised_friend_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Han sido hospitalizados? ",
@@ -321,7 +321,7 @@
     },
     {
         "field_name": "isolation_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha estado en aislamiento (en su hogar con síntomas) o en cuarentena (en su hogar sin síntomas) desde que empezó  el brote del COVID-19 (Coronavirus)?",
@@ -351,10 +351,10 @@
     },
     {
         "field_name": "quarantine_date_start",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
-        "field_label": "¿Cuando empezaste?",
+        "field_label": "¿Cuándo empezó?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
@@ -372,10 +372,10 @@
     },
     {
         "field_name": "quarantine_date_end",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
-        "field_label": "¿Cuándo terminaste? Si todavía se aísla / pone en cuarentena, inserte la fecha de hoy.",
+        "field_label": "¿Cuándo terminó? Si todavía se aísla / pone en cuarentena, inserte la fecha de hoy.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
@@ -393,7 +393,7 @@
     },
     {
         "field_name": "work_from_home",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
         "field_type": "radio",
         "field_label": "Trabajar desde casa",
@@ -427,7 +427,7 @@
     },
     {
         "field_name": "work_from_home_date",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -448,7 +448,7 @@
     },
     {
         "field_name": "childcare",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
         "field_type": "radio",
         "field_label": "Cuidado de los niños debido al cierre de la escuela",
@@ -482,7 +482,7 @@
     },
     {
         "field_name": "childcare_date",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -503,7 +503,7 @@
     },
     {
         "field_name": "care_ill",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
         "field_type": "radio",
         "field_label": "Cuidar a un pariente/amigo enfermo",
@@ -537,7 +537,7 @@
     },
     {
         "field_name": "care_ill_date",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -558,7 +558,7 @@
     },
     {
         "field_name": "other_change",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
         "field_type": "radio",
         "field_label": "Actividades de ocio o socialización",
@@ -592,7 +592,7 @@
     },
     {
         "field_name": "activities_changed",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Qué actividades ha cambiado y cómo?",
@@ -613,7 +613,7 @@
     },
     {
         "field_name": "activities_c_when",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Desde cuándo cambió estas actividades?",
@@ -634,7 +634,7 @@
     },
     {
         "field_name": "n_contacts",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Con cuántas personas, fuera de su hogar, ha tenido una conversación cara a cara en las últimas 24 horas?",
@@ -655,7 +655,7 @@
     },
     {
         "field_name": "preoccupied_outbreak",
-        "form_name": "covid19_radarcns_baseline",
+        "form_name": "cns_covid19_baseline",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha estado preocupado (es decir, pensando o preocupándose demasiado) por el brote de COVID-19 (coronavirus)?",
