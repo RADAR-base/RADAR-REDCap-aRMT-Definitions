@@ -354,7 +354,7 @@
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Wanneer ben je begonnen?",
+        "field_label": "Welke periode bent u in thuisquarantaine/isolatie geweest? Startdatum:",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
@@ -375,7 +375,7 @@
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Wanneer ben je gestopt? Indien u nog steeds in thuisquarantaine of isolatie bent, vult u dan de huidige datum in als einddatum.",
+        "field_label": "Einddatum : (indien u nog steeds in thuisquarantaine of isolatie bent, vult u dan de huidige datum in als einddatum)",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
@@ -394,7 +394,7 @@
     {
         "field_name": "work_from_home_followup",
         "form_name": "covid19_radarcns_followup",
-        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
+        "section_header": "Welke van de volgende veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
         "field_type": "radio",
         "field_label": "Ik ben vanuit huis gaan werken",
         "select_choices_or_calculations": [
@@ -449,7 +449,7 @@
     {
         "field_name": "childcare_followup",
         "form_name": "covid19_radarcns_followup",
-        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?\n",
+        "section_header": "Welke van de volgende veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?\n",
         "field_type": "radio",
         "field_label": "Ik ben voor de kinderen thuis gebleven i.v.m. sluitingen scholen en kinderopvang",
         "select_choices_or_calculations": [
@@ -504,7 +504,7 @@
     {
         "field_name": "care_ill_followup",
         "form_name": "covid19_radarcns_followup",
-        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
+        "section_header": "Welke van de volgende veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
         "field_type": "radio",
         "field_label": "Ik ben voor een ziek familielid of vriend gaan zorgen",
         "select_choices_or_calculations": [
@@ -559,7 +559,7 @@
     {
         "field_name": "other_change_followup",
         "form_name": "covid19_radarcns_followup",
-        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
+        "section_header": "Welke van de volgende veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
         "field_type": "radio",
         "field_label": "Ik heb andere dagelijkse activiteiten (hobby's, sociale contacten etc.) veranderd",
         "select_choices_or_calculations": [
