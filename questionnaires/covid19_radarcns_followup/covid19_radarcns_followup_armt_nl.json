@@ -403,11 +403,11 @@
                 "label": "Ja "
             },
             {
-                "code": "2",
+                "code": "0",
                 "label": "Nee "
             },
             {
-                "code": "0",
+                "code": "2",
                 "label": "Niet van toepassing"
             }
         ],
@@ -426,9 +426,30 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "childcare_followup",
+        "field_name": "work_from_home_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Per wanneer?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[work_from_home_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['work_from_home_followup'] ==  '1'"
+    },
+    {
+        "field_name": "childcare_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?\n",
         "field_type": "radio",
         "field_label": "Ik ben voor de kinderen thuis gebleven i.v.m. sluitingen scholen en kinderopvang",
         "select_choices_or_calculations": [
@@ -437,11 +458,11 @@
                 "label": "Ja "
             },
             {
-                "code": "2",
+                "code": "0",
                 "label": "Nee "
             },
             {
-                "code": "0",
+                "code": "2",
                 "label": "Niet van toepassing"
             }
         ],
@@ -454,15 +475,36 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak2_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "care_ill_followup",
+        "field_name": "childcare_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Per wanneer?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[childcare_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['childcare_followup'] ==  '1'"
+    },
+    {
+        "field_name": "care_ill_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
         "field_type": "radio",
         "field_label": "Ik ben voor een ziek familielid of vriend gaan zorgen",
         "select_choices_or_calculations": [
@@ -471,11 +513,11 @@
                 "label": "Ja "
             },
             {
-                "code": "2",
+                "code": "0",
                 "label": "Nee "
             },
             {
-                "code": "0",
+                "code": "2",
                 "label": "Niet van toepassing"
             }
         ],
@@ -488,15 +530,36 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak3_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "other_change_followup",
+        "field_name": "care_ill_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Per wanneer?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[care_ill_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['care_ill_followup'] ==  '1'"
+    },
+    {
+        "field_name": "other_change_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "Welke van de onderstaande veranderingen in dagelijkse activiteiten als gevolg van de COVID-19 (Coronavirus) uitbraak waren op u van toepassing in de afgelopen 2 weken?",
         "field_type": "radio",
         "field_label": "Ik heb andere dagelijkse activiteiten (hobby's, sociale contacten etc.) veranderd",
         "select_choices_or_calculations": [
@@ -505,11 +568,11 @@
                 "label": "Ja "
             },
             {
-                "code": "2",
+                "code": "0",
                 "label": "Nee "
             },
             {
-                "code": "0",
+                "code": "2",
                 "label": "Niet van toepassing"
             }
         ],
@@ -522,7 +585,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak4_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -568,69 +631,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['other_change_followup'] ==  '1'"
-    },
-    {
-        "field_name": "work_from_home_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Sinds wanneer werk je thuis?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[work_from_home_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['work_from_home_followup'] ==  '1'"
-    },
-    {
-        "field_name": "childcare_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Sinds wanneer ben je begonnen met de zorg voor kinderen vanwege schoolsluitingen?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[childcare_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['childcare_followup'] ==  '1'"
-    },
-    {
-        "field_name": "care_ill_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Sinds wanneer ben je begonnen met de zorg voor een ziek familielid of vriend?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[care_ill_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['care_ill_followup'] ==  '1'"
     },
     {
         "field_name": "n_contacts_followup",
