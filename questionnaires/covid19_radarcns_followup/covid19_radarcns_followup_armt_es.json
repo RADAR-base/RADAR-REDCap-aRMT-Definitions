@@ -8,15 +8,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Gracias una vez más por su continuo apoyo a la prueba RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos a comprender y comprender mejor la vida de las personas que viven con un trastorno depresivo mayor. "
+                "label": "Gracias una vez más por su continuo apoyo en el estudio RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos comprender mejor la vida de las personas que viven con la depresión. "
             },
             {
                 "code": "Part2",
-                "label": "Por lo tanto, le pedimos que continúe interactuando con RADAR lo mejor que pueda durante este período. También le agradeceríamos que se tomara el tiempo para responder las siguientes preguntas adicionales, que se relacionan específicamente con sus experiencias con COVID-19. "
+                "label": "Por lo tanto, le pedimos que continúe interactuando con el estudio RADAR lo mejor que pueda durante este período. También le agradeceríamos que se tomara el tiempo para responder las siguientes preguntas adicionales, que se relacionan específicamente con sus experiencias con el COVID-19. "
             },
             {
                 "code": "Part3",
-                "label": "Si tiene alguna duda o necesita algún consejo sobre COVID-19, le recomendamos que visite el siguiente enlace para obtener más información https://web.gencat.cat/ca/coronavirus/."
+                "label": "Si tiene alguna duda o necesita algún consejo sobre el COVID-19, le recomendamos que visite el siguiente enlace para obtener más información https://web.gencat.cat/ca/coronavirus/."
             }
         ],
         "field_note": "",
@@ -426,9 +426,30 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "childcare_followup",
+        "field_name": "work_from_home_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Indicar desde cuando:",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[work_from_home_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['work_from_home_followup'] ==  '1'"
+    },
+    {
+        "field_name": "childcare_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Cuidado de los niños debido al cierre de la escuela",
         "select_choices_or_calculations": [
@@ -454,15 +475,36 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak2_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "care_ill_followup",
+        "field_name": "childcare_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Indicar desde cuando:",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[childcare_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['childcare_followup'] ==  '1'"
+    },
+    {
+        "field_name": "care_ill_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Cuidar a un pariente/amigo enfermo",
         "select_choices_or_calculations": [
@@ -488,15 +530,36 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak3_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "other_change_followup",
+        "field_name": "care_ill_date_followup",
         "form_name": "covid19_radarcns_followup",
         "section_header": "",
+        "field_type": "text",
+        "field_label": "Indicar desde cuando:",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[care_ill_followup] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['care_ill_followup'] ==  '1'"
+    },
+    {
+        "field_name": "other_change_followup",
+        "form_name": "covid19_radarcns_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Actividades de ocio o socialización",
         "select_choices_or_calculations": [
@@ -522,7 +585,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak_followup",
+        "matrix_group_name": "changes_due_to_outbreak4_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -568,69 +631,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['other_change_followup'] ==  '1'"
-    },
-    {
-        "field_name": "work_from_home_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "¿Desde cuándo empezaste a trabajar desde casa?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[work_from_home_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['work_from_home_followup'] ==  '1'"
-    },
-    {
-        "field_name": "childcare_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "¿Desde cuándo empezaste a cuidar niños por el cierre de la escuela?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[childcare_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['childcare_followup'] ==  '1'"
-    },
-    {
-        "field_name": "care_ill_date_followup",
-        "form_name": "covid19_radarcns_followup",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "¿Desde cuándo empezaste a cuidar a un pariente/amigo enfermo?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[care_ill_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['care_ill_followup'] ==  '1'"
     },
     {
         "field_name": "n_contacts_followup",
