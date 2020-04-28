@@ -1,0 +1,49 @@
+[
+    {
+        "field_name": "vitd_kaletra_note",
+        "form_name": "vitd_and_kaletra_notification",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "Notification",
+                "label": "This is a notification to remind you to take your Vitamin D supplement and Kaletra as part of the PROTECT-NHS study."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "taken_vitd_kaletra",
+        "form_name": "vitd_and_kaletra_notification",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Have you taken your Vitamin D supplement and Kaletra today?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
