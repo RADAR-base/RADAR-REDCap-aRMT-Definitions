@@ -142,5 +142,107 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q5",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Hoe lang duurde het totdat je in slaap viel?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "< 30 minuten"
+            },
+            {
+                "code": "1",
+                "label": "30-60 minuten"
+            },
+            {
+                "code": "2",
+                "label": "> 60 minuten"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q6",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In welke fase van je menstruatie ben je nu?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Niet van toepassing/Hormonale anticonceptie"
+            },
+            {
+                "code": "1",
+                "label": "Menstruatie"
+            },
+            {
+                "code": "2",
+                "label": "Geen menstruatie, en 1-7 dagen tot volgende menstruatie"
+            },
+            {
+                "code": "3",
+                "label": "Geen menstruatie, en 8-14 dagen tot volgende menstruatie"
+            },
+            {
+                "code": "4",
+                "label": "Geen menstruatie, en >14 dagen tot volgende menstruatie"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_infoButton",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Onthoud dat je ook vandaag de stressknop op het horloge kan gebruiken om stressvolle gebeurtenissen te registeren",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
