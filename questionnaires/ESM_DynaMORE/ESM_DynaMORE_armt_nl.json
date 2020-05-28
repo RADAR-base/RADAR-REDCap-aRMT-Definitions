@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Sinds de vorige beep heb ik het volgende gebruikt: Cafeïne, medicatie, alcohol, sigaretten, cannabis, andere drugs",
+        "field_label": "Sinds de vorige beep heb ik het volgende gebruikt: Cafeïne, medicatie, alcohol, sigaretten, cannabis/hasj, geestverruimende middelen (bv. ketamine, LSD, paddo's), stimulerende middelen (bv. cocaine, XTC, Ritalin), verdovende middelen (bv. slaapmiddelen, heroine, morfine), andere drugs",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1807,10 +1807,22 @@
             },
             {
                 "code": "5A",
-                "label": "Cannabis"
+                "label": "Cannabis/Hasj"
             },
             {
                 "code": "6A",
+                "label": "Geestverruimende middelen (bv. ketamine, LSD, paddo's)"
+            },
+            {
+                "code": "7A",
+                "label": "Stimulerende middelen (bv. cocaine, XTC, Ritalin)"
+            },
+            {
+                "code": "8A",
+                "label": "Verdovende middelen (bv. slaapmiddelen, heroine, morfine)"
+            },
+            {
+                "code": "9A",
                 "label": "Andere drugs"
             }
         ],
