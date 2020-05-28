@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ich habe seit dem letzten Klingeln eins (oder mehrere)der folgenden Sachen genutzt: Koffein, Medikamente, Alkohol, Zigaretten, Cannabis, Andere Drogen",
+        "field_label": "Ich habe seit dem letzten Klingeln eins (oder mehrere)der folgenden Sachen genutzt: Koffein, Medikamente, Alkohol, Zigaretten, Cannabis/Haschisch, Halluzinogene Drogen (z.B. Ketamin, LSD, psilocybinhaltige Pilze), Stimulanzien (z.B. Kokain, Ecstasy, Ritalin), Betäubungsmittel (z.B. Beruhigungsmittel, Heroin, Morphium), Andere Drogen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1807,10 +1807,22 @@
             },
             {
                 "code": "5A",
-                "label": "Cannabis"
+                "label": "Cannabis/Haschisch"
             },
             {
                 "code": "6A",
+                "label": "Halluzinogene Drogen (z.B. Ketamin, LSD, psilocybinhaltige Pilze)"
+            },
+            {
+                "code": "7A",
+                "label": "Stimulanzien (z.B. Kokain, Ecstasy, Ritalin)"
+            },
+            {
+                "code": "8A",
+                "label": "Betäubungsmittel (z.B. Beruhigungsmittel, Heroin, Morphium)"
+            },
+            {
+                "code": "9A",
                 "label": "Andere Drogen"
             }
         ],
