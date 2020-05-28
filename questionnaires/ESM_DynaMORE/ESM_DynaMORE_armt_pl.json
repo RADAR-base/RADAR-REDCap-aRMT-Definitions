@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Od ostatniego alarmu skorzystałem/łam raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, marihuana, inne używki",
+        "field_label": "Od ostatniego alarmu skorzystałem/łam raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, konopie/haszysz, psychodeliki (np. ketamina, LSD, grzyby psylocybinowe), stymulanty (np. kokaina, ecstasy, ritalin), opioidy (np. środki uspokajające, heroina, morfina), inne używki",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1807,10 +1807,22 @@
             },
             {
                 "code": "5A",
-                "label": "Marihuany"
+                "label": "Konopie/haszysz"
             },
             {
                 "code": "6A",
+                "label": "Psychodeliki (np. ketamina, LSD, grzyby psylocybinowe)"
+            },
+            {
+                "code": "7A",
+                "label": "Stymulanty (np. kokaina, ecstasy, ritalin)"
+            },
+            {
+                "code": "8A",
+                "label": "Opioidy (np. środki uspokajające, heroina, morfina)"
+            },
+            {
+                "code": "9A",
                 "label": "Innych używek"
             }
         ],
