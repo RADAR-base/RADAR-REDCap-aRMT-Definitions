@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Since the last beep, I have used one (or more) of the following: Caffeine, medication, alcohol, cigarettes, cannabis, other drugs",
+        "field_label": "Since the last beep, I have used one (or more) of the following: Caffeine, medication, alcohol, cigarettes, cannabis/hash, hallucinogenic drugs (e.g. ketamine, LSD, magic mushrooms), stimulants (e.g. cocaine, ecstasy, ritalin), narcotics (e.g. sedatives, heroine, morphine), other drugs",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1807,10 +1807,22 @@
             },
             {
                 "code": "5A",
-                "label": "Cannabis"
+                "label": "Cannabis/Hash"
             },
             {
                 "code": "6A",
+                "label": "Hallucinogenic drugs (e.g. ketamine, LSD, magic mushrooms)"
+            },
+            {
+                "code": "7A",
+                "label": "Stimulants (e.g. cocaine, ecstasy, ritalin)"
+            },
+            {
+                "code": "8A",
+                "label": "Narcotics (e.g. sedatives, heroine, morphine)"
+            },
+            {
+                "code": "9A",
                 "label": "Other drugs"
             }
         ],
