@@ -142,5 +142,107 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q5",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ile czasu zajęło Ci zaśnięcie ostatniej nocy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "< 30 minut"
+            },
+            {
+                "code": "1",
+                "label": "30-60 minut"
+            },
+            {
+                "code": "2",
+                "label": "> 60 minut"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q6",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "W której fazie cyklu miesiączkowego jesteś obecnie?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nie odnosi się do mnie/stosuję antykoncepcję hormonalną"
+            },
+            {
+                "code": "1",
+                "label": "Miesiączka"
+            },
+            {
+                "code": "2",
+                "label": "Brak miesiączki, 1-7 dni do następnej menstruacji"
+            },
+            {
+                "code": "3",
+                "label": "Brak miesiączki, 8-14 dni do następnej menstruacji"
+            },
+            {
+                "code": "4",
+                "label": "Brak miesiączki, >14 dni do następnej menstruacji"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_infoButton",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Pamiętaj, by korzystać z przycisku stresu w zegarku, który zapisze dzisiejsze stresujące wydarzenia",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
