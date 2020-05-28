@@ -142,5 +142,107 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
+    },    
+    {
+        "field_name": "ESM_morning_DynaMORE_Q5",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How long did it take you to fall asleep?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "< 30 minutes"
+            },
+            {
+                "code": "1",
+                "label": "30-60 Minuten"
+            },
+            {
+                "code": "2",
+                "label": "> 60 Minuten"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q6",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Which phase of the menstruation cycle are you currently in?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not applicable/Hormonal birth control"
+            },
+            {
+                "code": "1",
+                "label": "Menstruation"
+            },
+            {
+                "code": "2",
+                "label": "No menstruation, and 1 to 7 day(s) until next menstruation"
+            },
+            {
+                "code": "3",
+                "label": "No menstruation, and 8 to 14 day(s) until next menstruation"
+            },
+            {
+                "code": "4",
+                "label": "No menstruation, and >14 days until next menstruation"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_infoButton",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Please remember to use the stress button on the watch to register stressful events that may occur today.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
