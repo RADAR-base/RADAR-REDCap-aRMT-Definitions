@@ -142,5 +142,107 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q5",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie lange haben Sie gebraucht, einzuschlafen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "< 30 Minuten"
+            },
+            {
+                "code": "1",
+                "label": "30-60 Minuten"
+            },
+            {
+                "code": "2",
+                "label": "> 60 Minuten"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_Q6",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In welcher Zyklusphase befinden Sie sich momentan?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nicht zutreffend / hormonelle Verhütung"
+            },
+            {
+                "code": "1",
+                "label": "Menstruation"
+            },
+            {
+                "code": "2",
+                "label": "Keine Menstruation, und 1 bis 7 Tag(e) bis zur nächsten Menstruation"
+            },
+            {
+                "code": "3",
+                "label": "Keine Menstruation, und 8 bis 14 Tag(e) bis zur nächsten Menstruation"
+            },
+            {
+                "code": "4",
+                "label": "Keine Menstruation, und mehr als 14 Tage bis zur nächsten Menstruation"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMORE_infoButton",
+        "form_name": "ESM_DynaMORE_Morning",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Bitte denken Sie daran, den Stressknopf auf der Uhr zu nutzen, um stressige Ereignisse  im Laufe des Tages festzuhalten.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
