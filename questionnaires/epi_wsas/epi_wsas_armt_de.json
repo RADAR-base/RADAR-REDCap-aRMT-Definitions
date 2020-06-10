@@ -1,0 +1,322 @@
+[
+    {
+        "field_name": "epi_wsas_0",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sind Sie im Ruhestand oder haben Sie sich aus Gründen, die nichts mit Ihrer Epilepsie zu tun haben, gegen einen Job entschieden?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "0",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "work",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wegen meiner Epilepsie ist meine Arbeitsfähigkeit beeinträchtigt. '0' heißt 'überhaupt nicht beeinträchtigt' und '8' heißt 'sehr schwerwiegend beeinträchtigt', bis hin zu Arbeitsunfähigkeit.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Gar nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Etwas"
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Eindeutig"
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Ausgesprochen"
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Sehr schwerwiegend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "home_management",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Aufgrund meiner Epilepsie ist mein Haushaltsmanagement (Reinigen, Aufräumen, Einkaufen, Kochen, Haus- oder Kinderbetreuung, Rechnungen bezahlen) beeinträchtigt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Gar nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Etwas"
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Eindeutig"
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Ausgesprochen"
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Sehr schwerwiegend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_activities",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Aufgrund meiner Epilepsie sind meine sozialen Freizeitaktivitäten (mit anderen Menschen, z.B. Partys, Bars, Clubs, Ausflüge, Besuche, Dates, Home-Entertainment) beeinträchtigt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Gar nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Etwas"
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Eindeutig"
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Ausgesprochen"
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Sehr schwerwiegend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "private_leisure",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Aufgrund meiner Epilepsie sine meine privaten Freizeitaktivitäten (allein, wie z.B. Lesen, Gärtnern, Sammeln, Nähen, spazieren gehen) beeinträchtigt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Gar nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Etwas"
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Eindeutig"
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Ausgesprochen"
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Sehr schwerwiegend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "relationhips",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Aufgrund meiner Epilepsie ist meine Fähigkeit, enge Beziehungen zu anderen, auch zu denen, mit denen ich zusammenlebe, aufzubauen und zu pflegen, beeinträchtigt.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Gar nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Etwas"
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Eindeutig"
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Ausgesprochen"
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Sehr schwerwiegend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

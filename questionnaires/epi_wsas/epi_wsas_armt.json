@@ -1,0 +1,322 @@
+[
+    {
+        "field_name": "epi_wsas_0",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Are you retired or do you choose not to have a job for reasons unrelated to your epilepsy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "work",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Because of my epilepsy my ability to work is impaired. '0' means 'not at all impaired' and '8' means 'very severely impaired' to the point you can't work",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Slightly "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Definitely "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Markedly "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Very Severely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "home_management",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Because of my epilepsy my home management (cleaning, tidying, shopping, cooking, looking after home or children, paying bills) is impaired.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Slightly "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Definitely "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Markedly "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Very Severely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_activities",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Because of my epilepsy my social leisure activities (with other people e.g. parties, bars, clubs, outings, visits, dating, home entertaining) are impaired.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Slightly "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Definitely "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Markedly "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Very Severely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "private_leisure",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Because of my epilepsy, my private leisure activities (done alone, such as reading, gardening, collecting, sewing, walking alone) are impaired.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Slightly "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Definitely "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Markedly "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Very Severely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "relationhips",
+        "form_name": "epi_wsas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Because of my epilepsy, my ability to form and maintain close relationships with others, including those I live with, is impaired.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 Slightly "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Definitely "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 Markedly "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 Very Severely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "epi_wsas",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
