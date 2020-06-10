@@ -1,0 +1,288 @@
+[
+    {
+        "field_name": "diary_start",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Timing",
+        "field_type": "text",
+        "field_label": "At what time did the seizure start?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_duration",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Timing",
+        "field_type": "text",
+        "field_label": "How long did the seizure last?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "duration",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_unconscious",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Symptoms",
+        "field_type": "yesno",
+        "field_label": "Were you completely unconscious during the seizure?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_awareness",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Symptoms",
+        "field_type": "yesno",
+        "field_label": "Were you confused or was your awareness affected during the seizure?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_motor",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Symptoms",
+        "field_type": "radio",
+        "field_label": "Did you have motor symptoms?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "2",
+                "label": "No "
+            },
+            {
+                "code": "3",
+                "label": "Don't Know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_nonmotor",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Symptoms",
+        "field_type": "radio",
+        "field_label": "Did you have non-motor symptoms?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "2",
+                "label": "No "
+            },
+            {
+                "code": "3",
+                "label": "Don't Know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_confirmation",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Confirmation",
+        "field_type": "yesno",
+        "field_label": "Has someone taking care of you confirmed that you had a seizure?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_wearable",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Confirmation",
+        "field_type": "yesno",
+        "field_label": "Were you wearing the wearable device during the seizure?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_trigger",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Trigger",
+        "field_type": "yesno",
+        "field_label": "Do you think that something triggered your seizure?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_trigger_detail",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Trigger",
+        "field_type": "radio",
+        "field_label": "Select the trigger you think is most relevant.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "lack of sleep "
+            },
+            {
+                "code": "2",
+                "label": "stress event "
+            },
+            {
+                "code": "3",
+                "label": "tiredness "
+            },
+            {
+                "code": "4",
+                "label": "flashing light "
+            },
+            {
+                "code": "5",
+                "label": "alcohol "
+            },
+            {
+                "code": "6",
+                "label": "forgot to take medication "
+            },
+            {
+                "code": "7",
+                "label": "other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diary_trigger] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diary_trigger'] ==  '1'"
+    },
+    {
+        "field_name": "diary_trigger_other",
+        "form_name": "seizure_diary",
+        "section_header": "Seizure Trigger",
+        "field_type": "text",
+        "field_label": "Specify trigger \"other\"",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diary_trigger_detail] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diary_trigger_detail'] ==  '7'"
+    }
+]

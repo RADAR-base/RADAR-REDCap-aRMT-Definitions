@@ -78,11 +78,7 @@ function REDCapConvertor(redcap_json) {
                       // question[i] = 1 in RedCap maps to question = i in aRMT
                       // question[i] = 0 in RedCap maps to question != i in aRMT
                         case 'radio':
-                            if (value2.includes("0")) {
-                              logicToEvaluate += ' != ' + value2;
-                            } else if (value2.includes("1")) {
-                              logicToEvaluate += ' == ' + value2;
-                            }
+                            logicToEvaluate += ' == ' + value2;
                             break;
                         case 'checkbox':
                             if (value2.includes("1")) {
