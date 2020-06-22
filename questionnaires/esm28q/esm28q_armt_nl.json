@@ -104,7 +104,7 @@
         "form_name": "esm28q",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ik voel me vrolijk",
+        "field_label": "Ik voel me opgewekt",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -670,7 +670,7 @@
             },
             {
                 "code": "3",
-                "label": "Passieve vrijetijdsbesteding (televisie, computer, gamen, lezen) "
+                "label": "Passieve vrijetijdsbesteding (TV, computer, gamen, lezen) "
             },
             {
                 "code": "4",
@@ -681,31 +681,31 @@
                 "label": "Reizen "
             },
             {
-                "code": "12",
+                "code": "6",
                 "label": "Huishoudelijke taken "
             },
             {
-                "code": "13",
+                "code": "7",
                 "label": "Boodschappen doen "
             },
             {
-                "code": "7",
-                "label": "Werk/studie"
-            },
-            {
                 "code": "8",
-                "label": "Persoonlijke zelfverzorging (hygi�ne) "
+                "label": "Werk/studie "
             },
             {
                 "code": "9",
-                "label": "Interactie/gesprek "
+                "label": "Persoonlijke zelfverzorging (hygiëne) "
             },
             {
                 "code": "10",
-                "label": "Mobiele telefoon/sociale media "
+                "label": "Interactie/gesprek "
             },
             {
                 "code": "11",
+                "label": "Mobiele telefoon/sociale media "
+            },
+            {
+                "code": "12",
                 "label": "Iets anders"
             }
         ],
@@ -778,7 +778,7 @@
         "form_name": "esm28q",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ik had liever iets anders gedaan",
+        "field_label": "Ik zou liever iets anders hebben gedaan",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1352,7 +1352,7 @@
         "form_name": "esm28q",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Denk aan de belangrijkste gebeurtenis van het afgelopen uur. Deze gebeurtenis was:",
+        "field_label": "Wat was voor jou de belangrijkste gebeurtenis in het afgelopen uur? Deze gebeurtenis was:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
