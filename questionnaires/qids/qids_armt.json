@@ -263,7 +263,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['qids_6'] !=  '0'"
+        "evaluated_logic": "responses['qids_6'] ==  '0'"
     },
     {
         "field_name": "qids_8",
@@ -339,7 +339,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['qids_8'] !=  '0'"
+        "evaluated_logic": "responses['qids_8'] ==  '0'"
     },
     {
         "field_name": "qids_10",

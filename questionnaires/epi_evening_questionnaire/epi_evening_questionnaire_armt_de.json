@@ -1,0 +1,708 @@
+[
+    {
+        "field_name": "deq_medications",
+        "form_name": "evening_questionnaire",
+        "section_header": "Medikamente",
+        "field_type": "radio",
+        "field_label": "Haben Sie Ihre Medikamente in den letzten 24 Stunden eingenommen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Alle Dosen genommen"
+            },
+            {
+                "code": "1",
+                "label": "Mindestens eine Dosis verpasst"
+            },
+            {
+                "code": "2",
+                "label": "Alle Dosen verpasst"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_alcoholuse",
+        "form_name": "evening_questionnaire",
+        "section_header": "Alkoholkonsum",
+        "field_type": "radio",
+        "field_label": "Wie viel Alkohol haben Sie in den letzten 24 Stunden zu sich genommen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Keinen"
+            },
+            {
+                "code": "2",
+                "label": "Kleiner Schuss Spirituosen (25ml, 40% Vol.)"
+            },
+            {
+                "code": "3",
+                "label": "Kleines Glas Wein (125ml, 12% Vol.)"
+            },
+            {
+                "code": "4",
+                "label": "Flasche Bier (330ml, 5% Vol.)"
+            },
+            {
+                "code": "5",
+                "label": "Dose Bier (440ml, 5.5% Vol.)"
+            },
+            {
+                "code": "6",
+                "label": "Großes Glas Bier (500ml, 3.6% Vol.)"
+            },
+            {
+                "code": "7",
+                "label": "Normales Glas Wein (175ml, 12% Vol.)"
+            },
+            {
+                "code": "8",
+                "label": "Großes Glas Bier, stark (500ml, 5.2% Vol.)"
+            },
+            {
+                "code": "9",
+                "label": "Großes Glas Wein (250ml, 12% Vol.)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_mestrual",
+        "form_name": "evening_questionnaire",
+        "section_header": "Menstruationszyklus",
+        "field_type": "radio",
+        "field_label": "Hatten Sie Ihre Regel in den letzten 24 Stunden?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            },
+            {
+                "code": "3",
+                "label": "Nicht zutreffend"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_stress",
+        "form_name": "evening_questionnaire",
+        "section_header": "Stresslevel",
+        "field_type": "radio",
+        "field_label": "Wie viel Stress hatten Sie in den letzten 24 Stunden?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht gestresst"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr gestresst"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_anxiety",
+        "form_name": "evening_questionnaire",
+        "section_header": "Angstniveau",
+        "field_type": "radio",
+        "field_label": "Wie sehr beunruhigt waren Sie in den letzten 24 Stunden?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht beunruhigt"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr beunruhigt"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_happy",
+        "form_name": "evening_questionnaire",
+        "section_header": "Emotionaler Zustand",
+        "field_type": "radio",
+        "field_label": "Wie glücklich haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht glücklich"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr glücklich"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_sad",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie traurig haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht traurig"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr traurig"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_relaxed",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie entspannt haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht entspannt"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr entspannt"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_nervous",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie nervös haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht nervös"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr nervös"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_lively",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie lebhaft haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht lebhaft"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr lebhaft"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_bored",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie gelangweilt haben Sie sich in den letzten 24 Stunden gefühlt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 überhaupt nicht gelangweilt"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 sehr gelangweilt"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_precipitant",
+        "form_name": "evening_questionnaire",
+        "section_header": "Anfall-Andeutung",
+        "field_type": "checkbox",
+        "field_label": "Haben Sie in den letzten 24 Stunden ein besonderes Gefühl oder Empfinden gehabt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Kopfschmerzen"
+            },
+            {
+                "code": "2",
+                "label": "Konzentrationsschwierigkeiten"
+            },
+            {
+                "code": "3",
+                "label": "Denkschwierigkeiten"
+            },
+            {
+                "code": "4",
+                "label": "etwas anderes"
+            },
+            {
+                "code": "5",
+                "label": "keines"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "deq_other",
+        "form_name": "evening_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Wenn Sie ein anderes Gefühl oder Empfinden hatten, geben Sie es bitte an:",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[deq_precipitant] = '4'",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['deq_precipitant'] == '4'"
+    },
+    {
+        "field_name": "deq_seizure",
+        "form_name": "evening_questionnaire",
+        "section_header": "Anfalltagebuch",
+        "field_type": "yesno",
+        "field_label": "Hatten Sie in den letzten 24 Stunden einen Anfall?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

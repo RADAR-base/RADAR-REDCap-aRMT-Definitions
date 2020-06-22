@@ -1,0 +1,288 @@
+[
+    {
+        "field_name": "diary_start",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Timing",
+        "field_type": "text",
+        "field_label": "Zu welchem Zeitpunkt fing der Anfall an?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_duration",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Timing",
+        "field_type": "text",
+        "field_label": "Wie lange dauerte der Anfall an?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "duration",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_unconscious",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Symptome",
+        "field_type": "yesno",
+        "field_label": "Waren Sie während des Anfalls vollständig bewusstlos?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_awareness",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Symptome",
+        "field_type": "yesno",
+        "field_label": "Waren Sie während des Anfalls verwirrt oder war ihr Bewusstsein beeinträchtigt?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_motor",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Symptome",
+        "field_type": "radio",
+        "field_label": "Hatten Sie motorische Symptome?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nein "
+            },
+            {
+                "code": "3",
+                "label": "Weiß nicht"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_nonmotor",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Symptome",
+        "field_type": "radio",
+        "field_label": "Hatten Sie nicht-motorische Symptome?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "2",
+                "label": "Nein "
+            },
+            {
+                "code": "3",
+                "label": "Weiß nicht"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_confirmation",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Bestätigung",
+        "field_type": "yesno",
+        "field_label": "Hat jemand, der sich um Sie kümmert, bestätigt, dass Sie einen Anfall hatten?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_wearable",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Bestätigung",
+        "field_type": "yesno",
+        "field_label": "Hatten Sie das tragbare Gerät (Wearable) während des Anfalls getragen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_trigger",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Auslöser",
+        "field_type": "yesno",
+        "field_label": "Glauben Sie, dass etwas Ihren Anfall ausgelöst hat?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diary_trigger_detail",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Auslöser",
+        "field_type": "radio",
+        "field_label": "Wählen Sie den Auslöser aus, der Ihrer Meinung nach am relevantesten ist.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Schlafmangel "
+            },
+            {
+                "code": "2",
+                "label": "Stressereignis "
+            },
+            {
+                "code": "3",
+                "label": "Müdigkeit "
+            },
+            {
+                "code": "4",
+                "label": "blinkendes Licht "
+            },
+            {
+                "code": "5",
+                "label": "Alkohol "
+            },
+            {
+                "code": "6",
+                "label": "Vergessen, Medikamente zu nehmen "
+            },
+            {
+                "code": "7",
+                "label": "Sonstiges"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diary_trigger] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diary_trigger'] ==  '1'"
+    },
+    {
+        "field_name": "diary_trigger_other",
+        "form_name": "seizure_diary",
+        "section_header": "Anfall-Auslöser",
+        "field_type": "text",
+        "field_label": "Geben Sie den Auslöser \"Sonstiges\" an",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diary_trigger_detail] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diary_trigger_detail'] ==  '7'"
+    }
+]

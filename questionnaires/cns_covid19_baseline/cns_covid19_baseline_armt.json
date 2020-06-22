@@ -1,0 +1,690 @@
+[
+    {
+        "field_name": "intro_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Introduction",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Thank you once again for your ongoing support of the RADAR trial. We really appreciate your continued participation, especially given the recent outbreak of COVID-19 (Coronavirus). Your valued contributions are now more important than ever to help us gain a better understanding and insight, into the lives of people living with major depressive disorder. "
+            },
+            {
+                "code": "Part2",
+                "label": "We therefore ask you to continue to engage with RADAR as best you can during this period. We would also really appreciate if you took the time to answer the following additional questions, which specifically relate to your experiences of COVID-19 (Coronavirus). "
+            },
+            {
+                "code": "Part3",
+                "label": "If you have any concerns or need any advice regarding COVID-19 (Coronavirus) we recommend visiting the following link for further information https://111.nhs.uk/service/COVID-19/"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "symptoms_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have you had any of the following symptoms since the outbreak of COVID-19 (Coronavirus)? Tick if applicable.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "A cough "
+            },
+            {
+                "code": "2",
+                "label": "A fever (i.e. a temperature > 38oCelsius and/or feeling cold and shivering) "
+            },
+            {
+                "code": "3",
+                "label": "Shortness of breath and/or difficulty breathing "
+            },
+            {
+                "code": "0",
+                "label": "None of the above"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "diag_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you been diagnosed with COVID-19 (Coronavirus)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hospitalised_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you been hospitalised?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diag_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diag_cns'] ==  '1'"
+    },
+    {
+        "field_name": "alone_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you live alone at the moment?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "symptoms_cns_fam",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Has anyone you live with had any of the following symptoms since the outbreak of COVID-19 (Coronavirus)? Tick if applicable.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "A cough "
+            },
+            {
+                "code": "2",
+                "label": "A fever (i.e. a temperature > 38oCelsius and/or feeling cold and shivering) "
+            },
+            {
+                "code": "3",
+                "label": "Shortness of breath and/or difficulty breathing "
+            },
+            {
+                "code": "0",
+                "label": "None of the above"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[alone_cns] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['alone_cns'] ==  '0'"
+    },
+    {
+        "field_name": "diag_fam_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has anyone you live with been diagnosed with COVID-19 (Coronavirus)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[alone_cns] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['alone_cns'] ==  '0'"
+    },
+    {
+        "field_name": "hospitalised_fam_cns_2",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have they been hospitalised?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[diag_fam_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['diag_fam_cns'] ==  '1'"
+    },
+    {
+        "field_name": "friend_diag_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has a family member or friend been diagnosed with COVID-19 (Coronavirus)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hospitalised_friend_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have they been hospitalised?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[friend_diag_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['friend_diag_cns'] ==  '1'"
+    },
+    {
+        "field_name": "isolation_cns",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you been in self-isolation (staying at home with symptoms) or self-quarantine (staying at home no symptoms), due to COVID-19 (Coronavirus) since the outbreak?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "quarantine_date_start",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "When did you start?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[isolation_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+    },
+    {
+        "field_name": "quarantine_date_end",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "When did you end? If you are still self-isolating/quarantining, please insert today's date.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[isolation_cns] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+    },
+    {
+        "field_name": "work_from_home",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "Have you made any of the following changes due to the COVID-19 (Coronavirus) outbreak?",
+        "field_type": "radio",
+        "field_label": "Started working from home",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "2",
+                "label": "Not Applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "work_from_home_date",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Since when?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[work_from_home] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['work_from_home'] ==  '1'"
+    },
+    {
+        "field_name": "childcare",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "Have you made any of the following changes due to the COVID-19 (Coronavirus) outbreak?\n",
+        "field_type": "radio",
+        "field_label": "Started caring for children because of school closures",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "2",
+                "label": "Not Applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "childcare_date",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Since when?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[childcare] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['childcare'] ==  '1'"
+    },
+    {
+        "field_name": "care_ill",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "Have you made any of the following changes due to the COVID-19 (Coronavirus) outbreak?",
+        "field_type": "radio",
+        "field_label": "Started caring for an ill relative/friend",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "2",
+                "label": "Not Applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak3",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "care_ill_date",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Since when?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[care_ill] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['care_ill'] ==  '1'"
+    },
+    {
+        "field_name": "other_change",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "Have you made any of the following changes due to the COVID-19 (Coronavirus) outbreak?",
+        "field_type": "radio",
+        "field_label": "Made changes to any other day to day activities (e.g. hobbies, social events etc.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "2",
+                "label": "Not Applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "changes_due_to_outbreak4",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "activities_changed",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What other activities have you changed and how?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_change] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_change'] ==  '1'"
+    },
+    {
+        "field_name": "activities_c_when",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Since when did you change these other activities?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_change] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_change'] ==  '1'"
+    },
+    {
+        "field_name": "n_contacts",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How many people, from outside your household, have you had a face-to-face conversation with over the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "preoccupied_outbreak",
+        "form_name": "cns_covid19_baseline",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you been preoccupied with (i.e. thinking or worrying too much about) the COVID-19 (coronavirus) outbreak?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all preoccupied "
+            },
+            {
+                "code": "1",
+                "label": "Somewhat preoccupied "
+            },
+            {
+                "code": "2",
+                "label": "Very preoccupied"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

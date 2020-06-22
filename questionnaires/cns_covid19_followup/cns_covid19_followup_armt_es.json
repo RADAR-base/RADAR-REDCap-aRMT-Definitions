@@ -1,14 +1,14 @@
 [
     {
-        "field_name": "intro_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "intro_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "info",
         "field_label": "Introducción",
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Gracias una vez más por su continuo apoyo en el estudio RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos comprender mejor la vida de las personas que viven con la depresión. "
+                "label": "Gracias una vez más por su continuo apoyo en el estudio RADAR. Realmente apreciamos su continua participación, especialmente dado el reciente brote de COVID-19 (coronavirus). Sus valiosas contribuciones ahora son más importantes que nunca para ayudarnos  a comprender mejor la vida de las personas que viven con la depresión. "
             },
             {
                 "code": "Part2",
@@ -34,11 +34,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "symptoms_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "symptoms_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "¿Ha tenido alguno de los siguientes síntomas desde que empezó el brote del COVID-19 (Coronavirus)? (Marque lo que corresponda)",
+        "field_label": "¿Ha tenido alguno de los siguientes síntomas en las últimas dos semanas? (Marque lo que corresponda)",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -72,11 +72,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "diag_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "diag_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "¿Le han diagnosticado con COVID-19 (coronavirus)?",
+        "field_label": "¿Le han diagnosticado con COVID-19 (coronavirus) en las últimas dos semanas?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -102,8 +102,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "hospitalised_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "hospitalised_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha sido hospitalizado? ",
@@ -122,18 +122,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diag_cns] = '1'",
+        "branching_logic": "[diag_cns_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diag_cns'] ==  '1'"
+        "evaluated_logic": "responses['diag_cns_followup'] ==  '1'"
     },
     {
-        "field_name": "alone_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "alone_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Está viviendo solo actualmente? ",
@@ -162,11 +162,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "symptoms_cns_fam",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "symptoms_cns_fam_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "¿Alguien con quien vive ha tenido algunos de los siguientes síntomas desde que empezó el brote del COVID-19 (coronavirus)? (Marque lo que corresponda)",
+        "field_label": "¿Alguien con quien vive ha tenido algunos de los siguientes síntomas en las últimas dos semanas? (Marque lo que corresponda)",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -190,21 +190,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[alone_cns] = '0'",
+        "branching_logic": "[alone_cns_followup] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns'] ==  '0'"
+        "evaluated_logic": "responses['alone_cns_followup'] ==  '0'"
     },
     {
-        "field_name": "diag_fam_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "diag_fam_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "¿Alguien con quien vive ha sido diagnosticado con COVID-19 (coronavirus)?",
+        "field_label": "¿Alguien con quien vive ha sido diagnosticado con COVID-19 (coronavirus) en las últimas dos semanas?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -220,18 +220,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[alone_cns] = '0'",
+        "branching_logic": "[alone_cns_followup] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns'] ==  '0'"
+        "evaluated_logic": "responses['alone_cns_followup'] ==  '0'"
     },
     {
-        "field_name": "hospitalised_fam_cns_2",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "hospitalised_fam_cns_2_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Han sido hospitalizados? ",
@@ -250,21 +250,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diag_fam_cns] = '1'",
+        "branching_logic": "[diag_fam_cns_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diag_fam_cns'] ==  '1'"
+        "evaluated_logic": "responses['diag_fam_cns_followup'] ==  '1'"
     },
     {
-        "field_name": "friend_diag_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "friend_diag_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "¿Alguien de su familia o amigo ha sido diagnosticado con COVID-19 (coronavirus)?",
+        "field_label": "¿Alguien de su familia o amigo ha sido diagnosticado con COVID-19 (coronavirus) en las últimas dos semanas?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -290,8 +290,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "hospitalised_friend_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "hospitalised_friend_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Han sido hospitalizados? ",
@@ -310,18 +310,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[friend_diag_cns] = '1'",
+        "branching_logic": "[friend_diag_cns_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['friend_diag_cns'] ==  '1'"
+        "evaluated_logic": "responses['friend_diag_cns_followup'] ==  '1'"
     },
     {
-        "field_name": "isolation_cns",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "isolation_cns_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha estado en aislamiento (en su hogar con síntomas) o en cuarentena (en su hogar sin síntomas) desde que empezó  el brote del COVID-19 (Coronavirus)?",
@@ -350,51 +350,51 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "quarantine_date_start",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "quarantine_date_start_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
-        "field_label": "¿Cuando empezaste?",
+        "field_label": "¿Cuándo empezó?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[isolation_cns] = '1'",
+        "branching_logic": "[isolation_cns_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+        "evaluated_logic": "responses['isolation_cns_followup'] ==  '1'"
     },
     {
-        "field_name": "quarantine_date_end",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "quarantine_date_end_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
-        "field_label": "¿Cuándo terminaste? Si todavía se aísla / pone en cuarentena, inserte la fecha de hoy.",
+        "field_label": "¿Cuándo terminó? Si todavía se aísla / pone en cuarentena, inserte la fecha de hoy.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[isolation_cns] = '1'",
+        "branching_logic": "[isolation_cns_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['isolation_cns'] ==  '1'"
+        "evaluated_logic": "responses['isolation_cns_followup'] ==  '1'"
     },
     {
-        "field_name": "work_from_home",
-        "form_name": "covid19_radarcns_baseline",
-        "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
+        "field_name": "work_from_home_followup",
+        "form_name": "cns_covid19_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Trabajar desde casa",
         "select_choices_or_calculations": [
@@ -420,14 +420,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak",
+        "matrix_group_name": "changes_due_to_outbreak_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "work_from_home_date",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "work_from_home_date_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -437,19 +437,19 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[work_from_home] = '1'",
+        "branching_logic": "[work_from_home_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['work_from_home'] ==  '1'"
+        "evaluated_logic": "responses['work_from_home_followup'] ==  '1'"
     },
     {
-        "field_name": "childcare",
-        "form_name": "covid19_radarcns_baseline",
-        "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
+        "field_name": "childcare_followup",
+        "form_name": "cns_covid19_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Cuidado de los niños debido al cierre de la escuela",
         "select_choices_or_calculations": [
@@ -475,14 +475,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak2",
+        "matrix_group_name": "changes_due_to_outbreak2_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "childcare_date",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "childcare_date_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -492,19 +492,19 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[childcare] = '1'",
+        "branching_logic": "[childcare_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['childcare'] ==  '1'"
+        "evaluated_logic": "responses['childcare_followup'] ==  '1'"
     },
     {
-        "field_name": "care_ill",
-        "form_name": "covid19_radarcns_baseline",
-        "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
+        "field_name": "care_ill_followup",
+        "form_name": "cns_covid19_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Cuidar a un pariente/amigo enfermo",
         "select_choices_or_calculations": [
@@ -530,14 +530,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak3",
+        "matrix_group_name": "changes_due_to_outbreak3_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "care_ill_date",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "care_ill_date_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "Indicar desde cuando:",
@@ -547,19 +547,19 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[care_ill] = '1'",
+        "branching_logic": "[care_ill_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['care_ill'] ==  '1'"
+        "evaluated_logic": "responses['care_ill_followup'] ==  '1'"
     },
     {
-        "field_name": "other_change",
-        "form_name": "covid19_radarcns_baseline",
-        "section_header": "¿Ha cambiado sus actividades diarias desde que empezó el brote de COVID-19 (Coronavirus)?",
+        "field_name": "other_change_followup",
+        "form_name": "cns_covid19_followup",
+        "section_header": "¿Ha cambiado algunas de las siguientes actividades diarias debido al COVID-19 (Coronavirus) en las últimas dos semanas?",
         "field_type": "radio",
         "field_label": "Actividades de ocio o socialización",
         "select_choices_or_calculations": [
@@ -585,14 +585,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak4",
+        "matrix_group_name": "changes_due_to_outbreak4_followup",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "activities_changed",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "activities_changed_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Qué actividades ha cambiado y cómo?",
@@ -602,18 +602,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[other_change] = '1'",
+        "branching_logic": "[other_change_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['other_change'] ==  '1'"
+        "evaluated_logic": "responses['other_change_followup'] ==  '1'"
     },
     {
-        "field_name": "activities_c_when",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "activities_c_when_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Desde cuándo cambió estas actividades?",
@@ -623,18 +623,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[other_change] = '1'",
+        "branching_logic": "[other_change_followup] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['other_change'] ==  '1'"
+        "evaluated_logic": "responses['other_change_followup'] ==  '1'"
     },
     {
-        "field_name": "n_contacts",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "n_contacts_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "text",
         "field_label": "¿Con cuántas personas, fuera de su hogar, ha tenido una conversación cara a cara en las últimas 24 horas?",
@@ -654,8 +654,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "preoccupied_outbreak",
-        "form_name": "covid19_radarcns_baseline",
+        "field_name": "preocc_outbreak_followup",
+        "form_name": "cns_covid19_followup",
         "section_header": "",
         "field_type": "radio",
         "field_label": "¿Ha estado preocupado (es decir, pensando o preocupándose demasiado) por el brote de COVID-19 (coronavirus)?",
