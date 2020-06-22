@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "esm28q_info",
+        "form_name": "esm28q_info",
+        "section_header": "La tarea diaria",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "A partir de mañana, recibirá 6 tareas diarias en horarios aleatorios entre las 9h y las 21h  durante 6 días consecutivos. Es importante que no cambie sus rutinas diarias durante los próximos días, debido a esta tarea.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "En esta tarea, nos contará sobre su vida diaria a medida que la experimenta. Complete la tarea según cómo se siente en ese momento y sus experiencias justo antes de realizar la tarea, a menos que se mencione lo contrario. Complete la tarea solo cuando se encuentra en un lugar seguro para hacerlo. Si pierde una tarea, no se preocupe, recibirá una nueva tarea más tarde, a menos que sea la última tarea del día.",
+          "code" : "Part 2"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm28q_info",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  
