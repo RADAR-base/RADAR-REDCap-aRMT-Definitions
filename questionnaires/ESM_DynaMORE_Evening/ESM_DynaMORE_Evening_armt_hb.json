@@ -100,15 +100,43 @@
         "evaluated_logic": ""
     },
     {
-
         "field_name": "ESM_EveningDynaMORE_Q3",
-        "form_name": "ESM_DynaMORE_Morning",
+        "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "radio",
         "field_label": "היום השקעתי ... דקות באימון גופני ",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "דקות 0"
+            },
+            {
+                "code": "2",
+                "label": "דקות 1-15"
+            },
+            {
+                "code": "3",
+                "label": "דקות 16-30 "
+            },
+            {
+                "code": "4",
+                "label": "דקות 31-60 "
+            },
+            {
+                "code": "5",
+                "label": "דקות 61-120 "
+            },
+            {
+                "code": "6",
+                "label": "דקות 120-180 "
+            },
+            {
+                "code": "7",
+                "label": "דקות +180"
+            }
+        ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "duration",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -116,7 +144,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
