@@ -100,15 +100,43 @@
         "evaluated_logic": ""
     },
     {
-
         "field_name": "ESM_EveningDynaMORE_Q3",
-        "form_name": "ESM_DynaMORE_Morning",
+        "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "radio",
         "field_label": "Heute habe ich ungefähr … Minuten lang Sport gemacht.",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "0 Minuten"
+            },
+            {
+                "code": "2",
+                "label": "1-15 Minuten"
+            },
+            {
+                "code": "3",
+                "label": "16-30 Minuten"
+            },
+            {
+                "code": "4",
+                "label": "31-60 Minuten"
+            },
+            {
+                "code": "5",
+                "label": "61-120 Minuten"
+            },
+            {
+                "code": "6",
+                "label": "120-180 Minuten"
+            },
+            {
+                "code": "7",
+                "label": "180+ Minuten"
+            }
+        ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "duration",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -116,7 +144,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_MorningQuestions",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
