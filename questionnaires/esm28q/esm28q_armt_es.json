@@ -52,7 +52,7 @@
     {
         "field_name": "esm_anxious_v2",
         "form_name": "esm28q",
-        "section_header": "Piensa en el momento justo antes de hacer esta tarea",
+        "section_header": "Piensa en el momento justo antes de empezar esta tarea",
         "field_type": "range",
         "field_label": "Me siento ansioso/a",
         "select_choices_or_calculations": [
@@ -682,7 +682,7 @@
             },
             {
                 "code": "12",
-                "label": "Actividades del hogar "
+                "label": "Tareas del hogar "
             },
             {
                 "code": "13",
@@ -1068,7 +1068,7 @@
             },
             {
                 "code": "10",
-                "label": "Proveedores de servicio, "
+                "label": "Proveedores de servicio "
             },
             {
                 "code": "11",
@@ -1076,7 +1076,7 @@
             },
             {
                 "code": "8",
-                "label": "Extraños/as "
+                "label": "Desconocidos "
             },
             {
                 "code": "12",
