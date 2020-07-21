@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "esm28q_info",
+        "form_name": "esm28q_info",
+        "section_header": "Dagboek Taak",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Vanaf morgen zult u dagelijks 6x een dagboek taak krijgen voor een periode van 6 dagen. Dit gebeurt op willekeurige tijdstippen tussen 9:00u en 21:00u. Het is belangrijk dat u uw dagelijkse routines in deze dagen niet verandert vanwege deze taak.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "In deze taak legt u uw ervaringen in het dagelijkse leven vast. Voltooi de taak op basis van hoe u zich op dat moment voelt en op uw ervaringen net voor de taak, tenzij anders vermeld. Voltooi de taak alleen als u zich in een veilige omgeving bevindt om dit te doen. Maakt u zich geen zorgen wanneer u een taak mist. U ontvangt later een nieuwe taak, tenzij het de laatste taak van de dag was.",
+          "code" : "Part 2"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm28q_info",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  
