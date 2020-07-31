@@ -204,6 +204,70 @@
         "evaluated_logic": "responses['taste_cns_followup'] ==  '1'"
     },
     {
+        "field_name": "taste_cns_followup_fam_2_weeks",
+        "form_name": "cns_covid19_followup_v2",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Heeft iemand met wie u samenwoont in de afgelopen 2 weken een verandering in zijn/haar reuk- of smaakvermogen gehad zonder dat er sprake was van neusverstopping?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee "
+            },
+            {
+                "code": "2",
+                "label": "Niet van toepassing"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "taste_cns_followup_fam",
+        "form_name": "cns_covid19_followup_v2",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Had iemand met wie u samenwoont langer dan 14 dagen geleden een verandering in reuk- of smaakvermogen gehad zonder dat er sprake was van neusverstopping (sinds de uitbraak van COVID-19)? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ja "
+            },
+            {
+                "code": "0",
+                "label": "Nee"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[taste_cns_followup_fam_2_weeks] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['taste_cns_followup_fam_2_weeks'] ==  '0'"
+    },
+    {
         "field_name": "diag_cns_followup_v2",
         "form_name": "cns_covid19_followup_v2",
         "section_header": "",
@@ -334,70 +398,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['alone_cns_followup_v2'] ==  '0'"
-    },
-    {
-        "field_name": "taste_cns_followup_fam_2_weeks",
-        "form_name": "cns_covid19_followup_v2",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Heeft iemand met wie u samenwoont in de afgelopen 2 weken een verandering in zijn/haar reuk- of smaakvermogen gehad zonder dat er sprake was van neusverstopping?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Ja "
-            },
-            {
-                "code": "0",
-                "label": "Nee "
-            },
-            {
-                "code": "2",
-                "label": "Niet van toepassing"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "taste_cns_followup_fam",
-        "form_name": "cns_covid19_followup_v2",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Had iemand met wie u samenwoont langer dan 14 dagen geleden een verandering in reuk- of smaakvermogen gehad zonder dat er sprake was van neusverstopping (sinds de uitbraak van COVID-19)? ",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Ja "
-            },
-            {
-                "code": "0",
-                "label": "Nee"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[taste_cns_followup_fam_2_weeks] = '0'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['taste_cns_followup_fam_2_weeks'] ==  '0'"
     },
     {
         "field_name": "diag_fam_cns_followup_v2",
