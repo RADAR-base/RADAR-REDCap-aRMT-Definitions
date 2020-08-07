@@ -1,0 +1,124 @@
+[
+    {
+        "field_name": "follow_med_4weeks",
+        "form_name": "medication_use",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Have you taken any medication for ADHD in the past four weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_med_current",
+        "form_name": "medication_use",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Which of the following medication for ADHD are you currently taking? \n",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate "
+            },
+            {
+                "code": "2",
+                "label": "Dexamfetamine "
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine "
+            },
+            {
+                "code": "4",
+                "label": "Atomoxetine "
+            },
+            {
+                "code": "5",
+                "label": "Guanfacine "
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_med_4weeks] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_med_4weeks'] ==  '1'"
+    },
+    {
+        "field_name": "follow_med_current_other",
+        "form_name": "medication_use",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Other: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_med_current(6)] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_med_current'] == 6"
+    },
+    {
+        "field_name": "follow_med_frequency",
+        "form_name": "medication_use",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "In the past four weeks, did you take this medication: ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Every day "
+            },
+            {
+                "code": "2",
+                "label": "Almost every day "
+            },
+            {
+                "code": "3",
+                "label": "Occasionally"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_med_4weeks] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_med_4weeks'] ==  '1'"
+    }
+]

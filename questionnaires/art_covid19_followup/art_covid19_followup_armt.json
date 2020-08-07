@@ -1,0 +1,500 @@
+[
+    {
+        "field_name": "follow_symptoms",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have you had any of the following symptoms in the past two weeks? Select all that are applicable. ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "A new, continuous cough "
+            },
+            {
+                "code": "2",
+                "label": "High temperature "
+            },
+            {
+                "code": "3",
+                "label": "Loss or change to your sense of smell or taste "
+            },
+            {
+                "code": "4",
+                "label": "None of the above"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_diagnosed",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Have you been diagnosed with Covid-19 (Coronavirus) in the past two weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_hospitalised",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Have you been hospitalised due to Covid-19 (Coronavirus) in the past two weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_diagnosed] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_diagnosed'] ==  '1'"
+    },
+    {
+        "field_name": "follow_livewith_alone",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you live alone at the moment? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_livewith_number",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If no, please answer the following questions: \r\n\r\nHow many people do you currently live with? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_livewith_alone] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_livewith_alone'] ==  '0'"
+    },
+    {
+        "field_name": "follow_livewith_essential",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Are any adults living in the home an ESSENTIAL WORKER (e.g., healthcare, delivery worker, store worker, security, building maintenance)? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_livewith_alone] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_livewith_alone'] ==  '0'"
+    },
+    {
+        "field_name": "follow_livewith_symptoms",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Has anyone you live with had any of the following symptoms in the past two weeks? Select all that are applicable. ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "A new, continuous cough "
+            },
+            {
+                "code": "2",
+                "label": "High temperature "
+            },
+            {
+                "code": "3",
+                "label": "Loss or change to your sense of smell or taste "
+            },
+            {
+                "code": "4",
+                "label": "None of the above"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_livewith_alone] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_livewith_alone'] ==  '0'"
+    },
+    {
+        "field_name": "follow_livewith_diagnosed",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Has anyone you live with been diagnosed with Covid-19 (Coronavirus) in the past two weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_livewith_alone] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_livewith_alone'] ==  '0'"
+    },
+    {
+        "field_name": "follow_livewith_hospi",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "If yes, have they been hospitalised due to Covid-19 (Coronavirus) in the past two weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[follow_livewith_diagnosed] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['follow_livewith_diagnosed'] ==  '1'"
+    },
+    {
+        "field_name": "follow_famfriend_diagnosed",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Has a family member (who you do not live with) or friend been diagnosed with Covid-19 (Coronavirus), in the past two weeks? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_isolation_shielding",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have you had to do any of the following due to Covid-19 (Coronavirus) in the past two weeks? Please select all that apply. ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Self-isolation (stayed at home because you had or might have had Coronavirus) "
+            },
+            {
+                "code": "2",
+                "label": "Shielding (followed advice to stay home to avoid getting the virus because you are high risk for Coronavirus) "
+            },
+            {
+                "code": "3",
+                "label": "None of these"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_workstatus_covid",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, have you worked or studied at home due to Covid-19 (Coronavirus)? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Full-time "
+            },
+            {
+                "code": "2",
+                "label": "Part-time at home and part-time at my usual work/study place "
+            },
+            {
+                "code": "3",
+                "label": "Not at all (full time at my usual work/study place) "
+            },
+            {
+                "code": "4",
+                "label": "Not currently working due to Coronavirus "
+            },
+            {
+                "code": "5",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_childcare_covid",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, have you had to care for children at home because of school closures? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Full-time "
+            },
+            {
+                "code": "2",
+                "label": "Part-time "
+            },
+            {
+                "code": "3",
+                "label": "Not at all (children have continued to attend school/nursery) "
+            },
+            {
+                "code": "4",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_illcare_affected",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, have you had to care for an ill relative/friend? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Full-time "
+            },
+            {
+                "code": "2",
+                "label": "Part-time "
+            },
+            {
+                "code": "3",
+                "label": "Not at all (ill relative/friend has received external care support) "
+            },
+            {
+                "code": "4",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_physical_affected",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, how would you describe your level of physical activity (e.g., not able to go to the gym, not going for walks with friends) has been affected by Covid-19 (Coronavirus)? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all affected "
+            },
+            {
+                "code": "2",
+                "label": "Somewhat affected "
+            },
+            {
+                "code": "3",
+                "label": "Very affected"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_social_affected",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, how have your social interactions (e.g. meeting up with friends and family) been restricted due to Covid-19 (Coronavirus)? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all restricted "
+            },
+            {
+                "code": "2",
+                "label": "Somewhat restricted "
+            },
+            {
+                "code": "3",
+                "label": "Very restricted"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "follow_preoccupied_affected",
+        "form_name": "art_covid19_followup",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last two weeks, have you been preoccupied with (i.e. thinking or worrying too much about) Covid-19 (Coronavirus)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all preoccupied "
+            },
+            {
+                "code": "2",
+                "label": "Somewhat preoccupied "
+            },
+            {
+                "code": "3",
+                "label": "Very preoccupied"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
