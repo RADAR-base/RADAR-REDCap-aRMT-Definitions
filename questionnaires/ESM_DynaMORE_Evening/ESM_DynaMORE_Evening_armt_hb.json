@@ -814,8 +814,364 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
+
+    #########################
+
     {
         "field_name": "ESM_EveningDynaMORE_Q15",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "חשבתי על תכנית מה הדבר הכי טוב שאוכל לעשות",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q16",
+        "form_name": "האירוע הכי שלילי",
+        "section_header": "most NEGATIVE event",
+        "field_type": "range",
+        "field_label": "חשבתי על דברים נעימים שלא היו קשורים לסיטואציה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q17",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "חשבתי שאני יכול להפוך לאדם חזק יותר כתוצאה ממה שקרה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q18",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "חשבתי שזה לא היה כל כך נורא בהשוואה לדברים אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q19",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "חשבתי שאני אצטרך לקבל שזה קרה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q20",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "ניסיתי לראות את הסיטואציה מנקודת מבט אובייקטיבית",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMORE_Q21",
+        "form_name": "ESM_DynaMORE_Evening",
+        "section_header": "האירוע הכי שלילי",
+        "field_type": "range",
+        "field_label": "התבדחתי על זה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+
+
+    #########################
+    {
+        "field_name": "ESM_EveningDynaMORE_Q22",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -865,7 +1221,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q16",
+        "field_name": "ESM_EveningDynaMORE_Q23",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -915,7 +1271,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q17",
+        "field_name": "ESM_EveningDynaMORE_Q24",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -965,7 +1321,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q18",
+        "field_name": "ESM_EveningDynaMORE_Q25",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -1041,7 +1397,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q19",
+        "field_name": "ESM_EveningDynaMORE_Q26",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "radio",
@@ -1079,7 +1435,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q20",
+        "field_name": "ESM_EveningDynaMORE_Q27",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "radio",
@@ -1133,7 +1489,7 @@
         "evaluated_logic": ""
     },   
     {
-        "field_name": "ESM_EveningDynaMORE_Q21",
+        "field_name": "ESM_EveningDynaMORE_Q28",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "checkbox",
@@ -1200,7 +1556,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q22",
+        "field_name": "ESM_EveningDynaMORE_Q29",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1250,7 +1606,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q23",
+        "field_name": "ESM_EveningDynaMORE_Q30",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "radio",
@@ -1280,7 +1636,7 @@
         "evaluated_logic": ""
     },  
     {
-        "field_name": "ESM_EveningDynaMORE_Q23branchYes",
+        "field_name": "ESM_EveningDynaMORE_Q30branchYes",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1320,17 +1676,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_EveningDynaMORE_Q23(1)] = \"1\"",
+        "branching_logic": "[ESM_EveningDynaMORE_Q30(1)] = \"1\"",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_EveningDynaMORE_Q23branchYes",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q30branchYes",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q23'] == 1"
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q30'] == 1"
     },    
     {
-        "field_name": "ESM_EveningDynaMORE_Q23branchNo",
+        "field_name": "ESM_EveningDynaMORE_Q30branchNo",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
         "field_type": "range",
@@ -1370,17 +1726,17 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_EveningDynaMORE_Q23(0)] = \"1\"",
+        "branching_logic": "[ESM_EveningDynaMORE_Q30(0)] = \"1\"",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_EveningDynaMORE_Q23branchNo",
+        "matrix_group_name": "ESM_EveningDynaMORE_Q30branchNo",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q23'] == 0"
+        "evaluated_logic": "responses['ESM_EveningDynaMORE_Q30'] == 0"
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q24",
+        "field_name": "ESM_EveningDynaMORE_Q31",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1430,7 +1786,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q25",
+        "field_name": "ESM_EveningDynaMORE_Q32",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1480,7 +1836,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q26",
+        "field_name": "ESM_EveningDynaMORE_Q33",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1530,7 +1886,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q27",
+        "field_name": "ESM_EveningDynaMORE_Q34",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "האירוע הכי חיובי",
         "field_type": "range",
@@ -1580,7 +1936,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q28",
+        "field_name": "ESM_EveningDynaMORE_Q35",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -1630,7 +1986,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q29",
+        "field_name": "ESM_EveningDynaMORE_Q36",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -1680,7 +2036,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q30",
+        "field_name": "ESM_EveningDynaMORE_Q37",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
@@ -1730,7 +2086,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_EveningDynaMORE_Q31",
+        "field_name": "ESM_EveningDynaMORE_Q38",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
         "field_type": "range",
