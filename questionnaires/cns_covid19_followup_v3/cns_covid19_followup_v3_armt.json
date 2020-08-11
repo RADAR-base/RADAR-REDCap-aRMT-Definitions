@@ -314,14 +314,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diag_cns_followup_v2_v3] = '1'",
+        "branching_logic": "[diag_cns_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diag_cns_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['diag_cns_followup_v3'] ==  '1'"
     },
     {
         "field_name": "alone_cns_followup_v3",
@@ -382,14 +382,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[alone_cns_followup_v2_v3] = '0'",
+        "branching_logic": "[alone_cns_followup_v3] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns_followup_v2_v3'] ==  '0'"
+        "evaluated_logic": "responses['alone_cns_followup_v3'] ==  '0'"
     },
     {
         "field_name": "diag_fam_cns_followup_v3",
@@ -412,14 +412,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[alone_cns_followup_v2_v3] = '0'",
+        "branching_logic": "[alone_cns_followup_v3] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns_followup_v2_v3'] ==  '0'"
+        "evaluated_logic": "responses['alone_cns_followup_v3'] ==  '0'"
     },
     {
         "field_name": "hospitalised_fam_cns_2_followup_v3",
@@ -442,14 +442,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diag_fam_cns_followup_v2_v3] = '1'",
+        "branching_logic": "[diag_fam_cns_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diag_fam_cns_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['diag_fam_cns_followup_v3'] ==  '1'"
     },
     {
         "field_name": "friend_diag_cns_followup_v3",
@@ -502,14 +502,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[friend_diag_cns_followup_v2_v3] = '1'",
+        "branching_logic": "[friend_diag_cns_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['friend_diag_cns_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['friend_diag_cns_followup_v3'] ==  '1'"
     },
     {
         "field_name": "isolation_cns_followup_v3",
@@ -553,14 +553,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[isolation_cns_followup_v2_v3] = '1'",
+        "branching_logic": "[isolation_cns_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['isolation_cns_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['isolation_cns_followup_v3'] ==  '1'"
     },
     {
         "field_name": "quarantine_date_end_followup_v3",
@@ -574,14 +574,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[isolation_cns_followup_v2_v3] = '1'",
+        "branching_logic": "[isolation_cns_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['isolation_cns_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['isolation_cns_followup_v3'] ==  '1'"
     },
     {
         "field_name": "work_from_home_followup_v3",
@@ -629,14 +629,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[work_from_home_followup_v2_v3] = '1'",
+        "branching_logic": "[work_from_home_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['work_from_home_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['work_from_home_followup_v3'] ==  '1'"
     },
     {
         "field_name": "childcare_followup_v3",
@@ -667,7 +667,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "changes_due_to_outbreak2_followup_v2_v3",
+        "matrix_group_name": "changes_due_to_outbreak2_followup_v3",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -684,14 +684,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[childcare_followup_v2_v3] = '1'",
+        "branching_logic": "[childcare_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['childcare_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['childcare_followup_v3'] ==  '1'"
     },
     {
         "field_name": "care_ill_followup_v3",
@@ -739,14 +739,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[care_ill_followup_v2_v3] = '1'",
+        "branching_logic": "[care_ill_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['care_ill_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['care_ill_followup_v3'] ==  '1'"
     },
     {
         "field_name": "other_change_followup_v3",
@@ -794,14 +794,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[other_change_followup_v2_v3] = '1'",
+        "branching_logic": "[other_change_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['other_change_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['other_change_followup_v3'] ==  '1'"
     },
     {
         "field_name": "activities_c_when_followup_v3",
@@ -815,14 +815,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[other_change_followup_v2_v3] = '1'",
+        "branching_logic": "[other_change_followup_v3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['other_change_followup_v2_v3'] ==  '1'"
+        "evaluated_logic": "responses['other_change_followup_v3'] ==  '1'"
     },
     {
         "field_name": "n_contacts_followup_v3",
