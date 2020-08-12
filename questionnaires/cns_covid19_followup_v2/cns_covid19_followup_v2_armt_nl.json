@@ -294,6 +294,48 @@
         "evaluated_logic": ""
     },
     {
+        "field_name": "symptoms_cns_fam_followup_v2",
+        "form_name": "cns_covid19_followup_v2",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Heeft iemand met wie u samenwoont u de afgelopen 2 weken een van de volgende symptomen gehad? (Meerdere antwoorden mogelijk)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Hoesten "
+            },
+            {
+                "code": "2",
+                "label": "Koorts (temperatuur > 38oC en/of koud voelen en rillen) "
+            },
+            {
+                "code": "3",
+                "label": "Kortademigheid/moeite met ademen "
+            },
+            {
+                "code": "4",
+                "label": "Verkoudheidsklachten (zoals neusverkoudheid, loopneus, niezen, keelpijn) "
+            },
+            {
+                "code": "0",
+                "label": "Geen van bovenstaande"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[alone_cns_followup_v2] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['alone_cns_followup_v2'] ==  '0'"
+    },
+    {
         "field_name": "taste_cns_followup_fam_2_weeks",
         "form_name": "cns_covid19_followup_v2",
         "section_header": "",
@@ -356,48 +398,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['taste_cns_followup_fam_2_weeks'] ==  '0'"
-    },
-    {
-        "field_name": "symptoms_cns_fam_followup_v2",
-        "form_name": "cns_covid19_followup_v2",
-        "section_header": "",
-        "field_type": "checkbox",
-        "field_label": "Heeft iemand met wie u samenwoont u de afgelopen 2 weken een van de volgende symptomen gehad? (Meerdere antwoorden mogelijk)",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Hoesten "
-            },
-            {
-                "code": "2",
-                "label": "Koorts (temperatuur > 38oC en/of koud voelen en rillen) "
-            },
-            {
-                "code": "3",
-                "label": "Kortademigheid/moeite met ademen "
-            },
-            {
-                "code": "4",
-                "label": "Verkoudheidsklachten (zoals neusverkoudheid, loopneus, niezen, keelpijn) "
-            },
-            {
-                "code": "0",
-                "label": "Geen van bovenstaande"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[alone_cns_followup_v2] = '0'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['alone_cns_followup_v2'] ==  '0'"
     },
     {
         "field_name": "diag_fam_cns_followup_v2",
