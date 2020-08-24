@@ -1,0 +1,530 @@
+[
+    {
+        "field_name": "bipq_1",
+        "form_name": "bipq",
+        "section_header": "Bitte wählen Sie bei den folgenden Fragen die Nummer, die Ihren Ansichten am besten entspricht: ",
+        "field_type": "radio",
+        "field_label": "Wie sehr beeinflusst Ihre Epilepsie Ihr Leben?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_2",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie lange denken Sie, wird Ihre Epilepsie andauern?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Eine sehr kurze Zeit"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Für immer"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_3",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie viel Kontrolle denken Sie haben Sie über Ihre Epilepsie?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt keine"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Sehr starke"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_4",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie sehr glauben Sie, dass Ihre Behandlung Ihrer Epilepsie helfen kann?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Extrem"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_5",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie oft treten Symptome Ihrer Epilepsie auf?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt keine Symptome"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Viele starke Symptome"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_6",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie besorgt sind Sie über Ihre Epilepsie?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Extrem"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_7",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie gut denken Sie verstehen Sie Ihre Epilepsie?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Sehr gut"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bipq_8",
+        "form_name": "bipq",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Wie sehr beeinflusst Ihre Epilepsie Sie emotional? (z.B. macht es Sie wütend, verängstigt, verärgert oder deprimiert?)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10 Extrem"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
