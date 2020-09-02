@@ -170,40 +170,6 @@
         "evaluated_logic": "responses['taste_cns_followup_2_weeks'] ==  '0'"
     },
     {
-        "field_name": "taste_cns_followup_sev",
-        "form_name": "cns_covid19_followup_v2",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Hoe ernstig is deze verandering?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Mild, een beetje veranderd, maar ik kan nog ruiken "
-            },
-            {
-                "code": "1",
-                "label": "Matig, mijn reukvermogen is verminderd en ik heb veranderingen in smaakvermogen gehad "
-            },
-            {
-                "code": "2",
-                "label": "Ernstig, ik kan op dit moment niets ruiken en mijn smaakvermogen is verminderd"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[taste_cns_followup] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['taste_cns_followup'] ==  '1'"
-    },
-    {
         "field_name": "diag_cns_followup_v2",
         "form_name": "cns_covid19_followup_v2",
         "section_header": "",
