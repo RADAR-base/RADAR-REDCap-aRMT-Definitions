@@ -454,7 +454,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Jestem zmęczony/zmęczona.",
+        "field_label": "Jestem zmęczony/a.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -688,7 +688,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1A",
-                "label": "Z partnerem"
+                "label": "Z partnerem/partnerką"
             },
             {
                 "code": "2A",
@@ -784,7 +784,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Czuję się swobodnie tymi osobami.",
+        "field_label": "Czuję się swobodnie Z tymi osobami.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -884,7 +884,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Chciałbym być w wirtualnym kontakcie z innymi.",
+        "field_label": "Chciałbym/chciałabym być w wirtualnym kontakcie z innymi.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -984,7 +984,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Czuję się wykluczony z  kontaktów wirtualnych z innymi.",
+        "field_label": "Czuję się wykluczony/a z  kontaktów wirtualnych z innymi.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1068,7 +1068,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1A",
-                "label": "Z partnerem"
+                "label": "Z partnerem/partnerką"
             },
             {
                 "code": "2A",
@@ -1076,7 +1076,7 @@
             },
             {
                 "code": "3A",
-                "label": "Other family"
+                "label": "Z innymi członkami rodziny"
             },
             {
                 "code": "4A",
@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Od ostatniego alarmu skorzystałem/łam raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, używki",
+        "field_label": "Od ostatniego alarmu skorzystałem/am raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, używki",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1787,11 +1787,11 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Od ostatniego alarmu skorzystałem/łam z:",
+        "field_label": "Od ostatniego alarmu skorzystałem/am z:",
         "select_choices_or_calculations": [
             {
                 "code": "1A",
-                "label": "kofeina"
+                "label": "Kofeiny"
             },
             {
                 "code": "2A",
@@ -1807,11 +1807,11 @@
             },
             {
                 "code": "5A",
-                "label": "Konopie/haszysz"
+                "label": "Konopii/haszyszu"
             },
             {
                 "code": "6A",
-                "label": "Psychodeliki (np. ketamina, LSD, grzyby psylocybinowe)"
+                "label": "Psychodelików (np. ketaminy, LSD, grzybów psylocybinowych"
             },
             {
                 "code": "7A",
