@@ -454,7 +454,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Jestem zmęczony/a.",
+        "field_label": "Jestem zmęczony(a).",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -784,7 +784,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Czuję się swobodnie Z tymi osobami.",
+        "field_label": "Czuję się swobodnie z tymi osobami.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -984,7 +984,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Czuję się wykluczony/a z  kontaktów wirtualnych z innymi.",
+        "field_label": "Czuję się wykluczony(a) z kontaktów wirtualnych z innymi.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1757,7 +1757,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Od ostatniego alarmu skorzystałem/am raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, używki",
+        "field_label": "Od ostatniego alarmu skorzystałem(am) raz (lub więcej) z następujących substancji: kofeina, leki, alkohol, papierosy, używki",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -1787,7 +1787,7 @@
         "form_name": "ESM_DynaMORE",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Od ostatniego alarmu skorzystałem/am z:",
+        "field_label": "Od ostatniego alarmu skorzystałem(am) z:",
         "select_choices_or_calculations": [
             {
                 "code": "1A",
@@ -1815,11 +1815,11 @@
             },
             {
                 "code": "7A",
-                "label": "Stymulanty (np. kokaina, ecstasy, ritalin)"
+                "label": "Stymulantów (np. kokainy, ecstasy, ritalinu)"
             },
             {
                 "code": "8A",
-                "label": "Opioidy (np. środki uspokajające, heroina, morfina)"
+                "label": "Opioidów (np. środków uspokajających, heroiny, morfiny)"
             },
             {
                 "code": "9A",
