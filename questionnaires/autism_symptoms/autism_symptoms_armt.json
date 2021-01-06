@@ -1,0 +1,610 @@
+[
+    {
+        "field_name": "srs_sf_1",
+        "form_name": "autism_symptoms",
+        "section_header": "For each question, please select the response that best describes your behaviour over the last week.",
+        "field_type": "radio",
+        "field_label": "When under stress, I engage in rigid or inflexible patters of behaviour that seem odd to people",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_2",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am usually aware of how others are feeling",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_3",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I behave in ways that seem strange or bizarre to others",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_4",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am awkward in turn-taking interactions with others (for example, I have a hard time keeping up with the give-and-take of a conversation",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_5",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I avoid eye contact or am told that I have unusual eye contact",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_6",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty making friends, even when trying my best",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_7",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I interact appropriately with other adults",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_8",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I do not join group activities or social events unless prompted or strongly urged to do so",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_9",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I become upset in situations with lots of things going on",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_10",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am regarded by others as odd or weird",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_11",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My behaviour is socially awkward, even when I am trying to be polite",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_12",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty relating to adults outside of my family",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_13",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I respond appropriately to mood changes in others (for example, when a friend's mood changes quickly from happy to sad)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_14",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "People think I am interested in too few topics, or that I get too carried away with those topics",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_15",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am overly sensitive to certain sounds, textures, or smells",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "srs_sf_16",
+        "form_name": "autism_symptoms",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I tend to think about people in the same that I do about objects",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not true "
+            },
+            {
+                "code": "2",
+                "label": " Sometimes true "
+            },
+            {
+                "code": "3",
+                "label": "Often true "
+            },
+            {
+                "code": "4",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "field_name": "adhd_symptoms_1",
+        "form_name": "adhd_symptoms",
+        "section_header": "Thinking about the last 3 or 4 days, please rate the following:",
+        "field_type": "slider",
+        "field_label": "I had difficulties getting things done",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all "
+            },
+            {
+                "code": "100",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_symptoms_2",
+        "form_name": "adhd_symptoms",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "I was easily distracted and could not concentrate over a longer period of time",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all "
+            },
+            {
+                "code": "100",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_symptoms_3",
+        "form_name": "adhd_symptoms",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "My mind shifted or I had daydreams",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all "
+            },
+            {
+                "code": "100",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_symptoms_4",
+        "form_name": "adhd_symptoms",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "I felt restless or fidgety",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all "
+            },
+            {
+                "code": "100",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

@@ -1,0 +1,686 @@
+[
+    {
+        "field_name": "regular_activities_1",
+        "form_name": "regular_activities",
+        "section_header": "For each of the following categories, please select how frequently you engage in these activities",
+        "field_type": "radio",
+        "field_label": "Eating, e.g. breakfast, lunch, dinner, snacking (count special meals with others in \"social\")",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_2",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Self-care, e.g. showering/bathing, brushing teeth, doing hair/make-up, doctor/dentist appointments",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_3",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Education/employment/volunteering, e.g. working at your job, school, homework, lectures, babysitting, charity work",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_4",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Household chores/errands, e.g. cooking, cleaning, organising, shopping, childcare",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_5",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Spiritual activities, e.g. attending a religious gathering or ceremony, engaging in prayer/meditation, reading a religious text",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_6",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Exercise/physical activity, e.g. exercise classes, going to the gym, walking/running/jogging, biking, dance, etc.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_7",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Social activity, meeting friends/family/partner, socialising online, a meal out with others, dating, doing an activity with friends/family/partner",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_8",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Hobbies/recreation/relaxation that you mostly do alone or without interacting much with others, e.g. sitting/resting, watching television or YouTube, surfing the internet for fun, reading, drawing, scrapbooking, listening to or playing music",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_9",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Travel, e.g. commuting to work or school, travelling to see family/friends, travelling to an activity, travelling for a trip away",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "never or less than once a month "
+            },
+            {
+                "code": "1",
+                "label": "1 to 3 times a month "
+            },
+            {
+                "code": "2",
+                "label": "1 to 3 times a week "
+            },
+            {
+                "code": "3",
+                "label": "most days "
+            },
+            {
+                "code": "4",
+                "label": "once every day "
+            },
+            {
+                "code": "5",
+                "label": "more than once per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_10",
+        "form_name": "regular_activities",
+        "section_header": "For each of the following categories, please select how pleasant you usually find these activities",
+        "field_type": "slider",
+        "field_label": "Eating, e.g. usual meals, snacking (count special meals with others in \"social\")",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_11",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Self-care, e.g. showering/bathing, brushing teeth, doing hair/make-up, doctor/dentist appointments",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_12",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Education/employment/volunteering, e.g. working at your job, school, homework, lectures, babysitting, charity work",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_13",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Household chores/errands, e.g. cooking, cleaning, organising, shopping, childcare",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_14",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Spiritual activities, e.g. attending a religious gathering or ceremony, engaging in prayer/meditation, reading a religious text",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_15",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Exercise/physical activity, e.g. exercise classes, going to the gym, walking/running/jogging, biking, dance, etc.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_16",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Social activity, meeting friends/family/partner, socialising online, a meal out with others, dating, doing an activity with friends/family/partner",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_17",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Hobbies/recreation/relaxation that you mostly do alone or without interacting much with others, e.g. sitting/resting, watching television or YouTube, surfing the internet for fun, reading, drawing, scrapbooking, listening to or playing music",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_18",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Travel, e.g. commuting to work or school, travelling to see family/friends, travelling to an activity, travelling for a trip away",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
