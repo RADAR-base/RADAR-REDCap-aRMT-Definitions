@@ -1,0 +1,370 @@
+[
+    {
+        "field_name": "cat_q1",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I never cough "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I cough all the time"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q2",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I have no phlegm (mucus) on my chest at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest is full of phlegm (mucus)"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q3",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 My chest does not feel tight at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest feels very tight"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q4",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 When I walk up a hill or a flight of stairs I am not out of breath "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 When I walk up a hill or a flight of stairs I am completely out of breath"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q5",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I am not limited to doing any activities at home "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I am completely limited to doing all activities at home"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q6",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I am confident leaving my home despite my lung condition "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I am not confident leaving my home at all because of my lung condition"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q7",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I sleep soundly "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I do not sleep soundly because of my lung condition"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cat_q8",
+        "form_name": "cat",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For each item below, select the box that best describes your current situation.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I have lots of energy "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I have no energy at all"
+            }
+        ],
+        "field_note": "range_type",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
