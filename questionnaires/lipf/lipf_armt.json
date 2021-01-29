@@ -968,7 +968,7 @@
         "field_name": "lipf_oxygen_q3",
         "form_name": "lipf",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "When I sleep, I most often use an oxygen flow rate of ___L/min.",
         "select_choices_or_calculations": [
             {
@@ -1055,14 +1055,14 @@
         "question_number": "",
         "matrix_group_name": "lipf_oxygen",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": "responses['lipf_oxygen_q2'] ==  \"0\" || responses['lipf_oxygen_q2'] ==  \"2\"  || responses['lipf_oxygen_q2'] ==  \"3\""
     },
     {
         "field_name": "lipf_oxygen_q4",
         "form_name": "lipf",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "When I perform a physical activity (such as exercising, walking or shopping), I most often use an oxygen flow rate of L/min.",
         "select_choices_or_calculations": [
             {
@@ -1149,14 +1149,14 @@
         "question_number": "",
         "matrix_group_name": "lipf_oxygen",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": "responses['lipf_oxygen_q2'] ==  \"1\" || responses['lipf_oxygen_q2'] ==  \"2\" || responses['lipf_oxygen_q2'] ==  \"3\""
     },
     {
         "field_name": "lipf_oxygen_q5",
         "form_name": "lipf",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "At rest, I most often use an oxygen flow rate of L/min.",
         "select_choices_or_calculations": [
             {
@@ -1243,7 +1243,7 @@
         "question_number": "",
         "matrix_group_name": "lipf_oxygen",
         "matrix_ranking": "",
-        "field_annotation": "range-type",
+        "field_annotation": "",
         "evaluated_logic": "responses['lipf_oxygen_q2'] == 3"
     }
 ]
