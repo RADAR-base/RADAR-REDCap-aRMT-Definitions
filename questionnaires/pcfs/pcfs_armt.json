@@ -53,14 +53,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[pcfs_live_alone]=1 and [pcfs_duties]=0",
+        "branching_logic": "[pcfs_duties]=0",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['pcfs_live_alone'] == 1 && responses['pcfs_duties'] == 0"
+        "evaluated_logic": "responses['pcfs_duties'] == 0"
     },
     {
         "field_name": "pcfs_avoid_duties",
@@ -74,13 +74,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[pcfs_live_alone]=1 and [pcfs_duties]=0 and [pcfs_suffer]=1",
+        "branching_logic": "[pcfs_suffer]=1",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['pcfs_live_alone'] == 1 && responses['pcfs_duties'] == 0 && responses['pcfs_suffer'] == 1"
+        "evaluated_logic": "responses['pcfs_suffer'] == 1"
     }
 ]
