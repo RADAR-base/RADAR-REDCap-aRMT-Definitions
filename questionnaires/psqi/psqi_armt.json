@@ -482,7 +482,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_trouble_sleep_q10'] == 1 || responses['psqi_trouble_sleep_q10'] || responses['psqi_trouble_sleep_q10']"
+        "evaluated_logic": "responses['psqi_trouble_sleep_q10'] == 1 || responses['psqi_trouble_sleep_q10'] == 2 || responses['psqi_trouble_sleep_q10'] == 3"
     },
     {
         "field_name": "psqi_sleep_quality",
@@ -866,6 +866,6 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate_q5'] == 1 || responses['psqi_roommate_q5'] || responses['psqi_roommate_q5']"
+        "evaluated_logic": "responses['psqi_roommate_q5'] == 1 || responses['psqi_roommate_q5'] == 2 || responses['psqi_roommate_q5'] == 3"
     }
 ]
