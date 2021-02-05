@@ -1,0 +1,485 @@
+[
+    {
+        "field_name": "fss_fatigue_q1",
+        "form_name": "fss",
+        "section_header": "Please Select the number between 1 and 7 which you feel best fits the following statements. This\nrefers to your usual way of life within the last week.",
+        "field_type": "range",
+        "field_label": "My motivation is lower when I am fatigued.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q2",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Exercise brings on my fatigue.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q3",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I am easily fatigued.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q4",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Fatigue interferes with my physical functioning.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q5",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Fatigue causes frequent problems for me.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q6",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "My fatigue prevents sustained physical functioning.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q7",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Fatigue interferes with carrying out certain duties and responsibilities.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q8",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Fatigue is among my most disabling symptoms.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fss_fatigue_q9",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Fatigue interferes with my work, family, or social life.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Strongly Disagree "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "fss_fatigue",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "vafs",
+        "form_name": "fss",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Please select on the number line which describes your global fatigue with 0 being worst and 10 being normal.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Worst "
+            },
+            {
+                "code": " "
+            },
+            {
+                "code": "10",
+                "label": "Normal"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
