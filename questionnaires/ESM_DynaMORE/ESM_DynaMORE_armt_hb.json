@@ -1,0 +1,1968 @@
+[
+    {
+        "field_name": "ESM_DynaMORE_moodItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש שמח",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש עצבני",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש חרד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש שבע רצון",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem5",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש לא בטוח",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem6",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש רגוע",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem7",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש עצוב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem8",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש לחוץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem9",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש חסר מנוחה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem10",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש עייף",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem11",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בנוח",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem12",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני לא יכול להוציא את המחשבות הללו מראשי",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_moodItem13",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני יכול להתרכז היטב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "אני כרגע בקשר וירטואלי עם אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "לא"
+            },
+            {
+                "code": "1",
+                "label": "כן"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocial",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "עם מי אני כרגע?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "בן/בת זוג"
+            },
+            {
+                "code": "2A",
+                "label": "הורים"
+            },
+            {
+                "code": "3A",
+                "label": "משפחה אחרת"
+            },
+            {
+                "code": "4A",
+                "label": "חבר/ים"
+            },
+            {
+                "code": "5A",
+                "label": "מכרים אחרים"
+            },
+            {
+                "code": "6A",
+                "label": "אנשים מוכרים אחרים"
+            },
+            {
+                "code": "7A",
+                "label": "אנשים לא מוכרים"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני עושה משהו ביחד עם האנשים הללו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בנוח עם האנשים הללו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי מעדיף להיות לבד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי רוצה להיות בקשר וירטואלי עם אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני בחרתי בעצמי לא להיות בקשר וירטואלי עם אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_virtualSocialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש, מבחינה וירטואלית, בחוץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_virtualSocialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_virtualSocialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_virtualSocialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "אני בקשר עם אנשים שנוכחים פיזית",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "לא"
+            },
+            {
+                "code": "1",
+                "label": "כן"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_social",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "עם מי אני?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "בן/בת זוג"
+            },
+            {
+                "code": "2A",
+                "label": "הורים"
+            },
+            {
+                "code": "3A",
+                "label": "משפחה אחרת"
+            },
+            {
+                "code": "4A",
+                "label": "חבר/ים"
+            },
+            {
+                "code": "5A",
+                "label": "מכרים אחרים"
+            },
+            {
+                "code": "6A",
+                "label": "אנשים מוכרים אחרים"
+            },
+            {
+                "code": "7A",
+                "label": "אנשים לא מוכרים"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אנחנו עושים משהו ביחד (מדברים,לומדים,משחקים וכו')",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בנוח בחברתם",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי מעדיף להיות לבד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני אוהב להיות לבד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בחוץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני הייתי מעדיף להיות עם אנשים אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_socialItem1(0)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "מה אתה עושה?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "פנאי פעיל (למשל משחק משחקים, מבלה בחוץ)"
+            },
+            {
+                "code": "2",
+                "label": "פנאי פסיבי- (למשל צופה בטלויזיה, קורא)"
+            },
+            {
+                "code": "3",
+                "label": "לימודים או עבודה"
+            },
+            {
+                "code": "4",
+                "label": "מטלות בית"
+            },
+            {
+                "code": "5",
+                "label": "טיול"
+            },
+            {
+                "code": "6",
+                "label": "טיפוח עצמי (למשל מתקלח, מתלבש)"
+            },
+            {
+                "code": "7",
+                "label": "פעילות גופנית (ספורט)"
+            },
+            {
+                "code": "8",
+                "label": "אוכל/שותה"
+            },
+            {
+                "code": "9",
+                "label": "קשר חברתי"
+            },
+            {
+                "code": "10",
+                "label": "משהו אחר"
+            },
+            {
+                "code": "11",
+                "label": "כלום"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני אוהב את זה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי מעדיף לעשות משהו אחר",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_physicalContextAndActivityItem1BranchItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני יכול לעשות זאת היטב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1(1) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(2) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(3) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(4) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(5) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(6) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(7) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(8) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(9) = \"1\" or ESM_DynaMORE_physicalContextAndActivityItem1(10) = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMORE_EventAppraisalInfo",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "כעת, חשוב על האירוע הכי חשוב שהיה לך מאז הצפצוף האחרון",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+
+    },
+    {
+        "field_name": "ESM_DynaMORE_eventAppraisalItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "כמה נעים היה אירוע זה?",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "מאוד לא נעים"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "מאוד נעים"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_eventAppraisalItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "זה היה אירוע מלחיץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_substanceUseItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "מאז הצפצוף האחרון, השתמשתי באחד (או יותר) מהבאים: קפאין, תרופות, אלכוהול, סיגריות, קנאביס, סמים אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "לא"
+            },
+            {
+                "code": "1",
+                "label": "כן"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_substanceUse",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_substanceUseItem1branchYes",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": ":מאז הצפצוף האחרון, השתמשתי",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "קפאין"
+            },
+            {
+                "code": "2A",
+                "label": "תרופות"
+            },
+            {
+                "code": "3A",
+                "label": "אלכוהול"
+            },
+            {
+                "code": "4A",
+                "label": "סיגריות"
+            },
+            {
+                "code": "5A",
+                "label": "קנאביס/ חשיש"
+            },
+            {
+                "code": "6A",
+                "label": "סמים הלוציגניים (כמו קטמין, LSD, פטריות הזיה)"
+            },
+            {
+                "code": "7A",
+                "label": "סטימולנטים (כמו קוקאין, אקסטזי, ריטלין)"
+            },
+            {
+                "code": "8A",
+                "label": "נרקוטיים (כמו חומרי הרדמה, הרואין, מורפין)"
+            },
+            {
+                "code": "9A",
+                "label": "סמים אחרים"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMORE_substanceUseItem1(1)] = \"1\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_substanceUseBranchYes",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMORE_substanceUseItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureInfo",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "כעת, חשוב על הסיטואציה הכי חשובה שמצופה לך בשעתיים הקרובות",
+            "code": ""         
+        }],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem1",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מצפה לסיטואציה הזו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_anticipationOfPleasureItem2",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מפחד מהסיטואציה הזו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
