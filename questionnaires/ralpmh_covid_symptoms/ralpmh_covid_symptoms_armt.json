@@ -1,0 +1,648 @@
+[
+    {
+        "field_name": "fever",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "Do you have any COVID-19 Symptoms?",
+        "field_type": "matrix-radio",
+        "field_label": "Fever",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "dry_cough",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Dry cough",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "tiredness_or_fatigue",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Tiredness or fatigue",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "difficulty_breathing_or_sh",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Difficulty breathing or shortness of breath",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "loss_of_taste_or_smell",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Loss of taste or smell.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "others",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Others",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "joint_pain",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "Do you have any other COVID-19 Symptoms?",
+        "field_type": "matrix-radio",
+        "field_label": "Joint pain",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "chest_pain",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Chest pain",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "muscle_pain",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Muscle pain",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "headache",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Headache",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "sore_throat",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Sore throat",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "diarrhoea",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Diarrhoea",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "conjunctivitis",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Conjunctivitis",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "a_rash_on_skin_or_discolou",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "A rash on skin, or discolouration of fingers or toes",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "difficulty_with_thinking_a",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Difficulty with thinking and concentration (sometimes referred to as \"brain fog\")",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "depression",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Depression",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    },
+    {
+        "field_name": "fast_beating_or_pounding_h",
+        "form_name": "ralpmh_covid_symptoms",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Fast-beating or pounding heart (also known as heart palpitations)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_secondary",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
+    }
+]
