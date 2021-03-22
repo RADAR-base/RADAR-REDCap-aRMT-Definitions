@@ -1,0 +1,48 @@
+[
+    {
+        "field_name": "how_likely_do_you_feel_it",
+        "form_name": "ers",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How likely do you feel it is that you have a chest infection / acute exacerbations based on increasing symptoms and/ or sputum production?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "Very Likely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
