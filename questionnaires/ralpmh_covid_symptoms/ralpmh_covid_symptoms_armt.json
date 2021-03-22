@@ -4,7 +4,7 @@
         "form_name": "ralpmh_covid_symptoms",
         "section_header": "Do you have any COVID-19 Symptoms?",
         "field_type": "matrix-radio",
-        "field_label": "fever",
+        "field_label": "Fever",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -42,7 +42,7 @@
         "form_name": "ralpmh_covid_symptoms",
         "section_header": "",
         "field_type": "matrix-radio",
-        "field_label": "dry cough",
+        "field_label": "Dry cough",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -118,7 +118,7 @@
         "form_name": "ralpmh_covid_symptoms",
         "section_header": "",
         "field_type": "matrix-radio",
-        "field_label": "difficulty breathing or shortness of breath",
+        "field_label": "Difficulty breathing or shortness of breath",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -156,7 +156,7 @@
         "form_name": "ralpmh_covid_symptoms",
         "section_header": "",
         "field_type": "matrix-radio",
-        "field_label": "loss of taste or smell.",
+        "field_label": "Loss of taste or smell.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -256,14 +256,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "chest_pain",
@@ -294,14 +294,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "muscle_pain",
@@ -332,14 +332,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "headache",
@@ -370,14 +370,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "sore_throat",
@@ -408,14 +408,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "diarrhoea",
@@ -446,14 +446,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "conjunctivitis",
@@ -484,14 +484,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "a_rash_on_skin_or_discolou",
@@ -522,14 +522,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "difficulty_with_thinking_a",
@@ -560,14 +560,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "depression",
@@ -598,14 +598,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     },
     {
         "field_name": "fast_beating_or_pounding_h",
@@ -636,13 +636,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[others] = 1 or [others] = 2  or [others] = 3",
+        "branching_logic": "[others] = '1' or [others] = '2'  or [others] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "covid_symptom_secondary",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "responses['others'] ==  1 || responses['others'] ==  2  || responses['others'] ==  3"
+        "evaluated_logic": "responses['others'] ==  '1' || responses['others'] ==  '2'  || responses['others'] ==  '3'"
     }
 ]
