@@ -1,0 +1,91 @@
+[
+  {
+    "field_name": "audio_prep_1",
+    "form_name": "audio",
+    "section_header": "Speech Test Preparation",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "In the following two tasks, we would like you to record yourself speaking. To do this, first find a quiet space and make yourself comfortable.",
+        "code": "Step 1"
+      },
+      {
+        "label": "You can sit or stand while you record yourself. Speak naturally in both tasks. Don’t try to change your voice or the speed at which you speak in any way.",
+        "code": "Step 2"
+      },
+      {
+        "label": "You will have a chance to repeat the recordings, in case you are somehow interrupted.",
+        "code": "Step 3"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "audio_prep_2",
+    "form_name": "audio",
+    "section_header": "Let's get started.",
+    "field_type": "info",
+    "field_label": "These three steps will help ensure a good recording.",
+    "select_choices_or_calculations": [
+      {
+        "label": "While recording, hold your phone still and in front of you, as if you were making a video call, for example with Skype, Whatsapp or Facetime.",
+        "code": "Step 1"
+      },
+      {
+        "label": "Your arm should be naturally bent and relaxed. Avoid straightening your arm or holding your phone very close to your face.",
+        "code": "Step 2"
+      },
+      {
+        "label": "Make sure the phone’s microphone is not covered by your hand or another object.",
+        "code": "Step 3"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "audio_scripted_3",
+    "form_name": "audio",
+    "section_header": "Below is a short excerpt from The North Wind and The Sun, one of Aesop’s fables. Press ‘Start’, read out the text, then press ‘Stop’ when you have finished.",
+    "field_type": "audio",
+    "field_label": "\"Then the Sun shone out warmly, and immediately the traveller took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.\"",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
