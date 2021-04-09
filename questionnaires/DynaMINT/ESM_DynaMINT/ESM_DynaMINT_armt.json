@@ -1700,5 +1700,13 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['ESM_DynaMINT_substanceUseItem1'] == 1"
-    }
+    },
+       {
+       "field_name": "ESM_DynaMORE_launchItem",
+       "form_name": "ESM_DynaMORE",
+       "field_type": "launcher",
+       "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
+       "external_app_ios_uri": "",
+       "external_app_name": "DynaMORE",
+       }
 ]
