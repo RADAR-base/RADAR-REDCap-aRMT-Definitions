@@ -28,13 +28,16 @@
         "field_label": "During the last week, how do you rate the severity of your cough; 0 mm representing no cough and 100 mm representing the worst cough ever?",
         "select_choices_or_calculations": [
             {
-                "code": "0mm "
+                "code": "0",
+                "label": "0mm "
             },
             {
-                "code": "50mm "
+                "code": "50",
+                "label": "50mm "
             },
             {
-                "code": "100mm"
+                "code": "100",
+                "label": "100mm"
             }
         ],
         "field_note": "",
