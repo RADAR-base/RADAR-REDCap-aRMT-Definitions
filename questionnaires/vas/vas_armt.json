@@ -1,0 +1,57 @@
+[
+    {
+        "field_name": "vas_info",
+        "form_name": "vas",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "This visual analogue scale is designed to help us learn about the severity of your cough. This scale is 100mm (10cm) in length.\r\n",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "vas_slider",
+        "form_name": "vas",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "During the last week, how do you rate the severity of your cough; 0 mm representing no cough and 100 mm representing the worst cough ever?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0mm "
+            },
+            {
+                "code": "50",
+                "label": "50mm "
+            },
+            {
+                "code": "100",
+                "label": "100mm"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
