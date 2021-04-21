@@ -1633,11 +1633,11 @@
         "field_label": "Since the last beep, I have used one (or more) of the following: Caffeine, medication, alcohol, cigarettes, cannabis, other drugs",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "0",
                 "label": "No"
             },
             {
-                "code": "2",
+                "code": "1",
                 "label": "Yes"
             }
         ],
@@ -1692,14 +1692,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_DynaMINT_substanceUseItem1(2)] = '1'",
+        "branching_logic": "[ESM_DynaMINT_substanceUseItem1(1)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "ESM_DynaMINT_substanceUseBranchYes",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMINT_substanceUseItem1'] == 2"
+        "evaluated_logic": "responses['ESM_DynaMINT_substanceUseItem1'] == 1"
     },
     {
         "field_name": "ESM_DynaMORE_appLauncher",
