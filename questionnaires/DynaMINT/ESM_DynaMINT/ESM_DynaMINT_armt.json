@@ -73,6 +73,6 @@
         "matrix_group_name": "ESM_DynaMINT_substanceUseBranchYes",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['ESM_DynaMINT_substanceUseItem1'] == 1"
     }
 ]
