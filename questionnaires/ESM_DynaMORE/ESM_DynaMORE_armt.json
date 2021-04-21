@@ -1616,14 +1616,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1 != '11'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "ESM_DynaMORE_physicalContextAndActivityBranch",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMORE_physicalContextAndActivityItem1'] == 10"
+        "evaluated_logic": ""
     },
     {
         "field_name": "ESM_DynaMORE_EventAppraisalInfo",
