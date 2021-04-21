@@ -1616,7 +1616,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1 = '1' or ESM_DynaMORE_physicalContextAndActivityItem1 = '2' or ESM_DynaMORE_physicalContextAndActivityItem1 = '3' or ESM_DynaMORE_physicalContextAndActivityItem1 = '4' or ESM_DynaMORE_physicalContextAndActivityItem1 = '5' or ESM_DynaMORE_physicalContextAndActivityItem1 = '6' or ESM_DynaMORE_physicalContextAndActivityItem1 = '7' or ESM_DynaMORE_physicalContextAndActivityItem1 = '8' or ESM_DynaMORE_physicalContextAndActivityItem1 = '9' or ESM_DynaMORE_physicalContextAndActivityItem1 = '10'",
+        "branching_logic": "ESM_DynaMORE_physicalContextAndActivityItem1 != '11'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
