@@ -1,7 +1,7 @@
 [
     {
-        "field_name": "EMI_DynaMINT_event_description",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_event_description",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Think about a pleasant event that is going to happen to you within the next few hours.",
@@ -30,8 +30,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_event_description_inspiration",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_event_description_inspiration",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "info",
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
@@ -64,8 +64,8 @@
         "evaluated_logic": "responses['EMI_DynaMINT_event_description'] == 1"
     },
     {
-        "field_name": "EMI_DynaMINT_event_description_text_entry",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "text",
         "field_label": "Type a brief description of your event, seeing it through your own eyes (eg. I will go for a walk with my dog, not: Going for a walk with a dog).",
@@ -84,8 +84,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_info",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_info",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "info",
         "field_label": "",
@@ -110,8 +110,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_text_entry",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_text_entry",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "text",
         "field_label": "Now, type what you see, feel, and smell as you imagine.",
@@ -130,8 +130,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_vividness",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "range",
         "field_label": "How vivid was the image you created?",
@@ -180,8 +180,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_senses",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_senses",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "checkbox",
         "field_label": "Please indicate which sense you were able to experience.",
@@ -226,8 +226,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_feelings",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_feelings",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "info",
         "field_label": "",
@@ -252,8 +252,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_mental_imagery_feelings_item1",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "range",
         "field_label": "This event will be pleasant for me.",
@@ -302,8 +302,8 @@
         "evaluated_logic": ""
     },
         {
-        "field_name": "EMI_DynaMINT_mental_imagery_feelings_item2",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "range",
         "field_label": "I can’t wait for this event to happen.",
@@ -352,8 +352,8 @@
         "evaluated_logic": ""
     },
         {
-        "field_name": "EMI_DynaMINT_mental_imagery_feelings_item3",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_feelings_item3",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "range",
         "field_label": "It was easy for me to imagine the event.",
@@ -402,8 +402,8 @@
         "evaluated_logic": ""
     },
         {
-        "field_name": "EMI_DynaMINT_mental_imagery_feelings_item4",
-        "form_name": "EMI_DynaMINT",
+        "field_name": "EMI_DynaMINT_Algorithm_mental_imagery_feelings_item4",
+        "form_name": "EMI_DynaMINT_Algorithm",
         "section_header": "",
         "field_type": "range",
         "field_label": "I treat this event as a reward.",
@@ -452,8 +452,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "ESM_DynaMORE_appLauncher",
-        "form_name": "ESM_DynaMORE",
+        "field_name": "ESM_DynaMORE_Algorithm_appLauncher",
+        "form_name": "ESM_DynaMORE_Algorithm",
         "section_header": "",
         "field_type": "launcher",
         "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
