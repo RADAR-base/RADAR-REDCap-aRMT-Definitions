@@ -1616,14 +1616,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "ESM_DynaMINT_physicalContextAndActivityItem1 = '1' or ESM_DynaMINT_physicalContextAndActivityItem1 = '2' or ESM_DynaMINT_physicalContextAndActivityItem1 = '3' or ESM_DynaMINT_physicalContextAndActivityItem1 = '4' or ESM_DynaMINT_physicalContextAndActivityItem1 = '5' or ESM_DynaMINT_physicalContextAndActivityItem1 = '6' or ESM_DynaMINT_physicalContextAndActivityItem1 = '7' or ESM_DynaMINT_physicalContextAndActivityItem1 = '8' or ESM_DynaMINT_physicalContextAndActivityItem1 = '9' or ESM_DynaMINT_physicalContextAndActivityItem1 = '10'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivityBranch",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 10"
+        "evaluated_logic": ""
     },
     {
         "field_name": "ESM_DynaMINT_substanceUseItem1",
