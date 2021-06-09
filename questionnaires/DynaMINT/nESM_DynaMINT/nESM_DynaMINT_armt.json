@@ -1417,47 +1417,47 @@
         "field_label": "What are you doing?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
+                "code": "1A",
                 "label": "Leisure – active (e.g. playing games, going out)"
             },
             {
-                "code": "2",
+                "code": "2A",
                 "label": "Leisure – passive (e.g. watching TV, reading)"
             },
             {
-                "code": "3",
+                "code": "3A",
                 "label": "School or work"
             },
             {
-                "code": "4",
+                "code": "4A",
                 "label": "Chores"
             },
             {
-                "code": "5",
+                "code": "5A",
                 "label": "Travel"
             },
             {
-                "code": "6",
+                "code": "6A",
                 "label": "Personal care (e.g. washing, getting dressed)"
             },
             {
-                "code": "7",
+                "code": "7A",
                 "label": "Physical exercise (sports)"
             },
             {
-                "code": "8",
+                "code": "8A",
                 "label": "Eating/drinking"
             },
             {
-                "code": "9",
+                "code": "9A",
                 "label": "Social contact"
             },
             {
-                "code": "10",
+                "code": "10A",
                 "label": "Something else"
             },
             {
-                "code": "11",
+                "code": "11A",
                 "label": "Nothing"
             }
         ],
@@ -1616,14 +1616,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "nESM_DynaMINT_physicalContextAndActivityItem1 = '1' or nESM_DynaMINT_physicalContextAndActivityItem1 = '2' or nESM_DynaMINT_physicalContextAndActivityItem1 = '3' or nESM_DynaMINT_physicalContextAndActivityItem1 = '4' or nESM_DynaMINT_physicalContextAndActivityItem1 = '5' or nESM_DynaMINT_physicalContextAndActivityItem1 = '6' or nESM_DynaMINT_physicalContextAndActivityItem1 = '7' or nESM_DynaMINT_physicalContextAndActivityItem1 = '8' or nESM_DynaMINT_physicalContextAndActivityItem1 = '9' or nESM_DynaMINT_physicalContextAndActivityItem1 = '10'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "nESM_DynaMINT_physicalContextAndActivityBranch",
+        "matrix_group_name": "nESM_DynaMINT_physicalContextAndActivity",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 1 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 2 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 3 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 4 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 5 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 6 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 7 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 8 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 9 || responses['nESM_DynaMINT_physicalContextAndActivityItem1'] == 10"
+        "evaluated_logic": ""
     },
     {
         "field_name": "nESM_DynaMINT_substanceUseItem1",
