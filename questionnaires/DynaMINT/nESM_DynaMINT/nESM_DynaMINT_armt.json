@@ -720,7 +720,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -770,7 +770,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -820,7 +820,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -870,7 +870,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -920,7 +920,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -970,7 +970,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1020,7 +1020,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_virtualSocialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1100,7 +1100,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1150,7 +1150,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1200,7 +1200,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1250,7 +1250,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1300,7 +1300,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1350,7 +1350,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1400,7 +1400,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_socialItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_socialItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1417,47 +1417,47 @@
         "field_label": "What are you doing?",
         "select_choices_or_calculations": [
             {
-                "code": "1A",
+                "code": "1",
                 "label": "Leisure – active (e.g. playing games, going out)"
             },
             {
-                "code": "2A",
+                "code": "2",
                 "label": "Leisure – passive (e.g. watching TV, reading)"
             },
             {
-                "code": "3A",
+                "code": "3",
                 "label": "School or work"
             },
             {
-                "code": "4A",
+                "code": "4",
                 "label": "Chores"
             },
             {
-                "code": "5A",
+                "code": "5",
                 "label": "Travel"
             },
             {
-                "code": "6A",
+                "code": "6",
                 "label": "Personal care (e.g. washing, getting dressed)"
             },
             {
-                "code": "7A",
+                "code": "7",
                 "label": "Physical exercise (sports)"
             },
             {
-                "code": "8A",
+                "code": "8",
                 "label": "Eating/drinking"
             },
             {
-                "code": "9A",
+                "code": "9",
                 "label": "Social contact"
             },
             {
-                "code": "10A",
+                "code": "10",
                 "label": "Something else"
             },
             {
-                "code": "11A",
+                "code": "11",
                 "label": "Nothing"
             }
         ],
@@ -1616,7 +1616,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "nESM_DynaMINT_physicalContextAndActivityItem1(1) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(2) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(3) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(4) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(5) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(6) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(7) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(8) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(9) = \"1\" or nESM_DynaMINT_physicalContextAndActivityItem1(10) = \"1\"",
+        "branching_logic": "nESM_DynaMINT_physicalContextAndActivityItem1 = '1' or nESM_DynaMINT_physicalContextAndActivityItem1 = '2' or nESM_DynaMINT_physicalContextAndActivityItem1 = '3' or nESM_DynaMINT_physicalContextAndActivityItem1 = '4' or nESM_DynaMINT_physicalContextAndActivityItem1 = '5' or nESM_DynaMINT_physicalContextAndActivityItem1 = '6' or nESM_DynaMINT_physicalContextAndActivityItem1 = '7' or nESM_DynaMINT_physicalContextAndActivityItem1 = '8' or nESM_DynaMINT_physicalContextAndActivityItem1 = '9' or nESM_DynaMINT_physicalContextAndActivityItem1 = '10'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1692,7 +1692,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_substanceUseItem1(1)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_substanceUseItem1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1756,7 +1756,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[nESM_DynaMINT_substanceUseItem1(0)] = \"1\"",
+        "branching_logic": "[nESM_DynaMINT_substanceUseItem1] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
