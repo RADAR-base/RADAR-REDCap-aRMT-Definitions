@@ -1,0 +1,83 @@
+[
+    {
+        "field_name": "hlh_results",
+        "form_name": "hlh_response",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Please complete the following questions following the completion of your exercise class",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hlh_1_results",
+        "form_name": "hlh_response",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Please indicate by moving the slider on the scale below how much you enjoyed the exercise class session.",
+        "select_choices_or_calculations":  [
+            {
+                "code": "0",
+                "label": "Not at all "
+            },
+            {
+                "code": "100",
+                "label": "Very Much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hlh_2_results",
+        "form_name": "hlh_response",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Please indicate by marking a line on the scale below how much you would choose to exercise again in the future following the online exercise class session",
+        "select_choices_or_calculations":  [
+            {
+                "code": "0",
+                "label": "I don’t feel like exercising now "
+            },
+            {
+                "code": "100",
+                "label": "I want to exercise again"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
