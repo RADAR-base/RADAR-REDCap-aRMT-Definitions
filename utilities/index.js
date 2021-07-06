@@ -20,17 +20,6 @@ async function publishQuestionnaires(
     );
     console.log('Done!');
   }
-  // formNames.map(async form => {
-  //   console.log('hello!');
-  //   await new Promise(r => setTimeout(r, 10000));
-  //   await publishQuestionnaire(
-  //     redcap_url,
-  //     redcap_token,
-  //     type,
-  //     langConvention,
-  //     form,
-  //   );
-  // });
 }
 
 async function publishQuestionnaire(
