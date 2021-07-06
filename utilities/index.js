@@ -146,8 +146,6 @@ function REDCapConvertor(redcap_json) {
   };
 
   this.parseRedCap = function(redcap_json) {
-    console.log('JSON');
-    console.log(redcap_json);
     return self.parseLogic(self.splitChoices(redcap_json));
   };
 
