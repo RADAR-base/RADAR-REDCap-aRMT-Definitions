@@ -1,6 +1,6 @@
 var _ = require('underscore');
 
-function REDCapConvertor(redcap_json) {
+function REDCapConverter(redcap_json) {
   var self = this;
   this.splitChoices = function(rawContent) {
     var arrayOfObjectsAndCodes = [];
@@ -156,4 +156,4 @@ function REDCapConvertor(redcap_json) {
   return this.parseRedCap(redcap_json);
 }
 
-module.exports = { REDCapConvertor };
+module.exports = { REDCapConverter };

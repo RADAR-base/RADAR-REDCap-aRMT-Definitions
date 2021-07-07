@@ -46,7 +46,7 @@ async function publishQuestionnaire(
     body,
   ) {
     var redcap_json = JSON.parse(body.replace(/(\r?\n|\r)/gm, '\n'));
-    var armt_json = redcapParser.REDCapConvertor(redcap_json);
+    var armt_json = redcapParser.REDCapConverter(redcap_json);
 
     console.log('Updating: ' + form_name);
 
