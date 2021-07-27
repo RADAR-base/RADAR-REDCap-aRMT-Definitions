@@ -1,0 +1,37 @@
+
+[
+  {
+    "field_name": "nuvoair_spirometry_1",
+    "form_name": "nuvoair_spirometry",
+    "section_header": "Time for the Spirometry Tasks on NuvoAir application.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "It's time to complete the Spirometry Tasks.",
+        "code": "Part 1"
+      },
+      {
+        "label": "Open the NuvoAir application on your device. Then follow the instruction on the NuvoAir app to complete your spirometry recordings.",
+        "code": "Part 2"
+      },
+      {
+        "label": "Once you've completed the spirometry recording, come back to this app and mark as 'Finished'.",
+        "code": "Part 3"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "art_cognitive_test",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
