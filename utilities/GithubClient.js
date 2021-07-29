@@ -29,7 +29,6 @@ async function postToGithub(fileName, content) {
     commit_sha: sha_latest_commit,
   });
   var sha_base_tree = tree.sha;
-  console.log('sha is: ' + sha_latest_commit);
 
   // 3. Create some content
   var {
@@ -65,7 +64,6 @@ async function postToGithub(fileName, content) {
     parents: [sha_latest_commit],
   });
 
-  console.log('new commit sha: ' + new_commit.sha);
   // 6. Move the reference to point at new commit.
   var {
     data: { object: updated_ref },
