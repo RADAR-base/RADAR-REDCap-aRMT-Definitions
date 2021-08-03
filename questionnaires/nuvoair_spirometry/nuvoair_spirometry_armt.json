@@ -1,0 +1,23 @@
+[
+  {
+    "field_name": "nuvoair_spirometry_1",
+    "form_name": "nuvoair_spirometry",
+    "section_header": "Time for the Spirometry Tasks on NuvoAir application.",
+    "field_type": "descriptive",
+    "field_label": "<img src=\"https://i.ibb.co/xhGrkpV/Air-Next-Spirometer-PRNewsfoto-Nuvo-Air.png\" alt=\"NuvoAir\" border=\"0\">Open the NuvoAir application on your device. Then follow the instruction on the NuvoAir app to complete your spirometry recordings.<br> Once you've completed the spirometry recording, come back to this app and mark as <b>'Finished'</b>.<br> ",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "nuvoair_spirometry",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
