@@ -46,11 +46,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "are_you_taking_any_steroid",
+        "field_name": "taking_any_medication",
         "form_name": "exacerbation_diary",
         "section_header": "",
         "field_type": "yesno",
-        "field_label": "Are you taking any steroids or antibiotics for exacerbation today?",
+        "field_label": "Are you taking any medications for exacerbation today?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -65,5 +65,35 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "please_select",
+        "form_name": "exacerbation_diary",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select the ones that apply:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Steroids "
+            },
+            {
+                "code": "1",
+                "label": "Antibiotics"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[taking_any_medication]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['taking_any_medication'] == 1"
     }
 ]
