@@ -2,9 +2,9 @@
     {
         "field_name": "system_usability_1",
         "form_name": "user_feedback",
-        "section_header": "Well done! You have reached the end of our Mobile Measures Month. Thank you for participating! Please rate your experiences of our system.",
+        "section_header": "Please rate your experiences of our mobile measures system overall (Fitbit and smartphone apps).",
         "field_type": "radio",
-        "field_label": "I think that I would like to use this system frequently",
+        "field_label": "I think that I would like to use this system (Fitbit and smartphone apps) frequently",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -422,9 +422,9 @@
     {
         "field_name": "ux_device_1",
         "form_name": "user_feedback",
-        "section_header": "",
+        "section_header": "Thinking about the Fitbit device in particular...",
         "field_type": "radio",
-        "field_label": "This device was easy to use",
+        "field_label": "The Fitbit was easy to use",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -474,7 +474,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "The device broke down frequently",
+        "field_label": "The Fitbit broke down frequently",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -524,7 +524,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "The device is a good size",
+        "field_label": "The Fitbit is a good size",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -574,7 +574,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I found that I lost/misplaced/damaged this device easily",
+        "field_label": "I found that I lost/misplaced/damaged the Fitbit easily",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -624,7 +624,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I think that I would need more training/support to use this device in future",
+        "field_label": "I think that I would need more training/support to use the Fitbit in future",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -674,7 +674,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "This device fit into my daily routine easily",
+        "field_label": "The Fitbit fit into my daily routine easily",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -724,7 +724,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Wearing the device on my wrist was uncomfortable",
+        "field_label": "Wearing the Fitbit on my wrist was uncomfortable",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -772,7 +772,7 @@
     {
         "field_name": "ux_questions_1",
         "form_name": "user_feedback",
-        "section_header": "",
+        "section_header": "Finally, thinking about the smartphone apps you used to answer questions...",
         "field_type": "radio",
         "field_label": "The questions disrupted my everyday life",
         "select_choices_or_calculations": [
@@ -974,7 +974,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I found it embarrassing/annoying when the alarm sounded around other people",
+        "field_label": "I found it embarrassing/annoying when the notification sounded around other people",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1024,7 +1024,7 @@
         "form_name": "user_feedback",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I found it easy to remember to carry the device around with me",
+        "field_label": "I found it easy to remember to carry my smartphone around with me",
         "select_choices_or_calculations": [
             {
                 "code": "1",
