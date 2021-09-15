@@ -1,0 +1,856 @@
+[
+    {
+        "field_name": "cough",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I never cough "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I cough all the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "cough_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phlegm",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I have no phlegm (mucus) on my chest at all "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest is full of phlegm (mucus)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phlegm_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chest",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 My chest does not feel tight at all "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest feels very tight"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "chest_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "breath",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 When I walk up a hill or a flight of stairs I am not out of breath "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 When I walk up a hill or a flight of stairs I am completely out of breath"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "breath_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I sleep soundly "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I do not sleep soundly"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "sleep_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "energy",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 I have lots of energy "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I have no energy at all"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "energy_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smoke_days",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the past 7 days, on how many days did you smoke cigarettes?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smoke_days_3",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "On days that you smoked, on average, you know how many cigarettes you smoked?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days] = '1' or [smoke_days] = '2' or [smoke_days] = '3' or [smoke_days] = '4' or [smoke_days] = '5' or [smoke_days] = '6' or [smoke_days] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days'] ==  '1' || responses['smoke_days'] ==  '2' || responses['smoke_days'] ==  '3' || responses['smoke_days'] ==  '4' || responses['smoke_days'] ==  '5' || responses['smoke_days'] ==  '6' || responses['smoke_days'] ==  '7'"
+    },
+    {
+        "field_name": "smoke_days_4",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "On days that you smoked, on average, how many cigarettes did you smoke?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0 "
+            },
+            {
+                "code": " "
+            },
+            {
+                "code": "100"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days_3] = '1'",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days_3'] ==  '1'"
+    },
+    {
+        "field_name": "smoke_days_2",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the past 7 days, on how many days did you vape/ use your e-cigarette? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7 "
+            },
+            {
+                "code": "8",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smoke_days_5",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What electronic cigarette or vaping device do you currently use the most? \n",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "A disposable e-cigarette or vaping device (non-rechargeable) "
+            },
+            {
+                "code": "1",
+                "label": "An e-cigarette or vaping device that uses replaceable pre-filled cartridges or pods (rechargeable) "
+            },
+            {
+                "code": "2",
+                "label": "An e-cigarette or vaping device with a tank that you refill with liquids (rechargeable) "
+            },
+            {
+                "code": "3",
+                "label": "A modular system that you refill with liquids (rechargeable, and you use your own combination of separate devices: batteries, atomisers, etc.) "
+            },
+            {
+                "code": "4",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days_2] = '1' or [smoke_days_2] = '2' or [smoke_days_2] = '3' or [smoke_days_2] = '4' or [smoke_days_2] = '5' or [smoke_days_2] = '6' or [smoke_days_2] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days_2'] ==  '1' || responses['smoke_days_2'] ==  '2' || responses['smoke_days_2'] ==  '3' || responses['smoke_days_2'] ==  '4' || responses['smoke_days_2'] ==  '5' || responses['smoke_days_2'] ==  '6' || responses['smoke_days_2'] ==  '7'"
+    },
+    {
+        "field_name": "smoke_days_6",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What flavour do you use most when vaping/using an e-cigarette or vaping device? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Tobacco "
+            },
+            {
+                "code": "1",
+                "label": "Tobacco menthol, "
+            },
+            {
+                "code": "2",
+                "label": "Menthol or mint "
+            },
+            {
+                "code": "3",
+                "label": "Fruit flavour "
+            },
+            {
+                "code": "4",
+                "label": "Coffee flavour "
+            },
+            {
+                "code": "5",
+                "label": "Vanilla flavour "
+            },
+            {
+                "code": "6",
+                "label": "Chocolate, desserts, sweet, candy flavour "
+            },
+            {
+                "code": "7",
+                "label": "Energy drink or soft drink flavour "
+            },
+            {
+                "code": "8",
+                "label": "An alcoholic drink flavour (e.g. wine, whiskey, gin, mojito or other cocktails) "
+            },
+            {
+                "code": "9",
+                "label": "Other flavour "
+            },
+            {
+                "code": "10",
+                "label": "No flavour "
+            },
+            {
+                "code": "11",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days_2] = '1' or [smoke_days_2] = '2' or [smoke_days_2] = '3' or [smoke_days_2] = '4' or [smoke_days_2] = '5' or [smoke_days_2] = '6' or [smoke_days_2] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days_2'] ==  '1' || responses['smoke_days_2'] ==  '2' || responses['smoke_days_2'] ==  '3' || responses['smoke_days_2'] ==  '4' || responses['smoke_days_2'] ==  '5' || responses['smoke_days_2'] ==  '6' || responses['smoke_days_2'] ==  '7'"
+    },
+    {
+        "field_name": "smoke_days_7",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Which of these nicotine strengths do you use most often? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No nicotine (0mg/ml; 0%) "
+            },
+            {
+                "code": "1",
+                "label": "1 to 8 mg/ml (0.1% to 0.8%) "
+            },
+            {
+                "code": "2",
+                "label": "9 to 14 mg/ml (0.9% to 1.4%) "
+            },
+            {
+                "code": "3",
+                "label": "15 to 20 mg/ml (1.5% to 2.0%) "
+            },
+            {
+                "code": "4",
+                "label": "21 to 24mg/ml (2.1 to 2.4%) "
+            },
+            {
+                "code": "5",
+                "label": "25mg/ml (2.5%) or more "
+            },
+            {
+                "code": "6",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days_2] = '1' or [smoke_days_2] = '2' or [smoke_days_2] = '3' or [smoke_days_2] = '4' or [smoke_days_2] = '5' or [smoke_days_2] = '6' or [smoke_days_2] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days_2'] ==  '1' || responses['smoke_days_2'] ==  '2' || responses['smoke_days_2'] ==  '3' || responses['smoke_days_2'] ==  '4' || responses['smoke_days_2'] ==  '5' || responses['smoke_days_2'] ==  '6' || responses['smoke_days_2'] ==  '7'"
+    },
+    {
+        "field_name": "smoke_days_8",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do the e-cigarettes, cartridges, pods, or e-liquids you currently use contain nicotine salts?  ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "2",
+                "label": "I don't know if they contain nicotine salt or not"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smoke_days_2] = '1' or [smoke_days_2] = '2' or [smoke_days_2] = '3' or [smoke_days_2] = '4' or [smoke_days_2] = '5' or [smoke_days_2] = '6' or [smoke_days_2] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smoke_days_2'] ==  '1' || responses['smoke_days_2'] ==  '2' || responses['smoke_days_2'] ==  '3' || responses['smoke_days_2'] ==  '4' || responses['smoke_days_2'] ==  '5' || responses['smoke_days_2'] ==  '6' || responses['smoke_days_2'] ==  '7'"
+    },
+    {
+        "field_name": "smoke_days_9",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you think electronic cigarettes/vaping devices (with nicotine) are more harmful than smoking tobacco cigarettes, less harmful, or are they equally harmful to health? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "A lot more harmful than tobacco cigarettes "
+            },
+            {
+                "code": "1",
+                "label": "More harmful than tobacco cigarettes "
+            },
+            {
+                "code": "2",
+                "label": "Equally harmful "
+            },
+            {
+                "code": "3",
+                "label": "Less harmful than tobacco cigarettes "
+            },
+            {
+                "code": "4",
+                "label": "A lot less harmful than tobacco cigarettes "
+            },
+            {
+                "code": "5",
+                "label": "Don't know"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "unexplained_pain",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "In the last few weeks, have you had the following:",
+        "field_type": "matrix-radio",
+        "field_label": "Unexplained pain or ache",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "last_two_weeks_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "night_sweats",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Very heavy night sweats",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "last_two_weeks_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "weight_loss",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Unexplained weight loss",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "last_two_weeks_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "unusual_lump",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Unusual lump or swelling anywhere",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "last_two_weeks_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "unusual_fatigue",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Unusual fatigue",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes "
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "last_two_weeks_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smoke_days_10",
+        "form_name": "vaping_weekly_survey",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "To help people say how good or bad their health state is, we have drawn a scale (rather like a thermometer) on which the best state you can imagine is marked 100 and the worst state you can imagine is marked 0. Please indicate on this scale how good or bad your own health is today, in your opinion.  ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Worst imaginable health state "
+            },
+            {
+                "code": " "
+            },
+            {
+                "code": "100",
+                "label": "Best imaginable health state"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
