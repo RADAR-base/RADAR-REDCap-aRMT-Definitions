@@ -2,13 +2,13 @@
     {
         "field_name": "cough",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item, please mark the response that best describes you currently.",
+        "field_label": "How often do you cough?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 I never cough "
+                "label": "0 Never "
             },
             {
                 "code": "2",
@@ -24,7 +24,7 @@
             },
             {
                 "code": "5",
-                "label": "5 I cough all the time"
+                "label": "5 All the time"
             }
         ],
         "field_note": "",
@@ -44,13 +44,13 @@
     {
         "field_name": "phlegm",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item, please mark the response that best describes you currently.",
+        "field_label": "How much phlegm (mucus) is on your chest?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 I have no phlegm (mucus) on my chest at all "
+                "label": "0 None at all "
             },
             {
                 "code": "2",
@@ -66,7 +66,7 @@
             },
             {
                 "code": "5",
-                "label": "5 My chest is full of phlegm (mucus)"
+                "label": "5 Full of phlegm"
             }
         ],
         "field_note": "",
@@ -86,13 +86,13 @@
     {
         "field_name": "chest",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "field_label": "Does your chest feel tight?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 My chest does not feel tight at all "
+                "label": "0 Not at all "
             },
             {
                 "code": "2",
@@ -108,7 +108,7 @@
             },
             {
                 "code": "5",
-                "label": "5 My chest feels very tight"
+                "label": "5 Very tight"
             }
         ],
         "field_note": "",
@@ -128,13 +128,13 @@
     {
         "field_name": "breath",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "field_label": "When I walk up a hill or a flight of stairs",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 When I walk up a hill or a flight of stairs I am not out of breath "
+                "label": "0 I am not out of breath "
             },
             {
                 "code": "2",
@@ -150,7 +150,7 @@
             },
             {
                 "code": "5",
-                "label": "5 When I walk up a hill or a flight of stairs I am completely out of breath"
+                "label": "5  I am completely out of breath"
             }
         ],
         "field_note": "",
@@ -170,13 +170,13 @@
     {
         "field_name": "sleep",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "field_label": "How do you sleep?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 I sleep soundly "
+                "label": "0 Soundly "
             },
             {
                 "code": "2",
@@ -192,7 +192,7 @@
             },
             {
                 "code": "5",
-                "label": "5 I do not sleep soundly"
+                "label": "5 Not soundly"
             }
         ],
         "field_note": "",
@@ -212,13 +212,13 @@
     {
         "field_name": "energy",
         "form_name": "vaping_weekly_survey",
-        "section_header": "",
+        "section_header": "Please mark the response that best describes you currently.",
         "field_type": "range",
-        "field_label": "For each item below, please mark the response that best describes you currently.",
+        "field_label": "How much energy do you have?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 I have lots of energy "
+                "label": "0 Lots of energy "
             },
             {
                 "code": "2",
@@ -234,7 +234,7 @@
             },
             {
                 "code": "5",
-                "label": "5 I have no energy at all"
+                "label": "5 No energy at all"
             }
         ],
         "field_note": "",
@@ -313,18 +313,9 @@
         "field_name": "smoke_days_3",
         "form_name": "vaping_weekly_survey",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "yesno",
         "field_label": "On days that you smoked, on average, you know how many cigarettes you smoked?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "No "
-            },
-            {
-                "code": "1",
-                "label": "Yes"
-            }
-        ],
+        "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -829,14 +820,14 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Worst imaginable health state "
+                "label": "Worst "
             },
             {
                 "code": " "
             },
             {
                 "code": "100",
-                "label": "Best imaginable health state"
+                "label": "Best"
             }
         ],
         "field_note": "",
