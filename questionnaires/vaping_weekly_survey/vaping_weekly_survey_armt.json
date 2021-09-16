@@ -338,13 +338,15 @@
         "field_label": "On days that you smoked, on average, how many cigarettes did you smoke?",
         "select_choices_or_calculations": [
             {
-                "code": "0"
+                "code": "0",
+                "label": "cigarettes"
             },
             {
                 "code": ""
             },
             {
-                "code": "100"
+                "code": "100",
+                "label": "cigarettes"
             }
         ],
         "field_note": "",
