@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "esm_sleep_well",
-        "form_name": "esm",
-        "section_header": "",
+        "field_name": "esm_cheerful_epi_v3",
+        "form_name": "esm_epi_mod_1",
+        "section_header": "Denken Sie an den Moment kurz vor dieser Aufgabe",
         "field_type": "range",
-        "field_label": "Ich habe gut geschlafen",
+        "field_label": "Ich fühle mich fröhlich",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -44,17 +44,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_cheerful",
-        "form_name": "esm",
+        "field_name": "esm_down_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich fröhlich",
+        "field_label": "Ich bin niedergeschlagen",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -94,17 +94,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_down",
-        "form_name": "esm",
+        "field_name": "esm_anxious_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich niedergeschlagen",
+        "field_label": "Ich bin besorgt",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -144,17 +144,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_anxious",
-        "form_name": "esm",
+        "field_name": "esm_relaxed_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich unruhig",
+        "field_label": "Ich fühle mich entspannt",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -194,17 +194,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_relaxed",
-        "form_name": "esm",
+        "field_name": "esm_irritated_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich entspannt",
+        "field_label": "Ich fühle mich gereizt/genervt",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -244,17 +244,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_irritated",
-        "form_name": "esm",
+        "field_name": "esm_stressed_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich genervt",
+        "field_label": "Ich bin gestresst",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -294,17 +294,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_stressed",
-        "form_name": "esm",
+        "field_name": "esm_content_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich gestresst",
+        "field_label": "Ich bin zufrieden",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -344,17 +344,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_content",
-        "form_name": "esm",
+        "field_name": "esm_insecure_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich zufrieden",
+        "field_label": "Ich fühle mich verunsichert",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -394,17 +394,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_insecure",
-        "form_name": "esm",
+        "field_name": "esm_hopeful_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich unsicher",
+        "field_label": "Ich bin hoffnungsvoll",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -444,17 +444,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_hopeful",
-        "form_name": "esm",
+        "field_name": "esm_lonely_2_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich hoffunungsvoll",
+        "field_label": "Ich fühle mich einsam",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -494,17 +494,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_lonely",
-        "form_name": "esm",
+        "field_name": "esm_statisfied_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Im Augenblick fühle ich mich einsam",
+        "field_label": "Ich bin mit mir selbst zufrieden",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -544,17 +544,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_statisfied",
-        "form_name": "esm",
+        "field_name": "esm_restless_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich bin mit mir zufrieden",
+        "field_label": "Ich fühle mich unruhig",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -594,64 +594,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_restless",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Ich fühle mich ruhelos",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Gar nicht "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Sehr"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "esm1",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_confident",
-        "form_name": "esm",
+        "field_name": "esm_confident_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich fühle mich selbstbewusst",
@@ -694,17 +644,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_qol",
-        "form_name": "esm",
+        "field_name": "esm_qol_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Generell fühle ich mich gut",
+        "field_label": "Insgesamt fühle ich mich gut",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -744,14 +694,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_ruminating",
-        "form_name": "esm",
+        "field_name": "esm_ruminating_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich grüble",
@@ -794,14 +744,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_concentrate",
-        "form_name": "esm",
+        "field_name": "esm_concentrate_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich kann mich gut konzentrieren",
@@ -844,17 +794,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm1",
+        "matrix_group_name": "esm1_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_phys_activity",
-        "form_name": "esm",
+        "field_name": "esm_phys_activity_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Was tue ich gerade (vor dem Signal)",
+        "field_label": "Was habe ich gemacht (kurz vor diesem Fragebogen)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -920,11 +870,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_well",
-        "form_name": "esm",
+        "field_name": "esm_activity_well_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich kann das gut machen",
+        "field_label": "Ich war damit zufrieden",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -964,17 +914,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_else",
-        "form_name": "esm",
+        "field_name": "esm_activity_else_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich würde lieber etwas anderes machen",
+        "field_label": "Ich hätte lieber etwas anderes gemacht",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1014,17 +964,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_activity_effort",
-        "form_name": "esm",
+        "field_name": "esm_activity_effort_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Diese Aktivität erfordert Anstrengung",
+        "field_label": "Diese Tätigkeit erfordert Anstrengung",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1064,17 +1014,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm2",
+        "matrix_group_name": "esm2_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_active",
-        "form_name": "esm",
+        "field_name": "esm_physical_active_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich bin körperlich aktiv",
+        "field_label": "Ich bin aktiv",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1114,17 +1064,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_tired",
-        "form_name": "esm",
+        "field_name": "esm_physical_tired_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich bin körperlich müde",
+        "field_label": "Ich bin müde",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1164,17 +1114,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_pain",
-        "form_name": "esm",
+        "field_name": "esm_physical_pain_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich habe körperliche Schmerzen",
+        "field_label": "Ich habe Schmerzen",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1214,17 +1164,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_physical_well",
-        "form_name": "esm",
+        "field_name": "esm_physical_well_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Ich fühle mich körperlich nicht gut",
+        "field_label": "Ich fühle mich nicht gut",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1264,14 +1214,14 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm3",
+        "matrix_group_name": "esm3_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_location",
-        "form_name": "esm",
+        "field_name": "esm_location_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Wo bin Ich?",
@@ -1320,10 +1270,10 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_interact",
-        "form_name": "esm",
+        "field_name": "esm_social_interact_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Wer ist bei mir?",
         "select_choices_or_calculations": [
             {
@@ -1378,46 +1328,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_people",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Wie viele Personen sind bei mir?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1"
-            },
-            {
-                "code": "2",
-                "label": "2"
-            },
-            {
-                "code": "3",
-                "label": "3-10"
-            },
-            {
-                "code": "4",
-                "label": "über 10"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
-    },
-    {
-        "field_name": "esm_social_doing",
-        "form_name": "esm",
+        "field_name": "esm_social_doing_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Wir unternehmen etwas gemeinsam",
@@ -1456,18 +1368,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_pleasant",
-        "form_name": "esm",
+        "field_name": "esm_social_pleasant_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich finde die Personen die bei mir sind angenehm",
@@ -1506,18 +1418,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_alone",
-        "form_name": "esm",
+        "field_name": "esm_social_alone_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich würde lieber alleine sein",
@@ -1556,18 +1468,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_connected",
-        "form_name": "esm",
+        "field_name": "esm_social_connected_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich fühle mich den Personen die bei mir sind verbunden",
@@ -1606,18 +1518,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(1)] = \"1\" or [esm_social_interact(2)] = \"1\" or [esm_social_interact(3)] = \"1\" or [esm_social_interact(4)] = \"1\" or [esm_social_interact(5)] = \"1\" or [esm_social_interact(6)] = \"1\" or [esm_social_interact(7)] = \"1\" or [esm_social_interact(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm4",
+        "matrix_group_name": "esm4_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 1 || responses['esm_social_interact'] == 2 || responses['esm_social_interact'] == 3 || responses['esm_social_interact'] == 4 || responses['esm_social_interact'] == 5 || responses['esm_social_interact'] == 6 || responses['esm_social_interact'] == 7 || responses['esm_social_interact'] == 8"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
     },
     {
-        "field_name": "esm_social_ok_alone",
-        "form_name": "esm",
+        "field_name": "esm_social_ok_alone_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich fühle mich gut alleine zu sein",
@@ -1656,18 +1568,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_others",
-        "form_name": "esm",
+        "field_name": "esm_social_others_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich würde lieber Gesellschaft haben",
@@ -1706,18 +1618,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_choice",
-        "form_name": "esm",
+        "field_name": "esm_social_choice_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Im Augenblick alleine zu sein ist meine Entscheidung",
@@ -1756,18 +1668,18 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_left_out",
-        "form_name": "esm",
+        "field_name": "esm_social_left_out_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
         "field_label": "Ich fühle mich ausgeschlossen",
@@ -1806,175 +1718,45 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact(0)] = \"1\"",
+        "branching_logic": "[esm_social_interact_epi_v3(0)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm5",
+        "matrix_group_name": "esm5_epi_v3",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_interact'] == 0"
+        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_virt_interact",
-        "form_name": "esm",
+        "field_name": "esm_stress_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ich benutze virtuelle Kommunikation um zu interagieren",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Nein"
-            },
-            {
-                "code": "1",
-                "label": "Ja"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_social_virt_pleasant",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Ich finde diese virtuelle Interaktion angenehm",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Gar nicht "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Sehr"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[esm_social_virt_interact]=\"1\"",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_virt_interact'] == \"1\""
-    },
-    {
-        "field_name": "esm_stress_situation",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Die meisten Menschen würden meine aktuelle Situation als stressig empfinden",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Gar nicht "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Sehr"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_stress",
-        "form_name": "esm",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Überlegen Sie, was das wichtigste Ereignis seit dem letzten Signal war. Dieses Ereignis war:",
+        "field_label": "Denken Sie an das wichtigste Ereignis, das sich in der letzten Stunde ereignet hat. Dieses Ereignis war:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Sehr unangenehm"
+                "label": "-3 Sehr unangenehm "
             },
             {
                 "code": "-2",
-                "label": "-2"
+                "label": "-2 "
             },
             {
                 "code": "-1",
-                "label": "-1"
+                "label": "-1 "
             },
             {
                 "code": "0",
-                "label": "0"
+                "label": "0 "
             },
             {
                 "code": "1",
-                "label": "1"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "2"
+                "label": "2 "
             },
             {
                 "code": "3",
@@ -1996,35 +1778,35 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_event",
-        "form_name": "esm",
+        "field_name": "esm_event_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Dieses Ereignis war:",
         "select_choices_or_calculations": [
             {
                 "code": "-3",
-                "label": "-3 Unwichtig"
+                "label": "-3 Unwichtig "
             },
             {
                 "code": "-2",
-                "label": "-2"
+                "label": "-2 "
             },
             {
                 "code": "-1",
-                "label": "-1"
+                "label": "-1 "
             },
             {
                 "code": "0",
-                "label": "0"
+                "label": "0 "
             },
             {
                 "code": "1",
-                "label": "1"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "2"
+                "label": "2 "
             },
             {
                 "code": "3",
@@ -2046,11 +1828,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_medication",
-        "form_name": "esm",
+        "field_name": "esm_medication_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Seit dem letzten Signal habe ich zu mir genommen",
+        "field_label": "In der letzten Stunde habe ich zu mir genommen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -2074,11 +1856,15 @@
             },
             {
                 "code": "5",
-                "label": "Substanzen "
+                "label": "Andere Substanzen "
             },
             {
                 "code": "6",
                 "label": "Nichts"
+            },
+            {
+                "code": "7",
+                "label": "Ein Nickerchen"
             }
         ],
         "field_note": "",
@@ -2096,11 +1882,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_beep",
-        "form_name": "esm",
+        "field_name": "esm_beep_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Dieses Signal hat mich gestört",
+        "field_type": "range",
+        "field_label": "Ich fand diesen Fragebogen lästig",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -2140,47 +1926,18 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm6",
+        "matrix_group_name": "esm6_epi_v3",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_questionnaire",
-        "form_name": "esm",
+        "field_name": "esm_seizure_since_last_beep_epi_v3",
+        "form_name": "esm_epi_mod_1",
         "section_header": "",
-        "field_type": "radio",
-        "field_label": "Den Fragebogen auszufüllen hat meine Stimmung heute beeinflusst",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Gar nicht "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Sehr"
-            }
-        ],
+        "field_type": "yesno",
+        "field_label": "Hatten Sie seit dem letzten Fragebogen einen Anfall?",
+        "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -2190,7 +1947,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "esm6",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""

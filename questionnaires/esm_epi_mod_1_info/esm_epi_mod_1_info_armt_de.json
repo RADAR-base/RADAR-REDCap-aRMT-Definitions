@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "esm_epi_mod_1_info",
+        "form_name": "esm_epi_mod_1_info",
+        "section_header": "Tagebuch-Aufgabe",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Ab morgen erhalten Sie 9 Fragebögen pro Tag zu zufälligen Zeiten zwischen 8.30 Uhr und 21.00 Uhr für die nächsten 6 Tage. Es ist wichtig, dass Sie wegen dieser Aufgabe in den kommenden Tagen Ihren normalen Tagesablauf nicht ändern.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "In dieser Aufgabe werden Sie uns über Ihr tägliches Leben berichten, während Sie es erleben. Erledigen Sie die Aufgabe auf der Grundlage Ihrer Gefühle in diesem Moment und Ihrer Erfahrungen unmittelbar vor der Aufgabe, sofern nicht anders erwähnt. Erledigen Sie die Aufgabe nur, wenn Sie sich dazu in einer sicheren Umgebung befinden. Wenn Sie eine Aufgabe versäumen, machen Sie sich keine Sorgen, Sie werden später eine neue Aufgabe erhalten, es sei denn, es war die letzte Aufgabe des Tages.",
+          "code" : "Part 2"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm_epi_mod_1_info",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  

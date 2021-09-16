@@ -1,304 +1,368 @@
 [
     {
-        "field_name": "phq8_1",
-        "form_name": "phq8",
-        "section_header": "Wie oft fühlten Sie sich im Verlauf der letzten zwei Wochen durch die folgenden Beschwerden beeinträchtigt?",
+        "field_name": "cat_q1",
+        "form_name": "cat",
+        "section_header": "",
         "field_type": "radio",
-        "field_label": "1. Wenig Interesse oder Freude an Ihren Tätigkeiten",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I never cough "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I cough all the time"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_2",
-        "form_name": "phq8",
+        "field_name": "cat_q2",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "2. Niedergeschlagenheit, Schwermut oder Hoffnungslosigkeit",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I have no phlegm (mucus) on my chest at all "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest is full of phlegm (mucus)"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_3",
-        "form_name": "phq8",
+        "field_name": "cat_q3",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "3. Schwierigkeiten ein- oder durchzuschlafen oder vermehrter Schlaf",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 My chest does not feel tight at all "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 My chest feels very tight"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_4",
-        "form_name": "phq8",
+        "field_name": "cat_q4",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "4. Müdigkeit oder Gefühl, keine Energie zu haben",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 When I walk up a hill or a flight of stairs I am not out of breath "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 When I walk up a hill or a flight of stairs I am completely out of breath"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_5",
-        "form_name": "phq8",
+        "field_name": "cat_q5",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "5. Verminderter Appetit oder übermäßiges Bedürfnis zu essen",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I am not limited to doing any activities at home "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I am completely limited to doing all activities at home"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_6",
-        "form_name": "phq8",
+        "field_name": "cat_q6",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "6. Schlechte Meinung von sich selbst; Gefühl ein Versager zu sein oder die Familie enttäuscht zu haben",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I am confident leaving my home despite my lung condition "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I am not confident leaving my home at all because of my lung condition"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_7",
-        "form_name": "phq8",
+        "field_name": "cat_q7",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "7. Schwierigkeiten, sich auf etwas zu konzentrieren, z.B. beim Zeitungslesen oder Fernsehen",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I sleep soundly "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I do not sleep soundly because of my lung condition"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "phq8_8",
-        "form_name": "phq8",
+        "field_name": "cat_q8",
+        "form_name": "cat",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "8. Waren Ihre Bewegungen oder Ihre Sprache so verlangsamt, dass es auch anderen auffallen würde? Oder waren Sie im Gegenteil \"zappelig\" oder ruhelos und hatten dadurch einen stärkeren Bewegungsdrang als sonst?",
+        "field_label": "For each item below, select the box that best describes your current situation.",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Überhaupt nicht"
+                "label": "0 I have lots of energy "
             },
             {
                 "code": "1",
-                "label": "An einzelnen Tagen"
+                "label": "1 "
             },
             {
                 "code": "2",
-                "label": "An mehr als der Hälfte der Tage"
+                "label": "2 "
             },
             {
                 "code": "3",
-                "label": "Beinahe jeden Tag"
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 I have no energy at all"
             }
         ],
-        "field_note": "",
+        "field_note": "range_type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "phq8",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""

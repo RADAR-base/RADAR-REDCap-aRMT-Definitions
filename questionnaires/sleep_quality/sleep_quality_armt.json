@@ -1,0 +1,32 @@
+[
+    {
+        "field_name": "sleep_quality",
+        "form_name": "sleep_quality",
+        "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
+        "field_type": "slider",
+        "field_label": "How would you rate your sleep quality overall?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Terrible "
+            },
+            {
+                "code": "100",
+                "label": "Excellent"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

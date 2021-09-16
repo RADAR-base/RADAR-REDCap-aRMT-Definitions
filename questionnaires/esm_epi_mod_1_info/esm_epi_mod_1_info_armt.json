@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "esm_epi_mod_1_info",
+        "form_name": "esm_epi_mod_1_info",
+        "section_header": "Diary Task",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Starting from tomorrow, you will receive 9 diary tasks per day at random times between 8.30 a.m. and 9 p.m. for the next 6 days. It is important that you do not change your normal daily life routines in the upcoming days because of this task.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "In this task you will tell us about your daily life as you experience it. Complete the task based on how you feel in that moment and your experiences just before the task, unless otherwise mentioned. Complete the task only when you are in a safe environment to do so. If you miss a task, don’t worry, you will receive a new task later unless it was the last task of the day.",
+          "code" : "Part 2"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm_epi_mod_1_info",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  

@@ -1,0 +1,1249 @@
+[
+    {
+        "field_name": "lipf_stairs",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you walk up one flight of stairs in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_stairs_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How short of breath did walking up one flight of stairs make you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_stairs]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_stairs'] == 1"
+    },
+    {
+        "field_name": "lipf_stairs_no",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I did not walk up one flight of stairs in the last 24 hours because:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I avoided this activity because it was too difficult to perform "
+            },
+            {
+                "code": "1",
+                "label": "Not applicable, because I did not want or have the opportunity to do it"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_stairs]=0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_stairs'] == 0"
+    },
+    {
+        "field_name": "lipf_short_breath",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how short of breath have you been while sitting down, relaxing, reading, or watching TV?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_grooming",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you perform a grooming activity (e.g., brush teeth, shave, fix hair) in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_grooming_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How short of breath did grooming make you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_grooming]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_grooming'] == 1"
+    },
+    {
+        "field_name": "lipf_grooming_no",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I did not perform a grooming activity in the last 24 hours because:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I avoided this activity because it was too difficult to perform "
+            },
+            {
+                "code": "1",
+                "label": "Not applicable, because I did not want or have the opportunity to do it"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_grooming]=0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_grooming'] == 0"
+    },
+    {
+        "field_name": "lipf_walk_level",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you walk outside on a level surface (approximately 150 feet/45 meters, or the distance of half a typical city block) in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_walk_level_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How short of breath did walking outside on a level surface make you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_walk_level]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_walk_level'] == 1"
+    },
+    {
+        "field_name": "lipf_walk_level_no",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I did not walk outside on a level surface in the last 24 hours because:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I avoided this activity because it was too difficult to perform "
+            },
+            {
+                "code": "1",
+                "label": "Not applicable, because I did not want or have the opportunity to do it"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_walk_level]=0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_walk_level'] == 0"
+    },
+    {
+        "field_name": "lipf_shower",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you bathe or shower in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_shower_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How short of breath did bathing or showering make you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_shower]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_shower'] == 1"
+    },
+    {
+        "field_name": "lipf_shower_no",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I did not bathe or shower in the last 24 hours because:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I avoided this activity because it was too difficult to perform "
+            },
+            {
+                "code": "1",
+                "label": "Not applicable, because I did not want or have the opportunity to do it"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_shower]=0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_shower'] == 0"
+    },
+    {
+        "field_name": "lipf_load_light",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you lift and carry a light load (e.g., less than 10 lbs) a short distance (e.g., from\none room to another) in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_load_light_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How short of breath did lifting and carrying a light load a short distance make you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_load_light]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_load_light'] == 1"
+    },
+    {
+        "field_name": "lipf_load_light_no",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I did not lift and carry a light load a short distance in the last 24 hours because:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I avoided this activity because it was too difficult to perform "
+            },
+            {
+                "code": "1",
+                "label": "Not applicable, because I did not want or have the opportunity to do it"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_load_light]=0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_load_light'] == 0"
+    },
+    {
+        "field_name": "lipf_short_breath_2",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you become short of breath in the last 24 hours?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_short_breath_2_yes",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How long did it take you to recover when you became short of breath?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 No time at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 An extremely long time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_short_breath_2]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_short_breath_2'] == 1"
+    },
+    {
+        "field_name": "lipf_cough_q1",
+        "form_name": "lipf",
+        "section_header": "These items primarily focus on your cough. Again, reflect on the last 24 hours as you consider where you are on the scale between the two statements.",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how often did you cough?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Constantly"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_cough",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_cough_q2",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how often did you cough when you took a deep breath?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Constantly"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_cough",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+    },
+    {
+        "field_name": "lipf_cough_q3",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how often did you cough when you exerted?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Constantly"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_cough",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+    },
+    {
+        "field_name": "lipf_cough_q4",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how often did you feel an annoying tickle in your throat?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Not at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Constantly"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_cough",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+    },
+    {
+        "field_name": "lipf_cough_q5",
+        "form_name": "lipf",
+        "section_header": "These items primarily focus on your cough. Again, reflect on the last 24 hours as you consider where you are on the scale between the two statements.",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how much did coughing have a negative effect on your energy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 No effect at all "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 A lot"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_cough_m5",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_energy_q1",
+        "form_name": "lipf",
+        "section_header": "These items primarily focus on your energy level. Again, reflect on the last 24 hours as you consider where you are on the scale between the two statements.",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how was your energy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Extremely low "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Excellent"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_energy",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_energy_q2",
+        "form_name": "lipf",
+        "section_header": "These items primarily focus on your energy level. Again, reflect on the last 24 hours as you consider where you are on the scale between the two statements.",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, of all that you wanted to get done, how much did you actually get done?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Nothing "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 Everything"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_energy_q2",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_energy_q3",
+        "form_name": "lipf",
+        "section_header": "These items primarily focus on your energy level. Again, reflect on the last 24 hours as you consider where you are on the scale between the two statements.",
+        "field_type": "range",
+        "field_label": "Over the last 24 hours, how much energy did you have to do all the things you like to do?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 No energy "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 A lot"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_energy_q3",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_oxygen_q1",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you ever use supplemental oxygen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lipf_oxygen_q2",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I use supplemental oxygen...",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "only when I sleep "
+            },
+            {
+                "code": "1",
+                "label": "only when I perform physical activity (such as exercising, walking or shopping) "
+            },
+            {
+                "code": "2",
+                "label": "when I sleep or perform physical activity (such as exercising, walking or shopping, but not at rest; "
+            },
+            {
+                "code": "3",
+                "label": "all the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_oxygen_q1]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_oxygen_q1'] == 1"
+    },
+    {
+        "field_name": "lipf_oxygen_q3",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When I sleep, I most often use an oxygen flow rate of ___L/min.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0.5 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "1.5 "
+            },
+            {
+                "code": "3",
+                "label": "2 "
+            },
+            {
+                "code": "4",
+                "label": "2.5 "
+            },
+            {
+                "code": "5",
+                "label": "3 "
+            },
+            {
+                "code": "6",
+                "label": "3.5 "
+            },
+            {
+                "code": "7",
+                "label": "4 "
+            },
+            {
+                "code": "8",
+                "label": "4.5 "
+            },
+            {
+                "code": "9",
+                "label": "5 "
+            },
+            {
+                "code": "10",
+                "label": "6 "
+            },
+            {
+                "code": "11",
+                "label": "7 "
+            },
+            {
+                "code": "12",
+                "label": "8 "
+            },
+            {
+                "code": "13",
+                "label": "9 "
+            },
+            {
+                "code": "14",
+                "label": "10 "
+            },
+            {
+                "code": "15",
+                "label": "11 "
+            },
+            {
+                "code": "16",
+                "label": "12 "
+            },
+            {
+                "code": "17",
+                "label": ">12"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_oxygen_q2] = \"0\" or [lipf_oxygen_q2] = \"2\"  or [lipf_oxygen_q2] = \"3\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_oxygen",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_oxygen_q2'] ==  \"0\" || responses['lipf_oxygen_q2'] ==  \"2\"  || responses['lipf_oxygen_q2'] ==  \"3\""
+    },
+    {
+        "field_name": "lipf_oxygen_q4",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When I perform a physical activity (such as exercising, walking or shopping), I most often use an oxygen flow rate of L/min.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0.5 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "1.5 "
+            },
+            {
+                "code": "3",
+                "label": "2 "
+            },
+            {
+                "code": "4",
+                "label": "2.5 "
+            },
+            {
+                "code": "5",
+                "label": "3 "
+            },
+            {
+                "code": "6",
+                "label": "3.5 "
+            },
+            {
+                "code": "7",
+                "label": "4 "
+            },
+            {
+                "code": "8",
+                "label": "4.5 "
+            },
+            {
+                "code": "9",
+                "label": "5 "
+            },
+            {
+                "code": "10",
+                "label": "6 "
+            },
+            {
+                "code": "11",
+                "label": "7 "
+            },
+            {
+                "code": "12",
+                "label": "8 "
+            },
+            {
+                "code": "13",
+                "label": "9 "
+            },
+            {
+                "code": "14",
+                "label": "10 "
+            },
+            {
+                "code": "15",
+                "label": "11 "
+            },
+            {
+                "code": "16",
+                "label": "12 "
+            },
+            {
+                "code": "17",
+                "label": ">12"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_oxygen_q2] = \"1\" or [lipf_oxygen_q2] = \"2\" or [lipf_oxygen_q2] = \"3\"",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_oxygen",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_oxygen_q2'] ==  \"1\" || responses['lipf_oxygen_q2'] ==  \"2\" || responses['lipf_oxygen_q2'] ==  \"3\""
+    },
+    {
+        "field_name": "lipf_oxygen_q5",
+        "form_name": "lipf",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "At rest, I most often use an oxygen flow rate of L/min.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0.5 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "1.5 "
+            },
+            {
+                "code": "3",
+                "label": "2 "
+            },
+            {
+                "code": "4",
+                "label": "2.5 "
+            },
+            {
+                "code": "5",
+                "label": "3 "
+            },
+            {
+                "code": "6",
+                "label": "3.5 "
+            },
+            {
+                "code": "7",
+                "label": "4 "
+            },
+            {
+                "code": "8",
+                "label": "4.5 "
+            },
+            {
+                "code": "9",
+                "label": "5 "
+            },
+            {
+                "code": "10",
+                "label": "6 "
+            },
+            {
+                "code": "11",
+                "label": "7 "
+            },
+            {
+                "code": "12",
+                "label": "8 "
+            },
+            {
+                "code": "13",
+                "label": "9 "
+            },
+            {
+                "code": "14",
+                "label": "10 "
+            },
+            {
+                "code": "15",
+                "label": "11 "
+            },
+            {
+                "code": "16",
+                "label": "12 "
+            },
+            {
+                "code": "17",
+                "label": ">12"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lipf_oxygen_q2]=3",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "lipf_oxygen",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lipf_oxygen_q2'] == 3"
+    }
+]

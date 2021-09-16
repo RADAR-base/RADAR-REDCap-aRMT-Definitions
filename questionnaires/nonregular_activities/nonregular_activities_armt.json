@@ -1,0 +1,113 @@
+[
+    {
+        "field_name": "nonregular_activities_1",
+        "form_name": "nonregular_activities",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Do you have special or non-regular activities scheduled for the coming month, e.g. a holiday, a special occasion, moving house, etc.? Please list up to three.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nonregular_activities_2",
+        "form_name": "nonregular_activities",
+        "section_header": "Thinking about each non-regular activity you have listed in turn, please select how pleasant you think you will find this activity",
+        "field_type": "slider",
+        "field_label": "Other activity 1",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nonregular_activities_3",
+        "form_name": "nonregular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Other activity 2",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nonregular_activities_4",
+        "form_name": "nonregular_activities",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Other activity 3",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful "
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

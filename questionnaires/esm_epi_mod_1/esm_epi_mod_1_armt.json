@@ -2,9 +2,9 @@
     {
         "field_name": "esm_cheerful_epi_v3",
         "form_name": "esm_epi_mod_1",
-        "section_header": "",
+        "section_header": "Think of the moment just before this task",
         "field_type": "range",
-        "field_label": "Right now, I feel cheerful",
+        "field_label": "I feel cheerful",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -54,7 +54,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel down",
+        "field_label": "I feel down",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -104,7 +104,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel anxious",
+        "field_label": "I feel anxious",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -154,7 +154,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel relaxed",
+        "field_label": "I feel relaxed",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -204,7 +204,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel irritated",
+        "field_label": "I feel irritated",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -254,7 +254,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel stressed",
+        "field_label": "I feel stressed",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -304,7 +304,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel content",
+        "field_label": "I feel content",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -354,7 +354,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel insecure",
+        "field_label": "I feel insecure",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -404,7 +404,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel hopeful",
+        "field_label": "I feel hopeful",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -454,7 +454,7 @@
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "range",
-        "field_label": "Right now, I feel lonely",
+        "field_label": "I feel lonely",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1328,44 +1328,6 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_social_people_epi_v3",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "How many people am I with?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3-10 "
-            },
-            {
-                "code": "4",
-                "label": "over 10"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[esm_social_interact_epi_v3(1)] = '1' or [esm_social_interact_epi_v3(2)] = '1' or [esm_social_interact_epi_v3(3)] = '1' or [esm_social_interact_epi_v3(4)] = '1' or [esm_social_interact_epi_v3(5)] = '1' or [esm_social_interact_epi_v3(6)] = '1' or [esm_social_interact_epi_v3(7)] = '1' or [esm_social_interact_epi_v3(8)] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 1 || responses['esm_social_interact_epi_v3'] == 2 || responses['esm_social_interact_epi_v3'] == 3 || responses['esm_social_interact_epi_v3'] == 4 || responses['esm_social_interact_epi_v3'] == 5 || responses['esm_social_interact_epi_v3'] == 6 || responses['esm_social_interact_epi_v3'] == 7 || responses['esm_social_interact_epi_v3'] == 8"
-    },
-    {
         "field_name": "esm_social_doing_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
@@ -1766,136 +1728,6 @@
         "evaluated_logic": "responses['esm_social_interact_epi_v3'] == 0"
     },
     {
-        "field_name": "esm_social_virt_interact_epi_v3",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "I am interacting using virtual communication",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "No "
-            },
-            {
-                "code": "1",
-                "label": "Yes"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "esm_social_virt_pleasant_epi_v3",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "I find this virtual interaction pleasant",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Not at all "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[esm_social_virt_interact_epi_v3] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": "responses['esm_social_virt_interact_epi_v3'] ==  '1'"
-    },
-    {
-        "field_name": "esm_stress_situation_epi_v3",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Most people would find my current situation stressful",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Not at all "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "esm_stress_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
@@ -2100,61 +1932,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "esm_questionnaire_epi_v3",
-        "form_name": "esm_epi_mod_1",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Filling out the questionnaire has influenced my mood today",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 Not at all "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7 Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "esm6_epi_v3",
-        "matrix_ranking": "",
-        "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "esm_seizure_since_last_beep_epi_v3",
         "form_name": "esm_epi_mod_1",
         "section_header": "",
         "field_type": "yesno",
-        "field_label": "Have you had any seizure since the last beep?",
+        "field_label": "Have you had any seizure since the last questionnaire?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",

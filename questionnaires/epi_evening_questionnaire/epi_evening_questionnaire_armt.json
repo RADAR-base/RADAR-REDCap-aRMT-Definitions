@@ -675,7 +675,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[deq_precipitant] = '4'",
+        "branching_logic": "[deq_precipitant(4)] = '1'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",

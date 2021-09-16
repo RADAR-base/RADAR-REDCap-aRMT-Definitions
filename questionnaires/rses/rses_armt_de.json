@@ -4,23 +4,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "1. Im Ganzen bin ich mit mir zufrieden",
+        "field_label": "1. Alles in Allem bin ich zufrieden mit mir selbst",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -42,23 +42,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "2. Manchmal denke ich, ich bin zu gar nichts gut",
+        "field_label": "2. Hin und wieder denke ich, dass ich gar nichts tauge",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -80,23 +80,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "3. Ich denke ich habe einige gute Qualitäten",
+        "field_label": "3. Ich besitze eine Reihe guter Eigenschaften",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -118,23 +118,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "4. Ich bin dazu in der Lage Dinge so gut zu machen wie andere Leute",
+        "field_label": "4. Ich kann vieles genau so gut wie die meisten anderen Menschen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -156,23 +156,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "5. Ich denke ich habe nicht viel auf das Ich stolz sein kann",
+        "field_label": "5. Ich fürchte, es gibt nicht viel, worauf ich stolz sein kann",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -194,23 +194,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "6. Ich fühle mich manchmal nutzlos",
+        "field_label": "6. Ich fühle mich von Zeit zu Zeit richtig nutzlos",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -232,23 +232,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "7. Ich denke ich bin eine wertvolle Person, wenigstens auf gleicher Ebene mit anderen.",
+        "field_label": "7. Ich halte mich für einen wertvollen Menschen, jedenfalls bin ich nicht weniger wertvoll als andere",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -270,23 +270,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "8. Ich wünschte ich könnte mehr Selbstachtung haben",
+        "field_label": "8. Ich wünschte, ich könnte vor mir selbst mehr Achtung haben",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -308,23 +308,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "9. Alles in allem bin ich geneigt mich als Versagerin / Versager zu sehen",
+        "field_label": "9. Alles in Allem neige ich dazu, mich für einen Versager zu halten",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
@@ -346,23 +346,23 @@
         "form_name": "rses",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "10. Ich habe eine positive Einstellung gegenüber mir selbst.",
+        "field_label": "10. Ich habe eine positive Einstellung zu mir selbst gefunden",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Stimme überhaupt nicht zu "
+                "label": "Trifft völlig zu"
             },
             {
                 "code": "1",
-                "label": "Stimme nicht zu "
+                "label": "Trifft größtenteils zu"
             },
             {
                 "code": "2",
-                "label": "Stimme zu "
+                "label": "Trifft eher nicht zu"
             },
             {
                 "code": "3",
-                "label": "Stimme sehr zu"
+                "label": "Trifft gar nicht zu"
             }
         ],
         "field_note": "",
