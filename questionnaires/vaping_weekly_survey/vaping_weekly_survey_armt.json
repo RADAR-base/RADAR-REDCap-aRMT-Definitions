@@ -669,12 +669,12 @@
         "field_label": "Unexplained pain or ache",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -699,12 +699,12 @@
         "field_label": "Very heavy night sweats",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -729,12 +729,12 @@
         "field_label": "Unexplained weight loss",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -759,12 +759,12 @@
         "field_label": "Unusual lump or swelling anywhere",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -789,12 +789,12 @@
         "field_label": "Unusual fatigue",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
