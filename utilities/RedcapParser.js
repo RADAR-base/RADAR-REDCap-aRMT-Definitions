@@ -147,6 +147,7 @@ function REDCapConverter(redcap_json) {
   };
 
   removeFirstWhiteSpace = function(val) {
+    if (val) val = val.trim();
     if (val && val.substr(0, 1) === ' ') {
       return val.substr(1);
     }
