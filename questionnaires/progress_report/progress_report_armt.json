@@ -4,19 +4,19 @@
         "form_name": "progress_report",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Congratulations! You have completed the first week of our Mobile Measures Month. There are three more weeks to go. Please let us know how you're getting on. ",
+        "field_label": "Congratulations! You have completed the first week of our Mobile Measures Month. There are three more weeks to go. Please rate how you're getting on below. Don't forget, you can contact us at eu-aims@kcl.ac.uk if you need help.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Everything is fine; I'm happy to keep going as I am "
+                "label": "Everything is going OK"
             },
             {
                 "code": "2",
-                "label": "I've had some difficulties but I've managed to resolve these myself "
+                "label": "I've had some difficulties but I've managed to resolve these myself"
             },
             {
                 "code": "3",
-                "label": "I have some issues; I'd like to speak to a researcher"
+                "label": "I had some issues that I need help with"
             }
         ],
         "field_note": "",
@@ -42,15 +42,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Everything is fine; I'm happy to keep going as I am "
+                "label": "Everything is going OK"
             },
             {
                 "code": "2",
-                "label": "I've had some difficulties but I've managed to resolve these myself "
+                "label": "I've had some difficulties but I've managed to resolve these myself"
             },
             {
                 "code": "3",
-                "label": "I have some issues; I'd like to speak to a researcher"
+                "label": "I had some issues that I need help with"
             }
         ],
         "field_note": "",
@@ -76,15 +76,15 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Everything is fine; I'm happy to keep going as I am "
+                "label": "Everything is going OK"
             },
             {
                 "code": "2",
-                "label": "I've had some difficulties but I've managed to resolve these myself "
+                "label": "I've had some difficulties but I've managed to resolve these myself"
             },
             {
                 "code": "3",
-                "label": "I have some issues; I'd like to speak to a researcher"
+                "label": "I had some issues that I need help with"
             }
         ],
         "field_note": "",
