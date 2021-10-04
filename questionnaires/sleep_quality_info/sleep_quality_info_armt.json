@@ -7,12 +7,12 @@
         "field_label": "Sleep Quality Rating Instructions",
         "select_choices_or_calculations": [
             {
-                "code": "1",
-                "label": "Part 1, Each morning you will receive a notification to rate how well you slept during the night. We'd like you to consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was."
+                "code": "Part1",
+                "label": "Each morning you will receive a notification to rate how well you slept during the night. We'd like you to consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was."
             },
             {
-                "code": "2",
-                "label": "Part 2, Please rate your subjective experience without considering any objective ratings that you might notice in the Fitbit app. The rating will be on a scale of 0-100 where 0 means the worst sleep you can imagine and 100 is the best sleep you can imagine."
+                "code": "Part2",
+                "label": "Please rate your subjective experience without considering any objective ratings that you might notice in the Fitbit app. The rating will be on a scale of 0-100 where 0 means the worst sleep you can imagine and 100 is the best sleep you can imagine."
             }
         ],
         "field_note": "",
