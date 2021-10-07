@@ -1,0 +1,65 @@
+[
+    {
+        "field_name": "sleep_quality_info",
+        "form_name": "sleep_quality_info",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sleep Quality Rating Instructions",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Each morning you will receive a notification to rate how well you slept during the night. We'd like you to consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was."
+            },
+            {
+                "code": "Part2",
+                "label": "Please rate your subjective experience without considering any objective ratings that you might notice in the Fitbit app. The rating will be on a scale of 0-100 where 0 means the worst sleep you can imagine and 100 is the best sleep you can imagine."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_quality",
+        "form_name": "sleep_quality_info",
+        "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
+        "field_type": "slider",
+        "field_label": "How would you rate your sleep quality overall (0=worst sleep and 100=best sleep)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Terrible"
+            },
+            {
+                "code": ""
+            },
+            {
+                "code": "100",
+                "label": "Excellent"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
