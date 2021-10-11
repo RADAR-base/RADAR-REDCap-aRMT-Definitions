@@ -15,7 +15,7 @@
                 "label": "Please rate your subjective experience without considering any objective ratings that you might notice in the Fitbit app. The rating will be on a scale of 0-100 where 0 means the worst sleep you can imagine and 100 is the best sleep you can imagine."
             }
         ],
-        "field_note": "",
+        "field_note": "info-type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
@@ -30,7 +30,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "sleep_quality",
+        "field_name": "sleep_quality_2",
         "form_name": "sleep_quality_info",
         "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
         "field_type": "slider",
