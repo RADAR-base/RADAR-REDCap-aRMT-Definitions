@@ -3,7 +3,7 @@
         "field_name": "sleep_quality_info",
         "form_name": "sleep_quality_info",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "info",
         "field_label": "Sleep Quality Rating Instructions",
         "select_choices_or_calculations": [
             {
@@ -30,7 +30,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "sleep_quality_2",
+        "field_name": "sleep_quality",
         "form_name": "sleep_quality_info",
         "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
         "field_type": "slider",
