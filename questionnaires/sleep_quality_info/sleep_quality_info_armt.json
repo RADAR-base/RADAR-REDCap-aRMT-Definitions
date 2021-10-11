@@ -3,7 +3,7 @@
         "field_name": "sleep_quality_info",
         "form_name": "sleep_quality_info",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "info",
         "field_label": "Sleep Quality Rating Instructions",
         "select_choices_or_calculations": [
             {
@@ -15,7 +15,7 @@
                 "label": "Please rate your subjective experience without considering any objective ratings that you might notice in the Fitbit app. The rating will be on a scale of 0-100 where 0 means the worst sleep you can imagine and 100 is the best sleep you can imagine."
             }
         ],
-        "field_note": "",
+        "field_note": "info-type",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
