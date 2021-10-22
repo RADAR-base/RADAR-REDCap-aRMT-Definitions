@@ -54,20 +54,20 @@
         "form_name": "ESM_DynaMINT",
         "section_header": "",
         "field_type": "text",
-        "field_label": " try to think, or keep on thinking in mental images! What pleasant event may be upcoming to you? What can you see, hear, feel, smell, and taste in your imagination?",
+        "field_label": "Try to think, or keep on keep on thinking in mental images! What pleasant event may be upcoming to you? What can you see, hear, feel, smell, and taste in your imagination?",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_DynaMINT_moodItem8(4)] = '1' || [ESM_DynaMINT_moodItem8(5)] = '1' || [ESM_DynaMINT_moodItem8(6)] = '1' || [ESM_DynaMINT_moodItem8(7)] = '1'",
+        "branching_logic": "[ESM_DynaMINT_moodItem8] = '4'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_event_description",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 4 || responses['ESM_DynaMINT_moodItem8'] == 5 || responses['ESM_DynaMINT_moodItem8'] == 6 || responses['ESM_DynaMINT_moodItem8'] == 7"
+        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 4"
     },
     {
         "field_name": "ESM_DynaMORE_appLauncher",
