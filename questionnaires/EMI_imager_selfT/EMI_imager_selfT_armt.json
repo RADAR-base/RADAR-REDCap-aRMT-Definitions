@@ -126,7 +126,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description(1)] = '1'",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
