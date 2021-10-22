@@ -3,7 +3,7 @@
         "field_name": "ESM_DynaMINT_moodItem8",
         "form_name": "ESM_DynaMINT",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I feel stressed.",
         "select_choices_or_calculations": [
             {
@@ -60,14 +60,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_DynaMINT_moodItem8] = '4' or [ESM_DynaMINT_moodItem8] = '5' or [ESM_DynaMINT_moodItem8] = '6' or [ESM_DynaMINT_moodItem8] = '7'",
+        "branching_logic": "[ESM_DynaMINT_moodItem8] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_event_description",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 4 || responses['ESM_DynaMINT_moodItem8'] == 5 || responses['ESM_DynaMINT_moodItem8'] == 6 || responses['ESM_DynaMINT_moodItem8'] == 7"
+        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 1"
     },
     {
         "field_name": "ESM_DynaMORE_appLauncher",
