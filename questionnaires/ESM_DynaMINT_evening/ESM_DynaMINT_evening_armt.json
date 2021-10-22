@@ -3,7 +3,7 @@
         "field_name": "ESM_EveningDynaMORE_Q1",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "This was a normal day for me",
         "select_choices_or_calculations": [
             {
@@ -53,7 +53,7 @@
         "field_name": "ESM_EveningDynaMORE_Q2",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "This was a nice day",
         "select_choices_or_calculations": [
             {
@@ -153,7 +153,7 @@
         "field_name": "ESM_EveningDynaMORE_Q4",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I expect stressful events tomorrow.",
         "select_choices_or_calculations": [
             {
@@ -203,7 +203,7 @@
         "field_name": "ESM_EveningDynaMORE_Q5",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I am confident I can cope with tomorrow's stressful events.",
         "select_choices_or_calculations": [
             {
@@ -253,7 +253,7 @@
         "field_name": "ESM_EveningDynaMORE_Q6",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I expect pleasant events tomorrow.",
         "select_choices_or_calculations": [
             {
@@ -303,7 +303,7 @@
         "field_name": "ESM_EveningDynaMORE_Q7",
         "form_name": "ESM_DynaMORE_Evening",
         "section_header": " ",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I am looking forward to the pleasant things I am expecting tomorrow.",
         "select_choices_or_calculations": [
             {
@@ -340,7 +340,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[ESM_EveningDynaMORE_Q6] = '2' or [ESM_EveningDynaMORE_Q6] = '3' or [ESM_EveningDynaMORE_Q6] = '4' or [ESM_EveningDynaMORE_Q6] = '5' or [ESM_EveningDynaMORE_Q6] = '6' or [ESM_EveningDynaMORE_Q6] = '7'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
