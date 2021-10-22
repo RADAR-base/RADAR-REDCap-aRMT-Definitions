@@ -1,0 +1,87 @@
+{
+  "version": "0.1.6",
+  "schemaVersion": "0.1.0",
+  "name": "DynaMNT",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+    {
+      "name": "On the go EMI",
+      "type": "on_demand",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT-TEST/Imager/",
+        "name": "EMI_self-triggered",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    36363636363636   
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+   }
+  ]
+}
