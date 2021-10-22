@@ -158,9 +158,9 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
-    },    
+    },
     {
-        "field_name": "EMI_DynaMINT_ReApp_feel",
+        "field_name": "EMI_DynaMINT_ReApp_hardtoreapp",
         "form_name": "EMI_DynaMINT_ReApp",
         "section_header": "",
         "field_type": "range",
@@ -208,7 +208,8 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
-    },    
+    },      
+
     {
         "field_name": "EMI_DynaMINT_ReApp_hard",
         "form_name": "EMI_DynaMINT_ReApp",
