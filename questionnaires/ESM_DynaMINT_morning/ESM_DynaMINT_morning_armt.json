@@ -1,6 +1,5 @@
 [
     {
-
         "field_name": "ESM_morning_DynaMORE_Q1",
         "form_name": "ESM_DynaMORE_Morning",
         "section_header": "",
@@ -47,7 +46,7 @@
         "field_name": "ESM_morning_DynaMORE_Q3",
         "form_name": "ESM_DynaMORE_Morning",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I slept well.",
         "select_choices_or_calculations": [
             {
@@ -97,7 +96,7 @@
         "field_name": "ESM_morning_DynaMORE_Q4",
         "form_name": "ESM_DynaMORE_Morning",
         "section_header": "",
-        "field_type": "range",
+        "field_type": "radio",
         "field_label": "I feel rested.",
         "select_choices_or_calculations": [
             {
