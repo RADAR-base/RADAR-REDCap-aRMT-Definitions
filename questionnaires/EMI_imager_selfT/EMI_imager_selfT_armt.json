@@ -126,14 +126,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description] = '1'",
+        "branching_logic": "[EMI_DynaMINT_event_description] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_event_description",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_event_description'] == 1"
+        "evaluated_logic": "responses['EMI_DynaMINT_event_description'] == 1"
     },
         {
         "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
@@ -156,7 +156,7 @@
         "evaluated_logic": ""
     },
         {
-        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info",
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info1",
         "form_name": "EMI_DynaMINT_IMAGER",
         "section_header": "",
         "field_type": "info",
@@ -181,12 +181,19 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
+
         {
-        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry",
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info2",
         "form_name": "EMI_DynaMINT_IMAGER",
         "section_header": "",
-        "field_type": "text",
-        "field_label": "Now, type what you see, feel, and smell as you imagine.",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Now, we will ask you to provide information on some important aspects of this image, as you see it through your own eyes. Press next when you are ready.",
+            "code": ""         
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -201,6 +208,74 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I see...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I touch...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I feel...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+
+
+
+
+
+
+
+
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
         "form_name": "EMI_DynaMINT_IMAGER",
