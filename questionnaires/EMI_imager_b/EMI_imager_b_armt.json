@@ -60,14 +60,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[ESM_DynaMINT_moodItem8] = '1'",
+        "branching_logic": "[ESM_DynaMINT_moodItem8] = '4'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_event_description",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 1"
+        "evaluated_logic": "responses['ESM_DynaMINT_moodItem8'] == 4"
     },
     {
         "field_name": "ESM_DynaMORE_appLauncher",
