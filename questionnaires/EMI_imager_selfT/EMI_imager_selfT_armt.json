@@ -126,14 +126,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[EMI_DynaMINT_event_description] = '1'",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description_inspiration] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_event_description",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['EMI_DynaMINT_event_description'] == 1"
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_event_description_inspiration'] == 1"
     },
         {
         "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
