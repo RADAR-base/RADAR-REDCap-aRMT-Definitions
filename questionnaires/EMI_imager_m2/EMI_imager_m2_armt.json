@@ -1,1 +1,526 @@
+[
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Think about a pleasant event that is going to happen to you within the next few hours.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Ok, got it!"
+            },
+            {
+                "code": "1",
+                "label": "I need some inspiration!"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_inspiration",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
+        "select_choices_or_calculations": [
+            {
+            "label": "I will go to the cinema.",
+            "code": "Example 1"         
+            },
+            {
+            "label": "I will listen to music.",
+            "code": "Example 2"         
+            },
+            {
+            "label": "I will spend an evening with good friends.",
+            "code": "Example 3"         
+            },
+            {
+            "label": "I will buy things for myself.",
+            "code": "Example 4"         
+            },
+            {
+            "label": "I will see or show photos.",
+            "code": "Example 5"         
+            },
+            {
+            "label": "I will say 'I love you'.",
+            "code": "Example 6"         
+            },
+            {
+            "label": "I will take care of my plants.",
+            "code": "Example 7"         
+            },
+            {
+            "label": "I will watch videos or Netflix.",
+            "code": "Example 8"         
+            },
+            {
+            "label": "I will have family get-togethers.",
+            "code": "Example 9"         
+            },
+            {
+            "label": "I will cook or bake.",
+            "code": "Example 10"         
+            },
+            {
+            "label": "I will meditate.",
+            "code": "Example 11"         
+            },
+            {
+            "label": "I will kiss someone who I like.",
+            "code": "Example 12"         
+            },
+            {
+            "label": "I will go to a gym, do exercising.",
+            "code": "Example 13"         
+            },
+            {
+            "label": "I will have an early morning coffee.",
+            "code": "Example 14"         
+            },
+            {
+            "label": "I will go to a party.",
+            "code": "Example 15"         
+            },
+            {
+            "label": "I will go to church, pray, practise religion.",
+            "code": "Example 16"         
+            },
+            {
+            "label": "I will walk on the riverfront.",
+            "code": "Example 17"         
+            },
+            {
+            "label": "I will go bowling.",
+            "code": "Example 18"         
+            },
+            {
+            "label": "I will rearrange the furniture in my house.",
+            "code": "Example 19"         
+            },
+            {
+            "label": "I will light candles.",
+            "code": "Example 20"         
+            },
+            {
+            "label": "I will be watching my children play.",
+            "code": "Example 21"         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_event_description] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['EMI_DynaMINT_event_description'] == 1"
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Type a brief description of your event, seeing it through your own eyes (eg. I will go for a walk with my dog, not: Going for a walk with a dog).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Try to imagine yourself being actively involved in this event. What makes this event pleasant for you? Create a mental image that includes what you will see, hear, taste, touch and smell. These can be sensations which this event brings to your body and the feelings the event creates in your mind. If this helps, close your eyes for a while and take your time. There is no need to hurry. Press next when you are ready.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
 
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info2",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Now, we will ask you to provide information on some important aspects of this image, as you see it through your own eyes. Press next when you are ready.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I hear...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I feel...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "I smell...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+
+
+
+
+
+
+
+
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How vivid was the image you created?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Weak"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Almost as vivid as real"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_info",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "We will now ask you some questions about how you now, at this moment, feel about the event. Press next when you are ready.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "This event will be pleasant for me.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Very Much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I can’t wait for this event to happen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Very Much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item3",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "It was easy for me to imagine the event.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Very Much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "ESM_DynaMORE_IMAGER_appLauncher",
+        "form_name": "ESM_DynaMORE_IMAGER",
+        "section_header": "",
+        "field_type": "launcher",
+        "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
+        "external_app_name": "DynaMORE",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_launch",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
