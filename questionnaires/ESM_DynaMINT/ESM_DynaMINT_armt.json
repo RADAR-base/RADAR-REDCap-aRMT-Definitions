@@ -1122,36 +1122,7 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
-    {
-        "field_name": "ESM_DynaMORE_substanceUseItem1",
-        "form_name": "ESM_DynaMORE",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Since the last beep, I have used one (or more) of the following: Caffeine, medication, alcohol, cigarettes, drugs",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "No"
-            },
-            {
-                "code": "1",
-                "label": "Yes"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_substanceUse",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
+    
     {
         "field_name": "ESM_DynaMORE_anticipationOfPleasureInfo",
         "form_name": "ESM_DynaMORE",
