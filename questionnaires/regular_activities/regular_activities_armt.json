@@ -1,34 +1,47 @@
 [
     {
+        "field_name": "regular_activities_desc",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Next, we'd like to get an idea of your regular activities during a typical month, how much time you spend on them, and how much you enjoy them.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "regular_activities_1",
         "form_name": "regular_activities",
         "section_header": "For each of the following categories, please select how frequently you engage in these activities",
         "field_type": "radio",
-        "field_label": "Eating, e.g. breakfast, lunch, dinner, snacking (count special meals with others in \"social\")",
+        "field_label": "Eating, e.g. meal times and snacking (count special meals with others in \"social\")",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "less than 1 hour per day"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 2 hours per day"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "2 to 3 hours per day"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "over 3 hours per day"
             }
         ],
         "field_note": "",
@@ -37,7 +50,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -54,27 +67,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "less than 1 hour per day"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 2 hours per day"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "2 to 3 hours per day"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "over 3 hours per day"
             }
         ],
         "field_note": "",
@@ -83,7 +88,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -100,27 +105,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "less than 1 day per week"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 2 days per week"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "3 to 5 day per week"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "over 5 days per week"
             }
         ],
         "field_note": "",
@@ -129,7 +126,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -146,27 +143,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "less than 1 hour per day"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 2 hours per day"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "2 to 3 hours per day"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "over 3 hours per day"
             }
         ],
         "field_note": "",
@@ -175,7 +164,45 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "regular_activities_9",
+        "form_name": "regular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Travel, e.g. commuting to work or school, travelling to see family/friends, travelling to an activity",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "less than 1 hour per day"
+            },
+            {
+                "code": "1",
+                "label": "1 to 2 hours per day"
+            },
+            {
+                "code": "2",
+                "label": "2 to 3 hours per day"
+            },
+            {
+                "code": "3",
+                "label": "over 3 hours per day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -192,27 +219,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "never or less than once a month"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 3 times a week"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "most days"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "every day"
             }
         ],
         "field_note": "",
@@ -221,7 +240,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -238,27 +257,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "never or less than once a month"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 3 times a week"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "most days"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "every day"
             }
         ],
         "field_note": "",
@@ -267,7 +278,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -284,27 +295,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "never or less than once a month"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 3 times a week"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "most days"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "every day"
             }
         ],
         "field_note": "",
@@ -313,7 +316,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -330,27 +333,19 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "never or less than once a month "
+                "label": "never or less than once a month"
             },
             {
                 "code": "1",
-                "label": "1 to 3 times a month "
+                "label": "1 to 3 times a week"
             },
             {
                 "code": "2",
-                "label": "1 to 3 times a week "
+                "label": "most days"
             },
             {
                 "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
+                "label": "every day"
             }
         ],
         "field_note": "",
@@ -359,53 +354,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "regular_activities_9",
-        "form_name": "regular_activities",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Travel, e.g. commuting to work or school, travelling to see family/friends, travelling to an activity, travelling for a trip away",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "never or less than once a month "
-            },
-            {
-                "code": "1",
-                "label": "1 to 3 times a month "
-            },
-            {
-                "code": "2",
-                "label": "1 to 3 times a week "
-            },
-            {
-                "code": "3",
-                "label": "most days "
-            },
-            {
-                "code": "4",
-                "label": "once every day "
-            },
-            {
-                "code": "5",
-                "label": "more than once per day"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -422,7 +371,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -435,7 +384,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -452,7 +401,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -465,7 +414,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -482,7 +431,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -495,7 +444,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -512,7 +461,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -525,7 +474,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -542,7 +491,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -555,7 +504,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -572,7 +521,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -585,7 +534,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -602,7 +551,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -615,7 +564,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -632,7 +581,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -645,7 +594,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
@@ -662,7 +611,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -675,7 +624,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
