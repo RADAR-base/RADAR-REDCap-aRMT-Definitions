@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "nonregular_activities_1",
+        "field_name": "nonregular_activities_desc",
         "form_name": "nonregular_activities",
         "section_header": "",
-        "field_type": "text",
-        "field_label": "Do you have special or non-regular activities scheduled for the coming month, e.g. a holiday, a special occasion, moving house, etc.? Please list up to three.",
+        "field_type": "descriptive",
+        "field_label": "Finally, we'd like to know about any special events coming up. We'll ask you to describe up to three, and to rate how you feel about them.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -12,7 +12,37 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "y",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nonregular_activities_1",
+        "form_name": "nonregular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you have any special or non-regular activities scheduled for the coming month, e.g., a holiday, a special occasion, interview, etc.?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -23,43 +53,34 @@
     {
         "field_name": "nonregular_activities_2",
         "form_name": "nonregular_activities",
-        "section_header": "Thinking about each non-regular activity you have listed in turn, please select how pleasant you think you will find this activity",
-        "field_type": "slider",
-        "field_label": "Other activity 1",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "very unpleasant or stressful "
-            },
-            {
-                "code": "100",
-                "label": "very pleasant or enjoyable"
-            }
-        ],
+        "section_header": "Special activity 1",
+        "field_type": "text",
+        "field_label": "Please describe the activity you have coming up (e.g., \"weekend away\")",
+        "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RV",
+        "branching_logic": "[nonregular_activities_1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1'"
     },
     {
         "field_name": "nonregular_activities_3",
         "form_name": "nonregular_activities",
-        "section_header": "",
+        "section_header": "Special activity 1",
         "field_type": "slider",
-        "field_label": "Other activity 2",
+        "field_label": "Please rate how pleasant you think you will find this activity",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -71,25 +92,76 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
+        "branching_logic": "[nonregular_activities_1] = '1'",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1'"
     },
     {
         "field_name": "nonregular_activities_4",
         "form_name": "nonregular_activities",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "Other activity 3",
+        "field_type": "radio",
+        "field_label": "Do you have any more special or non-regular activities scheduled for the coming month?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "very unpleasant or stressful "
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[nonregular_activities_1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1'"
+    },
+    {
+        "field_name": "nonregular_activities_5",
+        "form_name": "nonregular_activities",
+        "section_header": "Special activity 2",
+        "field_type": "text",
+        "field_label": "Please describe the activity you have coming up (e.g., \"weekend away\")",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[nonregular_activities_1] = '1' and [nonregular_activities_4] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1' && responses['nonregular_activities_4'] ==  '1'"
+    },
+    {
+        "field_name": "nonregular_activities_6",
+        "form_name": "nonregular_activities",
+        "section_header": "Special activity 2",
+        "field_type": "slider",
+        "field_label": "Please rate how pleasant you think you will find this activity",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful"
             },
             {
                 "code": "100",
@@ -101,13 +173,94 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
+        "branching_logic": "[nonregular_activities_1] = '1' and [nonregular_activities_4] = '1'",
+        "required_field": "",
         "custom_alignment": "RV",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1' && responses['nonregular_activities_4'] ==  '1'"
+    },
+    {
+        "field_name": "nonregular_activities_7",
+        "form_name": "nonregular_activities",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you have any more special or non-regular activities scheduled for the coming month?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[nonregular_activities_1] = '1' and [nonregular_activities_4] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1' && responses['nonregular_activities_4'] ==  '1'"
+    },
+    {
+        "field_name": "nonregular_activities_8",
+        "form_name": "nonregular_activities",
+        "section_header": "Special activity 3",
+        "field_type": "text",
+        "field_label": "Please describe the activity you have coming up (e.g., \"weekend away\")",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[nonregular_activities_1] = '1' and [nonregular_activities_4] = '1' and [nonregular_activities_7] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1' && responses['nonregular_activities_4'] ==  '1' && responses['nonregular_activities_7'] ==  '1'"
+    },
+    {
+        "field_name": "nonregular_activities_9",
+        "form_name": "nonregular_activities",
+        "section_header": "Special activity 3",
+        "field_type": "slider",
+        "field_label": "Please rate how pleasant you think you will find this activity",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "very unpleasant or stressful"
+            },
+            {
+                "code": "100",
+                "label": "very pleasant or enjoyable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[nonregular_activities_1] = '1' and [nonregular_activities_4] = '1' and [nonregular_activities_7] = '1'",
+        "required_field": "",
+        "custom_alignment": "RV",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['nonregular_activities_1'] ==  '1' && responses['nonregular_activities_4'] ==  '1' && responses['nonregular_activities_7'] ==  '1'"
     }
 ]
