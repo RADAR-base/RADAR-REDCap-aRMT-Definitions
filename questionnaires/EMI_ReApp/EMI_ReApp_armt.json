@@ -160,7 +160,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "EMI_DynaMINT_ReApp_hardtoreapp",
+        "field_name": "EMI_DynaMINT_ReApp_feelBetter",
         "form_name": "EMI_DynaMINT_ReApp",
         "section_header": "",
         "field_type": "range",
@@ -296,27 +296,6 @@
         "matrix_group_name": "ESM_DynaMINT_mood",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "EMI_DynaMINT_ReApp_appLauncher",
-        "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
-        "field_type": "launcher",
-        "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
-        "external_app_name": "DynaMORE",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_launch",
-        "matrix_ranking": "",
-        "field_annotation": "",
         "evaluated_logic": ""
     }
 ]
