@@ -25,7 +25,7 @@
         "form_name": "nonregular_activities",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Do you have any special or non-regular activities scheduled for the coming month, e.g., a holiday, a special occasion, interview, etc.?",
+        "field_label": "Do you have any special or non-regular activities scheduled for the coming month (e.g., a holiday, a special occasion, interview, etc.?)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -104,7 +104,7 @@
     {
         "field_name": "nonregular_activities_4",
         "form_name": "nonregular_activities",
-        "section_header": "",
+        "section_header": "Special activity 2",
         "field_type": "radio",
         "field_label": "Do you have any more special or non-regular activities scheduled for the coming month?",
         "select_choices_or_calculations": [
@@ -185,7 +185,7 @@
     {
         "field_name": "nonregular_activities_7",
         "form_name": "nonregular_activities",
-        "section_header": "",
+        "section_header": "Special activity 3",
         "field_type": "radio",
         "field_label": "Do you have any more special or non-regular activities scheduled for the coming month?",
         "select_choices_or_calculations": [
