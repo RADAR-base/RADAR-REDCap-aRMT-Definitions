@@ -1,0 +1,1973 @@
+[
+    {
+        "field_name": "caddra_pre1",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Is your medication type/dosage under review by your clinical care team/GP?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_pre2",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In the last week, have you taken medication for your ADHD?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_3a",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "Please mark any changes that have occurred since taking the current medication on the lines below:",
+        "field_type": "radio",
+        "field_label": "ADHD Symptom Control",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 worse"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0 unchanged"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 better"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_1",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_3b",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tolerability of Medication (side effects)",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 worse"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0 unchanged"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 better"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_1",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_3c",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Quality of Life",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 worse"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0 unchanged"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 better"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_1",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_4",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How would you rate the global changes that have occurred since medication started?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not applicable (medication not taken)"
+            },
+            {
+                "code": "1",
+                "label": "No change"
+            },
+            {
+                "code": "2",
+                "label": "Marked improvement"
+            },
+            {
+                "code": "3",
+                "label": "Small improvement"
+            },
+            {
+                "code": "4",
+                "label": "Small deterioration"
+            },
+            {
+                "code": "5",
+                "label": "Marked deterioration"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_4open",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please include any comments about your medication that you think would be useful for us to know",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5a",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "Please select any side effects experienced with the current treatment in the last week.\nContact your GP if side effects are significant.",
+        "field_type": "radio",
+        "field_label": "Appetite reduction",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5b",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Weight loss",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5c",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Weight gain",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5d",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Stomach aches",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5e",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Nausea",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5f",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Vomiting",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5g",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Diarrhea",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5h",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dryness (skin/ eyes/ mouth)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5i",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Thirst",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5j",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sore throat",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5k",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sleep difficulties",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5l",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tics",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5m",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Headache",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5n",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Muscular tensions",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5o",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Fatigue",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5p",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dizziness",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5q",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sweating",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5r",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Agitation/ excitability",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5s",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Irritability",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5t",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Mood instability",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5u",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Over focus \"zombie effect\"",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5v",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sadness",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5w",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Heart palpitations",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5x",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Blood pressure changes (significantly lower or higher)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5y",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Frequent urination",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5z",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sexual dysfunction",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5aa",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Feeling worse or different when medication wears off (rebound)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5bb",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Other",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            },
+            {
+                "code": "3",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "caddra_side_effects",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "caddra_5open",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please name the other side effect that you have experienced with the current treatment in the last week",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5cc] >= '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5cc'] ==  '1'"
+    },
+    {
+        "field_name": "caddra_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Please provide any comments on your side effects",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5a] = '1' or [caddra_5a] = '2' or [caddra_5a] = '3' or [caddra_5b] = '1' or [caddra_5b] = '2' or [caddra_5b] = '3' or [caddra_5c] = '1' or [caddra_5c] = '2' or [caddra_5c] = '3' or [caddra_5d] = '1' or [caddra_5d] = '2' or [caddra_5d] = '3' or [caddra_5e] = '1' or [caddra_5e] = '2' or [caddra_5e] = '3' or [caddra_5f] = '1' or [caddra_5f] = '2' or [caddra_5f] = '3' or [caddra_5g] = '1' or [caddra_5g] = '2' or [caddra_5g] = '3' or [caddra_5h] = '1' or [caddra_5h] = '2' or [caddra_5h] = '3' or [caddra_5i] = '1' or [caddra_5i] = '2' or [caddra_5i] = '3' or [caddra_5j] = '1' or [caddra_5j] = '2' or [caddra_5j] = '3' or [caddra_5k] = '1' or [caddra_5k] = '2' or [caddra_5k] = '3' or [caddra_5l] = '1' or [caddra_5l] = '2' or [caddra_5l] = '3' or [caddra_5m] = '1' or [caddra_5m] = '2' or [caddra_5m] = '3' or [caddra_5n] = '1' or [caddra_5n] = '2' or [caddra_5n] = '3' or [caddra_5o] = '1' or [caddra_5o] = '2' or [caddra_5o] = '3' or [caddra_5p] = '1' or [caddra_5p] = '2' or [caddra_5p] = '3' or [caddra_5q] = '1' or [caddra_5q] = '2' or [caddra_5q] = '3' or [caddra_5r] = '1' or [caddra_5r] = '2' or [caddra_5r] = '3' or [caddra_5s] = '1' or [caddra_5s] = '2' or [caddra_5s] = '3' or [caddra_5t] = '1' or [caddra_5t] = '2' or [caddra_5t] = '3' or [caddra_5u] = '1' or [caddra_5u] = '2' or [caddra_5u] = '3' or [caddra_5v] = '1' or [caddra_5v] = '2' or [caddra_5v] = '3' or [caddra_5w] = '1' or [caddra_5w] = '2' or [caddra_5w] = '3' or [caddra_5x] = '1' or [caddra_5x] = '2' or [caddra_5x] = '3' or [caddra_5y] = '1' or [caddra_5y] = '2' or [caddra_5y] = '3' or [caddra_5z] = '1' or [caddra_5z] = '2' or [caddra_5z] = '3' or [caddra_5aa] = '1' or [caddra_5aa] = '2' or [caddra_5aa] = '3' or [caddra_5bb] = '1' or [caddra_5bb] = '2' or [caddra_5bb] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5a'] ==  '1' || responses['caddra_5a'] ==  '2' || responses['caddra_5a'] ==  '3' || responses['caddra_5b'] ==  '1' || responses['caddra_5b'] ==  '2' || responses['caddra_5b'] ==  '3' || responses['caddra_5c'] ==  '1' || responses['caddra_5c'] ==  '2' || responses['caddra_5c'] ==  '3' || responses['caddra_5d'] ==  '1' || responses['caddra_5d'] ==  '2' || responses['caddra_5d'] ==  '3' || responses['caddra_5e'] ==  '1' || responses['caddra_5e'] ==  '2' || responses['caddra_5e'] ==  '3' || responses['caddra_5f'] ==  '1' || responses['caddra_5f'] ==  '2' || responses['caddra_5f'] ==  '3' || responses['caddra_5g'] ==  '1' || responses['caddra_5g'] ==  '2' || responses['caddra_5g'] ==  '3' || responses['caddra_5h'] ==  '1' || responses['caddra_5h'] ==  '2' || responses['caddra_5h'] ==  '3' || responses['caddra_5i'] ==  '1' || responses['caddra_5i'] ==  '2' || responses['caddra_5i'] ==  '3' || responses['caddra_5j'] ==  '1' || responses['caddra_5j'] ==  '2' || responses['caddra_5j'] ==  '3' || responses['caddra_5k'] ==  '1' || responses['caddra_5k'] ==  '2' || responses['caddra_5k'] ==  '3' || responses['caddra_5l'] ==  '1' || responses['caddra_5l'] ==  '2' || responses['caddra_5l'] ==  '3' || responses['caddra_5m'] ==  '1' || responses['caddra_5m'] ==  '2' || responses['caddra_5m'] ==  '3' || responses['caddra_5n'] ==  '1' || responses['caddra_5n'] ==  '2' || responses['caddra_5n'] ==  '3' || responses['caddra_5o'] ==  '1' || responses['caddra_5o'] ==  '2' || responses['caddra_5o'] ==  '3' || responses['caddra_5p'] ==  '1' || responses['caddra_5p'] ==  '2' || responses['caddra_5p'] ==  '3' || responses['caddra_5q'] ==  '1' || responses['caddra_5q'] ==  '2' || responses['caddra_5q'] ==  '3' || responses['caddra_5r'] ==  '1' || responses['caddra_5r'] ==  '2' || responses['caddra_5r'] ==  '3' || responses['caddra_5s'] ==  '1' || responses['caddra_5s'] ==  '2' || responses['caddra_5s'] ==  '3' || responses['caddra_5t'] ==  '1' || responses['caddra_5t'] ==  '2' || responses['caddra_5t'] ==  '3' || responses['caddra_5u'] ==  '1' || responses['caddra_5u'] ==  '2' || responses['caddra_5u'] ==  '3' || responses['caddra_5v'] ==  '1' || responses['caddra_5v'] ==  '2' || responses['caddra_5v'] ==  '3' || responses['caddra_5w'] ==  '1' || responses['caddra_5w'] ==  '2' || responses['caddra_5w'] ==  '3' || responses['caddra_5x'] ==  '1' || responses['caddra_5x'] ==  '2' || responses['caddra_5x'] ==  '3' || responses['caddra_5y'] ==  '1' || responses['caddra_5y'] ==  '2' || responses['caddra_5y'] ==  '3' || responses['caddra_5z'] ==  '1' || responses['caddra_5z'] ==  '2' || responses['caddra_5z'] ==  '3' || responses['caddra_5aa'] ==  '1' || responses['caddra_5aa'] ==  '2' || responses['caddra_5aa'] ==  '3' || responses['caddra_5bb'] ==  '1' || responses['caddra_5bb'] ==  '2' || responses['caddra_5bb'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5a_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Appetite reduction",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5a] = '1' or [caddra_5a] = '2' or [caddra_5a] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5a'] ==  '1' || responses['caddra_5a'] ==  '2' || responses['caddra_5a'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5b_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Weight loss",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5b] = '1' or [caddra_5b] = '2' or [caddra_5b] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5b'] ==  '1' || responses['caddra_5b'] ==  '2' || responses['caddra_5b'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5c_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Weight gain",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5c] = '1' or [caddra_5c] = '2' or [caddra_5c] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5c'] ==  '1' || responses['caddra_5c'] ==  '2' || responses['caddra_5c'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5d_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Stomach aches",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5d] = '1' or [caddra_5d] = '2' or [caddra_5d] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5d'] ==  '1' || responses['caddra_5d'] ==  '2' || responses['caddra_5d'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5e_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Nausea",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5e] = '1' or [caddra_5e] = '2' or [caddra_5e] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5e'] ==  '1' || responses['caddra_5e'] ==  '2' || responses['caddra_5e'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5f_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Vomiting",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5f] = '1' or [caddra_5f] = '2' or [caddra_5f] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5f'] ==  '1' || responses['caddra_5f'] ==  '2' || responses['caddra_5f'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5g_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Diarrhea",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5g] = '1' or [caddra_5g] = '2' or [caddra_5g] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5g'] ==  '1' || responses['caddra_5g'] ==  '2' || responses['caddra_5g'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5h_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Dryness (skin/ eyes/ mouth)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5h] = '1' or [caddra_5h] = '2' or [caddra_5h] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5h'] ==  '1' || responses['caddra_5h'] ==  '2' || responses['caddra_5h'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5i_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Thirst",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5i] = '1' or [caddra_5i] = '2' or [caddra_5i] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5i'] ==  '1' || responses['caddra_5i'] ==  '2' || responses['caddra_5i'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5j_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sore throat",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5j] = '1' or [caddra_5j] = '2' or [caddra_5j] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5j'] ==  '1' || responses['caddra_5j'] ==  '2' || responses['caddra_5j'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5k_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sleep difficulties",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5k] = '1' or [caddra_5k] = '2' or [caddra_5k] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5k'] ==  '1' || responses['caddra_5k'] ==  '2' || responses['caddra_5k'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5l_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Tics",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5l] = '1' or [caddra_5l] = '2' or [caddra_5l] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5l'] ==  '1' || responses['caddra_5l'] ==  '2' || responses['caddra_5l'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5m_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Headaches",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5m] = '1' or [caddra_5m] = '2' or [caddra_5m] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5m'] ==  '1' || responses['caddra_5m'] ==  '2' || responses['caddra_5m'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5n_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Muscular tensions",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5n] = '1' or [caddra_5n] = '2' or [caddra_5n] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5n'] ==  '1' || responses['caddra_5n'] ==  '2' || responses['caddra_5n'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5o_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Fatigue",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5o] = '1' or [caddra_5o] = '2' or [caddra_5o] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5o'] ==  '1' || responses['caddra_5o'] ==  '2' || responses['caddra_5o'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5p_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Dizziness",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5p] = '1' or [caddra_5p] = '2' or [caddra_5p] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5p'] ==  '1' || responses['caddra_5p'] ==  '2' || responses['caddra_5p'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5q_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sweating",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5q] = '1' or [caddra_5q] = '2' or [caddra_5q] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5q'] ==  '1' || responses['caddra_5q'] ==  '2' || responses['caddra_5q'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5r_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Agitation/ excitability",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5r] = '1' or [caddra_5r] = '2' or [caddra_5r] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5r'] ==  '1' || responses['caddra_5r'] ==  '2' || responses['caddra_5r'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5s_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Irritability",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5s] = '1' or [caddra_5s] = '2' or [caddra_5s] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5s'] ==  '1' || responses['caddra_5s'] ==  '2' || responses['caddra_5s'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5t_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Mood instability",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5t] = '1' or [caddra_5t] = '2' or [caddra_5t] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5t'] ==  '1' || responses['caddra_5t'] ==  '2' || responses['caddra_5t'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5u_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Over focus \"zombie effect\"",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5u] = '1' or [caddra_5u] = '2' or [caddra_5u] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5u'] ==  '1' || responses['caddra_5u'] ==  '2' || responses['caddra_5u'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5v_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sadness",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5v] = '1' or [caddra_5v] = '2' or [caddra_5v] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5v'] ==  '1' || responses['caddra_5v'] ==  '2' || responses['caddra_5v'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5w_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Heart palpitations",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5w] = '1' or [caddra_5w] = '2' or [caddra_5w] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5w'] ==  '1' || responses['caddra_5w'] ==  '2' || responses['caddra_5w'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5x_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Blood pressure changes (significantly higher or lower)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5x] = '1' or [caddra_5x] = '2' or [caddra_5x] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5x'] ==  '1' || responses['caddra_5x'] ==  '2' || responses['caddra_5x'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5y_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Frequent urination",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5y] = '1' or [caddra_5y] = '2' or [caddra_5y] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5y'] ==  '1' || responses['caddra_5y'] ==  '2' || responses['caddra_5y'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5z_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Sexual dysfunction",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5z] = '1' or [caddra_5z] = '2' or [caddra_5z] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5z'] ==  '1' || responses['caddra_5z'] ==  '2' || responses['caddra_5z'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5aa_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Feeling worse or different when medication wears off (rebound)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5aa] = '1' or [caddra_5aa] = '2' or [caddra_5aa] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5aa'] ==  '1' || responses['caddra_5aa'] ==  '2' || responses['caddra_5aa'] ==  '3'"
+    },
+    {
+        "field_name": "caddra_5bb_comments",
+        "form_name": "adhd_medication_side_effects",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Other",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[caddra_5bb] = '1' or [caddra_5bb] = '2' or [caddra_5bb] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['caddra_5bb'] ==  '1' || responses['caddra_5bb'] ==  '2' || responses['caddra_5bb'] ==  '3'"
+    }
+]

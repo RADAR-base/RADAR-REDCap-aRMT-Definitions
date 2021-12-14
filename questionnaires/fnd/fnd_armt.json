@@ -1,0 +1,228 @@
+[
+    {
+        "field_name": "fnd_0",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you currently smoke cigarettes?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fnd_1",
+        "form_name": "fnd",
+        "section_header": "If \"yes,\" read each question. For each question, enter the answer choice which best describes your response.",
+        "field_type": "radio",
+        "field_label": "How soon after you wake up do you smoke your first cigarette?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Within 5 minutes"
+            },
+            {
+                "code": "2",
+                "label": "6 to 30 minutes"
+            },
+            {
+                "code": "3",
+                "label": "31 to 60 minutes"
+            },
+            {
+                "code": "4",
+                "label": "After 60 minutes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_2",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you find it difficult to refrain from smoking in places where it is forbidden (e.g., in church, at the library, in the cinema)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_3",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Which cigarette would you hate most to give up?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "The first one in the morning"
+            },
+            {
+                "code": "2",
+                "label": "Any other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_4",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How many cigarettes per day do you smoke?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "10 or less"
+            },
+            {
+                "code": "2",
+                "label": "11 to 20"
+            },
+            {
+                "code": "3",
+                "label": "21 to 30"
+            },
+            {
+                "code": "4",
+                "label": "31 or more"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_5",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you smoke more frequently during the first hours after waking than during the rest of the day?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_6",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you smoke when you are so ill that you are in bed most of the day?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    }
+]
