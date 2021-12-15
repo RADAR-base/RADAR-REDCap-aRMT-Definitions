@@ -1,0 +1,406 @@
+[
+    {
+        "field_name": "audit_1",
+        "form_name": "audit",
+        "section_header": "Please select the answer that is correct for you",
+        "field_type": "radio",
+        "field_label": "1. How often do you have a drink containing alcohol?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Monthly or less"
+            },
+            {
+                "code": "3",
+                "label": "2-4 times a month"
+            },
+            {
+                "code": "4",
+                "label": "2-3 times a week"
+            },
+            {
+                "code": "5",
+                "label": "4 or more times a week"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "audit_2",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "2. How many standard drinks containing alcohol do you have on a typical day when drinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 or 2"
+            },
+            {
+                "code": "2",
+                "label": "3 or 4"
+            },
+            {
+                "code": "3",
+                "label": "5 or 6"
+            },
+            {
+                "code": "4",
+                "label": "7 to 9"
+            },
+            {
+                "code": "5",
+                "label": "10 or more"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+    },
+    {
+        "field_name": "audit_3",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "3. How often do you have six or more drinks on one occasion?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+    },
+    {
+        "field_name": "audit_4",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "4. During the past month, how often have you found that you were not able to stop drinking once you had started?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+    },
+    {
+        "field_name": "audit_5",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "5. During the past month, how often have you failed to do what was normally expected of you because of drinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+    },
+    {
+        "field_name": "audit_6",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "6. During the past month how often have you needed a drink in the morning to get yourself going after a heavy drinking session?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+    },
+    {
+        "field_name": "audit_7",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "7. During the past month, how often have you had a feeling of guilt or remorse after drinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+    },
+    {
+        "field_name": "audit_8",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "8. During the past month, have you been unable to remember what happened the night before because you had been drinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never"
+            },
+            {
+                "code": "2",
+                "label": "Less than monthly"
+            },
+            {
+                "code": "3",
+                "label": "Monthly"
+            },
+            {
+                "code": "4",
+                "label": "Weekly"
+            },
+            {
+                "code": "5",
+                "label": "Daily or almost daily"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+    },
+    {
+        "field_name": "audit_9",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "9. Have you or someone else been injured as a result of your drinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "No"
+            },
+            {
+                "code": "2",
+                "label": "Yes,  but not in the past month"
+            },
+            {
+                "code": "3",
+                "label": "Yes, during the past month"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+    },
+    {
+        "field_name": "audit_10",
+        "form_name": "audit",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "10. Has a relative or friend, doctor or other health worker been concerned about your drinking or suggested you cut down?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "No"
+            },
+            {
+                "code": "2",
+                "label": "Yes,  but not in the past month"
+            },
+            {
+                "code": "3",
+                "label": "Yes, during the past month"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+    }
+]

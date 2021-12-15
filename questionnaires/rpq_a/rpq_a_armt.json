@@ -1,0 +1,784 @@
+[
+    {
+        "field_name": "rpqa_1_v2",
+        "form_name": "rpq_a",
+        "section_header": "Over the last 2 weeks, how often have you...",
+        "field_type": "radio",
+        "field_label": "Yelled at others when they have annoyed you",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_2_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Had fights with others to show who was on top",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_3_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Reacted angrily when provoked by others",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_4_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Taken things from other people",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_5_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Become angry when frustrated",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_6_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Damaged or broken something for fun",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_7_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Had temper tantrums",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_8_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Damaged or broke things because you felt mad",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_9_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Got into a fight to impress people",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_10_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Hurt others to win a game",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_11_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Become angry or mad when you don't get your way",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_12_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Used physical force to get others to do what you want",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_13_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Become angry or mad when you lost a game or argument",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_14_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Become angry when others threatened you",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_15_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Used force to obtain money or things from others",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_16_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Felt better after hitting or yelling at someone",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_17_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Threatened or bullied someone",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_18_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sent offensive emails/texts/posts/phone calls for fun",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_19_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Hit others to defend yourself",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_20_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Got others to gang up on someone else",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_21_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Carried a weapon to use in a fight",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_22_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Got angry or mad or hit others when teased",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_23_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Yelled at others so they would do things for you",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes"
+            },
+            {
+                "code": "2",
+                "label": "Often"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

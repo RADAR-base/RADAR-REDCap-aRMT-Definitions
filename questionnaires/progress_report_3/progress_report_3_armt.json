@@ -1,0 +1,36 @@
+[
+    {
+        "field_name": "progress_report3",
+        "form_name": "progress_report_3",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Congratulations! You have completed the third week of our Mobile Measures Month. There is just one more week to go! Please rate how you've been getting on over the last week. Don't forget, you can contact us at eu-aims@kcl.ac.uk if you need help.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Everything is going OK"
+            },
+            {
+                "code": "2",
+                "label": "I've had some difficulties but I've managed to resolve these myself"
+            },
+            {
+                "code": "3",
+                "label": "I had some issues that I need help with"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
