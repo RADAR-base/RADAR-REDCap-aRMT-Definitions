@@ -1,0 +1,170 @@
+[
+  {
+    "field_name": "HYPOSUP",
+    "form_name": "functional_health_status_biomedical",
+    "section_header": "Hypoglycaemia with external support",
+    "field_type": "radio",
+    "field_label": "In the last 6 months, how often have you had a severe hypoglycemia (low blood sugar) in which you needed help from someone else?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": "Once"
+      },
+      {
+        "code": "2",
+        "label": "Twice"
+      },
+      {
+        "code": "3",
+        "label": "More than Twice"
+      },
+      {
+        "code": "4",
+        "label": "Unknown"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_biomedical",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HYPONOSUP",
+    "form_name": "functional_health_status_biomedical",
+    "section_header": "Hypoglycemia without support",
+    "field_type": "radio",
+    "field_label": "In the last 6 months, how often have you had a severe  hypoglycemia (low blood sugar) in which you did not need help from someone else?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": "Once"
+      },
+      {
+        "code": "2",
+        "label": "Twice"
+      },
+      {
+        "code": "3",
+        "label": "More than Twice"
+      },
+      {
+        "code": "4",
+        "label": "Unknown"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_biomedical",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "DKAHHSPAT",
+    "form_name": "functional_health_status_biomedical",
+    "section_header": "Hypoglycaemia with external support",
+    "field_type": "radio",
+    "field_label": "In the last 6 months, how often have you had a severe hyperglycemia (hyperglycemia, ketoacidosis, hyperosmolar coma) where you needed help from someone else?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": "Once"
+      },
+      {
+        "code": "2",
+        "label": "Twice"
+      },
+      {
+        "code": "3",
+        "label": "More than Twice"
+      },
+      {
+        "code": "4",
+        "label": "Unknown"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_biomedical",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HYPOANX",
+    "form_name": "functional_health_status_biomedical",
+    "section_header": "Hypoglycaemia anxiety",
+    "field_type": "radio",
+    "field_label": "Do you have a fear of hyperglycemia or hypoglycemia?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not at all"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_biomedical",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

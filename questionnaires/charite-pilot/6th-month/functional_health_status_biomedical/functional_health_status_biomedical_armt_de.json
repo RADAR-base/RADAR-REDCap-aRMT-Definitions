@@ -1,0 +1,170 @@
+[
+  {
+    "field_name": "HYPOSUP",
+    "form_name": "examinations",
+    "section_header": "Hypoglycaemia with external support",
+    "field_type": "radio",
+    "field_label": "Wie oft hatten Sie in den letzten 6 Monaten eine schwere Unterzuckerung (Hypoglykämie), bei der Sie Hilfe von jemandem anderen benötigten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Nie"
+      },
+      {
+        "code": "1",
+        "label": "Einmal"
+      },
+      {
+        "code": "2",
+        "label": "Zweimal"
+      },
+      {
+        "code": "3",
+        "label": "Mehr als zweimal"
+      },
+      {
+        "code": "4",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "examinations",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HYPONOSUP",
+    "form_name": "examinations",
+    "section_header": "Hypoglycemia without support",
+    "field_type": "radio",
+    "field_label": "Wie oft hatten Sie in den letzten 6 Monaten eine schwere Unterzuckerung (Hypoglykämie), bei der Sie keine fremde Hilfe benötigten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Nie"
+      },
+      {
+        "code": "1",
+        "label": "Einmal"
+      },
+      {
+        "code": "2",
+        "label": "Zweimal"
+      },
+      {
+        "code": "3",
+        "label": "Mehr als zweimal"
+      },
+      {
+        "code": "4",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "examinations",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "DKAHHSPAT",
+    "form_name": "examinations",
+    "section_header": "Hypoglycaemia with external support",
+    "field_type": "radio",
+    "field_label": "Wie oft hatten Sie in den letzten 6 Monaten eine schwere Überzuckerung (Hyperglykämie, Ketoacidose, hyperosmolares Koma) bei der Sie Hilfe von jemandem anderen benötigten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Nie"
+      },
+      {
+        "code": "1",
+        "label": "Einmal"
+      },
+      {
+        "code": "2",
+        "label": "Zweimal"
+      },
+      {
+        "code": "3",
+        "label": "Mehr als zweimal"
+      },
+      {
+        "code": "4",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "examinations",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HYPOANX",
+    "form_name": "examinations",
+    "section_header": "Hypoglycaemia anxiety",
+    "field_type": "radio",
+    "field_label": "Haben Sie Angst vor einer Über- oder Unterzuckerung (Hyper-/Hypoglykämie)?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Überhaupt nicht"
+      },
+      {
+        "code": "1",
+        "label": "Ein wenig"
+      },
+      {
+        "code": "2",
+        "label": "Mäßig"
+      },
+      {
+        "code": "3",
+        "label": "Ziemlich"
+      },
+      {
+        "code": "4",
+        "label": "Sehr"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "examinations",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

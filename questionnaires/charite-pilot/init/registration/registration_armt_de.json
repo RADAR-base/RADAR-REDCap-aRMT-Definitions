@@ -1,0 +1,74 @@
+[
+  {
+    "field_name": "PATCONSENT1",
+    "form_name": "registration",
+    "section_header": "Consent Follow-Up",
+    "field_type": "radio",
+    "field_label": "Lieber Patient / Liebe Patientin\nzur gezielten Einschätzung Ihres Gesundheitszustands möchten wir Ihnen einige Fragen zum Symptomverlauf Ihrer Erkrankung stellen. Gerne möchten wir Ihnen hierzu in regelmäßigen Abständen eine E-Mail mit einem Befragungslink zusenden.\nDie Verarbeitung der Daten erfolgt zum Zwecke der Symptomüberwachung und auf Basis gesetzlicher Vorschriften, die es uns gestatten personenbezogene Gesundheitsdaten für Zwecke der medizinischen Diagnostik und Behandlung oder zur Gewährleistung hoher Qualitätsstandards bei der Gesundheitsversorgung zu verarbeiten (Art. 9 Abs. 2 h) und i) DSGVO i.V.m. § 22 Abs. 1 Nr. 1 b) und c) BDSG. Ihre Einwilligung können Sie jederzeit widerrufen. Für alle Fragen im Zusammenhang mit der Befragung stehen wir Ihnen gerne zur Verfügung. Sie erreichen uns unter der Emailadresse: patientenbefragung-qualitaet@charite.de.",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja, ich stimme bis auf Widerruf einer Kontaktaufnahme durch die Charité Universitätsmedizin Berlin per E-Mail zu "
+      },
+      {
+        "code": "2",
+        "label": "Nein, ich möchte nicht weiter per E-Mail kontaktiert werden"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "registration",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "FIRSTNAME",
+    "form_name": "registration",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Vorname",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "registration",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "FAMILYNAME",
+    "form_name": "registration",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Familienname",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "registration",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

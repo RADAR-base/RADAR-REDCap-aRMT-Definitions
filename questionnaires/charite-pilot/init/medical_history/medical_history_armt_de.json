@@ -1,0 +1,225 @@
+[
+  {
+    "field_name": "DIABTYPEPAT",
+    "form_name": "medical_history",
+    "section_header": "Type of diabetes",
+    "field_type": "radio",
+    "field_label": "Diabetes Typ",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Typ 1"
+      },
+      {
+        "code": "2",
+        "label": "Typ 2"
+      },
+      {
+        "code": "3",
+        "label": "Anderer"
+      },
+      {
+        "code": "4",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "YODIAG",
+    "form_name": "medical_history",
+    "section_header": "Year of diagnosis",
+    "field_type": "text",
+    "field_label": "Wann wurde Ihr Diabetes diagnostiziert? (Jahr)",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "DMFAM",
+    "form_name": "medical_history",
+    "section_header": "Diabetes family history",
+    "field_type": "radio",
+    "field_label": "Ist in Ihrer Familie Diabetes bekannt?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja"
+      },
+      {
+        "code": "2",
+        "label": "Nein"
+      },
+      {
+        "code": "3",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "CARDIOACUTE",
+    "form_name": "medical_history",
+    "section_header": "Acute cardiovascular events (last 6 Month)",
+    "field_type": "radio",
+    "field_label": "Haben Sie je einen Herzinfarkt erlitten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja, in den letzten 6 Monaten"
+      },
+      {
+        "code": "2",
+        "label": "Ja, vor mehr als 6 Monaten"
+      },
+      {
+        "code": "3",
+        "label": "Nein"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "STROKEACUTE",
+    "form_name": "medical_history",
+    "section_header": "Cerebrovascular Event (Stroke, TIA), last 6 month",
+    "field_type": "radio",
+    "field_label": "Haben Sie je einen Schlaganfall erlitten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja, in den letzten 6 Monaten"
+      },
+      {
+        "code": "2",
+        "label": "Ja, vor mehr als 6 Monaten"
+      },
+      {
+        "code": "3",
+        "label": "Nein"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "medical_history",
+    "section_header": "",
+    "field_type": "checkbox",
+    "field_label": "Haben Sie folgende Erkrankungen? ",
+    "select_choices_or_calculations": [
+      {
+        "code": "CHDPAT",
+        "label": "Erkrankung der Herzgefäße"
+      },
+      {
+        "code": "HFPAT",
+        "label": "Herzschwäche (Herzinsuffizienz) "
+      },
+      {
+        "code": "CKD",
+        "label": "chronische Nierenerkrankung"
+      },
+      {
+        "code": "DMRETINO",
+        "label": "Diabetische Retinopathie"
+      },
+      {
+        "code": "DMMACU",
+        "label": "Diabetische Makulopathie"
+      },
+      {
+        "code": "LULLCPAT",
+        "label": "Diabetesbezogende Wunde am Fuß (Ulcus) "
+      },
+      {
+        "code": "LLAMPPAT",
+        "label": "Amputation von Zehen oder Unterschenkel"
+      },
+      {
+        "code": "EDPAT",
+        "label": "Erektile Potenzstörung"
+      },
+      {
+        "code": "PERIODONPAT",
+        "label": "Entzündung des Zahnfleisches"
+      },
+      {
+        "code": "NODIABCOM",
+        "label": "Keine der genannten Erkrankungen, soweit ich weiß"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

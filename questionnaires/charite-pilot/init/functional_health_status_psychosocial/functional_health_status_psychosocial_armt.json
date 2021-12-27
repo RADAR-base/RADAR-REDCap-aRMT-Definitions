@@ -1,0 +1,1946 @@
+[
+  {
+    "field_name": "Global01",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "How would you describe your overall health?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Excellent"
+      },
+      {
+        "code": "4",
+        "label": "Very good"
+      },
+      {
+        "code": "3",
+        "label": "Good"
+      },
+      {
+        "code": "2",
+        "label": "Somewhat"
+      },
+      {
+        "code": "1",
+        "label": "Poor"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "TRANS3MON",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Compared to the condition 3 months ago, how would you describe your current condition?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Currently much better"
+      },
+      {
+        "code": "4",
+        "label": "Currently somewhat better"
+      },
+      {
+        "code": "3",
+        "label": "About the same"
+      },
+      {
+        "code": "2",
+        "label": "Currently somewhat worse"
+      },
+      {
+        "code": "1",
+        "label": "Currently much worse"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PFA11",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Physical Function",
+    "field_type": "radio",
+    "field_label": "Are you able to do chores such as vacuuming or yard work?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Without any difficulty"
+      },
+      {
+        "code": "4",
+        "label": "With a little difficulty"
+      },
+      {
+        "code": "3",
+        "label": "With some difficulty"
+      },
+      {
+        "code": "2",
+        "label": "With much difficulty"
+      },
+      {
+        "code": "1",
+        "label": "Unable to do"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PFA21",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Physical Function",
+    "field_type": "radio",
+    "field_label": "Are you able to go up and down stairs at a normal pace?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Without any difficulty"
+      },
+      {
+        "code": "4",
+        "label": "With a little difficulty"
+      },
+      {
+        "code": "3",
+        "label": "With some difficulty"
+      },
+      {
+        "code": "2",
+        "label": "With much difficulty"
+      },
+      {
+        "code": "1",
+        "label": "Unable to do"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PFA23",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Physical Function",
+    "field_type": "radio",
+    "field_label": "Are you able to go for a walk of at least 15 minutes?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Without any difficulty"
+      },
+      {
+        "code": "4",
+        "label": "With a little difficulty"
+      },
+      {
+        "code": "3",
+        "label": "With some difficulty"
+      },
+      {
+        "code": "2",
+        "label": "With much difficulty"
+      },
+      {
+        "code": "1",
+        "label": "Unable to do"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PFA53",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Physical Function",
+    "field_type": "radio",
+    "field_label": "Are you able to run errands and shop?",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Without any difficulty"
+      },
+      {
+        "code": "4",
+        "label": "With a little difficulty"
+      },
+      {
+        "code": "3",
+        "label": "With some difficulty"
+      },
+      {
+        "code": "2",
+        "label": "With much difficulty"
+      },
+      {
+        "code": "1",
+        "label": "Unable to do"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HI7",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Fatigue",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I feel fatigued",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "AN3",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Fatigue",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I have trouble starting things because I am tired",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "FATEXP41",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Fatigue",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, how run-down did you feel on average?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "FATEXP40",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Fatigue",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, how fatigues were you on average?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PC8r",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Cognitive Functioning",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I have had trouble concentrating",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely (once)"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes (two or three times)"
+      },
+      {
+        "code": "4",
+        "label": "Often (about once a day)"
+      },
+      {
+        "code": "5",
+        "label": "Very often (several times a day)"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PC13r",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Cognitive Functioning",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I have had trouble remembering new information, like phone numbers or simple instructions",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely (once)"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes (two or three times)"
+      },
+      {
+        "code": "4",
+        "label": "Often (about once a day)"
+      },
+      {
+        "code": "5",
+        "label": "Very often (several times a day)"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDDEP04",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Depression",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt worthless",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDDEP06",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Depression",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt helpless",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDDEP29",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Depression",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt depressed",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDDEP41",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Depression",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt hopeless",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDANX01",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Anxiety",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt fearful.",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EDANX53",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Anxiety",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, I felt uneasy",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Never"
+      },
+      {
+        "code": "2",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SRPPER11_CaPS",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "SocialParticipation ",
+    "field_type": "radio",
+    "field_label": "I have trouble doing all of my regular leisure activities with others",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Never"
+      },
+      {
+        "code": "4",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Often"
+      },
+      {
+        "code": "1",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SRPPER18_CaPS",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "SocialParticipation ",
+    "field_type": "radio",
+    "field_label": "I have trouble doing all of the family activities that i want to do",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Never"
+      },
+      {
+        "code": "4",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Often"
+      },
+      {
+        "code": "1",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SRPPER23_CaPS",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "SocialParticipation ",
+    "field_type": "radio",
+    "field_label": "I have trouble doing all of my usual work (include work at home)",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Never"
+      },
+      {
+        "code": "4",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Often"
+      },
+      {
+        "code": "1",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SRPPER46_CaPS",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "SocialParticipation ",
+    "field_type": "radio",
+    "field_label": "I have trouble doing all of the activities with friends that I want to do",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Never"
+      },
+      {
+        "code": "4",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Often"
+      },
+      {
+        "code": "1",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "Sleep116",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Sleep",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, my sleep was refreshing",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "Not at all"
+      },
+      {
+        "code": "4",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "2",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "1",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "Sleep20",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Sleep",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, I had a problem with my sleep.",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "Sleep44",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Sleep",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, I had difficulty falling asleep",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "Sleep109",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Sleep",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, my sleep quality was…",
+    "select_choices_or_calculations": [
+      {
+        "code": "5",
+        "label": "very poor"
+      },
+      {
+        "code": "4",
+        "label": "Poor"
+      },
+      {
+        "code": "3",
+        "label": "Fair"
+      },
+      {
+        "code": "2",
+        "label": "Good"
+      },
+      {
+        "code": "1",
+        "label": "Very good"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PAININ22",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Pain",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, how much did pain interfere with work around the home?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PAININ31",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Pain",
+    "field_type": "radio",
+    "field_label": "In the past 7 days, how much did pain interfere with your ability to participate in social activities?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "A little bit"
+      },
+      {
+        "code": "3",
+        "label": "Somewhat"
+      },
+      {
+        "code": "4",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "5",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "Global07",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Pain",
+    "field_type": "range",
+    "field_label": "In the past 7 days, how would you rate your pain in general?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "0 No pain at all"
+      },
+      {
+        "code": "1",
+        "label": "1"
+      },
+      {
+        "code": "2",
+        "label": "2 "
+      },
+      {
+        "code": "3",
+        "label": "3 "
+      },
+      {
+        "code": "4",
+        "label": "4 "
+      },
+      {
+        "code": "5",
+        "label": "5 "
+      },
+      {
+        "code": "6",
+        "label": "6 "
+      },
+      {
+        "code": "7",
+        "label": "7"
+      },
+      {
+        "code": "8",
+        "label": "8 "
+      },
+      {
+        "code": "9",
+        "label": "9 "
+      },
+      {
+        "code": "10",
+        "label": "10 Worst imaginable pain"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "range-type",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "NEUROPAT",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Neuropathic Symptoms",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have tingling and restlessness in the legs",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GISYMP",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Gastrointestinal Symptoms",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have nausea or vomiting",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "UISYMP",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Urinary tract symptoms",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have burning sensation when urinating",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ERRECTIL",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Erectile Dysfunction",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have erectile dysfunction (male sex only)",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "VISIMP",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Vision/Visual Impairment",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have impaired vision",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EATBEH",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Eating behavior disturbance",
+    "field_type": "radio",
+    "field_label": "In the last 7 days, did you have cravings",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly"
+      },
+      {
+        "code": "3",
+        "label": "moderately"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      },
+      {
+        "code": "5",
+        "label": "Extremely often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GLCREG",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Blood Sugar Regulation",
+    "field_type": "radio",
+    "field_label": "Do you feel that your blood glucose has been well regulated in the last month?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "DISSSTRESS",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Daily Life Challenges",
+    "field_type": "radio",
+    "field_label": "Are there currently any stressors in your daily life that make it difficult for you to control your blood glucose? (e.g. related to family, work, finances, or other medical conditions)",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "a few stressors"
+      },
+      {
+        "code": "3",
+        "label": "moderate stressors"
+      },
+      {
+        "code": "4",
+        "label": "a lot of stressors"
+      },
+      {
+        "code": "5",
+        "label": "a very lot of stressors"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GLCSTA",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Blood Sugar Stability",
+    "field_type": "radio",
+    "field_label": "In the past month, how often have you been bothered by your blood glucose fluctuating between too high and too low?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "never"
+      },
+      {
+        "code": "2",
+        "label": "once"
+      },
+      {
+        "code": "3",
+        "label": "twice"
+      },
+      {
+        "code": "4",
+        "label": "more than twice"
+      },
+      {
+        "code": "5",
+        "label": "unknown"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATSAT",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Satisfaction with medication",
+    "field_type": "radio",
+    "field_label": "How satisfied are you with your diabetes medication?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly satisfied"
+      },
+      {
+        "code": "3",
+        "label": "moderately satisfied"
+      },
+      {
+        "code": "4",
+        "label": "very satisfied"
+      },
+      {
+        "code": "5",
+        "label": "extremely satisfied"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GOALACH",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Goal Achievement",
+    "field_type": "radio",
+    "field_label": "Are you managing to meet your diabetes care goals?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes"
+      },
+      {
+        "code": "0",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATC1",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Treatment Knowledge",
+    "field_type": "radio",
+    "field_label": "How sure are you to know how to react when your blood glucose is too high or too low?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATC2",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Treatment Knowledge",
+    "field_type": "radio",
+    "field_label": "How sure are you to know the correct way to manage your medication?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATC3",
+    "form_name": "XXX",
+    "section_header": "Treatment Knowledge",
+    "field_type": "radio",
+    "field_label": "How sure are you to know how to adjust your medication during physical activity or exercise?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATC4",
+    "form_name": "XXX",
+    "section_header": "Treatment Knowledge",
+    "field_type": "radio",
+    "field_label": "How sure are you to know how to dose your medication at mealtimes?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THREATC5",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Treatment Knowledge",
+    "field_type": "radio",
+    "field_label": "How sure are you to have the knowledge you need about your diabetes?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "THERAD",
+    "form_name": "functional_health_status_psychosocial",
+    "section_header": "Treatment adherence",
+    "field_type": "radio",
+    "field_label": "Do you usually follow the therapy recommendations?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "not at all"
+      },
+      {
+        "code": "2",
+        "label": "slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "very confident"
+      },
+      {
+        "code": "5",
+        "label": "extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "functional_health_status_psychosocial",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

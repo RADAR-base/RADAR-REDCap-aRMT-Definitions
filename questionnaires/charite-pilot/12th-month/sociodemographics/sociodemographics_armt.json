@@ -1,0 +1,82 @@
+[
+  {
+    "field_name": "HEIGHTPAT",
+    "form_name": "sociodemographics",
+    "section_header": "Height",
+    "field_type": "text",
+    "field_label": "Height",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "WEIGHTPAT",
+    "form_name": "sociodemographics",
+    "section_header": "Weight",
+    "field_type": "text",
+    "field_label": "Weight",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "LivingArrangements",
+    "form_name": "sociodemographics",
+    "section_header": "Household",
+    "field_type": "radio",
+    "field_label": "Housing",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Single household"
+      },
+      {
+        "code": "2",
+        "label": "Shared household"
+      },
+      {
+        "code": "3",
+        "label": "Nursing facility"
+      },
+      {
+        "code": "4",
+        "label": "without household"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "field_name": "SmokingStatus",
+    "form_name": "health_behavior",
+    "section_header": "Smoking",
+    "field_type": "radio",
+    "field_label": "Do you smoke, or have you ever smoked?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Daily"
+      },
+      {
+        "code": "1",
+        "label": "Weekly"
+      },
+      {
+        "code": "2",
+        "label": "Currently not, but in the past"
+      },
+      {
+        "code": "3",
+        "label": "Never smoked"
+      },
+      {
+        "code": "4",
+        "label": "None of categories presented"
+      },
+      {
+        "code": "5",
+        "label": "Unknown"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ALCFREQ1",
+    "form_name": "health_behavior",
+    "section_header": "Alcohol consumption",
+    "field_type": "radio",
+    "field_label": "How often do you drink alcohol?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Every day/ 7 days a week"
+      },
+      {
+        "code": "1",
+        "label": "5 to 6 days a week"
+      },
+      {
+        "code": "2",
+        "label": "3 to 4 days a week"
+      },
+      {
+        "code": "3",
+        "label": "1 to 2 days a week"
+      },
+      {
+        "code": "4",
+        "label": "1 to 3 days per month"
+      },
+      {
+        "code": "5",
+        "label": "Never"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HEALTYDIET",
+    "form_name": "health_behavior",
+    "section_header": "Health Diet",
+    "field_type": "radio",
+    "field_label": "Do you eat healthy?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not at all"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderate"
+      },
+      {
+        "code": "3",
+        "label": "Most of the times"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "BINGE",
+    "form_name": "health_behavior",
+    "section_header": "Binge Eating",
+    "field_type": "radio",
+    "field_label": "Do you feel you have good control over what an how much you eat?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not at all"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderate"
+      },
+      {
+        "code": "3",
+        "label": "Most of the times"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PHYSACTSEN",
+    "form_name": "health_behavior",
+    "section_header": "Physical activity",
+    "field_type": "radio",
+    "field_label": "Are you physically active, such as climbing stairs, walking, biking exercising, doing housework or handyman work?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not at all"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderate"
+      },
+      {
+        "code": "3",
+        "label": "Most of the times"
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

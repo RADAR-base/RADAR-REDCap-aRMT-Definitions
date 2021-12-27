@@ -1,0 +1,202 @@
+[
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "Welche Behandlung für Ihren Diabetes erhalten Sie?",
+    "select_choices_or_calculations": [
+      {
+        "code": "TRDIETEXC",
+        "label": "Ernährung & Bewegung"
+      },
+      {
+        "code": "TRTAB",
+        "label": "Tabletten"
+      },
+      {
+        "code": "TRGLP1",
+        "label": "Injektionen zur Senkung des Blutzuckers außer Insulin (z.B. GLP-1 Analoga)"
+      },
+      {
+        "code": "TRLONGINS",
+        "label": "Langwirksames Insulin (1-2 mal pro Tag)"
+      },
+      {
+        "code": "TRSHORTINS",
+        "label": "Kurzwirksames Insulin zu den Mahlzeiten"
+      },
+      {
+        "code": "TRPUMP",
+        "label": "Insulinpumpentherapie"
+      },
+      {
+        "code": "TROTHER",
+        "label": "Andere Behandlung"
+      },
+      {
+        "code": "TRNO",
+        "label": "Keine Behandlung"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "Wenn Sie Tabletten für die Behandlung des Diabetes bekommen, zu welcher Gruppe von Medikamenten gehören diese?",
+    "select_choices_or_calculations": [
+      {
+        "code": "TRMET",
+        "label": "Metformin"
+      },
+      {
+        "code": "TRSGLT2",
+        "label": "SLGT-2 Hemmer (z.B. Jardiance ®, Forxiga®)"
+      },
+      {
+        "code": "TRDPP4",
+        "label": "DPP-4 Hemmer (z.B. Januvia ®, Xelevia ®)"
+      },
+      {
+        "code": "TRSULF",
+        "label": "Sulfonylharnstoffe (z.B. Glimepirid)"
+      },
+      {
+        "code": "TRGLINIDE",
+        "label": "Glinide (z.B. Repaglinid)"
+      },
+      {
+        "code": "TRGLITAZONE",
+        "label": "Glitazone (z.B. Actos ®)"
+      },
+      {
+        "code": "TRGLYCOSIDASE",
+        "label": "Alpha-Glykosidase Hemmer (z.B. Acarbose)"
+      },
+      {
+        "code": "TRDONTKNOW",
+        "label": "Weiß ich nicht"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GLCMEASURE",
+    "form_name": "treatment",
+    "section_header": "GLC Measuring",
+    "field_type": "radio",
+    "field_label": "Wie kontrollieren Sie Ihren Blutzuckerspiegel?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Gar nicht"
+      },
+      {
+        "code": "2",
+        "label": "Teststreifen/blutige Messung"
+      },
+      {
+        "code": "2",
+        "label": "Sensor"
+      },
+      {
+        "code": "4",
+        "label": "Sensor in Verbindung mit Pumpe"
+      },
+      {
+        "code": "5",
+        "label": "Loop"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "Welche weitere Behandlung haben Sie in den letzten 12 Monaten erhalten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "BPLTHEREPAT",
+        "label": "Blutdrucksenker"
+      },
+      {
+        "code": "LIPTHERAPAT",
+        "label": "Fettsenker"
+      },
+      {
+        "code": "CARDINT",
+        "label": "Herzkatheter mit Ballon oder Stent"
+      },
+      {
+        "code": "CARDSURG",
+        "label": "Herzbypass-Operation"
+      },
+      {
+        "code": "LASER",
+        "label": "Augenlaser"
+      },
+      {
+        "code": "DIALYSISPAT",
+        "label": "Dialyse"
+      },
+      {
+        "code": "NOFURTHERTR",
+        "label": "Keine von den genannten"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "treatment",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

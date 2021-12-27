@@ -1,0 +1,220 @@
+[
+  {
+    "field_name": "SmokingStatus",
+    "form_name": "health_behavior",
+    "section_header": "Smoking",
+    "field_type": "radio",
+    "field_label": "Rauchen Sie aktuell oder haben Sie je geraucht?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Täglich"
+      },
+      {
+        "code": "1",
+        "label": "Wöchentlich"
+      },
+      {
+        "code": "2",
+        "label": "Aktuell nicht, aber früher"
+      },
+      {
+        "code": "3",
+        "label": "Nie geraucht"
+      },
+      {
+        "code": "4",
+        "label": "Keine der Kategorien"
+      },
+      {
+        "code": "5",
+        "label": "Unbekannt"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ALCFREQ1",
+    "form_name": "health_behavior",
+    "section_header": "Alcohol consumption",
+    "field_type": "radio",
+    "field_label": "Wie oft konsumieren Sie Alkohol?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Jeden Tag/ 7 Tage in der Woche"
+      },
+      {
+        "code": "1",
+        "label": "5 bis 6 Tage in der Woche"
+      },
+      {
+        "code": "2",
+        "label": "3 bis 4 Tage in der Woche"
+      },
+      {
+        "code": "3",
+        "label": "1 bis 2 Tage in der Woche"
+      },
+      {
+        "code": "4",
+        "label": "1 bis 3 Tage im Monat"
+      },
+      {
+        "code": "5",
+        "label": "Nie"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HEALTYDIET",
+    "form_name": "health_behavior",
+    "section_header": "Health Diet",
+    "field_type": "radio",
+    "field_label": "Ernähren Sie sich gesund?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Überhaupt nicht"
+      },
+      {
+        "code": "1",
+        "label": "Ein wenig"
+      },
+      {
+        "code": "2",
+        "label": "Mäßig"
+      },
+      {
+        "code": "3",
+        "label": "Ziemlich"
+      },
+      {
+        "code": "4",
+        "label": "Sehr"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "BINGE",
+    "form_name": "health_behavior",
+    "section_header": "Binge Eating",
+    "field_type": "radio",
+    "field_label": "Haben Sie das Gefühl, Sie können gut kontrollieren, was und wie viel Sie essen?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Überhaupt nicht"
+      },
+      {
+        "code": "1",
+        "label": "Ein wenig"
+      },
+      {
+        "code": "2",
+        "label": "Mäßig"
+      },
+      {
+        "code": "3",
+        "label": "Ziemlich"
+      },
+      {
+        "code": "4",
+        "label": "Sehr"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "PHYSACTSEN",
+    "form_name": "health_behavior",
+    "section_header": "Physical activity",
+    "field_type": "radio",
+    "field_label": "Sind Sie körperlich aktiv, z.B. Treppensteigen, Spaziergänge, Fahrradfahren, Sport, Haus- und Handwerkerarbeiten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Überhaupt nicht"
+      },
+      {
+        "code": "1",
+        "label": "Ein wenig"
+      },
+      {
+        "code": "2",
+        "label": "Mäßig"
+      },
+      {
+        "code": "3",
+        "label": "Ziemlich"
+      },
+      {
+        "code": "4",
+        "label": "Sehr"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_behavior",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "field_name": "YearOfBirth",
+    "form_name": "sociodemographics",
+    "section_header": "Year of birth",
+    "field_type": "text",
+    "field_label": "Year of Birth",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SEX",
+    "form_name": "sociodemographics",
+    "section_header": "Sex",
+    "field_type": "radio",
+    "field_label": "Sex",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Male"
+      },
+      {
+        "code": "2",
+        "label": "Female"
+      },
+      {
+        "code": "3",
+        "label": "Divers"
+      },
+      {
+        "code": "4",
+        "label": "I do not wish to answer"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "HEIGHTPAT",
+    "form_name": "sociodemographics",
+    "section_header": "Height",
+    "field_type": "text",
+    "field_label": "Height",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "WEIGHTPAT",
+    "form_name": "sociodemographics",
+    "section_header": "Weight",
+    "field_type": "text",
+    "field_label": "Weight",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "EducationLevel",
+    "form_name": "sociodemographics",
+    "section_header": "Education",
+    "field_type": "radio",
+    "field_label": "Highest level of education",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "No education"
+      },
+      {
+        "code": "2",
+        "label": "Förder-/Haupt-/Volksschule"
+      },
+      {
+        "code": "3",
+        "label": "Realschule/POS/MSA"
+      },
+      {
+        "code": "4",
+        "label": "Abitur/Fachabitur"
+      },
+      {
+        "code": "5",
+        "label": "Bachelorabschluss oder gleichwertig"
+      },
+      {
+        "code": "6",
+        "label": "Masterabschluss oder gleichwertig"
+      },
+      {
+        "code": "7",
+        "label": "Doktorabschluss oder höher"
+      },
+      {
+        "code": "8",
+        "label": "Different"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "LivingArrangements",
+    "form_name": "sociodemographics",
+    "section_header": "Household",
+    "field_type": "radio",
+    "field_label": "Housing",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Single household"
+      },
+      {
+        "code": "2",
+        "label": "Shared household"
+      },
+      {
+        "code": "3",
+        "label": "Nursing facility"
+      },
+      {
+        "code": "4",
+        "label": "without household"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ZIPCODE",
+    "form_name": "sociodemographics",
+    "section_header": "ZIP Code",
+    "field_type": "text",
+    "field_label": "Zipcode",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sociodemographics",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

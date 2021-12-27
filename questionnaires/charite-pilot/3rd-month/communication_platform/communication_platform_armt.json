@@ -1,0 +1,104 @@
+[
+  {
+    "field_name": "HCACCESS",
+    "form_name": "communication_platform",
+    "section_header": "Access to healthcare",
+    "field_type": "radio",
+    "field_label": "How confident are you that you can reach a healthcare professional when you need help with your diabetes?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "Slightly confident"
+      },
+      {
+        "code": "3",
+        "label": "Moderately confident"
+      },
+      {
+        "code": "4",
+        "label": "Very confident"
+      },
+      {
+        "code": "5",
+        "label": "Extremely confident"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "communication_platform",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "DISCUTHREAT",
+    "form_name": "communication_platform",
+    "section_header": "Wish to discuss treatment",
+    "field_type": "radio",
+    "field_label": "Would you like an appointment to talk about your diabetes therapy?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes"
+      },
+      {
+        "code": "0",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "communication_platform",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "SUPPTHREAT",
+    "form_name": "communication_platform",
+    "section_header": "Wish für support with treatment",
+    "field_type": "radio",
+    "field_label": "Do you wish you had more support with your diabetes therapy?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes"
+      },
+      {
+        "code": "0",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "communication_platform",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

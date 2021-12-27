@@ -1,0 +1,32 @@
+[
+  {
+    "field_name": "???",
+    "form_name": "examinations",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "What examinations have been performed in the last 12 months?",
+    "select_choices_or_calculations": [
+      {
+        "code": "EYEEXAM",
+        "label": "Eye examination"
+      },
+      {
+        "code": "FOOTEXAM",
+        "label": "Foot examination"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "examinations",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

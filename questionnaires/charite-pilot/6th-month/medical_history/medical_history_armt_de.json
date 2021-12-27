@@ -1,0 +1,100 @@
+[
+  {
+    "field_name": "CARDIOACUTE",
+    "form_name": "medical_history",
+    "section_header": "Acute cardiovascular events (last 6 Month)",
+    "field_type": "radio",
+    "field_label": "Haben Sie je einen Herzinfarkt erlitten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja, in den letzten 6 Monaten"
+      },
+      {
+        "code": "2",
+        "label": "Ja, vor mehr als 6 Monaten"
+      },
+      {
+        "code": "3",
+        "label": "Nein"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "STROKEACUTE",
+    "form_name": "medical_history",
+    "section_header": "Cerebrovascular Event (Stroke, TIA), last 6 month",
+    "field_type": "radio",
+    "field_label": "Haben Sie je einen Schlaganfall erlitten?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Ja, in den letzten 6 Monaten"
+      },
+      {
+        "code": "2",
+        "label": "Ja, vor mehr als 6 Monaten"
+      },
+      {
+        "code": "3",
+        "label": "Nein"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "medical_history",
+    "section_header": "",
+    "field_type": "checkbox",
+    "field_label": "Haben Sie folgende Erkrankungen? ",
+    "select_choices_or_calculations": [
+      {
+        "code": "LULLCPAT",
+        "label": "Diabetesbezogende Wunde am Fuß (Ulcus) "
+      },
+      {
+        "code": "LLAMPPAT",
+        "label": "Amputation von Zehen oder Unterschenkel"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

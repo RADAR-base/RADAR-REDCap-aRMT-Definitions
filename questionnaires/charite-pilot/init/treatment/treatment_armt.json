@@ -1,0 +1,202 @@
+[
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "What treatment for your diabetes do you receive?",
+    "select_choices_or_calculations": [
+      {
+        "code": "TRDIETEXC",
+        "label": "Nutrition and exercise"
+      },
+      {
+        "code": "TRTAB",
+        "label": "Pills"
+      },
+      {
+        "code": "TRGLP1",
+        "label": "Injections to lower blood glucose other than insulin (e.g. GLP-1 analogues)"
+      },
+      {
+        "code": "TRLONGINS",
+        "label": "Long-acting insulin (1-2 times a day)"
+      },
+      {
+        "code": "TRSHORTINS",
+        "label": "Short-acting insulin with meals"
+      },
+      {
+        "code": "TRPUMP",
+        "label": "Insulin pump therapy"
+      },
+      {
+        "code": "TROTHER",
+        "label": "Other treatment"
+      },
+      {
+        "code": "TRNO",
+        "label": "No treatment"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "If you are given tablets for the treatment of diabetes, to which group of medicines do they belong?",
+    "select_choices_or_calculations": [
+      {
+        "code": "TRMET",
+        "label": "Metformin"
+      },
+      {
+        "code": "TRSGLT2",
+        "label": "SLGT-2 inhibitors (e.g. Jardiance ®, Forxiga®)"
+      },
+      {
+        "code": "TRDPP4",
+        "label": "DPP-4 inhibitors (e.g. Januvia ®, Xelevia ®)"
+      },
+      {
+        "code": "TRSULF",
+        "label": "Sulfonylureas (e.g. Glimepirid)\n"
+      },
+      {
+        "code": "TRGLINIDE",
+        "label": "Glinides (e.g. Repaglinid)\n"
+      },
+      {
+        "code": "TRGLITAZONE",
+        "label": "Glitazone (e.g. Actos ®)\n"
+      },
+      {
+        "code": "TRGLYCOSIDASE",
+        "label": "Alpha-Glykosidase inhibitors (e.g. Acarbose)\n"
+      },
+      {
+        "code": "TRDONTKNOW",
+        "label": "I do not know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GLCMEASURE",
+    "form_name": "treatment",
+    "section_header": "GLC Measuring",
+    "field_type": "radio",
+    "field_label": "How do you control your blood sugar level?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": "Test strip/blood measurement"
+      },
+      {
+        "code": "2",
+        "label": "Sensor"
+      },
+      {
+        "code": "4",
+        "label": "Sensor in connection with pump"
+      },
+      {
+        "code": "5",
+        "label": "Loop"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "treatment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "treatment",
+    "section_header": "???",
+    "field_type": "checkbox",
+    "field_label": "What other treatment have you received in the last 12 months?",
+    "select_choices_or_calculations": [
+      {
+        "code": "BPLTHEREPAT",
+        "label": "Antihypertensives"
+      },
+      {
+        "code": "LIPTHERAPAT",
+        "label": "Fat reducer"
+      },
+      {
+        "code": "CARDINT",
+        "label": "Cardiac catheterization with balloon or stent"
+      },
+      {
+        "code": "CARDSURG",
+        "label": "Heart Bypass Surgery"
+      },
+      {
+        "code": "LASER",
+        "label": "Eye laser"
+      },
+      {
+        "code": "DIALYSISPAT",
+        "label": "Dialysis"
+      },
+      {
+        "code": "NOFURTHERTR",
+        "label": "None of the above"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "treatment",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

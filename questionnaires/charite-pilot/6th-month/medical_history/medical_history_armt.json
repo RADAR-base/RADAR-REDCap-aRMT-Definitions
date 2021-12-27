@@ -1,0 +1,100 @@
+[
+  {
+    "field_name": "CARDIOACUTE",
+    "form_name": "medical_history",
+    "section_header": "Acute cardiovascular events (last 6 Month)",
+    "field_type": "radio",
+    "field_label": "Have you ever suffered a heart attack?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes, in the last 6 months"
+      },
+      {
+        "code": "2",
+        "label": "Yes, more than 6 months ago"
+      },
+      {
+        "code": "3",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "STROKEACUTE",
+    "form_name": "medical_history",
+    "section_header": "Cerebrovascular Event (Stroke, TIA), last 6 month",
+    "field_type": "radio",
+    "field_label": "Have you ever suffered a stroke?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes, in the last 6 months"
+      },
+      {
+        "code": "2",
+        "label": "Yes, more than 6 months ago"
+      },
+      {
+        "code": "3",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "???",
+    "form_name": "medical_history",
+    "section_header": "",
+    "field_type": "checkbox",
+    "field_label": "Do you have the following diseases?",
+    "select_choices_or_calculations": [
+      {
+        "code": "LULLCPAT",
+        "label": "Diabetes-related wound on the foot (ulcer)?"
+      },
+      {
+        "code": "LLAMPPAT",
+        "label": "Amputation of toes or lower leg?"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "medical_history",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
