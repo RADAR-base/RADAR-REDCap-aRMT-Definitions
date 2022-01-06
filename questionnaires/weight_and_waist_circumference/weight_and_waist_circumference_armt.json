@@ -1,0 +1,150 @@
+[
+    {
+        "field_name": "weight_instructions",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Using the weighing scales the study provided, please tell us your weight",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "weight_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Weight",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "weight_unit",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Unit",
+        "select_choices_or_calculations": [
+            {
+                "code": "kg",
+                "label": "kilograms (kg)"
+            },
+            {
+                "code": "stlb",
+                "label": "stone (st) and pounds (lb)"
+            },
+            {
+                "code": "pounds",
+                "label": "pounds (lb)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "waist_instructions",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "How to measure your waist\r\n1.\tFind the bottom of your ribs and the top of your hips.\r\n2.\tPlace a tape measure around your middle at a point halfway between them (just above the belly button).\r\n3.\tMake sure it's pulled tight, but isn't digging into your skin.\r\n4.\tBreathe out naturally and take your measurement.\r\n5.\tTake your measurement again, just to be sure.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "waist_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Waist",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "waist_unit",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Unit",
+        "select_choices_or_calculations": [
+            {
+                "code": "cm",
+                "label": "cm"
+            },
+            {
+                "code": "inches",
+                "label": "inches"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

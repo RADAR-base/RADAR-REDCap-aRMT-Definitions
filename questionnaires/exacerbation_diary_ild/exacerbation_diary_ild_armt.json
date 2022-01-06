@@ -1,0 +1,103 @@
+[
+    {
+        "field_name": "how_likely_do_you_feel_it_ild",
+        "form_name": "exacerbation_diary_ild",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How likely do you think you could be having exacerbation(flare-ups)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "Very Likely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "taking_any_medication_ild",
+        "form_name": "exacerbation_diary_ild",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Are you taking any medications for exacerbation today?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "please_select_ild",
+        "form_name": "exacerbation_diary_ild",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select the ones that apply:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Steroids"
+            },
+            {
+                "code": "1",
+                "label": "Antibiotics"
+            },
+            {
+                "code": "2",
+                "label": "Bronchodilators"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[taking_any_medication_ild]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['taking_any_medication_ild'] == 1"
+    }
+]
