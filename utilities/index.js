@@ -1,66 +1,77 @@
-var _ = require('underscore');
-var request = require('request');
+const axios = require('axios');
 var redcapParser = require('./RedcapParser');
 var githubClient = require('./GithubClient');
+var FormData = require('form-data');
 
 async function publishQuestionnaires(
-  redcap_url,
-  redcap_token,
+  redcapUrl,
+  redcapToken,
   type,
   langConvention,
   formNames,
 ) {
   for (const form of formNames) {
-    await publishQuestionnaire(
-      redcap_url,
-      redcap_token,
-      type,
-      langConvention,
-      form,
-    );
-    console.log('Done!');
+    const formData = createFormRequestBody(redcapToken, form);
+    await publishSingleQuestionnaire(redcapUrl, langConvention, form, formData);
+
+    console.log(`Finished publishing questionnaire: ${form}`);
   }
 }
 
-async function publishQuestionnaire(
-  redcap_url,
-  redcap_token,
-  type,
+async function publishSingleQuestionnaire(
+  redcapUrl,
   langConvention,
-  form_name,
+  formName,
+  formData,
 ) {
   var lang = langConvention || '';
-  var redcap_url = redcap_url || '';
-  var redcap_token = redcap_token || '';
-  var data = {
-    token: redcap_token,
-    content: 'metadata',
-    format: 'json',
-    returnFormat: 'json',
-    'forms[0]': form_name,
-  };
+  var redcapUrl = redcapUrl || '';
 
-  await request.post({ url: redcap_url, form: data }, async function(
-    err,
-    httpResponse,
-    body,
-  ) {
-    var redcap_json = JSON.parse(body.replace(/(\r?\n|\r)/gm, '\n'));
-    var armt_json = redcapParser.REDCapConverter(redcap_json);
+  // Publish to Github
+  const githubFilename = formName + '/' + formName + '_armt' + lang + '.json';
+  const formAsString = await pullFromRedcap(redcapUrl, formName, formData);
 
-    console.log('Updating: ' + form_name);
+  await githubClient
+    .postToGithub(githubFilename, formAsString)
+    .catch(e => console.log(e));
 
-    // Publish to Github
-    const githubFilename =
-      form_name + '/' + form_name + '_armt' + lang + '.json';
-    const formAsString = JSON.stringify(armt_json, null, 4);
+  console.log('Done uploading to github!');
+}
 
-    await githubClient
-      .postToGithub(githubFilename, formAsString)
-      .catch(e => console.log(e));
+function pullFromRedcap(redcapUrl, formName, formData) {
+  return axios({
+    method: 'post',
+    url: redcapUrl,
+    data: formData,
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${formData._boundary}`,
+    },
+  })
+    .then(function(response) {
+      var formParsed = redcapParser.REDCapConverter(
+        cleanupJson(response['data']),
+      );
+      const formAsString = JSON.stringify(formParsed, null, 4);
+      return formAsString;
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+}
 
-    console.log('Done!');
-  });
+function cleanupJson(json) {
+  return JSON.parse(JSON.stringify(json).replace(/(\r?\n|\r)/gm, '\n'));
+}
+
+function createFormRequestBody(redcapToken, formName) {
+  var form = new FormData();
+  form.append('token', redcapToken);
+  form.append('content', 'metadata');
+  form.append('format', 'json');
+  form.append('returnFormat', 'json');
+  form.append('forms[0]', formName);
+
+  return form;
 }
 
 var args = process.argv.slice(2);
