@@ -4,7 +4,8 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-  open-pull-requests-limit: 10
+  target-branch: dev
+  open-pull-requests-limit: 5
   ignore:
   - dependency-name: underscore
     versions:
