@@ -268,15 +268,7 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
-
-
-
-
-
-
-
-
-        {
+    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
         "form_name": "EMI_DynaMINT_IMAGER",
         "section_header": "",
@@ -325,37 +317,11 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
-    },
-        {
-        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_info",
-        "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "We will now ask you some questions about how you now, at this moment, feel about the event. Press next when you are ready.",
-            "code": ""         
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-        {
+    }
+    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item1",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "How do you feel about this event now:",
         "field_type": "range",
         "field_label": "This event will be pleasant for me.",
         "select_choices_or_calculations": [
@@ -405,7 +371,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item2",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "How do you feel about this event now:",
         "field_type": "range",
         "field_label": "I can’t wait for this event to happen.",
         "select_choices_or_calculations": [
@@ -455,7 +421,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item3",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "How do you feel about this event now:",
         "field_type": "range",
         "field_label": "It was easy for me to imagine the event.",
         "select_choices_or_calculations": [
@@ -505,7 +471,7 @@
         {
         "field_name": "ESM_DynaMORE_IMAGER_appLauncher",
         "form_name": "ESM_DynaMORE_IMAGER",
-        "section_header": "",
+        "section_header": " ",
         "field_type": "launcher",
         "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
         "external_app_name": "DynaMORE",
