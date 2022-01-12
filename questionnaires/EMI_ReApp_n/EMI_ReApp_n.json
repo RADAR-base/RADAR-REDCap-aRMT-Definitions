@@ -1,1 +1,56 @@
-
+[
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_day",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Think of this day. Was it an ordinary day, similar to many other days in your life, or did you experience anything extraordinary today? It can be both very positive and negative experience.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ordinary day"
+            },
+            {
+                "code": "2",
+                "label": "Something very positive happened"
+            },
+            {
+                "code": "3",
+                "label": "Something very negative happened"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_socialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMORE",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What was it?",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_ReApp_n_day] = '2' or [EMI_DynaMINT_ReApp_n_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3 " 
+    }
+]
