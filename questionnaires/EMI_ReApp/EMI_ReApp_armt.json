@@ -73,7 +73,7 @@
         "field_name": "EMI_DynaMINT_ReApp_reappraisal",
         "form_name": "EMI_DynaMINT_ReApp",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "info",
         "field_label": "Ok, let’s reappraise the way you think about this experience, just like you have practiced before. What could be an unexpected positive outcome of this experience? What advice could you give to your friend in a similar situation? Have you learned anything thanks to this experience? What would your friend or authority tell you about positive sides of this experience? ",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -88,31 +88,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },
-        {
-        "field_name": "EMI_DynaMINT_ReApp_feel",
-        "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "How do you feel about this experience now?",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },    
+    },   
     {
         "field_name": "EMI_DynaMINT_ReApp_experienceStress",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
+        "section_header": "How do you feel about this experience now:",
         "field_type": "range",
         "field_label": "This experience is stressful for me.",
         "select_choices_or_calculations": [
@@ -162,7 +142,7 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_feelBetter",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
+        "section_header": "How do you feel about this experience now:",
         "field_type": "range",
         "field_label": "I feel better after reappraising this experience.",
         "select_choices_or_calculations": [
@@ -213,7 +193,7 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_hard",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
+        "section_header": "How do you feel about this experience now:",
         "field_type": "range",
         "field_label": "It was hard for me to reappraise this experience.",
         "select_choices_or_calculations": [
@@ -263,7 +243,7 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_strategy",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
+        "section_header": "How do you feel about this experience now:",
         "field_type": "radio",
         "field_label": "What strategy was most helpful for this experience?",
         "select_choices_or_calculations": [
