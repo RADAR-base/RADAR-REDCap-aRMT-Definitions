@@ -35,7 +35,7 @@
     },
     {
         "field_name": "EMI_DynaMINT_ReApp_n_day_what",
-        "form_name": "ESM_DynaMORE",
+        "form_name": "EMI_DynaMINT_ReApp_n",
         "section_header": "",
         "field_type": "text",
         "field_label": "What was it?",
@@ -52,5 +52,95 @@
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3 " 
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_negExp",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Think about a negative experiences which you reappraised today. It can be something that you reappraised with the app, or an event that you reappraised by yourself in your mind. Pick the one that was most stressful and type a brief description below",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_stress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "This event is stressful for me",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Strongly disagree"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_reapp1",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Now, let’s try to reappraise it again with all the strategies that you know! \n 1/4: Learning from experience",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
