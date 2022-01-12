@@ -28,7 +28,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
@@ -48,7 +48,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "ESM_DynaMORE_socialBranchNotAlone",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3 " 
@@ -98,7 +98,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3"
@@ -118,7 +118,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -168,7 +168,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
         "evaluated_logic": ""
@@ -176,9 +176,9 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_n_reapp1",
         "form_name": "EMI_DynaMINT_ReApp_n",
-        "section_header": "",
+        "section_header": "Now, let’s try to reappraise it again with all the strategies that you know!",
         "field_type": "text",
-        "field_label": "Now, let’s try to reappraise it again with all the strategies that you know! 1/4: Learning from experience",
+        "field_label": "1/4: Learning from experience",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -188,7 +188,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -196,9 +196,9 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_n_reapp2",
         "form_name": "EMI_DynaMINT_ReApp_n",
-        "section_header": "",
+        "section_header": "Now, let’s try to reappraise it again with all the strategies that you know!",
         "field_type": "text",
-        "field_label": "Now, let’s try to reappraise it again with all the strategies that you know! 2/4: Seeking unexpected benefits",
+        "field_label": "2/4: Seeking unexpected benefits",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -208,7 +208,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -216,9 +216,9 @@
     {
         "field_name": "EMI_DynaMINT_ReApp_n_reapp3",
         "form_name": "EMI_DynaMINT_ReApp_n",
-        "section_header": "",
+        "section_header": "Now, let’s try to reappraise it again with all the strategies that you know!",
         "field_type": "text",
-        "field_label": "Now, let’s try to reappraise it again with all the strategies that you know! 3/4: Imaging receiving advice from someone",
+        "field_label": "3/4: Imaging receiving advice from someone",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -228,7 +228,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -248,9 +248,197 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_event_description",
+        "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    }
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now1",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "How do you feel about this experience now:",
+        "field_type": "range",
+        "field_label": "This experience is stressful for me.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Strongly disagree"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now2",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "How do you feel about this experience now:",
+        "field_type": "range",
+        "field_label": "I feel better after reappraising this experience.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Strongly disagree"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now3",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "How do you feel about this experience now:",
+        "field_type": "range",
+        "field_label": "It was hard for me to reappraise this experience.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Strongly disagree"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now4",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "How do you feel about this experience now:",
+        "field_type": "radio",
+        "field_label": "What strategy was most helpful for this experience?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Learning from this experience"
+            },
+            {
+                "code": "2",
+                "label": "Seeking unexpected benefits"
+            },
+            {
+                "code": "3",
+                "label": "Imaging receiving advice from someone"
+            },
+            {
+                "code": "4",
+                "label": "Imaging giving advice to someone"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
 ]
