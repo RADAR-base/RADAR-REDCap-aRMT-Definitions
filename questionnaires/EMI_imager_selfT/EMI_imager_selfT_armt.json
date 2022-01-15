@@ -37,6 +37,10 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
+            "label": "* Here you may find suggestions of pleasant events – please remember that not all of them may apply to you. Use it as a piece of inspiration and think about pleasant event that may happen to YOU.",
+            "code": ""    
+            },
+            {
             "label": "I will go to the cinema.",
             "code": "Example 1"         
             },
@@ -181,37 +185,10 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
-
-        {
-        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info2",
-        "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Now, we will ask you to provide information on some important aspects of this image, as you see it through your own eyes. Press next when you are ready.",
-            "code": ""         
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-        {
+    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I see...",
         "field_note": "",
@@ -229,11 +206,11 @@
         "evaluated_logic": ""
     },
         {
-        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
-        "field_label": "I touch...",
+        "field_label": "I smell...",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -249,9 +226,49 @@
         "evaluated_logic": ""
     },
         {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
+        "field_type": "text",
+        "field_label": "I taste...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
+        "field_type": "text",
+        "field_label": "I hear...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I feel...",
         "field_note": "",
@@ -268,18 +285,30 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
-
-
-
-
-
-
-
-
-        {
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Now, type the most important aspects of this image, as you see it through your own eyes.",
+        "field_type": "text",
+        "field_label": "I touch...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": " ",
         "field_type": "range",
         "field_label": "How vivid was the image you created?",
         "select_choices_or_calculations": [
@@ -472,6 +501,27 @@
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "EMI_DynaMINT_mental_imagery",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "ESM_DynaMORE_IMAGER_appLauncher",
+        "form_name": "ESM_DynaMORE_IMAGER",
+        "section_header": " ",
+        "field_type": "launcher",
+        "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
+        "external_app_name": "DynaMORE",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_launch",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
