@@ -1,5 +1,109 @@
 [
      {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_day",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Think of this day. Was it an ordinary day, similar to many other days in your life, or did you experience anything extraordinary today? It can be both very positive and negative experience.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Ordinary day"
+            },
+            {
+                "code": "2",
+                "label": "Something very positive happened"
+            },
+            {
+                "code": "3",
+                "label": "Something very negative happened"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_what",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What was it?",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_nEMI_day] = '2' or [EMI_DynaMINT_IMAGER_nEMI_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 2 or responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 3 " 
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_pleas",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Please mark how pleasant or unpleasant this experience was",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 Very unpleasant"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 Very pleasant"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_nEMI_day] = '2' or [EMI_DynaMINT_IMAGER_nEMI_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 2 or responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 3"
+     },
+     {
         "field_name": "nEMI_DynaMINT_event_description_text_entry",
         "form_name": "EMI_DynaMINT_IMAGER_nEMI",
         "section_header": "",
