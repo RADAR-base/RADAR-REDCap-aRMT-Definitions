@@ -37,6 +37,10 @@
         "field_label": "You are not sure what to type? Let’s take a look at other people’s events!",
         "select_choices_or_calculations": [
             {
+            "label": "* Here you may find suggestions of pleasant events – please remember that not all of them may apply to you. Use it as a piece of inspiration and think about pleasant event that may happen to YOU.",
+            "code": ""    
+            },
+            {
             "label": "I will go to the cinema.",
             "code": "Example 1"         
             },
