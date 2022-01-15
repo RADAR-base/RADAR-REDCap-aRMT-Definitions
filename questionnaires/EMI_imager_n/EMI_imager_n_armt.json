@@ -180,35 +180,9 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "nEMI_DynaMINT_mental_imagery_info2",
-        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Now, we will ask you to provide information on some important aspects of this image, as you see it through your own eyes. Press next when you are ready.",
-            "code": ""         
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "nEMI_DynaMINT_mental_imagery",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I smell...",
         "field_note": "",
@@ -228,7 +202,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I see...",
         "field_note": "",
@@ -248,7 +222,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I taste...",
         "field_note": "",
@@ -268,7 +242,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I hear...",
         "field_note": "",
@@ -288,7 +262,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I touch...",
         "field_note": "",
@@ -308,7 +282,7 @@
         {
         "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
         "form_name": "EMI_DynaMINT_IMAGER",
-        "section_header": "",
+        "section_header": "Now, write about the most important aspects of this image, as you see it through your own eyes.",
         "field_type": "text",
         "field_label": "I feel...",
         "field_note": "",
@@ -328,7 +302,7 @@
     {
         "field_name": "EMI_DynaMINT_IMAGER_nEMI_mental_imagery_vividness",
         "form_name": "EMI_DynaMINT_IMAGER_nEMI",
-        "section_header": "",
+        "section_header": " ",
         "field_type": "range",
         "field_label": "How vivid was the image you created?",
         "select_choices_or_calculations": [
