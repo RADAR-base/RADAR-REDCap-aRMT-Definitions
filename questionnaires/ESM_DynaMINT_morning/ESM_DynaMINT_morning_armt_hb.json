@@ -1,0 +1,247 @@
+[
+    {
+        "field_name": "ESM_morning_DynaMINT_Q1",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "באיזו שעה נרדמת?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+
+        "field_name": "ESM_morning_DynaMINT_Q2",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "באיזו שעה התעוררת?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMINT_Q3",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "ישנתי טוב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMINT_Q4",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "אני מרגיש שנחתי ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },    
+    {
+        "field_name": "ESM_morning_DynaMINT_Q5",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "כמה זמן לקח לך להרדם?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "< 30  דקות"
+            },
+            {
+                "code": "1",
+                "label": "30-60  דקות"
+            },
+            {
+                "code": "2",
+                "label": "> 60  דקות"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMINT_Q6",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "באיזה שלב של המחזור החודשי את נמצאת כרגע?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "לא רלוונטי/ גלולות למניעת הריון"
+            },
+            {
+                "code": "1",
+                "label": "במחזור"
+            },
+            {
+                "code": "2",
+                "label": "לא במחזור: 1-7 ימים עד המחזור הבא"
+            },
+            {
+                "code": "3",
+                "label": "לא במחזור: 8-14 ימים עד המחזור הבא"
+            },
+            {
+                "code": "4",
+                "label": "לא במחזור: יותר מ-14 ימים עד המחזור הבא"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_morning_DynaMINT_infoButton",
+        "form_name": "ESM_DynaMINT_Morning",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "בבקשה זכור להשתמש בכפתור הלחץ בשעון כדי לסמן אירועי לחץ שיתכן ויהיו היום",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_MorningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
