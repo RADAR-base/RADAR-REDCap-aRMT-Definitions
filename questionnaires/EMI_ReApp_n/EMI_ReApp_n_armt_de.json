@@ -1,0 +1,794 @@
+[
+        {
+        "field_name": "ESM_EveningDynaMINT_Q1",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Das war ein schlechter Tag für mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q2",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Das war ein schöner Tag",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q3",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Heute habe ich ungefähr … Minuten lang Sport gemacht.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "0 Minuten"
+            },
+            {
+                "code": "2",
+                "label": "1-15 Minuten"
+            },
+            {
+                "code": "3",
+                "label": "16-30 Minuten"
+            },
+            {
+                "code": "4",
+                "label": "31-60 Minuten"
+            },
+            {
+                "code": "5",
+                "label": "61-120 Minuten"
+            },
+            {
+                "code": "6",
+                "label": "120-180 Minuten"
+            },
+            {
+                "code": "7",
+                "label": "More than 180 Minuten"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q4",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ich erwarte morgen stressige Ereignisse.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q5",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ich bin zuversichtlich, dass ich die stressigen Ereignisse von morgen meistern kann.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q6",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ich erwarte morgen angenehme Ereignisse.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q7",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ich freue mich auf die schönen Dinge, die ich morgen erwarte.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMINT_Q6] = '2' or [ESM_EveningDynaMINT_Q6] = '3' or [ESM_EveningDynaMINT_Q6] = '4' or [ESM_EveningDynaMINT_Q6] = '5' or [ESM_EveningDynaMINT_Q6] = '6' or [ESM_EveningDynaMINT_Q6] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_day",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Denke an den heutigen Tag. War es ein gewöhnlicher Tag, ähnlich wie viele andere Tage in deinem Leben, oder hast du heute etwas Außergewöhnliches erlebt? Es kann ein sehr positives oder negatives Ereignis sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Gewöhnlicher Tag"
+            },
+            {
+                "code": "2",
+                "label": "Etwas sehr Positives ist passiert"
+            },
+            {
+                "code": "3",
+                "label": "Etwas sehr Negatives ist passiert"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_day_what",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Was war es?",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_ReApp_n_day] = '2' or [EMI_DynaMINT_ReApp_n_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3 " 
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_day_pleas",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Bitte bewerte, wie angenehm oder unangenehm diese Erfahrung war.",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 Sehr unangenehm"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 Sehr angenehm"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_ReApp_n_day] = '2' or [EMI_DynaMINT_ReApp_n_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_ReApp_n_day'] == 2 or responses['EMI_DynaMINT_ReApp_n_day'] == 3"
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_negExp",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Denke an eine negative Erfahrung, die du heute neu interpretiert hast. Es kann etwas sein, dass du mit Hilfe der App oder selbst neu interpretiert hast. Wähle das Ereignis aus, das am stressigsten war, und gib eine kurze Beschreibung ein.",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_stress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Diese Erfahrung stresst mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_reapp1",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "Versuche das Ereignis mit den dir bekannten Strategien neu zu interpretieren!",
+        "field_type": "text",
+        "field_label": "1/4: Aus Erfahrung lernen",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_reapp2",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "Versuche das Ereignis mit den dir bekannten Strategien neu zu interpretieren!",
+        "field_type": "text",
+        "field_label": "2/4: Suche nach unerwarteten positiven Ergebnissen",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_reapp3",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "Versuche das Ereignis mit den dir bekannten Strategien neu zu interpretieren!",
+        "field_type": "text",
+        "field_label": "3/4: Vorstellung, Ratschläge von jemandem zu bekommen",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_reapp4",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "Versuche das Ereignis mit den dir bekannten Strategien neu zu interpretieren!",
+        "field_type": "text",
+        "field_label": "4/4: Vorstellung, jemandem Ratschläge zu geben",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now1",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindst Du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Diese Erfahrung stresst mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now2",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindst Du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Ich fühle mich besser, nachdem ich diese Erfahrung neu interpretiert habe.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now3",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindst Du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Es fiel mir schwer, diese Erfahrung neu zu interpretieren.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_n_now4",
+        "form_name": "EMI_DynaMINT_ReApp_n",
+        "section_header": "Wie empfindst Du diese Erfahrung jetzt?",
+        "field_type": "radio",
+        "field_label": "Welche Strategie hat für dich bei dieser Erfahrung am besten funktioniert?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Aus Erfahrung lernen"
+            },
+            {
+                "code": "2",
+                "label": "Suche nach unerwarteten positiven Ergebnissen"
+            },
+            {
+                "code": "3",
+                "label": "Vorstellung, Ratschläge von jemandem zu bekommen"
+            },
+            {
+                "code": "4",
+                "label": "Vorstellung, jemandem Ratschläge zu geben"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_reapp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
