@@ -1,0 +1,287 @@
+[
+    {
+        "field_name": "EMI_DynaMINT_ReApp_mostNegEvent",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "תוכל בבקשה לתאר את האירוע הכי שלילי שקרה לך מאז הפעם האחרונה שיצרנו איתך קשר? אם לא חווית חוויה שלילית כזו לאחרונה, אתה יכול לבחור אירוע היפותטי שצפוי לקרות בעתיד הקרוב או משהו שלא קרה אבל נמצא במודעות שלך ומטריד אותך כעת. [תאר בקצרה את האירוע מטה (1-2 משפטים)]",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_eventStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אירוע זה מלחיץ עבורי",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "בסדר,כעת נעריך מחדש את הדרך שאתה חושב על חוויה זו, בדיוק כמו שהתאמנת בעבר. איזו תוצאה חיובית לא צפויה יכולה להיות מחוויה זו? איזו עצה תוכל לתת לחבר/ה שלך בסיטואציה דומה? האם למדת משהו בזכות חוויה זו? מה חבר/ה, בן משפחה שלך או אדם שאתה מעריץ יגיד לך על הצדדים החיוביים של חוויה זו?",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "EMI_DynaMINT_ReApp_experienceStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "איך אתה מרגיש לגבי חוויה זו כעת?",
+        "field_type": "range",
+        "field_label": "חוויה זו מלחיצה עבורי",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_feelBetter",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "איך אתה מרגיש לגבי חוויה זו כעת?",
+        "field_type": "range",
+        "field_label": "אני מרגיש טוב יותר לאחר הערכה מחדש של חוויה זו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },      
+
+    {
+        "field_name": "EMI_DynaMINT_ReApp_hard",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "איך אתה מרגיש לגבי חוויה זו כעת?",
+        "field_type": "range",
+        "field_label": "זה היה קשה עבורי להעריך מחדש את חוויה זו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_strategy",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "איך אתה מרגיש לגבי חוויה זו כעת?",
+        "field_type": "radio",
+        "field_label": "איזו אסטרטגיה הכי עזרה לך עבור חוויה זו?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "ללמוד מחוויה זו"
+            },
+            {
+                "code": "2",
+                "label": "לחפש יתרונות לא צפויים"
+            },
+            {
+                "code": "3",
+                "label": "לדמיין קבלת עצה ממישהו"
+            },
+            {
+                "code": "4",
+                "label": "לדמיין נתינת עצה עבור מישהו"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
