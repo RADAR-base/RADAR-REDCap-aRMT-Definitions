@@ -1,0 +1,287 @@
+[
+    {
+        "field_name": "EMI_DynaMINT_ReApp_mostNegEvent",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Kannst Du die negativste Erfahrung beschreiben, die du seit unserer letzten Kontaktaufnahme gemacht hast? Wenn du in letzter Zeit keine besonders negativen Erfahrungen gemacht hast, denke an eine Erfahrung in naher Zukunft oder an etwas, das nicht passiert ist, über das du dir aber Gedanken machst. Gib unten eine kurze Beschreibung ein (1-2 Sätze).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_eventStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Diese Erfahrung stresst mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Okay, lass uns diese Erfahrung neu interpretieren, so wie du es zuvor geübt hast. Was könnte eine unerwartete positive Konsequenz dieser Erfahrung sein? Welchen Rat könntest Du einem Freund in einer ähnlichen Situation geben? Hast Du aus dieser Erfahrung etwas gelernt? Was würde dir ein Freund über die positiven Aspekte dieser Erfahrung sagen?",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "EMI_DynaMINT_ReApp_experienceStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindest du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Diese Erfahrung stresst mich.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_feelBetter",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindest du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Ich fühle mich besser, nachdem ich diese Erfahrung neu interpretiert habe.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },      
+
+    {
+        "field_name": "EMI_DynaMINT_ReApp_hard",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindest du diese Erfahrung jetzt?",
+        "field_type": "range",
+        "field_label": "Es fiel mir schwer, diese Erfahrung neu zu interpretieren.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_strategy",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Wie empfindest du diese Erfahrung jetzt?",
+        "field_type": "radio",
+        "field_label": "Welche Strategie hat für dich bei dieser Erfahrung am besten funktioniert?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Aus dieser Erfahrung lernen"
+            },
+            {
+                "code": "2",
+                "label": "Suche nach unerwarteten positiven Ergebnissen"
+            },
+            {
+                "code": "3",
+                "label": "Vorstellung, Ratschläge von jemandem zu bekommen"
+            },
+            {
+                "code": "4",
+                "label": "Vorstellung, jemandem Ratschläge zu geben"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
