@@ -1,0 +1,287 @@
+[
+    {
+        "field_name": "EMI_DynaMINT_ReApp_mostNegEvent",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Kan je de meest negatieve ervaring beschrijven die je hebt gehad sinds we voor het laatst contact met je hebben opgenomen? Als je recentelijk niet zo'n negatieve ervaring hebt gehad, denk dan aan een ervaring in de nabije toekomst, of iets dat niet is gebeurd, maar jou bezighoudt en je op dit moment stoort. Typ hieronder een korte beschrijving (1-2 zinnen).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_eventStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Deze ervaring is stressvol voor mij",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Oke, laten we deze ervaring opnieuw interpreteren, zoals je eerder geoefend hebt. Wat zou een onverwacht positief gevolg van deze ervaring kunnen zijn? Welk advies zou je een vriend in een vergelijkbare situatie kunnen geven? Heb je dankzij deze ervaring iets geleerd? Wat zou een vriend je vertellen over de positieve kanten van deze ervaring?",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },   
+    {
+        "field_name": "EMI_DynaMINT_ReApp_experienceStress",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Hoe voel je je nu over deze ervaring?",
+        "field_type": "range",
+        "field_label": "Deze ervaring is stressvol voor mij",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_feelBetter",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Hoe voel je je nu over deze ervaring?",
+        "field_type": "range",
+        "field_label": "Ik voel me beter nadat ik deze ervaring opnieuw geïnterpreteerd heb",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },      
+
+    {
+        "field_name": "EMI_DynaMINT_ReApp_hard",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Hoe voel je je nu over deze ervaring?",
+        "field_type": "range",
+        "field_label": "Ik vond het moeilijk om deze ervaring opnieuw te interpreteren",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_strategy",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Hoe voel je je nu over deze ervaring?",
+        "field_type": "radio",
+        "field_label": "Welke strategie werkte het beste voor jou bij deze ervaring?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Iets leren van deze ervaring"
+            },
+            {
+                "code": "2",
+                "label": "Het zoeken van onverwachte positieve uitkomsten"
+            },
+            {
+                "code": "3",
+                "label": "Me inbeelden dat ik advies van iemand krijg"
+            },
+            {
+                "code": "4",
+                "label": "Me inbeelden dat ik iemand anders advies geef"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]
