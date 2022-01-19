@@ -1,0 +1,1777 @@
+[
+        {
+        "field_name": "ESM_DynaMINT_moodItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש מעודד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש מעוצבן",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש חרד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem4",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש מרוצה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem5",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש לא בטוח",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem6",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש רגוע",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem7",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש עצוב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem8",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש לחוץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "אני בקשר עם אנשים שנוכחים פיזית",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "לא"
+            },
+            {
+                "code": "1",
+                "label": "כן"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_social",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "עם מי אני?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "בן/בת זוג"
+            },
+            {
+                "code": "2A",
+                "label": "הורים"
+            },
+            {
+                "code": "3A",
+                "label": "משפחה אחרת"
+            },
+            {
+                "code": "4A",
+                "label": "חבר/ים"
+            },
+            {
+                "code": "5A",
+                "label": "מכרים אחרים"
+            },
+            {
+                "code": "6A",
+                "label": "אנשים מוכרים אחרים"
+            },
+            {
+                "code": "7A",
+                "label": "אנשים לא מוכרים"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אנחנו עושים משהו ביחד (מדברים ,לומדים, משחקים וכו')",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בנוח בחברתם",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי מעדיף להיות לבד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני אוהב להיות לבד",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מרגיש בחוץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני הייתי מעדיף להיות עם אנשים אחרים",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "מה אתה עושה?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "פנאי פעיל (למשל משחק משחקים, מבלה בחוץ)"
+            },
+            {
+                "code": "2",
+                "label": "פנאי פסיבי- (למשל צופה בטלויזיה, קורא)"
+            },
+            {
+                "code": "3",
+                "label": "לימודים או עבודה"
+            },
+            {
+                "code": "4",
+                "label": "מטלות בית"
+            },
+            {
+                "code": "5",
+                "label": "טיול"
+            },
+            {
+                "code": "6",
+                "label": "טיפוח עצמי (למשל מתקלח, מתלבש)"
+            },
+            {
+                "code": "7",
+                "label": "פעילות גופנית (ספורט)"
+            },
+            {
+                "code": "8",
+                "label": "אוכל/שותה"
+            },
+            {
+                "code": "9",
+                "label": "קשר חברת"
+            },
+            {
+                "code": "10",
+                "label": "משהו אחר"
+            },
+            {
+                "code": "11",
+                "label": "כלום"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני אוהב לעשות את זה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "הייתי מעדיף לעשות משהו אחר",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem1BranchItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני יכול לעשות זאת היטב",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMINT_physicalContextAndActivityItem1(1) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(2) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(3) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(4) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(5) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(6) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(7) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(8) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(9) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(10) = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMINT_EventAppraisalInfo",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "כעת, חשוב על האירוע הכי חשוב שהיה לך מאז הביפ האחרון",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+
+    },
+    {
+        "field_name": "ESM_DynaMINT_eventAppraisalItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "כמה נעים היה אירוע זה?",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "מאוד לא נעים -3"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "מאוד נעים 3"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_eventAppraisalItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "זה היה אירוע מלחיץ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureInfo",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "כעת, חשוב על הסיטואציה הכי חשובה שמצופה לך בשעתיים הקרובות",
+            "code": ""         
+        }],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מצפה לסיטואציה הזו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "אני מפחד מהסיטואציה הזו",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "כלל לא .1 "
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "במידה רבה .7"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },    {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "חשוב על אירוע נעים שעומד לקרות לך בשעות הקרובות.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "בסדר, הבנתי!"
+            },
+            {
+                "code": "1",
+                "label": "אני צריך קצת השראה!"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_inspiration",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "אתה לא בטוח מה לכתוב? הסתכל באירועים של אנשים אחרים!",
+        "select_choices_or_calculations": [
+            {
+            "label": "כאן אתה יכול למצוא הצעות של אירועים נעימים - זכור שלא כל האירועים יכולים להיות רלוונטים לך. השתמש בהם כהשראה ונסה לחשוב על אירוע נעים שעשוי לקרות לך.",
+            "code": ""    
+            },
+            {
+            "label": "אני אלך לקולנוע",
+            "code": "Example 1"         
+            },
+            {
+            "label": "אני אקשיב למוזיקה",
+            "code": "Example 2"         
+            },
+            {
+            "label": "אני אעביר ערב עם חברים טובים",
+            "code": "Example 3"         
+            },
+            {
+            "label": "אני אקנה לעצמי דברים",
+            "code": "Example 4"         
+            },
+            {
+            "label": "אני אראה או אראה לאחרים תמונות",
+            "code": "Example 5"         
+            },
+            {
+            "label": "אני אגיד 'אני אוהב אותך'",
+            "code": "Example 6"         
+            },
+            {
+            "label": "אני אדאג לצמחים שלי",
+            "code": "Example 7"         
+            },
+            {
+            "label": "אני אצפה בסרטונים או נטפליקס",
+            "code": "Example 8"         
+            },
+            {
+            "label": "אני אבלה במפגשים משפחתיים",
+            "code": "Example 9"         
+            },
+            {
+            "label": "אני אבשל או אאפה",
+            "code": "Example 10"         
+            },
+            {
+            "label": "אני אעשה מדיטציה",
+            "code": "Example 11"         
+            },
+            {
+            "label": "אני אנשק מישהו שאני מחבב",
+            "code": "Example 12"         
+            },
+            {
+            "label": "אני אלך לחדר הכושר, אעשה ספורט",
+            "code": "Example 13"         
+            },
+            {
+            "label": "אני אשתה קפה בבוקר",
+            "code": "Example 14"         
+            },
+            {
+            "label": "אני אלך למסיבה",
+            "code": "Example 15"         
+            },
+            {
+            "label": "אני אלך לבית הכנסת, אתפלל, אעסוק בדת",
+            "code": "Example 16"         
+            },
+            {
+            "label": "אני אלך על שפת הנהר",
+            "code": "Example 17"         
+            },
+            {
+            "label": "אני אלך לבאולינג",
+            "code": "Example 18"         
+            },
+            {
+            "label": "אני אארגן מחדש את הריהוט בבית שלי",
+            "code": "Example 19"         
+            },
+            {
+            "label": "אני אדליק נרות",
+            "code": "Example 20"         
+            },
+            {
+            "label": "אני אצפה בילדים שלי משחקים",
+            "code": "Example 21"         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_event_description'] == 1"
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "כתוב תיאור קצר של האירוע שלך, בראייה מנקודת המבט שלך (למשל, אני אצא להליכה עם הכלב, ולא: יציאה להליכה עם הכלב).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "נסה לדמיין את עצמך מעורב אקטיבית באירוע זה. מה הופך את האירוע הזה לנעים עבורך? צור תמונה מנטלית שכוללת את מה שאתה רואה, שומע, טועם, מרגיש ומריח. אלו יכולות להיות תחושות שהאירוע הזה מביא לגופך ואת הרגשות שהאירוע יוצר בראשך. אם זה עוזר, עצום את עיניך לזמן מה וקח את הזמן. אין צורך למהר.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני רואה...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני מריח...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני טועם...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני שומע...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני מרגיש...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "כעת, כתוב את שלושת ההיבטים החשובים ביותר של תמונה זו, כמו שאתה רואה אותה מנקודת המבט שלך",
+        "field_type": "text",
+        "field_label": "אני נוגע...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "עד כמה התמונה שיצרת הייתה חייה?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. חלשה"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. חייה כמעט כמו במציאות"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "איך אתה מרגיש לגבי אירוע זה כעת?",
+        "field_type": "range",
+        "field_label": "אירוע זה יהיה נעים עבורי",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "איך אתה מרגיש לגבי אירוע זה כעת?",
+        "field_type": "range",
+        "field_label": "אני לא יכול לחכות שאירוע זה יקרה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item3",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "איך אתה מרגיש לגבי אירוע זה כעת?",
+        "field_type": "range",
+        "field_label": "זה היה קל עבורי לדמיין את אירוע זה",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. כלל לא"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. במידה רבה"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_IMAGER_appLauncher",
+        "form_name": "ESM_DynaMORE_IMAGER",
+        "section_header": " ",
+        "field_type": "launcher",
+        "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
+        "external_app_name": "DynaMORE",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_launch",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
