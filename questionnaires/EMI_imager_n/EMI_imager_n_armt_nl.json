@@ -1,0 +1,802 @@
+[
+             {
+        "field_name": "ESM_EveningDynaMINT_Q1",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dit was een slechte dag voor mij",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q2",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Dit was een fijne dag",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q3",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Vandaag heb ik ongeveer … minuten aan fysieke activiteit besteed",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "0 minuten"
+            },
+            {
+                "code": "2",
+                "label": "1-15 minuten"
+            },
+            {
+                "code": "3",
+                "label": "16-30 minuten"
+            },
+            {
+                "code": "4",
+                "label": "31-60 minuten"
+            },
+            {
+                "code": "5",
+                "label": "61-120 minuten"
+            },
+            {
+                "code": "6",
+                "label": "120-180 minuten"
+            },
+            {
+                "code": "7",
+                "label": "180+ minuten"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q4",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ik verwacht morgen stressvolle gebeurtenissen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q5",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ik ben ervan overtuigd dat ik de stressvolle gebeurtenissen van morgen aankan",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q6",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ik verwacht morgen leuke gebeurtenissen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_EveningDynaMINT_Q7",
+        "form_name": "ESM_DynaMINT_Evening",
+        "section_header": " ",
+        "field_type": "radio",
+        "field_label": "Ik kijk uit naar de leuke dingen die ik morgen verwacht.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_EveningDynaMINT_Q6] = '2' or [ESM_EveningDynaMINT_Q6] = '3' or [ESM_EveningDynaMINT_Q6] = '4' or [ESM_EveningDynaMINT_Q6] = '5' or [ESM_EveningDynaMINT_Q6] = '6' or [ESM_EveningDynaMINT_Q6] = '7'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+     },
+     {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_day",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Denk aan vandaag. Was het een normale dag, hetzelfde als veel andere dagen in je leven, of heb je vandaag iets uitzonderlijks meegemaakt? Het kan zowel een heel positieve of negatieve gebeurtenis zijn.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Normale dag"
+            },
+            {
+                "code": "2",
+                "label": "Er is iets heel positiefs gebeurd"
+            },
+            {
+                "code": "3",
+                "label": "Er is iets heel negatiefs gebeurd"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_what",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Wat was het?",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_nEMI_day] = '2' or [EMI_DynaMINT_IMAGER_nEMI_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 2 or responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 3 " 
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_pleas",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Geef alsjeblieft aan hoe plezierig of onplezierig deze gebeurtenis was",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 Zeer onplezierig"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 Zeer plezierig"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_nEMI_day] = '2' or [EMI_DynaMINT_IMAGER_nEMI_day] = '3'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 2 or responses['EMI_DynaMINT_IMAGER_nEMI_day'] == 3"
+     },
+     {
+        "field_name": "nEMI_DynaMINT_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Denk aan de meest plezierige gebeurtenis van vandaag. Kan je deze gebeurtenis vanuit je eigen ervaring beschrijven?",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_event_control",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Was het dezelfde gebeurtenis als die je eerder vandaag beschreven hebt?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nee"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nEMI_DynaMINT_mental_imagery_info1",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Probeer je deze gebeurtenis te herinneren. Wat maakte deze gebeurtenis plezierig voor jou? Creëer een mentaal plaatje van wat je zal zien, horen, proeven, voelen, aanraken en ruiken. Focus voor een paar minuten op dit plaatje en laat het je opnieuw ervaren.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik ruik...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik zie...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik proef...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik hoor...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik raak aan...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik voel (me)...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_nEMI_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Hoe levendig was het mentale plaatje dat je gemaakt had?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Zwak"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Alsof ik het echt meemaakte"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nEMI_DynaMINT_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "Hoe voel je je nu over deze gebeurtenis?",
+        "field_type": "range",
+        "field_label": "Deze gebeurtenis was plezierig voor me",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "nEMI_DynaMINT_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_IMAGER_nEMI",
+        "section_header": "Hoe voel je je nu over deze gebeurtenis?",
+        "field_type": "range",
+        "field_label": "Ik kon deze gebeurtenis makkelijk naar boven halen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_EveningQuestions_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
