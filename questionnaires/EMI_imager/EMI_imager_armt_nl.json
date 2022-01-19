@@ -1,0 +1,1778 @@
+[
+        {
+        "field_name": "ESM_DynaMINT_moodItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me vrolijk.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me geïrriteerd.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me angstig.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem4",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me tevreden.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem5",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me onzeker.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem6",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me ontspannen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem7",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me verdrietig.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_moodItem8",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me gestrest.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_mood",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ik ben in contact met anderen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nee"
+            },
+            {
+                "code": "1",
+                "label": "Ja"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_social",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Met wie ben ik?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1A",
+                "label": "Partner"
+            },
+            {
+                "code": "2A",
+                "label": "Ouders"
+            },
+            {
+                "code": "3A",
+                "label": "Andere familie"
+            },
+            {
+                "code": "4A",
+                "label": "Vriend(en)"
+            },
+            {
+                "code": "5A",
+                "label": "Andere leeftijdsgenoten"
+            },
+            {
+                "code": "6A",
+                "label": "Andere kennissen"
+            },
+            {
+                "code": "7A",
+                "label": "Onbekende mensen"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "We zijn samen iets aan het doen (praten, leren, gamen, etc.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me op mijn gemak in dit gezelschap.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchNotAloneItem4",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik zou liever alleen zijn.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchNotAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 1"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik vind het fijn om alleen te zijn.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik voel me buitengesloten.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_socialItem1branchAloneItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik wil liever met anderen zijn.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[ESM_DynaMINT_socialItem1] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_socialBranchAlone",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_socialItem1'] == 0"
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Wat ben je aan het doen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Vrije tijd – actief (bv. spelletje spelen, uitgaan)"
+            },
+            {
+                "code": "2",
+                "label": "Vrije tijd – passief (bv. televisie kijken, lezen)"
+            },
+            {
+                "code": "3",
+                "label": "School of werk"
+            },
+            {
+                "code": "4",
+                "label": "Huishoudelijke taken"
+            },
+            {
+                "code": "5",
+                "label": "Onderweg"
+            },
+            {
+                "code": "6",
+                "label": "Persoonlijke hygiene (bv. wassen, aankleden)"
+            },
+            {
+                "code": "7",
+                "label": "Lichamelijke activiteit (sporten)"
+            },
+            {
+                "code": "8",
+                "label": "Eten/drinken"
+            },
+            {
+                "code": "9",
+                "label": "Sociaal contact"
+            },
+            {
+                "code": "10",
+                "label": "Iets anders"
+            },
+            {
+                "code": "11",
+                "label": "Niks"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Dit vind ik leuk.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem3",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik zou liever iets anders doen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivity",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_physicalContextAndActivityItem1BranchItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik kan dit goed.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "ESM_DynaMINT_physicalContextAndActivityItem1(1) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(2) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(3) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(4) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(5) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(6) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(7) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(8) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(9) = '1' or ESM_DynaMINT_physicalContextAndActivityItem1(10) = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_physicalContextAndActivityBranch",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 1 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 2 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 3 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 4 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 5 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 6 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 7 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 8 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 9 || responses['ESM_DynaMINT_physicalContextAndActivityItem1'] == 10"
+    },
+    {
+        "field_name": "ESM_DynaMINT_EventAppraisalInfo",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Denk nu aan de belangrijkste gebeurtenis voor jou sinds de vorige beep.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+
+    },
+    {
+        "field_name": "ESM_DynaMINT_eventAppraisalItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Hoe plezierig was deze gebeurtenis?",
+        "select_choices_or_calculations": [
+            {
+                "code": "-3",
+                "label": "-3 zeer onplezierig"
+            },
+            {
+                "code": "-2",
+                "label": "-2"
+            },
+            {
+                "code": "-1",
+                "label": "-1"
+            },
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3 zeer plezierig"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_eventAppraisalItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Dit was een stressvolle gebeurtenis.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_eventAppraisal",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureInfo",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Denk nu aan de belangrijkste gebeurtenis voor jou in de komende 2 uur.",
+            "code": ""         
+        }],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureItem1",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik heb zin in deze gebeurtenis.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMINT_anticipationOfPleasureItem2",
+        "form_name": "ESM_DynaMINT",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Ik kijk tegen deze gebeurtenis op.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMINT_anticipationOfPleasure",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Denk aan een plezierige gebeurtenis die je in de komende uren gaat beleven.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Oke, ik begrijp het!"
+            },
+            {
+                "code": "1",
+                "label": "Ik heb inspiratie nodig!"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_inspiration",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Weet je niet zeker wat je moet typen? Laten we kijken naar gebeurtenissen van andere mensen.",
+        "select_choices_or_calculations": [
+            {
+            "label": "Hier vind je een aantal suggesties van positieve gebeurtenissen, maar bedenk je dat ze misschien niet allemaal op jou van toepassing zijn. Gebruik ze daarom als inspiratie en bedenk positieve gebeurtenissen die JIJ zal meemaken.",
+            "code": ""    
+            },
+            {
+            "label": "Ik ga naar de bioscoop",
+            "code": "Example 1"         
+            },
+            {
+            "label": "Ik ga naar muziek luisteren",
+            "code": "Example 2"         
+            },
+            {
+            "label": "Ik ga de avond met goede vrienden doorbrengen",
+            "code": "Example 3"         
+            },
+            {
+            "label": "Ik ga dingen voor mezelf kopen",
+            "code": "Example 4"         
+            },
+            {
+            "label": "Ik ga foto’s bekijken of laten zien",
+            "code": "Example 5"         
+            },
+            {
+            "label": "Ik ga ‘Ik hou van jou’ zeggen",
+            "code": "Example 6"         
+            },
+            {
+            "label": "Ik ga voor mijn planten zorgen",
+            "code": "Example 7"         
+            },
+            {
+            "label": "Ik ga een film of serie kijken",
+            "code": "Example 8"         
+            },
+            {
+            "label": "Ik ga met mijn familie afspreken",
+            "code": "Example 9"         
+            },
+            {
+            "label": "Ik ga koken of bakken",
+            "code": "Example 10"         
+            },
+            {
+            "label": "Ik ga mediteren",
+            "code": "Example 11"         
+            },
+            {
+            "label": "Ik ga iemand die ik leuk vind kussen",
+            "code": "Example 12"         
+            },
+            {
+            "label": "Ik ga naar de sportschool",
+            "code": "Example 13"         
+            },
+            {
+            "label": "Ik ga s ’ochtends koffie drinken",
+            "code": "Example 14"         
+            },
+            {
+            "label": "Ik ga naar een feestje",
+            "code": "Example 15"         
+            },
+            {
+            "label": "Ik ga bidden",
+            "code": "Example 16"         
+            },
+            {
+            "label": "Ik ga langs de rivier wandelen",
+            "code": "Example 17"         
+            },
+            {
+            "label": "Ik ga bowlen",
+            "code": "Example 18"         
+            },
+            {
+            "label": "Ik ga de meubels in mijn woning verplaatsen",
+            "code": "Example 19"         
+            },
+            {
+            "label": "Ik ga kaarsen branden",
+            "code": "Example 20"         
+            },
+            {
+            "label": "Ik ga naar mijn spelende kinderen kijken",
+            "code": "Example 21"         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_event_description'] == 1"
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Kan je deze gebeurtenis vanuit je eigen ervaring beschrijven? (bijv. ‘Ik ga wandelen met mijn hond’ niet: ‘wandelen met een hond’).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Probeer je in te beelden dat je je in deze situatie begeeft. Wat maakt deze gebeurtenis plezierig voor jou? Creëer een mentaal plaatje van wat je zal zien, horen, proeven, aanraken en ruiken. Dit kunnen zowel lichamelijke sensaties als gedachten in je hoofd zijn. Als het helpt kan je even je ogen sluiten en je tijd te nemen. Je hoeft je niet te haasten.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik zie...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik ruik...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik proef...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik hoor...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik voel (me)...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Geef nu een beschrijving van de belangrijkste aspecten van het mentale plaatje. Beschrijf het vanuit je eigen ervaring.",
+        "field_type": "text",
+        "field_label": "Ik raak aan...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Hoe levendig was het mentale plaatje dat je gemaakt had?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Zwak"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Alsof ik het echt meemaakte"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Hoe voel je je nu over deze gebeurtenis?",
+        "field_type": "range",
+        "field_label": "Deze gebeurtenis gaat plezierig voor mij zijn",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Hoe voel je je nu over deze gebeurtenis?",
+        "field_type": "range",
+        "field_label": "Ik kan niet wachten tot deze gebeurtenis echt plaatsvindt",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item3",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Hoe voel je je nu over deze gebeurtenis?",
+        "field_type": "range",
+        "field_label": "Het was makkelijk om de gebeurtenis in te beelden",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. niet/helemaal niet"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. zeer/heel erg"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ESM_DynaMORE_IMAGER_appLauncher",
+        "form_name": "ESM_DynaMORE_IMAGER",
+        "section_header": " ",
+        "field_type": "launcher",
+        "external_app_android_uri": "eu.dynamore.app://dynamore/questionnaire_completed",
+        "external_app_name": "DynaMORE",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ESM_DynaMORE_launch",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
