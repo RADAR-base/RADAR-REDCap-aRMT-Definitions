@@ -1,0 +1,508 @@
+[
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Denke an ein angenehmes Ereignis, das du in den nächsten Stunden erleben wirst.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Ok, habe ich verstanden!"
+            },
+            {
+                "code": "1",
+                "label": "Ich brauche Inspiration!"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_inspiration",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Du bist dir unsicher, was du eingeben sollst? Schauen wir uns die Ereignisse anderer Personen an.",
+        "select_choices_or_calculations": [
+            {
+            "label": "* Hier findest du Vorschläge für angenehme Ereignisse - bitte bedenke, dass nicht alle auf dich zutreffen. Verwende die Vorschläge als Inspiration und denke an ein angenehmens Ereignis, das DIR passieren könnte. ",
+            "code": ""    
+            },
+            {
+            "label": "Ich werde ins Kino gehen.",
+            "code": "Example 1"         
+            },
+            {
+            "label": "Ich werde Musik hören.",
+            "code": "Example 2"         
+            },
+            {
+            "label": "Ich werde einen Abend mit guten Freunden verbringen.",
+            "code": "Example 3"         
+            },
+            {
+            "label": "Ich werde Dinge für mich kaufen.",
+            "code": "Example 4"         
+            },
+            {
+            "label": "Ich werde Fotos sehen oder zeigen.",
+            "code": "Example 5"         
+            },
+            {
+            "label": "Ich werde 'Ich liebe dich' sagen.",
+            "code": "Example 6"         
+            },
+            {
+            "label": "Ich werde mich um meine Pflanzen kümmern.",
+            "code": "Example 7"         
+            },
+            {
+            "label": "Ich werde einen Film oder eine Serie anschauen.",
+            "code": "Example 8"         
+            },
+            {
+            "label": "Ich werde meine Familie sehen.",
+            "code": "Example 9"         
+            },
+            {
+            "label": "Ich werde kochen oder backen.",
+            "code": "Example 10"         
+            },
+            {
+            "label": "Ich werde meditieren.",
+            "code": "Example 11"         
+            },
+            {
+            "label": "Ich werde eine Person, die ich gerne mag, küssen.",
+            "code": "Example 12"         
+            },
+            {
+            "label": "Ich werde Sport machen.",
+            "code": "Example 13"         
+            },
+            {
+            "label": "Ich werde morgens einen Kaffee trinken.",
+            "code": "Example 14"         
+            },
+            {
+            "label": "Ich werde auf eine Party gehen.",
+            "code": "Example 15"         
+            },
+            {
+            "label": "Ich werde in die Kirche gehen und/ oder beten.",
+            "code": "Example 16"         
+            },
+            {
+            "label": "Ich werde an einem Flussufer entlanglaufen.",
+            "code": "Example 17"         
+            },
+            {
+            "label": "Ich werde bowlen gehen.",
+            "code": "Example 18"         
+            },
+            {
+            "label": "Ich werde die Möbel in meinem Haus umstellen.",
+            "code": "Example 19"         
+            },
+            {
+            "label": "Ich werde Kerzen anzünden.",
+            "code": "Example 20"         
+            },
+            {
+            "label": "Ich werde meinen Kindern beim Spielen zuschauen.",
+            "code": "Example 21"         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[EMI_DynaMINT_IMAGER_event_description] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['EMI_DynaMINT_IMAGER_event_description'] == 1"
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_event_description_text_entry",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Beschreibe dein Ereignis aus deiner eigenen Sicht in wenigen Worten (z.B. „Ich gehe mit meinem Hund spazieren“ nicht „mit einem Hund spazieren“).",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_info1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+            "label": "Probiere dir vorzustellen, dass du aktiv in dieses Ereignis involviert bist. Warum fühlt sich dieses Eregnis für dich gut an? Erstelle ein mentales Bild, das umfasst, was Du siehst, hörst, schmeckst, berührst und riechst. Das mentale Bild kann Empfindungen beinhalteln, die dieses Ereignis in deinem Körper auslöst und Gefühle, die das Eregnis in dir hervorruft. Vielleicht hilft es dir, für einen kurzen Moment deine Augen zu schließen. Nimm dir ruhig Zeit. Es besteht kein Grund zur Eile.",
+            "code": ""         
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_see",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich sehe ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_smell",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich rieche ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_taste",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich schmecke ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_hear",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich höre ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_feel",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich fühle ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_text_entry_touch",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Gib nun die drei wichtigsten Aspekte dieses Bildes ein. Denke daran, du siehst das Bild aus der Ich-Perspektive, also aus deiner eigenen Sicht.",
+        "field_type": "text",
+        "field_label": "Ich berühre ...",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_vividness",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": " ",
+        "field_type": "range",
+        "field_label": "Wie lebendig war das Bild, das du erstellt hast?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. Schwach"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. Fast so lebendig als wäre es echt"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item1",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Wie stehst du jetzt zu diesem Eregnis?",
+        "field_type": "range",
+        "field_label": "Das Ereignis wird angenehm für mich sein.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item2",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Wie stehst du jetzt zu diesem Eregnis?",
+        "field_type": "range",
+        "field_label": "Ich kann es kaum abwarten, bist es soweit ist.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+        {
+        "field_name": "EMI_DynaMINT_IMAGER_mental_imagery_feelings_item3",
+        "form_name": "EMI_DynaMINT_IMAGER",
+        "section_header": "Wie stehst du jetzt zu diesem Eregnis?",
+        "field_type": "range",
+        "field_label": "Es war einfach für mich, mir das Ereignis vorzustellen.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1. überhaupt nicht"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7. sehr stark"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_imager",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
