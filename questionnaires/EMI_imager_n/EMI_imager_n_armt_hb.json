@@ -240,7 +240,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[ESM_EveningDynaMINT_Q4] = '2' or [ESM_EveningDynaMINT_Q4] = '3' or [ESM_EveningDynaMINT_Q4] = '4' or [ESM_EveningDynaMINT_Q4] = '5' or [ESM_EveningDynaMINT_Q4] = '6' or [ESM_EveningDynaMINT_Q4] = '7'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
