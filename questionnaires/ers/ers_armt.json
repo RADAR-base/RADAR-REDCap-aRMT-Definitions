@@ -1,5 +1,39 @@
 [
     {
+        "field_name": "do_you_feel_your_state_has",
+        "form_name": "ers",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How have your symptoms changed in recent days?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Worsened"
+            },
+            {
+                "code": "3",
+                "label": "No change"
+            },
+            {
+                "code": "6",
+                "label": "Improved"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "how_likely_do_you_feel_it",
         "form_name": "ers",
         "section_header": "",
@@ -8,23 +42,23 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "None "
+                "label": "None"
             },
             {
                 "code": "1",
-                "label": "1 "
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": "2 "
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "3 "
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": "4 "
+                "label": "4"
             },
             {
                 "code": "5",
@@ -36,13 +70,64 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[do_you_feel_your_state_has] = 1",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
+        "evaluated_logic": "responses['do_you_feel_your_state_has'] ==  1"
+    },
+    {
+        "field_name": "are_you_taking_any_medicat",
+        "form_name": "ers",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Are you taking any medications for exacerbation today?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "please_select_the_ones_tha",
+        "form_name": "ers",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select the ones that apply:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Steroids"
+            },
+            {
+                "code": "1",
+                "label": "Antibiotics"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[are_you_taking_any_medicat]=1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['are_you_taking_any_medicat'] == 1"
     }
 ]
