@@ -80,32 +80,11 @@
         "evaluated_logic": "responses['do_you_feel_your_state_has'] ==  '0' || responses['do_you_feel_your_state_has'] ==  '1' || responses['do_you_feel_your_state_has'] ==  '2' || responses['do_you_feel_your_state_has'] ==  '3' || responses['do_you_feel_your_state_has'] ==  '4' || responses['do_you_feel_your_state_has'] ==  '5'"
     },
     {
-        "field_name": "medication_ers",
-        "form_name": "ers",
-        "section_header": "",
-        "field_type": "yesno",
-        "field_label": "Are you taking any medications for exacerbation today?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "please_select_the_ones_tha",
         "form_name": "ers",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Please select the ones that apply:",
+        "field_label": "Are you taking any medications for exacerbation today? Please select the ones that apply:",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -121,13 +100,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[medication_ers] = '1'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['medication_ers'] ==  '1'"
+        "evaluated_logic": ""
     }
 ]
