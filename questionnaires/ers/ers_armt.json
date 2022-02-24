@@ -70,14 +70,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[do_you_feel_your_state_has] = 0 OR [do_you_feel_your_state_has] = 1 OR  [do_you_feel_your_state_has] = 2 OR [do_you_feel_your_state_has] = 3 OR [do_you_feel_your_state_has] = 4",
+        "branching_logic": "[do_you_feel_your_state_has] = '0' OR [do_you_feel_your_state_has] = '1' OR  [do_you_feel_your_state_has] = '2' OR [do_you_feel_your_state_has] = '3' OR [do_you_feel_your_state_has] = '4'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['do_you_feel_your_state_has'] ==  0 OR responses[' =='] == do_you_feel_your_state_hasresponses[' 2 OR '] ==  ==responses['do_you_feel_your_state_has'] ==  4"
+        "evaluated_logic": "responses['do_you_feel_your_state_has'] ==  '0' OR responses[' =='] == do_you_feel_your_state_hasresponses[' '2' OR '] ==  ==responses['do_you_feel_your_state_has'] ==  '4'"
     },
     {
         "field_name": "medication_ers",
@@ -121,13 +121,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[medication_ers] = 1",
+        "branching_logic": "[medication_ers] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['medication_ers'] ==  1"
+        "evaluated_logic": "responses['medication_ers'] ==  '1'"
     }
 ]
