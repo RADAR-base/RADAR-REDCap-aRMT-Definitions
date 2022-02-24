@@ -3,20 +3,36 @@
         "field_name": "do_you_feel_your_state_has",
         "form_name": "ers",
         "section_header": "",
-        "field_type": "slider",
+        "field_type": "range",
         "field_label": "How have your symptoms changed in recent days?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Worsened"
+                "label": "0 Worsened"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": "No change"
+                "label": "3 No change"
+            },
+            {
+                "code": "4",
+                "label": "3"
+            },
+            {
+                "code": "5",
+                "label": "4"
             },
             {
                 "code": "6",
-                "label": "Improved"
+                "label": "6 Improved"
             }
         ],
         "field_note": "",
@@ -26,11 +42,11 @@
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
-        "custom_alignment": "RH",
+        "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     },
     {
