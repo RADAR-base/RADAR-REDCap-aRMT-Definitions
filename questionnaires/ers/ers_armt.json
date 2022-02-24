@@ -4,7 +4,7 @@
         "form_name": "ers",
         "section_header": "",
         "field_type": "range",
-        "field_label": "How have your symptoms changed in recent days?",
+        "field_label": "How have your COPD symptoms changed in recent days?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -24,11 +24,11 @@
             },
             {
                 "code": "4",
-                "label": "3"
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": "4"
+                "label": "5"
             },
             {
                 "code": "6",
@@ -100,14 +100,18 @@
         "form_name": "ers",
         "section_header": "",
         "field_type": "checkbox",
-        "field_label": "Are you taking any medications for exacerbation today? Please select the ones that apply:",
+        "field_label": "Are you taking any medications for exacerbation today? Please select all the ones that apply:",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Steroids"
+                "label": "None"
             },
             {
                 "code": "1",
+                "label": "Steroids"
+            },
+            {
+                "code": "2",
                 "label": "Antibiotics"
             }
         ],
