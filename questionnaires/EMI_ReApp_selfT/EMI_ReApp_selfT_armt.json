@@ -69,18 +69,12 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
-        {
-        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_1",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Ok, let’s reappraise the way you think about this experience, just like you have practiced before. What could be an unexpected positive outcome of this experience? What advice could you give to your friend in a similar situation? Have you learned anything thanks to this experience? What would your friend or authority tell you about positive sides of this experience?",
-            "code": ""         
-            }
-        ],
+        "section_header": "Okay, let’s reappraise the way you think about this experience, just like you have practiced before. What could be an unexpected positive outcome of this experience? What advice could you give to your friend in a similar situation? Have you learned anything thanks to this experience? What would your friend or authority tell you about positive sides of this experience?",
+        "field_type": "text",
+        "field_label": "Reappraisal 1:",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -94,7 +88,47 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },   
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_2",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Okay, let’s reappraise the way you think about this experience, just like you have practiced before. What could be an unexpected positive outcome of this experience? What advice could you give to your friend in a similar situation? Have you learned anything thanks to this experience? What would your friend or authority tell you about positive sides of this experience?",
+        "field_type": "text",
+        "field_label": "Reappraisal 2:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },    
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_3",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Okay, let’s reappraise the way you think about this experience, just like you have practiced before. What could be an unexpected positive outcome of this experience? What advice could you give to your friend in a similar situation? Have you learned anything thanks to this experience? What would your friend or authority tell you about positive sides of this experience?",
+        "field_type": "text",
+        "field_label": "Reappraisal 3:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
     {
         "field_name": "EMI_DynaMINT_ReApp_experienceStress",
         "form_name": "EMI_DynaMINT_ReApp",
