@@ -69,18 +69,12 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
-        {
-        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_1",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Ok, spróbujmy teraz zreinterpretować to, w jaki sposób postrzegasz to doświadczenie, dokładnie tak samo, jak ćwiczyliśmy to już wcześniej. Jakie mogą być nieoczekiwane pozytywne skutki tego doświadczenia? Jaką radę dałbyś/dałabyś znajomemu będącemu w podobnej sytuacji? Czy to doświadczenie nauczyło Cię czegoś? Co powiedzieliby Twoi znajomi, członkowie rodziny lub ktoś, kogo podziwiasz na temat pozytywnych aspektów tego doświadczenia?",
-            "code": ""         
-            }
-        ],
+        "section_header": "Ok, spróbujmy teraz zreinterpretować to, w jaki sposób postrzegasz to doświadczenie, dokładnie tak samo, jak ćwiczyliśmy to już wcześniej. Jakie mogą być nieoczekiwane pozytywne skutki tego doświadczenia? Jaką radę dałbyś/dałabyś znajomemu będącemu w podobnej sytuacji? Czy to doświadczenie nauczyło Cię czegoś? Co powiedzieliby Twoi znajomi, członkowie rodziny lub ktoś, kogo podziwiasz na temat pozytywnych aspektów tego doświadczenia?",
+        "field_type": "text",
+        "field_label": "Zreinterpretuj 1:",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -94,7 +88,47 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },   
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_2",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Ok, spróbujmy teraz zreinterpretować to, w jaki sposób postrzegasz to doświadczenie, dokładnie tak samo, jak ćwiczyliśmy to już wcześniej. Jakie mogą być nieoczekiwane pozytywne skutki tego doświadczenia? Jaką radę dałbyś/dałabyś znajomemu będącemu w podobnej sytuacji? Czy to doświadczenie nauczyło Cię czegoś? Co powiedzieliby Twoi znajomi, członkowie rodziny lub ktoś, kogo podziwiasz na temat pozytywnych aspektów tego doświadczenia?",
+        "field_type": "text",
+        "field_label": "Zreinterpretuj 2:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },    
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_3",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Ok, spróbujmy teraz zreinterpretować to, w jaki sposób postrzegasz to doświadczenie, dokładnie tak samo, jak ćwiczyliśmy to już wcześniej. Jakie mogą być nieoczekiwane pozytywne skutki tego doświadczenia? Jaką radę dałbyś/dałabyś znajomemu będącemu w podobnej sytuacji? Czy to doświadczenie nauczyło Cię czegoś? Co powiedzieliby Twoi znajomi, członkowie rodziny lub ktoś, kogo podziwiasz na temat pozytywnych aspektów tego doświadczenia?",
+        "field_type": "text",
+        "field_label": "Zreinterpretuj 3:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
     {
         "field_name": "EMI_DynaMINT_ReApp_experienceStress",
         "form_name": "EMI_DynaMINT_ReApp",
