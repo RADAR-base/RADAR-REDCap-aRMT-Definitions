@@ -69,18 +69,12 @@
         "field_annotation": "range-type",
         "evaluated_logic": ""
     },
-        {
-        "field_name": "EMI_DynaMINT_ReApp_reappraisal",
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_1",
         "form_name": "EMI_DynaMINT_ReApp",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-            "label": "Okay, lass uns diese Erfahrung neu interpretieren, so wie du es zuvor geübt hast. Was könnte eine unerwartete positive Konsequenz dieser Erfahrung sein? Welchen Rat könntest Du einem Freund in einer ähnlichen Situation geben? Hast Du aus dieser Erfahrung etwas gelernt? Was würde dir ein Freund über die positiven Aspekte dieser Erfahrung sagen?",
-            "code": ""         
-            }
-        ],
+        "section_header": "Okay, lass uns diese Erfahrung neu interpretieren, so wie du es zuvor geübt hast. Was könnte eine unerwartete positive Konsequenz dieser Erfahrung sein? Welchen Rat könntest Du einem Freund in einer ähnlichen Situation geben? Hast Du aus dieser Erfahrung etwas gelernt? Was würde dir ein Freund über die positiven Aspekte dieser Erfahrung sagen?",
+        "field_type": "text",
+        "field_label": "Neu interpretiere! 1:",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -94,7 +88,47 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },   
+    },
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_2",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Okay, lass uns diese Erfahrung neu interpretieren, so wie du es zuvor geübt hast. Was könnte eine unerwartete positive Konsequenz dieser Erfahrung sein? Welchen Rat könntest Du einem Freund in einer ähnlichen Situation geben? Hast Du aus dieser Erfahrung etwas gelernt? Was würde dir ein Freund über die positiven Aspekte dieser Erfahrung sagen?",
+        "field_type": "text",
+        "field_label": "Neu interpretiere! 2:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },    
+    {
+        "field_name": "EMI_DynaMINT_ReApp_reappraisal_3",
+        "form_name": "EMI_DynaMINT_ReApp",
+        "section_header": "Okay, lass uns diese Erfahrung neu interpretieren, so wie du es zuvor geübt hast. Was könnte eine unerwartete positive Konsequenz dieser Erfahrung sein? Welchen Rat könntest Du einem Freund in einer ähnlichen Situation geben? Hast Du aus dieser Erfahrung etwas gelernt? Was würde dir ein Freund über die positiven Aspekte dieser Erfahrung sagen?",
+        "field_type": "text",
+        "field_label": "Neu interpretiere! 3:",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "EMI_DynaMINT_ReApp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }, 
     {
         "field_name": "EMI_DynaMINT_ReApp_experienceStress",
         "form_name": "EMI_DynaMINT_ReApp",
