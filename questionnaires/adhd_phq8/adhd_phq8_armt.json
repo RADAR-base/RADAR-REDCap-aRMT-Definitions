@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "gad7_1",
-        "form_name": "gad7",
-        "section_header": "Over the last two weeks, how often have you been bothered by any of the following problems?",
+        "field_name": "phq_8_self_1",
+        "form_name": "adhd_phq8",
+        "section_header": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
         "field_type": "radio",
-        "field_label": "Feeling nervous, anxious or on edge",
+        "field_label": "Little interest or pleasure in doing things",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -32,17 +32,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_2",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_2",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Not being able to stop or control worrying",
+        "field_label": "Feeling down, depressed, or hopeless",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -70,17 +70,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_3",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_3",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Worrying too much about different things",
+        "field_label": "Trouble falling or staying asleep, or sleeping too much",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -108,17 +108,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_4",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_4",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Having trouble relaxing",
+        "field_label": "Feeling tired or having little energy",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -146,17 +146,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_5",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_5",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Being so restless that it is hard to sit still",
+        "field_label": "Poor appetite or overeating",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -184,17 +184,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_6",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_6",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Becoming easily annoyed or irritable",
+        "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -222,17 +222,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "gad7_7",
-        "form_name": "gad7",
+        "field_name": "phq_8_self_7",
+        "form_name": "adhd_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Feeling afraid, as if something awful might happen",
+        "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -260,7 +260,45 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "gad7",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_8",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Several days"
+            },
+            {
+                "code": "2",
+                "label": "More than half the days"
+            },
+            {
+                "code": "3",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
