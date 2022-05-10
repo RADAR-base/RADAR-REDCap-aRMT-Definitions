@@ -354,7 +354,8 @@
         "form_name": "EMI_DynaMINT_ReApp_n",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Pomyśl o dzisiejszym dniu. Czy był to przeciętny dzień, taki jak zwykle w Twoim życiu, czy zdarzyło się może dziś coś niezwykłego? Mogą to być zarówno wydarzenia bardzo pozytywne, jak i negatywne.": [
+        "field_label": "Pomyśl o dzisiejszym dniu. Czy był to przeciętny dzień, taki jak zwykle w Twoim życiu, czy zdarzyło się może dziś coś niezwykłego? Mogą to być zarówno wydarzenia bardzo pozytywne, jak i negatywne.",
+        "select_choices_or_calculations": [
             {
                 "code": "1",
                 "label": "Zwykły dzień"
