@@ -3,9 +3,46 @@
         "field_name": "bpressure_instructions",
         "form_name": "blood_pressure_measurement",
         "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "Blood Pressure Measuring instructions: \r\n• Please sit quietly for 5 minutes, with your back supported and feet on the floor. \r\n• Support the arm, so that the cuff will be at the same level as the heart (e.g. table). \r\n• The cuff should be positioned 2-3cm over the elbow; the air tube should run down the inside of the forearm and should be in line with the middle finger. \r\n• The cuff is suited for an arm circumference of 22-42cm. \r\n• Make 2 repeated recordings (5 minutes between the 2 recordings) over the right arm. \r\n• Report the values of the 2 recordings of systolic and diastolic measurements on this app. \r\n• Note the heart rate at the second recording. \r\n\r\nFor further instructions, please see your Technology User Guide or contact the research team.",
-        "select_choices_or_calculations": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "• Blood Pressure Measuring instructions:"
+            },
+            {
+                "code": "2",
+                "label": "• Please sit quietly for 5 minutes, with your back supported and feet on the floor."
+            },
+            {
+                "code": "3",
+                "label": "• Support the arm, so that the cuff will be at the same level as the heart (e.g. table)."
+            },
+            {
+                "code": "4",
+                "label": "• The cuff should be positioned 2-3cm over the elbow; the air tube should run down the inside of the forearm and should be in line with the middle finger."
+            },
+            {
+                "code": "5",
+                "label": "• The cuff is suited for an arm circumference of 22-42cm."
+            },
+            {
+                "code": "6",
+                "label": "• Make 2 repeated recordings (5 minutes between the 2 recordings) over the right arm."
+            },
+            {
+                "code": "7",
+                "label": "• Report the values of the 2 recordings of systolic and diastolic measurements on this app."
+            },
+            {
+                "code": "8",
+                "label": "• Note the heart rate at the second recording."
+            },
+            {
+                "code": "9",
+                "label": "• For further instructions, please see your Technology User Guide or contact the research team."
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -17,39 +54,18 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bpressure_1",
-        "form_name": "blood_pressure_measurement",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "Measurements #1",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "info-type",
         "evaluated_logic": ""
     },
     {
         "field_name": "bpressure_1_time",
         "form_name": "blood_pressure_measurement",
-        "section_header": "",
+        "section_header": "Measurements #1\r\nPlease take your blood pressure",
         "field_type": "text",
-        "field_label": "Time (in 24hr format, e.g., 17:30) ",
+        "field_label": "Time of measurement #1 (in 24hr format, e.g., 17:30) ",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "time",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -109,7 +125,7 @@
         "form_name": "blood_pressure_measurement",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Measurements #2",
+        "field_label": "Measurements #2\r\nPlease take your blood pressure again",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -130,10 +146,10 @@
         "form_name": "blood_pressure_measurement",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Time (in 24hr format, e.g., 17:30) ",
+        "field_label": "Time of measurement #2 (in 24hr format, e.g., 17:30) ",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "time",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -178,6 +194,27 @@
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bpressure_2_hr",
+        "form_name": "blood_pressure_measurement",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Heart rate",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "200",
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
