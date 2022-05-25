@@ -37,13 +37,16 @@
         "field_label": "2. How much olive oil do you consume in a given day (in tbsp) (including oil used for frying, salads, out-of-house meals, etc.) ? ",
         "select_choices_or_calculations": [
             {
-                "code": "0"
+                "code": "0",
+                "label": "0 tbsp"
             },
             {
-                "code": "20"
+                "code": "5",
+                "label": "5 tbsp"
             },
             {
-                "code": "40"
+                "code": "10+",
+                "label": "10+ tbsp"
             }
         ],
         "field_note": "tbsp",
