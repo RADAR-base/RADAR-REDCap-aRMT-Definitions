@@ -1352,14 +1352,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[caddra_5bb]='1' OR [caddra_5bb]='2' OR [caddra_5bb]='3'",
+        "branching_logic": "[caddra_5bb] = '1' or [caddra_5bb] = '2' or [caddra_5bb] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['caddra_5bb'] == '1' OR responses['=='] == caddra_5bbresponses[''3'']"
+        "evaluated_logic": "responses['caddra_5bb'] ==  '1' || responses['caddra_5bb'] ==  '2' || responses['caddra_5bb'] ==  '3'"
     },
     {
         "field_name": "caddra_5_comments",
