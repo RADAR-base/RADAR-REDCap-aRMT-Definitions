@@ -100,14 +100,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_1",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_3b",
@@ -150,14 +150,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_1",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_3c",
@@ -200,14 +200,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_1",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_4",
@@ -246,14 +246,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
-        "custom_alignment": "RH",
+        "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_4open",
@@ -267,14 +267,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5a",
@@ -305,14 +305,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5b",
@@ -343,14 +343,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5c",
@@ -381,14 +381,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5d",
@@ -419,14 +419,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5e",
@@ -457,14 +457,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5f",
@@ -495,14 +495,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5g",
@@ -533,14 +533,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5h",
@@ -571,14 +571,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5i",
@@ -609,14 +609,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5j",
@@ -647,14 +647,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5k",
@@ -685,14 +685,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5l",
@@ -723,14 +723,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5m",
@@ -761,14 +761,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5n",
@@ -799,14 +799,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5o",
@@ -837,14 +837,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5p",
@@ -875,14 +875,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5q",
@@ -913,14 +913,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5r",
@@ -951,14 +951,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5s",
@@ -989,14 +989,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5t",
@@ -1027,14 +1027,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5u",
@@ -1065,14 +1065,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5v",
@@ -1103,14 +1103,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5w",
@@ -1141,14 +1141,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5x",
@@ -1179,14 +1179,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5y",
@@ -1217,14 +1217,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5z",
@@ -1255,14 +1255,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5aa",
@@ -1293,14 +1293,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5bb",
@@ -1331,14 +1331,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "caddra_5",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     },
     {
         "field_name": "caddra_5open",
@@ -1365,7 +1365,7 @@
         "field_name": "caddra_5_comments",
         "form_name": "adhd_medication_side_effects",
         "section_header": "",
-        "field_type": "notes",
+        "field_type": "text",
         "field_label": "Please comment on any side effects experienced with the current treatment in the last week.",
         "select_choices_or_calculations": "",
         "field_note": "",
@@ -1373,13 +1373,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[caddra_pre1] = '1' OR [caddra_pre2] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['caddra_pre1'] ==  '1' OR responses[' ==']"
     }
 ]
