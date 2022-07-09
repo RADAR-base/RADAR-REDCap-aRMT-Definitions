@@ -69,6 +69,23 @@
         "matrix_group_name": "covid_symptom_common",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "",
+        "extra_section": [
+            {
+                "data_name": "weight",
+                "time_intervals": "1000",
+                "value": ""
+            },
+            {
+                "data_name": "height",
+                "time_intervals": "1000",
+                "value": ""
+            },
+            {
+                "data_name": "blood_pressure",
+                "time_intervals": "1000",
+                "value": ""
+            }
+        ]
     }
 ]
