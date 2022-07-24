@@ -34,29 +34,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "health",
-        "form_name": "health_collect",
+        "field_name": "weight",
+        "form_name": "weight",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
         "field_label": "Health",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "None "
-            },
-            {
-                "code": "1",
-                "label": "Mild "
-            },
-            {
-                "code": "2",
-                "label": "Moderate "
-            },
-            {
-                "code": "3",
-                "label": "Severe"
-            }
-        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -69,28 +51,46 @@
         "matrix_group_name": "covid_symptom_common",
         "matrix_ranking": "",
         "field_annotation": "matrix-radio-type",
-        "evaluated_logic": "",
-        "extra_section": [
-            {
-                "data_name": "weight",
-                "time_intervals": "1000",
-                "value": ""
-            },
-            {
-                "data_name": "height",
-                "time_intervals": "1000",
-                "value": ""
-            },
-            {
-                "data_name": "heart_rate",
-                "time_intervals": "1000",
-                "value": ""
-            },
-            {
-                "data_name": "temperature",
-                "time_intervals": "1000",
-                "value": ""
-            }
-        ]
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "height",
+        "form_name": "height",
+        "section_header": "We will be collecting your data for the following.",
+        "field_type": "health",
+        "field_label": "Health",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "heart_rate",
+        "form_name": "heart_rate",
+        "section_header": "We will be collecting your data for the following.",
+        "field_type": "health",
+        "field_label": "Health",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
     }
 ]
