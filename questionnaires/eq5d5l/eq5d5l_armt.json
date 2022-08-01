@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "eq5d5l_1",
+        "field_name": "mobility",
         "form_name": "eq5d5l",
-        "section_header": "",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
         "field_type": "radio",
-        "field_label": "Please select the ONE option that best describes your health TODAY. Mobility:",
+        "field_label": "Mobility",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -36,17 +36,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "mobility",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "mobility_2",
+        "field_name": "self_care",
         "form_name": "eq5d5l",
-        "section_header": "",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
         "field_type": "radio",
-        "field_label": "Please select the ONE option that best describes your health TODAY. Self-care:",
+        "field_label": "Self-care",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -78,17 +78,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "selfcare",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "mobility_3",
+        "field_name": "usual_activities",
         "form_name": "eq5d5l",
-        "section_header": "",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
         "field_type": "radio",
-        "field_label": "Please select the ONE option that best describes your health TODAY. Usual activities (e.g. work, study, housework, family, or leisure activities):",
+        "field_label": "Usual Activities",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -120,17 +120,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "usualactivities",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "mobility_4",
+        "field_name": "pain_discomfort",
         "form_name": "eq5d5l",
-        "section_header": "",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
         "field_type": "radio",
-        "field_label": "Please select the ONE option that best describes your health TODAY. Pain / Discomfort:",
+        "field_label": "Pain / Discomfort",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -162,17 +162,17 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "paindiscomfort",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "mobility_5",
+        "field_name": "anxiety_depression",
         "form_name": "eq5d5l",
-        "section_header": "",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
         "field_type": "radio",
-        "field_label": "Please select the ONE option that best describes your health TODAY. Anxiety / Depression:",
+        "field_label": "Anxiety / Depression",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -204,7 +204,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "anxietydepression",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
