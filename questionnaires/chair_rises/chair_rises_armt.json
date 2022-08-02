@@ -3,26 +3,9 @@
         "field_name": "chair_rises_instructions",
         "form_name": "chair_rises",
         "section_header": "",
-        "field_type": "info",
-        "field_label": "Chair Rises Instructions",
-        "select_choices_or_calculations": [
-            {
-                "code": "Part1",
-                "label": "Comfortable clothing and appropriate footwear should be worn for this test."
-            },
-            {
-                "code": "Part2",
-                "label": "Sit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards)."
-            },
-            {
-                "code": "Part3",
-                "label": "Press button A (activity button A is located at the top right-hand side of the watch face)"
-            },
-            {
-                "code": "Part4",
-                "label": "Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites."
-            }
-        ],
+        "field_type": "descriptive",
+        "field_label": "<b>Part 1</b>\r\n\r\nComfortable clothing and appropriate footwear should be worn for this test.\r\n\r\n\r\n<b>Part 2</b>\r\n\r\nSit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards).\r\n\r\n\r\n<b>Part 3</b>\r\n\r\nPress button A (activity button A is located at the top right-hand side of the watch face). Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites.",
+        "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -34,7 +17,7 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "info-type",
+        "field_annotation": "",
         "evaluated_logic": ""
     },
     {
