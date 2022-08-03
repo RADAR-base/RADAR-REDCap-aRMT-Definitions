@@ -1,0 +1,390 @@
+[
+    {
+        "field_name": "chair_rises_instructions",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<img src=\"https://radar-redcap.rosalind.kcl.ac.uk/redcap/redcap_v10.0.21/DataEntry/image_view.php?pid=32&doc_id_hash=94c066545eb8b0fbd2056d50b50dd598e1262cf7&id=2046&instance=1\" border=\"0\"><br><br>\r\n\r\n<b>Part 1</b><br>\r\nComfortable clothing and appropriate footwear should be worn for this test.\r\n\r\n\r\n<b>Part 2</b><br>\r\nSit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards).\r\n\r\n<b>Instruction Video</b><br>\r\n<iframe width=\"560\" height=\"315\" src=\"https://mediacentral.ucl.ac.uk/flash/1E3a4jah_hd.mp4\" allowfullscreen></iframe>\r\n\r\n",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_instructions_2",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Chair Rises Instructions\r\n",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Press button A (activity button A is located at the top right-hand side of the watch face). Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites."
+            },
+            {
+                "code": "Part2",
+                "label": "Using the watch face touchscreen (C), select 'Cardio'"
+            },
+            {
+                "code": "Part3",
+                "label": "'Ready' will appear on the watch face'."
+            },
+            {
+                "code": "Part4",
+                "label": "Press button A to start the activity timer'"
+            },
+            {
+                "code": "Part5",
+                "label": "Go! Stand up and then sit down as quickly as you can 10 times'"
+            },
+            {
+                "code": "Part6",
+                "label": "When you have completed 10 chair rises, Stop!"
+            },
+            {
+                "code": "Part7",
+                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
+            },
+            {
+                "code": "Part8",
+                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_instructions_3",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Chair Rises Instructions",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Congratulations! You have completed your Chair Rises Test."
+            },
+            {
+                "code": "Part2",
+                "label": "Please log your most recent test in the next section."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_completed",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Were you able to complete the most recent test?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_datetime",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please enter the date and time that you started the chair rises test.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+    },
+    {
+        "field_name": "chair_rises_borg_scale",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the option that best describes your level of exertion during the test.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nothing at all"
+            },
+            {
+                "code": "1",
+                "label": "Very light"
+            },
+            {
+                "code": "2",
+                "label": "Light"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Somewhat Hard"
+            },
+            {
+                "code": "5",
+                "label": "Hard"
+            },
+            {
+                "code": "6",
+                "label": "Hard"
+            },
+            {
+                "code": "7",
+                "label": "Very Hard"
+            },
+            {
+                "code": "8",
+                "label": "Very Hard"
+            },
+            {
+                "code": "9",
+                "label": "Very very hard"
+            },
+            {
+                "code": "10",
+                "label": "Very very hard, maximal effort"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-info",
+        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+    },
+    {
+        "field_name": "chair_rises_completed_10",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Where you able to complete 10 chair rises?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+    },
+    {
+        "field_name": "how_many_chair_rises_were",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How many chair rises were you able to complete?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed_10] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
+    },
+    {
+        "field_name": "chair_rises_partial_complete_reason",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the primary reasons for not fully completing the Chair Rises test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Fatigue"
+            },
+            {
+                "code": "1",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "2",
+                "label": "Too busy"
+            },
+            {
+                "code": "3",
+                "label": "Too complicated"
+            },
+            {
+                "code": "4",
+                "label": "Injury"
+            },
+            {
+                "code": "5",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[were_you_able_to_complete] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '0'"
+    },
+    {
+        "field_name": "chair_rises_not_completed_reason",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Reasons for not completing the Chair Rises test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I forgot"
+            },
+            {
+                "code": "1",
+                "label": "Fatigue"
+            },
+            {
+                "code": "2",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "3",
+                "label": "Too busy"
+            },
+            {
+                "code": "4",
+                "label": "Too complicated"
+            },
+            {
+                "code": "5",
+                "label": "Injury"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[were_you_able_to_complete] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '0'"
+    }
+]
