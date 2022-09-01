@@ -54,11 +54,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "height",
-        "form_name": "height",
+        "field_name": "steps",
+        "form_name": "steps",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
-        "field_label": "Height",
+        "field_label": "Steps",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -74,11 +74,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "height",
-        "form_name": "height",
+        "field_name": "calories.active",
+        "form_name": "calories.active",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
-        "field_label": "Height",
+        "field_label": "Calories active",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -94,11 +94,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "height",
-        "form_name": "height",
+        "field_name": "temperature",
+        "form_name": "temperature",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
-        "field_label": "Height",
+        "field_label": "Temperature",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -114,11 +114,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "height",
-        "form_name": "height",
+        "field_name": "blood_pressure_systolic",
+        "form_name": "blood_pressure_systolic",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
-        "field_label": "Height",
+        "field_label": "Blood pressure systolic",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -158,7 +158,7 @@
         "form_name": "heart_rate",
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
-        "field_label": "Heart_rate",
+        "field_label": "Heart rate",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
