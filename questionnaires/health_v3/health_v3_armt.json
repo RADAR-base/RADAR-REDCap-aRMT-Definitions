@@ -74,26 +74,6 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "calories.active",
-        "form_name": "calories.active",
-        "section_header": "We will be collecting your data for the following.",
-        "field_type": "health",
-        "field_label": "Calories active",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "health_data",
-        "matrix_ranking": "",
-        "field_annotation": "matrix-radio-type",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "temperature",
         "form_name": "temperature",
         "section_header": "We will be collecting your data for the following.",
@@ -135,7 +115,7 @@
     },
     {
         "field_name": "blood_pressure_diastolic",
-        "form_name": "blood_pressure_diastolic",
+        "form_name": "blood_pressure_diastolic", 
         "section_header": "We will be collecting your data for the following.",
         "field_type": "health",
         "field_label": "Blood pressure diastolic",
