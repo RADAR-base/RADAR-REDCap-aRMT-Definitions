@@ -50,14 +50,6 @@
             {
                 "code": "Part6",
                 "label": "When you have completed 10 chair rises, Stop!"
-            },
-            {
-                "code": "Part7",
-                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
-            },
-            {
-                "code": "Part8",
-                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
             }
         ],
         "field_note": "",
@@ -83,10 +75,18 @@
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Congratulations! You have completed your Chair Rises Test."
+                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
             },
             {
                 "code": "Part2",
+                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
+            },
+            {
+                "code": "Part3",
+                "label": "Congratulations! You have completed your Chair Rises Test."
+            },
+            {
+                "code": "Part4",
                 "label": "Please log your most recent test in the next section."
             }
         ],
