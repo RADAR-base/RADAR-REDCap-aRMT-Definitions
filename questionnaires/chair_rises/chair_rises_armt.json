@@ -4,7 +4,7 @@
         "form_name": "chair_rises",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<img src=\"https://radar-redcap.rosalind.kcl.ac.uk/redcap/redcap_v10.0.21/DataEntry/image_view.php?pid=32&doc_id_hash=94c066545eb8b0fbd2056d50b50dd598e1262cf7&id=2046&instance=1\" border=\"0\"><br><br>\r\n\r\n<b>Part 1</b><br>\r\nComfortable clothing and appropriate footwear should be worn for this test.\r\n\r\n\r\n<b>Part 2</b><br>\r\nSit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards).\r\n\r\n<b>Instruction Video</b><br>\r\n<iframe width=\"560\" height=\"315\" src=\"https://mediacentral.ucl.ac.uk/flash/1E3a4jah_hd.mp4\" allowfullscreen></iframe>\r\n\r\n",
+        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br /><strong>Part 1</strong><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><strong>Part 2</strong><br />Sit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards).<br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://mediacentral.ucl.ac.uk/flash/1E3a4jah_hd.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -50,14 +50,6 @@
             {
                 "code": "Part6",
                 "label": "When you have completed 10 chair rises, Stop!"
-            },
-            {
-                "code": "Part7",
-                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
-            },
-            {
-                "code": "Part8",
-                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
             }
         ],
         "field_note": "",
@@ -83,10 +75,18 @@
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Congratulations! You have completed your Chair Rises Test."
+                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
             },
             {
                 "code": "Part2",
+                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
+            },
+            {
+                "code": "Part3",
+                "label": "Congratulations! You have completed your Chair Rises Test."
+            },
+            {
+                "code": "Part4",
                 "label": "Please log your most recent test in the next section."
             }
         ],
