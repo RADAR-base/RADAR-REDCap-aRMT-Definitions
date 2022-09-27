@@ -50,43 +50,21 @@
             {
                 "code": "Part6",
                 "label": "When you have completed 10 chair rises, Stop!"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "info-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "chair_rises_instructions_3",
-        "form_name": "chair_rises",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "Chair Rises Instructions",
-        "select_choices_or_calculations": [
+            },
             {
-                "code": "Part1",
+                "code": "Part7",
                 "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
             },
             {
-                "code": "Part2",
+                "code": "Part8",
                 "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
             },
             {
-                "code": "Part3",
+                "code": "Part9",
                 "label": "Congratulations! You have completed your Chair Rises Test."
             },
             {
-                "code": "Part4",
+                "code": "Part10",
                 "label": "Please log your most recent test in the next section."
             }
         ],
@@ -137,14 +115,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+        "evaluated_logic": ""
     },
     {
         "field_name": "chair_rises_borg_scale",
@@ -203,14 +181,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-info",
-        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+        "evaluated_logic": ""
     },
     {
         "field_name": "chair_rises_completed_10",
@@ -224,14 +202,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[were_you_able_to_complete] = '1'",
+        "branching_logic": "",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '1'"
+        "evaluated_logic": ""
     },
     {
         "field_name": "how_many_chair_rises_were",
