@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "chair_rises_instructions",
-        "form_name": "chair_rises",
+        "field_name": "smwt_instructions",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br /><strong>Part 1</strong><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><strong>Part 2</strong><br />Sit on a straight back chair (for additional stability, place the rear legs of the chair against a wall so that it cannot slide backwards).<br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://mediacentral.ucl.ac.uk/flash/1E3a4jah_hd.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
+        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://mediacentral.ucl.ac.uk/flash/dBG4FcEg_hd.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -21,51 +21,67 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "chair_rises_instructions_2",
-        "form_name": "chair_rises",
+        "field_name": "smwt_instructions_2",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "info",
-        "field_label": "Chair Rises Instructions\r\n",
+        "field_label": "Six Minute Walking Test Instructions",
         "select_choices_or_calculations": [
             {
                 "code": "Part1",
-                "label": "Press button A (activity button A is located at the top right-hand side of the watch face). Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites."
+                "label": "Press button A (activity button A is located at the top right-hand side of the watch face)"
             },
             {
                 "code": "Part2",
-                "label": "Using the watch face touchscreen (C), select 'Cardio'"
+                "label": "Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites"
             },
             {
                 "code": "Part3",
-                "label": "'Ready' will appear on the watch face'."
+                "label": "Using the watch face touchscreen (C), select 'Walk'"
             },
             {
                 "code": "Part4",
-                "label": "Press button A to start the activity timer'"
+                "label": "'Wait for GPS' will appear on the watch face'"
             },
             {
                 "code": "Part5",
-                "label": "Go! Stand up and then sit down as quickly as you can 10 times'"
+                "label": "Wait for the GPS to connect (this may take 1-2 minutes)"
             },
             {
                 "code": "Part6",
-                "label": "When you have completed 10 chair rises, Stop!"
+                "label": "Ready' will appear on the watch face when the GPS is connected"
             },
             {
                 "code": "Part7",
-                "label": "Check the clock timer on the watch face and sit still for a 1-minute recovery period. After 1 minute of recovery, press button A to stop the activity timer'."
+                "label": "Press  button  A to start the activity timer"
             },
             {
                 "code": "Part8",
-                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)."
+                "label": "Go! Walk as far as you can for 6 minutes"
             },
             {
                 "code": "Part9",
-                "label": "Congratulations! You have completed your Chair Rises Test."
+                "label": "When the clock timer reads 6:00, Stop!"
             },
             {
                 "code": "Part10",
-                "label": "Please log your most recent test in the next section."
+                "label": "Stand still (or sit down if required) for a 1-minute recovery period"
+            },
+            {
+                "code": "Part11",
+                "label": "When the clock timer reads 7:00, press button A to stop the activity timer"
+            },
+            {
+                "code": "Part12",
+                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)"
+            },
+            {
+                "code": "Part13",
+                "label": "Congratulations! You have completed your 6 Minute Walk Test'"
+            },
+            {
+                "code": "Part14",
+                "label": "Please log your most recent test in the 'Log your 6MWT here' section below"
             }
         ],
         "field_note": "",
@@ -83,50 +99,83 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "chair_rises_completed",
-        "form_name": "chair_rises",
-        "section_header": "",
-        "field_type": "yesno",
-        "field_label": "Were you able to complete the most recent test?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "chair_rises_datetime",
-        "form_name": "chair_rises",
+        "field_name": "smwt_start_date",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Please enter the date and time that you started the chair rises test.",
+        "field_label": "Please enter the date and time that you started the six minute walk test.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "datetime_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[chair_rises_completed] = '1'",
+        "branching_logic": "[smwt_complete] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
     },
     {
-        "field_name": "chair_rises_borg_scale",
-        "form_name": "chair_rises",
+        "field_name": "smwt_reason_incomplete",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Reasons for not completing the Six Minute Walking Test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I forgot"
+            },
+            {
+                "code": "1",
+                "label": "Fatigue"
+            },
+            {
+                "code": "2",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "3",
+                "label": "Too busy"
+            },
+            {
+                "code": "4",
+                "label": "Too complicated"
+            },
+            {
+                "code": "5",
+                "label": "Injury"
+            },
+            {
+                "code": "6",
+                "label": "Poor weather"
+            },
+            {
+                "code": "7",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_complete] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_complete'] ==  '0'"
+    },
+    {
+        "field_name": "smwt_exertion_level",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Please select the option that best describes your level of exertion during the test.",
@@ -181,42 +230,42 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[chair_rises_completed] = '1'",
+        "branching_logic": "[smwt_complete] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-info",
-        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
     },
     {
-        "field_name": "chair_rises_completed_10",
-        "form_name": "chair_rises",
+        "field_name": "smwt_walk_complete_six_min",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "yesno",
-        "field_label": "Where you able to complete 10 chair rises?",
+        "field_label": "Where you able to walk for 6 minutes?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[chair_rises_completed] = '1'",
+        "branching_logic": "[smwt_complete] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
     },
     {
-        "field_name": "how_many_chair_rises_were",
-        "form_name": "chair_rises",
+        "field_name": "smwt_walk_min",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How many chair rises were you able to complete?",
+        "field_label": "For approximately how many minutes were you able to walk?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -237,22 +286,6 @@
             {
                 "code": "5",
                 "label": "5"
-            },
-            {
-                "code": "6",
-                "label": "6"
-            },
-            {
-                "code": "7",
-                "label": "7"
-            },
-            {
-                "code": "8",
-                "label": "8"
-            },
-            {
-                "code": "9",
-                "label": "9"
             }
         ],
         "field_note": "",
@@ -260,21 +293,21 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[chair_rises_completed_10] = '0'",
+        "branching_logic": "[smwt_walk_complete_six_min] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
+        "evaluated_logic": "responses['smwt_walk_complete_six_min'] ==  '0'"
     },
     {
-        "field_name": "chair_rises_partial_complete_reason",
-        "form_name": "chair_rises",
+        "field_name": "smwt_partial_complete_reason",
+        "form_name": "smwt",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Please select the primary reasons for not fully completing the Chair Rises test",
+        "field_label": "Please select the primary reasons for not fully completing the Six Minute Walking Test",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -298,53 +331,7 @@
             },
             {
                 "code": "5",
-                "label": "Other"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[chair_rises_completed_10] = '0'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
-    },
-    {
-        "field_name": "chair_rises_not_completed_reason",
-        "form_name": "chair_rises",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Reasons for not completing the Chair Rises test",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "I forgot"
-            },
-            {
-                "code": "1",
-                "label": "Fatigue"
-            },
-            {
-                "code": "2",
-                "label": "Shortness of breath"
-            },
-            {
-                "code": "3",
-                "label": "Too busy"
-            },
-            {
-                "code": "4",
-                "label": "Too complicated"
-            },
-            {
-                "code": "5",
-                "label": "Injury"
+                "label": "Poor weather"
             },
             {
                 "code": "6",
@@ -356,13 +343,47 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[chair_rises_completed] = '0'",
+        "branching_logic": "[smwt_walk_complete_six_min] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['chair_rises_completed'] ==  '0'"
+        "evaluated_logic": "responses['smwt_walk_complete_six_min'] ==  '0'"
+    },
+    {
+        "field_name": "mwt_complete",
+        "form_name": "smwt",
+        "section_header": "Form Status",
+        "field_type": "dropdown",
+        "field_label": "Complete?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Incomplete"
+            },
+            {
+                "code": "1",
+                "label": "Unverified"
+            },
+            {
+                "code": "2",
+                "label": "Complete"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]

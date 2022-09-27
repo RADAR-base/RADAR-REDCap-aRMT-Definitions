@@ -1,0 +1,458 @@
+[
+    {
+        "field_name": "ghq12_1",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been able to concentrate on what you're doing?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Better than usual"
+            },
+            {
+                "code": "1",
+                "label": "Same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_2",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently lost much sleep over worry?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_3",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently felt you were playing a useful part in things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "More so than usual"
+            },
+            {
+                "code": "1",
+                "label": "Same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less useful than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less useful"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_4",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently felt capable of making decisions about things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "More so than usual"
+            },
+            {
+                "code": "1",
+                "label": "Same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less so than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less capable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_5",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently felt constantly under strain?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_6",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently felt you couldn't overcome your difficulties?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_7",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been able to enjoy your normal day-to-day activities?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "More so than usual"
+            },
+            {
+                "code": "1",
+                "label": "Same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less so than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_8",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been able to face up to your problems?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "More so than usual"
+            },
+            {
+                "code": "1",
+                "label": "Same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less so than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less able"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_9",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been feeling unhappy and depressed?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_10",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been losing confidence in yourself?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_11",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been thinking of yourself as a worthless person?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "No more than usual"
+            },
+            {
+                "code": "2",
+                "label": "Rather more than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much more than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ghq12_12",
+        "form_name": "ghq12",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you recently been feeling reasonably happy, all things considered",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "More so than usual"
+            },
+            {
+                "code": "1",
+                "label": "About same as usual"
+            },
+            {
+                "code": "2",
+                "label": "Less so than usual"
+            },
+            {
+                "code": "3",
+                "label": "Much less than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
