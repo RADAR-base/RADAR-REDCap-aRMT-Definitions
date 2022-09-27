@@ -115,14 +115,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
     },
     {
         "field_name": "chair_rises_borg_scale",
@@ -181,14 +181,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-info",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
     },
     {
         "field_name": "chair_rises_completed_10",
@@ -202,14 +202,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
     },
     {
         "field_name": "how_many_chair_rises_were",
@@ -306,14 +306,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[were_you_able_to_complete] = '0'",
+        "branching_logic": "[chair_rises_completed_10] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '0'"
+        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
     },
     {
         "field_name": "chair_rises_not_completed_reason",
@@ -356,13 +356,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[were_you_able_to_complete] = '0'",
+        "branching_logic": "[chair_rises_completed] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['were_you_able_to_complete'] ==  '0'"
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '0'"
     }
 ]
