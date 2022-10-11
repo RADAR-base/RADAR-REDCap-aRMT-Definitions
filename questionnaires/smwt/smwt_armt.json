@@ -99,6 +99,27 @@
         "evaluated_logic": ""
     },
     {
+        "field_name": "smwt_completed",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Were you able to complete the most recent test?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "smwt_start_date",
         "form_name": "smwt",
         "section_header": "",
@@ -110,14 +131,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[smwt_complete] = '1'",
+        "branching_logic": "[smwt_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
     },
     {
         "field_name": "smwt_reason_incomplete",
@@ -164,14 +185,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[smwt_complete] = '0'",
+        "branching_logic": "[smwt_completed] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['smwt_complete'] ==  '0'"
+        "evaluated_logic": "responses['smwt_completed'] ==  '0'"
     },
     {
         "field_name": "smwt_exertion_level",
@@ -230,14 +251,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[smwt_complete] = '1'",
+        "branching_logic": "[smwt_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-info",
-        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
     },
     {
         "field_name": "smwt_walk_complete_six_min",
@@ -251,14 +272,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[smwt_complete] = '1'",
+        "branching_logic": "[smwt_completed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['smwt_complete'] ==  '1'"
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
     },
     {
         "field_name": "smwt_walk_min",
@@ -351,39 +372,5 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['smwt_walk_complete_six_min'] ==  '0'"
-    },
-    {
-        "field_name": "mwt_complete",
-        "form_name": "smwt",
-        "section_header": "Form Status",
-        "field_type": "dropdown",
-        "field_label": "Complete?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Incomplete"
-            },
-            {
-                "code": "1",
-                "label": "Unverified"
-            },
-            {
-                "code": "2",
-                "label": "Complete"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
     }
 ]
