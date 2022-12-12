@@ -68,7 +68,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "How many vegetable servings do you consume per day? \r\n(1 serving : 200g [consider side dishes as half a serving])",
+        "field_label": "How many vegetable servings do you consume per day? \n(1 serving : 200g [consider side dishes as half a serving])",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -136,7 +136,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "5. How many servings of red meat, hamburger, or meat products (ham, sausage, etc.) do you consume per day?\r\n(1 serving: 100-150g)",
+        "field_label": "5. How many servings of red meat, hamburger, or meat products (ham, sausage, etc.) do you consume per day?\n(1 serving: 100-150g)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -170,7 +170,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "6. How many servings of butter, margarine, or cream do you consume per day? \r\n(1 serving: 12g)",
+        "field_label": "6. How many servings of butter, margarine, or cream do you consume per day? \n(1 serving: 12g)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -207,8 +207,8 @@
         "field_label": "7. How many sweet or carbonated beverages do you drink per day?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
-                "label": "1"
+                "code": "0",
+                "label": "0"
             },
             {
                 "code": "5",
@@ -272,7 +272,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "9. How many services of legumes do you consume per week? \r\n(1 serving: 150g)",
+        "field_label": "9. How many servings of legumes do you consume per week? \r\n(1 serving: 150g)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -306,7 +306,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "10. How many servings of fish or shellfish do you consume per week?\r\n(1 serving 100-150g of fish or 4-5 units or 200g of shellfish)",
+        "field_label": "10. How many servings of fish or shellfish do you consume per week?\n(1 serving 100-150g of fish or 4-5 units or 200g of shellfish)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -374,7 +374,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "12. How many servings of nuts (including peanuts) do you consume per week?\r\n(1 serving 30g)",
+        "field_label": "12. How many servings of nuts (including peanuts) do you consume per week?\n(1 serving 30g)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
