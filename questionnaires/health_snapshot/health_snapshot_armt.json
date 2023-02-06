@@ -4,7 +4,7 @@
         "form_name": "health_snapshot",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><br /><strong>Instruction Video</strong><br /><br />\r\n<iframe src=\\\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_health_snapshot.mp4\\\" width=\\\"560\\\" height=\\\"315\\\" allowfullscreen=\\\"\\\"></iframe><br /><br /></p>",
+        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_health_snapshot.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -28,12 +28,12 @@
         "field_label": "Health Snapshot Instructions",
         "select_choices_or_calculations": [
             {
-                "code": "1",
-                "label": "Part 1, Please sit and use your Garmin watch to register a Health Snapshot."
+                "code": "Part 1",
+                "label": "Please sit and use your Garmin watch to register a Health Snapshot."
             },
             {
-                "code": "2",
-                "label": "Part 2, After having recorded the Health Snapshot on the watch, please press 'NEXT' below."
+                "code": "Part 2",
+                "label": "After having recorded the Health Snapshot on the watch, please press 'NEXT' below."
             }
         ],
         "field_note": "",
