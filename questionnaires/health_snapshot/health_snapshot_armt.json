@@ -1,0 +1,74 @@
+[
+    {
+        "field_name": "h_snapshot_instructions",
+        "form_name": "health_snapshot",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_health_snapshot.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "h_snapshot_instructions_2",
+        "form_name": "health_snapshot",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Health Snapshot Instructions",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Please sit and use your Garmin watch to register a Health Snapshot."
+            },
+            {
+                "code": "Part2",
+                "label": "After having recorded the Health Snapshot on the watch, please press 'NEXT' below."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "h_snapshot_date",
+        "form_name": "health_snapshot",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please enter the date that you took the health snapshot.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
