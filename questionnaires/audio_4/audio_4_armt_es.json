@@ -2,21 +2,21 @@
   {
     "field_name": "audio_prep_1",
     "form_name": "audio",
-    "section_header": "PreparaciÛn para la prueba del habla",
+    "section_header": "Preparaci√≥n de la tarea de voz",
     "field_type": "info",
     "field_label": "",
     "select_choices_or_calculations": [
       {
-        "label": "En las siguientes dos tareas, nos gustarÌa que se grabara hablando. Para ello, primero busque un espacio tranquilo y pÛngase cÛmodo.",
-        "code": "Step 1"
+        "label": "En las dos tareas siguientes, tendr√° que grabarse a usted mismo hablando. Para hacerlo, encuentre un lugar tranquilo y silencioso y p√≥ngase c√≥modo.",
+        "code": "Primer paso"
       },
       {
-        "label": "Puede estar sentado o de pie mientras se graba. Hable con naturalidad en ambas tareas. No intente cambiar su voz o la velocidad a la que habla de ninguna manera.",
-        "code": "Step 2"
+        "label": "Mientras se graba, puede estar sentado o de pie. En ambas tareas, hable de forma natural. No intente cambiar su tono de voz o la velocidad de su habla habitual.",
+        "code": "Segundo paso"
       },
       {
-        "label": "Tendr· la oportunidad de repetir las grabaciones, en caso de que le interrumpan.",
-        "code": "Step 3"
+        "label": "En el caso de que la grabaci√≥n sea interrumpida por la raz√≥n que sea, tendr√° otra oportunidad para volverla a repetir.",
+        "code": "Tercer paso"
       }
     ],
     "field_note": "",
@@ -38,19 +38,19 @@
     "form_name": "audio",
     "section_header": "Empecemos.",
     "field_type": "info",
-    "field_label": "Estos tres pasos ayudar·n a asegurar una buena grabaciÛnThese three steps will help ensure a good recording.",
+    "field_label": "Los siguientes tres pasos nos aseguraran que la calidad de la grabaci√≥n sea buena.",
     "select_choices_or_calculations": [
       {
-        "label": "Mientra graba, mantenga el telÈfono quieto y frente a usted, como si estuviera haciendo una videollamada, por ejemplo con Skype, Whatsapp o Facetime.",
-        "code": "Step 1"
+        "label": "Durante la grabaci√≥n, aguante el tel√©fono firmemente y delante suyo, como si estuviera haciendo una video llamada con Skype, Whatsapp o Facetime por ejemplo.",
+        "code": "Primer paso"
       },
       {
-        "label": "El brazo debe estar doblado y relajado de forma natural. Evite enderezar el brazo o sostener el telÈfono muy cerca de la cara.",
-        "code": "Step 2"
+        "label": "Su brazo tendr√° que estar doblado de una forma natural y relajada. Intente evitar estirar el brazo completamente o poner el tel√©fono demasiado cerca de su cara.",
+        "code": "Segundo paso"
       },
       {
-        "label": "Aseg˙rese de que el micrÛfono del telÈfono no est· cubierto por su mano u otro objeto.",
-        "code": "Step 3"
+        "label": "Aseg√∫rese que el micr√≥fono del tel√©fono no est√© cubierto por su mano o por cualquier otro objeto.",
+        "code": "Tercer paso"
       }
     ],
     "field_note": "",
@@ -70,9 +70,9 @@
   {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
-    "section_header": "A continuaciÛn se muestra el texto de 'El viento del norte y el sol', una de las f·bulas de Esopo. Presione 'Iniciar', lea el texto en voz alta, luego presione 'Detener' cuando haya terminado.",
+    "section_header": "Aqu√≠ debajo hay el texto de ‚Äúel Viento del Norte y el Sol‚Äù, una de las f√°bulas de Esopo. Apriete ‚ÄúInicio‚Äù, lea el texto en voz alta y, cuando haya acabado de leer el texto, apriete ‚ÄúDetener‚Äù.",
     "field_type": "audio",
-    "field_label": "\"El Viento del Norte y el Sol disputaban quiÈn era m·s fuerte, cuando llegÛ un viajero envuelto en un c·lido manto. Estuvieron de acuerdo en que el primero que lograra que el viajero se quitara la capa deberÌa ser considerado m·s fuerte que el otro. Entonces el Viento del Norte soplÛ tan fuerte como pudo, pero cuanto m·s soplaba, m·s cerca se envolvÌa el viajero en su capa; y al fin el Viento del Norte abandonÛ el intento. Entonces el sol brillÛ c·lidamente, e inmediatamente el viajero se quitÛ la capa. Y asÌ el Viento del Norte se vio obligado a confesar que el Sol era el m·s fuerte de los dos.\"",
+    "field_label": "\"El viento norte y el sol porfiaban sobre cu√°l de ellos era el m√°s fuerte, cuando acert√≥ a pasar un viajero envuelto en ancha capa.  Convinieron en que quien antes lograra obligar al viajero a quitarse la capa ser√≠a considerado m√°s poderoso. El viento norte sopl√≥ con gran furia, pero cuanto m√°s soplaba, m√°s se arrebujaba en su capa el viajero; por fin el viento norte abandon√≥ la empresa. Entonces brill√≥ el sol con ardor, e inmediatamente se despoj√≥ de su capa el viajero. Por lo que el viento norte hubo de reconocer la superioridad del sol.\"",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -91,9 +91,9 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "A continuaciÛn, nos gustarÌa que se grabara respondiendo una pregunta. Puede responder a la pregunta como desee. Si prefiere omitir esta tarea, presione 'Finalizar'. Esta grabaciÛn no puede utilizarse para enviar ning˙n tipo de mensaje al equipo RADAR. Si necesita ayuda, comunÌquese directamente con el equipo de investigaciÛn.",
+    "section_header": "Ahora tendr√° que grabarse respondiendo a una pregunta. Puede contestar la pregunta de la manera que quiera. Si prefiere no realizar la tarea, pulse ‚ÄúFinalizar‚Äù. Esta grabaci√≥n no puede ser utilizada para enviar mensajes al equipo de investigaci√≥n del estudio RADAR. Si necesita ayuda, no dude en contactar con su equipo de referencia.",
     "field_type": "audio",
-    "field_label": "CuÈntenos algo que le haga ilusiÛn en los prÛximos siete dÌas.",
+    "field_label": "Expl√≠quenos alguna cosa que vaya a ocurrir la semana siguiente que est√© esperando con ganas.",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
