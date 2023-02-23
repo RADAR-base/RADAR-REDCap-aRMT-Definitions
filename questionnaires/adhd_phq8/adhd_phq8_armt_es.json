@@ -1,0 +1,306 @@
+[
+    {
+        "field_name": "phq_8_self_1",
+        "form_name": "adhd_phq8",
+        "section_header": "Durante las últimas 2 semanas ¿con qué frecuenci le ha molestado alguno de los siguientes problemas?",
+        "field_type": "radio",
+        "field_label": "Poco interés o alegría por hacer cosas",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_2",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sensación de estar decaído/a, deprimido/a o desesperanzado/a",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_3",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Problemas para quedarse dormido/a, para seguir durmiendo o dormir demasiado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_4",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sensación de cansancio o de tener poca energía",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_5",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Poco apetito o comer demasiado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_6",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sentirse mal consigo mismo/a;sentir que es un/a fracasado/a o que ha decpcionado a su familia o a sí mismo/a",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_7",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Problemas para concentrarse en algo, como leer el periódico o ver la televisión",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_self_8",
+        "form_name": "adhd_phq8",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Moverse o hablar tan despacio que los demás pueden haberlo notado. O lo contrario: estar tan inquieto/a o agitado/a que se ha estado moviendo de un lado a otro más de lo habitual",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

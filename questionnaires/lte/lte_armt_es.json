@@ -1,0 +1,665 @@
+[
+    {
+        "field_name": "lte_1",
+        "form_name": "lte",
+        "section_header": "En los últimos seis meses, ¿ha ocurrido algo de lo siguiente?:",
+        "field_type": "radio",
+        "field_label": "Sufrió usted una enfermedad, lesión o agresión grave",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_1_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_1'] ==  '1'"
+    },
+    {
+        "field_name": "lte_2",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Le sucedió una enfermedad, lesión o agresión grave a un pariente cercano",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "0, No\r\n1, Sí",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_2_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo,especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_2] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_2'] ==  '1'"
+    },
+    {
+        "field_name": "lte_3",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Su padre/madre, hijo o pareja falleció",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_3_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_3] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_3'] ==  '1'"
+    },
+    {
+        "field_name": "lte_4",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Murió un amigo cercano de la familia u otro pariente (tía, primo, abuelo",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_4_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_4] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_4'] ==  '1'"
+    },
+    {
+        "field_name": "lte_5",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tuvo una separación debido a dificultades con su cónyuge",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_5_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_5] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_5'] ==  '1'"
+    },
+    {
+        "field_name": "lte_6",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Rompió una relación de pareja estable",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_6_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_6] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_6'] ==  '1'"
+    },
+    {
+        "field_name": "lte_7",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tuvo un problema grave con un amigo cercano, vecino o familiar",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_7_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_7] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_7'] ==  '1'"
+    },
+    {
+        "field_name": "lte_8",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Quedó desempleado o estuvo buscando trabajo sin éxito durante más de un mes",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_8_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_8] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_8'] ==  '1'"
+    },
+    {
+        "field_name": "lte_9",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Fue despedido de tu trabajo",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_9_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_9] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_9'] ==  '1'"
+    },
+    {
+        "field_name": "lte_10",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tuvo una gran crisis financiera",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_10_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_10] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_10'] ==  '1'"
+    },
+    {
+        "field_name": "lte_11",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tuvo problemas con la policía y compareció ante el tribunal",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_11_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_11] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_11'] ==  '1'"
+    },
+    {
+        "field_name": "lte_12",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Perdió o le robaron algo de valor para usted:\r\nAl menos uno de estos eventos en los últimos  6 meses",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_12_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_12] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_12'] ==  '1'"
+    },
+    {
+        "field_name": "lte_13",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Perdió o le robaron algo de valor para usted:\r\nAl menos uno de estos eventos en los tres últimos meses",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "lte_13_date",
+        "form_name": "lte",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "En caso afirmativo, especificar fecha",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[lte_13] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['lte_13'] ==  '1'"
+    }
+]

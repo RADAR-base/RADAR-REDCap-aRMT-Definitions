@@ -1,0 +1,240 @@
+[
+    {
+        "field_name": "ari_self_1",
+        "form_name": "ari_self",
+        "section_header": "Para cada ítem, por favor, marque en el casillero que corresponda: No es cierto, A veces cierto, Totalmente Cierto. En las dos últimas semanas y  comparándose con otros de la misma edad, ¿cuál describe mejor su comportamiento o sus sentimientos? Por favor, intente responder todas las preguntas.",
+        "field_type": "radio",
+        "field_label": "Me molesto fácilmente con los demás",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_2",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "A menudo pierdo los nervios",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_3",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sigo enfadado/a la mayor parte del tiempo",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_4",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Estoy enfadado/a la mayor parte del tiempo",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_5",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Me enfado con frecuencia",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_6",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Pierdo los nervios con facilidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_7",
+        "form_name": "ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En general, mi irritabilidad me causa problemas",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not_true",
+                "label": "No es cierto "
+            },
+            {
+                "code": "Somewhat_true",
+                "label": "A veces cierto "
+            },
+            {
+                "code": "Certainly_true",
+                "label": "Totalmente Cierto"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

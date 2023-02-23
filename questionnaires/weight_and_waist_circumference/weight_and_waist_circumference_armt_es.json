@@ -1,0 +1,238 @@
+[
+    {
+        "field_name": "weight_instructions",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Usando la balanza del estudio, díganos su peso",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "weight_unit",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Por favor, seleccione la unidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "kg",
+                "label": "kilogramos (kg)"
+            },
+            {
+                "code": "stlb",
+                "label": "stone (st) y libras (lb)"
+            },
+            {
+                "code": "lb",
+                "label": "libras (lb)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "weightkg_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Peso en kilogramos(kg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[weight_unit] = 'kg'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['weight_unit'] ==  'kg'"
+    },
+    {
+        "field_name": "weightstlb_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Peso en libras (lb)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[weight_unit] = 'stlb'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['weight_unit'] ==  'stlb'"
+    },
+    {
+        "field_name": "weightlb_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Peso en libras (lb)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[weight_unit] = 'lb'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['weight_unit'] ==  'lb'"
+    },
+    {
+        "field_name": "waist_instructions",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "¿Cómo medir la cintura?"
+            },
+            {
+                "code": "Part2",
+                "label": "Encuentra la parte inferior de tus costillas y la parte superior de tus caderas."
+            },
+            {
+                "code": "Part3",
+                "label": "Coloca una cinta métrica alrededor de tu cintura en un punto a medio camino entre ellas (justo por encima del ombligo)."
+            },
+            {
+                "code": "Part4",
+                "label": "Asegúrate de que esté bien tensada, pero que no se clave en tu piel."
+            },
+            {
+                "code": "Part5",
+                "label": "Exhala con naturalidad y toma la medida."
+            },
+            {
+                "code": "Part6",
+                "label": "Vuelve a tomarte la medida, para estar seguro."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "waist_unit",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Por favor, seleccione la unidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "cm",
+                "label": "cm"
+            },
+            {
+                "code": "inches",
+                "label": "pulgadas"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "waistcm_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Cintura en cm",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[waist_unit] = 'cm'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['waist_unit'] ==  'cm'"
+    },
+    {
+        "field_name": "waistinches_measure",
+        "form_name": "weight_and_waist_circumference",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Cintura en pulgadas",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[waist_unit] = 'inches'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['waist_unit'] ==  'inches'"
+    }
+]

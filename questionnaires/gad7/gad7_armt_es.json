@@ -1,0 +1,268 @@
+[
+    {
+        "field_name": "gad7_1",
+        "form_name": "gad7",
+        "section_header": "En los últimos 14 días, ¿con qué frecuencia le han supuesto una molestia los siguientes problemas?",
+        "field_type": "radio",
+        "field_label": "Sentirse nerioso/a, angustiado/a o muy tenso/a",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_2",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ser incapaz de dejar de preocuparse o de controlar la preocupación",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_3",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Preocuparse demasiado por diferentes cuestiones",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_4",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tener problemas para relajarse",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_5",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Estar tan inquieto/a que le resulta difícil permanecer sentado/a",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_6",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Enfadarse o irritarse con facilidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "gad7_7",
+        "form_name": "gad7",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Sentir miedo de que algo terrible pueda ocurrir",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "Varios días"
+            },
+            {
+                "code": "2",
+                "label": "Más de la mitad de los días"
+            },
+            {
+                "code": "3",
+                "label": "Casi cada día"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "gad7",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
