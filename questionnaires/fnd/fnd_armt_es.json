@@ -1,0 +1,228 @@
+[
+    {
+        "field_name": "fnd_0",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Fuma usted cigarrillos habitualmente?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Sí"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fnd_1",
+        "form_name": "fnd",
+        "section_header": "Si la respuesta es  \"Sí,\" lea cada pregunta a continuación.Para cada pregunta, marque con un círculo la respuesta correcta.",
+        "field_type": "radio",
+        "field_label": "¿Cuánto tiempo pasa entre que se levanta y se fuma su primer cigarrillo?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Hasta 5 minutos"
+            },
+            {
+                "code": "2",
+                "label": "De 6 a 30 minutos"
+            },
+            {
+                "code": "3",
+                "label": "de 31 a 60 minutos"
+            },
+            {
+                "code": "4",
+                "label": "Más de 60 minutos"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_2",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Encuentra difícil no fumar en lugares donde está prohibido (hospital, cine, biblioteca)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Sí"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_3",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Qué cigarrillo odiaría más dejar de fumar?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "El primero de la mañana"
+            },
+            {
+                "code": "2",
+                "label": "Cualquier otro"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_4",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Cuántos cigarrillos fuma al día?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Menos de 10"
+            },
+            {
+                "code": "2",
+                "label": "Entre 11 y 20"
+            },
+            {
+                "code": "3",
+                "label": "Entre 21 y 30"
+            },
+            {
+                "code": "4",
+                "label": "31 o más"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_5",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Fuma con más frecuencia durante las primeras horas después de levantarse que durante el resto del día?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Sí"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    },
+    {
+        "field_name": "fnd_6",
+        "form_name": "fnd",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Fuma aunque esté tan enfermo que tenga que guardar cama la mayor parte del día?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Sí"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fnd_0] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fnd_0'] ==  '1'"
+    }
+]

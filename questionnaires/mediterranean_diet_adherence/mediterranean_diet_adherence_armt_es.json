@@ -1,0 +1,482 @@
+[
+    {
+        "field_name": "med_1",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "1. ¿Usa usted el aceite de oliva principalmente para cocinar?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_2",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "2. ¿Cuánto aceite de oliva consume en total al día (incluyendo el usado para freír, el de las comidas fuera de casa, las ensaladas, etc.)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 cucharadas"
+            },
+            {
+                "code": "5",
+                "label": "5 cucharadas"
+            },
+            {
+                "code": "10+",
+                "label": "10+ cucharadas"
+            }
+        ],
+        "field_note": "cucharadas",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_3",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "¿Cuántas raciones de verdura u hortalizas consume al día (las guarniciones o acompañamientos contabilizan como ½ ración)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10+ porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_4",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "4. ¿Cuántas piezas de fruta (incluyendo zumo natural) consume al día?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 unidades"
+            },
+            {
+                "code": "5",
+                "label": "5 unidades"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más unidades"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_5",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "5. ¿Cuántas raciones de carnes rojas, hamburguesas, salchichas o embutidos consume al día (una ración equivale a 100-150 gr.)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_6",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "6. ¿Cuántas raciones de mantequilla, margarina o nata consume al día porción individual equivale a 12 gr)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_7",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "7. ¿Cuántas bebidas carbonatadas y/o azucaradas (refrescos, colas, tónicas, bitter) consume al día?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "8. ¿Bebe vino? ¿Cuánto consume a la semana?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 vasos"
+            },
+            {
+                "code": "5",
+                "label": "5 vasos"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más vasos"
+            }
+        ],
+        "field_note": "vasos",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_9",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "9. ¿Cuántas raciones de legumbres consume a la semana (una ración o plato equivale a 150 gr)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_10",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "10. ¿Cuántas raciones de pescado o mariscos consume a la semana (un plato, pieza o ración equivale a 100-150 gr de pescado ó 4-5 piezas de marisco)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_11",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "11. ¿Cuántas veces consume repostería comercial (no casera) como galletas, flanes, dulces o pasteles a la semana?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 veces"
+            },
+            {
+                "code": "5",
+                "label": "5 veces"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más veces"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_12",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "12. ¿Cuántes veces consume frutos secos a la semana (una ración equivale a 30 gr)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 porciones"
+            },
+            {
+                "code": "5",
+                "label": "5 porciones"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más porciones"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_13",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "13. ¿Consume preferentemente carne de pollo, pavo o conejo en vez de ternera, cerdo, hamburguesas o salchichas (carne de pollo: una pieza o ración equivale a 100- 150 gr)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Sí"
+            },
+            {
+                "code": "2",
+                "label": "N/A Vegetariano"
+            },
+            {
+                "code": "3",
+                "label": "N/A Vegano"
+            },
+            {
+                "code": "4",
+                "label": "N/A Pescatariano"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "med_14",
+        "form_name": "mediterranean_diet_adherence",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "14. ¿Cuántas veces a la semana consume los vegetales cocinados, la pasta, el arroz u otros platos aderezados con una salsa de tomate, ajo, cebolla o puerro elaborada a fuego lento con aceite de oliva (sofrito)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 veces"
+            },
+            {
+                "code": "5",
+                "label": "5 veces"
+            },
+            {
+                "code": "10+",
+                "label": "10 o más veces"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

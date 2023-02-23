@@ -1,0 +1,1087 @@
+[
+    {
+        "field_name": "baars_iv_self_sym_1",
+        "form_name": "baars_iv",
+        "section_header": "Por favor, marque con un círculo el número junto a cada elemento (ítem) que describa mejor su comportamiento EN LAS ÚLTIMAS DOS SEMANAS",
+        "field_type": "radio",
+        "field_label": "No presta mucha atención a los detalles o comete errores por descuido en su trabajo",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_2",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Mueve manos y pies o se mueve en su asiento",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_3",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tiene dificultad en mantener la atención en actividades o juegos",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_4",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Se levanta en otras situaciones cuando no debe",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_5",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "No escucha cuando se le habla directamente",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_6",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Se siente inquieto/a",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_7",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "No sigue instrucciones y tiene dificultad en finalizar su trabajo",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_8",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tiene dificultad para participar en actividades de ocio o hacer cosas divertidas en silencio",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_9",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tiene dificultad para organizar tareas y actividades",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_10",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Se siente 'en movimiento' o 'impulsado por un motor'",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con  mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_11",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Evita, no le gusta o es reacio a participar en trabajos que requieren un esfuerzo mental ",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces"
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_12",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Habla excesivamente",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_13",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Pierde cosas necesarias para tareas o actividades",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_14",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Brinda respuestas antes de que se hayan completado las preguntas",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_15",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Se distrae con facilidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces"
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_16",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Tiene dificultad para esperar su turno",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_17",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Es olvidadizo/a en las actividades diarias",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces"
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_sym_18",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Interrumpe o se entromete con otros",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baars_iv_self",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "age_of_onset",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Si indicó que usted experimentó alguno de los problemas de atención, concentración, impulsividad o hiperactividad en la primera página, complete el espacio en blanco a continuación indicando con la mayor precisión posible a qué edad comenzaron a ocurrirle estos problemas (in years).",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_1",
+        "form_name": "baars_iv",
+        "section_header": "¿En qué medida los problemas que puede haber marcado con un círculo en la página anterior interfieren con su capacidad para funcionar en cada una de estas áreas de las actividades de la vida?",
+        "field_type": "radio",
+        "field_label": "En su hogar con la familia inmediata",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_2",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En su trabajo u ocupación",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces"
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_3",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En sus interacciones sociales con los demás",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_4",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En sus actividades o tratos en la comunidad",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_5",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En sus actividades educativas",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_6",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En su noviazgo o relación matrimonial",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia"
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_7",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En su manejo del dinero",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_8",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En su conducción de un vehículo de motor",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_9",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En sus actividades de ocio o recreativas",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "baars_iv_self_imp_10",
+        "form_name": "baars_iv",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "En su gestión de las responsabilidades diarias",
+        "select_choices_or_calculations": [
+            {
+                "code": "Never_or_Rarely",
+                "label": "Nunca o raras veces "
+            },
+            {
+                "code": "Sometimes",
+                "label": "Algunas veces "
+            },
+            {
+                "code": "Often",
+                "label": "Con frecuencia "
+            },
+            {
+                "code": "Very_Often",
+                "label": "Con mucha frecuencia"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "baar_iv_self_imp",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
