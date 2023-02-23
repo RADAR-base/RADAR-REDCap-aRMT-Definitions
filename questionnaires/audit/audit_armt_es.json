@@ -1,406 +1,406 @@
 [
-    {
-        "field_name": "audit_1",
-        "form_name": "audit",
-        "section_header": "Marque una X en el cuadro que mejor describa su respuesta a cada pregunta.",
-        "field_type": "radio",
-        "field_label": "1. ¿Con qué frecuencia consume alguna bebida alcohólica?,
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "1 vez al mes o menos"
-            },
-            {
-                "code": "3",
-                "label": "De 2 a 4 veces al mes"
-            },
-            {
-                "code": "4",
-                "label": "De 2 a 3 más veces a la semana"
-            },
-            {
-                "code": "5",
-                "label": "De 2 4 o más veces a la semana"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "audit_2",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "2. ¿Cuántas consumiciones de bebidas alcohólicas suele realizar en un día de consumo normal?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "1 o 2"
-            },
-            {
-                "code": "2",
-                "label": "3 o 4"
-            },
-            {
-                "code": "3",
-                "label": "5 o 6"
-            },
-            {
-                "code": "4",
-                "label": "de 7 a 9"
-            },
-            {
-                "code": "5",
-                "label": "10 o más"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
-    },
-    {
-        "field_name": "audit_3",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "3. ¿Con qué frecuencia toma 6 o más bebidas alcohólicas en un solo día?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
-    },
-    {
-        "field_name": "audit_4",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "4. ¿Con qué frecuencia en el curso del último mes ha sido incapaz de parar de beber una vez había empezado?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
-    },
-    {
-        "field_name": "audit_5",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "5. ¿Con qué frecuencia en el curso del último mes no pudo hacer lo que se esperaba de usted porque había bebido?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
-    },
-    {
-        "field_name": "audit_6",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "6. ¿Con qué frecuencia en el curso del último mes ha necesitado beber en ayunas para recuperarse después de haber bebido mucho el día anterior?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
-    },
-    {
-        "field_name": "audit_7",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "7. ¿Con qué frecuencia en el curso de último mes ha tenido remordimientos o sentimientos  de culpa después de haber bebido?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
-    },
-    {
-        "field_name": "audit_8",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "8. ¿Con qué frecuencia en el curso del último mes no ha podido recordar lo que sucedió la noche anterior porque había estado bebiendo?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Nunca"
-            },
-            {
-                "code": "2",
-                "label": "Menos de una vez al mes"
-            },
-            {
-                "code": "3",
-                "label": "Mensualmente"
-            },
-            {
-                "code": "4",
-                "label": "Semanalmente"
-            },
-            {
-                "code": "5",
-                "label": "A diario o casi a diario"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
-    },
-    {
-        "field_name": "audit_9",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "9. ¿Usted o alguna otra persona ha resultado herido porque usted había bebido?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "No"
-            },
-            {
-                "code": "2",
-                "label": "Sí, pero no en el curso del último mes"
-            },
-            {
-                "code": "3",
-                "label": "Sí, el último mes"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
-    },
-    {
-        "field_name": "audit_10",
-        "form_name": "audit",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "10. ¿Algún familiar, amigo, médico o profesional sanitario ha mostrado preocupación por un consumo de bebidas alcohólicas o le ha sugerido que deje de beber?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "No"
-            },
-            {
-                "code": "2",
-                "label": "Sí, pero no en el curso del último mes"
-            },
-            {
-                "code": "3",
-                "label": "Sí, el último mes"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
-    }
+  {
+    "field_name": "audit_1",
+    "form_name": "audit",
+    "section_header": "Marque una X en el cuadro que mejor describa su respuesta a cada pregunta.",
+    "field_type": "radio",
+    "field_label": "1. Â¿Con quÃ© frecuencia consume bebidas alcohÃ³licas?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "1 vez al mes o menos"
+      },
+      {
+        "code": "3",
+        "label": "De 2 a 4 veces al mes"
+      },
+      {
+        "code": "4",
+        "label": "De 2 a 3 mÃ¡s veces a la semana"
+      },
+      {
+        "code": "5",
+        "label": "De 2 4 o mÃ¡s veces a la semana"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "audit_2",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "2. Â¿CuÃ¡ntas bebidas alcohÃ³licas se consumen en un dÃ­a de consumo normal?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "1 o 2"
+      },
+      {
+        "code": "2",
+        "label": "3 o 4"
+      },
+      {
+        "code": "3",
+        "label": "5 o 6"
+      },
+      {
+        "code": "4",
+        "label": "de 7 a 9"
+      },
+      {
+        "code": "5",
+        "label": "10 o mÃ¡s"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+  },
+  {
+    "field_name": "audit_3",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "3. Â¿Con quÃ© frecuencia toma 6 o mÃ¡s bebidas alcohÃ³licas en un solo dÃ­a?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+  },
+  {
+    "field_name": "audit_4",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "4. Â¿Con quÃ© frecuencia en el Ãºltimo mes no ha podido beber una vez que empezÃ³?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+  },
+  {
+    "field_name": "audit_5",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "5. Â¿Con quÃ© frecuencia en el Ãºltimo mes no ha podido hacer lo que se espera de usted porque ha estado bebiendo?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+  },
+  {
+    "field_name": "audit_6",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "6. Â¿Con quÃ© frecuencia en el Ãºltimo mes ha necesitado beber con el estÃ³mago vacÃ­o para recuperarse de haber bebido mucho el dÃ­a anterior?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+  },
+  {
+    "field_name": "audit_7",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "7. Â¿Con quÃ© frecuencia en el Ãºltimo mes ha tenido remordimientos o sentimientos de culpa despuÃ©s de beber?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+  },
+  {
+    "field_name": "audit_8",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "8. Â¿Con quÃ© frecuencia en el Ãºltimo mes no ha podido recordar lo que sucediÃ³ la noche anterior porque habÃ­a estado bebiendo?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Nunca"
+      },
+      {
+        "code": "2",
+        "label": "Menos de una vez al mes"
+      },
+      {
+        "code": "3",
+        "label": "Mensualmente"
+      },
+      {
+        "code": "4",
+        "label": "Semanalmente"
+      },
+      {
+        "code": "5",
+        "label": "A diario o casi a diario"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "([audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5') and ([audit_4]='2' or [audit_4]='2' or [audit_4]='3' or [audit_4]='4' or [audit_4]='5')",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5')responses['audit_4'] == '2' || responses['audit_4'] == '2' || responses['audit_4'] == '3' || responses['audit_4'] == '4' || responses['audit_4'] == '5')"
+  },
+  {
+    "field_name": "audit_9",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "9. Â¿Usted o alguien mÃ¡s ha resultado herido por haber estado bebiendo?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "SÃ­, pero no en el curso del Ãºltimo mes"
+      },
+      {
+        "code": "3",
+        "label": "SÃ­, el Ãºltimo mes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+  },
+  {
+    "field_name": "audit_10",
+    "form_name": "audit",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "10. Â¿AlgÃºn familiar, amigo, mÃ©dico o profesional de la salud le ha expresado su preocupaciÃ³n por el consumo de bebidas alcohÃ³licas o le ha sugerido que deje de beber?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "SÃ­, pero no en el curso del Ãºltimo mes"
+      },
+      {
+        "code": "3",
+        "label": "SÃ­, el Ãºltimo mes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[audit_1]='2' or [audit_1]='3' or [audit_1]='4' or [audit_1]='5'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['audit_1'] == '2' || responses['audit_1'] == '3' || responses['audit_1'] == '4' || responses['audit_1'] == '5'"
+  }
 ]
