@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -e
+npm install
+
+HAS_ERROR=false
+for p in $(find . -name "*_armt*.json"); do
+  if ! "$(yarn bin)/ajv" --spec=draft2020 -c ajv-formats --validate-formats -s docs/definition-schema.json -d "$p"; then
+    HAS_ERROR=true
+  fi
+done
+
+if $HAS_ERROR; then
+  echo "Validation failed"
+  exit 1
+else
+  echo "Success"
+  exit 0
+fi
+
