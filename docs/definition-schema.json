@@ -17,7 +17,22 @@
         "type": "string"
       },
       "field_type": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "radio",
+          "checkbox",
+          "health",
+          "range",
+          "range-info",
+          "slider",
+          "info",
+          "audio",
+          "timed",
+          "text",
+          "yesno",
+          "descriptive",
+          "matrix-radio"
+        ]
       },
       "field_label": {
         "type": "string"
