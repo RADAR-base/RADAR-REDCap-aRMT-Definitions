@@ -62,7 +62,23 @@
         "type": "string"
       },
       "text_validation_type_or_show_slider_number": {
-        "type": "string"
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "date",
+              "time",
+              "duration",
+              "date_dmy",
+              "datetime_dmy",
+              "number"
+            ]
+          },
+          {
+            "type": "string",
+            "maxLength": 0
+          }
+        ]
       },
       "text_validation_min": {
         "type": "string"
