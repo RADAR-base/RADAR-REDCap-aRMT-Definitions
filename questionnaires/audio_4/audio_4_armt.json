@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Let's get started.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Please make sure you are able to complete this task. From this question forward, you will be unable to move back and restart. If you are ready, press 'Next' to continue.",
+        "code": "Important"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Below is the text of 'The North Wind and The Sun', one of Aesop's fables. Press ‘Start’, read out the text, then press ‘Stop’ when you have finished.",
