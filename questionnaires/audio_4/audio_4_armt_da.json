@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Lad os komme I gang.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Sørg for, at du er i stand til at fuldføre denne opgave. Fra dette spørgsmål fremad vil du ikke være i stand til at gå tilbage og genstarte. Hvis du er klar, skal du trykke på 'Næste' for at fortsætte.",
+        "code": "Vigtig"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Nedenfor er teksten til ’Solen og Nordenvinden’, en af Æsops fabler. Tryk ’Start’, læs teksten højt, og tryk herefter ‘Stop’, når du er færdig.",
