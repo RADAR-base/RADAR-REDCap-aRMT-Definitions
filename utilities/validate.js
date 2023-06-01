@@ -49,6 +49,7 @@ function validateBranchingLogicKeys(logicKeys, fieldNames) {
 
 // 2B Validate Branching Logic Values
 function validateBranchingLogicValues(logic, logicKeys, questions) {
+  let valid = true;
   // This mostly checks quotes in branching logic values.
   logicKeys.forEach(a => {
     const type = getFieldTypeFromFieldName(questions, a);
@@ -62,16 +63,20 @@ function validateBranchingLogicValues(logic, logicKeys, questions) {
     const finalValue = value.match(valueRegex);
     if (!finalValue) {
       // Value will be null if not in parenthesis
-      if (!TYPES_REQ_NOT_QUOTED.includes(type))
+      if (!TYPES_REQ_NOT_QUOTED.includes(type)) {
         console.warn('WARN: Logic value must be in quotes for logic: ' + logic);
+        valid = false;
+      }
     } else {
-      if (TYPES_REQ_NOT_QUOTED.includes(type))
+      if (TYPES_REQ_NOT_QUOTED.includes(type)) {
         console.warn(
           'WARN: Logic value must not be in quotes for logic: ' + logic,
         );
+        valid = false;
+      }
     }
   });
-  return true;
+  return valid;
 }
 
 function getFieldTypeFromFieldName(questions, fieldName) {
