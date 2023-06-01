@@ -1,0 +1,91 @@
+[
+    {
+        "field_name": "intro_health_collect",
+        "form_name": "intro_health_collect",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "Introduction",
+        "select_choices_or_calculations": [
+            {
+                "code": "Part1",
+                "label": "Thank you once again for your ongoing support of the RADAR trial. We really appreciate your continued participation, especially given the recent outbreak of COVID-19 (Coronavirus). Your valued contributions are now more important than ever to help us gain a better understanding and insight, into the lives of people living with major depressive disorder. "
+            },
+            {
+                "code": "Part2",
+                "label": "We therefore ask you to continue to engage with RADAR as best you can during this period. We would also really appreciate if you took the time to answer the following additional questions, which specifically relate to your experiences of COVID-19 (Coronavirus). "
+            },
+            {
+                "code": "Part3",
+                "label": "If you have any concerns or need any advice regarding COVID-19 (Coronavirus) we recommend visiting the following link for further information https://111.nhs.uk/service/COVID-19/"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "info-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "health",
+        "form_name": "health_collect",
+        "section_header": "We will be collecting your data for the following.",
+        "field_type": "health",
+        "field_label": "Health",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "None "
+            },
+            {
+                "code": "1",
+                "label": "Mild "
+            },
+            {
+                "code": "2",
+                "label": "Moderate "
+            },
+            {
+                "code": "3",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "covid_symptom_common",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": "",
+        "extra_section": [
+            {
+                "data_name": "weight",
+                "time_intervals": "1000",
+                "value": ""
+            },
+            {
+                "data_name": "height",
+                "time_intervals": "1000",
+                "value": ""
+            },
+            {
+                "data_name": "blood_pressure",
+                "time_intervals": "1000",
+                "value": ""
+            }
+        ]
+    }
+]
