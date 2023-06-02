@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+npm install
+
+HAS_ERROR=false
+for p in $(find . -name "*_armt*.json"); do
+  echo $p
+  v=$(node utilities/validate.js "$p")
+  if [ "$v" = false ] 
+  then
+    HAS_ERROR=true
+    echo "Definition invalid"
+  else
+    echo "Definition valid"
+  fi
+done
+
+if $HAS_ERROR; then
+  echo "Validation failed"
+  exit 1
+else
+  echo "Success" 
+  exit 0
+fi
+

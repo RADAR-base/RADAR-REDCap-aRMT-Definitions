@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Fangen wir an.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Bitte stellen Sie sicher, dass Sie in der Lage sind, diese Aufgabe abzuschließen. Ab dieser Frage können Sie nicht mehr zurückgehen und neu starten. Wenn Sie bereit sind, klicken Sie auf „Weiter“, um fortzufahren.",
+        "code": "Wichtig"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Unten ist der Text von 'Der Nordwind und Die Sonne', eine von Äsops Fabeln. Drücken Sie 'Start', lesen Sie den Text vor und drücken Sie dann 'Stoppen', wenn Sie fertig sind.",

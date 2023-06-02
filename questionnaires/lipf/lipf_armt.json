@@ -53,14 +53,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_stairs]=1",
+        "branching_logic": "[lipf_stairs]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_stairs'] == 1"
+        "evaluated_logic": "responses['lipf_stairs'] == '1'"
     },
     {
         "field_name": "lipf_stairs_no",
@@ -83,14 +83,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_stairs]=0",
+        "branching_logic": "[lipf_stairs]='0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_stairs'] == 0"
+        "evaluated_logic": "responses['lipf_stairs'] == '0'"
     },
     {
         "field_name": "lipf_short_breath",
@@ -188,14 +188,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_grooming]=1",
+        "branching_logic": "[lipf_grooming]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_grooming'] == 1"
+        "evaluated_logic": "responses['lipf_grooming'] == '1'"
     },
     {
         "field_name": "lipf_grooming_no",
@@ -218,14 +218,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_grooming]=0",
+        "branching_logic": "[lipf_grooming]='0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_grooming'] == 0"
+        "evaluated_logic": "responses['lipf_grooming'] == '0'"
     },
     {
         "field_name": "lipf_walk_level",
@@ -281,14 +281,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_walk_level]=1",
+        "branching_logic": "[lipf_walk_level]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_walk_level'] == 1"
+        "evaluated_logic": "responses['lipf_walk_level'] == '1'"
     },
     {
         "field_name": "lipf_walk_level_no",
@@ -311,14 +311,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_walk_level]=0",
+        "branching_logic": "[lipf_walk_level]='0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_walk_level'] == 0"
+        "evaluated_logic": "responses['lipf_walk_level'] == '0'"
     },
     {
         "field_name": "lipf_shower",
@@ -374,14 +374,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_shower]=1",
+        "branching_logic": "[lipf_shower]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_shower'] == 1"
+        "evaluated_logic": "responses['lipf_shower'] == '1'"
     },
     {
         "field_name": "lipf_shower_no",
@@ -404,14 +404,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_shower]=0",
+        "branching_logic": "[lipf_shower]='0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_shower'] == 0"
+        "evaluated_logic": "responses['lipf_shower'] == '0'"
     },
     {
         "field_name": "lipf_load_light",
@@ -467,14 +467,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_load_light]=1",
+        "branching_logic": "[lipf_load_light]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_load_light'] == 1"
+        "evaluated_logic": "responses['lipf_load_light'] == '1'"
     },
     {
         "field_name": "lipf_load_light_no",
@@ -497,14 +497,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_load_light]=0",
+        "branching_logic": "[lipf_load_light]='0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_load_light'] == 0"
+        "evaluated_logic": "responses['lipf_load_light'] == '0'"
     },
     {
         "field_name": "lipf_short_breath_2",
@@ -560,14 +560,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_short_breath_2]=1",
+        "branching_logic": "[lipf_short_breath_2]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_short_breath_2'] == 1"
+        "evaluated_logic": "responses['lipf_short_breath_2'] == '1'"
     },
     {
         "field_name": "lipf_cough_q1",
@@ -644,14 +644,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "branching_logic": "[lipf_cough_q1] = 1 or [lipf_cough_q1] = 2 or [lipf_cough_q1]  = 3 or [lipf_cough_q1] = 4",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "lipf_cough",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  1 || responses['lipf_cough_q1'] ==  2 || responses['lipf_cough_q1'] ==  3 || responses['lipf_cough_q1'] ==  4"
     },
     {
         "field_name": "lipf_cough_q3",
@@ -686,14 +686,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "branching_logic": "[lipf_cough_q1] = 1 or [lipf_cough_q1] = 2 or [lipf_cough_q1]  = 3 or [lipf_cough_q1] = 4",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "lipf_cough",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  1 || responses['lipf_cough_q1'] ==  2 || responses['lipf_cough_q1'] ==  3 || responses['lipf_cough_q1'] ==  4"
     },
     {
         "field_name": "lipf_cough_q4",
@@ -728,14 +728,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_cough_q1] = \"1\" or [lipf_cough_q1] = \"2\" or [lipf_cough_q1]  = \"3\" or [lipf_cough_q1] = \"4\"",
+        "branching_logic": "[lipf_cough_q1] = 1 or [lipf_cough_q1] = 2 or [lipf_cough_q1]  = 3 or [lipf_cough_q1] = 4",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "lipf_cough",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": "responses['lipf_cough_q1'] ==  \"1\" || responses['lipf_cough_q1'] ==  \"2\" || responses['lipf_cough_q1'] ==  \"3\" || responses['lipf_cough_q1'] ==  \"4\""
+        "evaluated_logic": "responses['lipf_cough_q1'] ==  1 || responses['lipf_cough_q1'] ==  2 || responses['lipf_cough_q1'] ==  3 || responses['lipf_cough_q1'] ==  4"
     },
     {
         "field_name": "lipf_cough_q5",
@@ -955,14 +955,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_oxygen_q1]=1",
+        "branching_logic": "[lipf_oxygen_q1]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_oxygen_q1'] == 1"
+        "evaluated_logic": "responses['lipf_oxygen_q1'] == '1'"
     },
     {
         "field_name": "lipf_oxygen_q3",
@@ -1237,13 +1237,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[lipf_oxygen_q2]=3",
+        "branching_logic": "[lipf_oxygen_q2]='3'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "lipf_oxygen",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['lipf_oxygen_q2'] == 3"
+        "evaluated_logic": "responses['lipf_oxygen_q2'] == '3'"
     }
 ]
