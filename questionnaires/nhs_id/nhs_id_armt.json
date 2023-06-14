@@ -38,28 +38,70 @@
     "question_number": "",
     "matrix_group_name": "",
     "matrix_ranking": "",
-    "field_annotation": "",
+    "field_annotation": "nhs",
     "evaluated_logic": "responses['nhs_1'] ==  '1'"
   },
   {
     "field_name": "nhs_3",
     "form_name": "nhs",
     "section_header": "NHS Number",
-    "field_type": "notes",
+    "field_type": "radio",
     "field_label": "Please let us know why you object to the sharing of your NHS ID.",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Concerns about privacy"
+      },
+      {
+        "code": "2",
+        "label": "Concerns about stigma and discrimination"
+      },
+      {
+        "code": "3",
+        "label": "Legal and regulatory uncertainties"
+      },
+      {
+        "code": "4",
+        "label": "Other"
+      },
+      {
+        "code": "5",
+        "label": "Prefer not to say"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
     "text_validation_max": "",
     "identifier": "",
     "branching_logic": "[nhs_1] = '0'",
-    "required_field": "y",
+    "required_field": "",
     "custom_alignment": "",
     "question_number": "",
     "matrix_group_name": "",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": "responses['nhs_1'] ==  '0'"
+  },
+  {
+    "field_name": "nhs_4",
+    "form_name": "nhs",
+    "section_header": "NHS Number",
+    "field_type": "notes",
+    "field_label": "Please give us more details as to why you object to the sharing of your NHS ID.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[nhs_3] = '4'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['nhs_3'] ==  '4'"
   }
 ]
