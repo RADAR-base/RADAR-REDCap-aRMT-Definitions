@@ -108,7 +108,7 @@
         "field_name": "meduse_2a_1",
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
-        "field_type": "dropdown",
+        "field_type": "radio",
         "field_label": "Name of medication 1:\r\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
         "select_choices_or_calculations": [
             {
@@ -215,7 +215,7 @@
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If others, please type in name of medication 1: ",
+        "field_label": "If other, please type in name of medication 1: ",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -307,7 +307,7 @@
         "field_name": "meduse_2a_2",
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
-        "field_type": "dropdown",
+        "field_type": "radio",
         "field_label": "Name of medication 2:\r\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
         "select_choices_or_calculations": [
             {
@@ -414,7 +414,7 @@
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If others, please type in name of medication 2: ",
+        "field_label": "If other, please type in name of medication 2: ",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -506,7 +506,7 @@
         "field_name": "meduse_2a_3",
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
-        "field_type": "dropdown",
+        "field_type": "radio",
         "field_label": "Name of medication 3:\r\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
         "select_choices_or_calculations": [
             {
@@ -613,7 +613,7 @@
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If others, please type in name of medication 3: ",
+        "field_label": "If other, please type in name of medication 3: ",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -705,7 +705,7 @@
         "field_name": "meduse_2a_4",
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
-        "field_type": "dropdown",
+        "field_type": "radio",
         "field_label": "Name of medication 4:\r\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
         "select_choices_or_calculations": [
             {
@@ -812,7 +812,7 @@
         "form_name": "adhd_medication_use_daily",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If others, please type in name of medication 4: ",
+        "field_label": "If other, please type in name of medication 4: ",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
