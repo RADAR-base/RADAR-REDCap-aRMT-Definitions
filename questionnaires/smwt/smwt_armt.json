@@ -4,7 +4,7 @@
         "form_name": "smwt",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<p><img src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/garmin-armt.png\" border=\"0\" /><br /><br />Comfortable clothing and appropriate footwear should be worn for this test.<br /><br /><br /><br /><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_6mwt_vid.mp4\" width=\"560\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br /></p>",
+        "field_label": "<p><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_6mwt_vid.mp4\" width=\"280\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br />For further instructions,<br>please <a href=\"https://nshd.mrc.ac.uk/wearables-and-remote-testing-written-instructions/\">visit this link.</a></p>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -18,84 +18,6 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "smwt_instructions_2",
-        "form_name": "smwt",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "Six Minute Walking Test Instructions",
-        "select_choices_or_calculations": [
-            {
-                "code": "Part1",
-                "label": "Press button A (activity button A is located at the top right-hand side of the watch face)"
-            },
-            {
-                "code": "Part2",
-                "label": "Note! If this is the first time you have started an activity, select the checkbox next to 'Walk' and 'Cardio' to add these activities to your favorites"
-            },
-            {
-                "code": "Part3",
-                "label": "Using the watch face touchscreen (C), select 'Walk'"
-            },
-            {
-                "code": "Part4",
-                "label": "'Wait for GPS' will appear on the watch face'"
-            },
-            {
-                "code": "Part5",
-                "label": "Wait for the GPS to connect (this may take 1-2 minutes)"
-            },
-            {
-                "code": "Part6",
-                "label": "Ready' will appear on the watch face when the GPS is connected"
-            },
-            {
-                "code": "Part7",
-                "label": "Press  button  A to start the activity timer"
-            },
-            {
-                "code": "Part8",
-                "label": "Go! Walk as far as you can for 6 minutes"
-            },
-            {
-                "code": "Part9",
-                "label": "When the clock timer reads 6:00, Stop!"
-            },
-            {
-                "code": "Part10",
-                "label": "Stand still (or sit down if required) for a 1-minute recovery period"
-            },
-            {
-                "code": "Part11",
-                "label": "When the clock timer reads 7:00, press button A to stop the activity timer"
-            },
-            {
-                "code": "Part12",
-                "label": "Save the activity by pressing the green tick on the watch face touchscreen (C)"
-            },
-            {
-                "code": "Part13",
-                "label": "Congratulations! You have completed your 6 Minute Walk Test'"
-            },
-            {
-                "code": "Part14",
-                "label": "Please log your most recent test by pressing 'NEXT' below"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "info-type",
         "evaluated_logic": ""
     },
     {
