@@ -32,14 +32,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_3",
@@ -53,14 +53,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_4",
@@ -74,14 +74,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_4a",
@@ -158,14 +158,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_6",
@@ -192,14 +192,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_7",
@@ -238,14 +238,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_8",
@@ -259,14 +259,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_9",
@@ -280,14 +280,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_10",
@@ -301,14 +301,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_1] = 1",
+        "branching_logic": "[seizure_reporting_weekly_1] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_1'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_11",
@@ -322,14 +322,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_12",
@@ -343,14 +343,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_13",
@@ -364,14 +364,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_13a",
@@ -448,14 +448,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_15",
@@ -482,14 +482,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_16",
@@ -528,14 +528,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_17",
@@ -549,14 +549,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_18",
@@ -570,14 +570,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_19",
@@ -591,14 +591,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_20",
@@ -612,14 +612,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_11] = 1",
+        "branching_logic": "[seizure_reporting_weekly_11] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_11'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_21",
@@ -633,14 +633,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_22",
@@ -654,14 +654,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_22a",
@@ -738,14 +738,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_24",
@@ -772,14 +772,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_25",
@@ -818,14 +818,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_26",
@@ -839,14 +839,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_27",
@@ -860,14 +860,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     },
     {
         "field_name": "seizure_reporting_weekly_28",
@@ -881,13 +881,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[seizure_reporting_weekly_20] = 1",
+        "branching_logic": "[seizure_reporting_weekly_20] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  1"
+        "evaluated_logic": "responses['seizure_reporting_weekly_20'] ==  '1'"
     }
 ]
