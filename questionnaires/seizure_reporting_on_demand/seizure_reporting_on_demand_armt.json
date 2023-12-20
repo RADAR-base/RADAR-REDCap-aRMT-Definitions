@@ -1,0 +1,313 @@
+[
+    {
+        "field_name": "seizure_reporting_ondemand_1",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "I'd like to log a seizure",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_2",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "This log is for the purpose of research and won't be looked at by a clinician or medical/health professional. If you are concerned or feel unwell, please seek support in the usual ways. Please select 'Next' to indicate that you understand this and to proceed.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_3",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "When did the seizure happen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_4",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How long did it last, in minutes?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "integer",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_11",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Were you awake or asleep when the seizure started?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Awake"
+            },
+            {
+                "code": "2",
+                "label": "Asleep"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_7",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select anything you think might have triggered the seizure",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Poor sleep"
+            },
+            {
+                "code": "2",
+                "label": "Excitement or nerves"
+            },
+            {
+                "code": "3",
+                "label": "Boredom"
+            },
+            {
+                "code": "4",
+                "label": "Fever or illness"
+            },
+            {
+                "code": "5",
+                "label": "Lights"
+            },
+            {
+                "code": "6",
+                "label": "Recreational drugs"
+            },
+            {
+                "code": "7",
+                "label": "Alcohol"
+            },
+            {
+                "code": "8",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_8",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select any symptoms you experienced in the lead-up to your seizure",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Feeling unwell"
+            },
+            {
+                "code": "2",
+                "label": "Distinctive smell or sensation"
+            },
+            {
+                "code": "3",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_9",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select any characteristics that apply to the seizure you just experienced.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Absence"
+            },
+            {
+                "code": "2",
+                "label": "Facial or limb movements"
+            },
+            {
+                "code": "3",
+                "label": "Tonic-clonic seizure"
+            },
+            {
+                "code": "4",
+                "label": "Generalised stiffness"
+            },
+            {
+                "code": "5",
+                "label": "Other"
+            },
+            {
+                "code": "6",
+                "label": "Unsure"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_5",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did the seizure as follow a pattern that is typical for you?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_6",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "notes",
+        "field_label": "Please describe how the seizure differed from usual.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_5] = 0",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_5'] ==  0"
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_10",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "notes",
+        "field_label": "Please provide any more description of the seizure",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[seizure_reporting_ondemand_1] = 1",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['seizure_reporting_ondemand_1'] ==  1"
+    }
+]
