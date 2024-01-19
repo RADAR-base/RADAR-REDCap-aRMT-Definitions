@@ -612,13 +612,15 @@
         "field_label": "Right now, how motivated do you feel to start working on your eating difficulties?",
         "select_choices_or_calculations": [
             {
-                "code": "Not motivated at all"
+                "code": "0",
+                "label": "Not motivated at all"
             },
             {
                 "code": ""
             },
             {
-                "code": "Extremely motivated"
+                "code": "100",
+                "label": "Extremely motivated"
             }
         ],
         "field_note": "",
@@ -643,13 +645,15 @@
         "field_label": "Right now, how ready do you feel to start working on your eating difficulties?",
         "select_choices_or_calculations": [
             {
-                "code": "Not ready at all"
+                "code": "0",
+                "label": "Not ready at all"
             },
             {
                 "code": ""
             },
             {
-                "code": "Extremely ready"
+                "code": "100",
+                "label": "Extremely ready"
             }
         ],
         "field_note": "",
