@@ -1252,7 +1252,7 @@
             },
             {
                 "code": "11",
-                "label": "Something else (please describe)"
+                "label": "Something else"
             }
         ],
         "field_note": "",
@@ -1298,11 +1298,11 @@
             },
             {
                 "code": "5",
-                "label": "Somewhere else indoors (please describe)"
+                "label": "Somewhere else indoors"
             },
             {
                 "code": "6",
-                "label": "Somewhere else outdoors (please describe)"
+                "label": "Somewhere else outdoors"
             }
         ],
         "field_note": "",
@@ -1406,7 +1406,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[esm_social_interact_story(1)] = \"1\" or [esm_social_interact_story(2)] = \"1\" or [esm_social_interact_story(3)] = \"1\" or [esm_social_interact_story(4)] = \"1\" or [esm_social_interact_story(5)] = \"1\" or [esm_social_interact_story(6)] = \"1\" or [esm_social_interact_story(7)] = \"1\" or [esm_social_interact_story(8)] = \"1\"",
+        "branching_logic": "[esm_social_interact_story(1)] = '1' or [esm_social_interact_story(2)] = '1' or [esm_social_interact_story(3)] = '1' or [esm_social_interact_story(4)] = '1' or [esm_social_interact_story(5)] = '1' or [esm_social_interact_story(6)] = '1' or [esm_social_interact_story(7)] = '1' or [esm_social_interact_story(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -1456,14 +1456,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[esm_social_interact_story(1)] = '1' or [esm_social_interact_story(2)] = '1' or [esm_social_interact_story(3)] = '1' or [esm_social_interact_story(4)] = '1' or [esm_social_interact_story(5)] = '1' or [esm_social_interact_story(6)] = '1' or [esm_social_interact_story(7)] = '1' or [esm_social_interact_story(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "esm4_story",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['esm_social_interact_story'] == 1 || responses['esm_social_interact_story'] == 2 || responses['esm_social_interact_story'] == 3 || responses['esm_social_interact_story'] == 4 || responses['esm_social_interact_story'] == 5 || responses['esm_social_interact_story'] == 6 || responses['esm_social_interact_story'] == 7 || responses['esm_social_interact_story'] == 8"
     },
     {
         "field_name": "esm_social_alone1",
@@ -1506,14 +1506,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[esm_social_interact_story(1)] = '1' or [esm_social_interact_story(2)] = '1' or [esm_social_interact_story(3)] = '1' or [esm_social_interact_story(4)] = '1' or [esm_social_interact_story(5)] = '1' or [esm_social_interact_story(6)] = '1' or [esm_social_interact_story(7)] = '1' or [esm_social_interact_story(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "esm4_story",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['esm_social_interact_story'] == 1 || responses['esm_social_interact_story'] == 2 || responses['esm_social_interact_story'] == 3 || responses['esm_social_interact_story'] == 4 || responses['esm_social_interact_story'] == 5 || responses['esm_social_interact_story'] == 6 || responses['esm_social_interact_story'] == 7 || responses['esm_social_interact_story'] == 8"
     },
     {
         "field_name": "esm_social_connected1",
@@ -1556,14 +1556,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[esm_social_interact_story(1)] = '1' or [esm_social_interact_story(2)] = '1' or [esm_social_interact_story(3)] = '1' or [esm_social_interact_story(4)] = '1' or [esm_social_interact_story(5)] = '1' or [esm_social_interact_story(6)] = '1' or [esm_social_interact_story(7)] = '1' or [esm_social_interact_story(8)] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "esm4_story",
         "matrix_ranking": "",
         "field_annotation": "range-type",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['esm_social_interact_story'] == 1 || responses['esm_social_interact_story'] == 2 || responses['esm_social_interact_story'] == 3 || responses['esm_social_interact_story'] == 4 || responses['esm_social_interact_story'] == 5 || responses['esm_social_interact_story'] == 6 || responses['esm_social_interact_story'] == 7 || responses['esm_social_interact_story'] == 8"
     },
     {
         "field_name": "esm_social_ok_alone_story",
