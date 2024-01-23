@@ -1,0 +1,234 @@
+[
+    {
+        "field_name": "bedtime_activities",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please write the indexes of the following bedtime activities in order of their occurrence in the textbox below. Exclude the index of any activity that you don't do.\r\n\r\nA - Turn out the main light\r\nB - Turn out the bedside light or other small light\r\nC - Get into bed\r\nD - Actively use my phone (e.g., look at social media, games/puzzles, read)\r\nE - Passively use my phone (e.g., listen to music, listen to an audiobook, etc.)\r\nF - Read a book or other activity not involving my phone\r\nG - Shut my eyes and try to sleep\r\n\r\nE.g. If you turn out the main light, get into bed, turn out the bedside or other small light, listen to music and then try to sleep, your response would be A, C, B, E, G\r\n",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_activities_other",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please describe anything about your sleep routine that is not captured in the previous question.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_phone_location",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Where do you usually place your phone whilst you sleep?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Next to my pillow"
+            },
+            {
+                "code": "1",
+                "label": "Bedside table or by my bed"
+            },
+            {
+                "code": "2",
+                "label": "Elsewhere in my bedroom"
+            },
+            {
+                "code": "3",
+                "label": "In another room"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_phone_charge",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you usually charge your phone overnight?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_phone_alarm",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you use an alarm on your phone to wake up?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_phone_snooze",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How often do you press snooze on your phone alarm?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Every day"
+            },
+            {
+                "code": "1",
+                "label": "Usually"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Rarely"
+            },
+            {
+                "code": "4",
+                "label": "Never"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bedtime_phone_mode",
+        "form_name": "sleep_routine",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What mode do you keep your phone in whilst you are asleep?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Sound"
+            },
+            {
+                "code": "1",
+                "label": "Vibrate"
+            },
+            {
+                "code": "2",
+                "label": "Mute"
+            },
+            {
+                "code": "3",
+                "label": "Airplane"
+            },
+            {
+                "code": "4",
+                "label": "Switch off"
+            },
+            {
+                "code": "5",
+                "label": "Do not disturb"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
