@@ -2,7 +2,7 @@
     {
         "field_name": "bedtime_activities",
         "form_name": "sleep_routine",
-        "section_header": "",
+        "section_header": "Please write the indexes of the following bedtime activities in order of their occurrence in the textbox below. Exclude the index of any activity that you don't do. E.g. If you turn out the main light, get into bed, turn out the bedside or other small light, listen to music and then try to sleep, your response would be A, C, B, E, G.",
         "field_type": "descriptive",
         "field_label": "<p><small>A</small><br />Turn out the main light<br /><br /><small>B</small><br />Turn out the bedside light or other small light<br /><br /><small>C</small><br />Get into bed<br /><br /><small>D</small><br />Actively use my phone (e.g., look at social media, games/puzzles, read)<br /><br /><small>E</small><br />Passively use my phone (e.g., listen to music, listen to an audiobook, etc.)<br /><br /><small>F</small><br />Read a book or other activity not involving my phone<br /><br /><small>G</small><br />Shut my eyes and try to sleep</p>",
         "select_choices_or_calculations": "",
