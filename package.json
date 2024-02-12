@@ -4,7 +4,7 @@
   "description": "Utility to convert REDCap JSON to aRMT JSON",
   "dependencies": {
     "@octokit/rest": "^19.0.7",
-    "axios": "^0.24.0",
+    "axios": "^1.6.7",
     "npm": "^9.6.0"
   },
   "devDependencies": {},
