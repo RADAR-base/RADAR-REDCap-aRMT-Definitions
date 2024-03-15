@@ -179,13 +179,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[other_events_1]=1",
+        "branching_logic": "[other_events_1] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['other_events_1'] == 1"
+        "evaluated_logic": "responses['other_events_1'] ==  '1'"
     }
 ]
