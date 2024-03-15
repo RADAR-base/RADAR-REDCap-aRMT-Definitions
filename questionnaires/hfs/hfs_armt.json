@@ -1,0 +1,154 @@
+[
+    {
+        "field_name": "hfs_1",
+        "form_name": "hfs",
+        "section_header": "How well does each of the following statements describe your behaviours/feelings today? When I was focusing on something:",
+        "field_type": "radio",
+        "field_label": "I lost track of time",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Totally disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Agree"
+            },
+            {
+                "code": "4",
+                "label": "Totally agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "hyperfocus",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hfs_2",
+        "form_name": "hfs",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I neglected myself and/or those around me",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Totally disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Agree"
+            },
+            {
+                "code": "4",
+                "label": "Totally agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "hyperfocus",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hfs_3",
+        "form_name": "hfs",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I delayed or was late to other important things that I have to do",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Totally disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Agree"
+            },
+            {
+                "code": "4",
+                "label": "Totally agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "hyperfocus",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "hfs_4",
+        "form_name": "hfs",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I felt like time flew by (although it has been a longer time, it felt shorter)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Totally disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Agree"
+            },
+            {
+                "code": "4",
+                "label": "Totally agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "hyperfocus",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
