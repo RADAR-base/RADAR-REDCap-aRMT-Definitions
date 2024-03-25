@@ -550,7 +550,7 @@
         "form_name": "adhd_symptoms_and_impairment",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "How often do you have difficulty feeling chilled out or contented when you had time to yourself?",
+        "field_label": "Did you say things without thinking?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -592,7 +592,7 @@
         "form_name": "adhd_symptoms_and_impairment",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Did you say things without thinking?",
+        "field_label": "Did you make 'spur of the moment' decisions without really thinking things through?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -634,48 +634,6 @@
         "form_name": "adhd_symptoms_and_impairment",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Did you make 'spur of the moment' decisions without really thinking things through?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "Rarely / a little bit"
-            },
-            {
-                "code": "3",
-                "label": "Sometimes"
-            },
-            {
-                "code": "4",
-                "label": "A lot / often"
-            },
-            {
-                "code": "5",
-                "label": "Almost always / very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "asrs",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "asrs_17",
-        "form_name": "adhd_symptoms_and_impairment",
-        "section_header": "",
-        "field_type": "radio",
         "field_label": "Was it hard for you to resist acting on your feelings?",
         "select_choices_or_calculations": [
             {
@@ -714,7 +672,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "asrs_18",
+        "field_name": "asrs_17",
         "form_name": "adhd_symptoms_and_impairment",
         "section_header": "",
         "field_type": "radio",
