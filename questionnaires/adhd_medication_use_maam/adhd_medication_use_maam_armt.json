@@ -101,7 +101,7 @@
         "form_name": "adhd_medication_use_maam",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Name of medication 1:\r\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
+        "field_label": "Name of medication 1:\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1285,13 +1285,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[meduse_1] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
     }
 ]

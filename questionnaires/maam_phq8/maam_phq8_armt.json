@@ -1,10 +1,10 @@
 [
     {
-        "field_name": "sensitivity_1",
-        "form_name": "sensitivity",
-        "section_header": "Please answer each question according to the way you felt today.",
+        "field_name": "phq_8_1",
+        "form_name": "maam_phq8",
+        "section_header": "Today, how much have you been bothered by any of the following problems?",
         "field_type": "radio",
-        "field_label": "Did you find yourself needing to withdraw into a place where you can have some privacy and relief from stimulation?",
+        "field_label": "Little interest or pleasure in doing things",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -12,19 +12,19 @@
             },
             {
                 "code": "2",
-                "label": "Rarely/ a little bit"
+                "label": "A little bit"
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Moderately"
             },
             {
                 "code": "4",
-                "label": "Often"
+                "label": "Quite a bit"
             },
             {
                 "code": "5",
-                "label": "A lot/ very much/ always always"
+                "label": "Extremely"
             }
         ],
         "field_note": "",
@@ -36,17 +36,17 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "sensitivity",
+        "matrix_group_name": "phq_8",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
     },
     {
-        "field_name": "sensitivity_2",
-        "form_name": "sensitivity",
+        "field_name": "phq_8_2",
+        "form_name": "maam_phq8",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Were you easily overwhelmed by things like bright lights, strong smells, coarse fabrics, or loud or irritating noises?",
+        "field_label": "Feeling down, depressed, or hopeless",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -54,19 +54,19 @@
             },
             {
                 "code": "2",
-                "label": "Rarely/ a little bit"
+                "label": "A little bit"
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Moderately"
             },
             {
                 "code": "4",
-                "label": "Often"
+                "label": "Quite a bit"
             },
             {
                 "code": "5",
-                "label": "A lot/ very much/ always always"
+                "label": "Extremely"
             }
         ],
         "field_note": "",
@@ -78,7 +78,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "sensitivity",
+        "matrix_group_name": "phq_8",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
