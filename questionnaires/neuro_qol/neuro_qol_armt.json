@@ -88,7 +88,7 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I had to read something several times to understand it",
+        "field_label": "I had difficulty doing more than one thing at a time",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -130,7 +130,7 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I had trouble keeping track of what I was doing if I was interrupted",
+        "field_label": "I had trouble remembering whether I did things I was supposed to do, like taking a medicine or buying something I needed",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -172,7 +172,7 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I had difficulty doing more than one thing at a time",
+        "field_label": "I had trouble thinking clearly",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -214,7 +214,7 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I had trouble remembering whether I did things I was supposed to do, like taking a medicine or buying something I needed",
+        "field_label": "I had to work really hard to pay attention or I would make a mistake",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -256,7 +256,7 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I walked into a room and forgot what I meant to get or do there",
+        "field_label": "I had trouble getting started on very simple tasks",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -298,258 +298,6 @@
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "I had trouble thinking clearly",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_9",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "I reacted slowly to things that were said or done",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_10",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "I had trouble forming thoughts",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_11",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "My thinking was slow",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_12",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "I had to work really hard to pay attention or I would make a mistake",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_13",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "I had trouble getting started on very simple tasks",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
-                "code": "3",
-                "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "5",
-                "label": "Extremely"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "neuro_qol",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "neuro_qol_14",
-        "form_name": "neuro_qol",
-        "section_header": "",
-        "field_type": "radio",
         "field_label": "I had trouble making decisions",
         "select_choices_or_calculations": [
             {
@@ -588,7 +336,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "neuro_qol_15",
+        "field_name": "neuro_qol_9",
         "form_name": "neuro_qol",
         "section_header": "",
         "field_type": "radio",
