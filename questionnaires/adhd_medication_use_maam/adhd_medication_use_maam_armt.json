@@ -101,90 +101,42 @@
         "form_name": "adhd_medication_use_maam",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Name of medication 1:\n(Disclaimer: Medications are carefully decided and monitored by the prescribing team and are not affected by this research participation. If you have any questions regarding your medications, please contact the prescribing team.)",
+        "field_label": "Name of medication 1:\n",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
@@ -304,86 +256,38 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
@@ -503,86 +407,38 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
@@ -702,86 +558,38 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
@@ -901,86 +709,38 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
@@ -1100,86 +860,38 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Amfexa"
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
             },
             {
                 "code": "2",
-                "label": "Atomoxetine"
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
             },
             {
                 "code": "3",
-                "label": "Bupropion"
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
             },
             {
                 "code": "4",
-                "label": "Concerta XL"
-            },
-            {
-                "code": "5",
-                "label": "Delmosart"
-            },
-            {
-                "code": "6",
                 "label": "Dexamfetamine IR"
             },
             {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
                 "code": "7",
-                "label": "Elvanse/ Elvanse adult"
+                "label": "Guanfacine ER (Intuniv)"
             },
             {
                 "code": "8",
-                "label": "Equasym XL"
-            },
-            {
-                "code": "9",
-                "label": "Guanfacine ER"
-            },
-            {
-                "code": "10",
-                "label": "Intuniv"
-            },
-            {
-                "code": "11",
-                "label": "Lisdexamfetamine"
-            },
-            {
-                "code": "12",
-                "label": "Matoride XL"
-            },
-            {
-                "code": "13",
-                "label": "Medikinet IR/ Medikinet XL"
-            },
-            {
-                "code": "14",
-                "label": "Methylphenidate IR"
-            },
-            {
-                "code": "15",
-                "label": "Ritalin/ Ritalin XL"
-            },
-            {
-                "code": "16",
-                "label": "Strattera"
-            },
-            {
-                "code": "17",
                 "label": "Tranquilyn"
             },
             {
-                "code": "18",
-                "label": "Xaggitin XL"
-            },
-            {
-                "code": "19",
-                "label": "Xenidate XL"
-            },
-            {
-                "code": "20",
-                "label": "Zyban"
-            },
-            {
-                "code": "21",
+                "code": "9",
                 "label": "Other"
             }
         ],
