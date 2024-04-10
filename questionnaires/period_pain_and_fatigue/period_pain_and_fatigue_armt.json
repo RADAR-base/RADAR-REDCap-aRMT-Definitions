@@ -24,7 +24,7 @@
         "field_name": "menstrual_pain",
         "form_name": "period_pain_and_fatigue",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "slider",
         "field_label": "How much were you bothered by pain related to your menstrual cycle today (i.e cramps)?",
         "select_choices_or_calculations": [
             {
@@ -32,16 +32,8 @@
                 "label": "Not at all"
             },
             {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
                 "code": "3",
                 "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
             },
             {
                 "code": "5",
@@ -49,13 +41,13 @@
             }
         ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "1",
+        "text_validation_max": "5",
         "identifier": "",
         "branching_logic": "[period] = '1'",
         "required_field": "y",
-        "custom_alignment": "",
+        "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
@@ -66,7 +58,7 @@
         "field_name": "tired",
         "form_name": "period_pain_and_fatigue",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "slider",
         "field_label": "How tired did you feel today?",
         "select_choices_or_calculations": [
             {
@@ -74,16 +66,8 @@
                 "label": "Not at all"
             },
             {
-                "code": "2",
-                "label": "A little bit"
-            },
-            {
                 "code": "3",
                 "label": "Moderately"
-            },
-            {
-                "code": "4",
-                "label": "Quite a bit"
             },
             {
                 "code": "5",
@@ -92,12 +76,12 @@
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
+        "text_validation_min": "1",
+        "text_validation_max": "5",
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
-        "custom_alignment": "",
+        "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
