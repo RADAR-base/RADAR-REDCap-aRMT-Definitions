@@ -2,13 +2,13 @@
     {
         "field_name": "asrs_1",
         "form_name": "adhd_symptoms_and_impairment",
-        "section_header": "Please answer the questions below, rating yourself on each of the criteria as shown on the right. Answer each question in a way that best describes how you have felt and conducted yourself today.",
+        "section_header": "Please answer the questions below, answering each question in a way that best describes how you have felt and conducted yourself today.",
         "field_type": "radio",
         "field_label": "Did you have trouble wrapping up a task or did you leave unfinished something you had planned to do?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -16,11 +16,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -50,7 +50,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -58,11 +58,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -92,7 +92,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -100,11 +100,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -134,7 +134,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -142,11 +142,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -176,7 +176,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -184,11 +184,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -218,7 +218,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -226,11 +226,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -260,7 +260,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -268,11 +268,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -302,7 +302,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -310,11 +310,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -344,7 +344,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -352,11 +352,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -386,7 +386,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -394,11 +394,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -428,7 +428,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -436,11 +436,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -470,7 +470,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -478,11 +478,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -512,7 +512,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -520,11 +520,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -554,7 +554,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -562,11 +562,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -596,7 +596,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -604,11 +604,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -638,7 +638,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -646,11 +646,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -680,7 +680,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Not at all"
+                "label": "Never / not at all"
             },
             {
                 "code": "2",
@@ -688,11 +688,11 @@
             },
             {
                 "code": "3",
-                "label": "Sometimes"
+                "label": "Sometimes / moderately"
             },
             {
                 "code": "4",
-                "label": "A lot / often"
+                "label": "Often / a lot"
             },
             {
                 "code": "5",
@@ -738,7 +738,7 @@
             },
             {
                 "code": "5",
-                "label": "Very much / A lot"
+                "label": "Very much"
             },
             {
                 "code": "6",
@@ -784,7 +784,7 @@
             },
             {
                 "code": "5",
-                "label": "Very much / A lot"
+                "label": "Very much"
             },
             {
                 "code": "6",
@@ -830,7 +830,7 @@
             },
             {
                 "code": "5",
-                "label": "Very much / A lot"
+                "label": "Very much"
             },
             {
                 "code": "6",
@@ -876,7 +876,7 @@
             },
             {
                 "code": "5",
-                "label": "Very much / A lot"
+                "label": "Very much"
             },
             {
                 "code": "6",
@@ -922,7 +922,7 @@
             },
             {
                 "code": "5",
-                "label": "Very much / A lot"
+                "label": "Very much"
             },
             {
                 "code": "6",
