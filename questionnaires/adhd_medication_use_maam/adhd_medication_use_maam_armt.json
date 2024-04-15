@@ -87,14 +87,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[meduse_3] = '8'",
+        "branching_logic": "[meduse_3] = '6'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['meduse_3'] ==  '8'"
+        "evaluated_logic": "responses['meduse_3'] ==  '6'"
     },
     {
         "field_name": "meduse_2a_1",
