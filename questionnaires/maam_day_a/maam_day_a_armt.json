@@ -1035,13 +1035,16 @@
         "field_label": "How much were you bothered by pain related to your menstrual cycle today (i.e. cramps)?",
         "select_choices_or_calculations": [
             {
-                "code": "Not at all"
+                "code": "1",
+                "label": "Not at all"
             },
             {
-                "code": "Moderately"
+                "code": "3",
+                "label": "Moderately"
             },
             {
-                "code": "Extremely"
+                "code": "5",
+                "label": "Extremely"
             }
         ],
         "field_note": "",
@@ -1066,13 +1069,16 @@
         "field_label": "How tired did you feel today?",
         "select_choices_or_calculations": [
             {
-                "code": "Not at all"
+                "code": "1",
+                "label": "Not at all"
             },
             {
-                "code": "Moderately"
+                "code": "3",
+                "label": "Moderately"
             },
             {
-                "code": "Extremely"
+                "code": "5",
+                "label": "Extremely"
             }
         ],
         "field_note": "",
