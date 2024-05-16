@@ -28,19 +28,24 @@
         "field_label": "What was your sex at birth?",
         "select_choices_or_calculations": [
             {
-                "code": "Male"
+                "code": "0",
+                "label": "Male"
             },
             {
-                "code": "Female"
+                "code": "1",
+                "label": "Female"
             },
             {
-                "code": "Intersex"
+                "code": "2",
+                "label": "Intersex"
             },
             {
-                "code": "Do not wish to answer"
+                "code": "3",
+                "label": "Do not wish to answer"
             },
             {
-                "code": "Other"
+                "code": "4",
+                "label": "Other"
             }
         ],
         "field_note": "",
@@ -65,19 +70,24 @@
         "field_label": "What gender do you identify as?",
         "select_choices_or_calculations": [
             {
-                "code": "Male"
+                "code": "0",
+                "label": "Male"
             },
             {
-                "code": "Female"
+                "code": "1",
+                "label": "Female"
             },
             {
-                "code": "Non-binary"
+                "code": "2",
+                "label": "Non-binary"
             },
             {
-                "code": "Do not wish to answer"
+                "code": "3",
+                "label": "Do not wish to answer"
             },
             {
-                "code": "Other"
+                "code": "4",
+                "label": "Other"
             }
         ],
         "field_note": "",
@@ -102,31 +112,40 @@
         "field_label": "Please check the range that best describes your annual household income.",
         "select_choices_or_calculations": [
             {
-                "code": "<£20000"
+                "code": "0",
+                "label": "<£20000"
             },
             {
-                "code": "£20000-29999"
+                "code": "1",
+                "label": "£20000-29999"
             },
             {
-                "code": "£30000-39999"
+                "code": "2",
+                "label": "£30000-39999"
             },
             {
-                "code": "£40000-59999"
+                "code": "3",
+                "label": "£40000-59999"
             },
             {
-                "code": "£60000-79999"
+                "code": "4",
+                "label": "£60000-79999"
             },
             {
-                "code": "£80000-£99999"
+                "code": "5",
+                "label": "£80000-£99999"
             },
             {
-                "code": "£100000-£149999"
+                "code": "6",
+                "label": "£100000-£149999"
             },
             {
-                "code": ">£149999"
+                "code": "7",
+                "label": ">£149999"
             },
             {
-                "code": "Do not wish to answer"
+                "code": "8",
+                "label": "Do not wish to answer"
             }
         ],
         "field_note": "",
@@ -151,25 +170,32 @@
         "field_label": "Please indicate your current employment or education status (tick as many as apply)",
         "select_choices_or_calculations": [
             {
-                "code": "Employed (full time)"
+                "code": "0",
+                "label": "Employed (full time)"
             },
             {
-                "code": "Employed (part time)"
+                "code": "1",
+                "label": "Employed (part time)"
             },
             {
-                "code": "In education (full time)"
+                "code": "2",
+                "label": "In education (full time)"
             },
             {
-                "code": "In education (part time)"
+                "code": "3",
+                "label": "In education (part time)"
             },
             {
-                "code": "Unemployed"
+                "code": "4",
+                "label": "Unemployed"
             },
             {
-                "code": "Do not wish to answer"
+                "code": "5",
+                "label": "Do not wish to answer"
             },
             {
-                "code": "Other"
+                "code": "6",
+                "label": "Other"
             }
         ],
         "field_note": "",
@@ -194,23 +220,28 @@
         "field_label": "How far have you taken your formal education?",
         "select_choices_or_calculations": [
             {
-                "code": "GCSEs or equivalent"
+                "code": "0",
+                "label": "GCSEs or equivalent"
             },
             {
-                "code": "A-levels or equivalent"
+                "code": "1",
+                "label": "A-levels or equivalent"
             },
             {
-                "code": "NVQ",
-                "label": "City and Guilds, or equivalent"
+                "code": "2",
+                "label": "NVQ, City and Guilds, or equivalent"
             },
             {
-                "code": "Undergraduate degree"
+                "code": "3",
+                "label": "Undergraduate degree"
             },
             {
-                "code": "Postgraduate degree"
+                "code": "4",
+                "label": "Postgraduate degree"
             },
             {
-                "code": "No formal qualifications"
+                "code": "5",
+                "label": "No formal qualifications"
             }
         ],
         "field_note": "",
