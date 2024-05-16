@@ -1,0 +1,261 @@
+[
+    {
+        "field_name": "demographics_1",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What is your date of birth?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_2",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What was your sex at birth?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Male"
+            },
+            {
+                "code": "1",
+                "label": "Female"
+            },
+            {
+                "code": "2",
+                "label": "Intersex"
+            },
+            {
+                "code": "3",
+                "label": "Do not wish to answer"
+            },
+            {
+                "code": "4",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_3",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What gender do you identify as?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Male"
+            },
+            {
+                "code": "1",
+                "label": "Female"
+            },
+            {
+                "code": "2",
+                "label": "Non-binary"
+            },
+            {
+                "code": "3",
+                "label": "Do not wish to answer"
+            },
+            {
+                "code": "4",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_4",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please check the range that best describes your annual household income.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "<£20000"
+            },
+            {
+                "code": "1",
+                "label": "£20000-29999"
+            },
+            {
+                "code": "2",
+                "label": "£30000-39999"
+            },
+            {
+                "code": "3",
+                "label": "£40000-59999"
+            },
+            {
+                "code": "4",
+                "label": "£60000-79999"
+            },
+            {
+                "code": "5",
+                "label": "£80000-£99999"
+            },
+            {
+                "code": "6",
+                "label": "£100000-£149999"
+            },
+            {
+                "code": "7",
+                "label": ">£149999"
+            },
+            {
+                "code": "8",
+                "label": "Do not wish to answer"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_5",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please indicate your current employment or education status (tick as many as apply)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Employed (full time)"
+            },
+            {
+                "code": "1",
+                "label": "Employed (part time)"
+            },
+            {
+                "code": "2",
+                "label": "In education (full time)"
+            },
+            {
+                "code": "3",
+                "label": "In education (part time)"
+            },
+            {
+                "code": "4",
+                "label": "Unemployed"
+            },
+            {
+                "code": "5",
+                "label": "Do not wish to answer"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_6",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How far have you taken your formal education?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "GCSEs or equivalent"
+            },
+            {
+                "code": "1",
+                "label": "A-levels or equivalent"
+            },
+            {
+                "code": "2",
+                "label": "NVQ, City and Guilds, or equivalent"
+            },
+            {
+                "code": "3",
+                "label": "Undergraduate degree"
+            },
+            {
+                "code": "4",
+                "label": "Postgraduate degree"
+            },
+            {
+                "code": "5",
+                "label": "No formal qualifications"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
