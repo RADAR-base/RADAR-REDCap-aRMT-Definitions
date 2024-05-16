@@ -1,0 +1,645 @@
+[
+    {
+        "field_name": "sleep_routine_smartphone_usage_1",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Please have a look at these bedtime activities. On the next page, please write the order you do these using their letters. Leave out any you don't do. E.g. If you turn out the main light, get into bed, listen to music and then try to sleep, you'd write: ACEG.\n\n<p><small>A</small><br />Turn out the main light<br /><br /><small>B</small><br />Turn out the bedside light or other small light<br /><br /><small>C</small><br />Get into bed<br /><br /><small>D</small><br />Actively use my phone (e.g., look at social media, games/puzzles, read)<br /><br /><small>E</small><br />Passively use my phone (e.g., listen to music, listen to an audiobook, etc.)<br /><br /><small>F</small><br />Read a book or other activity not involving my phone<br /><br /><small>G</small><br />Shut my eyes and try to sleep</p>",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_2",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please write the letters for your bedtime activities here.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_3",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please describe anything about your sleep routine that is not captured in the previous question.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_4",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Where do you usually place your phone whilst you sleep?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Next to my pillow"
+            },
+            {
+                "code": "1",
+                "label": "Bedside table or by my bed"
+            },
+            {
+                "code": "2",
+                "label": "Elsewhere in my bedroom"
+            },
+            {
+                "code": "3",
+                "label": "In another room"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone_b81a97",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_5",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Do you usually charge your phone overnight?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone1_4db92e",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_6",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "matrix-radio",
+        "field_label": "Do you use an alarm on your phone to wake up?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone1_4db92e",
+        "matrix_ranking": "",
+        "field_annotation": "matrix-radio-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_7",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How often do you press snooze on your phone alarm?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Every day"
+            },
+            {
+                "code": "1",
+                "label": "Usually"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Rarely"
+            },
+            {
+                "code": "4",
+                "label": "Never"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone2_63d3d4",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_8",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What mode do you keep your phone in whilst you are asleep?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Sound"
+            },
+            {
+                "code": "1",
+                "label": "Vibrate"
+            },
+            {
+                "code": "2",
+                "label": "Mute"
+            },
+            {
+                "code": "3",
+                "label": "Airplane"
+            },
+            {
+                "code": "4",
+                "label": "Switch off"
+            },
+            {
+                "code": "5",
+                "label": "Do not disturb"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            },
+            {
+                "code": "7",
+                "label": "Unsure (Please ask researcher)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "bedtime_phone3_ba2968",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_9",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How often do you consume alcohol before sleeping",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Every day"
+            },
+            {
+                "code": "1",
+                "label": "Usually"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Rarely"
+            },
+            {
+                "code": "4",
+                "label": "Never"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_10",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How long have you owned a smartphone (in years)? ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_11",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "On average, how long do you work / study every week (in hours)?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_12",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you drive to work?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_13",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How long is your daily commute (in minutes)?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_14",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Check the most suitable option for the statements below",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_15",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I keep my phone at arm's length when I am at home",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "N.A."
+            },
+            {
+                "code": "1",
+                "label": "Strongly Disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Agree"
+            },
+            {
+                "code": "5",
+                "label": "Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_16",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I keep my phone at arm's length when I am at work",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "N.A."
+            },
+            {
+                "code": "1",
+                "label": "Strongly Disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Agree"
+            },
+            {
+                "code": "5",
+                "label": "Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_17",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My work will be affected if I am unable to use my phone",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "N.A."
+            },
+            {
+                "code": "1",
+                "label": "Strongly Disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Agree"
+            },
+            {
+                "code": "5",
+                "label": "Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_18",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My occupation type allows me to check my smartphone very often while I am working",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "N.A."
+            },
+            {
+                "code": "1",
+                "label": "Strongly Disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Agree"
+            },
+            {
+                "code": "5",
+                "label": "Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sleep_routine_smartphone_usage_19",
+        "form_name": "sleep_routine_smartphone_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I often check my phone while I am working / studying",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "N.A."
+            },
+            {
+                "code": "1",
+                "label": "Strongly Disagree"
+            },
+            {
+                "code": "2",
+                "label": "Disagree"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Agree"
+            },
+            {
+                "code": "5",
+                "label": "Strongly Agree"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
