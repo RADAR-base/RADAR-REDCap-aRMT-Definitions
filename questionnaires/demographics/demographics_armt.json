@@ -1,0 +1,230 @@
+[
+    {
+        "field_name": "demographics_1",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What is your date of birth?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_2",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What was your sex at birth?",
+        "select_choices_or_calculations": [
+            {
+                "code": "Male"
+            },
+            {
+                "code": "Female"
+            },
+            {
+                "code": "Intersex"
+            },
+            {
+                "code": "Do not wish to answer"
+            },
+            {
+                "code": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_3",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What gender do you identify as?",
+        "select_choices_or_calculations": [
+            {
+                "code": "Male"
+            },
+            {
+                "code": "Female"
+            },
+            {
+                "code": "Non-binary"
+            },
+            {
+                "code": "Do not wish to answer"
+            },
+            {
+                "code": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_4",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please check the range that best describes your annual household income.",
+        "select_choices_or_calculations": [
+            {
+                "code": "<£20000"
+            },
+            {
+                "code": "£20000-29999"
+            },
+            {
+                "code": "£30000-39999"
+            },
+            {
+                "code": "£40000-59999"
+            },
+            {
+                "code": "£60000-79999"
+            },
+            {
+                "code": "£80000-£99999"
+            },
+            {
+                "code": "£100000-£149999"
+            },
+            {
+                "code": ">£149999"
+            },
+            {
+                "code": "Do not wish to answer"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_5",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please indicate your current employment or education status (tick as many as apply)",
+        "select_choices_or_calculations": [
+            {
+                "code": "Employed (full time)"
+            },
+            {
+                "code": "Employed (part time)"
+            },
+            {
+                "code": "In education (full time)"
+            },
+            {
+                "code": "In education (part time)"
+            },
+            {
+                "code": "Unemployed"
+            },
+            {
+                "code": "Do not wish to answer"
+            },
+            {
+                "code": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "demographics_6",
+        "form_name": "demographics",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How far have you taken your formal education?",
+        "select_choices_or_calculations": [
+            {
+                "code": "GCSEs or equivalent"
+            },
+            {
+                "code": "A-levels or equivalent"
+            },
+            {
+                "code": "NVQ",
+                "label": "City and Guilds, or equivalent"
+            },
+            {
+                "code": "Undergraduate degree"
+            },
+            {
+                "code": "Postgraduate degree"
+            },
+            {
+                "code": "No formal qualifications"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
