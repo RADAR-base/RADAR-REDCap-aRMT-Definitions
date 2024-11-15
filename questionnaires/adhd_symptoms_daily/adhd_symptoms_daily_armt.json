@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "adhd_symp_daily",
+        "form_name": "adhd_symptoms_daily",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "<div class=\"rich-text-field-label\"><p>How much have your ADHD symptoms affected your daily activities today?</p> <p><img src=\"https://redcap-phidatalab.brc.iop.kcl.ac.uk/redcap_v13.1.37/DataEntry/image_view.php?pid=110&id=5458&doc_id_hash=ef9883beacda55e54d02262b680f165ee0e8e5f3\" alt=\"\" width=\"489\" height=\"81\" /></p></div>",
+        "select_choices_or_calculations": [
+            {
+                "code": "not at all"
+            },
+            {
+                "code": "somewhat"
+            },
+            {
+                "code": "a lot"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "10",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "LH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
