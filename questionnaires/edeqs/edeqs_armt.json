@@ -539,13 +539,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[height_uom]=2",
+        "branching_logic": "[height_uom]= '2'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['height_uom'] == 2"
+        "evaluated_logic": "responses['height_uom'] == '2'"
     }
 ]
