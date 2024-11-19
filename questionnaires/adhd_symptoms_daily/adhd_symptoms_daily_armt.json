@@ -3,23 +3,34 @@
         "field_name": "adhd_symp_daily",
         "form_name": "adhd_symptoms_daily",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>How much have your ADHD symptoms affected your daily activities today?</p> <p><img src=\"https://redcap-phidatalab.brc.iop.kcl.ac.uk/redcap_v13.1.37/DataEntry/image_view.php?pid=110&id=5458&doc_id_hash=ef9883beacda55e54d02262b680f165ee0e8e5f3\" alt=\"\" width=\"489\" height=\"81\" /></p></div>",
+        "field_type": "radio",
+        "field_label": "<div class=\"rich-text-field-label\"><p>How much have your ADHD symptoms affected your daily activities today? </p> <p>Select an option from 1 to 5, where 1 is \"not at all\" and 5 is \"a lot\".</p></div>",
         "select_choices_or_calculations": [
             {
-                "code": "not at all"
+                "code": "1",
+                "label": "1) Not at all"
             },
             {
-                "code": "somewhat"
+                "code": "2",
+                "label": "2) Slightly"
             },
             {
-                "code": "a lot"
+                "code": "3",
+                "label": "3) Somewhat"
+            },
+            {
+                "code": "4",
+                "label": "4) Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "5) A lot"
             }
         ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
-        "text_validation_max": "10",
+        "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
