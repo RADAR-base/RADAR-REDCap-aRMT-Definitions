@@ -4,11 +4,11 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "1. �Usa usted el aceite de oliva principalmente para cocinar?",
+        "field_label": "1. ¿Usa usted el aceite de oliva principalmente para cocinar?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "S�"
+                "label": "Sí"
             },
             {
                 "code": "0",
@@ -34,7 +34,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "2. �Cu�nto aceite de oliva consume en total al d�a (incluyendo el usado para fre�r, el de las comidas fuera de casa, las ensaladas, etc.)?",
+        "field_label": "2. ¿Cuánto aceite de oliva consume en total al día (incluyendo el usado para freír, el de las comidas fuera de casa, las ensaladas, etc.)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -68,7 +68,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "�Cu�ntas raciones de verdura u hortalizas consume al d�a (las guarniciones o acompa�amientos contabilizan como � raci�n)?",
+        "field_label": "¿Cuántas raciones de verdura u hortalizas consume al día (las guarniciones o acompañamientos contabilizan como ½ ración)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -102,7 +102,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "4. �Cu�ntas piezas de fruta (incluyendo zumo natural) consume al d�a?",
+        "field_label": "4. ¿Cuántas piezas de fruta (incluyendo zumo natural) consume al día?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -114,7 +114,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s unidades"
+                "label": "10 o más unidades"
             }
         ],
         "field_note": "",
@@ -136,7 +136,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "5. �Cu�ntas raciones de carnes rojas, hamburguesas, salchichas o embutidos consume al d�a (una raci�n equivale a 100-150 gr.)?",
+        "field_label": "5. ¿Cuántas raciones de carnes rojas, hamburguesas, salchichas o embutidos consume al día (una ración equivale a 100-150 gr.)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -148,7 +148,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s porciones"
+                "label": "10 o más porciones"
             }
         ],
         "field_note": "",
@@ -170,7 +170,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "6. �Cu�ntas raciones de mantequilla, margarina o nata consume al d�a porci�n individual equivale a 12 gr)?",
+        "field_label": "6. ¿Cuántas raciones de mantequilla, margarina o nata consume al día porción individual equivale a 12 gr)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -182,7 +182,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s porciones"
+                "label": "10 o más porciones"
             }
         ],
         "field_note": "",
@@ -204,7 +204,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "7. �Cu�ntas bebidas carbonatadas y/o azucaradas (refrescos, colas, t�nicas, bitter) consume al d�a?",
+        "field_label": "7. ¿Cuántas bebidas carbonatadas y/o azucaradas (refrescos, colas, tónicas, bitter) consume al día?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -216,7 +216,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s"
+                "label": "10 o más"
             }
         ],
         "field_note": "",
@@ -238,7 +238,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "8. �Bebe vino? �Cu�nto consume a la semana?",
+        "field_label": "8. ¿Bebe vino? ¿Cuánto consume a la semana?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -250,7 +250,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s vasos"
+                "label": "10 o más vasos"
             }
         ],
         "field_note": "vasos",
@@ -272,7 +272,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "9. �Cu�ntas raciones de legumbres consume a la semana (una raci�n o plato equivale a 150 gr)?",
+        "field_label": "9. ¿Cuántas raciones de legumbres consume a la semana (una ración o plato equivale a 150 gr)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -284,7 +284,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s porciones"
+                "label": "10 o más porciones"
             }
         ],
         "field_note": "",
@@ -306,7 +306,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "10. �Cu�ntas raciones de pescado o mariscos consume a la semana (un plato, pieza o raci�n equivale a 100-150 gr de pescado � 4-5 piezas de marisco)?",
+        "field_label": "10. ¿Cuántas raciones de pescado o mariscos consume a la semana (un plato, pieza o ración equivale a 100-150 gr de pescado ó 4-5 piezas de marisco)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -318,7 +318,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s porciones"
+                "label": "10 o más porciones"
             }
         ],
         "field_note": "",
@@ -340,7 +340,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "11. �Cu�ntas veces consume reposter�a comercial (no casera) como galletas, flanes, dulces o pasteles a la semana?",
+        "field_label": "11. ¿Cuántas veces consume repostería comercial (no casera) como galletas, flanes, dulces o pasteles a la semana?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -352,7 +352,7 @@
             },
             {
                 "code": "10+",
-                "label": "10 o m�s veces"
+                "label": "10 o más veces"
             }
         ],
         "field_note": "",
@@ -374,14 +374,14 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "12. �Cu�ntes veces consume frutos secos a la semana (una raci�n equivale a 30 gr)?",
+        "field_label": "12. ¿Cuántes veces consume frutos secos a la semana (una ración equivale a 30 gr)?",
         "select_choices_or_calculations": [],
         "range": {
             "min": "0",
             "max": "10",
             "step": "1",
             "labelLeft": "0 porciones",
-            "labelRight": "10 o m�s porciones"
+            "labelRight": "10 o más porciones"
         },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -402,7 +402,7 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "13. �Consume preferentemente carne de pollo, pavo o conejo en vez de ternera, cerdo, hamburguesas o salchichas (carne de pollo: una pieza o raci�n equivale a 100- 150 gr)?",
+        "field_label": "13. ¿Consume preferentemente carne de pollo, pavo o conejo en vez de ternera, cerdo, hamburguesas o salchichas (carne de pollo: una pieza o ración equivale a 100- 150 gr)?",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -410,7 +410,7 @@
             },
             {
                 "code": "1",
-                "label": "S�"
+                "label": "Sí"
             },
             {
                 "code": "2",
@@ -444,14 +444,14 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "14. �Cu�ntas veces a la semana consume los vegetales cocinados, la pasta, el arroz u otros platos aderezados con una salsa de tomate, ajo, cebolla o puerro elaborada a fuego lento con aceite de oliva (sofrito)?",
+        "field_label": "14. ¿Cuántas veces a la semana consume los vegetales cocinados, la pasta, el arroz u otros platos aderezados con una salsa de tomate, ajo, cebolla o puerro elaborada a fuego lento con aceite de oliva (sofrito)?",        
         "select_choices_or_calculations": [],
         "range": {
             "min": "0",
             "max": "10",
             "step": "1",
             "labelLeft": "0 veces",
-            "labelRight": "10 o m�s veces"
+            "labelRight": "10 o más veces"
         },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
