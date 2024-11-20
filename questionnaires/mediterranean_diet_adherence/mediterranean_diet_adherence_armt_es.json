@@ -35,20 +35,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "2. ¿Cuánto aceite de oliva consume en total al día (incluyendo el usado para freír, el de las comidas fuera de casa, las ensaladas, etc.)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 cucharadas"
-            },
-            {
-                "code": "5",
-                "label": "5 cucharadas"
-            },
-            {
-                "code": "10+",
-                "label": "10+ cucharadas"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 cucharadas",
+            "labelRight": "10+ cucharadas"
+        },
         "field_note": "cucharadas",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -69,20 +63,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "¿Cuántas raciones de verdura u hortalizas consume al día (las guarniciones o acompañamientos contabilizan como ½ ración)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 porciones"
-            },
-            {
-                "code": "5",
-                "label": "5 porciones"
-            },
-            {
-                "code": "10+",
-                "label": "10+ porciones"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 porciones",
+            "labelRight": "10+ porciones"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -103,20 +91,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "4. ¿Cuántas piezas de fruta (incluyendo zumo natural) consume al día?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 unidades"
-            },
-            {
-                "code": "5",
-                "label": "5 unidades"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más unidades"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 unidades",
+            "labelRight": "10 o más unidades"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -137,20 +119,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "5. ¿Cuántas raciones de carnes rojas, hamburguesas, salchichas o embutidos consume al día (una ración equivale a 100-150 gr.)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 porciones"
-            },
-            {
-                "code": "5",
-                "label": "5 porciones"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más porciones"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 porciones",
+            "labelRight": "10 o más porciones"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -171,20 +147,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "6. ¿Cuántas raciones de mantequilla, margarina o nata consume al día porción individual equivale a 12 gr)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 porciones"
-            },
-            {
-                "code": "5",
-                "label": "5 porciones"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más porciones"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 porciones",
+            "labelRight": "10 o más porciones"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -205,20 +175,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "7. ¿Cuántas bebidas carbonatadas y/o azucaradas (refrescos, colas, tónicas, bitter) consume al día?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0",
+            "labelRight": "10 o más"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -239,20 +203,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "8. ¿Bebe vino? ¿Cuánto consume a la semana?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 vasos"
-            },
-            {
-                "code": "5",
-                "label": "5 vasos"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más vasos"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 vasos",
+            "labelRight": "10 o más vasos"
+        },
         "field_note": "vasos",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -273,20 +231,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "9. ¿Cuántas raciones de legumbres consume a la semana (una ración o plato equivale a 150 gr)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 porciones"
-            },
-            {
-                "code": "5",
-                "label": "5 porciones"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más porciones"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 porciones",
+            "labelRight": "10 o más porciones"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -307,20 +259,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "10. ¿Cuántas raciones de pescado o mariscos consume a la semana (un plato, pieza o ración equivale a 100-150 gr de pescado ó 4-5 piezas de marisco)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 porciones"
-            },
-            {
-                "code": "5",
-                "label": "5 porciones"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más porciones"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 porciones",
+            "labelRight": "10 o más porciones"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -341,20 +287,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "11. ¿Cuántas veces consume repostería comercial (no casera) como galletas, flanes, dulces o pasteles a la semana?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 veces"
-            },
-            {
-                "code": "5",
-                "label": "5 veces"
-            },
-            {
-                "code": "10+",
-                "label": "10 o más veces"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 veces",
+            "labelRight": "10 o más veces"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
