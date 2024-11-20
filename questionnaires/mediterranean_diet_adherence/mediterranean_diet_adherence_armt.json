@@ -35,20 +35,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "2. How much olive oil do you consume in a given day (in tbsp) (including oil used for frying, salads, out-of-house meals, etc.) ? ",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 tbsp"
-            },
-            {
-                "code": "5",
-                "label": "5 tbsp"
-            },
-            {
-                "code": "10+",
-                "label": "10+ tbsp"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "tbsp",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -61,6 +48,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 tbsp",
+            "labelRight": "10+ tbsp"
+        },
         "evaluated_logic": ""
     },
     {
@@ -69,20 +63,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "How many vegetable servings do you consume per day? \n(1 serving : 200g [consider side dishes as half a serving])",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -95,6 +76,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -103,20 +91,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "4. How many fruit units (including natural fruit juices) do you consume per day?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 units"
-            },
-            {
-                "code": "5",
-                "label": "5 units"
-            },
-            {
-                "code": "10+",
-                "label": "10+ units"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -129,6 +104,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 units",
+            "labelRight": "10+ units"
+        },
         "evaluated_logic": ""
     },
     {
@@ -137,20 +119,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "5. How many servings of red meat, hamburger, or meat products (ham, sausage, etc.) do you consume per day?\n(1 serving: 100-150g)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -163,6 +132,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -171,20 +147,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "6. How many servings of butter, margarine, or cream do you consume per day? \n(1 serving: 12g)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -197,6 +160,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -205,20 +175,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "7. How many sweet or carbonated beverages do you drink per day?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0"
-            },
-            {
-                "code": "5",
-                "label": "5"
-            },
-            {
-                "code": "10+",
-                "label": "10+"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -231,6 +188,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0",
+            "labelRight": "10+"
+        },
         "evaluated_logic": ""
     },
     {
@@ -239,20 +203,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "8. How much wine do you drink per week? (in glasses)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 glasses"
-            },
-            {
-                "code": "5",
-                "label": "5 glasses"
-            },
-            {
-                "code": "10+",
-                "label": "10+ glasses"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "glasses",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -265,6 +216,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 glasses",
+            "labelRight": "10+ glasses"
+        },
         "evaluated_logic": ""
     },
     {
@@ -272,21 +230,8 @@
         "form_name": "mediterranean_diet_adherence",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "9. How many servings of legumes do you consume per week? \r\n(1 serving: 150g)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "field_label": "9. How many servings of legumes do you consume per week? \n(1 serving: 150g)",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -299,6 +244,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -307,20 +259,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "10. How many servings of fish or shellfish do you consume per week?\n(1 serving 100-150g of fish or 4-5 units or 200g of shellfish)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -333,6 +272,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -341,20 +287,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "11. How many times per week do you consume commercial sweets or pastries (not homemade), such as cakes, cookies, biscuits, or custard?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 times"
-            },
-            {
-                "code": "5",
-                "label": "5 times"
-            },
-            {
-                "code": "10+",
-                "label": "10+ times"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -367,6 +300,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 times",
+            "labelRight": "10+ times"
+        },
         "evaluated_logic": ""
     },
     {
@@ -375,20 +315,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "12. How many servings of nuts (including peanuts) do you consume per week?\n(1 serving 30g)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -401,6 +328,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "evaluated_logic": ""
     },
     {
@@ -451,20 +385,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "14. How many times per week do you consume vegetables, pasta, rice, or other dishes seasoned with sofrito (sauce made with tomato and onion, leek, or garlic and simmered with olive oil)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 times"
-            },
-            {
-                "code": "5",
-                "label": "5 times"
-            },
-            {
-                "code": "10+",
-                "label": "10+ times"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -477,6 +398,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "0 times",
+            "labelRight": "10+ times"
+        },
         "evaluated_logic": ""
     }
 ]
