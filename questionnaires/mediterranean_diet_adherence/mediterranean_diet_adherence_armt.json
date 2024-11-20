@@ -375,20 +375,13 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "12. How many servings of nuts (including peanuts) do you consume per week?\n(1 serving 30g)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 servings"
-            },
-            {
-                "code": "5",
-                "label": "5 servings"
-            },
-            {
-                "code": "10+",
-                "label": "10+ servings"
-            }
-        ],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 servings",
+            "labelRight": "10+ servings"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -451,20 +444,13 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "14. How many times per week do you consume vegetables, pasta, rice, or other dishes seasoned with sofrito (sauce made with tomato and onion, leek, or garlic and simmered with olive oil)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 times"
-            },
-            {
-                "code": "5",
-                "label": "5 times"
-            },
-            {
-                "code": "10+",
-                "label": "10+ times"
-            }
-        ],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": "1",
+            "labelLeft": "0 times",
+            "labelRight": "10+ times"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",

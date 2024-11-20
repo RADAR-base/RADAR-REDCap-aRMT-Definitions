@@ -35,20 +35,14 @@
         "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
         "field_type": "slider",
         "field_label": "How would you rate your sleep quality overall (0=worst sleep and 100=best sleep)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Terrible"
-            },
-            {
-                "code": "",
-                "label": ""
-            },
-            {
-                "code": "100",
-                "label": "Excellent"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "100",
+            "step": "1",
+            "labelLeft": "Terrible",
+            "labelRight": "Excellent"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
