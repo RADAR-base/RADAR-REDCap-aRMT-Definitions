@@ -6,13 +6,6 @@
         "field_type": "slider",
         "field_label": "How would you rate your sleep quality overall (0=worst sleep and 100=best sleep)?",
         "select_choices_or_calculations": [],
-        "range": {
-            "min": "0",
-            "max": "100",
-            "step": "1",
-            "labelLeft": "Terrible",
-            "labelRight": "Excellent"
-        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -25,6 +18,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Terrible",
+            "labelRight": "Excellent"
+        },
         "evaluated_logic": ""
     }
 ]
