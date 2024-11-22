@@ -3,7 +3,7 @@
         "field_name": "adhd_symp_daily",
         "form_name": "adhd_symptoms_daily",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "range",
         "field_label": "How much have your ADHD symptoms affected your daily activities today? \r\nSelect an option from 1 to 5, where 1 is \"not at all\" and 5 is \"a lot\".",
         "select_choices_or_calculations": [
             {
@@ -38,7 +38,7 @@
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
-        "field_annotation": "",
+        "field_annotation": "range-type",
         "evaluated_logic": ""
     }
 ]
