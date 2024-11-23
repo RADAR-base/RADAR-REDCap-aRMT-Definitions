@@ -28,11 +28,22 @@ function REDCapConverter(redcap_json) {
             var finalLabel = value2.substring(value2.indexOf(',') + 1);
           }
           arrayOfObjectsAndCodes.push({
-            code: removeFirstWhiteSpace(values[0]),
+            code: removeSpecialCharacters(removeFirstWhiteSpace(values[0])),
             label: removeFirstWhiteSpace(finalLabel),
           });
         });
         rawContent[key].select_choices_or_calculations = arrayOfObjectsAndCodes;
+      }
+      // If the field type is slider, then we need to add range property
+      if (rawContent[key].field_type === 'slider') {
+        rawContent[key].range = {
+          "min": arrayOfObjectsAndCodes[0].code,
+          "max": arrayOfObjectsAndCodes[arrayOfObjectsAndCodes.length - 1].code,
+          "step": 1,
+          "labelLeft": arrayOfObjectsAndCodes[0].label,
+          "labelRight": arrayOfObjectsAndCodes[arrayOfObjectsAndCodes.length - 1].label
+        }
+        rawContent[key].select_choices_or_calculations = [];
       }
     });
     return rawContent;
@@ -116,6 +127,8 @@ function REDCapConverter(redcap_json) {
           rawContent[key].field_type = 'range-info';
         } else if (rawContent[key].field_annotation.includes('info-type')) {
           rawContent[key].field_type = 'info';
+        } else if (rawContent[key].field_note.includes('info-type')) {
+          rawContent[key].field_type = 'info';
         } else if (
           rawContent[key].field_annotation.includes('matrix-radio-type')
         ) {
@@ -153,6 +166,13 @@ function REDCapConverter(redcap_json) {
     }
     return val;
   };
+
+  removeSpecialCharacters = function(val) {
+    if (val) {
+      return val.replace(/[^a-zA-Z0-9]/g, '');
+    }
+    return val;
+  }
 
   return this.parseRedCap(redcap_json);
 }
