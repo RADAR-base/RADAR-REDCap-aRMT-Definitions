@@ -5,9 +5,9 @@
   "dependencies": {
     "@octokit/rest": "^19.0.7",
     "axios": "^1.6.8",
-    "npm": "^9.6.0"
+    "npm": "^9.6.0",
+    "underscore": "^1.13.7"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions.git"
