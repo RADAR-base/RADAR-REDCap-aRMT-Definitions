@@ -1,0 +1,107 @@
+[
+  {
+    "field_name": "nhs_1",
+    "form_name": "nhs",
+    "section_header": "NHS Number",
+    "field_type": "yesno",
+    "field_label": "For this study, we will need to collect your NHS number. Do you consent to the sharing of this information?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "nhs_2",
+    "form_name": "nhs",
+    "section_header": "NHS Number",
+    "field_type": "web",
+    "field_label": "Thanks for agreeing to share your NHS number. Your NHS number is a 10-digit number, like 485 777 3456. You can find your NHS number on a hospital appointment letter. If you know what your number is, please enter it in the box below. Otherwise, click the \"Login\" button, and follow the steps to retrieve your NHS number (you will need your name, date of birth and postcode). Once you have this, you can exit the browser and return to this page. Please note that we will not have access to your NHS credentials. You will only be redirected to the official NHS website.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[nhs_1] = '1'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "nhs",
+    "evaluated_logic": "responses['nhs_1'] ==  '1'"
+  },
+  {
+    "field_name": "nhs_3",
+    "form_name": "nhs",
+    "section_header": "NHS Number",
+    "field_type": "radio",
+    "field_label": "Thank you. As you decided not to share your NHS Number with the study, to help us understand this decision better, please let us know why you object to the sharing of your NHS ID.",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Concerns about privacy"
+      },
+      {
+        "code": "2",
+        "label": "Concerns about stigma and discrimination"
+      },
+      {
+        "code": "3",
+        "label": "Legal and regulatory uncertainties"
+      },
+      {
+        "code": "4",
+        "label": "Other"
+      },
+      {
+        "code": "5",
+        "label": "Prefer not to say"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[nhs_1] = '0'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['nhs_1'] ==  '0'"
+  },
+  {
+    "field_name": "nhs_4",
+    "form_name": "nhs",
+    "section_header": "NHS Number",
+    "field_type": "notes",
+    "field_label": "Please give us more details as to why you object to the sharing of your NHS ID.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[nhs_3] = '4'",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['nhs_3'] ==  '4'"
+  }
+]

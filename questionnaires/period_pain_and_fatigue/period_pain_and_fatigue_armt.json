@@ -1,0 +1,133 @@
+[
+    {
+        "field_name": "period",
+        "form_name": "period_pain_and_fatigue",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you have your period today?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "menstrual_pain",
+        "form_name": "period_pain_and_fatigue",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How much were you bothered by pain related to your menstrual cycle today (i.e cramps)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "1",
+        "text_validation_max": "5",
+        "identifier": "",
+        "branching_logic": "[period] = '1'",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['period'] ==  '1'"
+    },
+    {
+        "field_name": "tired",
+        "form_name": "period_pain_and_fatigue",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How tired did you feel today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "5",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "other_events_1",
+        "form_name": "period_pain_and_fatigue",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did any notable events or circumstances occur today that you think might have impacted your symptoms or overall well-being? This could involve changes in your daily routine (e.g. night shift work), heightened stressors (interpersonal stress, pain like a migraine), significant life events, or any other noteworthy incidents. ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "other_events_2",
+        "form_name": "period_pain_and_fatigue",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please provide details.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_events_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_events_1'] ==  '1'"
+    }
+]

@@ -1,39 +1,18 @@
 [
     {
-        "field_name": "lte",
-        "form_name": "lte",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "In the last six months, have any of the following happened:",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "lte_1",
         "form_name": "lte",
-        "section_header": "",
+        "section_header": "In the last six months, have any of the following happened:",
         "field_type": "radio",
         "field_label": "You yourself suffered a serious illness, injury or an assault",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -55,10 +34,10 @@
         "form_name": "lte",
         "section_header": "",
         "field_type": "text",
-        "field_label": "If yes, please specify",
+        "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -79,12 +58,12 @@
         "field_label": "A serious illness, injury or assault happened to a close relative",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -109,7 +88,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -130,12 +109,12 @@
         "field_label": "Your parent, child or partner died",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -160,7 +139,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -181,12 +160,12 @@
         "field_label": "A close family friend or another relative (aunt, cousin, grandparent) died",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -211,7 +190,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -232,12 +211,12 @@
         "field_label": "You had a separation due to marital/civil partnership difficulties",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -262,7 +241,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -283,12 +262,12 @@
         "field_label": "You broke off a steady relationship",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -313,7 +292,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -334,12 +313,12 @@
         "field_label": "You had a serious problem with a close friend, neighbour or relative",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -364,7 +343,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -385,12 +364,12 @@
         "field_label": "You became unemployed or you were seeking work unsuccessfully for more than one month",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -415,7 +394,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -436,12 +415,12 @@
         "field_label": "You were sacked from your job",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -466,7 +445,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -487,12 +466,12 @@
         "field_label": "You had a major financial crisis",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -517,7 +496,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -538,12 +517,12 @@
         "field_label": "You had problems with the police and a court appearance",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -568,7 +547,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -589,12 +568,12 @@
         "field_label": "Something you valued was lost or stolen:\r\nAt least one such event in the past 6 months",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -619,7 +598,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -640,12 +619,12 @@
         "field_label": "Something you valued was lost or stolen:\r\nAt least one such event in the past 3 months",
         "select_choices_or_calculations": [
             {
-                "code": "0",
-                "label": "No"
-            },
-            {
                 "code": "1",
                 "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -670,7 +649,7 @@
         "field_label": "If yes, please specify date",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",

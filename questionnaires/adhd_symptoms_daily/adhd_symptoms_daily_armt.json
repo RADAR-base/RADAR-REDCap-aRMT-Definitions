@@ -1,0 +1,44 @@
+[
+    {
+        "field_name": "adhd_symp_daily",
+        "form_name": "adhd_symptoms_daily",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "How much have your ADHD symptoms affected your daily activities today? \r\nSelect an option from 1 to 5, where 1 is \"not at all\" and 5 is \"a lot\".",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1) Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2) Slightly"
+            },
+            {
+                "code": "3",
+                "label": "3) Somewhat"
+            },
+            {
+                "code": "4",
+                "label": "4) Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "5) A lot"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "LH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    }
+]

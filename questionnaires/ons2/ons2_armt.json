@@ -1,0 +1,70 @@
+[
+    {
+        "field_name": "worthwhile_overall_to_what",
+        "form_name": "ons2",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Overall, to what extent do you feel that the things you do in your life are worthwhile? where 0 means 'not at all' and 10 means 'completely'",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "",
+                "label": ""
+            },
+            {
+                "code": "10",
+                "label": "Completely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ons2",
+        "form_name": "ons2",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Overall, how satisfied are you with your life nowadays? where 0 means 'not at all' and 10 means 'completely'",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "",
+                "label": ""
+            },
+            {
+                "code": "10",
+                "label": "Completely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

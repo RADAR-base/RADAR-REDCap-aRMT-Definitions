@@ -1,0 +1,86 @@
+[
+    {
+        "field_name": "sensitivity_1",
+        "form_name": "sensitivity",
+        "section_header": "Please answer each question according to the way you felt today.",
+        "field_type": "radio",
+        "field_label": "Did you find yourself needing to withdraw into a place where you can have some privacy and relief from stimulation?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely/ a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "A lot/ very much/ always always"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "sensitivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sensitivity_2",
+        "form_name": "sensitivity",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Were you easily overwhelmed by things like bright lights, strong smells, coarse fabrics, or loud or irritating noises?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely/ a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "A lot/ very much/ always always"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "sensitivity",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

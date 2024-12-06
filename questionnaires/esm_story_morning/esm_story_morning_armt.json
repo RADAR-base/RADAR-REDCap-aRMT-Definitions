@@ -1,0 +1,1768 @@
+[
+    {
+        "field_name": "esm_sleep_well_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I slept well",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_cheerful_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel cheerful",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_down_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel down",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_anxious_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel anxious",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_relaxed_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel relaxed",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_irritated_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel irritated",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_stressed_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel stressed",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_content_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel content",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_insecure_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel insecure",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_hopeful_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel hopeful",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_lonely_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel lonely",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_hungry",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel hungry",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_full",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel full",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_satisfied",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I am satisfied with how I look",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_restrict",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel the urge to restrict",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_purge",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel the urge to purge",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_overeat",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel the urge to overeat",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_fasted",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Since the last beep, I have fasted or restricted what I've eaten in order to control my weight",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_binged",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Since the last beep, I have binged.  (I felt out of control of my eating and ate an unusually large amount of food given the circumstances)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_sick",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Since the last beep, I have made myself sick (vomit) or used laxatives as a means of controlling my weight",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_control",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Since the last beep, I have exercised excessively in order to control my weight.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_restless1",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Right now, I feel restless",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_tired",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Physically, I am tired.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_concentrate1",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I am able to concentrate well.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm1_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_phys_activity_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "What am I doing (just before the beep)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nothing"
+            },
+            {
+                "code": "1",
+                "label": "Resting"
+            },
+            {
+                "code": "2",
+                "label": "Working / studying"
+            },
+            {
+                "code": "3",
+                "label": "Passive leisure (TV, computer, videogames, on social media / apps, reading)"
+            },
+            {
+                "code": "4",
+                "label": "Exercising / sports"
+            },
+            {
+                "code": "5",
+                "label": "Eating / drinking"
+            },
+            {
+                "code": "6",
+                "label": "Travel / transport"
+            },
+            {
+                "code": "7",
+                "label": "Household chores / groceries"
+            },
+            {
+                "code": "8",
+                "label": "Self-care"
+            },
+            {
+                "code": "9",
+                "label": "Interacting with people face-to-face"
+            },
+            {
+                "code": "10",
+                "label": "Interacting with people online (texting, calling or video calling, on social media)"
+            },
+            {
+                "code": "11",
+                "label": "Something else"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_location_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Where am I?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "At home"
+            },
+            {
+                "code": "1",
+                "label": "At family or friends' place"
+            },
+            {
+                "code": "2",
+                "label": "At work, school, university or college"
+            },
+            {
+                "code": "3",
+                "label": "Travelling somewhere / in a vehicle"
+            },
+            {
+                "code": "4",
+                "label": "In a healthcare facility"
+            },
+            {
+                "code": "5",
+                "label": "Somewhere else indoors"
+            },
+            {
+                "code": "6",
+                "label": "Somewhere else outdoors"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_social_interact_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Who am I with?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Alone"
+            },
+            {
+                "code": "1",
+                "label": "Partner"
+            },
+            {
+                "code": "2",
+                "label": "Relatives living with you"
+            },
+            {
+                "code": "3",
+                "label": "Relatives not living with you"
+            },
+            {
+                "code": "4",
+                "label": "House/room mates"
+            },
+            {
+                "code": "5",
+                "label": "Friends"
+            },
+            {
+                "code": "6",
+                "label": "Classmates/colleagues"
+            },
+            {
+                "code": "7",
+                "label": "Caregiver(s)"
+            },
+            {
+                "code": "8",
+                "label": "Strangers/others"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "esm_social_people_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How many people am I with?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3-10"
+            },
+            {
+                "code": "4",
+                "label": "over 10"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '1' or [esm_social_interact_story] = '2' or [esm_social_interact_story] = '3' or [esm_social_interact_story] = '4' or [esm_social_interact_story] = '5' or [esm_social_interact_story] = '6' or [esm_social_interact_story] = '7' or [esm_social_interact_story] = '8'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '1' || responses['esm_social_interact_story'] ==  '2' || responses['esm_social_interact_story'] ==  '3' || responses['esm_social_interact_story'] ==  '4' || responses['esm_social_interact_story'] ==  '5' || responses['esm_social_interact_story'] ==  '6' || responses['esm_social_interact_story'] ==  '7' || responses['esm_social_interact_story'] ==  '8'"
+    },
+    {
+        "field_name": "esm_social_compare",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I am comparing how I look with the others around me right now.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '1' or [esm_social_interact_story] = '2' or [esm_social_interact_story] = '3' or [esm_social_interact_story] = '4' or [esm_social_interact_story] = '5' or [esm_social_interact_story] = '6' or [esm_social_interact_story] = '7' or [esm_social_interact_story] = '8'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm4_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '1' || responses['esm_social_interact_story'] ==  '2' || responses['esm_social_interact_story'] ==  '3' || responses['esm_social_interact_story'] ==  '4' || responses['esm_social_interact_story'] ==  '5' || responses['esm_social_interact_story'] ==  '6' || responses['esm_social_interact_story'] ==  '7' || responses['esm_social_interact_story'] ==  '8'"
+    },
+    {
+        "field_name": "esm_social_alone1",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I would prefer to be alone.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '1' or [esm_social_interact_story] = '2' or [esm_social_interact_story] = '3' or [esm_social_interact_story] = '4' or [esm_social_interact_story] = '5' or [esm_social_interact_story] = '6' or [esm_social_interact_story] = '7' or [esm_social_interact_story] = '8'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm4_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '1' || responses['esm_social_interact_story'] ==  '2' || responses['esm_social_interact_story'] ==  '3' || responses['esm_social_interact_story'] ==  '4' || responses['esm_social_interact_story'] ==  '5' || responses['esm_social_interact_story'] ==  '6' || responses['esm_social_interact_story'] ==  '7' || responses['esm_social_interact_story'] ==  '8'"
+    },
+    {
+        "field_name": "esm_social_connected1",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I feel connected to the people I am with.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '1' or [esm_social_interact_story] = '2' or [esm_social_interact_story] = '3' or [esm_social_interact_story] = '4' or [esm_social_interact_story] = '5' or [esm_social_interact_story] = '6' or [esm_social_interact_story] = '7' or [esm_social_interact_story] = '8'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm4_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '1' || responses['esm_social_interact_story'] ==  '2' || responses['esm_social_interact_story'] ==  '3' || responses['esm_social_interact_story'] ==  '4' || responses['esm_social_interact_story'] ==  '5' || responses['esm_social_interact_story'] ==  '6' || responses['esm_social_interact_story'] ==  '7' || responses['esm_social_interact_story'] ==  '8'"
+    },
+    {
+        "field_name": "esm_social_ok_alone_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I feel fine being alone",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm5_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '0'"
+    },
+    {
+        "field_name": "esm_social_others_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I would prefer to be with others",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm5_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '0'"
+    },
+    {
+        "field_name": "esm_social_choice_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "Being alone right now is my choice",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm5_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '0'"
+    },
+    {
+        "field_name": "esm_social_left_out_story",
+        "form_name": "esm_story",
+        "section_header": "",
+        "field_type": "range",
+        "field_label": "I feel left out",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1 Not at all"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7 Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[esm_social_interact_story] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm5_story",
+        "matrix_ranking": "",
+        "field_annotation": "range-type",
+        "evaluated_logic": "responses['esm_social_interact_story'] ==  '0'"
+    }
+]

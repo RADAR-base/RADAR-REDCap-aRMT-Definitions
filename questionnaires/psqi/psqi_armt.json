@@ -475,14 +475,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_trouble_sleep_q10]=1 or [psqi_trouble_sleep_q10]=2 or [psqi_trouble_sleep_q10]=3",
+        "branching_logic": "[psqi_trouble_sleep_q10]='1' or [psqi_trouble_sleep_q10]='2' or [psqi_trouble_sleep_q10]='3'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_trouble_sleep_q10'] == 1 || responses['psqi_trouble_sleep_q10'] == 2 || responses['psqi_trouble_sleep_q10'] == 3"
+        "evaluated_logic": "responses['psqi_trouble_sleep_q10'] == '1' || responses['psqi_trouble_sleep_q10'] == '2' || responses['psqi_trouble_sleep_q10'] == '3'"
     },
     {
         "field_name": "psqi_sleep_quality",
@@ -686,14 +686,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate]=1",
+        "branching_logic": "[psqi_roommate]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "psqi_roommate_q",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate'] == 1"
+        "evaluated_logic": "responses['psqi_roommate'] == '1'"
     },
     {
         "field_name": "psqi_roommate_q2",
@@ -724,14 +724,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate]=1",
+        "branching_logic": "[psqi_roommate]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "psqi_roommate_q",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate'] == 1"
+        "evaluated_logic": "responses['psqi_roommate'] == '1'"
     },
     {
         "field_name": "psqi_roommate_q3",
@@ -762,14 +762,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate]=1",
+        "branching_logic": "[psqi_roommate]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "psqi_roommate_q",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate'] == 1"
+        "evaluated_logic": "responses['psqi_roommate'] == '1'"
     },
     {
         "field_name": "psqi_roommate_q4",
@@ -800,14 +800,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate]=1",
+        "branching_logic": "[psqi_roommate]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "psqi_roommate_q",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate'] == 1"
+        "evaluated_logic": "responses['psqi_roommate'] == '1'"
     },
     {
         "field_name": "psqi_roommate_q5",
@@ -838,14 +838,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate]=1",
+        "branching_logic": "[psqi_roommate]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "psqi_roommate_q",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate'] == 1"
+        "evaluated_logic": "responses['psqi_roommate'] == '1'"
     },
     {
         "field_name": "psqi_other_restlessness",
@@ -859,13 +859,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[psqi_roommate_q5]=1 or [psqi_roommate_q5]=2 or [psqi_roommate_q5]=3",
+        "branching_logic": "[psqi_roommate_q5]='1' or [psqi_roommate_q5]='2' or [psqi_roommate_q5]='3'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['psqi_roommate_q5'] == 1 || responses['psqi_roommate_q5'] == 2 || responses['psqi_roommate_q5'] == 3"
+        "evaluated_logic": "responses['psqi_roommate_q5'] == '1' || responses['psqi_roommate_q5'] == '2' || responses['psqi_roommate_q5'] == '3'"
     }
 ]

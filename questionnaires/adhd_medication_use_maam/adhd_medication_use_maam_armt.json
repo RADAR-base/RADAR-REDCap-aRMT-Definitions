@@ -1,0 +1,1009 @@
+[
+    {
+        "field_name": "meduse_1",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you take medication for your ADHD today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "meduse_3",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "If no, why did you not take the medication? (please select all that apply)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "I didn't have any available"
+            },
+            {
+                "code": "2",
+                "label": "I was taking a medication holiday"
+            },
+            {
+                "code": "3",
+                "label": "I was worried about side effects"
+            },
+            {
+                "code": "4",
+                "label": "I forgot"
+            },
+            {
+                "code": "5",
+                "label": "I didn't want to"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '0'"
+    },
+    {
+        "field_name": "meduse_3_other",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please let us know the 'other' reason",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_3] = '6'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_3'] ==  '6'"
+    },
+    {
+        "field_name": "meduse_2a_1",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 1:\n",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_1o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 1: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_1] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_1'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_1",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 1: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_1",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 1: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_1",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_2",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 2:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_2o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 2: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_2] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_2'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_2",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 2: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_2",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 2: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_2",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_3",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 3:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_3o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 3: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_3] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_3'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_3",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 3: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_3",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 3: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_3",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_4",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 4:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_4o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 4: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_4] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_4'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_4",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 4: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_4",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 4: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_4",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_5",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 5:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_5o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 5: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_5] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_5'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_5",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 5: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_5",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 5: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_5",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_6",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 6:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_6o",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 6: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_6] = '21'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_6'] ==  '21'"
+    },
+    {
+        "field_name": "meduse_2b_6",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 6: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_6",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 6: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5'] ==  '1'"
+    },
+    {
+        "field_name": "med_effectiveness",
+        "form_name": "adhd_medication_use_maam",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "How do you feel your medication is working today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not as well as usual"
+            },
+            {
+                "code": "2",
+                "label": "The same as usual"
+            },
+            {
+                "code": "3",
+                "label": "Better than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1'] ==  '1'"
+    }
+]

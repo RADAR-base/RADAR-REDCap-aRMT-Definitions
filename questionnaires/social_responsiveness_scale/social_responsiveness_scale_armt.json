@@ -1,0 +1,2472 @@
+[
+    {
+        "field_name": "social_responsiveness_scale_desc",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "For each question, please select the response that best describes your behaviour over the last six months.",
+        "field_type": "radio",
+        "field_label": "I am much more uncomfortable in social situations than when I am by myself",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_1",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My facial expressions send the wrong message to others about how I actually feel ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_2",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I feel self-confident when interacting with others ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_3",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When under stress, I engage in rigid or inflexible patterns of behaviour that seem odd to people ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_4",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I do not recognize when others are trying to take advantage of me ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_5",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I would rather be alone than with others ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_6",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am usually aware of how others are feeling ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_7",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I behave in ways that seem strange or bizarre to others ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_8",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am overly dependent on others for help with meeting my everyday needs ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_9",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I take things too literally, and because of that, I misinterpret the intended meaning of parts of a conversation ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_10",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have good self-confidence ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_11",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am able to communicate my feelings to others ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_12",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am awkward in turn-taking interactions with others (for example, I have a hard time keeping up with the give-and-take of a conversation) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_13",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am not well coordinated ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_14",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When people change their tone or facial expression, I usually pick up on that and understand what it means ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_15",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I avoid eye contact or am told that I have unusual eye contact ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_16",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I recognize when something is unfair ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_17",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty making friends, even when trying my best ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_18",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I get frustrated trying to get ideas across in conversations ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_19",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have sensory interests that others find unusual (for example, smelling or looking at things in a special way) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_20",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am able to imitate others' actions and expressions when it is socially appropriate to do so ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_21",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I interact appropriately with other adults ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_22",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I do not join group activities or social events unless prompted or strongly urged to do so ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_23",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have more difficulty than others with changes in my routine ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_24",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I do not mind being out of step with or \"not on the same wavelength\" as others ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_25",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I offer comfort to others when they are sad ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_26",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I avoid starting social interactions with other adults ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_27",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I think or talk about the same thing over and over ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_28",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am regarded by others as odd or weird ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_29",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I become upset in situations with lots of things going on ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_30",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I can't get my mind off something once I start thinking about it ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_31",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have good personal hygiene ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_32",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My behaviour is socially awkward, even when I am trying to be polite ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_33",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I avoid people who want to be emotionally close to me ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_34",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have trouble keeping up with the flow of a normal conversation ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_35",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty relating to family members ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_36",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty relating to adults outside of my family ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_37",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I respond appropriately to mood changes in others (for example, when a friend's mood changes from happy to sad) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_38",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "People think I am interested in too few topics, or that I get too carried away with those topics ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_39",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am imaginative ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_40",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I sometimes seem to wander aimlessly from one activity to another ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_41",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am overly sensitive to certain sounds, textures, or smells ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_42",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I enjoy small talk (casual conversation with others) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_43",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have more trouble than most people with understanding chains of causation (in other words, how events are related to one another) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_44",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When others around me are paying attention to something, I get interested in what they are attending to ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_45",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Others feel that I have overly serious facial expressions ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_46",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I laugh at inappropriate times ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_47",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have a good sense of humour and can understand jokes ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_48",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I do extremely well at certain kinds of intellectual tasks, but do not do as well at most other tasks ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_49",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have repetitive behaviours that others consider odd ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_50",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I have difficulty answering questions directly and end up talking around the subject ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_51",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I get overly loud without realizing it ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_52",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I tend to talk in a monotone voice (in other words, less inflection of voice than most people demonstrate) ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_53",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I tend to think about people in the same way that I do objects ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_54",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I get too close to others or invade their personal space without realising it ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_55",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I sometimes make the mistake of walking between two people who are trying to talk to one another ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_56",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I tend to isolate myself ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_57",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I concentrate too much on parts of things rather than seeing the whole picture ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_58",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am more suspicious than most people ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_59",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Other people think I am emotionally distant and do not show my feelings ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_60",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I tend to be inflexible ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_61",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "When I tell someone my reason for doing something, it strikes the person as unusual or illogical ",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_62",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My way of greeting another person is unusual",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_63",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I am much more tense in social settings than when I am by myself",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "social_responsiveness_scale_64",
+        "form_name": "social_responsiveness_scale",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I find myself staring or gazing off into space",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not true"
+            },
+            {
+                "code": "1",
+                "label": "Sometimes true"
+            },
+            {
+                "code": "2",
+                "label": "Often true"
+            },
+            {
+                "code": "3",
+                "label": "Almost always true"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

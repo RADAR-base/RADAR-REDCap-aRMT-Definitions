@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Iniziamo.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Assicurati di essere in grado di completare questa attività. Da questa domanda in avanti, non sarai in grado di tornare indietro e ricominciare. Se sei pronto, premi 'Avanti' per continuare.",
+        "code": "Importante"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Di seguito è riportato il testo di “La Tramontana e il Sole”, una delle favole di Esopo. Premi 'Inizio', leggi il testo, quindi premi 'Fermare' al termine.",

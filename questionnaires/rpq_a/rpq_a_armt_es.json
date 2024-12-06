@@ -1,0 +1,784 @@
+[
+    {
+        "field_name": "rpqa_1_v2",
+        "form_name": "rpq_a",
+        "section_header": "En las últimas 2 semanas, ¿con qué frecuencia...?",
+        "field_type": "radio",
+        "field_label": "Has gritado a otros cuando te han irritado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_2_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has tenido peleas con otros para mostrar quién era superior",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_3_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has reaccionado furiosamente cuando te han provocado otros",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_4_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has cogido cosas de otros compañeros sin pedir permiso",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_5_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Te has enfadado cuando estabas frustrado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_6_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has destrozado algo para divertirte",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_7_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has tenido momentos de rabietas",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_8_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has dañado cosas porque te sentiste enfadado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_9_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has participado en peleas de pandillas para sentirte 'guay'",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_10_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has dañado a otros para ganar en algún juego.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_11_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Te has enfadado o enfurecido cuando no te sales con la tuya",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_12_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ha usado la fuerza física para lograr que otros hagan lo que usted quiere",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_13_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Te has enfadado o enfurecido cuando has perdido en un juego",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_14_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Te has enfadado cuando otros te han amenazado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_15_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has usado la fuerza para obtener dinero o cosas de otros",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_16_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "¿Te has sentido bien después de pegarle o gritarle a alguien?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_17_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has amenazado o intimidado a alguien",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_18_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has hecho llamadas obscenas para divertirte",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_19_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has pegado a otros para defenderte",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_20_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has conseguido convencer a otros para ponerse en contra de alguien",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_21_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has llevado un arma para usarla en una pelea",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_22_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Te has enfurecido o has llegado a pegar a alguien al verte ridiculizado",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "rpqa_23_v2",
+        "form_name": "rpq_a",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Has gritado a otros para aprovecharte de ellos",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nunca"
+            },
+            {
+                "code": "1",
+                "label": "A veces"
+            },
+            {
+                "code": "2",
+                "label": "A menudo"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "rpq_v2",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

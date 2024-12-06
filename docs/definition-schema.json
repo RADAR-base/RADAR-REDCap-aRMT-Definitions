@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "title": "RADAR-base definition schema for the aRMT app questionnaires",
+  "description": "A definition file for the RADAR-base aRMT app describes what questions and question input types should be displayed to the user for a questionnaire. This contains an array of questions.",
+  "items": {
+    "type": "object",
+    "description": "A single question describing the display text, question input type, and other relevant information.",
+    "properties": {
+      "field_name": {
+        "type": "string"
+      },
+      "form_name": {
+        "type": "string"
+      },
+      "section_header": {
+        "type": "string"
+      },
+      "field_type": {
+        "type": "string",
+        "enum": [
+          "radio",
+          "checkbox",
+          "health",
+          "range",
+          "range-info",
+          "slider",
+          "info",
+          "audio",
+          "timed",
+          "text",
+          "yesno",
+          "descriptive",
+          "matrix-radio",
+          "launcher",
+          "web",
+          "notes"
+        ]
+      },
+      "field_label": {
+        "type": "string"
+      },
+      "select_choices_or_calculations": {
+        "anyOf": [
+          { "type": "string" },
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                }
+              },
+              "required": ["code", "label"]
+            }
+          }
+        ]
+      },
+      "field_note": {
+        "type": "string"
+      },
+      "text_validation_type_or_show_slider_number": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "date",
+              "time",
+              "duration",
+              "date_dmy",
+              "datetime_dmy",
+              "number",
+              "integer"
+            ]
+          },
+          {
+            "type": "string",
+            "maxLength": 0
+          }
+        ]
+      },
+      "text_validation_min": {
+        "type": "string"
+      },
+      "text_validation_max": {
+        "type": "string"
+      },
+      "identifier": {
+        "type": "string"
+      },
+      "branching_logic": {
+        "type": "string"
+      },
+      "required_field": {
+        "type": "string"
+      },
+      "custom_alignment": {
+        "type": "string"
+      },
+      "question_number": {
+        "type": "string"
+      },
+      "matrix_group_name": {
+        "type": "string"
+      },
+      "matrix_ranking": {
+        "type": "string"
+      },
+      "field_annotation": {
+        "anyOf": [
+          { "type": "string" },
+          {
+            "type": "object"
+          }
+        ]
+      },
+      "evaluated_logic": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "field_name",
+      "form_name",
+      "section_header",
+      "field_type",
+      "select_choices_or_calculations",
+      "field_note",
+      "text_validation_type_or_show_slider_number",
+      "text_validation_min",
+      "text_validation_max",
+      "identifier",
+      "branching_logic",
+      "required_field",
+      "custom_alignment",
+      "question_number",
+      "matrix_group_name",
+      "matrix_ranking",
+      "field_annotation",
+      "evaluated_logic"
+    ]
+  }
+}

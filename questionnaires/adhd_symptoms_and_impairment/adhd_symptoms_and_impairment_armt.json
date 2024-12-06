@@ -1,0 +1,946 @@
+[
+    {
+        "field_name": "asrs_1",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "Please answer the questions below, answering each question in a way that best describes how you have felt and conducted yourself today.",
+        "field_type": "radio",
+        "field_label": "Did you have trouble wrapping up a task or did you leave unfinished something you had planned to do?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_2",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have difficulty getting yourself organised/planning or organising your day?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_3",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have problems remembering appointments or things you were supposed to do (e.g. returning a call or text, opening mail)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_4",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have trouble getting started/getting going on things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_5",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you fidget or squirm with your hands or feet?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_6",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you feel overly active and compelled to do things, like you were driven by a motor?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_7",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you make careless mistakes?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_8",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have difficulty keeping your attention when you were doing something you weren't particularly interested in? [when you weren't motivated by the task]",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_9",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have difficulty paying attention to what people were saying to you, or did you 'zoning out' in conversation?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_10",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you misplace or have difficulty finding things at home or at work (e.g. mobile phone, house keys)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_11",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Were you distracted by activity or noise around you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_12",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did your own thoughts distract you and prevent you from focusing?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_13",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you feel restless or fidgety? (this can also be a feeling of internal restlessness)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_14",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you say things without thinking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_15",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you make 'spur of the moment' decisions without really thinking things through?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_16",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Was it hard for you to resist acting on your feelings?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "asrs_17",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How much did you feel impatient waiting for something (e.g. at a stop light, in a queue)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Never / not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely / a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes / moderately"
+            },
+            {
+                "code": "4",
+                "label": "Often / a lot"
+            },
+            {
+                "code": "5",
+                "label": "Almost always / very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "asrs",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_impairment_1",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "To what extent do the problems you endorsed above interfere with your ability to function in each of these areas of life activities today?",
+        "field_type": "radio",
+        "field_label": "In your home life with your immediate family",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Very much"
+            },
+            {
+                "code": "6",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "adhd_impairment",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_impairment_2",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In your work/occupation or educational activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Very much"
+            },
+            {
+                "code": "6",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "adhd_impairment",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_impairment_3",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In your social interactions with others",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Very much"
+            },
+            {
+                "code": "6",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "adhd_impairment",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_impairment_4",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In your leisure or recreational activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Very much"
+            },
+            {
+                "code": "6",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "adhd_impairment",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "adhd_impairment_5",
+        "form_name": "adhd_symptoms_and_impairment",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "In your management of your daily responsibilities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Very much"
+            },
+            {
+                "code": "6",
+                "label": "Not applicable"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "adhd_impairment",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

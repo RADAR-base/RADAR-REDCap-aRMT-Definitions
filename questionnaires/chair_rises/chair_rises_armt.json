@@ -1,0 +1,306 @@
+[
+    {
+        "field_name": "chair_rises_instructions",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<p><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_chair_rise_vid.mp4\" width=\"280\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br />For further instructions,<br>please <a href=\"https://nshd.mrc.ac.uk/wearables-and-remote-testing-written-instructions/\">visit this link.</a></p>",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_completed",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Were you able to complete the most recent test?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "chair_rises_datetime",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please enter the date and time that you started the chair rises test.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+    },
+    {
+        "field_name": "chair_rises_borg_scale",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the option that best describes your level of exertion during the test.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nothing at all"
+            },
+            {
+                "code": "1",
+                "label": "Very light"
+            },
+            {
+                "code": "2",
+                "label": "Light"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Somewhat Hard"
+            },
+            {
+                "code": "5",
+                "label": "Hard"
+            },
+            {
+                "code": "6",
+                "label": "Hard"
+            },
+            {
+                "code": "7",
+                "label": "Very Hard"
+            },
+            {
+                "code": "8",
+                "label": "Very Hard"
+            },
+            {
+                "code": "9",
+                "label": "Very very hard"
+            },
+            {
+                "code": "10",
+                "label": "Very very hard, maximal effort"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-info",
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+    },
+    {
+        "field_name": "chair_rises_completed_10",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Where you able to complete 10 chair rises?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '1'"
+    },
+    {
+        "field_name": "how_many_chair_rises_were",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How many chair rises were you able to complete?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed_10] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
+    },
+    {
+        "field_name": "chair_rises_partial_complete_reason",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the primary reasons for not fully completing the Chair Rises test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Fatigue"
+            },
+            {
+                "code": "1",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "2",
+                "label": "Too busy"
+            },
+            {
+                "code": "3",
+                "label": "Too complicated"
+            },
+            {
+                "code": "4",
+                "label": "Injury"
+            },
+            {
+                "code": "5",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed_10] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed_10'] ==  '0'"
+    },
+    {
+        "field_name": "chair_rises_not_completed_reason",
+        "form_name": "chair_rises",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Reasons for not completing the Chair Rises test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I forgot"
+            },
+            {
+                "code": "1",
+                "label": "Fatigue"
+            },
+            {
+                "code": "2",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "3",
+                "label": "Too busy"
+            },
+            {
+                "code": "4",
+                "label": "Too complicated"
+            },
+            {
+                "code": "5",
+                "label": "Injury"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[chair_rises_completed] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['chair_rises_completed'] ==  '0'"
+    }
+]

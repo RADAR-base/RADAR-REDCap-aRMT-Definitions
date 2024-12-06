@@ -1,0 +1,607 @@
+[
+    {
+        "field_name": "ed15_1",
+        "form_name": "ed15",
+        "section_header": "Over the past week, how often have I:",
+        "field_type": "radio",
+        "field_label": "Worried about losing control over my eating.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_2",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Avoided activities or people because of the way I look",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_3",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Been preoccupied with thoughts of food and eating",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_4",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Compared my body negatively with others'",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_5",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Avoided looking at my body (e.g., in mirrors; wearing baggy clothes) because of the way it makes me feel",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_6",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Felt distressed about my weight",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_7",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Checked my body to reassure myself about my appearance (e.g., weighing myself; using mirrors)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_8",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Followed strict rules about my eating",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_9",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Felt distressed about my body shape",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_10",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Worried that other people were judging me as a person because of my weight and appearance.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not at all"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Occasionally"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "Most of the time"
+            },
+            {
+                "code": "6",
+                "label": "All the time"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ed15_matrix",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_11",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Over the past week, how many times have you binged (felt out of control of your eating, and eaten far more than a person normally would at one go)? If you have never used this behaviour, please respond with N/A.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_12",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Over the past week, how many times have you vomited to control your weight (using your fingers or medicines to make yourself sick, or vomiting without such aids), whether you had to make yourself sick or not? If you have never used this behaviour, please respond with N/A.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_13",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "On how many days in the past week have you used laxatives to control your weight or shape? If you have never used the following behaviour, please respond with N/A.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_14",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "On how many days in the past week have you restricted or dieted in order to control your weight? If you have never used the following behaviour, please respond with N/A.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed15_15",
+        "form_name": "ed15",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "On how many days in the past week have you exercised hard in order to control your weight? If you have never used the following behaviour, please respond with N/A.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

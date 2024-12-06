@@ -1,0 +1,298 @@
+[
+    {
+        "field_name": "smwt_instructions",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<p><strong>Instruction Video</strong><br /><br /><iframe src=\"https://radar-armt-assets.s3.eu-west-2.amazonaws.com/nshd_6mwt_vid.mp4\" width=\"280\" height=\"315\" allowfullscreen=\"\"></iframe><br /><br />For further instructions,<br>please <a href=\"https://nshd.mrc.ac.uk/wearables-and-remote-testing-written-instructions/\">visit this link.</a></p>",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smwt_completed",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Were you able to complete the most recent test?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "smwt_start_date",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please enter the date and time that you started the six minute walk test.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
+    },
+    {
+        "field_name": "smwt_reason_incomplete",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Reasons for not completing the Six Minute Walking Test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I forgot"
+            },
+            {
+                "code": "1",
+                "label": "Fatigue"
+            },
+            {
+                "code": "2",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "3",
+                "label": "Too busy"
+            },
+            {
+                "code": "4",
+                "label": "Too complicated"
+            },
+            {
+                "code": "5",
+                "label": "Injury"
+            },
+            {
+                "code": "6",
+                "label": "Poor weather"
+            },
+            {
+                "code": "7",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_completed] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_completed'] ==  '0'"
+    },
+    {
+        "field_name": "smwt_exertion_level",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the option that best describes your level of exertion during the test.",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Nothing at all"
+            },
+            {
+                "code": "1",
+                "label": "Very light"
+            },
+            {
+                "code": "2",
+                "label": "Light"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Somewhat Hard"
+            },
+            {
+                "code": "5",
+                "label": "Hard"
+            },
+            {
+                "code": "6",
+                "label": "Hard"
+            },
+            {
+                "code": "7",
+                "label": "Very Hard"
+            },
+            {
+                "code": "8",
+                "label": "Very Hard"
+            },
+            {
+                "code": "9",
+                "label": "Very very hard"
+            },
+            {
+                "code": "10",
+                "label": "Very very hard, maximal effort"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "range-info",
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
+    },
+    {
+        "field_name": "smwt_walk_complete_six_min",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Where you able to walk for 6 minutes?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_completed] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_completed'] ==  '1'"
+    },
+    {
+        "field_name": "smwt_walk_min",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "For approximately how many minutes were you able to walk?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_walk_complete_six_min] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_walk_complete_six_min'] ==  '0'"
+    },
+    {
+        "field_name": "smwt_partial_complete_reason",
+        "form_name": "smwt",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Please select the primary reasons for not fully completing the Six Minute Walking Test",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Fatigue"
+            },
+            {
+                "code": "1",
+                "label": "Shortness of breath"
+            },
+            {
+                "code": "2",
+                "label": "Too busy"
+            },
+            {
+                "code": "3",
+                "label": "Too complicated"
+            },
+            {
+                "code": "4",
+                "label": "Injury"
+            },
+            {
+                "code": "5",
+                "label": "Poor weather"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[smwt_walk_complete_six_min] = '0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['smwt_walk_complete_six_min'] ==  '0'"
+    }
+]

@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Empecemos.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Por favor, asegúrese de que puede completar esta tarea. A partir de esta pregunta, no podrá retroceder ni reiniciar. Si está listo, presione 'Siguiente' para continuar.",
+        "code": "Importante"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Aquí debajo hay el texto de “el Viento del Norte y el Sol”, una de las fábulas de Esopo. Apriete “Inicio”, lea el texto en voz alta y, cuando haya acabado de leer el texto, apriete “Detener”.",
@@ -91,7 +117,7 @@
   {
     "field_name": "audio_unscripted",
     "form_name": "audio",
-    "section_header": "Ahora tendrá que grabarse respondiendo a una pregunta. Puede contestar la pregunta de la manera que quiera. Si prefiere no realizar la tarea, pulse “Finalizar”. Esta grabación no puede ser utilizada para enviar mensajes al equipo de investigación del estudio RADAR. Si necesita ayuda, no dude en contactar con su equipo de referencia.",
+    "section_header": "Ahora tendrá que grabarse respondiendo a una pregunta. Puede contestar la pregunta de la manera que quiera. Si prefiere no realizar la tarea, pulse “Finalizar”. Esta grabación no puede ser utilizada para enviar mensajes al equipo de investigación del estudio RADAR. Si necesita ayuda, no dude en contactar con su equipo de referencia.",
     "field_type": "audio",
     "field_label": "Explíquenos alguna cosa que vaya a ocurrir la semana siguiente que esté esperando con ganas.",
     "select_choices_or_calculations": [],

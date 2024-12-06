@@ -68,6 +68,32 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "audio_prep_3",
+    "form_name": "audio",
+    "section_header": "Laten we beginnen.",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "label": "Zorg ervoor dat je deze taak kunt voltooien. Vanaf deze vraag kunt u niet teruggaan en opnieuw opstarten. Als u klaar bent, drukt u op 'Volgende' om verder te gaan.",
+        "code": "Belangrijk"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "audio",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "audio_scripted_4",
     "form_name": "audio",
     "section_header": "Hieronder staat de tekst van ‘De noordenwind en de zon’, een van de fabels van Aesop. Druk op ‘Begin’, lees de tekst hardop voor en druk op ‘Stoppen’ als u klaar bent.",

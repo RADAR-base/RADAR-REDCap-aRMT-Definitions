@@ -1,0 +1,98 @@
+[
+    {
+        "field_name": "seizure_reporting_ondemand_2",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "This log is for the purpose of research and won't be looked at by a medical/health professional. If you are concerned or feel unwell, please follow the course of action you would take if you were not completing this log, including any previous  health advice. Please select NEXT to indicate that you understand this, and to proceed.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_3",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "When did the seizure happen?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "seizure_reporting_ondemand_7",
+        "form_name": "seizure_reporting_on_demand",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Please select anything you think might have triggered the seizure",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Missed medication or change in medication"
+            },
+            {
+                "code": "2",
+                "label": "Poor sleep"
+            },
+            {
+                "code": "3",
+                "label": "Stress, heightened emotion or mood"
+            },
+            {
+                "code": "4",
+                "label": "Boredom"
+            },
+            {
+                "code": "5",
+                "label": "Fever or illness"
+            },
+            {
+                "code": "6",
+                "label": "Flashing lights"
+            },
+            {
+                "code": "7",
+                "label": "Alcohol or Recreational drugs"
+            },
+            {
+                "code": "8",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

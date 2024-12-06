@@ -1,0 +1,70 @@
+[
+    {
+        "field_name": "ari_self_1_maam",
+        "form_name": "maam_ari_self",
+        "section_header": "How well does each of the following statements describe your behaviour/feelings today?",
+        "field_type": "radio",
+        "field_label": "I am easily annoyed by others",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not True"
+            },
+            {
+                "code": "1",
+                "label": "Somewhat True"
+            },
+            {
+                "code": "2",
+                "label": "Certainly True"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self_maam",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ari_self_2_maam",
+        "form_name": "maam_ari_self",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I often lose my temper",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not True"
+            },
+            {
+                "code": "1",
+                "label": "Somewhat True"
+            },
+            {
+                "code": "2",
+                "label": "Certainly True"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "ari_self_maam",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

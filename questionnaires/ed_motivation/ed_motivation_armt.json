@@ -1,0 +1,70 @@
+[
+    {
+        "field_name": "ed_motivation_1",
+        "form_name": "ed_motivation",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Right now, how motivated do you feel to start working on your eating difficulties?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not motivated at all"
+            },
+            {
+                "code": "50",
+                "label": "50"
+            },
+            {
+                "code": "100",
+                "label": "Extremely motivated"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "ed_motivation_2",
+        "form_name": "ed_motivation",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "Right now, how ready do you feel to start working on your eating difficulties?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Not ready at all"
+            },
+            {
+                "code": "50",
+                "label": "50"
+            },
+            {
+                "code": "100",
+                "label": "Extremely ready"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

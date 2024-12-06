@@ -11,10 +11,9 @@ async function publishQuestionnaires(
   formNames,
 ) {
   for (const form of formNames) {
-    const formData = createFormRequestBody(redcapToken, form);
-    await publishSingleQuestionnaire(redcapUrl, langConvention, form, formData);
+    await publishSingleQuestionnaire(redcapUrl, langConvention, form, redcapToken);
 
-    console.log(`Finished publishing questionnaire: ${form}`);
+    console.log(`Finished trying to publish questionnaire: ${form}`);
   }
 }
 
@@ -22,31 +21,49 @@ async function publishSingleQuestionnaire(
   redcapUrl,
   langConvention,
   formName,
-  formData,
+  redcapToken
 ) {
   var lang = langConvention || '';
   var redcapUrl = redcapUrl || '';
 
   // Publish to Github
   const githubFilename = formName + '/' + formName + '_armt' + lang + '.json';
-  const formAsString = await pullFromRedcap(redcapUrl, formName, formData);
 
-  await githubClient
-    .postToGithub(githubFilename, formAsString)
-    .catch(e => console.log(e));
-
-  console.log('Done uploading to github!');
+  // Check form exists
+  const formExists = await checkFormExists(redcapUrl, formName, redcapToken);
+  if (!formExists) {
+    console.log(`Form ${formName} does not exist in REDCap`);
+    return;
+  }
+  else {
+    console.log(`Form ${formName} exists in REDCap, pulling data...`);
+    // If form exists, pull from REDCap
+    const formAsString = await pullFromRedcap(redcapUrl, formName, redcapToken);
+    console.log(`Pulled data for form ${formName}, publishing to Github...`);
+    await githubClient
+      .postToGithub(githubFilename, formAsString)
+      .catch(e => console.log(e));
+  }
 }
 
-function pullFromRedcap(redcapUrl, formName, formData) {
-  return axios({
-    method: 'post',
-    url: redcapUrl,
-    data: formData,
-    headers: {
-      'Content-Type': `multipart/form-data; boundary=${formData._boundary}`,
-    },
-  })
+function checkFormExists(redcapUrl, formName, redcapToken) {
+  const formData = createFormRequestBody(redcapToken);
+  formData.append('content', 'instrument');
+  return sendPostRequest(redcapUrl, formData)
+    .then(function(response) {
+      const instruments = response['data'].map(instrument => instrument['instrument_name']);
+      return instruments.includes(formName);
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+}
+
+function pullFromRedcap(redcapUrl, formName, redcapToken) {
+  const formData = createFormRequestBody(redcapToken);
+  formData.append('content', 'metadata');
+  formData.append('forms[0]', formName);
+  return sendPostRequest(redcapUrl, formData)
     .then(function(response) {
       var formParsed = redcapParser.REDCapConverter(
         cleanupJson(response['data']),
@@ -63,13 +80,19 @@ function cleanupJson(json) {
   return JSON.parse(JSON.stringify(json).replace(/(\r?\n|\r)/gm, '\n'));
 }
 
-function createFormRequestBody(redcapToken, formName) {
+function sendPostRequest(url, form) {
+  return axios.post(url, form, {
+    headers: {
+      'Content-Type': `multipart/form-data; boundary=${form._boundary}`,
+    },
+  });
+}
+
+function createFormRequestBody(redcapToken) {
   var form = new FormData();
   form.append('token', redcapToken);
-  form.append('content', 'metadata');
   form.append('format', 'json');
   form.append('returnFormat', 'json');
-  form.append('forms[0]', formName);
 
   return form;
 }

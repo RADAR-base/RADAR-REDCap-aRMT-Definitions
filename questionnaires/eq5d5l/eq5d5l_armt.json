@@ -1,0 +1,212 @@
+[
+    {
+        "field_name": "mobility",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Mobility",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems in walking about"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems in walking about"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems in walking about"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems in walking about"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to walk about"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "mobility",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "self_care",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Self-care",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems washing or dressing myself"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems washing or dressing myself"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems washing or dressing myself"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems washing or dressing myself"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to wash or dress myself"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "selfcare",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "usual_activities",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Usual Activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems doing my usual activities"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems doing my usual activities"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems doing my usual activities"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems doing my usual activities"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to do my usual activities"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "usualactivities",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pain_discomfort",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Pain / Discomfort",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no pain or discomfort"
+            },
+            {
+                "code": "1",
+                "label": "I have slight pain or discomfort"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate pain or discomfort"
+            },
+            {
+                "code": "3",
+                "label": "I have severe pain or discomfort"
+            },
+            {
+                "code": "4",
+                "label": "I have extreme pain or discomfort"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "paindiscomfort",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "anxiety_depression",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Anxiety / Depression",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I am not anxious or depressed"
+            },
+            {
+                "code": "1",
+                "label": "I am slightly anxious or depressed"
+            },
+            {
+                "code": "2",
+                "label": "I am moderately anxious or depressed"
+            },
+            {
+                "code": "3",
+                "label": "I am severely anxious or depressed"
+            },
+            {
+                "code": "4",
+                "label": "I am extremely anxious or depressed"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "anxietydepression",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
