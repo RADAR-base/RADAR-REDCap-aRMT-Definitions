@@ -61,14 +61,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[monthly_relationship_change] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['monthly_relationship_change'] ==  '1'"
     },
     {
         "field_name": "education_changed",
@@ -92,32 +92,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "instruction_prompt1",
-        "form_name": "about_you_remote",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "If so, please provide your circumstance below: ",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[education_changed] = '1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['education_changed'] ==  '1'"
-    },
-    {
         "field_name": "full_time_education",
         "form_name": "about_you_remote",
         "section_header": "",
         "field_type": "yesno",
-        "field_label": "Are you in full-time education or college?",
+        "field_label": "If so, please provide your circumstance below: \r\n\r\nAre you in full-time education or college?",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -413,14 +392,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[gp_changed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['gp_changed'] ==  '1'"
     },
     {
         "field_name": "name_of_gp",
@@ -434,14 +413,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[gp_changed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['gp_changed'] ==  '1'"
     },
     {
         "field_name": "address_change",
@@ -455,14 +434,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[gp_changed] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['gp_changed'] ==  '1'"
     },
     {
         "field_name": "new_diagnosis",
@@ -2626,69 +2605,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['recent_death_friend'] ==  '1'"
-    },
-    {
-        "field_name": "recent_new_friend",
-        "form_name": "about_you_remote",
-        "section_header": "",
-        "field_type": "yesno",
-        "field_label": "Making a new friend ",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "recent_new_friend_exp",
-        "form_name": "about_you_remote",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Please indicate what this was like",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Very unpleasant"
-            },
-            {
-                "code": "2",
-                "label": "Moderately unpleasant"
-            },
-            {
-                "code": "3",
-                "label": "Neither unpleasant or pleasant"
-            },
-            {
-                "code": "4",
-                "label": "Moderately pleasant"
-            },
-            {
-                "code": "5",
-                "label": "Very pleasant"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[recent_new_friend] = '1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['recent_new_friend'] ==  '1'"
     },
     {
         "field_name": "witnessed_injury",
