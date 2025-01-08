@@ -32,7 +32,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -44,7 +44,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2b",
@@ -58,7 +58,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -70,7 +70,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2c",
@@ -84,7 +84,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -96,7 +96,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2d",
@@ -110,7 +110,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -122,7 +122,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2e",
@@ -136,7 +136,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -148,7 +148,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2f",
@@ -162,7 +162,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -174,7 +174,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "random2g",
@@ -188,7 +188,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -200,7 +200,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2h",
@@ -214,7 +214,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -226,7 +226,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2i",
@@ -240,7 +240,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -252,7 +252,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq2j",
@@ -266,7 +266,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
@@ -278,7 +278,7 @@
             "max": "Extremely",
             "step": 1
         },
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq3",
@@ -292,14 +292,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
     {
         "field_name": "randomq4",
@@ -313,13 +313,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[randomq1a] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": ""
+        "evaluated_logic": "responses['randomq1a'] ==  '1'"
     }
 ]
