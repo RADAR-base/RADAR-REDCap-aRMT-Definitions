@@ -1,0 +1,150 @@
+[
+    {
+        "field_name": "useruseq1",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Have you just used cocaine?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "useruseq2a",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What type of cocaine?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Powder"
+            },
+            {
+                "code": "2",
+                "label": "Crack"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[useruseq1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['useruseq1'] ==  '1'"
+    },
+    {
+        "field_name": "useruseq2b",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "How did you use?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Snort"
+            },
+            {
+                "code": "2",
+                "label": "Smoke"
+            },
+            {
+                "code": "3",
+                "label": "Inject"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[useruseq1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['useruseq1'] ==  '1'"
+    },
+    {
+        "field_name": "useruseq2c",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How much did you use?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[useruseq1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['useruseq1'] ==  '1'"
+    },
+    {
+        "field_name": "useruseq2d",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Why did you use?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[useruseq1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['useruseq1'] ==  '1'"
+    },
+    {
+        "field_name": "useruseq3",
+        "form_name": "user_initiated_cocaine_use_ema",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Anything else you would like to add:",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[useruseq1] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['useruseq1'] ==  '1'"
+    }
+]
