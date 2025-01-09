@@ -40,9 +40,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -66,9 +68,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -92,9 +96,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -118,9 +124,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -144,9 +152,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -170,9 +180,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -196,9 +208,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -222,9 +236,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -248,9 +264,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -274,9 +292,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['randomq1a'] ==  '1'"
     },
@@ -305,7 +325,7 @@
         "field_name": "randomq4",
         "form_name": "random_ema",
         "section_header": "",
-        "field_type": "notes",
+        "field_type": "text",
         "field_label": "Anything else you would like to add:",
         "select_choices_or_calculations": "",
         "field_note": "",
