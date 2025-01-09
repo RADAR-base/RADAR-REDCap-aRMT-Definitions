@@ -230,9 +230,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -256,9 +258,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -282,9 +286,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -308,9 +314,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -334,9 +342,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -386,9 +396,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -412,9 +424,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -438,9 +452,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
@@ -464,9 +480,11 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
-            "min": "Notatall",
-            "max": "Extremely",
-            "step": 1
+            "min": "0",
+            "max": "100",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['fixedq2g'] ==  '1'"
     },
