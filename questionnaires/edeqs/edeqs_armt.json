@@ -460,7 +460,7 @@
         "form_name": "edeqs",
         "section_header": "",
         "field_type": "text",
-        "field_label": "What is your weight in kilograms?",
+        "field_label": "What is your weight in kilograms?\r\n\r\nIf you do not feel comfortable sharing this, please indicate N/A in the box.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "integer",
@@ -518,14 +518,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[height_uom]='1'",
+        "branching_logic": "[height_uom]=1",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['height_uom'] == '1'"
+        "evaluated_logic": "responses['height_uom'] == 1"
     },
     {
         "field_name": "height_in_centimetres",
@@ -539,13 +539,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[height_uom]='2'",
+        "branching_logic": "[height_uom]=2",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['height_uom'] == '2'"
+        "evaluated_logic": "responses['height_uom'] == 2"
     }
 ]
