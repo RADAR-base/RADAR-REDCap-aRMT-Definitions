@@ -3370,14 +3370,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(1)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 1"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '1'"
     },
     {
         "field_name": "housemates_masked",
@@ -3404,14 +3404,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(2)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '2'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 2"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '2'"
     },
     {
         "field_name": "school_masked",
@@ -3438,14 +3438,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(3)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '3'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 3"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '3'"
     },
     {
         "field_name": "work_masked",
@@ -3472,14 +3472,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(4)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '4'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 4"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '4'"
     },
     {
         "field_name": "medical_masked",
@@ -3506,14 +3506,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(5)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '5'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 5"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '5'"
     },
     {
         "field_name": "other_mask_specify",
@@ -3527,14 +3527,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(6)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '6'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 6"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '6'"
     },
     {
         "field_name": "other_masked",
@@ -3561,13 +3561,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[where_masked_4weeks(6)] = '1'",
+        "branching_logic": "[where_masked_4weeks] = '6'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['where_masked_4weeks'] == 6"
+        "evaluated_logic": "responses['where_masked_4weeks'] ==  '6'"
     }
 ]
