@@ -25,7 +25,7 @@
         "form_name": "random_ema",
         "section_header": "",
         "field_type": "text",
-        "field_label": "When did this happen? (if multiple episodes of craving occurred within the past 3 hours, report the most recent episode or the episode with the strongest craving - to decide which option)",
+        "field_label": "When did this happen? (approximate time) (if multiple episodes of craving occurred within the past 3 hours, report the most recent episode)",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "time",
@@ -62,7 +62,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -90,7 +90,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -118,7 +118,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -146,7 +146,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -174,7 +174,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -202,7 +202,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -230,7 +230,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -258,7 +258,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -286,7 +286,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -314,7 +314,7 @@
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"

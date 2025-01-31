@@ -226,12 +226,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix1",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -254,12 +254,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix1",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -282,12 +282,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix2",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -310,12 +310,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix2",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -338,12 +338,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix3",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -366,12 +366,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix3",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -394,12 +394,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix4",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -422,12 +422,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix4",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -450,12 +450,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix5",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -478,12 +478,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix5",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -523,14 +523,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[fixedq1a] = '1'",
+        "branching_logic": "[fixedq1a] = '1' or [fixedq2g] = '0",
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['fixedq1a'] ==  '1'"
+        "evaluated_logic": "responses['fixedq1a'] ==  '1' || responses['fixedq2g'] ==  '0'"
     },
     {
         "field_name": "fixedq2a_2",
@@ -717,12 +717,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix6",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -745,12 +745,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix6",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -773,12 +773,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix7",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -801,7 +801,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix7",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -822,12 +822,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix8",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -850,12 +850,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix8",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -878,12 +878,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix9",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -906,12 +906,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix9",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -934,12 +934,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix10",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -962,12 +962,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix10",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1007,7 +1007,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[fixedq1a_2] = '1'",
+        "branching_logic": "[fixedq1a_2] = '1' or [fixedq2g_2] = '0'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
@@ -1201,12 +1201,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix11",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1229,12 +1229,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix11",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1257,12 +1257,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix12",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1285,7 +1285,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix12",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -1306,12 +1306,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix13",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1334,12 +1334,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix13",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1362,12 +1362,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix14",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1390,12 +1390,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix14",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1418,12 +1418,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix15",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1446,12 +1446,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix15",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1491,7 +1491,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[fixedq1a_3] = '1'",
+        "branching_logic": "[fixedq1a_3] = '1' or [fixedq2g_3] = '0'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
@@ -1685,12 +1685,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix16",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1713,12 +1713,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix16",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1741,12 +1741,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix17",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1769,7 +1769,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix17",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -1790,12 +1790,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix18",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1818,12 +1818,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix18",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1846,12 +1846,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix19",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1874,12 +1874,12 @@
         "required_field": "",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix19",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1902,12 +1902,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix20",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
@@ -1930,12 +1930,12 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "matrix20",
         "matrix_ranking": "",
         "field_annotation": "",
         "range": {
             "min": "0",
-            "max": "100",
+            "max": "10",
             "step": 1,
             "labelLeft": "Not at all",
             "labelRight": "Extremely"
