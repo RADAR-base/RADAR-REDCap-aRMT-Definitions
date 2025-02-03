@@ -804,6 +804,13 @@
         "matrix_group_name": "matrix7",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "evaluated_logic": ""
     },
     {
@@ -1288,6 +1295,13 @@
         "matrix_group_name": "matrix12",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "evaluated_logic": ""
     },
     {
@@ -1772,6 +1786,13 @@
         "matrix_group_name": "matrix17",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "evaluated_logic": ""
     },
     {
