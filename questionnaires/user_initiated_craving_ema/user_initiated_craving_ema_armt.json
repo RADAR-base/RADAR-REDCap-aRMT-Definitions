@@ -299,28 +299,7 @@
             "labelRight": "Extremely"
         },
         "evaluated_logic": "responses['userq1'] ==  '1'"
-    },
-    {
-        "field_name": "userq3",
-        "form_name": "user_initiated_craving_ema",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "What triggered this episode of craving (any specific object, situation or mood)?",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[userq1] = '1'",
-        "required_field": "",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['userq1'] ==  '1'"
-    },
+    },    
     {
         "field_name": "userq4",
         "form_name": "user_initiated_craving_ema",
