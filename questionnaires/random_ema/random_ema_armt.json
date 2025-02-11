@@ -375,13 +375,13 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[randomq1a] = '0' or [randomq4] = '1'",
+        "branching_logic": "[randomq1a] = '0'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['randomq1a'] ==  '0' || responses['randomq4'] ==  '1'"
+        "evaluated_logic": "responses['randomq1a'] ==  '0'"
     }
 ]
