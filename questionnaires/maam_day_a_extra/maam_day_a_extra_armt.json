@@ -5,17 +5,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "How tired did you feel today?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": "Moderately"
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -28,6 +18,13 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
+        "range": {
+            "min": "1",
+            "max": "5",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "evaluated_logic": ""
     },
     {
