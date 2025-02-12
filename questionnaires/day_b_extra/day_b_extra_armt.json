@@ -1,0 +1,369 @@
+[
+    {
+        "field_name": "fatigue_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How tired did you feel today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "Not at all"
+            },
+            {
+                "code": "Moderately"
+            },
+            {
+                "code": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "other_events_1_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did any notable events or circumstances occur today that you think might have impacted your symptoms or overall well-being? This could involve changes in your daily routine (e.g. night shift work), heightened stressors (interpersonal stress, pain like a migraine), significant life events, or any other noteworthy incidents. ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "other_events_2_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please provide details.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[other_events_1_db_e] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['other_events_1_db_e'] ==  '1'"
+    },
+    {
+        "field_name": "neuro_qol_1_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "Today, how much have you been bothered by any of the following problems? ",
+        "field_type": "radio",
+        "field_label": "I had trouble thinking clearly",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "neuro_qol_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "neuro_qol_2_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Words I wanted to use seemed to be on the \"tip of my tongue\"",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "neuro_qol_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "neuro_qol_3_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I had trouble remembering whether I did things I was supposed to do, like taking a medicine or buying something I needed",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "neuro_qol_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sensitivity_1_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "Please answer each question according to the way you felt today.",
+        "field_type": "radio",
+        "field_label": "Did you find yourself needing to withdraw into a place where you can have some privacy and relief from stimulation?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely/a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "A lot/very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "sensitivity_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sensitivity_2_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Were you easily overwhelmed by things like bright lights, strong smells, coarse fabrics, or loud or irritating noises?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Rarely/a little bit"
+            },
+            {
+                "code": "3",
+                "label": "Sometimes"
+            },
+            {
+                "code": "4",
+                "label": "Often"
+            },
+            {
+                "code": "5",
+                "label": "A lot/very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "sensitivity_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "emotion_dysregulation_1_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "Today, how much have you been bothered by any of the following problems?",
+        "field_type": "radio",
+        "field_label": "My emotions felt overwhelming and out of control",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "emotion_dysregulation_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "emotion_dysregulation_2_db_e",
+        "form_name": "day_b_extra",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "My feelings changed quickly - I felt one way in one minute and totally different in the next",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "emotion_dysregulation_db_e",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
