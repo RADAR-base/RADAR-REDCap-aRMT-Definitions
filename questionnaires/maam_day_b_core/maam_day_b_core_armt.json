@@ -1,0 +1,1280 @@
+[
+    {
+        "field_name": "meduse_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you take medication for your ADHD today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "meduse_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "If no, why did you not take the medication? (please select all that apply)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "I didn't have any available"
+            },
+            {
+                "code": "2",
+                "label": "I was taking a medication holiday"
+            },
+            {
+                "code": "3",
+                "label": "I was worried about side effects"
+            },
+            {
+                "code": "4",
+                "label": "I forgot"
+            },
+            {
+                "code": "5",
+                "label": "I didn't want to"
+            },
+            {
+                "code": "6",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '0'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '0'"
+    },
+    {
+        "field_name": "meduse_3_other_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Please let us know the 'other' reason",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_3_db_c] = '6'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_3_db_c'] ==  '6'"
+    },
+    {
+        "field_name": "meduse_2a_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 1:\r\n",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_1o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 1: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_1_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_1_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 1: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 1: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 2:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_2o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 2: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_2_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_2_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 2: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 2: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 3:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_3o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 3: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_3_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_3_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 3: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 3: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_2_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_2_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_4_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 4:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_4o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 4: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_4_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_4_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_4_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 4: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_4_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 4: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_4_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_3_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_3_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_5_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 5:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_5o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 5: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_5_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_5_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_5_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 5: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_5_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 5: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2d_5_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Add another medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "0",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_4_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_4_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_6_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Name of medication 6:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Methylphenidate ER (Concerta XL, Ritalin XL, Medikinet XL, Equasym XL, Matoride XL, Xaggitin XL, Xenidate XL, Delmosart)"
+            },
+            {
+                "code": "2",
+                "label": "Methylphenidate IR (Ritalin, Medikinet IR)"
+            },
+            {
+                "code": "3",
+                "label": "Lisdexamfetamine (Amfexa, Elvanse/Elvanse adult)"
+            },
+            {
+                "code": "4",
+                "label": "Dexamfetamine IR"
+            },
+            {
+                "code": "5",
+                "label": "Atomoxetine (Strattera)"
+            },
+            {
+                "code": "6",
+                "label": "Bupropion (Zyban)"
+            },
+            {
+                "code": "7",
+                "label": "Guanfacine ER (Intuniv)"
+            },
+            {
+                "code": "8",
+                "label": "Tranquilyn"
+            },
+            {
+                "code": "9",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2a_6o_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If other, please type in name of medication 6: ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2a_6_db_c] = '9'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2a_6_db_c'] ==  '9'"
+    },
+    {
+        "field_name": "meduse_2b_6_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 6: Dose (in mg)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "meduse_2c_6_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Medication 6: Time taken",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "time",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_2d_5_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_2d_5_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "med_effectiveness_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "How do you feel your medication is working today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not as well as usual"
+            },
+            {
+                "code": "2",
+                "label": "The same as usual"
+            },
+            {
+                "code": "3",
+                "label": "Better than usual"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[meduse_1_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['meduse_1_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "period_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Did you have your period today?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "period_pain_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How much were you bothered by pain related to your menstrual cycle today (i.e. cramps)?",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[period_db_c] = '1'",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "range": {
+            "min": "1",
+            "max": "5",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
+        "evaluated_logic": "responses['period_db_c'] ==  '1'"
+    },
+    {
+        "field_name": "phq_8_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "Today, how much have you been bothered by any of the following problems?",
+        "field_type": "radio",
+        "field_label": "Little interest or pleasure in doing things",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_db_c",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phq_8_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Feeling down, depressed, or hopeless",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little bit"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "4",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "phq_8_db_c",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "irritability_1_db_c",
+        "form_name": "day_b_core",
+        "section_header": "Please indicate how often you have felt or behaved in the following ways today:",
+        "field_type": "radio",
+        "field_label": "I have been feeling like I might snap",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Often"
+            },
+            {
+                "code": "4",
+                "label": "Very often"
+            },
+            {
+                "code": "5",
+                "label": "Always"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "irritability_db_c",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "irritability_2_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Other people have been getting on my nerves",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Often"
+            },
+            {
+                "code": "4",
+                "label": "Very often"
+            },
+            {
+                "code": "5",
+                "label": "Always"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "irritability_db_c",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "irritability_3_db_c",
+        "form_name": "day_b_core",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "I felt irritable",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Never"
+            },
+            {
+                "code": "1",
+                "label": "Rarely"
+            },
+            {
+                "code": "2",
+                "label": "Sometimes"
+            },
+            {
+                "code": "3",
+                "label": "Often"
+            },
+            {
+                "code": "4",
+                "label": "Very often"
+            },
+            {
+                "code": "5",
+                "label": "Always"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "irritability_db_c",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
