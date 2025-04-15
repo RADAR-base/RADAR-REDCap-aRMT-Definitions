@@ -42,27 +42,6 @@
       "evaluated_logic": ""
     },
     {
-      "field_name": "emoji_mood",
-      "form_name": "check_in_chill",
-      "section_header": "\ud83c\udfad Mood Vibes",
-      "field_type": "text",
-      "field_label": "Which emoji best matches how you feel right now?",
-      "select_choices_or_calculations": "",
-      "field_note": "Draw it or write it!",
-      "text_validation_type_or_show_slider_number": "",
-      "text_validation_min": "",
-      "text_validation_max": "",
-      "identifier": "Q2",
-      "branching_logic": "",
-      "required_field": "no",
-      "custom_alignment": "",
-      "question_number": "2",
-      "matrix_group_name": "",
-      "matrix_ranking": "",
-      "field_annotation": "",
-      "evaluated_logic": ""
-    },
-    {
       "field_name": "brain_speed",
       "form_name": "check_in_chill",
       "section_header": "\ud83e\udde0 Inside My Head",
