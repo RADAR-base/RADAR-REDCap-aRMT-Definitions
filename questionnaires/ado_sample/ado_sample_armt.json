@@ -1,0 +1,259 @@
+[
+    {
+      "field_name": "weather_mood",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83c\udfad Mood Vibes",
+      "field_type": "radio",
+      "field_label": "If your mood today were a weather forecast, what would it be?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "\u2600\ufe0f Sunny and bright"
+        },
+        {
+          "code": "2",
+          "label": "\ud83c\udf27 Cloudy with a chance of tears"
+        },
+        {
+          "code": "3",
+          "label": "\ud83c\udf2a Total chaos but somehow cool"
+        },
+        {
+          "code": "4",
+          "label": "\ud83c\udf08 Mixed bag, but hopeful"
+        },
+        {
+          "code": "5",
+          "label": "\u2744\ufe0f Numb and chilly"
+        }
+      ],
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q1",
+      "branching_logic": "",
+      "required_field": "yes",
+      "custom_alignment": "",
+      "question_number": "1",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "emoji_mood",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83c\udfad Mood Vibes",
+      "field_type": "text",
+      "field_label": "Which emoji best matches how you feel right now?",
+      "select_choices_or_calculations": "",
+      "field_note": "Draw it or write it!",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q2",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "2",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "brain_speed",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83e\udde0 Inside My Head",
+      "field_type": "radio",
+      "field_label": "On a scale from \ud83d\udc22 to \ud83d\ude80, how fast is your brain running today?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "\ud83d\udc22 Slow and steady"
+        },
+        {
+          "code": "2",
+          "label": "\ud83d\udc07 A little jumpy"
+        },
+        {
+          "code": "3",
+          "label": "\ud83d\ude97 Zooming"
+        },
+        {
+          "code": "4",
+          "label": "\ud83d\ude80 Overdrive"
+        }
+      ],
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q5",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "5",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "headspace_description",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83e\udde0 Inside My Head",
+      "field_type": "radio",
+      "field_label": "Which of these is most true today?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "I\u2019m overthinking like it\u2019s my job"
+        },
+        {
+          "code": "2",
+          "label": "I feel kinda blank"
+        },
+        {
+          "code": "3",
+          "label": "My brain\u2019s all over the place"
+        },
+        {
+          "code": "4",
+          "label": "I\u2019m in a good headspace, surprisingly!"
+        }
+      ],
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q6",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "6",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "talk_about_feelings",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83d\udcac Real Talk",
+      "field_type": "radio",
+      "field_label": "How comfy are you talking about your feelings lately?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "\ud83d\udecb So comfy, like a beanbag"
+        },
+        {
+          "code": "2",
+          "label": "\ud83d\ude2c Kinda awkward"
+        },
+        {
+          "code": "3",
+          "label": "\ud83d\udeab Hard pass"
+        },
+        {
+          "code": "4",
+          "label": "\ud83e\udd37 Depends who\u2019s asking"
+        }
+      ],
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q7",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "7",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "basic_selfcare",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83c\udf31 Self-Care Check",
+      "field_type": "checkbox",
+      "field_label": "Did you eat, sleep, or shower today?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "\ud83c\udf7d Ate"
+        },
+        {
+          "code": "2",
+          "label": "\ud83d\udec1 Showered"
+        },
+        {
+          "code": "3",
+          "label": "\ud83d\ude34 Slept"
+        }
+      ],
+      "field_note": "No judgment. Just curious!",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q10",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "10",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    },
+    {
+      "field_name": "mood_booster",
+      "form_name": "check_in_chill",
+      "section_header": "\ud83c\udf31 Self-Care Check",
+      "field_type": "checkbox",
+      "field_label": "Which of these things would help your mood today?",
+      "select_choices_or_calculations": [
+        {
+          "code": "1",
+          "label": "\ud83d\udc36 Hug a pet"
+        },
+        {
+          "code": "2",
+          "label": "\ud83c\udfa8 Make some art"
+        },
+        {
+          "code": "3",
+          "label": "\ud83d\udeb6 Take a walk"
+        },
+        {
+          "code": "4",
+          "label": "\ud83d\udcfa Binge a fave show"
+        },
+        {
+          "code": "5",
+          "label": "\ud83d\ude34 Nap it off"
+        },
+        {
+          "code": "6",
+          "label": "\ud83c\udf6b Chocolate. Just chocolate."
+        }
+      ],
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "",
+      "text_validation_min": "",
+      "text_validation_max": "",
+      "identifier": "Q11",
+      "branching_logic": "",
+      "required_field": "no",
+      "custom_alignment": "",
+      "question_number": "11",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": "",
+      "evaluated_logic": ""
+    }
+  ]
