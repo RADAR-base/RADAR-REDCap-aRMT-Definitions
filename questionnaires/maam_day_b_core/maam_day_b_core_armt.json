@@ -1111,14 +1111,20 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "How much were you bothered by pain related to your menstrual cycle today (i.e. cramps)?",
-        "select_choices_or_calculations": [],
-        "range": {
-            "min": "1",
-            "max": "5",
-            "step": 1,
-            "labelLeft": "Not at all",
-            "labelRight": "Extremely"
-        },
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "1",
