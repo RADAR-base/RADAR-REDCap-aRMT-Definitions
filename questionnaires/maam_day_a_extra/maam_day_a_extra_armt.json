@@ -5,14 +5,20 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "How tired did you feel today?",
-        "select_choices_or_calculations": [],
-        "range": {
-            "min": "1",
-            "max": "5",
-            "step": 1,
-            "labelLeft": "Not at all",
-            "labelRight": "Extremely"
-        },
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "3",
+                "label": "Moderately"
+            },
+            {
+                "code": "5",
+                "label": "Extremely"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "1",
@@ -53,7 +59,7 @@
         "form_name": "maam_day_a_extra",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Please provide details.",
+        "field_label": "Please provide details. Please note your text response to this question will *not* be monitored in real-time by study investigators.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
