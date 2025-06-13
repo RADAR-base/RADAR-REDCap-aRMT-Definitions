@@ -24,7 +24,7 @@
         "field_name": "useruseq2a",
         "form_name": "user_initiated_cocaine_use_ema",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "dropdown",
         "field_label": "What type of cocaine?",
         "select_choices_or_calculations": [
             {
@@ -54,7 +54,7 @@
         "field_name": "useruseq2b",
         "form_name": "user_initiated_cocaine_use_ema",
         "section_header": "",
-        "field_type": "radio",
+        "field_type": "dropdown",
         "field_label": "How did you use?",
         "select_choices_or_calculations": [
             {
@@ -113,7 +113,7 @@
         "field_label": "When did you use?",
         "select_choices_or_calculations": "",
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "datetime_dmy",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
