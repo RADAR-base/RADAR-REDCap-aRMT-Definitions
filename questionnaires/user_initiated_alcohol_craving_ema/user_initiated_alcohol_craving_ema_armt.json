@@ -5,7 +5,7 @@
         "section_header": "",
         "field_type": "yesno",
         "field_label": "Are you experiencing alcohol craving right now?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -26,17 +26,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how much do you want it?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -57,17 +54,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how much do you need it?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -88,17 +82,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "How strong is the urge to have it?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -119,17 +110,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how vividly do you picture it?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -150,17 +138,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how vividly do you imagine its taste?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -181,17 +166,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how vividly do you imagine its smell?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -212,17 +194,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how vividly do you imagine what it would feel like in your mouth/throat/body?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -243,17 +222,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how hard are you trying not to think about it?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -274,17 +250,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how intrusive are the thoughts?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -305,17 +278,14 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "Right now, how hard is it to think about anything else?",
-        "select_choices_or_calculations": [
-            {
-                "code": "Not at all"
-            },
-            {
-                "code": ""
-            },
-            {
-                "code": "Extremely"
-            }
-        ],
+        "select_choices_or_calculations": [],
+        "range": {
+            "min": "0",
+            "max": "10",
+            "step": 1,
+            "labelLeft": "Not at all",
+            "labelRight": "Extremely"
+        },
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -336,7 +306,7 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "What triggered your craving?",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
