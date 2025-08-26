@@ -1,0 +1,33 @@
+[
+    {
+        "field_name": "esm28q_info",
+        "form_name": "esm28q_info",
+        "section_header": "Mini Check-in Tasks",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Over the next 6 days, you’ll receive quick check-ins to capture how you feel in that moment and what you were doing just before. This helps us understand your daily experiences.",
+          "code" : "Part 1"
+        },
+        {
+          "label" : "If you miss one, don’t worry! Another prompt will follow soon after, and every response you give is valuable.",
+          "code" : "Part 2"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "esm28q_info",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  
