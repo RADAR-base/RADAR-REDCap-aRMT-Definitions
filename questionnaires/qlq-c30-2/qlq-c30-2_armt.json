@@ -1,0 +1,58 @@
+[
+    {
+        "field_name": "qlq-c30-29",
+        "form_name": "qlq-c30-2",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How would you rate your overall health during the past week?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "7",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "7",
+            "step": "",
+            "labelLeft": "Very Poor",
+            "labelRight": "Excellent"
+        }
+    },
+    {
+        "field_name": "qlq-c30-30",
+        "form_name": "qlq-c30-2",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "How would you rate your overall quality of life during the past week?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "7",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "7",
+            "step": "1",
+            "labelLeft": "Very Poor",
+            "labelRight": "Excellent"
+        }
+    }
+]

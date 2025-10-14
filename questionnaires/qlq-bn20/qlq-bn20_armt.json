@@ -1,0 +1,762 @@
+[
+    {
+        "field_name": "qlq-bn20-31",
+        "form_name": "qlq-bn20",
+        "section_header": "During the past week:",
+        "field_type": "radio",
+        "field_label": "Did you feel uncertain about the future?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "31.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-32",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you feel you had setbacks in your condition?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "32.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-33",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Were you concerned about disruption of family life?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "33.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-34",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have headaches?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "34.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-35",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did your outlook on the future worsen?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "35.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-36",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have double vision?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "36.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-37",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Was your vision blurred?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "37.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-38",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have difficulty reading because of your vision?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "38.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-39",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have seizures?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "39.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-40",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have weakness on one side of your body?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "40.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-41",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have trouble finding the right words to express yourself?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "41.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-42",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have difficulty speaking?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "42.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-43",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have trouble communicating your thoughts?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "43.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-44",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you feel drowsy during the daytime?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "44.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-45",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have trouble with your coordination?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "45.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-46",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did hair loss bother you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "46.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-47",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did itching of your skin bother you?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "47.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-48",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have weakness of both legs?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "48.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-49",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you feel unsteady on your feet?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "49.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "qlq-bn20-50",
+        "form_name": "qlq-bn20",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Did you have trouble controlling your bladder?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "A little"
+            },
+            {
+                "code": "3",
+                "label": "Quite a bit"
+            },
+            {
+                "code": "4",
+                "label": "Very much"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "VERTICAL",
+        "question_number": "50.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
