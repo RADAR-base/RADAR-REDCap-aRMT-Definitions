@@ -1,0 +1,29 @@
+[
+    {
+        "field_name": "oura_story_reminder",
+        "form_name": "oura_story_reminder",
+        "section_header": "Oura Check-in",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+        {
+          "label" : "Please open the Oura app now to sync your data. If you have any questions or need assistance, please contact the study team.",
+          "code" : "Quick Reminder"
+        }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "oura_story_reminder",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
+  
