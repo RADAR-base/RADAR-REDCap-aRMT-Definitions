@@ -1,0 +1,443 @@
+[
+  {
+    "field_name": "panas_sf1",
+    "form_name": "panas_sf",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "Please rate the following mood words on a sliding scale between very slightly and extremely based on how you are feeling at the moment.",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf2",
+    "form_name": "panas_sf",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Distressed",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf3",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Excited",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf4",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Upset",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf5",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Scared",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf6",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Enthuastic",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf7",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Alert",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf8",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Inspired",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf9",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Nervous",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf10",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Determined",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "panas_sf11",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Afraid",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very slightly"
+      },
+      {
+        "code": "1",
+        "label": "A little"
+      },
+      {
+        "code": "2",
+        "label": "Moderately"
+      },
+      {
+        "code": "3",
+        "label": "Quite a bit"
+      },
+      {
+        "code": "4",
+        "label": "Extremely"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

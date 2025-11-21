@@ -1,0 +1,118 @@
+[
+  {
+    "field_name": "ssqs1",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was.",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ssqs2",
+    "form_name": "sleep_quality",
+    "section_header": "Thinking about last night, please consider the quality of your sleep overall, such as how many hours of sleep you got, how easily you fell asleep, how often your woke up during the night, whether you woke up earlier than you had to in the morning, and how refreshing your sleep was. ",
+    "field_type": "slider",
+    "field_label": "How would you rate your sleep quality overall (0=worst sleep and 100=best sleep)?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "RV",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "range": {
+      "min": "0",
+      "max": "100",
+      "step": 1,
+      "labelLeft": "Terrible",
+      "labelRight": "Excellent"
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ssqs3",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "For how many minutes did you use your phone before sleeping?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "ssqs4",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "checkbox",
+    "field_label": "What did you do on the phone before sleep (please select all that apply)?",
+    "select_choices_or_calculations": [
+      {
+        "code": "Social media",
+        "label": "Social media"
+      },
+      {
+        "code": "Streaming",
+        "label": "Streaming"
+      },
+      {
+        "code": "Messaging",
+        "label": "Messaging"
+      },
+      {
+        "code": "Reading",
+        "label": "Reading"
+      },
+      {
+        "code": "Listening to music/podcast",
+        "label": "Listening to music/podcast"
+      },
+      {
+        "code": "Other",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

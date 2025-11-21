@@ -1,0 +1,213 @@
+[
+  {
+    "field_name": "regular_activities_desc",
+    "form_name": "regular_activities",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "We'd like to get an idea of your regular activities during a typical month, how much time you spend on them, and how much you enjoy them.",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "regular_activities_1",
+    "form_name": "regular_activities",
+    "section_header": "For each of the following categories, please select how frequently you engage in these activities",
+    "field_type": "radio",
+    "field_label": "Screen time except smartphone (e.g. watching TV, using computers, using tablets)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "less than 1 hour per day"
+      },
+      {
+        "code": "1",
+        "label": "1 to 2 hours per day"
+      },
+      {
+        "code": "2",
+        "label": "2 to 3 hours per day"
+      },
+      {
+        "code": "3",
+        "label": "over 3 hours per day"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "regular_activities_2",
+    "form_name": "regular_activities",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Travel (e.g. commuting to work or school, travelling to see family/friends, travelling to an activity)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "less than 1 hour per day"
+      },
+      {
+        "code": "1",
+        "label": "1 to 2 hours per day"
+      },
+      {
+        "code": "2",
+        "label": "2 to 3 hours per day"
+      },
+      {
+        "code": "3",
+        "label": "over 3 hours per day"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "regular_activities_3",
+    "form_name": "regular_activities",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Exercise/physical activity (e.g. exercise classes, going to the gym, walking/running/jogging, biking, dance, etc.)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "less than 1 day per week"
+      },
+      {
+        "code": "1",
+        "label": "1 to 2 days per week"
+      },
+      {
+        "code": "2",
+        "label": "3 to 5 day per week"
+      },
+      {
+        "code": "3",
+        "label": "over 5 days per week"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "regular_activities_4",
+    "form_name": "regular_activities",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Social activity (e.g. meeting friends/family/partner, socialising online, a meal out with others, dating, doing an activity with friends/family/partner)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "less than 1 hour per day"
+      },
+      {
+        "code": "1",
+        "label": "1 to 2 hours per day"
+      },
+      {
+        "code": "2",
+        "label": "2 to 3 hours per day"
+      },
+      {
+        "code": "3",
+        "label": "over 3 hours per day"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "regular_activities_5",
+    "form_name": "regular_activities",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Hobbies/recreation/relaxation that you mostly do alone or without interacting much with others (e.g. sitting/resting, watching television or YouTube, surfing the internet for fun, reading, drawing, scrapbooking, listening to or playing music)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "less than 1 hour per day"
+      },
+      {
+        "code": "1",
+        "label": "1 to 2 hours per day"
+      },
+      {
+        "code": "2",
+        "label": "2 to 3 hours per day"
+      },
+      {
+        "code": "3",
+        "label": "over 3 hours per day"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

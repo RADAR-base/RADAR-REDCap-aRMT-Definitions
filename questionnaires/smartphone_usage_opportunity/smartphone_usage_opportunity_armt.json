@@ -1,0 +1,512 @@
+[
+  {
+    "field_name": "usage_opportunity_1",
+    "form_name": "smartphone_usage_opportunity",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "What is your occupation?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_2",
+    "form_name": "smartphone_usage_opportunity",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Does your job allow you to use your phone during work?",
+    "select_choices_or_calculations": [
+      {
+        "code": "Yes",
+        "label": "Yes"
+      },
+      {
+        "code": "No",
+        "label": "No"
+      },
+      {
+        "code": "Occasionally",
+        "label": "Occasionally"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_3",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "How many hours a day do you typically work?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_4",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "How frequently do you check your phone during work hours?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Rarely (Less than once an hour)"
+      },
+      {
+        "code": "1",
+        "label": "Occasionally (1-3 times an hour)"
+      },
+      {
+        "code": "2",
+        "label": "Frequently (4+ times an hour)"
+      },
+      {
+        "code": "3",
+        "label": "Always (Constantly accessible)"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_5",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Do you have shift work?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_6",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "If you have shift work, what are your typical shift times?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_7",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "In an average working day, how many hours of actual leisure time do you have available when you could use your telephone?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_8",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "On non-working days, how many hours do you get to use your phone?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_9",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "checkbox",
+    "field_label": "What are the major activities that limit your phone usage during the day (Please tick all that apply)?",
+    "select_choices_or_calculations": [
+      {
+        "code": "Work",
+        "label": "Work"
+      },
+      {
+        "code": "Driving",
+        "label": "Driving"
+      },
+      {
+        "code": "Studying",
+        "label": "Studying"
+      },
+      {
+        "code": "Exercising",
+        "label": "Exercising"
+      },
+      {
+        "code": "Social interactions",
+        "label": "Social interactions"
+      },
+      {
+        "code": "Sleep",
+        "label": "Sleep"
+      },
+      {
+        "code": "Parenting",
+        "label": "Parenting"
+      },
+      {
+        "code": "Other",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_10",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "During the time you could use your phone, how often do you actually use it?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Almost never"
+      },
+      {
+        "code": "1",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Often"
+      },
+      {
+        "code": "3",
+        "label": "Almost always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_11",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Is your phone usage more out of necessity or habit?",
+    "select_choices_or_calculations": [
+      {
+        "code": "Necessity",
+        "label": "Necessity"
+      },
+      {
+        "code": "Habit",
+        "label": "Habit"
+      },
+      {
+        "code": "Both equally",
+        "label": "Both equally"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_12",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Do you go out of your way not to use your phone in certain instances where you could?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_13",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "How often do you get frustrated when you can't use your phone during an opportunity window?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Always"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_14",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "How many hours prior to bedtime do you get the opportunity to use your phone?",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_15",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Do you think that your nighttime phone use is within your control?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_16",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Do you use any app to help you sleep?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Sometimes"
+      },
+      {
+        "code": "2",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "usage_opportunity_16",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "If you use any app to help you sleep, please list them.",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
