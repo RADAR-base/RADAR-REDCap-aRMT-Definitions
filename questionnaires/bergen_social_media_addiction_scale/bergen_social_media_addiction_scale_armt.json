@@ -1,0 +1,275 @@
+[
+  {
+    "field_name": "social_media_addiction_scale1",
+    "form_name": "bergen_social_media_addiction_scale",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "Here are six statements to consider. For each, answer: (1) very rarely, (2) rarely, (3) sometimes, (4) often, or (5) very often.",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale2",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You spend a lot of time thinking about social media or planning how to use it.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "3",
+        "label": "Sometimes"
+      },
+      {
+        "code": "4",
+        "label": "Often"
+      },
+      {
+        "code": "5",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale3",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You feel an urge to use social media more and more.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale4",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You use social media in order to forget about personal problems.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale5",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You have tried to cut down on the use of social media without success.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale6",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You become restless or troubled if you are prohibited from using social media.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "social_media_addiction_scale7",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "You use social media so much that it has had a negative impact on your job/studies.",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very rarely"
+      },
+      {
+        "code": "1",
+        "label": "Rarely"
+      },
+      {
+        "code": "2",
+        "label": "Sometimes"
+      },
+      {
+        "code": "3",
+        "label": "Often"
+      },
+      {
+        "code": "4",
+        "label": "Very often"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

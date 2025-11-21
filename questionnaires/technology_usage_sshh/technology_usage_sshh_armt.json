@@ -1,0 +1,423 @@
+[
+    {
+        "field_name": "android_brand",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What is the brand of your Smartphone",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Samsung "
+            },
+            {
+                "code": "2",
+                "label": "HTC "
+            },
+            {
+                "code": "3",
+                "label": "Sony "
+            },
+            {
+                "code": "4",
+                "label": "Motorola "
+            },
+            {
+                "code": "5",
+                "label": "Google "
+            },
+            {
+                "code": "6",
+                "label": "OnePlus "
+            },
+            {
+                "code": "7",
+                "label": "Nokia "
+            },
+            {
+                "code": "8",
+                "label": "Huawei "
+            },
+            {
+                "code": "9",
+                "label": "Xiaomi "
+            },
+            {
+                "code": "10",
+                "label": "Oppo "
+            },
+            {
+                "code": "11",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "android_model",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "What is the model of your smartphone?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phone_contract",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Who is your current mobile phone contract with?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phone_call_allowance",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you feel you have enough call minutes?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Yes, I have plenty "
+            },
+            {
+                "code": "1",
+                "label": "Yes, most of the time "
+            },
+            {
+                "code": "2",
+                "label": "No, I have to be careful how much I use"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phone_text_allowance",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you feel you have enough text allowance",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Yes, I have plenty "
+            },
+            {
+                "code": "1",
+                "label": "Yes, most of the time "
+            },
+            {
+                "code": "2",
+                "label": "No, I have to be careful how many I use"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "phone_data_allowance",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you feel you have enough data allowance",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Yes, I have plenty "
+            },
+            {
+                "code": "1",
+                "label": "Yes, most of the time "
+            },
+            {
+                "code": "2",
+                "label": "No, I have to be careful how much I use"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fitness_tracker_used",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Have you ever used a wearable fitness tracker before?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No "
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "fitness_tracker_time_used",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How long have you used a wearable fitness tracker for? (in months)",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fitness_tracker_used]=\"1\"",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fitness_tracker_used'] == \"1\""
+    },
+    {
+        "field_name": "fitness_tracker_using",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Are you still using a wearable fitness tracker?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fitness_tracker_used]=\"1\"",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fitness_tracker_used'] == \"1\""
+    },
+    {
+        "field_name": "fitness_tracker_stopped",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If no, why did you stop using a wearable fitness tracker?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "The device broke "
+            },
+            {
+                "code": "1",
+                "label": "Wearing it was uncomfortable "
+            },
+            {
+                "code": "2",
+                "label": "I didn't find it useful "
+            },
+            {
+                "code": "3",
+                "label": "I found using it annoying "
+            },
+            {
+                "code": "4",
+                "label": "Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fitness_tracker_used]=\"1\" and [fitness_tracker_using]=\"0\"",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fitness_tracker_used'] == \"1\" && responses['fitness_tracker_using'] == \"0\""
+    },
+    {
+        "field_name": "fitness_tracker_swap",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Would you be willing to swap to a study Fitbit for the study period (28 days), or wear it in addition to your own device?",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[fitness_tracker_used]=\"1\" and [fitness_tracker_using]=\"0\"",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['fitness_tracker_used'] == \"1\" && responses['fitness_tracker_using'] == \"0\""
+    },
+    {
+        "field_name": "wearable_at_job",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you have a job or other activity that would prevent you from using a wrist-worn wearble for long periods of time?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No, never "
+            },
+            {
+                "code": "1",
+                "label": "Yes, but infrequently (less than 1 day per week) "
+            },
+            {
+                "code": "2",
+                "label": "Yes, sometimes (1-4 days per week) "
+            },
+            {
+                "code": "3",
+                "label": "Yes, a lot of the time (4 or more days per week)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "mobile_phone_at_job",
+        "form_name": "technology_usage",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you have a job or other activity that prevents you from using a mobile phone for long periods of time?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No, never "
+            },
+            {
+                "code": "1",
+                "label": "Yes, but infrequently (less than 1 day per week) "
+            },
+            {
+                "code": "2",
+                "label": "Yes, sometimes (1-4 days per week) "
+            },
+            {
+                "code": "3",
+                "label": "Yes, a lot of the time (4 or more days per week)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

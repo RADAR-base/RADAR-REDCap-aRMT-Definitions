@@ -1,0 +1,52 @@
+[
+  {
+    "field_name": "sleepiness_scale",
+    "form_name": "stanford_sleepiness_scale",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Please rate your current sleepiness",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Feeling active and vital; alert; wide awake."
+      },
+      {
+        "code": "1",
+        "label": "Functioning at a high level, but not at peak; able to concentrate."
+      },
+      {
+        "code": "2",
+        "label": "Relaxed; awake; not at full alertness; responsive."
+      },
+      {
+        "code": "3",
+        "label": "A little foggy; not at peak; let down."
+      },
+      {
+        "code": "4",
+        "label": "Fogginess; beginning to lose interest in remaining awake; slowed down."
+      },
+      {
+        "code": "5",
+        "label": "Prefer to be lying down; fighting sleep; woozy."
+      },
+      {
+        "code": "6",
+        "label": "No longer fighting sleep, sleep onset soon; having dream-like thoughts."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
