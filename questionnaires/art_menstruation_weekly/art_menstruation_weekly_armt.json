@@ -1,7 +1,7 @@
 [
   {
     "field_name": "mensturation_start",
-    "form_name": "mensturation_weekly",
+    "form_name": "art_mensturation_weekly",
     "section_header": "",
     "field_type": "yesno",
     "field_label": "Did you start your period/menstruate this week",
@@ -21,7 +21,7 @@
   },
   {
     "field_name": "mensturation_start",
-    "form_name": "mensturation_weekly",
+    "form_name": "art_mensturation_weekly",
     "section_header": "",
     "field_type": "radio",
     "field_label": "If yes, what day did you start?",
@@ -75,7 +75,7 @@
   },
   {
     "field_name": "more_detail",
-    "form_name": "",
+    "form_name": "art_mensturation_weekly",
     "section_header": "",
     "field_type": "text",
     "field_label": "Please tell us more here:",
