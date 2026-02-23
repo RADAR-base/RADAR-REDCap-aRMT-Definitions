@@ -1,0 +1,97 @@
+[
+  {
+    "field_name": "mensturation_start",
+    "form_name": "mensturation_weekly",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Did you start your period/menstruate this week",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "mensturation_start",
+    "form_name": "mensturation_weekly",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "If yes, what day did you start?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Today"
+      },
+      {
+        "code": "2",
+        "label": "1 day ago"
+      },
+      {
+        "code": "3",
+        "label": "2 days ago"
+      },
+      {
+        "code": "4",
+        "label": "3 days ago"
+      },
+      {
+        "code": "5",
+        "label": "4 days ago"
+      },
+      {
+        "code": "6",
+        "label": "5 days ago"
+      },
+      {
+        "code": "7",
+        "label": "6 days ago"
+      },
+      {
+        "code": "8",
+        "label": "None of the above"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[mensturation_start] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "response[mensturation_start] == '1'"
+  },
+  {
+    "field_name": "more_detail",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Please tell us more here:",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[mensturation_start] = '8'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "response[mensturation_start] == '8'"
+  }
+]

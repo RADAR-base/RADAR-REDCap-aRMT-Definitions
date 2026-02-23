@@ -1,0 +1,104 @@
+[
+  {
+    "field_name": "initial_info",
+    "form_name": "menstruation_consent",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Help Us Understand How Menstrual Cycles Affect ADHD",
+        "label": "There is accumulating evidence that ADHD and related symptoms are affected by menstrual cycles. We want to explore this in the ART-transition study to contribute to this evidence."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "initial_consent",
+    "form_name": "menstruation_consent",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Do you menstruate (i.e., do you get a period)?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Yes"
+      },
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "I would prefer not to answer questions about menstruation"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "questionnaire_consent",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Would you be willing to answer a brief weekly question about your menstruation? ",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[initial_consent] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "response[initial_consent] == '1'"
+  },
+  {
+    "field_name": "more_info",
+    "form_name": "",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Is there anything else you would like us to know about having or not having periods/menstruating? (e.g., contraception, irregular cycles, or related health issues) [optional]",
+    "select_choices_or_calculations": "",
+    "field_note": "optional",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[initial_consent] = '0' or [initial_consent] = '2'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "response[initial_consent] == '0' or response[initial_consent] == '2'"
+  }
+]
