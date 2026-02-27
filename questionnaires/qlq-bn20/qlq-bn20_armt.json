@@ -1,8 +1,29 @@
 [
     {
-        "field_name": "qlq-bn20-31",
-        "form_name": "qlq-bn20",
-        "section_header": "During the past week:",
+        "field_name": "bn20_header",
+        "form_name": "eortcqlqbn20",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Patients sometimes report that they have the following symptoms. Please indicate the extent to which you have experienced these symptoms during the past week.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bn20_q31",
+        "form_name": "eortcqlqbn20",
+        "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel uncertain about the future?",
         "select_choices_or_calculations": [
@@ -38,8 +59,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-32",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q32",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel you had setbacks in your condition?",
@@ -76,8 +97,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-33",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q33",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Were you concerned about disruption of family life?",
@@ -114,8 +135,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-34",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q34",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have headaches?",
@@ -152,8 +173,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-35",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q35",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did your outlook on the future worsen?",
@@ -190,8 +211,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-36",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q36",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have double vision?",
@@ -228,8 +249,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-37",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q37",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Was your vision blurred?",
@@ -266,8 +287,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-38",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q38",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have difficulty reading because of your vision?",
@@ -304,8 +325,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-39",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q39",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have seizures?",
@@ -342,8 +363,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-40",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q40",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have weakness on one side of your body?",
@@ -380,8 +401,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-41",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q41",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have trouble finding the right words to express yourself?",
@@ -418,8 +439,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-42",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q42",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have difficulty speaking?",
@@ -456,8 +477,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-43",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q43",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have trouble communicating your thoughts?",
@@ -494,8 +515,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-44",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q44",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel drowsy during the daytime?",
@@ -532,8 +553,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-45",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q45",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have trouble with your coordination?",
@@ -570,8 +591,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-46",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q46",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did hair loss bother you?",
@@ -608,8 +629,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-47",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q47",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did itching of your skin bother you?",
@@ -646,8 +667,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-48",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q48",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have weakness of both legs?",
@@ -684,8 +705,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-49",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q49",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel unsteady on your feet?",
@@ -722,8 +743,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-bn20-50",
-        "form_name": "qlq-bn20",
+        "field_name": "bn20_q50",
+        "form_name": "eortcqlqbn20",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you have trouble controlling your bladder?",
@@ -754,6 +775,27 @@
         "required_field": "",
         "custom_alignment": "VERTICAL",
         "question_number": "50.",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "bn20_copyright",
+        "form_name": "eortcqlqbn20",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Copyright © EORTC Quality of Life Group. All rights reserved.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
