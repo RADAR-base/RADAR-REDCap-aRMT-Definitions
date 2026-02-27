@@ -1,0 +1,163 @@
+[
+  {
+    "field_name": "pacblq_instructions_1",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "<div class=\"rich-text-field-label\"><h6 style=\"text-align: center;\">Thank you for agreeing to participate in the RECURRENT-GB study.</h6> <h6 style=\"text-align: center;\"><br>We would be grateful if you could complete this questionnaire about your use of health services and costs to you due to your glioblastoma.</h6> <h6 style=\"text-align: center;\"><br>If you have any questions about the study or this questionnaire, please do not hesitate to contact a member of the study team on recurrentgb@nds.ox.ac.uk or call 07917 101649 (Monday to Friday, 9-4pm), there is an answering machine for messages outside of these times, or contact your local clinical team.</h6> <h6 style=\"text-align: center;\"> </h6> <h6 style=\"text-align: center;\">Please answer all of the questions yourself.  There are no \"right\" or \"wrong\" answers.  The information that you provide will remain strictly confidential.</h6></div>",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacblq_date",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Today's date:",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "date_dmy",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacblq_live",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Where do you currently live?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "At home living by yourself"
+      },
+      {
+        "code": "2",
+        "label": "At home living with others"
+      },
+      {
+        "code": "3",
+        "label": "Residential care home"
+      },
+      {
+        "code": "4",
+        "label": "At the home of another (e.g. family member or friend)"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacblq_formalcare",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Have you received any formal care in the last week?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacblq_formalcare_hrs",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "How many hours of formal care did you receive in the last week? Please fill in the box below with the estimated number of hours of care you have received.",
+    "select_choices_or_calculations": [],
+    "field_note": "Hours per week",
+    "text_validation_type_or_show_slider_number": "integer",
+    "text_validation_min": "0",
+    "text_validation_max": "168",
+    "identifier": "",
+    "branching_logic": "[pacblq_formalcare] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacblq_formalcare_livein",
+    "form_name": "participant_costs_baseline_questionnaire",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Do you have a formal live-in carer (i.e., a carer who stays overnight that is not a family member or friend)?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[pacblq_formalcare] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

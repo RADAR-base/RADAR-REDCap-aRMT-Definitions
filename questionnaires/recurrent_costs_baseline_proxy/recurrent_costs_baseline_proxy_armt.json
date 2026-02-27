@@ -1,0 +1,355 @@
+[
+    {
+        "field_name": "pcblq_instructions_1",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<div class=\"rich-text-field-label\"><h6 style=\"text-align: center;\">Thank you for agreeing to participate in the RECURRENT-GB study as a proxy.<br><br>We would be grateful if you could complete this questionnaire about the impact of your relative/friend/spouse's illness on the person who is their main source of support. If this is not you, please ask their main caregiver to provide you with responses to the following questions.  <br><br>If you have any questions about the study or this questionnaire, please do not hesitate to contact a member of the study team on recurrentgb@nds.ox.ac.uk or call 07917 101649 (Monday to Friday, 9-4pm, there is an answering machine for messages outside of these times)</h6></div>",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_header",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<table border=\"\" width=\"100%\" cellpadding=\"15\" bgcolor=\"#F1948A\"> <tbody> <tr> <td style=\"border-style: solid; border-width: 1px;\"><center> <h5><br><strong>This form should be completed in SURVEY mode. <br><br>Please <a style=\"font-size: large;\" href=\"[survey-url:proxy_costs_baseline_questionnaire]\"><strong>CLICK HERE</strong></a> to begin,<br><br></strong><strong>and then click the <span style=\"color: #800000;\">Leave without saving changes</span> button to proceed.</strong></h5> <p> </p> </center></td> </tr> </tbody> </table>",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_date",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Today's date:",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_age",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How old are you?",
+        "select_choices_or_calculations": [],
+        "field_note": "Years old",
+        "text_validation_type_or_show_slider_number": "integer",
+        "text_validation_min": "18",
+        "text_validation_max": "100",
+        "identifier": "y",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_sex",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What is your sex assigned at birth?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Male"
+            },
+            {
+                "code": "2",
+                "label": "Female"
+            },
+            {
+                "code": "3",
+                "label": "Prefer not to say"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "y",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_care_yn",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "In the last week, have you provided any care for the person you are a proxy for?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_employment",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What is your current employment status?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Full time employment (including self-employment)"
+            },
+            {
+                "code": "2",
+                "label": "Part-time employment (including self-employment)"
+            },
+            {
+                "code": "3",
+                "label": "Not currently in employment"
+            },
+            {
+                "code": "4",
+                "label": "Retired/Other"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_work_hours",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "How many hours do you currently work in a typical week?",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "integer",
+        "text_validation_min": "0",
+        "text_validation_max": "112",
+        "identifier": "",
+        "branching_logic": "[pcblq_employment] = '1' or [pcblq_employment] = '2'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_hours_missed",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "During the last week, how many hours of work did you miss due to your caring responsibilities?",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "integer",
+        "text_validation_min": "0",
+        "text_validation_max": "[pcblq_work_hours]",
+        "identifier": "",
+        "branching_logic": "([pcblq_employment] = '1' or [pcblq_employment] = '2') AND\n[pcblq_care_yn] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_productivity",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "During the last week, how much did your caring responsibilities affect your productivity whilst you were working?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 - Could work as usual"
+            },
+            {
+                "code": "1",
+                "label": "1"
+            },
+            {
+                "code": "2",
+                "label": "2"
+            },
+            {
+                "code": "3",
+                "label": "3"
+            },
+            {
+                "code": "4",
+                "label": "4"
+            },
+            {
+                "code": "5",
+                "label": "5"
+            },
+            {
+                "code": "6",
+                "label": "6"
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8"
+            },
+            {
+                "code": "9",
+                "label": "9"
+            },
+            {
+                "code": "10",
+                "label": "10 - Could not work at all"
+            }
+        ],
+        "field_note": "If you were able to work as usual, choose a low number. If you were not able to work as usual, choose a high number. This may include: accomplishing less than usual, not able to concentrate or perform certain tasks as carefully as you usually would.",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "([pcblq_employment] = '1' or [pcblq_employment] = '2') AND\n[pcblq_care_yn] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_care_hours",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Care encompasses any tasks that you would not have had to perform if the person you care for was in good health, or anything that they could have performed independently.\n\nDuring the last week, how many hours did you spend providing care?",
+        "select_choices_or_calculations": [],
+        "field_note": "Hours per week",
+        "text_validation_type_or_show_slider_number": "integer",
+        "text_validation_min": "0",
+        "text_validation_max": "168",
+        "identifier": "",
+        "branching_logic": "[pcblq_care_yn] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcblq_care",
+        "form_name": "proxy_costs_baseline_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Do you share your caring responsibilities with anyone who is not a paid or professional caregiver (e.g., family members, friends, neighbours)?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "No, I am the only caregiver that is not a paid or professional caregiver."
+            },
+            {
+                "code": "2",
+                "label": "I share caring responsibilities with 1 other"
+            },
+            {
+                "code": "3",
+                "label": "I share caring responsibilities with 2 others"
+            },
+            {
+                "code": "4",
+                "label": "I share caring responsibilities with 3 or more others"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[pcblq_care_yn] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

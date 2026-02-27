@@ -1,0 +1,249 @@
+[
+    {
+        "field_name": "eq5d_mb_S1_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Mobility",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems in walking about"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems in walking about"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems in walking about"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems in walking about"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to walk about"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "mobility",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d_sc_S1_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Self-care",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems washing or dressing myself"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems washing or dressing myself"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems washing or dressing myself"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems washing or dressing myself"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to wash or dress myself"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "selfcare",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d_ua_S1_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Usual activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no problems doing my usual activities"
+            },
+            {
+                "code": "1",
+                "label": "I have slight problems doing my usual activities"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate problems doing my usual activities"
+            },
+            {
+                "code": "3",
+                "label": "I have severe problems doing my usual activities"
+            },
+            {
+                "code": "4",
+                "label": "I am unable to do my usual activities"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "usualactivities",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d_pd_S1_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Pain / discomfort",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I have no pain or discomfort"
+            },
+            {
+                "code": "1",
+                "label": "I have slight pain or discomfort"
+            },
+            {
+                "code": "2",
+                "label": "I have moderate pain or discomfort"
+            },
+            {
+                "code": "3",
+                "label": "I have severe pain or discomfort"
+            },
+            {
+                "code": "4",
+                "label": "I have extreme pain or discomfort"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "paindiscomfort",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d_ad_S1_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "Please select the ONE option that best describes your health TODAY.",
+        "field_type": "radio",
+        "field_label": "Anxiety / depression",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "I am not anxious or depressed"
+            },
+            {
+                "code": "1",
+                "label": "I am slightly anxious or depressed"
+            },
+            {
+                "code": "2",
+                "label": "I am moderately anxious or depressed"
+            },
+            {
+                "code": "3",
+                "label": "I am severely anxious or depressed"
+            },
+            {
+                "code": "4",
+                "label": "I am extremely anxious or depressed"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "anxietydepression",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d5l_vas2_uk_eng",
+        "form_name": "eq5d5l",
+        "section_header": "We would like to know how good or bad your health is TODAY.",
+        "field_type": "slider",
+        "field_label": "Thinking about your health TODAY, how good or bad is your health on this scale where 0 means the worst health you can imagine and 100 means the best health you can imagine?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 (worst health you can imagine)"
+            },
+            {
+                "code": "100",
+                "label": "100 (best health you can imagine)"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "0",
+        "text_validation_max": "100",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "0",
+            "max": "100",
+            "step": "1",
+            "labelLeft": "Worst health you can imagine",
+            "labelRight": "Best health you can imagine"
+        }
+    }
+]

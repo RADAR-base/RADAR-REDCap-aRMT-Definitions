@@ -1,10 +1,31 @@
 [
     {
-        "field_name": "qlq-c30-1",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_header1",
+        "form_name": "eortc30",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "We are interested in some things about you and your health. Please answer all of the questions yourself by selecting the answer that best applies to you.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eortc_qlqc30_01",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or a suitcase?",
+        "field_label": "Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or suitcase?",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -38,8 +59,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-2",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_02",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Do you have any trouble taking a long walk?",
@@ -76,8 +97,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-3",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_03",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Do you have any trouble taking a short walk outside of the house?",
@@ -114,8 +135,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-4",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_04",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Do you need to stay in bed or a chair during the day?",
@@ -152,8 +173,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-5",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_05",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Do you need help with eating, dressing, washing yourself or using the toilet?",
@@ -190,9 +211,9 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-6",
-        "form_name": "qlq-c30-1",
-        "section_header": "During the past week:",
+        "field_name": "eortc_qlqc30_06",
+        "form_name": "eortc30",
+        "section_header": "",
         "field_type": "radio",
         "field_label": "Were you limited in doing either your work or other daily activities?",
         "select_choices_or_calculations": [
@@ -228,8 +249,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-7",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_07",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Were you limited in pursuing your hobbies or other leisure time activities?",
@@ -266,8 +287,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-8",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_08",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Were you short of breath?",
@@ -304,8 +325,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-9",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_09",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you had pain?",
@@ -342,8 +363,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-10",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_10",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you need to rest?",
@@ -380,8 +401,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-11",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_11",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you had trouble sleeping?",
@@ -418,8 +439,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-12",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_12",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you felt weak?",
@@ -456,8 +477,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-13",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_13",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you lacked appetite?",
@@ -494,8 +515,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-14",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_14",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you felt nauseated?",
@@ -532,8 +553,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-15",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_15",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you vomited?",
@@ -570,8 +591,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-16",
-        "form_name": "qlq-c30-1",
+        "field_name": "eortc_qlqc30_16",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you been constipated?",
@@ -608,9 +629,9 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-17",
-        "form_name": "qlq-c30-2",
-        "section_header": "During the past week:",
+        "field_name": "eortc_qlqc30_17",
+        "form_name": "eortc30",
+        "section_header": "",
         "field_type": "radio",
         "field_label": "Have you had diarrhea?",
         "select_choices_or_calculations": [
@@ -646,8 +667,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-18",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_18",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Were you tired?",
@@ -684,8 +705,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-19",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_19",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did pain interfere with your daily activities?",
@@ -722,8 +743,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-20",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_20",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you had difficulty in concentrating on things, like reading a newspaper or watching television?",
@@ -760,8 +781,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-21",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_21",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel tense?",
@@ -798,8 +819,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-22",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_22",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you worry?",
@@ -836,8 +857,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-23",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_23",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel irritable?",
@@ -874,8 +895,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-24",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_24",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Did you feel depressed?",
@@ -912,8 +933,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-25",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_25",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Have you had difficulty remembering things?",
@@ -950,8 +971,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-26",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_26",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Has your physical condition or medical treatment interfered with your family life?",
@@ -988,8 +1009,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-27",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_27",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Has your physical condition or medical treatment interfered with your social activities?",
@@ -1026,8 +1047,8 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-28",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_28",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Has your physical condition or medical treatment caused you financial difficulties?",
@@ -1064,9 +1085,30 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "qlq-c30-29",
-        "form_name": "qlq-c30-2",
-        "section_header": "For the following questions please circle the number between 1 and 7 that best applies to you.",
+        "field_name": "eortc_header3",
+        "form_name": "eortc30",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "For the following questions please select the number between 1 and 7 that best applies to you.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eortc_qlqc30_29",
+        "form_name": "eortc30",
+        "section_header": "",
         "field_type": "slider",
         "field_label": "How would you rate your overall health during the past week?",
         "select_choices_or_calculations": [
@@ -1121,8 +1163,8 @@
         }
     },
     {
-        "field_name": "qlq-c30-30",
-        "form_name": "qlq-c30-2",
+        "field_name": "eortc_qlqc30_30",
+        "form_name": "eortc30",
         "section_header": "",
         "field_type": "slider",
         "field_label": "How would you rate your overall quality of life during the past week?",

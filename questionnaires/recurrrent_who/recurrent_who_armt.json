@@ -1,0 +1,86 @@
+[
+    {
+        "field_name": "swqpa_date",
+        "form_name": "participant_six_weekly_questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Date completed",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_min": "[screening_arm_1][sf_date]",
+        "text_validation_max": "today",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "swqpa_header",
+        "form_name": "participant_six_weekly_questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "<div class=\"rich-text-field-label\"><table border=\"\" width=\"100%\" cellpadding=\"15\" bgcolor=\"#F1948A\"> <tbody> <tr> <td style=\"border-style: solid; border-width: 1px;\"><center> <h5><br><strong>This form should be completed in SURVEY mode. <br><br>Please <a style=\"font-size: large;\" href=\"[survey-url:participant_six_weekly_questionnaire]\"><strong>CLICK HERE</strong></a> to begin,<br><br></strong><strong>and then click the <span style=\"color: #800000;\">Leave without saving changes</span> button to proceed.</strong></h5> <p> </p> </center></td> </tr> </tbody> </table></div>",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "swqpa_who_performance",
+        "form_name": "participant_six_weekly_questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Which of the below numbers do you think best describes you at the moment:",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "0 Fully active. I can carry on with all pre-disease activities without any restrictions."
+            },
+            {
+                "code": "1",
+                "label": "1 Restricted in strenuous activities. I am restricted in physically strenuous activity but can still walk and carry out work of a light or sedentary nature (e.g. light house work or office work)."
+            },
+            {
+                "code": "2",
+                "label": "2 I am able to get around and capable of self-care but cannot carry out any work activities. I am up and about more than half of my waking hours."
+            },
+            {
+                "code": "3",
+                "label": "3 I am capable of only limited self-care and confined to a bed or chair more than half of my waking hours."
+            },
+            {
+                "code": "4",
+                "label": "4 Completely disabled. I cannot carry out any self-care activities and am totally confined to a bed or chair."
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

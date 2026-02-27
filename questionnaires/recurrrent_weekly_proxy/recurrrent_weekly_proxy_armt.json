@@ -1,0 +1,186 @@
+[
+  {
+    "field_name": "wqpr_date",
+    "form_name": "proxy_weekly_questionnaire",
+    "section_header": "",
+    "field_type": "text",
+    "field_label": "Date Completed",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "date_dmy",
+    "text_validation_min": "[randomisation_arm_1][r_date]",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wqpr_instrustions",
+    "form_name": "proxy_weekly_questionnaire",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "Please answer the following questions about the person who you are acting as a proxy for in the RECURRENT-GB trial.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wqpr_q29",
+    "form_name": "proxy_weekly_questionnaire",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "How would you rate their overall health during the past week?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "1  - Very Poor"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7 - Excellent"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wqpr_q30",
+    "form_name": "proxy_weekly_questionnaire",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "How would you rate their overall quality of life during the past week?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "1  - Very Poor"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7 - Excellent"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wqpr_anchorq",
+    "form_name": "proxy_weekly_questionnaire",
+    "section_header": "",
+    "field_type": "radio",
+    "field_label": "Compared to when the person you are a proxy for joined this study, how much do you think their overall quality of life changed?",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Much Better"
+      },
+      {
+        "code": "2",
+        "label": "Better"
+      },
+      {
+        "code": "3",
+        "label": "Similar"
+      },
+      {
+        "code": "4",
+        "label": "Worse"
+      },
+      {
+        "code": "5",
+        "label": "Much Worse"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
