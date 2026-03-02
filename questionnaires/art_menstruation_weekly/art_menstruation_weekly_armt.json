@@ -21,7 +21,7 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "mensturation_start",
+    "field_name": "mensturation_start_days",
     "form_name": "art_mensturation_weekly",
     "section_header": "",
     "field_type": "radio",
@@ -86,13 +86,13 @@
     "text_validation_min": "",
     "text_validation_max": "",
     "identifier": "",
-    "branching_logic": "[mensturation_start] = '8'",
+    "branching_logic": "[mensturation_start_days] = '8'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
     "matrix_group_name": "",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "response[mensturation_start] == '8'"
+    "evaluated_logic": "response[mensturation_start_days] == '8'"
   }
 ]
