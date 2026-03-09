@@ -12,7 +12,7 @@
         "text_validation_max": "today",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
@@ -50,23 +50,23 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "0 Fully active. I can carry on with all pre-disease activities without any restrictions."
+                "label": "Fully active. I can carry on with all pre-disease activities without any restrictions."
             },
             {
                 "code": "1",
-                "label": "1 Restricted in strenuous activities. I am restricted in physically strenuous activity but can still walk and carry out work of a light or sedentary nature (e.g. light house work or office work)."
+                "label": "Restricted in strenuous activities. I am restricted in physically strenuous activity but can still walk and carry out work of a light or sedentary nature (e.g. light house work or office work)."
             },
             {
                 "code": "2",
-                "label": "2 I am able to get around and capable of self-care but cannot carry out any work activities. I am up and about more than half of my waking hours."
+                "label": "I am able to get around and capable of self-care but cannot carry out any work activities. I am up and about more than half of my waking hours."
             },
             {
                 "code": "3",
-                "label": "3 I am capable of only limited self-care and confined to a bed or chair more than half of my waking hours."
+                "label": "I am capable of only limited self-care and confined to a bed or chair more than half of my waking hours."
             },
             {
                 "code": "4",
-                "label": "4 Completely disabled. I cannot carry out any self-care activities and am totally confined to a bed or chair."
+                "label": "Completely disabled. I cannot carry out any self-care activities and am totally confined to a bed or chair."
             }
         ],
         "field_note": "",
@@ -75,7 +75,7 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
+        "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
