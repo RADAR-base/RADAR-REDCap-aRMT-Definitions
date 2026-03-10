@@ -641,30 +641,9 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "pacq_extra_costs_table",
-    "form_name": "participant_costs_3_month_questionnaire",
-    "section_header": "",
-    "field_type": "descriptive",
-    "field_label": "<div class=\"rich-text-field-label\"><p>Please tell us about these additional costs / expenses below.<br><br>We understand that it is difficult to remember everything. Please give your best guess.</p> <table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 49.9497%;\"><col style=\"width: 49.9497%;\"></colgroup> <tbody> <tr> <td>Type of cost or expense to you, your family, or friends</td> <td>Approximate cost to you, your family or friends, (£) in the last 3 months.</td> </tr> <tr> <td>{pacq_ecost_type_1}</td> <td>{pacq_ecost_cost_1}</td> </tr> <tr> <td>{pacq_ecost_type_2}</td> <td>{pacq_ecost_cost_2}</td> </tr> <tr> <td>{pacq_ecost_type_3}</td> <td>{pacq_ecost_cost_3}</td> </tr> <tr> <td>{pacq_ecost_type_4}</td> <td>{pacq_ecost_cost_4}</td> </tr> </tbody> </table> <p> </p></div>",
-    "select_choices_or_calculations": [],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
-  },
-  {
     "field_name": "pacq_ecost_type_1",
     "form_name": "participant_costs_3_month_questionnaire",
-    "section_header": "",
+    "section_header": "Please tell us about these additional costs / expenses below.<br><br>We understand that it is difficult to remember everything. Please give your best guess.",
     "field_type": "text",
     "field_label": "Type of cost",
     "select_choices_or_calculations": [],
@@ -853,7 +832,7 @@
   {
     "field_name": "pacq_gp_online",
     "form_name": "participant_costs_3_month_questionnaire",
-    "section_header": "",
+    "section_header": " ",
     "field_type": "text",
     "field_label": "In the last 3 months, how many times have you had an appointment with a doctor (GP) over the telephone or online?",
     "select_choices_or_calculations": [],
@@ -986,36 +965,15 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "pacq_medications_tbl",
-    "form_name": "participant_costs_3_month_questionnaire",
-    "section_header": "",
-    "field_type": "descriptive",
-    "field_label": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 46.6516%;\"><col style=\"width: 27.8284%;\"><col style=\"width: 25.5201%;\"></colgroup> <tbody> <tr> <td> </td> <td>Medication, prescribed?</td> <td>Number of times picked up or received from pharmacy in last 3 months?</td> </tr> <tr> <td>Dexamethasone</td> <td>{pacq_medications_1}</td> <td>{pacq_prescriptions_1}</td> </tr> <tr> <td>Levetiracetam (Keppra)</td> <td>{pacq_medications_2}</td> <td>{pacq_prescriptions_2}</td> </tr> <tr> <td>Sodium valproate (Epilim)</td> <td>{pacq_medications_3}</td> <td>{pacq_prescriptions_3}</td> </tr> <tr> <td>Omeprazole/Esomeprazole/Lansoprazole/Pantoprazole</td> <td>{pacq_medications_4}</td> <td>{pacq_prescriptions_4}</td> </tr> <tr> <td>Ranitidine/Famotidine/Cimetidine</td> <td>{pacq_medications_5}</td> <td>{pacq_prescriptions_5}</td> </tr> <tr> <td> <p>Other</p> <p>{pacq_medications_other}</p> </td> <td> <p>{pacq_medications_88}</p> </td> <td>{pacq_prescriptions_other}</td> </tr> </tbody> </table> <p> </p></div>",
-    "select_choices_or_calculations": [],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "[pacq_prescription_yn] = '1'",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
-  },
-  {
     "field_name": "pacq_medications_1",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Dexamethasone",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1027,7 +985,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1036,12 +994,12 @@
     "field_name": "pacq_medications_2",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Levetiracetam (Keppra)",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1053,7 +1011,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1062,12 +1020,12 @@
     "field_name": "pacq_medications_3",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Sodium valproate (Epilim)",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1079,7 +1037,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1088,12 +1046,12 @@
     "field_name": "pacq_medications_4",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Omeprazole/Esomeprazole/Lansoprazole/Pantoprazole",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1105,7 +1063,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1114,12 +1072,12 @@
     "field_name": "pacq_medications_5",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Ranitidine/Famotidine/Cimetidine",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1131,7 +1089,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1140,12 +1098,12 @@
     "field_name": "pacq_medications_88",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
-    "field_type": "checkbox",
+    "field_type": "matrix-radio",
     "field_label": "Other",
     "select_choices_or_calculations": [
       {
         "code": "1",
-        "label": ""
+        "label": "Select if prescribed"
       }
     ],
     "field_note": "",
@@ -1157,7 +1115,7 @@
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "",
+    "matrix_group_name": "pacq_medications",
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -1188,7 +1146,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Dexamethasone (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "integer",
@@ -1209,7 +1167,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Levetiracetam (Keppra) (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "integer",
@@ -1230,7 +1188,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Sodium valproate (Epilim) (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "integer",
@@ -1251,7 +1209,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Omeprazole/Esomeprazole/Lansoprazole/Pantoprazole (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "integer",
@@ -1272,7 +1230,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Ranitidine/Famotidine/Cimetidine (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "integer",
@@ -1293,7 +1251,7 @@
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
     "field_type": "text",
-    "field_label": "Number of times picked up or received from pharmacy in the last 3 months?",
+    "field_label": "Other (Number of times picked up or received from pharmacy in the last 3 months?)",
     "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
