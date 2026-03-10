@@ -24,9 +24,26 @@
     "field_name": "eortc_qlqc30_q1",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "1. Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or a suitcase?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -39,21 +56,32 @@
     "matrix_group_name": "eortcc30_g1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q2",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "2. Do you have any trouble taking a long walk?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -66,21 +94,32 @@
     "matrix_group_name": "eortcc30_g1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q3",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "3. Do you have any trouble taking a short walk outside of the house?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -93,21 +132,32 @@
     "matrix_group_name": "eortcc30_g1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q4",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "4. Do you need to stay in bed or a chair during the day?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -120,21 +170,32 @@
     "matrix_group_name": "eortcc30_g1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q5",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "5. Do you need help with eating, dressing, washing yourself or using the toilet?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -147,13 +208,7 @@
     "matrix_group_name": "eortcc30_g1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_header7",
@@ -180,9 +235,26 @@
     "field_name": "eortc_qlqc30_q6",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "6. Were you limited in doing either your work or other daily activities?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -195,21 +267,32 @@
     "matrix_group_name": "eortcc30_g2",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q7",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "7. Were you limited in pursuing your hobbies or other leisure time activities?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -222,21 +305,32 @@
     "matrix_group_name": "eortcc30_g2",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q8",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "8. Were you short of breath?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -249,21 +343,32 @@
     "matrix_group_name": "eortcc30_g2",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q9",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "9. Have you had pain?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -276,21 +381,32 @@
     "matrix_group_name": "eortcc30_g2",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q10",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "10. Did you need to rest?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -303,21 +419,32 @@
     "matrix_group_name": "eortcc30_g2",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q11",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "11. Have you had trouble sleeping?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -330,21 +457,32 @@
     "matrix_group_name": "eortcc30_g3",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q12",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "12. Have you felt weak?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -357,21 +495,32 @@
     "matrix_group_name": "eortcc30_g3",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q13",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "13. Have you lacked appetite?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -384,21 +533,32 @@
     "matrix_group_name": "eortcc30_g3",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q14",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "14. Have you felt nauseated?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -411,21 +571,32 @@
     "matrix_group_name": "eortcc30_g3",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q15",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "15. Have you vomited?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -438,21 +609,32 @@
     "matrix_group_name": "eortcc30_g3",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q16",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "16. Have you been constipated?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -465,21 +647,32 @@
     "matrix_group_name": "eortcc30_g4",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q17",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "17. Have you had diarrhea?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -492,21 +685,32 @@
     "matrix_group_name": "eortcc30_g4",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q18",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "18. Were you tired?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -519,21 +723,32 @@
     "matrix_group_name": "eortcc30_g4",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q19",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "19. Did pain interfere with your daily activities?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -546,21 +761,32 @@
     "matrix_group_name": "eortcc30_g4",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q20",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "20. Have you had difficulty in concentrating on things, like reading a newspaper or watching television?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -573,21 +799,32 @@
     "matrix_group_name": "eortcc30_g4",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q21",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "21. Did you feel tense?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -600,21 +837,32 @@
     "matrix_group_name": "eortcc30_g5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q22",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "22. Did you worry?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -627,21 +875,32 @@
     "matrix_group_name": "eortcc30_g5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q23",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "23. Did you feel irritable?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -654,21 +913,32 @@
     "matrix_group_name": "eortcc30_g5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q24",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "24. Did you feel depressed?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -681,21 +951,32 @@
     "matrix_group_name": "eortcc30_g5",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q25",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "25. Have you had difficulty remembering things?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -708,21 +989,32 @@
     "matrix_group_name": "eortcc30_g6",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q26",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "26. Has your physical condition or medical treatment interfered with your family life?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -735,21 +1027,32 @@
     "matrix_group_name": "eortcc30_g6",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q27",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "27. Has your physical condition or medical treatment interfered with your social activities?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -762,21 +1065,32 @@
     "matrix_group_name": "eortcc30_g6",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q28",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "28. Has your physical condition or medical treatment caused you financial difficulties?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Not at all"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": "Very much"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -789,21 +1103,44 @@
     "matrix_group_name": "eortcc30_g6",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "4",
-      "labelLeft": "Not at all",
-      "labelRight": "Very much"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q29",
     "form_name": "eortcc30",
     "section_header": "For the following questions, please select the number between 1 and 7 that best applies to you.",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "29. How would you rate your overall health during the past week?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Very poor"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": ""
+      },
+      {
+        "code": "5",
+        "label": ""
+      },
+      {
+        "code": "6",
+        "label": ""
+      },
+      {
+        "code": "7",
+        "label": "Excellent"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -816,21 +1153,44 @@
     "matrix_group_name": "eortcc30_g7",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "7",
-      "labelLeft": "Very poor",
-      "labelRight": "Excellent"
-    }
+    "evaluated_logic": ""
   },
   {
     "field_name": "eortc_qlqc30_q30",
     "form_name": "eortcc30",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "30. How would you rate your overall quality of life during the past week?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "Very poor"
+      },
+      {
+        "code": "2",
+        "label": ""
+      },
+      {
+        "code": "3",
+        "label": ""
+      },
+      {
+        "code": "4",
+        "label": ""
+      },
+      {
+        "code": "5",
+        "label": ""
+      },
+      {
+        "code": "6",
+        "label": ""
+      },
+      {
+        "code": "7",
+        "label": "Excellent"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -843,12 +1203,6 @@
     "matrix_group_name": "eortcc30_g7",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
-    "range": {
-      "min": "1",
-      "max": "7",
-      "labelLeft": "Very poor",
-      "labelRight": "Excellent"
-    }
+    "evaluated_logic": ""
   }
 ]
