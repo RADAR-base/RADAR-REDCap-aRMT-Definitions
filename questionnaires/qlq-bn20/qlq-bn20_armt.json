@@ -1,783 +1,563 @@
 [
-    {
-        "field_name": "bn20_q31",
-        "form_name": "eortcqlqbn20",
-        "section_header": "Patients sometimes report that they have the following symptoms. Please indicate the extent to which you have experienced these symptoms or problems during the past week.",
-        "field_type": "slider",
-        "field_label": "31. Did you feel uncertain about the future?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "31.",
-        "matrix_group_name": "bn20_g1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q32",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "32. Did you feel you had setbacks in your condition?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "32.",
-        "matrix_group_name": "bn20_g1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q33",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "33. Were you concerned about disruption of family life?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "33.",
-        "matrix_group_name": "bn20_g1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q34",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "34. Did you have headaches?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "34.",
-        "matrix_group_name": "bn20_g1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q35",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "35. Did your outlook on the future worsen?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "35.",
-        "matrix_group_name": "bn20_g1",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q36",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "36. Did you have double vision?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "36.",
-        "matrix_group_name": "bn20_g2",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q37",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "37. Was your vision blurred?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "37.",
-        "matrix_group_name": "bn20_g2",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q38",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "38. Did you have difficulty reading because of your vision?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "38.",
-        "matrix_group_name": "bn20_g2",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q39",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "39. Did you have seizures?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "39.",
-        "matrix_group_name": "bn20_g2",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q40",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "40. Did you have weakness on one side of your body?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "40.",
-        "matrix_group_name": "bn20_g2",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q41",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "41. Did you have trouble finding the right words to express yourself?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "41.",
-        "matrix_group_name": "bn20_g3",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q42",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "42. Did you have difficuty speaking?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "42.",
-        "matrix_group_name": "bn20_g3",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q43",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "43. Did you have trouble communicating your thoughts?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "43.",
-        "matrix_group_name": "bn20_g3",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q44",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "44. Did you feel drowsy during the daytime?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "44.",
-        "matrix_group_name": "bn20_g3",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q45",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "45. Did you have trouble with your coordination?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "45.",
-        "matrix_group_name": "bn20_g3",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q46",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "46. Did hair loss bother you?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "46.",
-        "matrix_group_name": "bn20_g4",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q47",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "47. Did itching of your skin bother you?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "47.",
-        "matrix_group_name": "bn20_g4",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q48",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "48. Did you have weakness of both legs?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "48.",
-        "matrix_group_name": "bn20_g4",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q49",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "49. Did you feel unsteady on your feet?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "49.",
-        "matrix_group_name": "bn20_g4",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_q50",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "50. Did you have trouble controlling your bladder?",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "A little"
-            },
-            {
-                "code": "3",
-                "label": "Quite a bit"
-            },
-            {
-                "code": "4",
-                "label": "Very much"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "50.",
-        "matrix_group_name": "bn20_g4",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "bn20_copyright",
-        "form_name": "eortcqlqbn20",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p style=\"text-align: right;\"><span style=\"font-weight: normal;\"><em>EORTCQLQ-BN20 © Copyright 1995 EORTC Quality of Life Group. </em></span><br><span style=\"font-weight: normal;\"><em>All rights reserved. Version 3.0</em></span></p></div>",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
+  {
+    "field_name": "bn20_q31",
+    "form_name": "eortcqlqbn20",
+    "section_header": "Patients sometimes report that they have the following symptoms. Please indicate the extent to which you have experienced these symptoms or problems during the past week.",
+    "field_type": "slider",
+    "field_label": "31. Did you feel uncertain about the future?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "31.",
+    "matrix_group_name": "bn20_g1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
     }
+  },
+  {
+    "field_name": "bn20_q32",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "32. Did you feel you had setbacks in your condition?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "32.",
+    "matrix_group_name": "bn20_g1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q33",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "33. Were you concerned about disruption of family life?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "33.",
+    "matrix_group_name": "bn20_g1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q34",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "34. Did you have headaches?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "34.",
+    "matrix_group_name": "bn20_g1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q35",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "35. Did your outlook on the future worsen?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "35.",
+    "matrix_group_name": "bn20_g1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q36",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "36. Did you have double vision?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "36.",
+    "matrix_group_name": "bn20_g2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q37",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "37. Was your vision blurred?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "37.",
+    "matrix_group_name": "bn20_g2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q38",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "38. Did you have difficulty reading because of your vision?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "38.",
+    "matrix_group_name": "bn20_g2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q39",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "39. Did you have seizures?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "39.",
+    "matrix_group_name": "bn20_g2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q40",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "40. Did you have weakness on one side of your body?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "40.",
+    "matrix_group_name": "bn20_g2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q41",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "41. Did you have trouble finding the right words to express yourself?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "41.",
+    "matrix_group_name": "bn20_g3",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q42",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "42. Did you have difficuty speaking?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "42.",
+    "matrix_group_name": "bn20_g3",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q43",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "43. Did you have trouble communicating your thoughts?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "43.",
+    "matrix_group_name": "bn20_g3",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q44",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "44. Did you feel drowsy during the daytime?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "44.",
+    "matrix_group_name": "bn20_g3",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q45",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "45. Did you have trouble with your coordination?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "45.",
+    "matrix_group_name": "bn20_g3",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q46",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "46. Did hair loss bother you?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "46.",
+    "matrix_group_name": "bn20_g4",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q47",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "47. Did itching of your skin bother you?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "47.",
+    "matrix_group_name": "bn20_g4",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q48",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "48. Did you have weakness of both legs?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "48.",
+    "matrix_group_name": "bn20_g4",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q49",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "49. Did you feel unsteady on your feet?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "49.",
+    "matrix_group_name": "bn20_g4",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_q50",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "slider",
+    "field_label": "50. Did you have trouble controlling your bladder?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "",
+    "question_number": "50.",
+    "matrix_group_name": "bn20_g4",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "",
+    "range": {
+      "min": "1",
+      "max": "4",
+      "labelLeft": "Not at all",
+      "labelRight": "Very much"
+    }
+  },
+  {
+    "field_name": "bn20_copyright",
+    "form_name": "eortcqlqbn20",
+    "section_header": "",
+    "field_type": "descriptive",
+    "field_label": "<div class=\"rich-text-field-label\"><p style=\"text-align: right;\"><span style=\"font-weight: normal;\"><em>EORTCQLQ-BN20 © Copyright 1995 EORTC Quality of Life Group. </em></span><br><span style=\"font-weight: normal;\"><em>All rights reserved. Version 3.0</em></span></p></div>",
+    "select_choices_or_calculations": "",
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
 ]
