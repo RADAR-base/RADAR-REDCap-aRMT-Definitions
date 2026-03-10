@@ -683,6 +683,36 @@
     "evaluated_logic": ""
   },
   {
+    "field_name": "pacq_ecost_add_another_1",
+    "form_name": "participant_costs_3_month_questionnaire",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Do you have any other additional costs?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "pacq_g_ecost",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
     "field_name": "pacq_ecost_type_2",
     "form_name": "participant_costs_3_month_questionnaire",
     "section_header": "",
@@ -694,7 +724,7 @@
     "text_validation_min": "",
     "text_validation_max": "",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_1] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -715,7 +745,37 @@
     "text_validation_min": "0",
     "text_validation_max": "10000",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_1] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "pacq_g_ecost",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacq_ecost_add_another_2",
+    "form_name": "participant_costs_3_month_questionnaire",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Do you have any other additional costs?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No"
+      },
+      {
+        "code": "1",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_1] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -736,7 +796,7 @@
     "text_validation_min": "",
     "text_validation_max": "",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_2] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -757,7 +817,28 @@
     "text_validation_min": "0",
     "text_validation_max": "10000",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_2] = '1'",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "pacq_g_ecost",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "pacq_ecost_add_another_3",
+    "form_name": "participant_costs_3_month_questionnaire",
+    "section_header": "",
+    "field_type": "yesno",
+    "field_label": "Do you have any other additional costs?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_2] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -778,7 +859,7 @@
     "text_validation_min": "",
     "text_validation_max": "",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_3] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -799,7 +880,7 @@
     "text_validation_min": "0",
     "text_validation_max": "10000",
     "identifier": "",
-    "branching_logic": "[pacq_extra_costs_yn] = '1'",
+    "branching_logic": "[pacq_extra_costs_yn] = '1' and [pacq_ecost_add_another_3] = '1'",
     "required_field": "",
     "custom_alignment": "",
     "question_number": "",
@@ -940,16 +1021,7 @@
     "section_header": "Prescribed medications",
     "field_type": "yesno",
     "field_label": "In the last 3 months, have you picked up or received any prescribed medications due to your glioblastoma?",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "No"
-      },
-      {
-        "code": "1",
-        "label": "Yes"
-      }
-    ],
+    "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
