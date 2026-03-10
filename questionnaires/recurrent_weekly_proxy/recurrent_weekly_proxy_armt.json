@@ -45,38 +45,9 @@
     "field_name": "wqpr_q29",
     "form_name": "proxy_weekly_questionnaire",
     "section_header": "",
-    "field_type": "radio",
+    "field_type": "slider",
     "field_label": "How would you rate their overall health during the past week?",
-    "select_choices_or_calculations": [
-      {
-        "code": "1",
-        "label": "Very Poor"
-      },
-      {
-        "code": "2",
-        "label": ""
-      },
-      {
-        "code": "3",
-        "label": ""
-      },
-      {
-        "code": "4",
-        "label": ""
-      },
-      {
-        "code": "5",
-        "label": ""
-      },
-      {
-        "code": "6",
-        "label": ""
-      },
-      {
-        "code": "7",
-        "label": "Excellent"
-      }
-    ],
+    "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -86,7 +57,14 @@
     "required_field": "y",
     "custom_alignment": "",
     "question_number": "",
-    "matrix_group_name": "wqpr_g1",
+    "matrix_group_name": "",
+    "range": {
+      "min": "1",
+      "max": "7",
+      "step": "1",
+      "labelLeft": "Very Poor",
+      "labelRight": "Excellent"
+    },
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
@@ -95,38 +73,9 @@
     "field_name": "wqpr_q30",
     "form_name": "proxy_weekly_questionnaire",
     "section_header": "",
-    "field_type": "radio",
+    "field_type": "slider",
     "field_label": "How would you rate their overall quality of life during the past week?",
-    "select_choices_or_calculations": [
-      {
-        "code": "1",
-        "label": "Very Poor"
-      },
-      {
-        "code": "2",
-        "label": ""
-      },
-      {
-        "code": "3",
-        "label": ""
-      },
-      {
-        "code": "4",
-        "label": ""
-      },
-      {
-        "code": "5",
-        "label": ""
-      },
-      {
-        "code": "6",
-        "label": ""
-      },
-      {
-        "code": "7",
-        "label": "Excellent"
-      }
-    ],
+    "select_choices_or_calculations": [],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -137,6 +86,13 @@
     "custom_alignment": "",
     "question_number": "",
     "matrix_group_name": "wqpr_g1",
+    "range": {
+      "min": "1",
+      "max": "7",
+      "step": "1",
+      "labelLeft": "Very Poor",
+      "labelRight": "Excellent"
+    },
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": ""
