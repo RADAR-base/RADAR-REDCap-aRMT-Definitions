@@ -24,9 +24,38 @@
     "field_name": "wqpa_q29",
     "form_name": "participant_weekly_questionnaire",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "How would you rate your overall health during the past week?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "1 Very poor"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7 Excellent"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -38,13 +67,6 @@
     "question_number": "",
     "matrix_group_name": "",
     "matrix_ranking": "",
-    "range": {
-      "min": "1",
-      "max": "7",
-      "step": "1",
-      "labelLeft": "Very Poor",
-      "labelRight": "Excellent"
-    },
     "field_annotation": "",
     "evaluated_logic": ""
   },
@@ -52,9 +74,38 @@
     "field_name": "wqpa_q30",
     "form_name": "participant_weekly_questionnaire",
     "section_header": "",
-    "field_type": "slider",
+    "field_type": "radio",
     "field_label": "How would you rate your overall quality of life during the past week?",
-    "select_choices_or_calculations": [],
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "1 Very poor"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7 Excellent"
+      }
+    ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
@@ -66,13 +117,6 @@
     "question_number": "",
     "matrix_group_name": "wqpa_g1",
     "matrix_ranking": "",
-    "range": {
-      "min": "1",
-      "max": "7",
-      "step": "1",
-      "labelLeft": "Very Poor",
-      "labelRight": "Excellent"
-    },
     "field_annotation": "",
     "evaluated_logic": ""
   },
