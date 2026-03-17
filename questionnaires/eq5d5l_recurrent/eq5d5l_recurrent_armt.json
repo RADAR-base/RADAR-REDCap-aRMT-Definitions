@@ -215,20 +215,7 @@
         "section_header": "",
         "field_type": "slider",
         "field_label": "We would like to know how good or bad your health is TODAY. You will see a scale numbered from 0 to 100. 100 means the best health you can imagine. 0 means the worst health you can imagine. Please indicate on the scale how your health is TODAY.",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 - The worst health you can imagine"
-            },
-            {
-                "code": "50",
-                "label": "50"
-            },
-            {
-                "code": "100",
-                "label": "100 - The best health you can imagine"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "0",
