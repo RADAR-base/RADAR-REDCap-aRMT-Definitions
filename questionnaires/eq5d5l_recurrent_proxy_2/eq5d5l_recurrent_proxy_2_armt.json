@@ -1,30 +1,51 @@
 [
     {
-        "field_name": "eq5d_mb_5l_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "Please select the ONE box that best describes your health TODAY.",
+        "field_name": "eq5d5l_instr1_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "field_type": "descriptive",
+        "field_label": "How the proxy thinks the other person (e.g. the patient or care recipient) would describe their own health Under each heading, please choose the ONE answer that you think the person would choose to describe their own health TODAY",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "eq5d_mb_5l_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "radio",
         "field_label": "MOBILITY",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "I have no problems in walking about"
+                "label": "No problems in walking about"
             },
             {
                 "code": "2",
-                "label": "I have slight problems in walking about"
+                "label": "Slight problems in walking about"
             },
             {
                 "code": "3",
-                "label": "I have moderate problems in walking about"
+                "label": "Moderate problems in walking about"
             },
             {
                 "code": "4",
-                "label": "I have severe problems in walking about"
+                "label": "Severe problems in walking about"
             },
             {
                 "code": "5",
-                "label": "I am unable to walk about"
+                "label": "Unable to walk about"
             }
         ],
         "field_note": "",
@@ -42,31 +63,31 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "eq5d_sc_5l_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "Please select the ONE box that best describes your health TODAY.",
+        "field_name": "eq5d_sc_5l_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "radio",
         "field_label": "SELF-CARE",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "I have no problems washing or dressing myself"
+                "label": "No problems washing or dressing him/herself"
             },
             {
                 "code": "2",
-                "label": "I have slight problems washing or dressing myself"
+                "label": "Slight problems washing or dressing him/herself"
             },
             {
                 "code": "3",
-                "label": "I have moderate problems washing or dressing myself"
+                "label": "Moderate problems washing or dressing him/herself"
             },
             {
                 "code": "4",
-                "label": "I have severe problems washing or dressing myself"
+                "label": "Severe problems washing or dressing him/herself"
             },
             {
                 "code": "5",
-                "label": "I am unable to wash or dress myself"
+                "label": "Unable to wash or dress him/herself"
             }
         ],
         "field_note": "",
@@ -84,31 +105,31 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "eq5d_ua_5l_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "Please select the ONE box that best describes your health TODAY.",
+        "field_name": "eq5d_ua_5l_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "radio",
         "field_label": "USUAL ACTIVITIES (e.g. work, study, housework, family or leisure activities)",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "I have no problems doing my usual activities"
+                "label": "No problems doing his/her usual activities"
             },
             {
                 "code": "2",
-                "label": "I have slight problems doing my usual activities"
+                "label": "Slight problems doing his/her usual activities"
             },
             {
                 "code": "3",
-                "label": "I have moderate problems doing my usual activities"
+                "label": "Moderate problems doing his/her usual activities"
             },
             {
                 "code": "4",
-                "label": "I have severe problems doing my usual activities"
+                "label": "Severe problems doing his/her usual activities"
             },
             {
                 "code": "5",
-                "label": "I am unable to do my usual activities"
+                "label": "Unable to do his/her usual activities"
             }
         ],
         "field_note": "",
@@ -126,31 +147,31 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "eq5d_pd_5l_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "Please select the ONE box that best describes your health TODAY.",
+        "field_name": "eq5d_pd_5l_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "radio",
         "field_label": "PAIN / DISCOMFORT",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "I have no pain or discomfort"
+                "label": "No pain or discomfort"
             },
             {
                 "code": "2",
-                "label": "I have slight pain or discomfort"
+                "label": "Slight pain or discomfort"
             },
             {
                 "code": "3",
-                "label": "I have moderate pain or discomfort"
+                "label": "Moderate pain or discomfort"
             },
             {
                 "code": "4",
-                "label": "I have severe pain or discomfort"
+                "label": "Severe pain or discomfort"
             },
             {
                 "code": "5",
-                "label": "I have extreme pain or discomfort"
+                "label": "Extreme pain or discomfort"
             }
         ],
         "field_note": "",
@@ -168,31 +189,31 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "eq5d_ad_5l_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "Please select the ONE box that best describes your health TODAY.",
+        "field_name": "eq5d_ad_5l_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "radio",
         "field_label": "ANXIETY / DEPRESSION",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "I am not anxious or depressed"
+                "label": "Not anxious or depressed"
             },
             {
                 "code": "2",
-                "label": "I am slightly anxious or depressed"
+                "label": "Slightly anxious or depressed"
             },
             {
                 "code": "3",
-                "label": "I am moderately anxious or depressed"
+                "label": "Moderately anxious or depressed"
             },
             {
                 "code": "4",
-                "label": "I am severely anxious or depressed"
+                "label": "Severely anxious or depressed"
             },
             {
                 "code": "5",
-                "label": "I am extremely anxious or depressed"
+                "label": "Extremely anxious or depressed"
             }
         ],
         "field_note": "",
@@ -210,11 +231,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "eq5d5l_vas2_uk_eng",
-        "form_name": "eq5d5l",
-        "section_header": "",
+        "field_name": "eq5d5l_vas2_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
+        "section_header": "Please answer how you think the patient would answer about themselves.",
         "field_type": "slider",
-        "field_label": "We would like to know how good or bad your health is TODAY. You will see a scale numbered from 0 to 100. 100 means the best health you can imagine. 0 means the worst health you can imagine. Please indicate on the scale how your health is TODAY.",
+        "field_label": "We would like to know how good or bad you think the person would say their own health is TODAY. You will see a line numbered from 0 to 100. 100 means the best imaginable health. 0 means the worst imaginable health. Please indicate on the line how you think the person would say their own health is TODAY.",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -233,16 +254,16 @@
             "min": "0",
             "max": "100",
             "step": "1",
-            "labelLeft": "0 - The worst health you can imagine",
-            "labelRight": "100 - The best health you can imagine"
+            "labelLeft": "The worst imaginable health",
+            "labelRight": "The best imaginable health"
         }
     },
     {
-        "field_name": "eq5d5l_copy6_uk_eng_v3",
-        "form_name": "eq5d5l",
+        "field_name": "eq5d5l_copy6_uk_eng_p2",
+        "form_name": "eq5d5l_proxy_2",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<div><span style=\"font-weight: normal\"><i>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.0</i></span></div>",
+        "field_label": "<div><span style=\"font-weight: normal\"><i>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.5. This is a modified EQ-5D.</i></span></div>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
