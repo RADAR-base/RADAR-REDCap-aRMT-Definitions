@@ -4,7 +4,7 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p>Thank you for agreeing to participate in the RECURRENT-GB study as a proxy.<br><br>Please complete this questionnaire on the costs incurred by you due to your relative/friend/spouse's illness. If you are not the main person providing regular support, please also discuss any questions you are unsure about with them. <br><br>If you have any questions about the study or this questionnaire, please do not hesitate to contact a member of the study team on recurrentgb@nds.ox.ac.uk or call 07917 101649 (Monday to Friday, 9-4pm, there is an answering machine for messages outside of these times)</p></div>",
+        "field_label": "Thank you for agreeing to participate in the RECURRENT-GB study as a proxy.<br><br>Please complete this questionnaire on the costs incurred by you due to your relative/friend/spouse's illness. If you are not the main person providing regular support, please also discuss any questions you are unsure about with them. <br><br>If you have any questions about the study or this questionnaire, please do not hesitate to contact a member of the study team on recurrentgb@nds.ox.ac.uk or call 07917 101649 (Monday to Friday, 9-4pm, there is an answering machine for messages outside of these times).",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -168,47 +168,47 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Could work as usual"
+                "label": "0 - Could work as usual"
             },
             {
                 "code": "1",
-                "label": ""
+                "label": "1"
             },
             {
                 "code": "2",
-                "label": ""
+                "label": "2"
             },
             {
                 "code": "3",
-                "label": ""
+                "label": "3"
             },
             {
                 "code": "4",
-                "label": ""
+                "label": "4"
             },
             {
                 "code": "5",
-                "label": ""
+                "label": "5"
             },
             {
                 "code": "6",
-                "label": ""
+                "label": "6"
             },
             {
                 "code": "7",
-                "label": ""
+                "label": "7"
             },
             {
                 "code": "8",
-                "label": ""
+                "label": "8"
             },
             {
                 "code": "9",
-                "label": ""
+                "label": "9"
             },
             {
                 "code": "10",
-                "label": "Could not work at all"
+                "label": "10 - Could not work at all"
             }
         ],
         "field_note": "If you were able to work as usual, choose a low number. If you were not able to work as usual, choose a high number. This may include: accomplishing less than usual, not able to concentrate or perform certain tasks as carefully as you usually would.",
@@ -268,32 +268,11 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "pcfuq_other_cost_table",
-        "form_name": "proxy_costs_follow_up_questionnaire",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><table style=\"border-collapse: collapse; width: 100%; height: 149.167px;\" border=\"1\"><colgroup><col style=\"width: 49.9038%;\"><col style=\"width: 49.9038%;\"></colgroup> <tbody> <tr style=\"height: 24.8611px;\"> <td>Description of cost:</td> <td>£</td> </tr> <tr style=\"height: 24.8611px;\"> <td>{pcfuq_cost_1_desc}</td> <td>{pcfuq_cost_1_cost}</td> </tr> <tr style=\"height: 24.8611px;\"> <td>{pcfuq_cost_2_desc}</td> <td>{pcfuq_cost_2_cost}</td> </tr> <tr style=\"height: 24.8611px;\"> <td>{pcfuq_cost_3_desc}</td> <td>{pcfuq_cost_3_cost}</td> </tr> <tr style=\"height: 24.8611px;\"> <td>{pcfuq_cost_4_desc}</td> <td>{pcfuq_cost_4_cost}</td> </tr> <tr style=\"height: 24.8611px;\"> <td>{pcfuq_cost_5_desc}</td> <td>{pcfuq_cost_5_cost}</td> </tr> </tbody> </table> <p> </p></div>",
-        "select_choices_or_calculations": [],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "pcfuq_cost_1_desc",
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 1 description",
+        "field_label": "Cost 1: Description of cost",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -314,10 +293,40 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 1 value",
+        "field_label": "Cost 1: Value in £",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcfuq_cost_2",
+        "form_name": "proxy_costs_follow_up_questionnaire",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you want to add another cost?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -335,14 +344,14 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 2 description",
+        "field_label": "Cost 2: Description of cost",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -356,14 +365,44 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 2 value",
+        "field_label": "Cost 2: Value in £",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_2] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcfuq_cost_3",
+        "form_name": "proxy_costs_follow_up_questionnaire",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you want to add another cost?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[pcfuq_cost_2] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -377,14 +416,14 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 3 description",
+        "field_label": "Cost 3: Description of cost",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -398,14 +437,44 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 3 value",
+        "field_label": "Cost 3: Value in £",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_3] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcfuq_cost_4",
+        "form_name": "proxy_costs_follow_up_questionnaire",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you want to add another cost?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[pcfuq_cost_3] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -419,14 +488,14 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 4 description",
+        "field_label": "Cost 4: Description of cost",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_4] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -440,14 +509,44 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 4 value",
+        "field_label": "Cost 4: Value in £",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_4] = '1'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "pcfuq_cost_5",
+        "form_name": "proxy_costs_follow_up_questionnaire",
+        "section_header": "",
+        "field_type": "yesno",
+        "field_label": "Do you want to add another cost?",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "No"
+            },
+            {
+                "code": "1",
+                "label": "Yes"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[pcfuq_cost_4] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -461,14 +560,14 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 5 description",
+        "field_label": "Cost 5: Description of cost",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_5] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -482,14 +581,14 @@
         "form_name": "proxy_costs_follow_up_questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Cost 5 value",
+        "field_label": "Cost 5: Value in £",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[pcfuq_cost_5] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
