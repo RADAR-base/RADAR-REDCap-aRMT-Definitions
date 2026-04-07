@@ -1,0 +1,2139 @@
+[
+    {
+        "field_name": "P1_Welcome",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Welcome to the Cycle Study!  We’d like to start by asking some questions about you. Then, we will ask you to complete daily and weekly Questionnaires for two menstrual cycles, or 10 weeks, whichever comes first.  If you have any questions, please contact us at cyclestudy@kcl.ac.uk. ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "P2_Initial Q",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "These questions are about you. There are no right or wrong answers. You can put \"Prefer not to answer”. Please click 'Next' to begin the questionnaire",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q1_Gender",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "What is your gender identity? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Female"
+            },
+            {
+                "code": "2",
+                "label": "Male"
+            },
+            {
+                "code": "3",
+                "label": "Non-binary/Genderqueer "
+            },
+            {
+                "code": "4",
+                "label": "Prefer to self-define"
+            },
+            {
+                "code": "5",
+                "label": "Don't Know"
+            },
+            {
+                "code": "6",
+                "label": "Prefer not to answer"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q2_DOB",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Date of birth: ",
+        "select_choices_or_calculations": [
+            {
+                "code": "",
+                "label": ""
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q3_Ethnicity",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Ethnicity: (These are the government recommended categories for measuring ethnicity. However, we appreciate that they may  not accurately represent everyone. Please feel free to use a text-box to self-define.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "White - English, Welsh, Scottish, Northern Irish or British"
+            },
+            {
+                "code": "2",
+                "label": "White - Irish"
+            },
+            {
+                "code": "3",
+                "label": "White - Gypsy or Irish Traveller "
+            },
+            {
+                "code": "4",
+                "label": "Any other White background"
+            },
+            {
+                "code": "5",
+                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
+            },
+            {
+                "code": "6",
+                "label": "Mixed or Multiple ethnic groups - White and Black African"
+            },
+            {
+                "code": "7",
+                "label": "Mixed or Multiple ethnic groups - White and Asian  "
+            },
+            {
+                "code": "8",
+                "label": "Any other Mixed or Multiple ethnic background"
+            },
+            {
+                "code": "9",
+                "label": "Asian or Asian British - Indian"
+            },
+            {
+                "code": "10",
+                "label": "Asian or Asian British - Bangladeshi "
+            },
+            {
+                "code": "11",
+                "label": "Asian or Asian British - Pakistani"
+            },
+            {
+                "code": "12",
+                "label": "Asian or Asian British - Chinese"
+            },
+            {
+                "code": "13",
+                "label": "Any other Asian background "
+            },
+            {
+                "code": "14",
+                "label": "Black, African, Caribbean or Black British - African"
+            },
+            {
+                "code": "15",
+                "label": "Black, African, Caribbean or Black British - Caribbean"
+            },
+            {
+                "code": "16",
+                "label": "Any other Black background"
+            },
+            {
+                "code": "17",
+                "label": "Any other ethnic group"
+            },
+            {
+                "code": "18",
+                "label": "Prefer not to answer"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q4_Education",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Highest level of education: ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "GCSE's"
+            },
+            {
+                "code": "2",
+                "label": "A-Levels"
+            },
+            {
+                "code": "3",
+                "label": "Currently studying undergraduate"
+            },
+            {
+                "code": "4",
+                "label": "Undergraduate degree"
+            },
+            {
+                "code": "5",
+                "label": "Currently studying postgraduate "
+            },
+            {
+                "code": "6",
+                "label": "Postgraduate degree "
+            },
+            {
+                "code": "7",
+                "label": "Other (please specify)"
+            },
+            {
+                "code": "8",
+                "label": "Prefer not to answer "
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q5_Profession or study",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Current profession or study:",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Preamble_PMDD",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "The next questions are about your experience of PMDD. There are no right or wrong answers. This will help us understand how your experience of PMDD relates to questions logged in your daily and weekly questionnaires and your wearable data. Please answer each question as best as you can. There will be opportunities to share your identity or experiences using free-text boxes. ",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q7_Time Diagnosis",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "When did you first receive a diagnosis of PMDD? (Please insert the approximate date, month, and / or year)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "White - English, Welsh, Scottish, Northern Irish or British"
+            },
+            {
+                "code": "2",
+                "label": "White - Irish"
+            },
+            {
+                "code": "3",
+                "label": "White - Gypsy or Irish Traveller "
+            },
+            {
+                "code": "4",
+                "label": "Any other White background"
+            },
+            {
+                "code": "5",
+                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
+            },
+            {
+                "code": "6",
+                "label": "Mixed or Multiple ethnic groups - White and Black African"
+            },
+            {
+                "code": "7",
+                "label": "Mixed or Multiple ethnic groups - White and Asian  "
+            },
+            {
+                "code": "8",
+                "label": "Any other Mixed or Multiple ethnic background"
+            },
+            {
+                "code": "9",
+                "label": "Asian or Asian British - Indian"
+            },
+            {
+                "code": "10",
+                "label": "Asian or Asian British - Bangladeshi "
+            },
+            {
+                "code": "11",
+                "label": "Asian or Asian British - Pakistani"
+            },
+            {
+                "code": "12",
+                "label": "Asian or Asian British - Chinese"
+            },
+            {
+                "code": "13",
+                "label": "Any other Asian background "
+            },
+            {
+                "code": "14",
+                "label": "Black, African, Caribbean or Black British - African"
+            },
+            {
+                "code": "15",
+                "label": "Black, African, Caribbean or Black British - Caribbean"
+            },
+            {
+                "code": "16",
+                "label": "Any other Black background"
+            },
+            {
+                "code": "17",
+                "label": "Any other ethnic group"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q8_Comorbidity",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Do you have any other conditions? If so, please briefly describe below and indicate if these are diagnosed or self-identified:",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "White - English, Welsh, Scottish, Northern Irish or British"
+            },
+            {
+                "code": "2",
+                "label": "White - Irish"
+            },
+            {
+                "code": "3",
+                "label": "White - Gypsy or Irish Traveller "
+            },
+            {
+                "code": "4",
+                "label": "Any other White background"
+            },
+            {
+                "code": "5",
+                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
+            },
+            {
+                "code": "6",
+                "label": "Mixed or Multiple ethnic groups - White and Black African"
+            },
+            {
+                "code": "7",
+                "label": "Mixed or Multiple ethnic groups - White and Asian  "
+            },
+            {
+                "code": "8",
+                "label": "Any other Mixed or Multiple ethnic background"
+            },
+            {
+                "code": "9",
+                "label": "Asian or Asian British - Indian"
+            },
+            {
+                "code": "10",
+                "label": "Asian or Asian British - Bangladeshi "
+            },
+            {
+                "code": "11",
+                "label": "Asian or Asian British - Pakistani"
+            },
+            {
+                "code": "12",
+                "label": "Asian or Asian British - Chinese"
+            },
+            {
+                "code": "13",
+                "label": "Any other Asian background "
+            },
+            {
+                "code": "14",
+                "label": "Black, African, Caribbean or Black British - African"
+            },
+            {
+                "code": "15",
+                "label": "Black, African, Caribbean or Black British - Caribbean"
+            },
+            {
+                "code": "16",
+                "label": "Any other Black background"
+            },
+            {
+                "code": "17",
+                "label": "Any other ethnic group"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q9_Treatment",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "Are you currently receiving any support or treatment for PMDD? If so, please briefly describe below",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "White - English, Welsh, Scottish, Northern Irish or British"
+            },
+            {
+                "code": "2",
+                "label": "White - Irish"
+            },
+            {
+                "code": "3",
+                "label": "White - Gypsy or Irish Traveller "
+            },
+            {
+                "code": "4",
+                "label": "Any other White background"
+            },
+            {
+                "code": "5",
+                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
+            },
+            {
+                "code": "6",
+                "label": "Mixed or Multiple ethnic groups - White and Black African"
+            },
+            {
+                "code": "7",
+                "label": "Mixed or Multiple ethnic groups - White and Asian  "
+            },
+            {
+                "code": "8",
+                "label": "Any other Mixed or Multiple ethnic background"
+            },
+            {
+                "code": "9",
+                "label": "Asian or Asian British - Indian"
+            },
+            {
+                "code": "10",
+                "label": "Asian or Asian British - Bangladeshi "
+            },
+            {
+                "code": "11",
+                "label": "Asian or Asian British - Pakistani"
+            },
+            {
+                "code": "12",
+                "label": "Asian or Asian British - Chinese"
+            },
+            {
+                "code": "13",
+                "label": "Any other Asian background "
+            },
+            {
+                "code": "14",
+                "label": "Black, African, Caribbean or Black British - African"
+            },
+            {
+                "code": "15",
+                "label": "Black, African, Caribbean or Black British - Caribbean"
+            },
+            {
+                "code": "16",
+                "label": "Any other Black background"
+            },
+            {
+                "code": "17",
+                "label": "Any other ethnic group"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q10_Contraception",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Are you currently using hormonal contraception?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "Logic to be added - if yes, ineligible for participation",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q10_Contraception",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Are you currently on antidepressant medication?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Preamble_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Do you experience some or any of the following premenstrual symptoms which start before your period and stop within a few days of bleeding?",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q1_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Depressed mood or hopelessness",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q2_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Anxiety or tension",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q3_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Tearfulness or increased sensitivity to rejection",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q4_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Anger or irritability",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q5_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Decreased interest in work activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q6_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Decreased interest in home activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q7_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Decreased interest in social activities",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q8_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Difficulty concentrating",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q9_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Fatigue or lack of energy",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q10_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Overeating or food cravings",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q11_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Insomnia",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q12_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Hypersomnia",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q13_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling overwhelmed or out of control",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q14_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Physical symptoms (e.g. breast tenderness, bloating)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q15_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have your symptoms interfered with your work efficiency or productivity? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q16_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have your symptoms interfered with your relationships with coworkers? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q17_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have your symptoms interfered with your relationships with your family?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q18_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have your symptoms interfered with your social life activities?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q19_PSST",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have your symptoms interfered with your home responsibilities?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Intro",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "The following questions ask about thoughts, feelings and behaviours, often tied to concerns about family, health, finances, and work. Please answer each question as best as you can. How often have you been bothered by the following over the past 2 weeks? (Click Next to begin)",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q1",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Little interest or pleasure in doing things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q2",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling down, depressed, or hopeless?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q3",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Trouble falling or staying asleep, or sleeping too much?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q4",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling tired or having little energy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q5",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Poor appetite or overeating?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q6",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q7",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q8",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q9",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way? For support, you can reach out to the Samaritans by calling Samaritans: calling 116 123 or emailing jo@samaritans.org for a reply within 24 hours. Click here for more information: https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "NB INSERT SKIP LOGIC IF SEVERAL DAYS TO NEARLY EVERY DAY",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q10",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling nervous, anxious, or on edge",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q11",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Not being able to stop or control worrying",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q12",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Worrying too much about different things",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q13",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Trouble relaxing",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q14",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Being so restless that it's hard to sit still",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q15",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Becoming easily annoyed or irritable",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q16",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Feeling afraid as if something awful might happen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ7_Q17",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "If you checked any items, how difficult have they made it for you to do your work, take care of things at home, or get along with other people? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not difficult at all"
+            },
+            {
+                "code": "2",
+                "label": "Somewhat difficult"
+            },
+            {
+                "code": "3",
+                "label": "Very difficult"
+            },
+            {
+                "code": "4",
+                "label": "Extremely difficult "
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Display_PHQ9_9",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. In an emergency, please dial 999 or 112. Click here for a link to create a suicide safety plan https://www.papyrus-uk.org/resource-suicide-safety-plan/ ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not difficult at all"
+            },
+            {
+                "code": "2",
+                "label": "Somewhat difficult"
+            },
+            {
+                "code": "3",
+                "label": "Very difficult"
+            },
+            {
+                "code": "4",
+                "label": "Extremely difficult "
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "End of Initial Q",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Thank you for taking the time to complete this initial questionnaire. If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. Please reach out to the Cycle Study team if you have any questions: cyclestudy@kcl.ac.uk. We now invite you to begin logging your Daily and Weekly Questionnaires by clicking [insert as relevant e.g., ‘next page’ or returning to the home page...]",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not difficult at all"
+            },
+            {
+                "code": "2",
+                "label": "Somewhat difficult"
+            },
+            {
+                "code": "3",
+                "label": "Very difficult"
+            },
+            {
+                "code": "4",
+                "label": "Extremely difficult "
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]

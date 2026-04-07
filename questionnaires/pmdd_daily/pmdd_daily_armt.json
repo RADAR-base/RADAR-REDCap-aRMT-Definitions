@@ -1,0 +1,381 @@
+[
+    {
+        "field_name": "Daily_Intro",
+        "form_name": "Daily Questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Welcome to your daily questionnaire. Please aim to complete this questionnaire each day for two menstrual cycles or 10 weeks, whichever comes first. Click 'Next' to begin. ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q1.1_Menstrual Bleeding",
+        "form_name": "Daily Questionnaire",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Are you experiencing menstrual bleeding today?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q1.2_Day Number",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If yes, which day of your period is today? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes"
+            },
+            {
+                "code": "2",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.1_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you felt nervous, anxious or on edge?  ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.2_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you felt not able to stop or control worrying? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.3_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you felt little interest or pleasure in doing things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.4_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you felt down, depressed or hopeless?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.5_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you experienced increased sensitivity, for example, to rejection?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.6_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Today, have you experienced pain or physical symptoms?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    },
+    {
+        "field_name": "Q2.6_Symptoms",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Thank you for taking the time to complete your Daily Questionnaire. Your response has been logged. If you have any questions, please contact the study team: cyclestudy@kcl.ac.uk. If you need someone to talk to, please contact the Samaritans on 116 123 or Nightline on 0207 631 0101. For more information please visit https://www.samaritans.org/how-we-can-help/contact-samaritan/   ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Mild"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "Severe"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "1",
+        "text_validation_max": "50",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "",
+        "range": {
+            "min": "1",
+            "max": "50"
+        }
+    }
+]
