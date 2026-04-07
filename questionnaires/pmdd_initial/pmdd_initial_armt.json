@@ -100,7 +100,7 @@
             }
         ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -191,6 +191,10 @@
             {
                 "code": "18",
                 "label": "Prefer not to answer"
+            },
+            {
+                "code": "19",
+                "label": "Prefer to self-define"
             }
         ],
         "field_note": "",
@@ -199,6 +203,27 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q3_Ethnicity_2",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If you prefer to self-define, please specify:",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[Q3_Ethnicity] = '19'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -253,6 +278,27 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q4_Education_2",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "text",
+        "field_label": "If you prefer to self-define your education level, please specify:",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[Q4_Education] = '7'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -2089,7 +2135,7 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[GAD7_PHQ7_Q9] = '2' or [GAD7_PHQ7_Q9] = '3' or [GAD7_PHQ7_Q9] = '4'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -2103,25 +2149,8 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Thank you for taking the time to complete this initial questionnaire. If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. Please reach out to the Cycle Study team if you have any questions: cyclestudy@kcl.ac.uk. We now invite you to begin logging your Daily and Weekly Questionnaires by clicking [insert as relevant e.g., ‘next page’ or returning to the home page...]",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not difficult at all"
-            },
-            {
-                "code": "2",
-                "label": "Somewhat difficult"
-            },
-            {
-                "code": "3",
-                "label": "Very difficult"
-            },
-            {
-                "code": "4",
-                "label": "Extremely difficult "
-            }
-        ],
+        "field_label": "Thank you for taking the time to complete this initial questionnaire.<br><br>If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. Please reach out to the Cycle Study team if you have any questions: <a href='mailto:cyclestudy@kcl.ac.uk'>cyclestudy@kcl.ac.uk</a>.<br><br>We now invite you to begin logging your Daily and Weekly Questionnaires by clicking 'Finish' and returning to the home page.",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
