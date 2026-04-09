@@ -1,0 +1,711 @@
+[
+    {
+        "field_name": "Biweekly_Intro",
+        "form_name": "Biweekly Questionnaire",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Welcome to the Biweekly Questionnaire. This questionnaire includes additional questions about about thoughts, feelings and behaviours, over the past 2 weeks, often tied to concerns about family, health, finances, and work.<br><br>Please answer each question as best as you can. Click 'next' to begin. ",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q1",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Little interest or pleasure in doing things?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q2",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Feeling down, depressed, or hopeless?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q3",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Trouble falling or staying asleep, or sleeping too much?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q4",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Feeling tired or having little energy?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q5",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Poor appetite or overeating?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q6",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q7",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q8",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q9",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "NB Branching logic to be added here to display helplines / support if values 2-4 selected",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q10",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Feeling nervous, anxious, or on edge",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "NB Branching logic to be added here to display helplines / support if values 2-4 selected",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q11",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Not being able to stop or control worrying",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q12",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Worrying too much about different things",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q13",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Trouble relaxing",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q14",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Being so restless that it's hard to sit still",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q15",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Becoming easily annoyed or irritable",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q16",
+        "form_name": "",
+        "section_header": "How often have you been bothered by the following over the past 2 weeks?",
+        "field_type": "checkbox",
+        "field_label": "Feeling afraid as if something awful might happen",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not at all"
+            },
+            {
+                "code": "2",
+                "label": "Several days"
+            },
+            {
+                "code": "3",
+                "label": "More than half the days"
+            },
+            {
+                "code": "4",
+                "label": "Nearly every day"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q17",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "If you checked any items, how difficult have they made it for you to do your work, take care of things at home, or get along with other people? ",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not difficult at all"
+            },
+            {
+                "code": "2",
+                "label": "Somewhat difficult "
+            },
+            {
+                "code": "3",
+                "label": "Very difficult"
+            },
+            {
+                "code": "4",
+                "label": "Extremely difficult"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Display_PHQ9_9",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>In an emergency, please dial 999 or 112. Click here for a link to create a suicide safety plan <a href='https://www.papyrus-uk.org/resource-suicide-safety-plan/'>https://www.papyrus-uk.org/resource-suicide-safety-plan/</a>",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[GAD7_PHQ9_Q9] = '2' or [GAD7_PHQ9_Q9] = '3' or [GAD7_PHQ9_Q9] = '4' or [GAD7_PHQ9_Q10] = '2' or [GAD7_PHQ9_Q10] = '3' or [GAD7_PHQ9_Q10] = '4'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Biweekly_End",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "Thank you for taking the time to complete your Weekly Questionnaire.<br><br>Your response has been logged.<br><br>If you have any questions, please contact the study team: <a href='mailto:cyclestudy@kcl.ac.uk'>cyclestudy@kcl.ac.uk</a>.<br><br>If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. ",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
