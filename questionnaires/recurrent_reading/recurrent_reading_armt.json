@@ -1,0 +1,250 @@
+[
+  {
+    "field_name": "read_prep_1",
+    "form_name": "reading",
+    "section_header": "Reading Aloud Task",
+    "field_type": "info",
+    "field_label": "In this task you will see a word or sentence on the screen. Please read it aloud.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Read each word or sentence out loud as clearly as you can. Take your time — you do not need to rush."
+      },
+      {
+        "code": "Format",
+        "label": "There are 4 words followed by 2 sentences. Each will appear on the screen one at a time. Tap 'Start recording' when you are ready to read, and tap 'Stop' when you have finished."
+      },
+      {
+        "code": "Note",
+        "label": "If you are unable to speak right now, you will have the option to indicate this on each screen."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_prep_2",
+    "form_name": "reading",
+    "section_header": "Ready to begin",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Important",
+        "label": "From the next screen onwards you will not be able to go back. Make sure you are in a quiet place. Press Next to begin the words."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_word_1",
+    "form_name": "reading",
+    "section_header": "Word 1 of 4 — read this word aloud",
+    "field_type": "guided-audio",
+    "field_label": "TIN",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "1",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_word_2",
+    "form_name": "reading",
+    "section_header": "Word 2 of 4 — read this word aloud",
+    "field_type": "guided-audio",
+    "field_label": "BROWN",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "2",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_word_3",
+    "form_name": "reading",
+    "section_header": "Word 3 of 4 — read this word aloud",
+    "field_type": "guided-audio",
+    "field_label": "ISLAND",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "3",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_word_4",
+    "form_name": "reading",
+    "section_header": "Word 4 of 4 — read this word aloud",
+    "field_type": "guided-audio",
+    "field_label": "REHEARSAL",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "4",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_sent_bridge",
+    "form_name": "reading",
+    "section_header": "Now — sentences",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Now you will see two sentences. Please read each sentence aloud as clearly as you can. Tap 'Start recording' when ready, and 'Stop' when finished."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_sent_1",
+    "form_name": "reading",
+    "section_header": "Sentence 1 of 2 — read this sentence aloud",
+    "field_type": "guided-audio",
+    "field_label": "The dog ran away.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "5",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 30,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "read_sent_2",
+    "form_name": "reading",
+    "section_header": "Sentence 2 of 2 — read this sentence aloud",
+    "field_type": "guided-audio",
+    "field_label": "Mary walked slowly down the long road.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "6",
+    "matrix_group_name": "read",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": false,
+      "auto_record_after_tts": true,
+      "record_seconds": 30,
+      "allow_replay_prompt": false,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  }
+]

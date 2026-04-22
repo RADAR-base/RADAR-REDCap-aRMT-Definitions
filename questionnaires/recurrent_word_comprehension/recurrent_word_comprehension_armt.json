@@ -1,0 +1,188 @@
+[
+  {
+    "field_name": "wc_prep_1",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension Task",
+    "field_type": "info",
+    "field_label": "In this task you will hear a word and need to select the matching item by tapping it.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Listen to the word, then tap the option that matches it. There is one correct answer each time."
+      },
+      {
+        "code": "Format",
+        "label": "There are 4 items to select across this task. Take your time — tap the answer you think is correct."
+      },
+      {
+        "code": "Note",
+        "label": "The word will be read aloud automatically when each question appears."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_1",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "DOG",
+    "select_choices_or_calculations": [
+      {
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
+      },
+      {
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
+      },
+      {
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
+      },
+      {
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "1",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_2",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "PENCIL",
+    "select_choices_or_calculations": [
+      {
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
+      },
+      {
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
+      },
+      {
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
+      },
+      {
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "1",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_3",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "OCTOPUS",
+    "select_choices_or_calculations": [
+      {
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
+      },
+      {
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
+      },
+      {
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
+      },
+      {
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "1",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_4",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "HAMMOCK",
+    "select_choices_or_calculations": [
+      {
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
+      },
+      {
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
+      },
+      {
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
+      },
+      {
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "1",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

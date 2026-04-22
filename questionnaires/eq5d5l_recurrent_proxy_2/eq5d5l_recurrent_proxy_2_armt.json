@@ -2,9 +2,9 @@
     {
         "field_name": "eq5d5l_instr1_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "How the proxy would describe the other person's health",
         "field_type": "descriptive",
-        "field_label": "How the proxy thinks the other person (e.g. the patient or care recipient) would describe their own health Under each heading, please choose the ONE answer that you think the person would choose to describe their own health TODAY",
+        "field_label": "Please choose the ONE answer that you think best describes the person's health TODAY. You should not answer on behalf of the person, but rather rate the person's health as you see it.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -23,7 +23,7 @@
     {
         "field_name": "eq5d_mb_5l_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "radio",
         "field_label": "MOBILITY",
         "select_choices_or_calculations": [
@@ -65,7 +65,7 @@
     {
         "field_name": "eq5d_sc_5l_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "radio",
         "field_label": "SELF-CARE",
         "select_choices_or_calculations": [
@@ -107,7 +107,7 @@
     {
         "field_name": "eq5d_ua_5l_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "radio",
         "field_label": "USUAL ACTIVITIES (e.g. work, study, housework, family or leisure activities)",
         "select_choices_or_calculations": [
@@ -149,7 +149,7 @@
     {
         "field_name": "eq5d_pd_5l_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "radio",
         "field_label": "PAIN / DISCOMFORT",
         "select_choices_or_calculations": [
@@ -191,7 +191,7 @@
     {
         "field_name": "eq5d_ad_5l_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "radio",
         "field_label": "ANXIETY / DEPRESSION",
         "select_choices_or_calculations": [
@@ -233,9 +233,9 @@
     {
         "field_name": "eq5d5l_vas2_uk_eng_p2",
         "form_name": "eq5d5l_proxy_2",
-        "section_header": "Please answer how you think the patient would answer about themselves.",
+        "section_header": "<h5>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</h5>",
         "field_type": "slider",
-        "field_label": "We would like to know how good or bad you think the person would say their own health is TODAY. You will see a line numbered from 0 to 100. 100 means the best imaginable health. 0 means the worst imaginable health. Please indicate on the line how you think the person would say their own health is TODAY.",
+        "field_label": "We would like to know how good or bad you think the person's health is TODAY. You will see a line numbered from 0 to 100. 100 means the <u>best</u> health you can imagine. 0 means the <u>worst</u> health you can imagine.  Please indicate on the line how you think the person's health is TODAY.",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -263,7 +263,7 @@
         "form_name": "eq5d5l_proxy_2",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "<div><span style=\"font-weight: normal\"><i>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.5. This is a modified EQ-5D.</i></span></div>",
+        "field_label": "<div><span style=\"font-weight: normal\"><i>© EuroQol Research Foundation. EQ-5D™ is a trade mark of the EuroQol Research Foundation. UK (English) v1.1.</i></span></div>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
