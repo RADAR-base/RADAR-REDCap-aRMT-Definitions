@@ -38,23 +38,23 @@
     "form_name": "word_comprehension",
     "section_header": "Word Comprehension — tap the correct word",
     "field_type": "radio",
-    "field_label": "LION",
+    "field_label": "DOG",
     "select_choices_or_calculations": [
       {
-        "code": "target",
-        "label": "img:assets/imgs/speech_stimuli/wc_lion.png|Lion"
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
       },
       {
-        "code": "semantic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_tiger.png|Tiger"
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
       },
       {
-        "code": "phonemic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_line.png|Line"
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
       },
       {
-        "code": "unrelated",
-        "label": "img:assets/imgs/speech_stimuli/wc_pencil.png|Pencil"
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
       }
     ],
     "field_note": "",
@@ -76,23 +76,23 @@
     "form_name": "word_comprehension",
     "section_header": "Word Comprehension — tap the correct word",
     "field_type": "radio",
-    "field_label": "VIOLIN",
+    "field_label": "PENCIL",
     "select_choices_or_calculations": [
       {
-        "code": "target",
-        "label": "img:assets/imgs/speech_stimuli/wc_violin.png|Violin"
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
       },
       {
-        "code": "semantic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_guitar.png|Guitar"
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
       },
       {
-        "code": "phonemic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_villa.png|Villa"
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
       },
       {
-        "code": "unrelated",
-        "label": "img:assets/imgs/speech_stimuli/wc_apple.png|Apple"
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
       }
     ],
     "field_note": "",
@@ -103,7 +103,7 @@
     "branching_logic": "",
     "required_field": "y",
     "custom_alignment": "VERTICAL",
-    "question_number": "2",
+    "question_number": "1",
     "matrix_group_name": "wc",
     "matrix_ranking": "",
     "field_annotation": "",
@@ -114,23 +114,23 @@
     "form_name": "word_comprehension",
     "section_header": "Word Comprehension — tap the correct word",
     "field_type": "radio",
-    "field_label": "SHOULDER",
+    "field_label": "OCTOPUS",
     "select_choices_or_calculations": [
       {
-        "code": "target",
-        "label": "img:assets/imgs/speech_stimuli/wc_shoulder.png|Shoulder"
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
       },
       {
-        "code": "semantic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_elbow.png|Elbow"
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
       },
       {
-        "code": "phonemic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_soldier.png|Soldier"
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
       },
       {
-        "code": "unrelated",
-        "label": "img:assets/imgs/speech_stimuli/wc_clock.png|Clock"
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
       }
     ],
     "field_note": "",
@@ -141,7 +141,7 @@
     "branching_logic": "",
     "required_field": "y",
     "custom_alignment": "VERTICAL",
-    "question_number": "3",
+    "question_number": "1",
     "matrix_group_name": "wc",
     "matrix_ranking": "",
     "field_annotation": "",
@@ -152,23 +152,23 @@
     "form_name": "word_comprehension",
     "section_header": "Word Comprehension — tap the correct word",
     "field_type": "radio",
-    "field_label": "GOAT",
+    "field_label": "HAMMOCK",
     "select_choices_or_calculations": [
       {
-        "code": "target",
-        "label": "img:assets/imgs/speech_stimuli/wc_goat.png|Goat"
+        "code": "hammock",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/hammock.png"
       },
       {
-        "code": "semantic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_sheep.png|Sheep"
+        "code": "dog",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/dog.png"
       },
       {
-        "code": "phonemic_foil",
-        "label": "img:assets/imgs/speech_stimuli/wc_coat.png|Coat"
+        "code": "pencil",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/pencil.png"
       },
       {
-        "code": "unrelated",
-        "label": "img:assets/imgs/speech_stimuli/wc_lamp.png|Lamp"
+        "code": "octopus",
+        "label": "img:https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/f04834f6c1f7d21cbac90653650129b337450eb6/questionnaires/recurrent_picture_naming/octopus.png"
       }
     ],
     "field_note": "",
@@ -179,7 +179,7 @@
     "branching_logic": "",
     "required_field": "y",
     "custom_alignment": "VERTICAL",
-    "question_number": "4",
+    "question_number": "1",
     "matrix_group_name": "wc",
     "matrix_ranking": "",
     "field_annotation": "",
