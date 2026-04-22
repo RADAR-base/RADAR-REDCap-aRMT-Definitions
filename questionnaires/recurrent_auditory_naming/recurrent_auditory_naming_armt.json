@@ -1,0 +1,228 @@
+[
+  {
+    "field_name": "an_prep_1",
+    "form_name": "auditory_naming",
+    "section_header": "Auditory Naming Task",
+    "field_type": "info",
+    "field_label": "In this task you will hear a short description. Please say the word you think is being described as quickly as you can.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Listen carefully to each description. As soon as you know the answer, say it out loud. Try to respond as quickly as you can."
+      },
+      {
+        "code": "Example",
+        "label": "For example: if you hear \"A kind of doctor who takes care of teeth\", the answer would be \"dentist\"."
+      },
+      {
+        "code": "Timing",
+        "label": "You will have up to 20 seconds to respond to each description. The recording will stop automatically."
+      },
+      {
+        "code": "Note",
+        "label": "The description will be read aloud to you automatically. Recording begins shortly after. You may replay the description once if needed."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_prep_2",
+    "form_name": "auditory_naming",
+    "section_header": "Ready to begin",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Important",
+        "label": "From the next screen onwards you will not be able to go back. Make sure you are in a quiet place and are ready to respond. Press Next to begin."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_1",
+    "form_name": "auditory_naming",
+    "section_header": "Item 1 of 6",
+    "field_type": "guided-audio",
+    "field_label": "What falls from trees in autumn?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "1",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_2",
+    "form_name": "auditory_naming",
+    "section_header": "Item 2 of 6",
+    "field_type": "guided-audio",
+    "field_label": "Where do you go to borrow books?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "2",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_3",
+    "form_name": "auditory_naming",
+    "section_header": "Item 3 of 6",
+    "field_type": "guided-audio",
+    "field_label": "The object used for weighing things.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "3",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_4",
+    "form_name": "auditory_naming",
+    "section_header": "Item 4 of 6",
+    "field_type": "guided-audio",
+    "field_label": "What do you use to cut paper?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "4",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_5",
+    "form_name": "auditory_naming",
+    "section_header": "Item 5 of 6",
+    "field_type": "guided-audio",
+    "field_label": "Where do people swim indoors?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "5",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "an_trial_6",
+    "form_name": "auditory_naming",
+    "section_header": "Item 6 of 6",
+    "field_type": "guided-audio",
+    "field_label": "A musical instrument you blow into to make a sound.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "6",
+    "matrix_group_name": "an",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "field_name": "wc_prep_1",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension Task",
+    "field_type": "info",
+    "field_label": "In this task you will hear a word and need to select the matching item by tapping it.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Listen to the word, then tap the option that matches it. There is one correct answer each time."
+      },
+      {
+        "code": "Format",
+        "label": "There are 4 items to select across this task. Take your time — tap the answer you think is correct."
+      },
+      {
+        "code": "Note",
+        "label": "The word will be read aloud automatically when each question appears."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_1",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "LION",
+    "select_choices_or_calculations": [
+      {
+        "code": "target",
+        "label": "img:assets/imgs/speech_stimuli/wc_lion.png|Lion"
+      },
+      {
+        "code": "semantic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_tiger.png|Tiger"
+      },
+      {
+        "code": "phonemic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_line.png|Line"
+      },
+      {
+        "code": "unrelated",
+        "label": "img:assets/imgs/speech_stimuli/wc_pencil.png|Pencil"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "1",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_2",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "VIOLIN",
+    "select_choices_or_calculations": [
+      {
+        "code": "target",
+        "label": "img:assets/imgs/speech_stimuli/wc_violin.png|Violin"
+      },
+      {
+        "code": "semantic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_guitar.png|Guitar"
+      },
+      {
+        "code": "phonemic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_villa.png|Villa"
+      },
+      {
+        "code": "unrelated",
+        "label": "img:assets/imgs/speech_stimuli/wc_apple.png|Apple"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "2",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_3",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "SHOULDER",
+    "select_choices_or_calculations": [
+      {
+        "code": "target",
+        "label": "img:assets/imgs/speech_stimuli/wc_shoulder.png|Shoulder"
+      },
+      {
+        "code": "semantic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_elbow.png|Elbow"
+      },
+      {
+        "code": "phonemic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_soldier.png|Soldier"
+      },
+      {
+        "code": "unrelated",
+        "label": "img:assets/imgs/speech_stimuli/wc_clock.png|Clock"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "3",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "wc_item_4",
+    "form_name": "word_comprehension",
+    "section_header": "Word Comprehension — tap the correct word",
+    "field_type": "radio",
+    "field_label": "GOAT",
+    "select_choices_or_calculations": [
+      {
+        "code": "target",
+        "label": "img:assets/imgs/speech_stimuli/wc_goat.png|Goat"
+      },
+      {
+        "code": "semantic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_sheep.png|Sheep"
+      },
+      {
+        "code": "phonemic_foil",
+        "label": "img:assets/imgs/speech_stimuli/wc_coat.png|Coat"
+      },
+      {
+        "code": "unrelated",
+        "label": "img:assets/imgs/speech_stimuli/wc_lamp.png|Lamp"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "y",
+    "custom_alignment": "VERTICAL",
+    "question_number": "4",
+    "matrix_group_name": "wc",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

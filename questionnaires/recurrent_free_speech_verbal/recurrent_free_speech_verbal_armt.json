@@ -1,0 +1,97 @@
+[
+  {
+    "field_name": "fsv_prep_1",
+    "form_name": "free_speech_verbal",
+    "section_header": "Free Speech Task",
+    "field_type": "info",
+    "field_label": "In this task we would like you to speak freely for a few minutes.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "You will be asked a question. Please answer it in your own words, speaking naturally. There are no right or wrong answers — we simply want to hear you talk."
+      },
+      {
+        "code": "Tips",
+        "label": "Find a quiet space if possible. Speak at your normal pace. You can take your time before you start."
+      },
+      {
+        "code": "Note",
+        "label": "If you are unable to speak right now, you will have the option to indicate this on the next screen."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsv",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "fsv_prep_2",
+    "form_name": "free_speech_verbal",
+    "section_header": "Microphone check",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Step 1",
+        "label": "Hold your phone in front of you at a comfortable distance, as if making a video call."
+      },
+      {
+        "code": "Step 2",
+        "label": "Make sure the microphone is not covered by your hand or case."
+      },
+      {
+        "code": "Ready",
+        "label": "The question will be read aloud to you automatically. Recording will start shortly after. Press Next when you are ready."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsv",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "fsv_response",
+    "form_name": "free_speech_verbal",
+    "section_header": "Free Speech — Verbal Cue",
+    "field_type": "guided-audio",
+    "field_label": "Could you tell me about the best trip you ever had?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsv",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 0,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  }
+]

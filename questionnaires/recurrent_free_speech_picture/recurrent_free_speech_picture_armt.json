@@ -1,0 +1,98 @@
+[
+  {
+    "field_name": "fsp_prep_1",
+    "form_name": "free_speech_picture",
+    "section_header": "Free Speech Task — Picture Description",
+    "field_type": "info",
+    "field_label": "In this task you will be shown a picture and asked to describe what you see.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Look carefully at the picture and tell us everything you can see happening in it. Describe the people, objects, and any actions you notice."
+      },
+      {
+        "code": "Tips",
+        "label": "Speak naturally and take as long as you like. There are no right or wrong answers — the more detail the better."
+      },
+      {
+        "code": "Note",
+        "label": "If you are unable to speak right now, you will have the option to indicate this on the next screen."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsp",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "fsp_prep_2",
+    "form_name": "free_speech_picture",
+    "section_header": "Microphone check",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Step 1",
+        "label": "Hold your phone in front of you at a comfortable distance, as if making a video call."
+      },
+      {
+        "code": "Step 2",
+        "label": "Make sure the microphone is not covered by your hand or case."
+      },
+      {
+        "code": "Ready",
+        "label": "The instruction will be read aloud to you automatically. Look at the picture, then recording will start. Press Next when you are ready."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsp",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "fsp_response",
+    "form_name": "free_speech_picture",
+    "section_header": "Free Speech — Picture Description",
+    "field_type": "guided-audio",
+    "field_label": "Could you tell me everything you see going on in this picture?",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "fsp",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 0,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true,
+      "image": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/PMDD-KCL/resources/Image%201_Phone.jpeg"
+    },
+    "evaluated_logic": ""
+  }
+]

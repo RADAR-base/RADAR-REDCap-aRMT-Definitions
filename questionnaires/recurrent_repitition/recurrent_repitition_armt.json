@@ -1,0 +1,260 @@
+[
+  {
+    "field_name": "rep_prep_1",
+    "form_name": "repetition",
+    "section_header": "Repetition Task",
+    "field_type": "info",
+    "field_label": "In this task you will hear a word or sentence. Please repeat it back exactly as you heard it.",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Listen carefully to each word or sentence. As soon as it has finished, say it back exactly as you heard it — do not change any words."
+      },
+      {
+        "code": "Replay",
+        "label": "If you need to hear the word or sentence again, you may tap the replay button once per item."
+      },
+      {
+        "code": "Format",
+        "label": "There are 4 words followed by 2 sentences. Recording begins automatically after each item is read to you."
+      },
+      {
+        "code": "Note",
+        "label": "If you are unable to speak right now, you will have the option to indicate this on each screen."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_prep_2",
+    "form_name": "repetition",
+    "section_header": "Ready to begin",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Important",
+        "label": "From the next screen onwards you will not be able to go back. Make sure you are in a quiet place. Press Next to begin the words."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_word_1",
+    "form_name": "repetition",
+    "section_header": "Word 1 of 4 — repeat the word you hear",
+    "field_type": "guided-audio",
+    "field_label": "Time",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "1",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_word_2",
+    "form_name": "repetition",
+    "section_header": "Word 2 of 4 — repeat the word you hear",
+    "field_type": "guided-audio",
+    "field_label": "Brown",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "2",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_word_3",
+    "form_name": "repetition",
+    "section_header": "Word 3 of 4 — repeat the word you hear",
+    "field_type": "guided-audio",
+    "field_label": "Friendship",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "3",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_word_4",
+    "form_name": "repetition",
+    "section_header": "Word 4 of 4 — repeat the word you hear",
+    "field_type": "guided-audio",
+    "field_label": "Basketball",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "4",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 10,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_sent_bridge",
+    "form_name": "repetition",
+    "section_header": "Now — sentences",
+    "field_type": "info",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "Instructions",
+        "label": "Now you will hear two sentences. Please repeat each sentence back exactly as you heard it. You may replay each sentence once if needed."
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_sent_1",
+    "form_name": "repetition",
+    "section_header": "Sentence 1 of 2 — repeat the sentence you hear",
+    "field_type": "guided-audio",
+    "field_label": "The candle fell over.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "5",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "rep_sent_2",
+    "form_name": "repetition",
+    "section_header": "Sentence 2 of 2 — repeat the sentence you hear",
+    "field_type": "guided-audio",
+    "field_label": "Tom closed the back door to the garden.",
+    "select_choices_or_calculations": [],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "6",
+    "matrix_group_name": "rep",
+    "matrix_ranking": "",
+    "field_annotation": {
+      "auto_tts": true,
+      "auto_record_after_tts": true,
+      "record_seconds": 20,
+      "hide_field_label": true,
+      "allow_replay_prompt": true,
+      "unable_to_speak_option": true
+    },
+    "evaluated_logic": ""
+  }
+]
