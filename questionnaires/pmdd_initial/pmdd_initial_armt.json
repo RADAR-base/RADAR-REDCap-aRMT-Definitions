@@ -45,7 +45,7 @@
         "field_name": "Q1_Gender",
         "form_name": "Cycle Study Initial Questionnaire",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "What is your gender identity? ",
         "select_choices_or_calculations": [
             {
@@ -117,7 +117,7 @@
         "field_name": "Q3_Ethnicity",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Ethnicity: (These are the government recommended categories for measuring ethnicity. However, we appreciate that they may  not accurately represent everyone. Please feel free to use a text-box to self-define.)",
         "select_choices_or_calculations": [
             {
@@ -236,7 +236,7 @@
         "field_name": "Q4_Education",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Highest level of education: ",
         "select_choices_or_calculations": [
             {
@@ -623,7 +623,7 @@
         "field_name": "Q10_Contraception",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Are you currently using hormonal contraception?",
         "select_choices_or_calculations": [
             {
@@ -653,7 +653,7 @@
         "field_name": "Q10_Contraception",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Are you currently on antidepressant medication?",
         "select_choices_or_calculations": [
             {
@@ -704,7 +704,7 @@
         "field_name": "Q1_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Depressed mood or hopelessness",
         "select_choices_or_calculations": [
             {
@@ -742,7 +742,7 @@
         "field_name": "Q2_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Anxiety or tension",
         "select_choices_or_calculations": [
             {
@@ -780,7 +780,7 @@
         "field_name": "Q3_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Tearfulness or increased sensitivity to rejection",
         "select_choices_or_calculations": [
             {
@@ -818,7 +818,7 @@
         "field_name": "Q4_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Anger or irritability",
         "select_choices_or_calculations": [
             {
@@ -856,7 +856,7 @@
         "field_name": "Q5_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Decreased interest in work activities",
         "select_choices_or_calculations": [
             {
@@ -894,7 +894,7 @@
         "field_name": "Q6_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Decreased interest in home activities",
         "select_choices_or_calculations": [
             {
@@ -932,7 +932,7 @@
         "field_name": "Q7_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Decreased interest in social activities",
         "select_choices_or_calculations": [
             {
@@ -970,7 +970,7 @@
         "field_name": "Q8_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Difficulty concentrating",
         "select_choices_or_calculations": [
             {
@@ -1008,7 +1008,7 @@
         "field_name": "Q9_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Fatigue or lack of energy",
         "select_choices_or_calculations": [
             {
@@ -1046,7 +1046,7 @@
         "field_name": "Q10_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Overeating or food cravings",
         "select_choices_or_calculations": [
             {
@@ -1084,7 +1084,7 @@
         "field_name": "Q11_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Insomnia",
         "select_choices_or_calculations": [
             {
@@ -1122,7 +1122,7 @@
         "field_name": "Q12_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Hypersomnia",
         "select_choices_or_calculations": [
             {
@@ -1160,7 +1160,7 @@
         "field_name": "Q13_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling overwhelmed or out of control",
         "select_choices_or_calculations": [
             {
@@ -1198,7 +1198,7 @@
         "field_name": "Q14_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Physical symptoms (e.g. breast tenderness, bloating)",
         "select_choices_or_calculations": [
             {
@@ -1236,7 +1236,7 @@
         "field_name": "Q15_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Have your symptoms interfered with your work efficiency or productivity? ",
         "select_choices_or_calculations": [
             {
@@ -1274,7 +1274,7 @@
         "field_name": "Q16_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Have your symptoms interfered with your relationships with coworkers? ",
         "select_choices_or_calculations": [
             {
@@ -1312,7 +1312,7 @@
         "field_name": "Q17_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Have your symptoms interfered with your relationships with your family?",
         "select_choices_or_calculations": [
             {
@@ -1350,7 +1350,7 @@
         "field_name": "Q18_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Have your symptoms interfered with your social life activities?",
         "select_choices_or_calculations": [
             {
@@ -1388,7 +1388,7 @@
         "field_name": "Q19_PSST",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Have your symptoms interfered with your home responsibilities?",
         "select_choices_or_calculations": [
             {
@@ -1464,7 +1464,7 @@
         "field_name": "GAD7_PHQ9_Q1",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Little interest or pleasure in doing things?",
         "select_choices_or_calculations": [
             {
@@ -1502,7 +1502,7 @@
         "field_name": "GAD7_PHQ9_Q2",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling down, depressed, or hopeless?",
         "select_choices_or_calculations": [
             {
@@ -1540,7 +1540,7 @@
         "field_name": "GAD7_PHQ9_Q3",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Trouble falling or staying asleep, or sleeping too much?",
         "select_choices_or_calculations": [
             {
@@ -1578,7 +1578,7 @@
         "field_name": "GAD7_PHQ9_Q4",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling tired or having little energy?",
         "select_choices_or_calculations": [
             {
@@ -1616,7 +1616,7 @@
         "field_name": "GAD7_PHQ9_Q5",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Poor appetite or overeating?",
         "select_choices_or_calculations": [
             {
@@ -1654,7 +1654,7 @@
         "field_name": "GAD7_PHQ9_Q6",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
         "select_choices_or_calculations": [
             {
@@ -1692,7 +1692,7 @@
         "field_name": "GAD7_PHQ9_Q7",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television?",
         "select_choices_or_calculations": [
             {
@@ -1730,7 +1730,7 @@
         "field_name": "GAD7_PHQ9_Q8",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
         "select_choices_or_calculations": [
             {
@@ -1768,7 +1768,7 @@
         "field_name": "GAD7_PHQ7_Q9",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way? For support, you can reach out to the Samaritans by calling Samaritans: calling 116 123 or emailing jo@samaritans.org for a reply within 24 hours. Click here for more information: https://www.samaritans.org/how-we-can-help/contact-samaritan/",
         "select_choices_or_calculations": [
             {
@@ -1806,7 +1806,7 @@
         "field_name": "GAD7_PHQ7_Q10",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling nervous, anxious, or on edge",
         "select_choices_or_calculations": [
             {
@@ -1844,7 +1844,7 @@
         "field_name": "GAD7_PHQ7_Q11",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Not being able to stop or control worrying",
         "select_choices_or_calculations": [
             {
@@ -1882,7 +1882,7 @@
         "field_name": "GAD7_PHQ7_Q12",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Worrying too much about different things",
         "select_choices_or_calculations": [
             {
@@ -1920,7 +1920,7 @@
         "field_name": "GAD7_PHQ7_Q13",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Trouble relaxing",
         "select_choices_or_calculations": [
             {
@@ -1958,7 +1958,7 @@
         "field_name": "GAD7_PHQ7_Q14",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Being so restless that it's hard to sit still",
         "select_choices_or_calculations": [
             {
@@ -1996,7 +1996,7 @@
         "field_name": "GAD7_PHQ7_Q15",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Becoming easily annoyed or irritable",
         "select_choices_or_calculations": [
             {
@@ -2034,7 +2034,7 @@
         "field_name": "GAD7_PHQ7_Q16",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling afraid as if something awful might happen",
         "select_choices_or_calculations": [
             {
@@ -2072,7 +2072,7 @@
         "field_name": "GAD7_PHQ7_Q17",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "If you checked any items, how difficult have they made it for you to do your work, take care of things at home, or get along with other people? ",
         "select_choices_or_calculations": [
             {
