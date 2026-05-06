@@ -21,11 +21,49 @@
         "evaluated_logic": ""
     },
     {
+        "field_name": "Q1_Medication",
+        "form_name": "Biweekly Questionnaire",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Have you started any new medication in the past 2 weeks?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Yes - Hormonal Contraception"
+            },
+            {
+                "code": "2",
+                "label": "Yes - For my mental health"
+            },
+            {
+                "code": "3",
+                "label": "Yes - For my physical health"
+            },
+            {
+                "code": "4",
+                "label": "No"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
         "field_name": "GAD7_PHQ9_Q1",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Little interest or pleasure in doing things?",
+        "field_type": "radio",
+        "field_label": "Little interest or pleasure in doing things",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -53,7 +91,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_1",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -62,8 +100,8 @@
         "field_name": "GAD7_PHQ9_Q2",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Feeling down, depressed, or hopeless?",
+        "field_type": "radio",
+        "field_label": "Feeling down, depressed, or hopeless",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -91,7 +129,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_2",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -100,8 +138,8 @@
         "field_name": "GAD7_PHQ9_Q3",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Trouble falling or staying asleep, or sleeping too much?",
+        "field_type": "radio",
+        "field_label": "Trouble falling or staying asleep, or sleeping too much",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -129,7 +167,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_3",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -138,8 +176,8 @@
         "field_name": "GAD7_PHQ9_Q4",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Feeling tired or having little energy?",
+        "field_type": "radio",
+        "field_label": "Feeling tired or having little energy",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -167,7 +205,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_4",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -176,8 +214,8 @@
         "field_name": "GAD7_PHQ9_Q5",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Poor appetite or overeating?",
+        "field_type": "radio",
+        "field_label": "Poor appetite or overeating",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -205,7 +243,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_5",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -214,8 +252,8 @@
         "field_name": "GAD7_PHQ9_Q6",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+        "field_type": "radio",
+        "field_label": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -243,7 +281,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_6",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -252,8 +290,8 @@
         "field_name": "GAD7_PHQ9_Q7",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television?",
+        "field_type": "radio",
+        "field_label": "Trouble concentrating on things, such as reading the newspaper or watching television",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -281,7 +319,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_7",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -290,8 +328,8 @@
         "field_name": "GAD7_PHQ9_Q8",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual?",
+        "field_type": "radio",
+        "field_label": "Moving or speaking so slowly that other people could have noticed? Or so fidgety or restless that you have been moving a lot more than usual",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -319,7 +357,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_8",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -328,8 +366,8 @@
         "field_name": "GAD7_PHQ9_Q9",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
-        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way?",
+        "field_type": "radio",
+        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -357,7 +395,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_9",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -366,7 +404,7 @@
         "field_name": "GAD7_PHQ9_Q10",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling nervous, anxious, or on edge",
         "select_choices_or_calculations": [
             {
@@ -395,7 +433,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_10",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -404,7 +442,7 @@
         "field_name": "GAD7_PHQ9_Q11",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Not being able to stop or control worrying",
         "select_choices_or_calculations": [
             {
@@ -433,7 +471,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_11",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -442,7 +480,7 @@
         "field_name": "GAD7_PHQ9_Q12",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Worrying too much about different things",
         "select_choices_or_calculations": [
             {
@@ -471,7 +509,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_12",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -480,7 +518,7 @@
         "field_name": "GAD7_PHQ9_Q13",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Trouble relaxing",
         "select_choices_or_calculations": [
             {
@@ -509,7 +547,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_13",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -518,7 +556,7 @@
         "field_name": "GAD7_PHQ9_Q14",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Being so restless that it's hard to sit still",
         "select_choices_or_calculations": [
             {
@@ -547,7 +585,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_14",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -556,7 +594,7 @@
         "field_name": "GAD7_PHQ9_Q15",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Becoming easily annoyed or irritable",
         "select_choices_or_calculations": [
             {
@@ -585,7 +623,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_15",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -594,7 +632,7 @@
         "field_name": "GAD7_PHQ9_Q16",
         "form_name": "",
         "section_header": "How often have you been bothered by the following over the past 2 weeks?",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Feeling afraid as if something awful might happen",
         "select_choices_or_calculations": [
             {
@@ -623,7 +661,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_16",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -632,7 +670,7 @@
         "field_name": "GAD7_PHQ9_Q17",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "If you checked any items, how difficult have they made it for you to do your work, take care of things at home, or get along with other people? ",
         "select_choices_or_calculations": [
             {
@@ -661,7 +699,7 @@
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "phq9_17",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
@@ -671,7 +709,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>In an emergency, please dial 999 or 112. Click here for a link to create a suicide safety plan <a href='https://www.papyrus-uk.org/resource-suicide-safety-plan/'>https://www.papyrus-uk.org/resource-suicide-safety-plan/</a>",
+        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>In an emergency, please dial 999 or 112.<br><br><a href=\"https://www.papyrus-uk.org/resource-suicide-safety-plan/\" style=\"color:white;font-weight:bold;\">Click here for a link to create a suicide safety plan</a>",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -692,7 +730,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Thank you for taking the time to complete your Weekly Questionnaire.<br><br>Your response has been logged.<br><br>If you have any questions, please contact the study team: <a href='mailto:cyclestudy@kcl.ac.uk'>cyclestudy@kcl.ac.uk</a>.<br><br>If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101. ",
+        "field_label": "Thank you for taking the time to complete your Weekly Questionnaire.<br><br>Your response has been logged.<br><br>If you have any questions, please contact the study team: <a href=\"mailto:cyclestudy@kcl.ac.uk\" style=\"color:white;font-weight:bold;\">cyclestudy@kcl.ac.uk</a>.<br><br>If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",

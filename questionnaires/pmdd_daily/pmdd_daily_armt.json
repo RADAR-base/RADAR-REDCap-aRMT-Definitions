@@ -24,7 +24,7 @@
         "field_name": "Q1.1_Menstrual Bleeding",
         "form_name": "Daily Questionnaire",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Are you experiencing menstrual bleeding today?",
         "select_choices_or_calculations": [
             {
@@ -88,7 +88,7 @@
         "field_name": "Q2.1_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you felt nervous, anxious or on edge?  ",
         "select_choices_or_calculations": [
             {
@@ -130,7 +130,7 @@
         "field_name": "Q2.2_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you felt not able to stop or control worrying? ",
         "select_choices_or_calculations": [
             {
@@ -172,7 +172,7 @@
         "field_name": "Q2.3_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you felt little interest or pleasure in doing things?",
         "select_choices_or_calculations": [
             {
@@ -214,7 +214,7 @@
         "field_name": "Q2.4_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you felt down, depressed or hopeless?",
         "select_choices_or_calculations": [
             {
@@ -256,7 +256,7 @@
         "field_name": "Q2.5_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you experienced increased sensitivity, for example, to rejection?",
         "select_choices_or_calculations": [
             {
@@ -298,7 +298,7 @@
         "field_name": "Q2.6_Symptoms",
         "form_name": "",
         "section_header": "",
-        "field_type": "checkbox",
+        "field_type": "radio",
         "field_label": "Today, have you experienced pain or physical symptoms?",
         "select_choices_or_calculations": [
             {
@@ -341,7 +341,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Thank you for taking the time to complete your Daily Questionnaire. Your response has been logged.<br><br>If you have any questions, please contact the study team: <a href='mailto:cyclestudy@kcl.ac.uk'>cyclestudy@kcl.ac.uk</a>.<br><br>If you need someone to talk to, please contact the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>For more information please visit <a href='https://www.samaritans.org/how-we-can-help/contact-samaritan/'>https://www.samaritans.org/how-we-can-help/contact-samaritan/</a>",
+        "field_label": "Thank you for taking the time to complete your Daily Questionnaire.<br><br>Your response has been logged.<br><br>If you have any questions, please contact the study team: <a href=\"mailto:cyclestudy@kcl.ac.uk\" style=\"color:white;font-weight:bold;\">cyclestudy@kcl.ac.uk</a>.<br><br>If you need someone to talk to, please contact the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>For more information please visit <a href=\"https://www.samaritans.org/how-we-can-help/contact-samaritan/\" style=\"color:white;font-weight:bold;\">https://www.samaritans.org/how-we-can-help/contact-samaritan/</a>",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
