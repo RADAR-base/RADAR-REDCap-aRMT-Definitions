@@ -62,7 +62,7 @@
             },
             {
                 "code": "4",
-                "label": "Prefer to self-define"
+                "label": "Other (please specify)"
             },
             {
                 "code": "5",
@@ -88,19 +88,148 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "Q2_DOB",
+        "field_name": "Q1_Gender_Other",
         "form_name": "Cycle Study Initial Questionnaire",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Date of birth: ",
+        "field_label": "If you selected 'Other' for your gender identity, please specify:",
+        "select_choices_or_calculations": [],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[Q1_Gender] = '4'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "Q2_DOB",
+        "form_name": "Cycle Study Initial Questionnaire",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "What is your age?",
         "select_choices_or_calculations": [
             {
-                "code": "",
-                "label": ""
+                "code": "18",
+                "label": "18"
+            },
+            {
+                "code": "19",
+                "label": "19"
+            },
+            {
+                "code": "20",
+                "label": "20"
+            },
+            {
+                "code": "21",
+                "label": "21"
+            },
+            {
+                "code": "22",
+                "label": "22"
+            },
+            {
+                "code": "23",
+                "label": "23"
+            },
+            {
+                "code": "24",
+                "label": "24"
+            },
+            {
+                "code": "25",
+                "label": "25"
+            },
+            {
+                "code": "26",
+                "label": "26"
+            },
+            {
+                "code": "27",
+                "label": "27"
+            },
+            {
+                "code": "28",
+                "label": "28"
+            },
+            {
+                "code": "29",
+                "label": "29"
+            },
+            {
+                "code": "30",
+                "label": "30"
+            },
+            {
+                "code": "31",
+                "label": "31"
+            },
+            {
+                "code": "32",
+                "label": "32"
+            },
+            {
+                "code": "33",
+                "label": "33"
+            },
+            {
+                "code": "34",
+                "label": "34"
+            },
+            {
+                "code": "35",
+                "label": "35"
+            },
+            {
+                "code": "36",
+                "label": "36"
+            },
+            {
+                "code": "37",
+                "label": "37"
+            },
+            {
+                "code": "38",
+                "label": "38"
+            },
+            {
+                "code": "39",
+                "label": "39"
+            },
+            {
+                "code": "40",
+                "label": "40"
+            },
+            {
+                "code": "41",
+                "label": "41"
+            },
+            {
+                "code": "42",
+                "label": "42"
+            },
+            {
+                "code": "43",
+                "label": "43"
+            },
+            {
+                "code": "44",
+                "label": "44"
+            },
+            {
+                "code": "45",
+                "label": "45"
             }
         ],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "date_dmy",
+        "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -312,8 +441,49 @@
         "form_name": "",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Current profession or study:",
-        "select_choices_or_calculations": [],
+        "field_label": "What is your current employment status?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "In paid full-time employment"
+            },
+            {
+                "code": "2",
+                "label": "In paid part-time employment"
+            },
+            {
+                "code": "3",
+                "label": "Self-employed"
+            },
+            {
+                "code": "4",
+                "label": "Unemployed"
+            },
+            {
+                "code": "5",
+                "label": "Looking after home and/or family"
+            },
+            {
+                "code": "6",
+                "label": "Unable to work because of sickness or disability"
+            },
+            {
+                "code": "7",
+                "label": "Doing unpaid or voluntary work"
+            },
+            {
+                "code": "8",
+                "label": "Full or part-time student"
+            },
+            {
+                "code": "9",
+                "label": "None of the above"
+            },
+            {
+                "code": "10",
+                "label": "Prefer not to answer"
+            }
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -1765,7 +1935,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q9",
+        "field_name": "GAD7_PHQ9_Q9",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1803,7 +1973,45 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q10",
+        "field_name": "Display_PHQ9_Q9",
+        "form_name": "",
+        "section_header": "",
+        "field_type": "descriptive",
+        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>In an emergency, please dial 999 or 112.<br><br><a href=\"https://www.papyrus-uk.org/resource-suicide-safety-plan/\" style=\"color:white;font-weight:bold;\">Click here for a link to create a suicide safety plan</a>.",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Not difficult at all"
+            },
+            {
+                "code": "2",
+                "label": "Somewhat difficult"
+            },
+            {
+                "code": "3",
+                "label": "Very difficult"
+            },
+            {
+                "code": "4",
+                "label": "Extremely difficult "
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[GAD7_PHQ9_Q9] = '2' or [GAD7_PHQ9_Q9] = '3' or [GAD7_PHQ9_Q9] = '4'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "GAD7_PHQ9_Q10",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1841,7 +2049,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q11",
+        "field_name": "GAD7_PHQ9_Q11",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1879,7 +2087,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q12",
+        "field_name": "GAD7_PHQ9_Q12",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1917,7 +2125,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q13",
+        "field_name": "GAD7_PHQ9_Q13",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1955,7 +2163,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q14",
+        "field_name": "GAD7_PHQ9_Q14",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1993,7 +2201,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q15",
+        "field_name": "GAD7_PHQ9_Q15",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -2031,7 +2239,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q16",
+        "field_name": "GAD7_PHQ9_Q16",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -2069,7 +2277,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "GAD7_PHQ7_Q17",
+        "field_name": "GAD7_PHQ9_Q17",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -2098,44 +2306,6 @@
         "text_validation_max": "",
         "identifier": "",
         "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "Display_PHQ9_9",
-        "form_name": "",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "If you need someone to talk to, you can call the Samaritans on 116 123 or Nightline on 0207 631 0101.<br><br>In an emergency, please dial 999 or 112.<br><br><a href=\"https://www.papyrus-uk.org/resource-suicide-safety-plan/\" style=\"color:white;font-weight:bold;\">Click here for a link to create a suicide safety plan</a>.",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not difficult at all"
-            },
-            {
-                "code": "2",
-                "label": "Somewhat difficult"
-            },
-            {
-                "code": "3",
-                "label": "Very difficult"
-            },
-            {
-                "code": "4",
-                "label": "Extremely difficult "
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[GAD7_PHQ7_Q9] = '2' or [GAD7_PHQ7_Q9] = '3' or [GAD7_PHQ7_Q9] = '4'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
