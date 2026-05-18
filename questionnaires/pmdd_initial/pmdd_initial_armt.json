@@ -440,7 +440,7 @@
         "field_name": "Q5_Profession or study",
         "form_name": "",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "radio",
         "field_label": "What is your current employment status?",
         "select_choices_or_calculations": [
             {
@@ -820,7 +820,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "Q10_Contraception",
+        "field_name": "Q10_Antidepressants",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -1939,7 +1939,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way? For support, you can reach out to the Samaritans by calling 116 123 or emailing <a href=\"mailto:jo@samaritans.org\" style=\"color:white;font-weight:bold;\">jo@samaritans.org</a> for a reply within 24 hours. <a href=\"https://www.samaritans.org/how-we-can-help/contact-samaritan/\" style=\"color:white;font-weight:bold;\">Click here for more information</a>.",
+        "field_label": "Thoughts that you would be better off dead, or thoughts of hurting yourself in some way? For support, you can reach out to the Samaritans by calling 116 123 or emailing <a href=\"mailto:jo@samaritans.org\" style=\"color:white;font-weight:bold;\">jo@samaritans.org</a> for a reply within 24 hours. <b><a href=\"https://www.samaritans.org/how-we-can-help/contact-samaritan/\" style=\"color:white;font-weight:bold;\">Click here for more information</a></b>.",
         "select_choices_or_calculations": [
             {
                 "code": "1",
