@@ -25,8 +25,10 @@
           "range",
           "range-info",
           "slider",
+          "slider-vertical",
           "info",
           "audio",
+          "guided-audio",
           "timed",
           "text",
           "yesno",
@@ -42,7 +44,9 @@
       },
       "select_choices_or_calculations": {
         "anyOf": [
-          { "type": "string" },
+          {
+            "type": "string"
+          },
           {
             "type": "array",
             "items": {
@@ -55,7 +59,10 @@
                   "type": "string"
                 }
               },
-              "required": ["code", "label"]
+              "required": [
+                "code",
+                "label"
+              ]
             }
           }
         ]
@@ -112,7 +119,9 @@
       },
       "field_annotation": {
         "anyOf": [
-          { "type": "string" },
+          {
+            "type": "string"
+          },
           {
             "type": "object"
           }
