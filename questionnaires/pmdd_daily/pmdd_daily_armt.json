@@ -56,18 +56,9 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "If yes, which day of your period is today? ",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Yes"
-            },
-            {
-                "code": "2",
-                "label": "No"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "1",
         "text_validation_max": "50",
         "identifier": "",

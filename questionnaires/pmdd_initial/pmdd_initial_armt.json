@@ -419,7 +419,7 @@
         "field_name": "Q4_Education_2",
         "form_name": "Cycle Study Initial Questionnaire",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "notes",
         "field_label": "If you prefer to self-define your education level, please specify:",
         "select_choices_or_calculations": [],
         "field_note": "",
@@ -525,78 +525,9 @@
         "section_header": "",
         "field_type": "text",
         "field_label": "When did you first receive a diagnosis of PMDD? (Please insert the approximate date, month, and / or year)",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "White - English, Welsh, Scottish, Northern Irish or British"
-            },
-            {
-                "code": "2",
-                "label": "White - Irish"
-            },
-            {
-                "code": "3",
-                "label": "White - Gypsy or Irish Traveller "
-            },
-            {
-                "code": "4",
-                "label": "Any other White background"
-            },
-            {
-                "code": "5",
-                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
-            },
-            {
-                "code": "6",
-                "label": "Mixed or Multiple ethnic groups - White and Black African"
-            },
-            {
-                "code": "7",
-                "label": "Mixed or Multiple ethnic groups - White and Asian  "
-            },
-            {
-                "code": "8",
-                "label": "Any other Mixed or Multiple ethnic background"
-            },
-            {
-                "code": "9",
-                "label": "Asian or Asian British - Indian"
-            },
-            {
-                "code": "10",
-                "label": "Asian or Asian British - Bangladeshi "
-            },
-            {
-                "code": "11",
-                "label": "Asian or Asian British - Pakistani"
-            },
-            {
-                "code": "12",
-                "label": "Asian or Asian British - Chinese"
-            },
-            {
-                "code": "13",
-                "label": "Any other Asian background "
-            },
-            {
-                "code": "14",
-                "label": "Black, African, Caribbean or Black British - African"
-            },
-            {
-                "code": "15",
-                "label": "Black, African, Caribbean or Black British - Caribbean"
-            },
-            {
-                "code": "16",
-                "label": "Any other Black background"
-            },
-            {
-                "code": "17",
-                "label": "Any other ethnic group"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
+        "text_validation_type_or_show_slider_number": "date_dmy",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
@@ -613,7 +544,7 @@
         "field_name": "Q8_Comorbidity",
         "form_name": "",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "notes",
         "field_label": "Do you have any other conditions? If so, please briefly describe below and indicate if these are diagnosed or self-identified:",
         "select_choices_or_calculations": [
             {
@@ -703,78 +634,9 @@
         "field_name": "Q9_Treatment",
         "form_name": "",
         "section_header": "",
-        "field_type": "text",
+        "field_type": "notes",
         "field_label": "Are you currently receiving any support or treatment for PMDD? If so, please briefly describe below",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "White - English, Welsh, Scottish, Northern Irish or British"
-            },
-            {
-                "code": "2",
-                "label": "White - Irish"
-            },
-            {
-                "code": "3",
-                "label": "White - Gypsy or Irish Traveller "
-            },
-            {
-                "code": "4",
-                "label": "Any other White background"
-            },
-            {
-                "code": "5",
-                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
-            },
-            {
-                "code": "6",
-                "label": "Mixed or Multiple ethnic groups - White and Black African"
-            },
-            {
-                "code": "7",
-                "label": "Mixed or Multiple ethnic groups - White and Asian  "
-            },
-            {
-                "code": "8",
-                "label": "Any other Mixed or Multiple ethnic background"
-            },
-            {
-                "code": "9",
-                "label": "Asian or Asian British - Indian"
-            },
-            {
-                "code": "10",
-                "label": "Asian or Asian British - Bangladeshi "
-            },
-            {
-                "code": "11",
-                "label": "Asian or Asian British - Pakistani"
-            },
-            {
-                "code": "12",
-                "label": "Asian or Asian British - Chinese"
-            },
-            {
-                "code": "13",
-                "label": "Any other Asian background "
-            },
-            {
-                "code": "14",
-                "label": "Black, African, Caribbean or Black British - African"
-            },
-            {
-                "code": "15",
-                "label": "Black, African, Caribbean or Black British - Caribbean"
-            },
-            {
-                "code": "16",
-                "label": "Any other Black background"
-            },
-            {
-                "code": "17",
-                "label": "Any other ethnic group"
-            }
-        ],
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
