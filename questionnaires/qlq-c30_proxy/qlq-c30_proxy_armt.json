@@ -2,7 +2,7 @@
   {
     "field_name": "eortc_header1_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "descriptive",
     "field_label": "We are interested in some things about you and your health. Please answer all of the questions yourself by selecting the number that best applies to you. There are no 'right' or 'wrong' answers. The information that you provide will remain strictly confidential.",
     "select_choices_or_calculations": "",
@@ -23,7 +23,7 @@
   {
     "field_name": "eortc_qlqc30_q1_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "1. Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or a suitcase?",
     "select_choices_or_calculations": [
@@ -61,7 +61,7 @@
   {
     "field_name": "eortc_qlqc30_q2_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "2. Do you have any trouble taking a long walk?",
     "select_choices_or_calculations": [
@@ -99,7 +99,7 @@
   {
     "field_name": "eortc_qlqc30_q3_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "3. Do you have any trouble taking a short walk outside of the house?",
     "select_choices_or_calculations": [
@@ -137,7 +137,7 @@
   {
     "field_name": "eortc_qlqc30_q4_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "4. Do you need to stay in bed or a chair during the day?",
     "select_choices_or_calculations": [
@@ -175,7 +175,7 @@
   {
     "field_name": "eortc_qlqc30_q5_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "5. Do you need help with eating, dressing, washing yourself or using the toilet?",
     "select_choices_or_calculations": [
@@ -213,7 +213,7 @@
   {
     "field_name": "eortc_header7_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "descriptive",
     "field_label": "During the past week:",
     "select_choices_or_calculations": "",
@@ -234,7 +234,7 @@
   {
     "field_name": "eortc_qlqc30_q6_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "6. Were you limited in doing either your work or other daily activities?",
     "select_choices_or_calculations": [
@@ -272,7 +272,7 @@
   {
     "field_name": "eortc_qlqc30_q7_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "7. Were you limited in pursuing your hobbies or other leisure time activities?",
     "select_choices_or_calculations": [
@@ -310,7 +310,7 @@
   {
     "field_name": "eortc_qlqc30_q8_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "8. Were you short of breath?",
     "select_choices_or_calculations": [
@@ -348,7 +348,7 @@
   {
     "field_name": "eortc_qlqc30_q9_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "9. Have you had pain?",
     "select_choices_or_calculations": [
@@ -386,7 +386,7 @@
   {
     "field_name": "eortc_qlqc30_q10_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "10. Did you need to rest?",
     "select_choices_or_calculations": [
@@ -424,7 +424,7 @@
   {
     "field_name": "eortc_qlqc30_q11_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "11. Have you had trouble sleeping?",
     "select_choices_or_calculations": [
@@ -462,7 +462,7 @@
   {
     "field_name": "eortc_qlqc30_q12_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "12. Have you felt weak?",
     "select_choices_or_calculations": [
@@ -500,7 +500,7 @@
   {
     "field_name": "eortc_qlqc30_q13_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "13. Have you lacked appetite?",
     "select_choices_or_calculations": [
@@ -538,7 +538,7 @@
   {
     "field_name": "eortc_qlqc30_q14_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "14. Have you felt nauseated?",
     "select_choices_or_calculations": [
@@ -576,7 +576,7 @@
   {
     "field_name": "eortc_qlqc30_q15_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "15. Have you vomited?",
     "select_choices_or_calculations": [
@@ -614,7 +614,7 @@
   {
     "field_name": "eortc_qlqc30_q16_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "16. Have you been constipated?",
     "select_choices_or_calculations": [
@@ -652,7 +652,7 @@
   {
     "field_name": "eortc_qlqc30_q17_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "17. Have you had diarrhea?",
     "select_choices_or_calculations": [
@@ -690,7 +690,7 @@
   {
     "field_name": "eortc_qlqc30_q18_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "18. Were you tired?",
     "select_choices_or_calculations": [
@@ -728,7 +728,7 @@
   {
     "field_name": "eortc_qlqc30_q19_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "19. Did pain interfere with your daily activities?",
     "select_choices_or_calculations": [
@@ -766,7 +766,7 @@
   {
     "field_name": "eortc_qlqc30_q20_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "20. Have you had difficulty in concentrating on things, like reading a newspaper or watching television?",
     "select_choices_or_calculations": [
@@ -804,7 +804,7 @@
   {
     "field_name": "eortc_qlqc30_q21_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "21. Did you feel tense?",
     "select_choices_or_calculations": [
@@ -842,7 +842,7 @@
   {
     "field_name": "eortc_qlqc30_q22_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "22. Did you worry?",
     "select_choices_or_calculations": [
@@ -880,7 +880,7 @@
   {
     "field_name": "eortc_qlqc30_q23_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "23. Did you feel irritable?",
     "select_choices_or_calculations": [
@@ -918,7 +918,7 @@
   {
     "field_name": "eortc_qlqc30_q24_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "24. Did you feel depressed?",
     "select_choices_or_calculations": [
@@ -956,7 +956,7 @@
   {
     "field_name": "eortc_qlqc30_q25_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "25. Have you had difficulty remembering things?",
     "select_choices_or_calculations": [
@@ -994,7 +994,7 @@
   {
     "field_name": "eortc_qlqc30_q26_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "26. Has your physical condition or medical treatment interfered with your family life?",
     "select_choices_or_calculations": [
@@ -1032,7 +1032,7 @@
   {
     "field_name": "eortc_qlqc30_q27_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "27. Has your physical condition or medical treatment interfered with your social activities?",
     "select_choices_or_calculations": [
@@ -1070,7 +1070,7 @@
   {
     "field_name": "eortc_qlqc30_q28_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "28. Has your physical condition or medical treatment caused you financial difficulties?",
     "select_choices_or_calculations": [
@@ -1108,7 +1108,7 @@
   {
     "field_name": "eortc_qlqc30_q29_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "29. How would you rate your overall health during the past week?",
     "select_choices_or_calculations": [
@@ -1158,7 +1158,7 @@
   {
     "field_name": "eortc_qlqc30_q30_prx",
     "form_name": "eortcc30",
-    "section_header": "Please answer how you think the patient would answer about themselves.",
+    "section_header": "Please answer with your own opinion on the participants’ health.",
     "field_type": "radio",
     "field_label": "30. How would you rate your overall quality of life during the past week?",
     "select_choices_or_calculations": [
