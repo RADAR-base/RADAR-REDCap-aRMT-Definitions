@@ -148,7 +148,7 @@
         "field_note": "",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "0",
-        "text_validation_max": "[pcfuq_work_hours]",
+        "text_validation_max": "112",
         "identifier": "",
         "branching_logic": "[pcfuq_employment] = '1' or [pcfuq_employment] = '2'",
         "required_field": "",
