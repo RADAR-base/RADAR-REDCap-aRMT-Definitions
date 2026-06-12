@@ -541,77 +541,8 @@
         "form_name": "",
         "section_header": "",
         "field_type": "notes",
-        "field_label": "Do you have any other conditions? If so, please briefly describe below and indicate if these are diagnosed or self-identified:",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "White - English, Welsh, Scottish, Northern Irish or British"
-            },
-            {
-                "code": "2",
-                "label": "White - Irish"
-            },
-            {
-                "code": "3",
-                "label": "White - Gypsy or Irish Traveller "
-            },
-            {
-                "code": "4",
-                "label": "Any other White background"
-            },
-            {
-                "code": "5",
-                "label": "Mixed or Multiple ethnic groups - White and Black Caribbean  "
-            },
-            {
-                "code": "6",
-                "label": "Mixed or Multiple ethnic groups - White and Black African"
-            },
-            {
-                "code": "7",
-                "label": "Mixed or Multiple ethnic groups - White and Asian  "
-            },
-            {
-                "code": "8",
-                "label": "Any other Mixed or Multiple ethnic background"
-            },
-            {
-                "code": "9",
-                "label": "Asian or Asian British - Indian"
-            },
-            {
-                "code": "10",
-                "label": "Asian or Asian British - Bangladeshi "
-            },
-            {
-                "code": "11",
-                "label": "Asian or Asian British - Pakistani"
-            },
-            {
-                "code": "12",
-                "label": "Asian or Asian British - Chinese"
-            },
-            {
-                "code": "13",
-                "label": "Any other Asian background "
-            },
-            {
-                "code": "14",
-                "label": "Black, African, Caribbean or Black British - African"
-            },
-            {
-                "code": "15",
-                "label": "Black, African, Caribbean or Black British - Caribbean"
-            },
-            {
-                "code": "16",
-                "label": "Any other Black background"
-            },
-            {
-                "code": "17",
-                "label": "Any other ethnic group"
-            }
-        ],
+        "field_label": "Do you have any other diagnosed conditions? If so, please briefly describe below and indicate if these are diagnosed or self-identified:",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -712,7 +643,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Do you experience some or any of the following premenstrual symptoms which start before your period and stop within a few days of bleeding?",
+        "field_label": "<b>Do you experience some or any of the following premenstrual symptoms which start before your period and stop within a few days of bleeding?</b><br><br>Click next to begin.",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -1151,7 +1082,7 @@
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Hypersomnia",
+        "field_label": "Hypersomnia - Excessive daytime sleepiness",
         "select_choices_or_calculations": [
             {
                 "code": "1",
@@ -1455,25 +1386,8 @@
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "The following questions ask about thoughts, feelings and behaviours, often tied to concerns about family, health, finances, and work. Please answer each question as best as you can. How often have you been bothered by the following over the past 2 weeks? (Click Next to begin)",
-        "select_choices_or_calculations": [
-            {
-                "code": "1",
-                "label": "Not at all"
-            },
-            {
-                "code": "2",
-                "label": "Mild"
-            },
-            {
-                "code": "3",
-                "label": "Moderate"
-            },
-            {
-                "code": "4",
-                "label": "Severe"
-            }
-        ],
+        "field_label": "<b>The next questions ask you more about your thoughts, feelings and behaviours. Please answer each question as best as you can.</b><br><br>Click 'Next' to begin.",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -2173,7 +2087,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "End of Initial Q",
+        "field_name": "End_of_Initial_Q",
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
