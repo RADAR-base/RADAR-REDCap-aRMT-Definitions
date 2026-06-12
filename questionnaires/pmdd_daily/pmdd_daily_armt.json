@@ -21,7 +21,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "Q1.1_Menstrual Bleeding",
+        "field_name": "Q1_1_Menstrual_Bleeding",
         "form_name": "Daily Questionnaire",
         "section_header": "",
         "field_type": "radio",
@@ -51,7 +51,7 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "Q1.2_Day Number",
+        "field_name": "Q1_2_Day_Number",
         "form_name": "",
         "section_header": "",
         "field_type": "text",
@@ -62,7 +62,7 @@
         "text_validation_min": "1",
         "text_validation_max": "50",
         "identifier": "",
-        "branching_logic": "",
+        "branching_logic": "[Q1_1_Menstrual_Bleeding] = '1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
@@ -76,7 +76,7 @@
         }
     },
     {
-        "field_name": "Q2.1_Symptoms",
+        "field_name": "Q2_1_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -118,7 +118,7 @@
         }
     },
     {
-        "field_name": "Q2.2_Symptoms",
+        "field_name": "Q2_2_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -160,7 +160,7 @@
         }
     },
     {
-        "field_name": "Q2.3_Symptoms",
+        "field_name": "Q2_3_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -202,7 +202,7 @@
         }
     },
     {
-        "field_name": "Q2.4_Symptoms",
+        "field_name": "Q2_4_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -244,7 +244,7 @@
         }
     },
     {
-        "field_name": "Q2.5_Symptoms",
+        "field_name": "Q2_5_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -286,7 +286,7 @@
         }
     },
     {
-        "field_name": "Q2.6_Symptoms",
+        "field_name": "Q2_6_Symptoms",
         "form_name": "",
         "section_header": "",
         "field_type": "radio",
@@ -328,7 +328,7 @@
         }
     },
     {
-        "field_name": "Q2.6_Symptoms",
+        "field_name": "Q2_6_Symptoms_end",
         "form_name": "",
         "section_header": "",
         "field_type": "descriptive",
