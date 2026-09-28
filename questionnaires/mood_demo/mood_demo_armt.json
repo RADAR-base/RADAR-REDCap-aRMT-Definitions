@@ -1,0 +1,128 @@
+[
+    {
+        "field_name": "mood_demo_overall",
+        "form_name": "mood_demo",
+        "section_header": "",
+        "field_type": "likert-emoji",
+        "field_label": "How is your mood right now?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Very bad"
+            },
+            {
+                "code": "2",
+                "label": "Bad"
+            },
+            {
+                "code": "3",
+                "label": "Okay"
+            },
+            {
+                "code": "4",
+                "label": "Good"
+            },
+            {
+                "code": "5",
+                "label": "Very good"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "mood_demo",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "mood_demo_energy",
+        "form_name": "mood_demo",
+        "section_header": "",
+        "field_type": "likert-emoji",
+        "field_label": "How energetic do you feel right now?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Very low"
+            },
+            {
+                "code": "2",
+                "label": "Low"
+            },
+            {
+                "code": "3",
+                "label": "Moderate"
+            },
+            {
+                "code": "4",
+                "label": "High"
+            },
+            {
+                "code": "5",
+                "label": "Very high"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "mood_demo",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "mood_demo_stress",
+        "form_name": "mood_demo",
+        "section_header": "",
+        "field_type": "likert-emoji",
+        "field_label": "How stressed do you feel right now?",
+        "select_choices_or_calculations": [
+            {
+                "code": "1",
+                "label": "Very stressed"
+            },
+            {
+                "code": "2",
+                "label": "Stressed"
+            },
+            {
+                "code": "3",
+                "label": "Neutral"
+            },
+            {
+                "code": "4",
+                "label": "Relaxed"
+            },
+            {
+                "code": "5",
+                "label": "Very relaxed"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "mood_demo",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    }
+]
